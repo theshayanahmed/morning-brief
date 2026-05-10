@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>The Morning Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0e0e0e;--ink2:#3a3a3a;--ink3:#888;
+  --paper:#f8f6f1;--paper2:#f0ede6;--paper3:#e8e4db;
+  --accent:#1a3a2a;--accent2:#2d5a3d;--gold:#b8963e;
+  --red:#c0392b;--green:#2d6a3f;
+  --font-display:'DM Serif Display',serif;
+  --font-body:'DM Sans',sans-serif;
+  --font-mono:'DM Mono',monospace;
+}
+html,body{height:100%;background:var(--paper);color:var(--ink);font-family:var(--font-body)}
+.screen{display:none;min-height:100vh;animation:fadeIn 0.35s ease}
+.screen.active{display:block}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+
+/* MASTHEAD */
+.masthead{background:var(--accent);padding:1.25rem 1.5rem 1rem;position:sticky;top:0;z-index:10}
+.masthead-inner{display:flex;align-items:flex-start;justify-content:space-between;max-width:600px;margin:0 auto}
+.publication{font-family:var(--font-display);font-size:21px;color:#fff;letter-spacing:-0.4px}
+.edition-sub{font-size:10px;color:rgba(255,255,255,0.45);font-family:var(--font-mono);letter-spacing:0.07em;text-transform:uppercase;margin-top:3px}
+.masthead-right{text-align:right}
+.date-stamp{font-size:10px;color:rgba(255,255,255,0.4);font-family:var(--font-mono)}
+.streak-badge{display:inline-flex;align-items:center;gap:4px;background:rgba(184,150,62,0.18);border:1px solid rgba(184,150,62,0.35);border-radius:20px;padding:2px 9px;font-size:10px;color:#d4ab5a;font-family:var(--font-mono);margin-top:5px}
+
+/* CONTENT WRAP */
+.content{max-width:600px;margin:0 auto;padding:1.5rem}
+
+/* SETUP SCREEN */
+.setup-card{background:#fff;border:1px solid var(--paper3);border-radius:14px;padding:1.75rem;margin-top:1rem}
+.setup-card h2{font-family:var(--font-display);font-size:20px;color:var(--ink);margin-bottom:6px}
+.setup-card p{font-size:14px;color:var(--ink3);line-height:1.6;margin-bottom:1.25rem}
+.setup-card label{display:block;font-size:11px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.07em;color:var(--ink3);margin-bottom:6px}
+.setup-card input{width:100%;font-family:var(--font-mono);font-size:14px;color:var(--ink);background:var(--paper2);border:1px solid var(--paper3);border-radius:8px;padding:10px 13px;outline:none;margin-bottom:1rem}
+.setup-card input:focus{border-color:var(--accent)}
+.setup-hint{font-size:12px;color:var(--ink3);line-height:1.5;margin-bottom:1.25rem}
+.setup-hint a{color:var(--accent)}
+.primary-btn{width:100%;background:var(--accent);color:#fff;border:none;border-radius:10px;padding:13px;font-size:14px;font-family:var(--font-body);font-weight:500;cursor:pointer;transition:background 0.2s}
+.primary-btn:hover{background:var(--accent2)}
+.primary-btn:disabled{background:var(--paper3);color:var(--ink3);cursor:not-allowed}
+.secondary-btn{width:100%;background:var(--paper2);color:var(--ink);border:1px solid var(--paper3);border-radius:10px;padding:12px;font-size:14px;font-family:var(--font-body);font-weight:500;cursor:pointer;margin-bottom:10px;transition:background 0.15s}
+.secondary-btn:hover{background:var(--paper3)}
+
+/* LOADING */
+.loading-wrap{padding:3rem 0;text-align:center}
+.loading-icon{width:44px;height:44px;border:2px solid var(--paper3);border-top-color:var(--accent);border-radius:50%;margin:0 auto 1.5rem;animation:spin 0.8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-title{font-family:var(--font-display);font-size:21px;color:var(--ink);margin-bottom:6px}
+.loading-sub{font-size:13px;color:var(--ink3);font-family:var(--font-mono)}
+.loading-steps{list-style:none;margin-top:1.5rem;text-align:left;max-width:260px;margin-left:auto;margin-right:auto}
+.loading-steps li{font-size:13px;color:var(--ink3);padding:5px 0;font-family:var(--font-mono);display:flex;align-items:center;gap:8px;transition:color 0.3s}
+.loading-steps li.active{color:var(--ink)}
+.loading-steps li.done{color:var(--accent)}
+.loading-steps li::before{content:'○';font-size:10px;flex-shrink:0}
+.loading-steps li.active::before{content:'◉';color:var(--gold)}
+.loading-steps li.done::before{content:'●';color:var(--accent)}
+
+/* HOME (already done) */
+.section-label{font-size:10px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.08em;color:var(--ink3);margin-bottom:10px}
+.score-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:1.5rem}
+.score-card{background:var(--paper2);border:1px solid var(--paper3);border-radius:10px;padding:1rem;text-align:center}
+.score-card .num{font-family:var(--font-display);font-size:26px;color:var(--ink)}
+.score-card .lbl{font-size:10px;color:var(--ink3);margin-top:2px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.05em}
+.history-list{margin-bottom:1.5rem}
+.history-item{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid var(--paper3)}
+.history-item:last-child{border-bottom:none}
+.history-date{font-size:13px;color:var(--ink2)}
+.history-score{font-size:13px;font-family:var(--font-mono);color:var(--accent)}
+.done-note{font-size:11px;color:var(--ink3);text-align:center;font-family:var(--font-mono);padding:4px 0}
+
+/* BRIEFING */
+.briefing-lead{font-family:var(--font-display);font-size:19px;line-height:1.45;color:var(--ink);margin-bottom:1.25rem;font-style:italic}
+.briefing-section{margin-bottom:1.4rem}
+.briefing-section-title{font-size:10px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.1em;color:var(--gold);border-bottom:1px solid var(--paper3);padding-bottom:5px;margin-bottom:8px}
+.briefing-section-body{font-size:14px;line-height:1.72;color:var(--ink2)}
+.quiz-bar{background:var(--accent);border-radius:10px;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;transition:background 0.2s;margin-top:1.5rem}
+.quiz-bar:hover{background:var(--accent2)}
+.quiz-bar-text{font-size:14px;color:#fff;font-weight:500}
+.quiz-bar-sub{font-size:11px;color:rgba(255,255,255,0.55);margin-top:2px}
+.quiz-bar-arrow{color:rgba(255,255,255,0.7);font-size:22px;line-height:1}
+
+/* QUIZ */
+.quiz-progress{display:flex;gap:4px;margin-bottom:1.25rem;flex-wrap:wrap}
+.qd{height:3px;min-width:10px;flex:1;background:var(--paper3);border-radius:2px;transition:background 0.3s}
+.qd.done{background:var(--accent)}
+.qd.active{background:var(--gold)}
+.q-number{font-size:10px;font-family:var(--font-mono);color:var(--ink3);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px}
+.q-text{font-family:var(--font-display);font-size:18px;line-height:1.4;color:var(--ink);margin-bottom:1.1rem}
+.q-options{display:flex;flex-direction:column;gap:9px;margin-bottom:1.1rem}
+.q-opt{background:var(--paper2);border:1px solid var(--paper3);border-radius:10px;padding:12px 14px;font-size:14px;color:var(--ink);cursor:pointer;transition:all 0.15s;display:flex;align-items:flex-start;gap:10px;font-family:var(--font-body);text-align:left;width:100%}
+.q-opt:hover:not(.locked){background:var(--paper3);border-color:#ccc}
+.q-opt.correct{background:#d4edda;border-color:#5a9e6f;color:#1a3a2a}
+.q-opt.wrong{background:#fde8e8;border-color:var(--red);color:#7a1a1a}
+.q-opt.locked{cursor:default}
+.opt-letter{font-family:var(--font-mono);font-size:11px;font-weight:500;color:var(--ink3);min-width:14px;flex-shrink:0;padding-top:1px}
+.q-exp{background:var(--paper2);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:11px 13px;font-size:13px;line-height:1.6;color:var(--ink2);margin-bottom:1.1rem;display:none}
+.next-btn{width:100%;background:var(--accent);color:#fff;border:none;border-radius:10px;padding:12px;font-size:14px;font-family:var(--font-body);font-weight:500;cursor:pointer;display:none;transition:background 0.2s;margin-bottom:2rem}
+.next-btn:hover{background:var(--accent2)}
+.next-btn.show{display:block}
+
+/* RESULTS */
+.results-hero{text-align:center;padding:1rem 0 1.75rem}
+.results-fraction{font-family:var(--font-display);font-size:54px;color:var(--ink)}
+.results-verdict{font-size:11px;color:var(--ink3);margin-top:4px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.07em}
+.rb-item{display:flex;align-items:flex-start;gap:10px;padding:9px 0;border-bottom:1px solid var(--paper3)}
+.rb-item:last-child{border-bottom:none}
+.rb-dot{width:7px;height:7px;border-radius:50%;margin-top:6px;flex-shrink:0}
+.rb-dot.c{background:var(--green)}
+.rb-dot.w{background:var(--red)}
+.rb-q{font-size:13px;color:var(--ink2);line-height:1.5}
+.rb-ans{font-size:11px;font-family:var(--font-mono);margin-top:3px}
+.rb-ans.c{color:var(--green)}
+.rb-ans.w{color:var(--red)}
+
+/* ERROR */
+.error-box{background:#fde8e8;border:1px solid #e8b4b4;border-radius:10px;padding:1rem 1.25rem;font-size:13px;color:#7a1a1a;line-height:1.6;margin-bottom:1rem}
+.retry-btn{background:var(--red);color:#fff;border:none;border-radius:7px;padding:7px 15px;font-size:13px;cursor:pointer;font-family:var(--font-body);margin-top:8px}
+
+/* UTIL */
+.mt1{margin-top:0.75rem}
+.gap-key-btn{background:none;border:none;font-size:11px;color:var(--ink3);font-family:var(--font-mono);cursor:pointer;text-decoration:underline;display:block;margin:8px auto 0}
+</style>
+</head>
+<body>
+
+<!-- SETUP SCREEN -->
+<div id="screen-setup" class="screen active">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub">Setup</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="setup-card">
+      <h2>One-time setup</h2>
+      <p>Enter your Anthropic API key to enable live news briefings and quiz generation. Stored only in your browser — never sent anywhere except directly to Anthropic.</p>
+      <label>Anthropic API Key</label>
+      <input type="password" id="api-key-input" placeholder="sk-ant-..." autocomplete="off" />
+      <p class="setup-hint">
+        Get your key at <a href="https://console.anthropic.com/settings/keys" target="_blank">console.anthropic.com</a>. You'll need a funded account (Sonnet 4 — each briefing costs ~$0.02–0.05).
+      </p>
+      <button class="primary-btn" onclick="saveApiKey()">Save & launch →</button>
+    </div>
+  </div>
+</div>
+
+<!-- LOADING SCREEN -->
+<div id="screen-loading" class="screen">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub">Compiling your edition…</div>
+      </div>
+      <div class="masthead-right">
+        <div class="date-stamp" id="date-load"></div>
+        <div class="streak-badge">🔥 <span id="streak-load">0</span> day streak</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="loading-wrap">
+      <div class="loading-icon"></div>
+      <div class="loading-title">Good morning</div>
+      <div class="loading-sub">Scanning the world for you</div>
+      <ul class="loading-steps">
+        <li id="ls1">Pulling global headlines</li>
+        <li id="ls2">Checking logistics & trade news</li>
+        <li id="ls3">Scanning Bangladesh & ISC</li>
+        <li id="ls4">Generating 15 quiz questions</li>
+        <li id="ls5">Finalising your edition</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- HOME SCREEN (already done today) -->
+<div id="screen-home" class="screen">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub">Personal Intelligence Digest</div>
+      </div>
+      <div class="masthead-right">
+        <div class="date-stamp" id="date-home"></div>
+        <div class="streak-badge">🔥 <span id="streak-home">0</span> day streak</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="section-label" style="margin-bottom:10px">Your performance</div>
+    <div class="score-grid">
+      <div class="score-card"><div class="num" id="stat-sessions">0</div><div class="lbl">Briefings</div></div>
+      <div class="score-card"><div class="num" id="stat-avg">—</div><div class="lbl">Avg score</div></div>
+      <div class="score-card"><div class="num" id="stat-best">—</div><div class="lbl">Best</div></div>
+    </div>
+    <div class="section-label">Recent sessions</div>
+    <div class="history-list" id="history-list"></div>
+    <button class="secondary-btn" onclick="showScreen('screen-briefing')">Review today's briefing</button>
+    <div class="done-note">Quiz complete for today · Come back tomorrow</div>
+    <button class="gap-key-btn" onclick="showScreen('screen-setup')">Change API key</button>
+  </div>
+</div>
+
+<!-- BRIEFING SCREEN -->
+<div id="screen-briefing" class="screen">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub" id="briefing-edition"></div>
+      </div>
+      <div class="date-stamp" id="date-briefing"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div id="error-zone"></div>
+    <div id="briefing-content"></div>
+    <div class="quiz-bar" onclick="startQuiz()">
+      <div>
+        <div class="quiz-bar-text">Test your knowledge →</div>
+        <div class="quiz-bar-sub">15 questions · briefing + industry GK</div>
+      </div>
+      <div class="quiz-bar-arrow">›</div>
+    </div>
+  </div>
+</div>
+
+<!-- QUIZ SCREEN -->
+<div id="screen-quiz" class="screen">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub">Knowledge check</div>
+      </div>
+      <div class="date-stamp" id="date-quiz"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="quiz-progress" id="quiz-progress"></div>
+    <div class="q-number" id="q-number"></div>
+    <div class="q-text" id="q-text"></div>
+    <div class="q-options" id="q-options"></div>
+    <div class="q-exp" id="q-exp"></div>
+    <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next →</button>
+  </div>
+</div>
+
+<!-- RESULTS SCREEN -->
+<div id="screen-results" class="screen">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub">Session complete</div>
+      </div>
+      <div class="date-stamp" id="date-results"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="results-hero">
+      <div class="results-fraction" id="results-fraction"></div>
+      <div class="results-verdict" id="results-verdict"></div>
+    </div>
+    <div class="section-label" style="margin-bottom:10px">Breakdown</div>
+    <div id="results-breakdown"></div>
+    <button class="primary-btn mt1" onclick="goHome()">Done</button>
+  </div>
+</div>
+
+<script>
+const SK = 'morning_brief_v3';
+let state = { sessions:[], streak:0, lastDate:null };
+let quizQuestions = [], currentQ = 0, answers = [], qAnswered = false;
+let briefingRendered = false;
+
+function ls(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+function lsSet(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+
+function loadState(){ try{ const s=ls(SK); if(s) state=JSON.parse(s); }catch(e){} }
+function saveState(){ lsSet(SK, JSON.stringify(state)); }
+
+function getKey(){ return ls('mb_api_key')||''; }
+function today(){ return new Date().toISOString().split('T')[0]; }
+function fmtDate(){ return new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'}); }
+function fmtDateShort(){ return new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}); }
+
+function setDates(){
+  const d = fmtDate();
+  ['date-load','date-home','date-briefing','date-quiz','date-results'].forEach(id=>{
+    const el=document.getElementById(id); if(el) el.textContent=d;
+  });
+}
+
+function showScreen(id){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  window.scrollTo(0,0);
+}
+
+function saveApiKey(){
+  const key = document.getElementById('api-key-input').value.trim();
+  if(!key.startsWith('sk-ant-')){ alert('That doesn\'t look like a valid Anthropic API key (should start with sk-ant-).'); return; }
+  lsSet('mb_api_key', key);
+  init();
+}
+
+function animateSteps(cb){
+  const steps=['ls1','ls2','ls3','ls4','ls5'];
+  let i=0;
+  const tick=()=>{
+    if(i>0){ const prev=document.getElementById(steps[i-1]); prev.classList.remove('active'); prev.classList.add('done'); }
+    if(i<steps.length){ const cur=document.getElementById(steps[i]); cur.classList.add('active'); i++; setTimeout(tick,1100); }
+    else cb();
+  };
+  tick();
+}
+
+async function init(){
+  loadState();
+  setDates();
+  document.getElementById('streak-load').textContent = state.streak||0;
+  document.getElementById('streak-home').textContent = state.streak||0;
+
+  const key = getKey();
+  if(!key){ showScreen('screen-setup'); return; }
+
+  const todayDone = state.sessions.some(s=>s.date===today());
+  if(todayDone){ populateHome(); showScreen('screen-home'); return; }
+
+  showScreen('screen-loading');
+  animateSteps(()=>{});
+
+  try {
+    const result = await fetchBriefing(key);
+    quizQuestions = result.questions;
+    renderBriefing(result);
+    setTimeout(()=>showScreen('screen-briefing'), 400);
+  } catch(e){
+    showScreen('screen-briefing');
+    document.getElementById('error-zone').innerHTML=`
+      <div class="error-box">
+        ⚠️ ${e.message}
+        <br><button class="retry-btn" onclick="retryFetch()">Retry</button>
+      </div>`;
+  }
+}
+
+async function retryFetch(){
+  document.getElementById('error-zone').innerHTML='';
+  showScreen('screen-loading');
+  const key=getKey();
+  try {
+    const result=await fetchBriefing(key);
+    quizQuestions=result.questions;
+    renderBriefing(result);
+    setTimeout(()=>showScreen('screen-briefing'),400);
+  } catch(e){
+    showScreen('screen-briefing');
+    document.getElementById('error-zone').innerHTML=`<div class="error-box">⚠️ ${e.message}<br><button class="retry-btn" onclick="retryFetch()">Retry</button></div>`;
+  }
+}
+
+async function fetchBriefing(apiKey){
+  const system=`You are a world-class intelligence briefing analyst. You produce sharp, executive-level morning briefings for Shayan Ahmed — senior commercial and strategy executive at MGH Group, a ~$1B Singapore-headquartered logistics conglomerate operating across 26 countries, with core strength in Bangladesh and the Indian Subcontinent. His focus areas: global logistics & freight forwarding, Bangladesh macro & politics, Indian Subcontinent trade, global trade economics & tariff policy, AI & technology, oil markets & bunker fuel, geopolitical risk (US-China, Middle East, Red Sea corridor), general global affairs.
+
+Respond ONLY with a valid JSON object. No markdown, no preamble, no text outside the JSON.
+
+Schema:
+{
+  "headline": "One punchy 12-15 word headline — the single most important story today",
+  "sections": [
+    {"title": "Section title", "body": "3-4 sharp sentences. Specific, data-driven. Write like The Economist."}
+  ],
+  "questions": [
+    {"q": "Question text", "options": ["A. ...", "B. ...", "C. ...", "D. ..."], "answer": 0, "explanation": "1-2 sentences — why correct and why it matters"}
+  ]
+}
+
+sections: exactly 4 — Global macro, Logistics & trade, Bangladesh & ISC, Tech & AI.
+questions: exactly 15 MCQs:
+  - 4 from today's briefing content
+  - 4 on logistics / freight forwarding / shipping industry knowledge
+  - 3 on Bangladesh / ISC trade, economics, or geopolitics
+  - 2 on AI, technology, or digital transformation
+  - 2 wildcard general knowledge (history, economics, geography — with professional relevance)
+answer: integer 0–3. Make distractors plausible. Questions should challenge a well-read executive.`;
+
+  const user=`Today is ${fmtDate()}. Use web search to pull the latest news, then generate today's morning briefing and 15-question quiz. Be specific — real figures, company names, data points.`;
+
+  const resp = await fetch('https://api.anthropic.com/v1/messages',{
+    method:'POST',
+    headers:{'Content-Type':'application/json','x-api-key':apiKey,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
+    body:JSON.stringify({
+      model:'claude-sonnet-4-20250514',
+      max_tokens:4000,
+      system,
+      tools:[{"type":"web_search_20250305","name":"web_search"}],
+      messages:[{role:'user',content:user}]
+    })
+  });
+
+  const data = await resp.json();
+  if(!resp.ok) throw new Error(data.error?.message||'API error '+resp.status);
+
+  const textBlock = data.content.find(b=>b.type==='text');
+  if(!textBlock) throw new Error('API returned no text. This sometimes happens — please retry.');
+
+  let clean = textBlock.text.replace(/```json|```/g,'').trim();
+  const s=clean.indexOf('{'), e=clean.lastIndexOf('}');
+  if(s!==-1&&e!==-1) clean=clean.slice(s,e+1);
+
+  const parsed = JSON.parse(clean);
+  if(!parsed.questions||parsed.questions.length<10) throw new Error(`Only got ${parsed.questions?.length||0} questions — retrying may help.`);
+  return parsed;
+}
+
+function renderBriefing(data){
+  document.getElementById('briefing-edition').textContent='Edition · '+fmtDateShort();
+  let html='';
+  if(data.headline) html+=`<div class="briefing-lead">${data.headline}</div>`;
+  (data.sections||[]).forEach(s=>{
+    html+=`<div class="briefing-section">
+      <div class="briefing-section-title">${s.title}</div>
+      <div class="briefing-section-body">${s.body}</div>
+    </div>`;
+  });
+  document.getElementById('briefing-content').innerHTML=html;
+}
+
+function populateHome(){
+  document.getElementById('streak-home').textContent=state.streak||0;
+  const sessions=state.sessions||[];
+  document.getElementById('stat-sessions').textContent=sessions.length;
+  if(sessions.length){
+    const avg=Math.round(sessions.reduce((a,s)=>a+(s.score/s.total),0)/sessions.length*100);
+    const best=Math.max(...sessions.map(s=>Math.round(s.score/s.total*100)));
+    document.getElementById('stat-avg').textContent=avg+'%';
+    document.getElementById('stat-best').textContent=best+'%';
+  }
+  const hl=document.getElementById('history-list');
+  if(sessions.length){
+    hl.innerHTML=sessions.slice(-6).reverse().map(s=>`
+      <div class="history-item">
+        <span class="history-date">${s.displayDate}</span>
+        <span class="history-score">${s.score}/${s.total} · ${Math.round(s.score/s.total*100)}%</span>
+      </div>`).join('');
+  } else {
+    hl.innerHTML='<div style="font-size:13px;color:var(--ink3);padding:8px 0;font-family:var(--font-mono)">No sessions yet</div>';
+  }
+}
+
+function startQuiz(){
+  if(!quizQuestions.length){ alert('No questions loaded.'); return; }
+  currentQ=0; answers=[]; qAnswered=false;
+  renderQuestion();
+  showScreen('screen-quiz');
+}
+
+function renderProgress(){
+  document.getElementById('quiz-progress').innerHTML=quizQuestions.map((_,i)=>{
+    let c='qd'; if(i<currentQ)c+=' done'; else if(i===currentQ)c+=' active';
+    return`<div class="${c}"></div>`;
+  }).join('');
+}
+
+function renderQuestion(){
+  qAnswered=false;
+  const q=quizQuestions[currentQ];
+  renderProgress();
+  document.getElementById('q-number').textContent=`Question ${currentQ+1} of ${quizQuestions.length}`;
+  document.getElementById('q-text').textContent=q.q;
+  const exp=document.getElementById('q-exp'); exp.style.display='none'; exp.textContent='';
+  const nb=document.getElementById('next-btn'); nb.classList.remove('show');
+  nb.textContent=currentQ<quizQuestions.length-1?'Next question →':'See results →';
+  const letters=['A','B','C','D'];
+  document.getElementById('q-options').innerHTML=q.options.map((o,i)=>`
+    <button class="q-opt" onclick="selectAnswer(${i})" id="opt-${i}">
+      <span class="opt-letter">${letters[i]}</span>
+      <span>${o.replace(/^[A-D]\.\s*/,'')}</span>
+    </button>`).join('');
+}
+
+function selectAnswer(idx){
+  if(qAnswered) return;
+  qAnswered=true;
+  const q=quizQuestions[currentQ];
+  answers.push({q:q.q,chosen:idx,correct:q.answer,explanation:q.explanation,options:q.options});
+  document.querySelectorAll('.q-opt').forEach((el,i)=>{
+    el.classList.add('locked');
+    if(i===q.answer) el.classList.add('correct');
+    else if(i===idx&&idx!==q.answer) el.classList.add('wrong');
+  });
+  const exp=document.getElementById('q-exp');
+  exp.textContent=q.explanation; exp.style.display='block';
+  document.getElementById('next-btn').classList.add('show');
+}
+
+function nextQuestion(){
+  currentQ++;
+  if(currentQ<quizQuestions.length) renderQuestion();
+  else showResults();
+}
+
+function showResults(){
+  const score=answers.filter(a=>a.chosen===a.correct).length;
+  const total=answers.length;
+  document.getElementById('results-fraction').textContent=`${score}/${total}`;
+  const pct=Math.round(score/total*100);
+  const verdicts=['Keep grinding','Getting sharper','Solid performance','Very sharp','Clean sweep'];
+  document.getElementById('results-verdict').textContent=verdicts[Math.min(Math.floor(pct/21),4)];
+  const letters=['A','B','C','D'];
+  document.getElementById('results-breakdown').innerHTML=answers.map(a=>{
+    const c=a.chosen===a.correct;
+    return`<div class="rb-item">
+      <div class="rb-dot ${c?'c':'w'}"></div>
+      <div>
+        <div class="rb-q">${a.q}</div>
+        <div class="rb-ans ${c?'c':'w'}">${c?'✓ '+a.options[a.correct].replace(/^[A-D]\.\s*/,''):'✗ You chose '+letters[a.chosen]+' · Correct: '+a.options[a.correct].replace(/^[A-D]\.\s*/,'')}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  const todayStr=today();
+  if(!state.sessions.some(s=>s.date===todayStr)){
+    state.sessions.push({date:todayStr,displayDate:fmtDateShort(),score,total});
+    const yesterday=new Date(); yesterday.setDate(yesterday.getDate()-1);
+    state.streak=(state.lastDate===yesterday.toISOString().split('T')[0]||state.lastDate===todayStr)?(state.streak||0)+1:1;
+    state.lastDate=todayStr;
+    saveState();
+  }
+  showScreen('screen-results');
+}
+
+function goHome(){ populateHome(); showScreen('screen-home'); }
+
+init();
+</script>
+</body>
+</html>
