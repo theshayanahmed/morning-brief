@@ -397,7 +397,9 @@ questions: exactly 15 MCQs:
   - 3 on Bangladesh / ISC trade, economics, or geopolitics
   - 2 on AI, technology, or digital transformation
   - 2 wildcard general knowledge (history, economics, geography — with professional relevance)
-answer: integer 0–3. Make distractors plausible. Questions should challenge a well-read executive.`;
+answer: integer 0-3. Make distractors plausible. Questions should challenge a well-read executive.
+
+CRITICAL: Your entire response must be ONLY the JSON object. Start your response with { and end with }. No other text before or after. No explanations. No "Here is your briefing". Just raw JSON.`;
 
   const user=`Today is ${fmtDate()}. Use web search to pull the latest news, then generate today's morning briefing and 15-question quiz. Be specific — real figures, company names, data points.`;
 
@@ -406,7 +408,7 @@ answer: integer 0–3. Make distractors plausible. Questions should challenge a 
     headers:{'Content-Type':'application/json','x-api-key':apiKey,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
     body:JSON.stringify({
       model:'claude-sonnet-4-6',
-      max_tokens:4000,
+      max_tokens:6000,
       system,
       tools:[{"type":"web_search_20250305","name":"web_search"}],
       messages:[{role:'user',content:user}]
@@ -417,14 +419,31 @@ answer: integer 0–3. Make distractors plausible. Questions should challenge a 
   if(!resp.ok) throw new Error(data.error?.message||'API error '+resp.status);
 
   const textBlock = data.content.find(b=>b.type==='text');
-  if(!textBlock) throw new Error('API returned no text. This sometimes happens — please retry.');
+  if(!textBlock) throw new Error('API returned no text - please retry.');
 
-  let clean = textBlock.text.replace(/```json|```/g,'').trim();
-  const s=clean.indexOf('{'), e=clean.lastIndexOf('}');
-  if(s!==-1&&e!==-1) clean=clean.slice(s,e+1);
+  let raw = textBlock.text.replace(/```json\s*/gi,'').replace(/```\s*/g,'').trim();
+  const start = raw.indexOf('{');
+  if(start===-1) throw new Error('No JSON in response - please retry.');
 
-  const parsed = JSON.parse(clean);
-  if(!parsed.questions||parsed.questions.length<10) throw new Error(`Only got ${parsed.questions?.length||0} questions — retrying may help.`);
+  let depth=0, end=-1;
+  for(let i=start;i<raw.length;i++){
+    if(raw[i]==='{') depth++;
+    else if(raw[i]==='}'){depth--;if(depth===0){end=i;break;}}
+  }
+  let clean = end!==-1 ? raw.slice(start,end+1) : raw.slice(start);
+
+  let parsed;
+  try{ parsed=JSON.parse(clean); }
+  catch(e){
+    let fixed=clean.replace(/,\s*\{[^}]*$/,'').replace(/,\s*"[^"]*$/,'');
+    const openArr=(fixed.match(/\[/g)||[]).length-(fixed.match(/\]/g)||[]).length;
+    const openObj=(fixed.match(/\{/g)||[]).length-(fixed.match(/\}/g)||[]).length;
+    for(let i=0;i<openArr;i++) fixed+=']';
+    for(let i=0;i<openObj;i++) fixed+='}';
+    parsed=JSON.parse(fixed);
+  }
+
+  if(!parsed.sections||!parsed.questions) throw new Error('Incomplete response - please retry.');
   return parsed;
 }
 
