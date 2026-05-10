@@ -2,205 +2,233 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>The Morning Brief</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1a3a2a">
+<title>The Morning Brief — Sun 10 May 2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --ink:#0e0e0e;--ink2:#3a3a3a;--ink3:#888;
-  --paper:#f8f6f1;--paper2:#f0ede6;--paper3:#e8e4db;
-  --accent:#1a3a2a;--accent2:#2d5a3d;--gold:#b8963e;
-  --red:#c0392b;--green:#2d6a3f;
-  --font-display:'DM Serif Display',serif;
-  --font-body:'DM Sans',sans-serif;
-  --font-mono:'DM Mono',monospace;
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+:root {
+  --ink: #0e0e0e;
+  --ink2: #3a3a3a;
+  --ink3: #888;
+  --paper: #f8f6f1;
+  --paper2: #f0ede6;
+  --paper3: #e8e4db;
+  --accent: #1a3a2a;
+  --accent2: #2d5a3d;
+  --gold: #b8963e;
+  --green: #2d6a3f;
+  --red: #c0392b;
+  --serif: 'DM Serif Display', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, system-ui, sans-serif;
+  --mono: 'DM Mono', ui-monospace, Menlo, monospace;
 }
-html,body{height:100%;background:var(--paper);color:var(--ink);font-family:var(--font-body)}
-.screen{display:none;min-height:100vh;animation:fadeIn 0.35s ease}
-.screen.active{display:block}
-@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+html, body { height: 100%; background: var(--paper); color: var(--ink); font-family: var(--sans); }
+body { padding-bottom: env(safe-area-inset-bottom); }
+.screen { display: none; min-height: 100vh; min-height: 100dvh; animation: fadeIn 0.32s ease; }
+.screen.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+a { color: inherit; }
 
 /* MASTHEAD */
-.masthead{background:var(--accent);padding:1.25rem 1.5rem 1rem;position:sticky;top:0;z-index:10}
-.masthead-inner{display:flex;align-items:flex-start;justify-content:space-between;max-width:600px;margin:0 auto}
-.publication{font-family:var(--font-display);font-size:21px;color:#fff;letter-spacing:-0.4px}
-.edition-sub{font-size:10px;color:rgba(255,255,255,0.45);font-family:var(--font-mono);letter-spacing:0.07em;text-transform:uppercase;margin-top:3px}
-.masthead-right{text-align:right}
-.date-stamp{font-size:10px;color:rgba(255,255,255,0.4);font-family:var(--font-mono)}
-.streak-badge{display:inline-flex;align-items:center;gap:4px;background:rgba(184,150,62,0.18);border:1px solid rgba(184,150,62,0.35);border-radius:20px;padding:2px 9px;font-size:10px;color:#d4ab5a;font-family:var(--font-mono);margin-top:5px}
+.masthead {
+  background: var(--accent);
+  padding: 1.1rem 1.5rem 0.9rem;
+  padding-top: max(1.1rem, env(safe-area-inset-top));
+  position: sticky; top: 0; z-index: 10;
+}
+.masthead-inner { display: flex; align-items: flex-start; justify-content: space-between; max-width: 600px; margin: 0 auto; gap: 12px; }
+.publication { font-family: var(--serif); font-size: 22px; color: #fff; letter-spacing: -0.4px; line-height: 1.05; }
+.edition-sub { font-size: 10px; color: rgba(255,255,255,0.5); font-family: var(--mono); letter-spacing: 0.08em; text-transform: uppercase; margin-top: 4px; }
+.masthead-right { text-align: right; flex-shrink: 0; }
+.date-stamp { font-size: 10px; color: rgba(255,255,255,0.5); font-family: var(--mono); letter-spacing: 0.04em; }
+.streak-badge { display: inline-flex; align-items: center; gap: 4px; background: rgba(184,150,62,0.18); border: 1px solid rgba(184,150,62,0.4); border-radius: 20px; padding: 2px 9px; font-size: 10px; color: #d4ab5a; font-family: var(--mono); margin-top: 6px; }
+.streak-badge.hidden { display: none; }
 
-/* CONTENT WRAP */
-.content{max-width:600px;margin:0 auto;padding:1.5rem}
-
-/* SETUP SCREEN */
-.setup-card{background:#fff;border:1px solid var(--paper3);border-radius:14px;padding:1.75rem;margin-top:1rem}
-.setup-card h2{font-family:var(--font-display);font-size:20px;color:var(--ink);margin-bottom:6px}
-.setup-card p{font-size:14px;color:var(--ink3);line-height:1.6;margin-bottom:1.25rem}
-.setup-card label{display:block;font-size:11px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.07em;color:var(--ink3);margin-bottom:6px}
-.setup-card input{width:100%;font-family:var(--font-mono);font-size:14px;color:var(--ink);background:var(--paper2);border:1px solid var(--paper3);border-radius:8px;padding:10px 13px;outline:none;margin-bottom:1rem}
-.setup-card input:focus{border-color:var(--accent)}
-.setup-hint{font-size:12px;color:var(--ink3);line-height:1.5;margin-bottom:1.25rem}
-.setup-hint a{color:var(--accent)}
-.primary-btn{width:100%;background:var(--accent);color:#fff;border:none;border-radius:10px;padding:13px;font-size:14px;font-family:var(--font-body);font-weight:500;cursor:pointer;transition:background 0.2s}
-.primary-btn:hover{background:var(--accent2)}
-.primary-btn:disabled{background:var(--paper3);color:var(--ink3);cursor:not-allowed}
-.secondary-btn{width:100%;background:var(--paper2);color:var(--ink);border:1px solid var(--paper3);border-radius:10px;padding:12px;font-size:14px;font-family:var(--font-body);font-weight:500;cursor:pointer;margin-bottom:10px;transition:background 0.15s}
-.secondary-btn:hover{background:var(--paper3)}
+/* CONTENT */
+.content { max-width: 600px; margin: 0 auto; padding: 1.5rem; }
 
 /* LOADING */
-.loading-wrap{padding:3rem 0;text-align:center}
-.loading-icon{width:44px;height:44px;border:2px solid var(--paper3);border-top-color:var(--accent);border-radius:50%;margin:0 auto 1.5rem;animation:spin 0.8s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.loading-title{font-family:var(--font-display);font-size:21px;color:var(--ink);margin-bottom:6px}
-.loading-sub{font-size:13px;color:var(--ink3);font-family:var(--font-mono)}
-.loading-steps{list-style:none;margin-top:1.5rem;text-align:left;max-width:260px;margin-left:auto;margin-right:auto}
-.loading-steps li{font-size:13px;color:var(--ink3);padding:5px 0;font-family:var(--font-mono);display:flex;align-items:center;gap:8px;transition:color 0.3s}
-.loading-steps li.active{color:var(--ink)}
-.loading-steps li.done{color:var(--accent)}
-.loading-steps li::before{content:'○';font-size:10px;flex-shrink:0}
-.loading-steps li.active::before{content:'◉';color:var(--gold)}
-.loading-steps li.done::before{content:'●';color:var(--accent)}
+.loading-wrap { padding: 3rem 0 2rem; text-align: center; }
+.loading-icon { width: 44px; height: 44px; border: 2px solid var(--paper3); border-top-color: var(--accent); border-radius: 50%; margin: 0 auto 1.4rem; animation: spin 0.85s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-title { font-family: var(--serif); font-size: 22px; color: var(--ink); margin-bottom: 6px; }
+.loading-sub { font-size: 13px; color: var(--ink3); font-family: var(--mono); }
+.loading-steps { list-style: none; margin: 1.6rem auto 0; max-width: 280px; text-align: left; }
+.loading-steps li { font-size: 13px; color: var(--ink3); padding: 6px 0; font-family: var(--mono); display: flex; align-items: center; gap: 9px; transition: color 0.3s; }
+.loading-steps li.active { color: var(--ink); }
+.loading-steps li.done { color: var(--accent); }
+.loading-steps li::before { content: '○'; font-size: 10px; flex-shrink: 0; }
+.loading-steps li.active::before { content: '◉'; color: var(--gold); }
+.loading-steps li.done::before { content: '●'; color: var(--accent); }
 
-/* HOME (already done) */
-.section-label{font-size:10px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.08em;color:var(--ink3);margin-bottom:10px}
-.score-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:1.5rem}
-.score-card{background:var(--paper2);border:1px solid var(--paper3);border-radius:10px;padding:1rem;text-align:center}
-.score-card .num{font-family:var(--font-display);font-size:26px;color:var(--ink)}
-.score-card .lbl{font-size:10px;color:var(--ink3);margin-top:2px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.05em}
-.history-list{margin-bottom:1.5rem}
-.history-item{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid var(--paper3)}
-.history-item:last-child{border-bottom:none}
-.history-date{font-size:13px;color:var(--ink2)}
-.history-score{font-size:13px;font-family:var(--font-mono);color:var(--accent)}
-.done-note{font-size:11px;color:var(--ink3);text-align:center;font-family:var(--font-mono);padding:4px 0}
+/* SECTION LABEL */
+.section-label { font-size: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink3); margin-bottom: 12px; }
+
+/* HOME */
+.score-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 1.5rem; }
+.score-card { background: var(--paper2); border: 1px solid var(--paper3); border-radius: 10px; padding: 1rem 0.6rem; text-align: center; }
+.score-card .num { font-family: var(--serif); font-size: 26px; color: var(--ink); line-height: 1.1; }
+.score-card .lbl { font-size: 10px; color: var(--ink3); margin-top: 4px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.05em; }
+.history-list { margin-bottom: 1.5rem; }
+.history-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--paper3); }
+.history-item:last-child { border-bottom: none; }
+.history-date { font-size: 13px; color: var(--ink2); }
+.history-score { font-size: 13px; font-family: var(--mono); color: var(--accent); font-weight: 500; }
+.history-empty { font-size: 13px; color: var(--ink3); padding: 8px 0; font-family: var(--mono); }
+.secondary-btn { width: 100%; background: var(--paper2); color: var(--ink); border: 1px solid var(--paper3); border-radius: 10px; padding: 13px; font-size: 14px; font-family: var(--sans); font-weight: 500; cursor: pointer; margin-bottom: 10px; transition: background 0.15s; }
+.secondary-btn:hover { background: var(--paper3); }
+.done-note { font-size: 11px; color: var(--ink3); text-align: center; font-family: var(--mono); padding: 10px 0 4px; letter-spacing: 0.04em; }
 
 /* BRIEFING */
-.briefing-lead{font-family:var(--font-display);font-size:19px;line-height:1.45;color:var(--ink);margin-bottom:1.25rem;font-style:italic}
-.briefing-section{margin-bottom:1.4rem}
-.briefing-section-title{font-size:10px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.1em;color:var(--gold);border-bottom:1px solid var(--paper3);padding-bottom:5px;margin-bottom:8px}
-.briefing-section-body{font-size:14px;line-height:1.72;color:var(--ink2)}
-.quiz-bar{background:var(--accent);border-radius:10px;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;transition:background 0.2s;margin-top:1.5rem}
-.quiz-bar:hover{background:var(--accent2)}
-.quiz-bar-text{font-size:14px;color:#fff;font-weight:500}
-.quiz-bar-sub{font-size:11px;color:rgba(255,255,255,0.55);margin-top:2px}
-.quiz-bar-arrow{color:rgba(255,255,255,0.7);font-size:22px;line-height:1}
+.briefing-lead { font-family: var(--serif); font-size: 21px; line-height: 1.4; color: var(--ink); margin-bottom: 1.5rem; font-style: italic; letter-spacing: -0.005em; }
+.briefing-section { margin-bottom: 1.6rem; }
+.briefing-section-title { font-size: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--gold); border-bottom: 1px solid var(--paper3); padding-bottom: 6px; margin-bottom: 12px; }
+.briefing-list { list-style: none; }
+.briefing-item { padding: 10px 0; font-size: 14px; line-height: 1.6; color: var(--ink2); border-bottom: 1px dotted var(--paper3); }
+.briefing-item:last-child { border-bottom: none; }
+.briefing-item strong { color: var(--ink); font-weight: 500; }
+.briefing-item .src { color: var(--accent); font-family: var(--mono); font-size: 11px; text-decoration: none; margin-left: 4px; white-space: nowrap; border-bottom: 1px solid rgba(26,58,42,0.3); padding-bottom: 1px; }
+.briefing-item .src:hover { border-bottom-color: var(--accent); }
+
+/* LESSON */
+.lesson-block { background: #fff; border: 1px solid var(--paper3); border-radius: 12px; padding: 1.4rem 1.4rem 1.5rem; margin-bottom: 1.5rem; }
+.lesson-label { font-size: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--gold); margin-bottom: 8px; }
+.lesson-title { font-family: var(--serif); font-style: italic; font-size: 22px; color: var(--ink); margin-bottom: 14px; line-height: 1.25; }
+.lesson-block p { font-size: 14px; line-height: 1.65; color: var(--ink2); margin-bottom: 12px; }
+.lesson-block p:last-of-type { margin-bottom: 0; }
+.lesson-why { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--paper3); font-size: 13px; line-height: 1.6; color: var(--ink2); }
+.lesson-why strong { color: var(--ink); }
+
+/* QUIZ BAR (CTA) */
+.quiz-bar { background: var(--accent); border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; transition: background 0.2s; margin-top: 1.5rem; gap: 14px; user-select: none; }
+.quiz-bar:hover, .quiz-bar:active { background: var(--accent2); }
+.quiz-bar-text { font-size: 15px; color: #fff; font-weight: 500; }
+.quiz-bar-sub { font-size: 11px; color: rgba(255,255,255,0.6); margin-top: 3px; font-family: var(--mono); letter-spacing: 0.03em; }
+.quiz-bar-arrow { color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1; flex-shrink: 0; }
 
 /* QUIZ */
-.quiz-progress{display:flex;gap:4px;margin-bottom:1.25rem;flex-wrap:wrap}
-.qd{height:3px;min-width:10px;flex:1;background:var(--paper3);border-radius:2px;transition:background 0.3s}
-.qd.done{background:var(--accent)}
-.qd.active{background:var(--gold)}
-.q-number{font-size:10px;font-family:var(--font-mono);color:var(--ink3);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px}
-.q-text{font-family:var(--font-display);font-size:18px;line-height:1.4;color:var(--ink);margin-bottom:1.1rem}
-.q-options{display:flex;flex-direction:column;gap:9px;margin-bottom:1.1rem}
-.q-opt{background:var(--paper2);border:1px solid var(--paper3);border-radius:10px;padding:12px 14px;font-size:14px;color:var(--ink);cursor:pointer;transition:all 0.15s;display:flex;align-items:flex-start;gap:10px;font-family:var(--font-body);text-align:left;width:100%}
-.q-opt:hover:not(.locked){background:var(--paper3);border-color:#ccc}
-.q-opt.correct{background:#d4edda;border-color:#5a9e6f;color:#1a3a2a}
-.q-opt.wrong{background:#fde8e8;border-color:var(--red);color:#7a1a1a}
-.q-opt.locked{cursor:default}
-.opt-letter{font-family:var(--font-mono);font-size:11px;font-weight:500;color:var(--ink3);min-width:14px;flex-shrink:0;padding-top:1px}
-.q-exp{background:var(--paper2);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;padding:11px 13px;font-size:13px;line-height:1.6;color:var(--ink2);margin-bottom:1.1rem;display:none}
-.next-btn{width:100%;background:var(--accent);color:#fff;border:none;border-radius:10px;padding:12px;font-size:14px;font-family:var(--font-body);font-weight:500;cursor:pointer;display:none;transition:background 0.2s;margin-bottom:2rem}
-.next-btn:hover{background:var(--accent2)}
-.next-btn.show{display:block}
+.quiz-progress { display: flex; gap: 4px; margin-bottom: 1.4rem; flex-wrap: nowrap; }
+.qd { height: 3px; flex: 1; background: var(--paper3); border-radius: 2px; transition: background 0.3s; min-width: 8px; }
+.qd.done { background: var(--accent); }
+.qd.active { background: var(--gold); }
+.q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 10px; font-family: var(--mono); color: var(--ink3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; }
+.q-text { font-family: var(--serif); font-size: 19px; line-height: 1.4; color: var(--ink); margin-bottom: 1.2rem; }
+.q-options { display: flex; flex-direction: column; gap: 9px; margin-bottom: 1.1rem; }
+.q-opt { background: var(--paper2); border: 1px solid var(--paper3); border-radius: 10px; padding: 13px 15px; font-size: 14px; color: var(--ink); cursor: pointer; transition: background 0.12s, border-color 0.12s, transform 0.08s; display: flex; align-items: flex-start; gap: 11px; font-family: var(--sans); text-align: left; width: 100%; line-height: 1.45; }
+.q-opt:hover:not(.locked) { background: var(--paper3); border-color: #ccc; }
+.q-opt:active:not(.locked) { transform: scale(0.997); }
+.q-opt.correct { background: #d4edda; border-color: #5a9e6f; color: #173a23; }
+.q-opt.wrong { background: #fde8e8; border-color: var(--red); color: #6a1818; }
+.q-opt.locked { cursor: default; }
+.opt-letter { font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--ink3); min-width: 14px; flex-shrink: 0; padding-top: 2px; }
+.q-opt.correct .opt-letter { color: var(--green); }
+.q-opt.wrong .opt-letter { color: var(--red); }
+.q-exp { background: var(--paper2); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 12px 14px; font-size: 13px; line-height: 1.6; color: var(--ink2); margin-bottom: 1.1rem; display: none; }
+.q-exp.show { display: block; }
+.q-exp.bad { border-left-color: var(--red); }
+.next-btn { width: 100%; background: var(--accent); color: #fff; border: none; border-radius: 10px; padding: 13px; font-size: 14px; font-family: var(--sans); font-weight: 500; cursor: pointer; display: none; transition: background 0.2s; margin-bottom: 2rem; }
+.next-btn:hover { background: var(--accent2); }
+.next-btn.show { display: block; }
 
 /* RESULTS */
-.results-hero{text-align:center;padding:1rem 0 1.75rem}
-.results-fraction{font-family:var(--font-display);font-size:54px;color:var(--ink)}
-.results-verdict{font-size:11px;color:var(--ink3);margin-top:4px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:0.07em}
-.rb-item{display:flex;align-items:flex-start;gap:10px;padding:9px 0;border-bottom:1px solid var(--paper3)}
-.rb-item:last-child{border-bottom:none}
-.rb-dot{width:7px;height:7px;border-radius:50%;margin-top:6px;flex-shrink:0}
-.rb-dot.c{background:var(--green)}
-.rb-dot.w{background:var(--red)}
-.rb-q{font-size:13px;color:var(--ink2);line-height:1.5}
-.rb-ans{font-size:11px;font-family:var(--font-mono);margin-top:3px}
-.rb-ans.c{color:var(--green)}
-.rb-ans.w{color:var(--red)}
+.results-hero { text-align: center; padding: 1.2rem 0 1.6rem; }
+.results-fraction { font-family: var(--serif); font-size: 64px; color: var(--ink); line-height: 1; }
+.results-fraction .denom { color: var(--ink3); font-size: 36px; }
+.results-verdict { font-size: 11px; color: var(--ink3); margin-top: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.1em; }
+.results-streak { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; background: rgba(184,150,62,0.15); border: 1px solid rgba(184,150,62,0.4); padding: 5px 12px; border-radius: 20px; font-family: var(--mono); font-size: 11px; color: #8a6f2e; }
+.topic-grid { background: var(--paper2); border: 1px solid var(--paper3); border-radius: 10px; padding: 16px 18px; margin-bottom: 1rem; }
+.topic-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px dotted var(--paper3); font-size: 13px; }
+.topic-row:last-child { border-bottom: none; }
+.topic-row .name { color: var(--ink2); }
+.topic-row .val { font-family: var(--mono); color: var(--ink); font-weight: 500; }
+.topic-row .val.full { color: var(--green); }
+.takeaway { background: var(--accent); color: #fff; border-radius: 10px; padding: 16px 18px; margin-bottom: 1rem; font-size: 14px; line-height: 1.55; font-style: italic; }
+.takeaway strong { font-style: normal; font-weight: 500; color: #d4ab5a; font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 6px; }
+.rb-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--paper3); }
+.rb-item:last-child { border-bottom: none; }
+.rb-dot { width: 7px; height: 7px; border-radius: 50%; margin-top: 7px; flex-shrink: 0; }
+.rb-dot.c { background: var(--green); }
+.rb-dot.w { background: var(--red); }
+.rb-q { font-size: 13px; color: var(--ink2); line-height: 1.5; }
+.rb-ans { font-size: 11px; font-family: var(--mono); margin-top: 4px; }
+.rb-ans.c { color: var(--green); }
+.rb-ans.w { color: var(--red); }
+.primary-btn { width: 100%; background: var(--accent); color: #fff; border: none; border-radius: 10px; padding: 14px; font-size: 14px; font-family: var(--sans); font-weight: 500; cursor: pointer; transition: background 0.2s; margin-top: 1rem; }
+.primary-btn:hover { background: var(--accent2); }
 
-/* ERROR */
-.error-box{background:#fde8e8;border:1px solid #e8b4b4;border-radius:10px;padding:1rem 1.25rem;font-size:13px;color:#7a1a1a;line-height:1.6;margin-bottom:1rem}
-.retry-btn{background:var(--red);color:#fff;border:none;border-radius:7px;padding:7px 15px;font-size:13px;cursor:pointer;font-family:var(--font-body);margin-top:8px}
+/* DEEP DIVES */
+.dd-item { background: #fff; border: 1px solid var(--paper3); border-radius: 12px; padding: 1.2rem 1.4rem 1.3rem; margin-bottom: 14px; }
+.dd-tag { display: inline-block; background: var(--paper2); color: var(--ink3); padding: 2px 8px; border-radius: 10px; font-family: var(--mono); font-size: 10px; margin-bottom: 10px; letter-spacing: 0.04em; text-transform: uppercase; }
+.dd-q { font-family: var(--serif); font-size: 16px; color: var(--ink); margin-bottom: 10px; line-height: 1.4; font-style: italic; }
+.dd-correct { font-family: var(--mono); font-size: 11px; color: var(--green); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--paper3); }
+.dd-body { font-size: 14px; line-height: 1.65; color: var(--ink2); }
+.text-link { background: none; border: none; font-size: 12px; color: var(--ink3); font-family: var(--mono); cursor: pointer; text-decoration: underline; display: block; margin: 14px auto 0; padding: 6px; letter-spacing: 0.02em; }
+.text-link:hover { color: var(--ink2); }
 
-/* UTIL */
-.mt1{margin-top:0.75rem}
-.gap-key-btn{background:none;border:none;font-size:11px;color:var(--ink3);font-family:var(--font-mono);cursor:pointer;text-decoration:underline;display:block;margin:8px auto 0}
+@media (max-width: 540px) {
+  .masthead { padding: 1rem 1.1rem 0.85rem; }
+  .publication { font-size: 19px; }
+  .content { padding: 1.2rem 1.1rem; }
+  .briefing-lead { font-size: 19px; }
+  .q-text { font-size: 17px; }
+  .lesson-title { font-size: 20px; }
+  .results-fraction { font-size: 54px; }
+  .results-fraction .denom { font-size: 30px; }
+}
 </style>
 </head>
 <body>
 
-<!-- SETUP SCREEN -->
-<div id="screen-setup" class="screen active">
+<!-- LOADING -->
+<div id="screen-loading" class="screen active">
   <div class="masthead">
     <div class="masthead-inner">
       <div>
         <div class="publication">The Morning Brief</div>
-        <div class="edition-sub">Setup</div>
-      </div>
-    </div>
-  </div>
-  <div class="content">
-    <div class="setup-card">
-      <h2>One-time setup</h2>
-      <p>Enter your Anthropic API key to enable live news briefings and quiz generation. Stored only in your browser — never sent anywhere except directly to Anthropic.</p>
-      <label>Anthropic API Key</label>
-      <input type="password" id="api-key-input" placeholder="sk-ant-..." autocomplete="off" />
-      <p class="setup-hint">
-        Get your key at <a href="https://console.anthropic.com/settings/keys" target="_blank">console.anthropic.com</a>. You'll need a funded account (Sonnet 4 — each briefing costs ~$0.02–0.05).
-      </p>
-      <button class="primary-btn" onclick="saveApiKey()">Save & launch →</button>
-    </div>
-  </div>
-</div>
-
-<!-- LOADING SCREEN -->
-<div id="screen-loading" class="screen">
-  <div class="masthead">
-    <div class="masthead-inner">
-      <div>
-        <div class="publication">The Morning Brief</div>
-        <div class="edition-sub">Compiling your edition…</div>
+        <div class="edition-sub">Compiling your edition</div>
       </div>
       <div class="masthead-right">
-        <div class="date-stamp" id="date-load"></div>
-        <div class="streak-badge">🔥 <span id="streak-load">0</span> day streak</div>
+        <div class="date-stamp" id="date-loading"></div>
+        <div class="streak-badge hidden" id="streak-loading">🔥 <span></span> day streak</div>
       </div>
     </div>
   </div>
   <div class="content">
     <div class="loading-wrap">
       <div class="loading-icon"></div>
-      <div class="loading-title">Good morning</div>
-      <div class="loading-sub">Scanning the world for you</div>
+      <div class="loading-title">Good morning, Shayan</div>
+      <div class="loading-sub">Compiling today's edition</div>
       <ul class="loading-steps">
-        <li id="ls1">Pulling global headlines</li>
-        <li id="ls2">Checking logistics & trade news</li>
-        <li id="ls3">Scanning Bangladesh & ISC</li>
-        <li id="ls4">Generating 15 quiz questions</li>
-        <li id="ls5">Finalising your edition</li>
+        <li id="ls1">Macro · geopolitics · politics</li>
+        <li id="ls2">Bangladesh & subcontinent</li>
+        <li id="ls3">Trade, supply chains & freight</li>
+        <li id="ls4">Semiconductors & frontier tech</li>
+        <li id="ls5">Today's lesson + 15 questions</li>
       </ul>
     </div>
   </div>
 </div>
 
-<!-- HOME SCREEN (already done today) -->
+<!-- HOME -->
 <div id="screen-home" class="screen">
   <div class="masthead">
     <div class="masthead-inner">
       <div>
         <div class="publication">The Morning Brief</div>
-        <div class="edition-sub">Personal Intelligence Digest</div>
+        <div class="edition-sub">Personal intelligence digest</div>
       </div>
       <div class="masthead-right">
         <div class="date-stamp" id="date-home"></div>
-        <div class="streak-badge">🔥 <span id="streak-home">0</span> day streak</div>
+        <div class="streak-badge hidden" id="streak-home">🔥 <span></span> day streak</div>
       </div>
     </div>
   </div>
   <div class="content">
-    <div class="section-label" style="margin-bottom:10px">Your performance</div>
+    <div class="section-label">Your performance</div>
     <div class="score-grid">
       <div class="score-card"><div class="num" id="stat-sessions">0</div><div class="lbl">Briefings</div></div>
       <div class="score-card"><div class="num" id="stat-avg">—</div><div class="lbl">Avg score</div></div>
@@ -208,37 +236,39 @@ html,body{height:100%;background:var(--paper);color:var(--ink);font-family:var(-
     </div>
     <div class="section-label">Recent sessions</div>
     <div class="history-list" id="history-list"></div>
-    <button class="secondary-btn" onclick="showScreen('screen-briefing')">Review today's briefing</button>
-    <div class="done-note">Quiz complete for today · Come back tomorrow</div>
-    <button class="gap-key-btn" onclick="showScreen('screen-setup')">Change API key</button>
+    <button class="secondary-btn" onclick="showScreen('screen-briefing')">Read today's briefing →</button>
+    <div class="done-note" id="done-note" style="display:none">Quiz complete for today · Come back tomorrow</div>
+    <button class="text-link" id="retake-btn" style="display:none" onclick="resetToday()">↻ Retake today's quiz</button>
   </div>
 </div>
 
-<!-- BRIEFING SCREEN -->
+<!-- BRIEFING -->
 <div id="screen-briefing" class="screen">
   <div class="masthead">
     <div class="masthead-inner">
       <div>
         <div class="publication">The Morning Brief</div>
-        <div class="edition-sub" id="briefing-edition"></div>
+        <div class="edition-sub" id="briefing-edition">Edition</div>
       </div>
-      <div class="date-stamp" id="date-briefing"></div>
+      <div class="masthead-right">
+        <div class="date-stamp" id="date-briefing"></div>
+        <div class="streak-badge hidden" id="streak-briefing">🔥 <span></span> day streak</div>
+      </div>
     </div>
   </div>
   <div class="content">
-    <div id="error-zone"></div>
     <div id="briefing-content"></div>
-    <div class="quiz-bar" onclick="startQuiz()">
+    <div class="quiz-bar" id="quiz-bar" onclick="startQuiz()">
       <div>
-        <div class="quiz-bar-text">Test your knowledge →</div>
-        <div class="quiz-bar-sub">15 questions · briefing + industry GK</div>
+        <div class="quiz-bar-text" id="quiz-bar-text">Test your knowledge</div>
+        <div class="quiz-bar-sub" id="quiz-bar-sub">10 questions · 5 industry · 5 general knowledge</div>
       </div>
       <div class="quiz-bar-arrow">›</div>
     </div>
   </div>
 </div>
 
-<!-- QUIZ SCREEN -->
+<!-- QUIZ -->
 <div id="screen-quiz" class="screen">
   <div class="masthead">
     <div class="masthead-inner">
@@ -246,20 +276,22 @@ html,body{height:100%;background:var(--paper);color:var(--ink);font-family:var(-
         <div class="publication">The Morning Brief</div>
         <div class="edition-sub">Knowledge check</div>
       </div>
-      <div class="date-stamp" id="date-quiz"></div>
+      <div class="masthead-right">
+        <div class="date-stamp" id="date-quiz"></div>
+      </div>
     </div>
   </div>
   <div class="content">
     <div class="quiz-progress" id="quiz-progress"></div>
-    <div class="q-number" id="q-number"></div>
+    <div class="q-meta" id="q-meta"></div>
     <div class="q-text" id="q-text"></div>
     <div class="q-options" id="q-options"></div>
     <div class="q-exp" id="q-exp"></div>
-    <button class="next-btn" id="next-btn" onclick="nextQuestion()">Next →</button>
+    <button class="next-btn" id="next-btn" onclick="nextQ()">Next →</button>
   </div>
 </div>
 
-<!-- RESULTS SCREEN -->
+<!-- RESULTS -->
 <div id="screen-results" class="screen">
   <div class="masthead">
     <div class="masthead-inner">
@@ -267,304 +299,390 @@ html,body{height:100%;background:var(--paper);color:var(--ink);font-family:var(-
         <div class="publication">The Morning Brief</div>
         <div class="edition-sub">Session complete</div>
       </div>
-      <div class="date-stamp" id="date-results"></div>
+      <div class="masthead-right">
+        <div class="date-stamp" id="date-results"></div>
+      </div>
     </div>
   </div>
   <div class="content">
     <div class="results-hero">
       <div class="results-fraction" id="results-fraction"></div>
       <div class="results-verdict" id="results-verdict"></div>
+      <div id="results-streak-wrap"></div>
     </div>
-    <div class="section-label" style="margin-bottom:10px">Breakdown</div>
+    <div class="section-label">By topic</div>
+    <div class="topic-grid" id="topic-grid"></div>
+    <div class="takeaway" id="takeaway"></div>
+    <div class="section-label">Question by question</div>
     <div id="results-breakdown"></div>
-    <button class="primary-btn mt1" onclick="goHome()">Done</button>
+    <div class="section-label" id="dd-label" style="display:none">Things to read more about</div>
+    <div id="deep-dives"></div>
+    <button class="primary-btn" onclick="goHome()">Done</button>
   </div>
 </div>
 
 <script>
-const SK = 'morning_brief_v3';
-let state = { sessions:[], streak:0, lastDate:null };
-let quizQuestions = [], currentQ = 0, answers = [], qAnswered = false;
-let briefingRendered = false;
+// ─── DATA (baked in by scheduled task) ─────────────────────────────
+const TODAY = {
+  date: "2026-05-10",
+  dateLabel: "Sun · 10 May 2026",
+  editionLabel: "Edition · Sun 10 May",
+  headline: "Hormuz at standstill, US-Iran in month three: oil >$100, surcharges back in freight, and Reform UK splinters Westminster.",
+  sections: [
+    { title: "Macro · geopolitics · politics", items: [
+      { lead: "US–Iran conflict enters third month with no resolution; Strait of Hormuz traffic effectively halted.", body: "Crude held above $100/bbl through April with Brent fluctuating on every Hormuz headline — first sustained triple-digit oil regime since 2022, reshaping every central-bank policy path.", src: { name: "IMF", url: "https://www.imf.org/en/blogs/articles/2026/04/14/war-darkens-global-economic-outlook-and-reshapes-policy-priorities" } },
+      { lead: "All six largest US manufacturing industries reported price increases in April.", body: "ISM cited combined Iran-war energy shock plus tariff pass-through — early evidence the supply shock is bleeding into core inflation, not just headline.", src: { name: "Global Trade", url: "https://www.globaltrademag.com/u-s-supply-chains-regain-balance-as-tariff-shock-fades-but-2026-risks-loom/" } },
+      { lead: "Trump imposes 10% global tariff after SCOTUS struck down February's emergency-powers regime.", body: "CBP signalled refunds on previously-collected duties may begin May 12. Legally cleaner but economically broader than the targeted policy it replaced.", src: { name: "Ivalua", url: "https://www.ivalua.com/blog/how-tariffs-impact-procurement-and-supply-chains/" } },
+      { lead: "UK local elections (May 7): Reform UK +1,451 seats, Labour −1,496.", body: "Reform took ~26-27% of vote — clearest splintering of the British two-party system in living memory and a serious threat to Starmer's first-term government.", src: { name: "CNN", url: "https://www.cnn.com/2026/05/08/uk/uk-local-election-reform-farage-starmer-intl" } },
+      { lead: "Virginia SC strikes down Democratic congressional map; Tennessee enacts GOP-friendly redistricting.", body: "Two simultaneous wins narrow Republican 2026 midterm exposure significantly — redistricting battle now arguably more consequential than any single policy fight.", src: { name: "NPR", url: "https://www.npr.org/2026/05/09/nx-s1-5816246/redistricting-trump-republicans-midterms" } },
+      { lead: "Central bankers face mission creep: price stability now competing with financial stability, climate risk, crisis backstopping.", body: "WEF flags this as the defining policy shift of 2026 — institutional independence question is back, with implications for every EM currency including BDT.", src: { name: "WEF", url: "https://www.weforum.org/stories/2026/02/central-bank-independence-markets-geopolitics/" } }
+    ]},
+    { title: "Bangladesh & subcontinent", items: [
+      { lead: "BB holds policy rate at 10%; March inflation 8.71% (down from Feb's 9.13%).", body: "Governor Mansur targets 6.5% for FY26 but admits monetary alone won't get there — public-sector credit growth projected 21.6% in H2FY26 from post-election spending will keep prices sticky.", src: { name: "Daily Star", url: "https://www.thedailystar.net/business/economy/news/bb-holds-policy-rate-10-tough-trade-inflation-vs-growth-4102396" } },
+      { lead: "Matarbari deep-sea port construction formally begins in Cox's Bazar.", body: "460m container jetty + 300m multipurpose, dredging 250M cu-ft underway. Long horizon, but the structural answer to Chittagong's congestion problem — first BD port that can take ULCV-class vessels.", src: { name: "Container News", url: "https://container-news.com/two-box-ships-collided-in-chittagong-construction-of-deep-sea-port-begins/" } },
+      { lead: "Chittagong Port: vessel turnaround at record lows but customs clearance is now the binding constraint.", body: "TBS reporting suggests the bottleneck has migrated from the berth to the gate — operational improvement masked by procedural drag.", src: { name: "TBS", url: "https://www.tbsnews.net/bangladesh/ship-turnaround-faster-customs-delays-choke-ctg-port-1216911" } },
+      { lead: "RMG factory closures accelerating: combined pressure of US tariffs, LC issues, declining orders.", body: "Fibre2Fashion flags Chittagong-cluster vulnerability specifically — the sector is structurally consolidating, smaller mills exiting first.", src: { name: "Fibre2Fashion", url: "https://www.fibre2fashion.com/news/textiles-logistics-news/is-rmg-hub-in-bangladesh-s-chittagong-facing-challenges--306660-newsdetails.htm" } }
+    ]},
+    { title: "Trade, supply chains & freight", items: [
+      { lead: "Drewry WCI +3% to $2,286/40ft, breaking three weeks of decline.", body: "First clear sign carriers are regaining pricing power for peak season.", src: { name: "Drewry", url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry" } },
+      { lead: "Shanghai→NY +7% to $3,721; Shanghai→LA +5% to $3,062.", body: "Transpacific leading the move — US importers still front-loading despite the 10% global tariff. They expect more pain coming." },
+      { lead: "MSC raised EFS sharply: Asia–USEC $430→$644, USWC $272→$467.", body: "Hikes of this magnitude this fast track Hormuz-driven bunker spreads — expect carriers to keep ratcheting if Brent stays above $100." },
+      { lead: "CMA CGM introduced $2,000/40ft Peak Season Surcharge effective May 1.", body: "Aggressive opener — sets the floor others will follow if utilisation holds." },
+      { lead: "97% of US SMBs now running active tariff-mitigation programmes.", body: "The SMB segment finally giving up on \"wait and see\" — a year-late capitulation to the new normal.", src: { name: "FreightWaves", url: "https://www.freightwaves.com/news/smbs-ditch-wait-and-see-as-tariffs-force-supply-chain-overhaul" } },
+      { lead: "US importers shifting from China to lower-tariff SE Asia and N. America rather than reshoring.", body: "Durable demand support for Bangladesh, Vietnam, Mexico over next 24 months — structural lane shift, not a blip.", src: { name: "Global Trade", url: "https://www.globaltrademag.com/u-s-supply-chains-regain-balance-as-tariff-shock-fades-but-2026-risks-loom/" } }
+    ]},
+    { title: "Semiconductors · AI · frontier tech", items: [
+      { lead: "TSMC granted 2026 annual export licence for Nanjing fab (16nm+ mature nodes).", body: "Samsung and SK Hynix also approved. Replaces dated waiver system with a predictable annual-renewal regime — operationally calming, but structural decoupling continues.", src: { name: "Tom's Hardware", url: "https://www.tomshardware.com/tech-industry/semiconductors/u-s-allows-tsmc-to-import-chipmaking-equipment-to-its-china-fabs-samsung-sk-hynix-likewise-receive-go-signal-from-commerce-department" } },
+      { lead: "Nvidia + IREN: up to $2.1B equity stake + 5GW DSX-architecture data centre buildout (May 7).", body: "Flagship: 2GW Sweetwater (TX) campus. AI capex is now vertically integrated in everything but name.", src: { name: "Bloomberg", url: "https://www.bloomberg.com/news/articles/2026-05-07/nvidia-to-invest-up-to-2-1-billion-in-data-center-firm-iren" } },
+      { lead: "Nvidia commits up to $3.2B in Corning for AI optical-fibre factories (3 sites, NC + TX).", body: "Optical-interconnect bottleneck is now binding constraint on cluster scaling — Nvidia is buying its way out of it.", src: { name: "CNBC", url: "https://www.cnbc.com/2026/05/06/nvidia-corning-optical-factories-nc-texas-ai.html" } },
+      { lead: "Anthropic Claude Opus 4.7 released — SWE-bench Pro 64.3% (+10.9pts over 4.6).", body: "Lead held even after GPT-5.5 launch. Post-training era still squeezing remarkable returns out of the same base.", src: { name: "Anthropic", url: "https://www.anthropic.com/news/claude-opus-4-7" } },
+      { lead: "OpenAI GPT-5.5 (\"Spud\") shipped — first ground-up retrain since GPT-4.5.", body: "Closes some Anthropic gap on agentic benchmarks; fully-retrained base sets up GPT-6 (May–July prediction-market window, 45-72% before June 30).", src: { name: "Air Street", url: "https://press.airstreet.com/p/state-of-ai-may-2026" } },
+      { lead: "Top-tier Arena Elo: Anthropic 1503, xAI 1495, Google 1494, OpenAI 1481, Alibaba 1449, DeepSeek 1424.", body: "Six labs within ~80 Elo — frontier is now a band, not a leader. Differentiation migrating to cost, reliability, domain depth.", src: { name: "LLM Stats", url: "https://llm-stats.com/" } }
+    ]}
+  ],
+  lesson: {
+    title: "The Suez Crisis of 1956",
+    paragraphs: [
+      "In July 1956, Egypt's President Nasser nationalised the Suez Canal — until then operated by an Anglo-French company and the artery through which two-thirds of Europe's oil flowed. Britain, France and Israel responded with a secretly-coordinated invasion in October: Israel struck the Sinai, then Britain and France issued a pre-arranged \"ultimatum\" demanding both sides withdraw, providing pretext for Anglo-French troops to seize the canal zone \"to separate the combatants.\"",
+      "The military operation succeeded. The diplomatic operation collapsed within a week. President Eisenhower, blindsided and furious at not being consulted, refused to back the pound sterling — which was hemorrhaging reserves — unless Britain withdrew. The US used IMF and oil-supply leverage to force a humiliating Anglo-French climb-down. By March 1957 the canal was back in Egyptian hands and a UN peacekeeping force was in place."
+    ],
+    why: "Suez is the moment Britain and France stopped being top-tier global powers. It established that the US would no longer tolerate independent European military adventures, accelerated decolonisation, propelled Nasser into pan-Arab leadership, and forged the modern doctrine that whoever controls global financial plumbing controls foreign policy. Every contemporary debate about dollar weaponisation or Suez/Hormuz chokepoint security traces back to this six-month episode."
+  },
+  questions: [
+    { n:1, topic:"domain", subtopic:"vessels", stem:"A 'Neo-Panamax' containership is defined by which attribute?", options:["~20,000+ TEU capacity, used on Asia–Europe","Sized to fit the original (pre-2016) Panama Canal locks","Sized to fit the post-2016 expanded Panama locks (typically 12,000–15,000 TEU)","Designed exclusively for transpacific service"], correct:2, why:"Neo-Panamax = the new Panama Canal locks (opened June 2016). Old Panamax topped out around 5,000 TEU; Neo-Panamax fits ~12-15k. ULCV/Megamax (20k+) are Asia–Europe vessels — too big for the canal.", deepDive:"The original Panama Canal (1914) locks dictated 'Panamax': ~32m beam, ~12m draft, ~5,000 TEU max. The 2016 expansion (Cocolí + Agua Clara locks) introduced 'Neo-Panamax' specs: ~49m beam, ~15.2m draft. ULCV (Ultra Large Container Vessels) and Megamax-class (20,000+ TEU, ~62m beam) cannot fit either — they run Asia-Europe via Suez. This matters strategically: a 24,000 TEU ship is structurally locked out of the Americas via Panama, so its deployment economics are entirely different. The 2023-24 Panama drought-driven transit cuts also exposed this — carriers diverted to Suez or Cape, lengthening voyages by 7-14 days." },
+    { n:2, topic:"domain", subtopic:"port_ops", stem:"What is the key distinction between demurrage and detention?", options:["Demurrage charged by the carrier; detention charged by the port","Demurrage for containers held inside the terminal beyond free time; detention for containers held outside the terminal beyond free time","Demurrage applies only to FCL; detention applies only to LCL","Demurrage at origin; detention at destination"], correct:1, why:"Both are carrier charges, but demurrage = container sitting in the terminal past free time (port-side delay); detention = container held by the merchant outside the terminal past free time (warehouse/yard delay). Different free-time clocks, different operational fixes.", deepDive:"Free time is typically 4-7 days each, set in the carrier's tariff. Demurrage clock starts when discharge from vessel completes; stops when container leaves terminal. Detention clock starts when container leaves terminal; stops when empty is returned. The OSRA 2022 (US Ocean Shipping Reform Act) forces carriers to justify D&D charges with documentation or refund — major compliance shift. In peak times in major US ports, D&D on a single 40ft can stack to $3,000+/week. The operational fix differs by type: demurrage = customs/yard speed problem; detention = trucking/empty-return logistics problem." },
+    { n:3, topic:"domain", subtopic:"pricing", stem:"BAF (Bunker Adjustment Factor) on a freight rate represents:", options:["A surcharge offsetting bunker fuel price volatility","A tax remitted to the destination port authority","A premium for express handling","The carrier's contribution margin on the lane"], correct:0, why:"BAF passes fuel-price exposure from carrier to shipper, recalculated periodically. With Brent above $100 right now, BAFs are climbing — alongside EFS (emergency fuel) and LSS (low-sulphur compliance). Watch the stack: BAF + EFS + LSS can move $300–600/40ft in a quarter.", deepDive:"BAF (also FAF, BUC depending on carrier) is calculated as (current bunker price - reference price) × consumption per TEU on the lane. Each carrier uses its own formula — Maersk publishes 'Standard BAF', MSC keeps it carrier-internal, others vary. Since IMO 2020 sulphur regulations (0.5% sulphur cap), BAF is often paired with LSS (Low Sulphur Surcharge) covering compliance fuel premium. EFS (Emergency Fuel Surcharge) is the in-quarter spike adjustment when bunker prices move sharply between BAF reset windows. The full pass-through stack on Asia-USEC right now: base + BAF + LSS + EFS + GRI + PSS + war risk + transit. Combined surcharges can be 30-50% of base rate in volatile periods." },
+    { n:4, topic:"domain", subtopic:"liner_alliances", stem:"As of 2026, which alliance does Maersk participate in?", options:["THE Alliance with ONE, HMM, Yang Ming","Ocean Alliance with CMA CGM, COSCO, Evergreen","Gemini Cooperation with Hapag-Lloyd","The 2M Alliance with MSC"], correct:2, why:"2M (Maersk + MSC) ended early 2025; Maersk + Hapag-Lloyd launched Gemini Cooperation Feb 2025 with a hub-and-spoke model. Premier Alliance (ONE/HMM/Yang Ming) replaced THE; Ocean Alliance (CMA CGM/COSCO/Evergreen) is unchanged; MSC now solo.", deepDive:"This is the most consequential structural shift in container shipping in a decade. From 2017-2024 the alliances were stable: 2M (Maersk + MSC) · Ocean (CMA CGM, COSCO, Evergreen, OOCL) · THE (ONE, Hapag, HMM, Yang Ming). Maersk announced 2M dissolution in Jan 2023, effective Jan 2025 — citing different strategic directions (Maersk integrator strategy vs MSC pure-shipping). Maersk + Hapag-Lloyd announced Gemini Cooperation in Jan 2024, launched Feb 2025, with a radical hub-and-spoke network model targeting >90% schedule reliability vs the typical 60-70%. The remaining THE members reformed as Premier Alliance. MSC now solo, with the world's largest fleet (~6.4M TEU). 2026 picture: Gemini · Premier · Ocean · MSC — fundamentally different competitive landscape than 2024." },
+    { n:5, topic:"domain", subtopic:"air_freight", stem:"Using the standard IATA volumetric divisor (6000 cm³/kg), a shipment of 120 cm × 100 cm × 80 cm weighing 120 kg has a chargeable weight of:", options:["120 kg (actual weight)","160 kg (volumetric weight)","280 kg (actual + volumetric)","96 kg (60% of actual)"], correct:1, why:"Volume = 120×100×80 = 960,000 cm³. ÷ 6000 = 160 kg volumetric. Chargeable = greater of actual (120) or volumetric (160) → 160 kg. Air freight punishes low-density cargo; this is why dim factor management matters on consol pricing.", deepDive:"IATA's 6000 cm³/kg divisor (= 167 kg/m³) is the standard. Express integrators (FedEx, UPS, DHL) commonly use a stricter 5000 cm³/kg (= 200 kg/m³), punishing low-density cargo more — a margin lever as e-commerce volumes have grown. Sea freight uses ~1,000 kg/m³ for similar calc, much more forgiving (so sea is competitive for low-density bulky cargo). Strategic implication for forwarders: pack density matters at quote stage. Garments shipped flat-folded vs hung; foam vs vacuum-sealed; palletisation strategy. Get density wrong and your buy-rate quote breaks. The 'volumetric divisor' figure also gets called 'dim factor' or 'dimensional weight ratio' depending on geography — same concept." },
+    { n:6, topic:"gk", subtopic:"geography", stem:"The Strait of Magellan separates which two landmasses?", options:["Continental Chile and Tierra del Fuego","Africa and the Arabian Peninsula","Australia and Tasmania","Spain and Morocco"], correct:0, why:"Strait of Magellan separates the South American mainland (Chile) from Tierra del Fuego archipelago. Discovered by Magellan in 1520, it was the main pre-Panama Canal route between Atlantic and Pacific — preferable to the rough Drake Passage further south.", deepDive:"Three southern routes between the Atlantic and Pacific around South America: Strait of Magellan (between mainland and Tierra del Fuego — discovered by Magellan's 1519-22 circumnavigation expedition); Beagle Channel (south of the strait, between Tierra del Fuego islands — surveyed by HMS Beagle, Darwin's voyage); Drake Passage (between Cape Horn and Antarctica — open ocean, brutal seas). Pre-Panama Canal (1914), Magellan was the dominant commercial route — protected, navigable. Today rarely used commercially. The Cape Horn / Drake Passage rounding has cultural status: square-rigger sailors who'd done it earned the right to wear a gold earring and have one foot on the table at meals. With Suez attacks and Panama drought issues post-2023, some carriers have re-evaluated cape routes — though Magellan and Cape Horn now rarely beat Suez+Panama." },
+    { n:7, topic:"gk", subtopic:"history", stem:"The 1648 Peace of Westphalia is generally considered the foundation of which modern political concept?", options:["Universal human rights","Free trade","State sovereignty within defined territorial borders","Direct democracy"], correct:2, why:"Westphalia (ending the Thirty Years' War) established the principle of sovereign states with non-interference in each other's internal affairs — the bedrock of the modern state system. Every contemporary debate about \"sovereignty\" vs. \"intervention\" still operates inside this 377-year-old frame.", deepDive:"The Thirty Years' War (1618-48) was a religious-political bloodbath that killed perhaps 1/3 of central European population. The peace was actually two simultaneous treaties (Münster + Osnabrück, hence 'Peace of Westphalia') signed in 1648. Three principles emerged: (1) sovereign states have exclusive authority within defined territorial borders; (2) non-interference in domestic affairs (especially religion — 'cuius regio, eius religio'); (3) legal equality of states regardless of size. This is the architecture of the modern international system. Every contemporary debate about R2P (Responsibility to Protect doctrine, 2005), humanitarian intervention, sanctions extraterritoriality, ICC jurisdiction — runs through Westphalian sovereignty. Books to read: Henry Kissinger, 'World Order' (Chapter 2 is on Westphalia)." },
+    { n:8, topic:"gk", subtopic:"science", stem:"In thermodynamics, entropy fundamentally measures:", options:["The total energy of a system","The temperature of a system at equilibrium","The disorder, or number of accessible microstates, of a system","The mass-energy equivalence"], correct:2, why:"Entropy quantifies the number of microstates consistent with a system's macrostate — i.e., disorder. The Second Law: entropy of a closed system never decreases. The conceptual reason heat flows hot→cold, why perpetual motion is impossible, and why time has a direction.", deepDive:"Boltzmann's formula: S = k log W, where W is the number of microstates consistent with the observed macrostate. Higher W = more entropy = more disorder. The Second Law of Thermodynamics says entropy of an isolated system never decreases — it gives time its direction (we can scramble an egg, can't unscramble it). This explains why heat flows hot→cold (more accessible microstates at thermal equilibrium), why perpetual motion machines are impossible, why information is physical. Shannon (1948) defined 'information entropy' analogously — measure of uncertainty in a message. The deep connection between thermodynamic and information entropy underwrites computing physics, including Landauer's principle (erasing one bit of information must dissipate at least kT ln 2 of heat) — relevant to the energy economics of AI data centres." },
+    { n:9, topic:"gk", subtopic:"literature", stem:"Who wrote 'One Hundred Years of Solitude' (1967), the foundational novel of magical realism?", options:["Jorge Luis Borges","Gabriel García Márquez","Mario Vargas Llosa","Pablo Neruda"], correct:1, why:"García Márquez — Colombian, Nobel Laureate 1982. Borges (Argentine) wrote labyrinthine short fiction; Vargas Llosa (Peruvian) is also a Nobel novelist but more political-realist; Neruda was a poet. The Buendía family saga in Macondo is the canonical magical-realism text.", deepDive:"Gabriel García Márquez (Colombian, 1927-2014, Nobel 1982) — central figure of the Latin American Boom alongside Borges (Argentine), Cortázar (Argentine), Vargas Llosa (Peruvian, also Nobel), Fuentes (Mexican). 'Cien Años de Soledad' (1967): seven generations of the Buendía family in fictional Macondo, blending myth, history, civil war, and fantastic events presented matter-of-factly. The defining feature of magical realism: extraordinary events embedded without surprise in realistic socio-historical context. Other essential GGM: 'Love in the Time of Cholera' (1985), 'Chronicle of a Death Foretold' (1981), 'The Autumn of the Patriarch' (1975). His journalism — he started as a reporter — is also outstanding: 'News of a Kidnapping' (1996) on Pablo Escobar's kidnappings is essential. The literary movement broadly: Toni Morrison, Salman Rushdie, Haruki Murakami, Ben Okri all owe him." },
+    { n:10, topic:"gk", subtopic:"economics", stem:"The 'invisible hand' was introduced by which economist, in which work?", options:["John Maynard Keynes — General Theory (1936)","David Ricardo — Principles of Political Economy (1817)","Adam Smith — The Wealth of Nations (1776)","Karl Marx — Das Kapital (1867)"], correct:2, why:"Adam Smith, Wealth of Nations (1776) — though the phrase appears only three times in Smith's whole corpus and his Theory of Moral Sentiments (1759) is more central to his actual ethical-economic system. Ricardo gave us comparative advantage; Keynes gave us aggregate demand; Marx gave us the labour theory of value.", deepDive:"Adam Smith (Scottish, 1723-1790) — moral philosopher first, economist second. The 'invisible hand' phrase appears only three times across his entire body of work, but it captured something real: under conditions of competition and self-interest, individual actors pursuing their own gain produce collectively beneficial outcomes through efficient resource allocation. CRITICAL: Smith was NOT a pure laissez-faire ideologue. He supported public goods (education, infrastructure), worried about inequality and labour exploitation, and was deeply sceptical of merchants ('People of the same trade seldom meet together... but the conversation ends in a conspiracy against the public'). His full ethical-economic framework is in The Theory of Moral Sentiments (1759), where 'sympathy' (what we'd now call empathy) is foundational — markets work only inside a moral society. Modern misuse of Smith — invoking him to oppose any state role — is a deep misreading. Read: Emma Rothschild, 'Economic Sentiments' for the corrective." }
+  ]
+};
 
-function ls(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
-function lsSet(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+const TOPIC_LABEL = { domain:'industry & ops', gk:'general knowledge' };
 
-function loadState(){ try{ const s=ls(SK); if(s) state=JSON.parse(s); }catch(e){} }
-function saveState(){ lsSet(SK, JSON.stringify(state)); }
+// ─── STATE ─────────────────────────────────────────────────────────
+const SK = 'mb_v2_state';
+let state = { sessions: [], streak: 0, lastDate: null };
+function loadState(){ try { const s = localStorage.getItem(SK); if (s) state = Object.assign(state, JSON.parse(s)); } catch(e){} }
+function saveState(){ try { localStorage.setItem(SK, JSON.stringify(state)); } catch(e){} }
 
-function getKey(){ return ls('mb_api_key')||''; }
-function today(){ return new Date().toISOString().split('T')[0]; }
-function fmtDate(){ return new Date().toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long',year:'numeric'}); }
-function fmtDateShort(){ return new Date().toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric'}); }
-
+// ─── HELPERS ───────────────────────────────────────────────────────
+function showScreen(id){
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
 function setDates(){
-  const d = fmtDate();
-  ['date-load','date-home','date-briefing','date-quiz','date-results'].forEach(id=>{
-    const el=document.getElementById(id); if(el) el.textContent=d;
+  ['date-loading','date-home','date-briefing','date-quiz','date-results'].forEach(id => {
+    const el = document.getElementById(id); if (el) el.textContent = TODAY.dateLabel;
+  });
+}
+function setStreak(){
+  ['streak-loading','streak-home','streak-briefing'].forEach(id => {
+    const el = document.getElementById(id); if (!el) return;
+    if (state.streak > 0) {
+      el.classList.remove('hidden');
+      el.querySelector('span').textContent = state.streak;
+    } else el.classList.add('hidden');
   });
 }
 
-function showScreen(id){
-  document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));
-  document.getElementById(id).classList.add('active');
-  window.scrollTo(0,0);
-}
-
-function saveApiKey(){
-  const key = document.getElementById('api-key-input').value.trim();
-  if(!key.startsWith('sk-ant-')){ alert('That doesn\'t look like a valid Anthropic API key (should start with sk-ant-).'); return; }
-  lsSet('mb_api_key', key);
-  init();
-}
-
-function animateSteps(cb){
-  const steps=['ls1','ls2','ls3','ls4','ls5'];
-  let i=0;
-  const tick=()=>{
-    if(i>0){ const prev=document.getElementById(steps[i-1]); prev.classList.remove('active'); prev.classList.add('done'); }
-    if(i<steps.length){ const cur=document.getElementById(steps[i]); cur.classList.add('active'); i++; setTimeout(tick,1100); }
-    else cb();
+// ─── LOADING ANIMATION ─────────────────────────────────────────────
+function runLoadingAnim(done){
+  const steps = ['ls1','ls2','ls3','ls4','ls5'];
+  let i = 0;
+  const tick = () => {
+    if (i > 0) {
+      const prev = document.getElementById(steps[i-1]);
+      prev.classList.remove('active'); prev.classList.add('done');
+    }
+    if (i < steps.length) {
+      const cur = document.getElementById(steps[i]);
+      cur.classList.add('active');
+      i++;
+      setTimeout(tick, 600);
+    } else setTimeout(done, 350);
   };
   tick();
 }
 
-async function init(){
-  loadState();
-  setDates();
-  document.getElementById('streak-load').textContent = state.streak||0;
-  document.getElementById('streak-home').textContent = state.streak||0;
-
-  const key = getKey();
-  if(!key){ showScreen('screen-setup'); return; }
-
-  const todayDone = state.sessions.some(s=>s.date===today());
-  if(todayDone){ populateHome(); showScreen('screen-home'); return; }
-
-  showScreen('screen-loading');
-  animateSteps(()=>{});
-
-  try {
-    const result = await fetchBriefing(key);
-    quizQuestions = result.questions;
-    renderBriefing(result);
-    setTimeout(()=>showScreen('screen-briefing'), 400);
-  } catch(e){
-    showScreen('screen-briefing');
-    document.getElementById('error-zone').innerHTML=`
-      <div class="error-box">
-        ⚠️ ${e.message}
-        <br><button class="retry-btn" onclick="retryFetch()">Retry</button>
-      </div>`;
-  }
-}
-
-async function retryFetch(){
-  document.getElementById('error-zone').innerHTML='';
-  showScreen('screen-loading');
-  const key=getKey();
-  try {
-    const result=await fetchBriefing(key);
-    quizQuestions=result.questions;
-    renderBriefing(result);
-    setTimeout(()=>showScreen('screen-briefing'),400);
-  } catch(e){
-    showScreen('screen-briefing');
-    document.getElementById('error-zone').innerHTML=`<div class="error-box">⚠️ ${e.message}<br><button class="retry-btn" onclick="retryFetch()">Retry</button></div>`;
-  }
-}
-
-async function fetchBriefing(apiKey){
-  const system=`You are a world-class intelligence briefing analyst. You produce sharp, executive-level morning briefings for Shayan Ahmed — senior commercial and strategy executive at MGH Group, a ~$1B Singapore-headquartered logistics conglomerate operating across 26 countries, with core strength in Bangladesh and the Indian Subcontinent. His focus areas: global logistics & freight forwarding, Bangladesh macro & politics, Indian Subcontinent trade, global trade economics & tariff policy, AI & technology, oil markets & bunker fuel, geopolitical risk (US-China, Middle East, Red Sea corridor), general global affairs.
-
-Respond ONLY with a valid JSON object. No markdown, no preamble, no text outside the JSON.
-
-Schema:
-{
-  "headline": "One punchy 12-15 word headline — the single most important story today",
-  "sections": [
-    {"title": "Section title", "body": "3-4 sharp sentences. Specific, data-driven. Write like The Economist."}
-  ],
-  "questions": [
-    {"q": "Question text", "options": ["A. ...", "B. ...", "C. ...", "D. ..."], "answer": 0, "explanation": "1-2 sentences — why correct and why it matters"}
-  ]
-}
-
-sections: exactly 4 — Global macro, Logistics & trade, Bangladesh & ISC, Tech & AI.
-questions: exactly 15 MCQs:
-  - 4 from today's briefing content
-  - 4 on logistics / freight forwarding / shipping industry knowledge
-  - 3 on Bangladesh / ISC trade, economics, or geopolitics
-  - 2 on AI, technology, or digital transformation
-  - 2 wildcard general knowledge (history, economics, geography — with professional relevance)
-answer: integer 0-3. Make distractors plausible. Questions should challenge a well-read executive.
-
-CRITICAL: Your entire response must be ONLY the JSON object. Start your response with { and end with }. No other text before or after. No explanations. No "Here is your briefing". Just raw JSON.`;
-
-  const user=`Today is ${fmtDate()}. Use web search to pull the latest news, then generate today's morning briefing and 15-question quiz. Be specific — real figures, company names, data points.`;
-
-  const resp = await fetch('https://api.anthropic.com/v1/messages',{
-    method:'POST',
-    headers:{'Content-Type':'application/json','x-api-key':apiKey,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-access':'true'},
-    body:JSON.stringify({
-      model:'claude-sonnet-4-6',
-      max_tokens:6000,
-      system,
-      tools:[{"type":"web_search_20250305","name":"web_search"}],
-      messages:[{role:'user',content:user}]
-    })
-  });
-
-  const data = await resp.json();
-  if(!resp.ok) throw new Error(data.error?.message||'API error '+resp.status);
-
-  const textBlock = data.content.find(b=>b.type==='text');
-  if(!textBlock) throw new Error('API returned no text - please retry.');
-
-  let raw = textBlock.text.replace(/```json\s*/gi,'').replace(/```\s*/g,'').trim();
-  const start = raw.indexOf('{');
-  if(start===-1) throw new Error('No JSON in response - please retry.');
-
-  let depth=0, end=-1;
-  for(let i=start;i<raw.length;i++){
-    if(raw[i]==='{') depth++;
-    else if(raw[i]==='}'){depth--;if(depth===0){end=i;break;}}
-  }
-  let clean = end!==-1 ? raw.slice(start,end+1) : raw.slice(start);
-
-  let parsed;
-  try{ parsed=JSON.parse(clean); }
-  catch(e){
-    let fixed=clean.replace(/,\s*\{[^}]*$/,'').replace(/,\s*"[^"]*$/,'');
-    const openArr=(fixed.match(/\[/g)||[]).length-(fixed.match(/\]/g)||[]).length;
-    const openObj=(fixed.match(/\{/g)||[]).length-(fixed.match(/\}/g)||[]).length;
-    for(let i=0;i<openArr;i++) fixed+=']';
-    for(let i=0;i<openObj;i++) fixed+='}';
-    parsed=JSON.parse(fixed);
-  }
-
-  if(!parsed.sections||!parsed.questions) throw new Error('Incomplete response - please retry.');
-  return parsed;
-}
-
-function renderBriefing(data){
-  document.getElementById('briefing-edition').textContent='Edition · '+fmtDateShort();
-  let html='';
-  if(data.headline) html+=`<div class="briefing-lead">${data.headline}</div>`;
-  (data.sections||[]).forEach(s=>{
-    html+=`<div class="briefing-section">
+// ─── BRIEFING ──────────────────────────────────────────────────────
+function renderBriefing(){
+  document.getElementById('briefing-edition').textContent = TODAY.editionLabel;
+  let html = '';
+  if (TODAY.headline) html += `<div class="briefing-lead">${TODAY.headline}</div>`;
+  TODAY.sections.forEach(s => {
+    html += `<div class="briefing-section">
       <div class="briefing-section-title">${s.title}</div>
-      <div class="briefing-section-body">${s.body}</div>
-    </div>`;
+      <ul class="briefing-list">`;
+    s.items.forEach(item => {
+      const src = item.src ? ` <a class="src" href="${item.src.url}" target="_blank" rel="noopener">${item.src.name} ↗</a>` : '';
+      html += `<li class="briefing-item"><strong>${item.lead}</strong> ${item.body}${src}</li>`;
+    });
+    html += `</ul></div>`;
   });
-  document.getElementById('briefing-content').innerHTML=html;
+  html += `
+    <div class="lesson-block">
+      <div class="lesson-label">Learn something new</div>
+      <div class="lesson-title">${TODAY.lesson.title}</div>
+      ${TODAY.lesson.paragraphs.map(p => `<p>${p}</p>`).join('')}
+      <div class="lesson-why"><strong>Why it matters.</strong> ${TODAY.lesson.why}</div>
+    </div>
+  `;
+  document.getElementById('briefing-content').innerHTML = html;
+
+  const todayDone = state.sessions.some(s => s.date === TODAY.date);
+  const bar = document.getElementById('quiz-bar');
+  if (todayDone) {
+    document.getElementById('quiz-bar-text').textContent = 'Review your quiz';
+    document.getElementById('quiz-bar-sub').textContent = 'You\'ve already taken today\'s — review only';
+    bar.onclick = () => { goHome(); };
+  }
 }
 
-function populateHome(){
-  document.getElementById('streak-home').textContent=state.streak||0;
-  const sessions=state.sessions||[];
-  document.getElementById('stat-sessions').textContent=sessions.length;
-  if(sessions.length){
-    const avg=Math.round(sessions.reduce((a,s)=>a+(s.score/s.total),0)/sessions.length*100);
-    const best=Math.max(...sessions.map(s=>Math.round(s.score/s.total*100)));
-    document.getElementById('stat-avg').textContent=avg+'%';
-    document.getElementById('stat-best').textContent=best+'%';
+// ─── HOME ──────────────────────────────────────────────────────────
+function renderHome(){
+  const sessions = state.sessions || [];
+  document.getElementById('stat-sessions').textContent = sessions.length;
+  if (sessions.length) {
+    const total = TODAY.questions.length;
+    const avg = Math.round(sessions.reduce((a,s) => a + (s.score / s.total), 0) / sessions.length * 100);
+    const best = Math.max(...sessions.map(s => Math.round(s.score / s.total * 100)));
+    document.getElementById('stat-avg').textContent = avg + '%';
+    document.getElementById('stat-best').textContent = best + '%';
+  } else {
+    document.getElementById('stat-avg').textContent = '—';
+    document.getElementById('stat-best').textContent = '—';
   }
-  const hl=document.getElementById('history-list');
-  if(sessions.length){
-    hl.innerHTML=sessions.slice(-6).reverse().map(s=>`
+  const hl = document.getElementById('history-list');
+  if (sessions.length) {
+    hl.innerHTML = sessions.slice(-7).reverse().map(s => `
       <div class="history-item">
         <span class="history-date">${s.displayDate}</span>
-        <span class="history-score">${s.score}/${s.total} · ${Math.round(s.score/s.total*100)}%</span>
+        <span class="history-score">${s.score}/${s.total} · ${Math.round(s.score / s.total * 100)}%</span>
       </div>`).join('');
   } else {
-    hl.innerHTML='<div style="font-size:13px;color:var(--ink3);padding:8px 0;font-family:var(--font-mono)">No sessions yet</div>';
+    hl.innerHTML = '<div class="history-empty">No sessions yet — read today\'s brief and take the quiz</div>';
   }
+  const todayInHistory = state.sessions.some(s => s.date === TODAY.date);
+  document.getElementById('done-note').style.display = todayInHistory ? 'block' : 'none';
+  document.getElementById('retake-btn').style.display = todayInHistory ? 'block' : 'none';
 }
 
+function resetToday(){
+  state.sessions = state.sessions.filter(s => s.date !== TODAY.date);
+  if (state.lastDate === TODAY.date) {
+    // un-roll today's streak contribution since the session is being redone
+    state.lastDate = null;
+  }
+  saveState();
+  qIdx = 0; answers = []; qLocked = false;
+  renderQ();
+  showScreen('screen-quiz');
+}
+
+// ─── QUIZ ──────────────────────────────────────────────────────────
+let qIdx = 0, answers = [], qLocked = false;
+
 function startQuiz(){
-  if(!quizQuestions.length){ alert('No questions loaded.'); return; }
-  currentQ=0; answers=[]; qAnswered=false;
-  renderQuestion();
+  if (state.sessions.some(s => s.date === TODAY.date)) {
+    goHome();
+    return;
+  }
+  qIdx = 0; answers = []; qLocked = false;
+  renderQ();
   showScreen('screen-quiz');
 }
 
 function renderProgress(){
-  document.getElementById('quiz-progress').innerHTML=quizQuestions.map((_,i)=>{
-    let c='qd'; if(i<currentQ)c+=' done'; else if(i===currentQ)c+=' active';
-    return`<div class="${c}"></div>`;
+  document.getElementById('quiz-progress').innerHTML = TODAY.questions.map((_, i) => {
+    let c = 'qd';
+    if (i < qIdx) c += ' done';
+    else if (i === qIdx) c += ' active';
+    return `<div class="${c}"></div>`;
   }).join('');
 }
 
-function renderQuestion(){
-  qAnswered=false;
-  const q=quizQuestions[currentQ];
+function renderQ(){
+  qLocked = false;
+  const q = TODAY.questions[qIdx];
   renderProgress();
-  document.getElementById('q-number').textContent=`Question ${currentQ+1} of ${quizQuestions.length}`;
-  document.getElementById('q-text').textContent=q.q;
-  const exp=document.getElementById('q-exp'); exp.style.display='none'; exp.textContent='';
-  const nb=document.getElementById('next-btn'); nb.classList.remove('show');
-  nb.textContent=currentQ<quizQuestions.length-1?'Next question →':'See results →';
-  const letters=['A','B','C','D'];
-  document.getElementById('q-options').innerHTML=q.options.map((o,i)=>`
-    <button class="q-opt" onclick="selectAnswer(${i})" id="opt-${i}">
-      <span class="opt-letter">${letters[i]}</span>
-      <span>${o.replace(/^[A-D]\.\s*/,'')}</span>
+  const sub = q.subtopic ? ` · ${q.subtopic.replace(/_/g,' ')}` : '';
+  document.getElementById('q-meta').innerHTML = `<span>Q${q.n} of ${TODAY.questions.length}</span><span>${TOPIC_LABEL[q.topic] || q.topic}${sub}</span>`;
+  document.getElementById('q-text').textContent = q.stem;
+  const exp = document.getElementById('q-exp');
+  exp.classList.remove('show','bad'); exp.textContent = '';
+  const nb = document.getElementById('next-btn');
+  nb.classList.remove('show');
+  nb.textContent = qIdx < TODAY.questions.length - 1 ? 'Next →' : 'See results →';
+  const letters = ['A','B','C','D'];
+  document.getElementById('q-options').innerHTML = q.options.map((o, i) => `
+    <button class="q-opt" onclick="pick(${i})" id="opt-${i}">
+      <span class="opt-letter">${letters[i]}</span><span>${o}</span>
     </button>`).join('');
 }
 
-function selectAnswer(idx){
-  if(qAnswered) return;
-  qAnswered=true;
-  const q=quizQuestions[currentQ];
-  answers.push({q:q.q,chosen:idx,correct:q.answer,explanation:q.explanation,options:q.options});
-  document.querySelectorAll('.q-opt').forEach((el,i)=>{
+function pick(i){
+  if (qLocked) return;
+  qLocked = true;
+  const q = TODAY.questions[qIdx];
+  const correct = i === q.correct;
+  answers.push({ n: q.n, topic: q.topic, subtopic: q.subtopic, stem: q.stem, picked: i, correct: q.correct, options: q.options, ok: correct, why: q.why });
+  document.querySelectorAll('.q-opt').forEach((el, idx) => {
     el.classList.add('locked');
-    if(i===q.answer) el.classList.add('correct');
-    else if(i===idx&&idx!==q.answer) el.classList.add('wrong');
+    if (idx === q.correct) el.classList.add('correct');
+    else if (idx === i && !correct) el.classList.add('wrong');
   });
-  const exp=document.getElementById('q-exp');
-  exp.textContent=q.explanation; exp.style.display='block';
+  const exp = document.getElementById('q-exp');
+  exp.classList.add('show');
+  if (!correct) exp.classList.add('bad');
+  exp.textContent = (correct ? '✓ ' : '✗ ') + q.why;
   document.getElementById('next-btn').classList.add('show');
 }
 
-function nextQuestion(){
-  currentQ++;
-  if(currentQ<quizQuestions.length) renderQuestion();
+function nextQ(){
+  qIdx++;
+  if (qIdx < TODAY.questions.length) { renderQ(); window.scrollTo(0, 0); }
   else showResults();
 }
 
+// ─── RESULTS ───────────────────────────────────────────────────────
 function showResults(){
-  const score=answers.filter(a=>a.chosen===a.correct).length;
-  const total=answers.length;
-  document.getElementById('results-fraction').textContent=`${score}/${total}`;
-  const pct=Math.round(score/total*100);
-  const verdicts=['Keep grinding','Getting sharper','Solid performance','Very sharp','Clean sweep'];
-  document.getElementById('results-verdict').textContent=verdicts[Math.min(Math.floor(pct/21),4)];
-  const letters=['A','B','C','D'];
-  document.getElementById('results-breakdown').innerHTML=answers.map(a=>{
-    const c=a.chosen===a.correct;
-    return`<div class="rb-item">
-      <div class="rb-dot ${c?'c':'w'}"></div>
-      <div>
-        <div class="rb-q">${a.q}</div>
-        <div class="rb-ans ${c?'c':'w'}">${c?'✓ '+a.options[a.correct].replace(/^[A-D]\.\s*/,''):'✗ You chose '+letters[a.chosen]+' · Correct: '+a.options[a.correct].replace(/^[A-D]\.\s*/,'')}</div>
-      </div>
-    </div>`;
-  }).join('');
+  const total = TODAY.questions.length;
+  const correct = answers.filter(a => a.ok).length;
+  document.getElementById('results-fraction').innerHTML = `${correct}<span class="denom">/${total}</span>`;
+  const pct = correct / total;
+  const verdict = pct >= 0.95 ? 'Clean sweep' : pct >= 0.8 ? 'Very sharp' : pct >= 0.65 ? 'Solid performance' : pct >= 0.4 ? 'Getting sharper' : 'Keep grinding';
+  document.getElementById('results-verdict').textContent = verdict;
 
-  const todayStr=today();
-  if(!state.sessions.some(s=>s.date===todayStr)){
-    state.sessions.push({date:todayStr,displayDate:fmtDateShort(),score,total});
-    const yesterday=new Date(); yesterday.setDate(yesterday.getDate()-1);
-    state.streak=(state.lastDate===yesterday.toISOString().split('T')[0]||state.lastDate===todayStr)?(state.streak||0)+1:1;
-    state.lastDate=todayStr;
+  // by topic
+  const buckets = {};
+  answers.forEach(a => {
+    if (!buckets[a.topic]) buckets[a.topic] = { c: 0, t: 0 };
+    buckets[a.topic].t++;
+    if (a.ok) buckets[a.topic].c++;
+  });
+  document.getElementById('topic-grid').innerHTML = Object.entries(buckets).map(([k, v]) => `
+    <div class="topic-row"><span class="name">${TOPIC_LABEL[k] || k}</span><span class="val ${v.c === v.t ? 'full' : ''}">${v.c}/${v.t}${v.c === v.t ? ' ✓' : ''}</span></div>
+  `).join('');
+
+  // streak (already-done check)
+  const todayDone = state.sessions.some(s => s.date === TODAY.date);
+  if (!todayDone) {
+    const yesterday = new Date(TODAY.date + 'T00:00:00');
+    yesterday.setDate(yesterday.getDate() - 1);
+    const ystr = yesterday.toISOString().split('T')[0];
+    if (correct >= 7) {
+      state.streak = (state.lastDate === ystr) ? state.streak + 1 : 1;
+    } else {
+      state.streak = 0;
+    }
+    state.lastDate = TODAY.date;
+    state.sessions.push({
+      date: TODAY.date,
+      displayDate: TODAY.dateLabel.replace(/^[A-Z][a-z]+ · /, ''),
+      score: correct,
+      total,
+      answers: answers.map(a => ({ n:a.n, topic:a.topic, subtopic:a.subtopic, stem:a.stem, picked:a.picked, correct:a.correct, ok:a.ok }))
+    });
+    if (state.sessions.length > 90) state.sessions = state.sessions.slice(-90);
     saveState();
   }
+  setStreak();
+  document.getElementById('results-streak-wrap').innerHTML = state.streak > 0 ? `<div class="results-streak">🔥 ${state.streak}-day streak</div>` : '';
+
+  // takeaway
+  const dom = (buckets.domain || {c:0,t:0});
+  const gk  = (buckets.gk     || {c:0,t:0});
+  const takeaway = (dom.c >= 4 && gk.c >= 4) ? 'Solid both sides. Today\'s rabbit hole: the freight surcharge stack (BAF + EFS + LSS) — where the next quarter\'s margin pressure compounds.'
+    : (dom.c >= 4) ? 'Industry side is sharp; GK is where the gap is. Pick one corner — history, science, lit — and spend 15 min reading something orthogonal to your day.'
+    : (gk.c >= 4) ? 'Broad knowledge is there; the ops side needs work. The vessel/alliance/pricing layer is where commercial decisions get made — worth a deeper pass.'
+    : 'Mixed across both. Don\'t spread thin — pick one industry topic (e.g. liner alliances post-Gemini) and one GK domain this week, go deep on each.';
+  document.getElementById('takeaway').innerHTML = `<strong>What to read next</strong>${takeaway}`;
+
+  // breakdown
+  const letters = ['A','B','C','D'];
+  document.getElementById('results-breakdown').innerHTML = answers.map(a => `
+    <div class="rb-item">
+      <div class="rb-dot ${a.ok ? 'c' : 'w'}"></div>
+      <div>
+        <div class="rb-q">${a.stem}</div>
+        <div class="rb-ans ${a.ok ? 'c' : 'w'}">${a.ok ? '✓ ' + a.options[a.correct] : '✗ You chose ' + letters[a.picked] + ' · Correct: ' + letters[a.correct] + '. ' + a.options[a.correct]}</div>
+      </div>
+    </div>`).join('');
+
+  // deep dives — only for what was missed
+  const wrongs = answers.filter(a => !a.ok);
+  const ddLabel = document.getElementById('dd-label');
+  const ddBlock = document.getElementById('deep-dives');
+  if (wrongs.length > 0) {
+    ddLabel.style.display = 'block';
+    ddBlock.innerHTML = wrongs.map(a => {
+      const q = TODAY.questions.find(x => x.n === a.n);
+      const tag = (q.subtopic || q.topic).replace(/_/g,' ');
+      const body = (q.deepDive || q.why || '').trim();
+      return `<div class="dd-item">
+        <span class="dd-tag">${tag}</span>
+        <div class="dd-q">${a.stem}</div>
+        <div class="dd-correct">Correct: ${letters[a.correct]}. ${a.options[a.correct]}</div>
+        <div class="dd-body">${body}</div>
+      </div>`;
+    }).join('');
+  } else {
+    ddLabel.style.display = 'block';
+    ddLabel.textContent = 'No misses — well done';
+    ddBlock.innerHTML = `<div class="takeaway" style="font-style:normal"><strong>Clean</strong>${total}/${total} today. Tomorrow's curriculum ratchets harder on the topics you nailed.</div>`;
+  }
+
   showScreen('screen-results');
 }
 
-function goHome(){ populateHome(); showScreen('screen-home'); }
+function goHome(){
+  renderHome();
+  setStreak();
+  showScreen('screen-home');
+}
+
+// ─── INIT ──────────────────────────────────────────────────────────
+function init(){
+  loadState();
+  setDates();
+  setStreak();
+  renderBriefing();
+  runLoadingAnim(() => {
+    const todayDone = state.sessions.some(s => s.date === TODAY.date);
+    if (todayDone || state.sessions.length > 0) {
+      renderHome();
+      showScreen('screen-home');
+    } else {
+      showScreen('screen-briefing');
+    }
+  });
+}
 
 init();
 </script>
