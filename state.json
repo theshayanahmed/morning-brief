@@ -1,0 +1,172 @@
+{
+  "streak": 0,
+  "last_session_date": "2026-05-12",
+  "questions_seen": [
+    "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
+    "A 'Neo-Panamax' container vessel is sized to:",
+    "In container shipping, 'demurrage' charges (as distinct from detention) apply specifically to:",
+    "Which two carriers form the 'Gemini Cooperation' alliance that began operating in February 2025 after the dissolution of 2M?",
+    "The Drewry World Container Index (WCI) and the Shanghai Containerized Freight Index (SCFI) differ in that:",
+    "The Strait of Hormuz — through which roughly a fifth of world oil trade passes — separates which two bodies of water?",
+    "Gabriel García Márquez's 'One Hundred Years of Solitude' (1967) is most closely associated with which literary movement?",
+    "The endosymbiotic theory holds that mitochondria originated as:",
+    "In mainstream Hindu cosmology, the Trimurti (the three principal deities representing creation, preservation, and dissolution) consists of:",
+    "Which composer is most associated with bridging the Classical and Romantic eras of Western art music, transforming the symphony as a form?",
+    "Under Incoterms 2020, which Incoterm requires the seller to procure insurance covering 'all risks' (Institute Cargo Clauses A or equivalent) for the buyer's benefit?",
+    "Which of the following best describes a 'Switch Bill of Lading' in international shipping?",
+    "On a container freight invoice, the 'BAF' (Bunker Adjustment Factor) surcharge is intended to:",
+    "Under EU Everything But Arms (EBA), Bangladesh currently exports duty-free to the EU. After Bangladesh's LDC graduation in November 2026, EBA preferences are extended under what arrangement?",
+    "The IATA volumetric (dimensional) weight divisor used to compute chargeable weight for general air cargo is:",
+    "The Treaty of Westphalia (1648) is conventionally cited as the foundation of which concept in international relations?",
+    "Heisenberg's uncertainty principle states that:",
+    "Euler's identity — often called the 'most beautiful equation in mathematics' — is:",
+    "'Guernica' (1937), the large mural-sized painting depicting the bombing of a Basque town during the Spanish Civil War, was painted by:",
+    "The 'Sapir–Whorf hypothesis' in linguistics proposes that:"
+  ],
+  "learn_history": [
+    { "date": "2026-05-10", "topic": "The Suez Crisis of 1956", "bucket": "history" },
+    { "date": "2026-05-11", "topic": "Aircraft leasing industry (AerCap, SMBC, Avolon, ALC, BOC)", "bucket": "industry_deep_dive" },
+    { "date": "2026-05-12", "topic": "The Indian Monsoon — South Asia's annual economic engine", "bucket": "geography" }
+  ],
+  "curriculum_progress": {
+    "incoterms":      { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
+    "documentation":  { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "bill_of_lading": { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
+    "customs":        { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "vessels":        { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "port_ops":       { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "pricing":        { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
+    "liner_alliances":{ "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "air_freight":    { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
+    "multimodal":     { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "trade_lanes":    { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "ftas":           { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
+    "marine_insurance":{"count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "compliance":     { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "industry_econ":  { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] }
+  },
+  "gk_progress": {
+    "history":         { "count": 2, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
+    "geography":       { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "physical_science":{ "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
+    "life_science":    { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "mathematics":     { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
+    "literature":      { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "arts":            { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
+    "music":           { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "religion":        { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "political_theory":{ "count": 1, "last_seen": "2026-05-10", "difficulty": 1, "rolling_score": [] },
+    "economics":       { "count": 1, "last_seen": "2026-05-10", "difficulty": 1, "rolling_score": [] },
+    "linguistics":     { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
+    "sport":           { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "pop_culture":     { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] }
+  },
+  "history": [],
+  "today": {
+    "date": "2026-05-12",
+    "current_q": 1,
+    "answers": [],
+    "questions": [
+      {
+        "n": 1,
+        "topic": "domain",
+        "subtopic": "incoterms",
+        "stem": "Under Incoterms 2020, which Incoterm requires the seller to procure insurance covering 'all risks' (Institute Cargo Clauses A or equivalent) for the buyer's benefit?",
+        "options": ["CIF (Cost, Insurance and Freight)", "CIP (Carriage and Insurance Paid To)", "DAP (Delivered at Place)", "FOB (Free on Board)"],
+        "correct": 1,
+        "why": "Incoterms 2020 split CIF and CIP on insurance: CIF still requires only Clauses C (named perils, marine only), but CIP now requires Clauses A (all-risks). DAP/FOB carry no seller insurance obligation.",
+        "deepDive": "A key Incoterms 2020 change versus 2010 was the divergence of CIF and CIP on insurance level. Under 2010, both required only the minimum Institute Cargo Clauses C — fine for bulk commodities (the original use case of CIF), but too thin for high-value manufactured goods routed multimodally. The 2020 revision lifted CIP to Clauses A (all-risks) while leaving CIF at Clauses C, reflecting CIP's typical use for containerised, finished goods. The practical implication: a buyer importing electronics CIP Chittagong gets all-risks cover from origin; a buyer importing bulk grain CIF Mongla gets only named-perils cover and should top up. Failure to read this difference is one of the most common contracting errors among non-specialist buyers."
+      },
+      {
+        "n": 2,
+        "topic": "domain",
+        "subtopic": "bill_of_lading",
+        "stem": "Which of the following best describes a 'Switch Bill of Lading' in international shipping?",
+        "options": ["A bill of lading reissued in digital form to replace a paper original", "A second bill of lading issued (typically at a transshipment hub) to replace the original, often changing shipper, consignee, or port details", "A bill of lading endorsed to a bank as security under a letter of credit", "A bill released electronically at destination via telex to bypass paper presentation"],
+        "correct": 1,
+        "why": "A Switch BL is a fresh set of original bills issued in place of the first set — typically used in triangular trade to hide the real shipper/origin from the end buyer, or to redirect cargo. Legitimate but carrying real fraud and double-claim risk.",
+        "deepDive": "Switch bills of lading are common in commodity and middleman trades — a Singapore-based trader buys ex-factory in China, ships goods toward an end-buyer in Bangladesh, and wants the BD buyer to see the Singapore trader (not the original Chinese supplier) as shipper. The carrier surrenders the first set and issues a second 'switched' set at the transshipment port with new shipper/consignee/loading-port particulars. Risks: the carrier must collect *all* original first-set bills before issuing the switch — otherwise two valid sets of originals exist, and either could be presented for delivery. Compliance teams flag switch-BL requests because they're a common vector for sanctions evasion (masking Russia/Iran-origin cargo) and trade-based money laundering."
+      },
+      {
+        "n": 3,
+        "topic": "domain",
+        "subtopic": "pricing",
+        "stem": "On a container freight invoice, the 'BAF' (Bunker Adjustment Factor) surcharge is intended to:",
+        "options": ["Pass through fluctuations in marine fuel costs to shippers", "Compensate for currency fluctuations between invoicing and settlement", "Recover capex on IMO 2020 low-sulphur scrubber retrofits", "Reflect vessel-sharing imbalances between carriers under a VSA"],
+        "correct": 0,
+        "why": "BAF (Bunker Adjustment Factor) = a fuel surcharge passing through bunker price moves. CAF handles currency. LSS specifically addresses low-sulphur compliance cost. ECA covers Emission Control Area premiums.",
+        "deepDive": "Container freight bills decompose into base ocean rate plus a stack of surcharges, each addressing a different cost driver. **BAF** floats bunker cost — usually formulaic (e.g. $X per FEU per $50/t move in Rotterdam VLSFO). **CAF** (Currency Adjustment Factor) handles the gap between USD invoicing and the carrier's home-currency costs. **LSS** (Low Sulphur Surcharge) was introduced specifically for IMO 2020 0.5% sulphur compliance — some carriers folded LSS into BAF; others kept it separate. **ECA** premiums apply in Emission Control Areas (Baltic, North Sea, North American 200nm zone). **PSS** (Peak Season) and **GRI** (General Rate Increase) are demand-driven, not cost-recovery. Surcharge transparency was a major FMC battleground in the 2022 OSRA — carriers can no longer impose surcharges without an itemised, contemporaneous tariff filing."
+      },
+      {
+        "n": 4,
+        "topic": "domain",
+        "subtopic": "ftas",
+        "stem": "Under EU Everything But Arms (EBA), Bangladesh currently exports duty-free to the EU. After Bangladesh's LDC graduation in November 2026, EBA preferences are extended under what arrangement?",
+        "options": ["They expire immediately at graduation", "A 5-year automatic transition to November 2031 under standard WTO rules", "A 3-year EU-negotiated transition to November 2029", "They convert automatically to GSP+ status"],
+        "correct": 2,
+        "why": "The EU's standard LDC-graduation transition is 3 years of continued EBA preferences. For Bangladesh that runs to November 2029. GSP+ requires a separate application and ratification of 32 international conventions; it is not automatic.",
+        "deepDive": "The EU's LDC-graduation transition rules give a 3-year preferences extension to graduating countries — so Bangladesh's EBA duty-free access continues to November 2029. After that, three options: (1) **GSP+** — duty-free on 66% of EU tariff lines, but requires ratification of 32 conventions on labour, human rights, environment, and good governance, and is *not* available if a country's share of total extra-EU imports for a product section exceeds 6%. Bangladesh's combined share of HS 61/62/63 apparel imports is over 20% — well above the safeguard threshold — so GSP+ for apparel is structurally blocked even if BD qualifies otherwise. (2) **Standard GSP** with MFN-9–12% tariffs. (3) An **Economic Partnership Agreement** — a fuller bilateral FTA, which the EU has so far not entered with any South Asian country. The strategic implication: even with full GSP+ effort, apparel will not benefit from preferences after 2029 unless the safeguard math changes."
+      },
+      {
+        "n": 5,
+        "topic": "domain",
+        "subtopic": "air_freight",
+        "stem": "The IATA volumetric (dimensional) weight divisor used to compute chargeable weight for general air cargo is:",
+        "options": ["4,800 cm³/kg", "5,000 cm³/kg", "6,000 cm³/kg", "7,000 cm³/kg"],
+        "correct": 2,
+        "why": "IATA general-cargo divisor is 6,000 cm³/kg (equivalent to 166.67 kg/m³). Chargeable weight = greater of actual or volumetric. Couriers/parcel networks often use 5,000 cm³/kg — a *tighter* divisor that captures more low-density freight as billable.",
+        "deepDive": "Air freight is sold by chargeable weight = max(actual kg, volume in cm³ ÷ 6,000) for general IATA cargo — the 6,000 divisor corresponds to a density of 166.67 kg/m³, the rough breakeven between light, voluminous cargo (where space is the constraint) and dense cargo (where weight is). Integrators and parcel carriers — FedEx, UPS, DHL Express — typically apply 5,000 cm³/kg, a tighter divisor (200 kg/m³) that captures more bulky-but-light shipments as space-billable. Knowing the divisor is part of every air-freight pricing conversation: a shipper of foam packaging or apparel-on-hangers will always be volumetric-billed, while a shipper of pharmaceuticals or batteries is almost always actual-weight. Carriers also apply higher-density divisors selectively for specific commodities or charter arrangements."
+      },
+      {
+        "n": 6,
+        "topic": "gk",
+        "subtopic": "history",
+        "stem": "The Treaty of Westphalia (1648) is conventionally cited as the foundation of which concept in international relations?",
+        "options": ["Free trade and comparative advantage", "State sovereignty and the modern nation-state system", "Collective security via standing international institutions", "Universal human rights"],
+        "correct": 1,
+        "why": "Westphalia (1648) ended the Thirty Years' War in central Europe and is the conventional origin point of the principle that sovereign states have exclusive authority within their borders — 'Westphalian sovereignty', still the default unit of the international system.",
+        "deepDive": "The Peace of Westphalia (1648) was actually two treaties — Münster and Osnabrück — that ended the Thirty Years' War, a devastating religious conflict that killed roughly a third of central Europe's population. Its conceptual legacy was the principle that each sovereign ruler (regardless of religion) held exclusive authority over their territory, and that other states should not intervene in domestic affairs. International-relations theory still describes the basic state-centric architecture of the global system as 'Westphalian'. Revisionist historians argue the principle was articulated earlier and codified more diffusely, but the symbolic anchor remains 1648. The modern challenges to Westphalian order — humanitarian intervention, ICC jurisdiction, transnational tech and capital, climate negotiations — are all framed against this baseline."
+      },
+      {
+        "n": 7,
+        "topic": "gk",
+        "subtopic": "physical_science",
+        "stem": "Heisenberg's uncertainty principle states that:",
+        "options": ["The speed of light is constant in all inertial reference frames", "Energy is emitted and absorbed only in discrete quantised packets", "There is a fundamental limit to how precisely position and momentum of a particle can be known simultaneously", "Entropy of an isolated system never decreases"],
+        "correct": 2,
+        "why": "Heisenberg (1927) showed Δx · Δp ≥ ħ/2 — position and momentum cannot both be measured to arbitrary precision. It's a limit of nature, not of instruments. Statement A is special relativity; B is Planck's quantum hypothesis; D is the second law of thermodynamics.",
+        "deepDive": "Werner Heisenberg's 1927 paper showed that for conjugate variable pairs — position/momentum, energy/time — there is a fundamental product of uncertainties bounded below by ℏ/2, where ℏ is the reduced Planck constant. This is not a statement about measurement disturbance (a common misunderstanding) but about what nature *is*: a particle does not simultaneously possess perfectly defined position and momentum values. The principle drives much of modern physics — it explains why atoms don't collapse (the electron cannot localise without gaining infinite kinetic energy), the quantum-tunnelling that powers semiconductor leakage currents and fusion in stars, and the practical performance ceilings of electron microscopes. The Bohr–Einstein debates of the late 1920s, ultimately won by the Copenhagen interpretation, centred on whether this uncertainty was epistemic (we don't know) or ontic (it doesn't have a value). Modern physics treats it as ontic."
+      },
+      {
+        "n": 8,
+        "topic": "gk",
+        "subtopic": "mathematics",
+        "stem": "Euler's identity — often called the 'most beautiful equation in mathematics' — is:",
+        "options": ["e^(iπ) + 1 = 0", "a² + b² = c²", "F = ma", "E = mc²"],
+        "correct": 0,
+        "why": "Euler's identity links five of mathematics' most fundamental constants — 0, 1, e, i, π — and three core operations (addition, multiplication, exponentiation). It falls out of Euler's formula e^(iθ) = cos θ + i sin θ at θ = π.",
+        "deepDive": "Euler's identity e^(iπ) + 1 = 0 derives from Euler's broader formula e^(iθ) = cos θ + i sin θ — substitute θ = π and you get e^(iπ) = -1, then add 1. Its aesthetic claim rests on packing the additive identity (0), multiplicative identity (1), the base of natural logarithms (e ≈ 2.718), the ratio of a circle's circumference to its diameter (π ≈ 3.14159), and the imaginary unit (i = √-1) into a single nine-character relation. Beyond beauty, it's foundational: complex exponentials are the language of signal processing (Fourier transforms), quantum mechanics (wavefunctions), electrical engineering (AC analysis via phasors), and control theory. Anywhere oscillation or rotation matters, Euler's formula is the engine."
+      },
+      {
+        "n": 9,
+        "topic": "gk",
+        "subtopic": "arts",
+        "stem": "'Guernica' (1937), the large mural-sized painting depicting the bombing of a Basque town during the Spanish Civil War, was painted by:",
+        "options": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Francisco Goya"],
+        "correct": 1,
+        "why": "Picasso painted Guernica in 1937 in response to the Luftwaffe and Italian air force's bombing of Guernica on 26 April 1937, on behalf of Franco's Nationalists. Monochrome, 3.5m × 7.8m, now hanging at the Reina Sofía, Madrid.",
+        "deepDive": "Pablo Picasso painted Guernica in Paris over five weeks in 1937 in response to the 26 April 1937 bombing of the Basque town of Guernica by the German Luftwaffe's Condor Legion and Italian Aviazione Legionaria, supporting Franco's Nationalist forces. Painted in monochrome — black, white, and grey — at 3.5m × 7.8m, the work is regarded as one of the most powerful anti-war statements in Western art. Picasso stipulated that Guernica should not return to Spain until democracy was restored; it sat at MoMA in New York for decades and only arrived in Spain in 1981. It now hangs at the Museo Reina Sofía in Madrid (not the Prado). A famous and possibly apocryphal exchange has a Nazi officer in occupied Paris ask Picasso, looking at a photo of the painting: 'Did you do that?' Picasso: 'No — you did.'"
+      },
+      {
+        "n": 10,
+        "topic": "gk",
+        "subtopic": "linguistics",
+        "stem": "The 'Sapir–Whorf hypothesis' in linguistics proposes that:",
+        "options": ["All human languages descend from a single Proto-World ancestor", "Language acquisition is bounded by a critical period in early childhood", "The structure of a language influences or shapes how its speakers perceive and think about the world", "Phonemic changes across languages follow regular, predictable 'sound laws'"],
+        "correct": 2,
+        "why": "Sapir–Whorf, or 'linguistic relativity', is the claim that language shapes thought. Strong forms (language determines thought) are largely rejected; weaker forms (language nudges habitual categorisation) have modest empirical support — colour terms, spatial frames, gender marking.",
+        "deepDive": "Linguistic relativity — associated with Edward Sapir (1884–1939) and his student Benjamin Lee Whorf (1897–1941) — proposes that the grammatical and lexical structure of a language influences its speakers' cognition. A 'strong' version (language *determines* thought) is essentially dead, refuted by translation, bilingualism, and cross-cultural cognitive experiments. A 'weak' version — language *nudges* habitual categories — survives in modern psycholinguistics. Documented effects: speakers of languages with finer colour terms discriminate hues faster; speakers of Guugu Yimithirr (which uses absolute cardinal directions rather than left/right) maintain superior dead-reckoning skills; grammatical gender shifts mild metaphorical associations. The hypothesis is often confused with Chomsky's universal grammar — which argues the opposite direction, that all languages share a deep biological substrate. The two coexist: surface variation atop universal structure, with the surface still pulling cognition somewhat."
+      }
+    ]
+  }
+}
