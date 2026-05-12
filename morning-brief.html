@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#1a3a2a">
+<title>The Morning Brief</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+:root {
+  --ink: #0e0e0e;
+  --ink2: #3a3a3a;
+  --ink3: #888;
+  --paper: #f8f6f1;
+  --paper2: #f0ede6;
+  --paper3: #e8e4db;
+  --accent: #1a3a2a;
+  --accent2: #2d5a3d;
+  --gold: #b8963e;
+  --green: #2d6a3f;
+  --red: #c0392b;
+  --serif: 'DM Serif Display', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, system-ui, sans-serif;
+  --mono: 'DM Mono', ui-monospace, Menlo, monospace;
+}
+html, body { height: 100%; background: var(--paper); color: var(--ink); font-family: var(--sans); }
+body { padding-bottom: env(safe-area-inset-bottom); }
+.screen { display: none; min-height: 100vh; min-height: 100dvh; animation: fadeIn 0.32s ease; }
+.screen.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+a { color: inherit; }
+
+/* MASTHEAD */
+.masthead {
+  background: var(--accent);
+  padding: 1.1rem 1.5rem 0.9rem;
+  padding-top: max(1.1rem, env(safe-area-inset-top));
+  position: sticky; top: 0; z-index: 10;
+}
+.masthead-inner { display: flex; align-items: flex-start; justify-content: space-between; max-width: 600px; margin: 0 auto; gap: 12px; }
+.publication { font-family: var(--serif); font-size: 22px; color: #fff; letter-spacing: -0.4px; line-height: 1.05; }
+.edition-sub { font-size: 10px; color: rgba(255,255,255,0.5); font-family: var(--mono); letter-spacing: 0.08em; text-transform: uppercase; margin-top: 4px; }
+.masthead-right { text-align: right; flex-shrink: 0; }
+.date-stamp { font-size: 10px; color: rgba(255,255,255,0.5); font-family: var(--mono); letter-spacing: 0.04em; }
+.streak-badge { display: inline-flex; align-items: center; gap: 4px; background: rgba(184,150,62,0.18); border: 1px solid rgba(184,150,62,0.4); border-radius: 20px; padding: 2px 9px; font-size: 10px; color: #d4ab5a; font-family: var(--mono); margin-top: 6px; }
+.streak-badge.hidden { display: none; }
+
+/* CONTENT */
+.content { max-width: 600px; margin: 0 auto; padding: 1.5rem; }
+
+/* LOADING */
+.loading-wrap { padding: 3rem 0 2rem; text-align: center; }
+.loading-icon { width: 44px; height: 44px; border: 2px solid var(--paper3); border-top-color: var(--accent); border-radius: 50%; margin: 0 auto 1.4rem; animation: spin 0.85s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-title { font-family: var(--serif); font-size: 22px; color: var(--ink); margin-bottom: 6px; }
+.loading-sub { font-size: 13px; color: var(--ink3); font-family: var(--mono); }
+.loading-steps { list-style: none; margin: 1.6rem auto 0; max-width: 280px; text-align: left; }
+.loading-steps li { font-size: 13px; color: var(--ink3); padding: 6px 0; font-family: var(--mono); display: flex; align-items: center; gap: 9px; transition: color 0.3s; }
+.loading-steps li.active { color: var(--ink); }
+.loading-steps li.done { color: var(--accent); }
+.loading-steps li::before { content: '○'; font-size: 10px; flex-shrink: 0; }
+.loading-steps li.active::before { content: '◉'; color: var(--gold); }
+.loading-steps li.done::before { content: '●'; color: var(--accent); }
+
+/* SECTION LABEL */
+.section-label { font-size: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink3); margin-bottom: 12px; }
+
+/* HOME */
+.score-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 1.5rem; }
+.score-card { background: var(--paper2); border: 1px solid var(--paper3); border-radius: 10px; padding: 1rem 0.6rem; text-align: center; }
+.score-card .num { font-family: var(--serif); font-size: 26px; color: var(--ink); line-height: 1.1; }
+.score-card .lbl { font-size: 10px; color: var(--ink3); margin-top: 4px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.05em; }
+.history-list { margin-bottom: 1.5rem; }
+.history-item { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--paper3); }
+.history-item:last-child { border-bottom: none; }
+.history-date { font-size: 13px; color: var(--ink2); }
+.history-score { font-size: 13px; font-family: var(--mono); color: var(--accent); font-weight: 500; }
+.history-empty { font-size: 13px; color: var(--ink3); padding: 8px 0; font-family: var(--mono); }
+.secondary-btn { width: 100%; background: var(--paper2); color: var(--ink); border: 1px solid var(--paper3); border-radius: 10px; padding: 13px; font-size: 14px; font-family: var(--sans); font-weight: 500; cursor: pointer; margin-bottom: 10px; transition: background 0.15s; }
+.secondary-btn:hover { background: var(--paper3); }
+.done-note { font-size: 11px; color: var(--ink3); text-align: center; font-family: var(--mono); padding: 10px 0 4px; letter-spacing: 0.04em; }
+
+/* BRIEFING */
+.briefing-lead { font-family: var(--serif); font-size: 21px; line-height: 1.4; color: var(--ink); margin-bottom: 1.5rem; font-style: italic; letter-spacing: -0.005em; }
+.briefing-section { margin-bottom: 1.6rem; }
+.briefing-section-title { font-size: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--gold); border-bottom: 1px solid var(--paper3); padding-bottom: 6px; margin-bottom: 12px; }
+.briefing-list { list-style: none; }
+.briefing-item { padding: 10px 0; font-size: 14px; line-height: 1.6; color: var(--ink2); border-bottom: 1px dotted var(--paper3); }
+.briefing-item:last-child { border-bottom: none; }
+.briefing-item strong { color: var(--ink); font-weight: 500; }
+.briefing-item .src { color: var(--accent); font-family: var(--mono); font-size: 11px; text-decoration: none; margin-left: 4px; white-space: nowrap; border-bottom: 1px solid rgba(26,58,42,0.3); padding-bottom: 1px; }
+.briefing-item .src:hover { border-bottom-color: var(--accent); }
+
+/* LESSON */
+.lesson-block { background: #fff; border: 1px solid var(--paper3); border-radius: 12px; padding: 1.4rem 1.4rem 1.5rem; margin-bottom: 1.5rem; }
+.lesson-label { font-size: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.12em; color: var(--gold); margin-bottom: 8px; }
+.lesson-title { font-family: var(--serif); font-style: italic; font-size: 22px; color: var(--ink); margin-bottom: 14px; line-height: 1.25; }
+.lesson-block p { font-size: 14px; line-height: 1.65; color: var(--ink2); margin-bottom: 12px; }
+.lesson-block p:last-of-type { margin-bottom: 0; }
+.lesson-why { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--paper3); font-size: 13px; line-height: 1.6; color: var(--ink2); }
+.lesson-why strong { color: var(--ink); }
+
+/* QUIZ BAR (CTA) */
+.quiz-bar { background: var(--accent); border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; transition: background 0.2s; margin-top: 1.5rem; gap: 14px; user-select: none; }
+.quiz-bar:hover, .quiz-bar:active { background: var(--accent2); }
+.quiz-bar-text { font-size: 15px; color: #fff; font-weight: 500; }
+.quiz-bar-sub { font-size: 11px; color: rgba(255,255,255,0.6); margin-top: 3px; font-family: var(--mono); letter-spacing: 0.03em; }
+.quiz-bar-arrow { color: rgba(255,255,255,0.7); font-size: 22px; line-height: 1; flex-shrink: 0; }
+
+/* QUIZ */
+.quiz-progress { display: flex; gap: 4px; margin-bottom: 1.4rem; flex-wrap: nowrap; }
+.qd { height: 3px; flex: 1; background: var(--paper3); border-radius: 2px; transition: background 0.3s; min-width: 8px; }
+.qd.done { background: var(--accent); }
+.qd.active { background: var(--gold); }
+.q-meta { display: flex; justify-content: space-between; align-items: center; font-size: 10px; font-family: var(--mono); color: var(--ink3); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px; }
+.q-text { font-family: var(--serif); font-size: 19px; line-height: 1.4; color: var(--ink); margin-bottom: 1.2rem; }
+.q-options { display: flex; flex-direction: column; gap: 9px; margin-bottom: 1.1rem; }
+.q-opt { background: var(--paper2); border: 1px solid var(--paper3); border-radius: 10px; padding: 13px 15px; font-size: 14px; color: var(--ink); cursor: pointer; transition: background 0.12s, border-color 0.12s, transform 0.08s; display: flex; align-items: flex-start; gap: 11px; font-family: var(--sans); text-align: left; width: 100%; line-height: 1.45; }
+.q-opt:hover:not(.locked) { background: var(--paper3); border-color: #ccc; }
+.q-opt:active:not(.locked) { transform: scale(0.997); }
+.q-opt.correct { background: #d4edda; border-color: #5a9e6f; color: #173a23; }
+.q-opt.wrong { background: #fde8e8; border-color: var(--red); color: #6a1818; }
+.q-opt.locked { cursor: default; }
+.opt-letter { font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--ink3); min-width: 14px; flex-shrink: 0; padding-top: 2px; }
+.q-opt.correct .opt-letter { color: var(--green); }
+.q-opt.wrong .opt-letter { color: var(--red); }
+.q-exp { background: var(--paper2); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 12px 14px; font-size: 13px; line-height: 1.6; color: var(--ink2); margin-bottom: 1.1rem; display: none; }
+.q-exp.show { display: block; }
+.q-exp.bad { border-left-color: var(--red); }
+.next-btn { width: 100%; background: var(--accent); color: #fff; border: none; border-radius: 10px; padding: 13px; font-size: 14px; font-family: var(--sans); font-weight: 500; cursor: pointer; display: none; transition: background 0.2s; margin-bottom: 2rem; }
+.next-btn:hover { background: var(--accent2); }
+.next-btn.show { display: block; }
+
+/* RESULTS */
+.results-hero { text-align: center; padding: 1.2rem 0 1.6rem; }
+.results-fraction { font-family: var(--serif); font-size: 64px; color: var(--ink); line-height: 1; }
+.results-fraction .denom { color: var(--ink3); font-size: 36px; }
+.results-verdict { font-size: 11px; color: var(--ink3); margin-top: 10px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.1em; }
+.results-streak { display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; background: rgba(184,150,62,0.15); border: 1px solid rgba(184,150,62,0.4); padding: 5px 12px; border-radius: 20px; font-family: var(--mono); font-size: 11px; color: #8a6f2e; }
+.topic-grid { background: var(--paper2); border: 1px solid var(--paper3); border-radius: 10px; padding: 16px 18px; margin-bottom: 1rem; }
+.topic-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px dotted var(--paper3); font-size: 13px; }
+.topic-row:last-child { border-bottom: none; }
+.topic-row .name { color: var(--ink2); }
+.topic-row .val { font-family: var(--mono); color: var(--ink); font-weight: 500; }
+.topic-row .val.full { color: var(--green); }
+.takeaway { background: var(--accent); color: #fff; border-radius: 10px; padding: 16px 18px; margin-bottom: 1rem; font-size: 14px; line-height: 1.55; font-style: italic; }
+.takeaway strong { font-style: normal; font-weight: 500; color: #d4ab5a; font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-bottom: 6px; }
+.rb-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--paper3); }
+.rb-item:last-child { border-bottom: none; }
+.rb-dot { width: 7px; height: 7px; border-radius: 50%; margin-top: 7px; flex-shrink: 0; }
+.rb-dot.c { background: var(--green); }
+.rb-dot.w { background: var(--red); }
+.rb-q { font-size: 13px; color: var(--ink2); line-height: 1.5; }
+.rb-ans { font-size: 11px; font-family: var(--mono); margin-top: 4px; }
+.rb-ans.c { color: var(--green); }
+.rb-ans.w { color: var(--red); }
+.primary-btn { width: 100%; background: var(--accent); color: #fff; border: none; border-radius: 10px; padding: 14px; font-size: 14px; font-family: var(--sans); font-weight: 500; cursor: pointer; transition: background 0.2s; margin-top: 1rem; }
+.primary-btn:hover { background: var(--accent2); }
+
+/* DEEP DIVES */
+.dd-item { background: #fff; border: 1px solid var(--paper3); border-radius: 12px; padding: 1.2rem 1.4rem 1.3rem; margin-bottom: 14px; }
+.dd-tag { display: inline-block; background: var(--paper2); color: var(--ink3); padding: 2px 8px; border-radius: 10px; font-family: var(--mono); font-size: 10px; margin-bottom: 10px; letter-spacing: 0.04em; text-transform: uppercase; }
+.dd-q { font-family: var(--serif); font-size: 16px; color: var(--ink); margin-bottom: 10px; line-height: 1.4; font-style: italic; }
+.dd-correct { font-family: var(--mono); font-size: 11px; color: var(--green); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--paper3); }
+.dd-body { font-size: 14px; line-height: 1.65; color: var(--ink2); }
+.text-link { background: none; border: none; font-size: 12px; color: var(--ink3); font-family: var(--mono); cursor: pointer; text-decoration: underline; display: block; margin: 14px auto 0; padding: 6px; letter-spacing: 0.02em; }
+.text-link:hover { color: var(--ink2); }
+
+@media (max-width: 540px) {
+  .masthead { padding: 1rem 1.1rem 0.85rem; }
+  .publication { font-size: 19px; }
+  .content { padding: 1.2rem 1.1rem; }
+  .briefing-lead { font-size: 19px; }
+  .q-text { font-size: 17px; }
+  .lesson-title { font-size: 20px; }
+  .results-fraction { font-size: 54px; }
+  .results-fraction .denom { font-size: 30px; }
+}
+</style>
+</head>
+<body>
+
+<!-- LOADING -->
+<div id="screen-loading" class="screen active">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub">Compiling your edition</div>
+      </div>
+      <div class="masthead-right">
+        <div class="date-stamp" id="date-loading"></div>
+        <div class="streak-badge hidden" id="streak-loading">🔥 <span></span> day streak</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="loading-wrap">
+      <div class="loading-icon"></div>
+      <div class="loading-title">Good morning, Shayan</div>
+      <div class="loading-sub">Compiling today's edition</div>
+      <ul class="loading-steps">
+        <li id="ls1">Macro · geopolitics · politics</li>
+        <li id="ls2">Bangladesh & subcontinent</li>
+        <li id="ls3">Trade, supply chains & freight</li>
+        <li id="ls4">Semiconductors & frontier tech</li>
+        <li id="ls5">Today's lesson + 15 questions</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- HOME -->
+<div id="screen-home" class="screen">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub">Personal intelligence digest</div>
+      </div>
+      <div class="masthead-right">
+        <div class="date-stamp" id="date-home"></div>
+        <div class="streak-badge hidden" id="streak-home">🔥 <span></span> day streak</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="section-label">Your performance</div>
+    <div class="score-grid">
+      <div class="score-card"><div class="num" id="stat-sessions">0</div><div class="lbl">Briefings</div></div>
+      <div class="score-card"><div class="num" id="stat-avg">—</div><div class="lbl">Avg score</div></div>
+      <div class="score-card"><div class="num" id="stat-best">—</div><div class="lbl">Best</div></div>
+    </div>
+    <div class="section-label">Recent sessions</div>
+    <div class="history-list" id="history-list"></div>
+    <button class="secondary-btn" onclick="showScreen('screen-briefing')">Read today's briefing →</button>
+    <div class="done-note" id="done-note" style="display:none">Quiz complete for today · Come back tomorrow</div>
+    <button class="text-link" id="retake-btn" style="display:none" onclick="resetToday()">↻ Retake today's quiz</button>
+  </div>
+</div>
+
+<!-- BRIEFING -->
+<div id="screen-briefing" class="screen">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub" id="briefing-edition">Edition</div>
+      </div>
+      <div class="masthead-right">
+        <div class="date-stamp" id="date-briefing"></div>
+        <div class="streak-badge hidden" id="streak-briefing">🔥 <span></span> day streak</div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div id="briefing-content"></div>
+    <div class="quiz-bar" id="quiz-bar" onclick="startQuiz()">
+      <div>
+        <div class="quiz-bar-text" id="quiz-bar-text">Test your knowledge</div>
+        <div class="quiz-bar-sub" id="quiz-bar-sub">10 questions · 5 industry · 5 general knowledge</div>
+      </div>
+      <div class="quiz-bar-arrow">›</div>
+    </div>
+  </div>
+</div>
+
+<!-- QUIZ -->
+<div id="screen-quiz" class="screen">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub">Knowledge check</div>
+      </div>
+      <div class="masthead-right">
+        <div class="date-stamp" id="date-quiz"></div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="quiz-progress" id="quiz-progress"></div>
+    <div class="q-meta" id="q-meta"></div>
+    <div class="q-text" id="q-text"></div>
+    <div class="q-options" id="q-options"></div>
+    <div class="q-exp" id="q-exp"></div>
+    <button class="next-btn" id="next-btn" onclick="nextQ()">Next →</button>
+  </div>
+</div>
+
+<!-- RESULTS -->
+<div id="screen-results" class="screen">
+  <div class="masthead">
+    <div class="masthead-inner">
+      <div>
+        <div class="publication">The Morning Brief</div>
+        <div class="edition-sub">Session complete</div>
+      </div>
+      <div class="masthead-right">
+        <div class="date-stamp" id="date-results"></div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="results-hero">
+      <div class="results-fraction" id="results-fraction"></div>
+      <div class="results-verdict" id="results-verdict"></div>
+      <div id="results-streak-wrap"></div>
+    </div>
+    <div class="section-label">By topic</div>
+    <div class="topic-grid" id="topic-grid"></div>
+    <div class="takeaway" id="takeaway"></div>
+    <div class="section-label">Question by question</div>
+    <div id="results-breakdown"></div>
+    <div class="section-label" id="dd-label" style="display:none">Things to read more about</div>
+    <div id="deep-dives"></div>
+    <button class="primary-btn" onclick="goHome()">Done</button>
+  </div>
+</div>
+
+<script>
+// ─── DATA (baked in by scheduled task) ─────────────────────────────
+const TODAY = {
+  date: "2026-05-12",
+  dateLabel: "Tue · 12 May 2026",
+  editionLabel: "Edition · Tue 12 May",
+  headline: "Trump–Xi opens in 48 hours; Hormuz at day 69; Munir warns India on the May-war anniversary; HBM sold out through 2026.",
+  sections: [
+    { title: "Macro · geopolitics · politics", items: [
+      { lead: "Trump–Xi summit T-48h.", body: "US–China vice-premiers prebuilding in Seoul 12–13 May: agriculture, Boeing orders, a standing 'Board of Trade'. CFR's read: Xi holds the cards on rare earths and Iran. Expect modest, not transformational, outputs.", src: { name: "CNBC", url: "https://www.cnbc.com/2026/05/11/trump-xi-summit-beijing-global-leaders-iran-war-taiwan-strait-of-hormuz-.html" } },
+      { lead: "Trump's 3-day Russia–Ukraine ceasefire (9–11 May) expired Sunday with ~16,000 violations claimed by each side.", body: "Donbass withdrawal is still the wall. Putin is pre-framing the war as 'coming to an end' while no settlement exists.", src: { name: "Al Jazeera", url: "https://www.aljazeera.com/news/2026/5/8/trump-announces-three-day-ceasefire-in-russia-ukraine-war" } },
+      { lead: "Hormuz closed 69+ days. ~1,550 vessels stranded; only 5–6 transits/day vs 138 normal; daily trade cost >$4bn.", body: "Tanker spot peaked at $800k/day in March; the 'two-tier' tanker market is now a stable regime, not a transient.", src: { name: "gCaptain", url: "https://gcaptain.com/norden-warns-hormuz-disruption-is-creating-a-two-tier-tanker-market/" } },
+      { lead: "Field Marshal Asim Munir warned India of 'extremely far-reaching and painful' consequences from any future 'misadventure'.", body: "Anniversary speech at GHQ Rawalpindi marking the 7 May 2025 conflict. Markers set ahead of Kharif-cycle water stress and a likely autumn flashpoint.", src: { name: "The Researchers", url: "https://www.theresearchers.us/2026/05/11/asim-munir-warns-india/" } },
+      { lead: "Houthis resumed Red Sea attacks after the October 2025 truce collapsed.", body: "Asia–Europe via Suez running at 49% of pre-crisis capacity. Cape routing is locked in for 2026.", src: { name: "Middle East Insider", url: "https://themiddleeastinsider.com/2026/04/25/red-sea-shipping-disruption-2026/" } },
+      { lead: "Pakistan takes the Indus Waters Treaty fight to the UN Security Council.", body: "Calling India's suspension 'hydro-terrorism'. Neutral Expert award expected end-2026 — the legal calendar now matters.", src: { name: "Arab News", url: "https://www.arabnews.com/node/2643045/pakistan" } }
+    ]},
+    { title: "Bangladesh & subcontinent", items: [
+      { lead: "IMF revises BD FY26 GDP to 4.7%, slowing to 4.3% in FY27.", body: "Softer than the UN's 4.6%/5.4% trajectory and the BD government's own targets. Explicit RMG drag and weak private investment.", src: { name: "TBS", url: "https://www.tbsnews.net/economy/bangladeshs-economy-grow-47-fy26-slow-further-43-fy27-imf-1411496" } },
+      { lead: "EU-cliff math sharpening: post-2029, BD's HS 61/62/63 EU share exceeds 20%.", body: "EU safeguard threshold is 6% — apparel risks losing all preferences regardless of GSP+ status. Tariff hedging via India-EU FTA fallout matters more than GSP+ optimism.", src: { name: "TBS", url: "https://www.tbsnews.net/economy/rmg/bangladeshi-apparel-exporters-have-absorb-40-eu-tariff-cost-after-2029-study-1322201" } },
+      { lead: "Matarbari deep-sea port back under construction after a 5-year gap.", body: "$500m Penta Ocean / Toa contract for the 760m terminal; ops targeted early 2029, 1.1M TEU rising to 4.2M by 2041.", src: { name: "Daily Star", url: "https://www.thedailystar.net/business/business-plus/news/matarbari-island-where-bangladesh-building-its-economic-future-3973776" } },
+      { lead: "FIFA World Cup 2026 broadcast blackout risk in BD at T-33 days.", body: "No domestic broadcaster has met Singapore-based Springbok Pte's rights demand. Small story, big national-mood signal.", src: { name: "Daily Star", url: "https://www.thedailystar.net/star-multimedia/news/uncertainty-grows-over-2026-fifa-world-cup-telecast-bangladesh-4172076" } },
+      { lead: "Pakistan–Bangladesh Test at Mirpur opens; Mushfiqur's 29th Test fifty on Day 2.", body: "Cricket as soft diplomatic cover with formal ties still cool." }
+    ]},
+    { title: "Trade, supply chains & freight", items: [
+      { lead: "Drewry WCI held at $2,286/FEU week-on-week after a 3% bounce; CFI 1,954.21 (+3% MoM, +45% YoY).", body: "Direction-of-travel still up; transpacific surcharge stack remains the live commercial issue.", src: { name: "Drewry", url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry" } },
+      { lead: "Hormuz 'two-tier' tanker market: East-of-Suez crude flows collapsed; Atlantic-basin product-tanker rates surging.", body: "Western refineries become the world's marginal supplier. Expect a sustained widening of US-Gulf vs Asian product-export economics.", src: { name: "gCaptain", url: "https://gcaptain.com/norden-warns-hormuz-disruption-is-creating-a-two-tier-tanker-market/" } },
+      { lead: "DSV vs K+N air-freight race tightens: Q1 DSV 518kt vs K+N 516kt.", body: "Full-year 2025 K+N still 2.2M vs DSV 2M tonnes. The crossover is 2026's question.", src: { name: "Air Cargo News", url: "https://www.aircargonews.net/freight-forwarder/2026/03/kn-still-largest-airfreight-forwarder-despite-dsv-takeover-of-schenker/" } },
+      { lead: "C.H. Robinson: US truckload volatility week — Mother's Day, Roadcheck Week (12–14 May), produce-season ramp converge.", body: "Dry van and reefer firming; flatbed already outperforming.", src: { name: "C.H. Robinson", url: "https://www.chrobinson.com/en-us/resources/insights-and-advisories/north-america-freight-insights/may-2026-freight-market-update/" } },
+      { lead: "SE Asia hub congestion + Middle East vessel displacement still degrading schedule reliability.", body: "Blank sailings the carrier tool of choice. Don't expect reliability to recover before Trump–Xi week clears.", src: { name: "Freightos", url: "https://www.freightos.com/freight-industry-updates/market-updates/ocean-and-air-freight-forecast-2026-what-to-expect/" } }
+    ]},
+    { title: "Semiconductors · AI · frontier tech", items: [
+      { lead: "Apple in early talks with Intel and Samsung for US-made device processors — first serious diversification move off TSMC in a decade.", body: "Tim Cook publicly acknowledged supply constraints. TSMC's pricing power on Apple now has a ceiling, even if Intel/Samsung can't yet match scale.", src: { name: "9to5Mac", url: "https://9to5mac.com/2026/05/04/report-apple-considers-intel-and-samsung-to-diversify-chip-manufacturing-away-from-tsmc/" } },
+      { lead: "HBM3E sold out through 2026; ~20% price hike enacted.", body: "Samsung and SK Hynix have shifted 93% of combined DRAM capacity to HBM; broader DRAM market tightening into 2027.", src: { name: "Tom's Hardware", url: "https://www.tomshardware.com/tech-industry/artificial-intelligence/samsung-and-sk-hynix-warn-ai-driven-memory-shortages-could-last-until-2027-and-beyond-as-hbm-demand-explodes-customers-already-reserving-supply-years-ahead-while-the-wider-dram-market-begins-to-tighten" } },
+      { lead: "HBM4 mass production pulled forward to Feb 2026 for Nvidia's 'Rubin' architecture.", body: "Analysts model 2026 HBM revenue mix ≈55% HBM4 / 45% HBM3E. HBM3E will get older faster than people expect.", src: { name: "TrendForce", url: "https://www.trendforce.com/news/2025/12/24/news-samsung-sk-hynix-reportedly-plan-20-hbm3e-price-hike-for-2026-as-nvidia-h200-asic-demand-rises/" } },
+      { lead: "Tesla AI5 tape-out done, in pre-production validation.", body: "Tesla's in-house compute roadmap (next-gen Dojo / FSD) on schedule despite a brutal HBM/foundry market." },
+      { lead: "TSMC backs VIS interposer fab in Singapore (5 May).", body: "Interposer supply is the under-appreciated bottleneck after HBM and CoWoS — this is near-term de-risking for advanced packaging.", src: { name: "DIGITIMES", url: "https://www.digitimes.com/tag/tsmc/001264.html" } },
+      { lead: "Anthropic's 'Claude Mythos' rollout gated under Project Glasswing; OpenAI sends a GPT-5.5-Cyber variant to EU regulators.", body: "Security-flaw-finding has crystallised as a distinct frontier-model product category.", src: { name: "CNBC", url: "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html" } }
+    ]}
+  ],
+  lesson: {
+    title: "The Indian Monsoon — South Asia's annual economic engine",
+    paragraphs: [
+      "The Indian Monsoon is a continent-scale wind reversal driven by differential heating between the Asian landmass and the Indian Ocean. From November through April, cool dense air sits over Asia and air flows outward (the dry 'northeast monsoon'). From June through September, the landmass heats faster than the ocean, low pressure forms over the Tibetan Plateau and the Thar Desert, and moist air is dragged in from the southwest — the 'southwest monsoon' that delivers roughly 75% of India's, 70% of Bangladesh's, and 60% of Pakistan's annual rainfall in a four-month window. The Himalaya is the orographic wall that wrings out the moisture: Cherrapunji in Meghalaya regularly tops 11,000mm of rain a year, while the Pakistani plains 1,500km west sit in the rain-shadow at under 250mm.",
+      "The pattern's reliability is what made South Asia agriculturally dense for 3,000 years — and what makes it economically fragile today. A monsoon 10% below normal (a 'deficient' year) historically knocks 1–2 percentage points off Indian GDP, breaks Pakistan's Kharif rice/cotton cycle, and pushes Bangladesh into rice imports that distort regional freight. Climate change is now widening the variance: heavier individual rain events, longer dry intervals between them, and shifts in onset/withdrawal dates that wreck planting calendars.",
+      "The Indian Ocean Dipole and ENSO state are the two big external dials. A 'positive' IOD (warmer western Indian Ocean) tends to enhance the Indian monsoon; a strong El Niño typically suppresses it. Forecasters combine both signals with seasonal models from the IMD and ECMWF, but skill drops sharply beyond ~6 weeks."
+    ],
+    why: "Every cross-border South Asian story — Indus Waters disputes, Bangladesh rice prices, freight cycles into Chittagong, Pakistan's IMF programme — runs through monsoon performance before it runs through politics."
+  },
+  questions: [
+    { n:1, topic:"domain", subtopic:"incoterms", stem:"Under Incoterms 2020, which Incoterm requires the seller to procure insurance covering 'all risks' (Institute Cargo Clauses A or equivalent) for the buyer's benefit?", options:["CIF (Cost, Insurance and Freight)","CIP (Carriage and Insurance Paid To)","DAP (Delivered at Place)","FOB (Free on Board)"], correct:1, why:"Incoterms 2020 split CIF and CIP on insurance: CIF still requires only Clauses C (named perils, marine only), but CIP now requires Clauses A (all-risks). DAP/FOB carry no seller insurance obligation.", deepDive:"A key Incoterms 2020 change versus 2010 was the divergence of CIF and CIP on insurance level. Under 2010, both required only the minimum Institute Cargo Clauses C — fine for bulk commodities (the original use case of CIF), but too thin for high-value manufactured goods routed multimodally. The 2020 revision lifted CIP to Clauses A (all-risks) while leaving CIF at Clauses C, reflecting CIP's typical use for containerised, finished goods. The practical implication: a buyer importing electronics CIP Chittagong gets all-risks cover from origin; a buyer importing bulk grain CIF Mongla gets only named-perils cover and should top up. Failure to read this difference is one of the most common contracting errors among non-specialist buyers." },
+    { n:2, topic:"domain", subtopic:"bill_of_lading", stem:"Which of the following best describes a 'Switch Bill of Lading' in international shipping?", options:["A bill of lading reissued in digital form to replace a paper original","A second bill of lading issued (typically at a transshipment hub) to replace the original, often changing shipper, consignee, or port details","A bill of lading endorsed to a bank as security under a letter of credit","A bill released electronically at destination via telex to bypass paper presentation"], correct:1, why:"A Switch BL is a fresh set of original bills issued in place of the first set — typically used in triangular trade to hide the real shipper/origin from the end buyer, or to redirect cargo. Legitimate but carrying real fraud and double-claim risk.", deepDive:"Switch bills of lading are common in commodity and middleman trades — a Singapore-based trader buys ex-factory in China, ships goods toward an end-buyer in Bangladesh, and wants the BD buyer to see the Singapore trader (not the original Chinese supplier) as shipper. The carrier surrenders the first set and issues a second 'switched' set at the transshipment port with new shipper/consignee/loading-port particulars. Risks: the carrier must collect all original first-set bills before issuing the switch — otherwise two valid sets of originals exist, and either could be presented for delivery. Compliance teams flag switch-BL requests because they're a common vector for sanctions evasion (masking Russia/Iran-origin cargo) and trade-based money laundering." },
+    { n:3, topic:"domain", subtopic:"pricing", stem:"On a container freight invoice, the 'BAF' (Bunker Adjustment Factor) surcharge is intended to:", options:["Pass through fluctuations in marine fuel costs to shippers","Compensate for currency fluctuations between invoicing and settlement","Recover capex on IMO 2020 low-sulphur scrubber retrofits","Reflect vessel-sharing imbalances between carriers under a VSA"], correct:0, why:"BAF (Bunker Adjustment Factor) = a fuel surcharge passing through bunker price moves. CAF handles currency. LSS specifically addresses low-sulphur compliance cost. ECA covers Emission Control Area premiums.", deepDive:"Container freight bills decompose into base ocean rate plus a stack of surcharges, each addressing a different cost driver. BAF floats bunker cost — usually formulaic (e.g. $X per FEU per $50/t move in Rotterdam VLSFO). CAF (Currency Adjustment Factor) handles the gap between USD invoicing and the carrier's home-currency costs. LSS (Low Sulphur Surcharge) was introduced specifically for IMO 2020 0.5% sulphur compliance — some carriers folded LSS into BAF; others kept it separate. ECA premiums apply in Emission Control Areas (Baltic, North Sea, North American 200nm zone). PSS (Peak Season) and GRI (General Rate Increase) are demand-driven, not cost-recovery. Surcharge transparency was a major FMC battleground in the 2022 OSRA — carriers can no longer impose surcharges without an itemised, contemporaneous tariff filing." },
+    { n:4, topic:"domain", subtopic:"ftas", stem:"Under EU Everything But Arms (EBA), Bangladesh currently exports duty-free to the EU. After Bangladesh's LDC graduation in November 2026, EBA preferences are extended under what arrangement?", options:["They expire immediately at graduation","A 5-year automatic transition to November 2031 under standard WTO rules","A 3-year EU-negotiated transition to November 2029","They convert automatically to GSP+ status"], correct:2, why:"The EU's standard LDC-graduation transition is 3 years of continued EBA preferences. For Bangladesh that runs to November 2029. GSP+ requires a separate application and ratification of 32 international conventions; it is not automatic.", deepDive:"The EU's LDC-graduation transition rules give a 3-year preferences extension to graduating countries — so Bangladesh's EBA duty-free access continues to November 2029. After that, three options: (1) GSP+ — duty-free on 66% of EU tariff lines, but requires ratification of 32 conventions on labour, human rights, environment, and good governance, and is not available if a country's share of total extra-EU imports for a product section exceeds 6%. Bangladesh's combined share of HS 61/62/63 apparel imports is over 20% — well above the safeguard threshold — so GSP+ for apparel is structurally blocked even if BD qualifies otherwise. (2) Standard GSP with MFN-9–12% tariffs. (3) An Economic Partnership Agreement — a fuller bilateral FTA, which the EU has so far not entered with any South Asian country. The strategic implication: even with full GSP+ effort, apparel will not benefit from preferences after 2029 unless the safeguard math changes." },
+    { n:5, topic:"domain", subtopic:"air_freight", stem:"The IATA volumetric (dimensional) weight divisor used to compute chargeable weight for general air cargo is:", options:["4,800 cm³/kg","5,000 cm³/kg","6,000 cm³/kg","7,000 cm³/kg"], correct:2, why:"IATA general-cargo divisor is 6,000 cm³/kg (equivalent to 166.67 kg/m³). Chargeable weight = greater of actual or volumetric. Couriers/parcel networks often use 5,000 cm³/kg — a tighter divisor that captures more low-density freight as billable.", deepDive:"Air freight is sold by chargeable weight = max(actual kg, volume in cm³ ÷ 6,000) for general IATA cargo — the 6,000 divisor corresponds to a density of 166.67 kg/m³, the rough breakeven between light, voluminous cargo (where space is the constraint) and dense cargo (where weight is). Integrators and parcel carriers — FedEx, UPS, DHL Express — typically apply 5,000 cm³/kg, a tighter divisor (200 kg/m³) that captures more bulky-but-light shipments as space-billable. Knowing the divisor is part of every air-freight pricing conversation: a shipper of foam packaging or apparel-on-hangers will always be volumetric-billed, while a shipper of pharmaceuticals or batteries is almost always actual-weight. Carriers also apply higher-density divisors selectively for specific commodities or charter arrangements." },
+    { n:6, topic:"gk", subtopic:"history", stem:"The Treaty of Westphalia (1648) is conventionally cited as the foundation of which concept in international relations?", options:["Free trade and comparative advantage","State sovereignty and the modern nation-state system","Collective security via standing international institutions","Universal human rights"], correct:1, why:"Westphalia (1648) ended the Thirty Years' War in central Europe and is the conventional origin point of the principle that sovereign states have exclusive authority within their borders — 'Westphalian sovereignty', still the default unit of the international system.", deepDive:"The Peace of Westphalia (1648) was actually two treaties — Münster and Osnabrück — that ended the Thirty Years' War, a devastating religious conflict that killed roughly a third of central Europe's population. Its conceptual legacy was the principle that each sovereign ruler (regardless of religion) held exclusive authority over their territory, and that other states should not intervene in domestic affairs. International-relations theory still describes the basic state-centric architecture of the global system as 'Westphalian'. Revisionist historians argue the principle was articulated earlier and codified more diffusely, but the symbolic anchor remains 1648. The modern challenges to Westphalian order — humanitarian intervention, ICC jurisdiction, transnational tech and capital, climate negotiations — are all framed against this baseline." },
+    { n:7, topic:"gk", subtopic:"physical_science", stem:"Heisenberg's uncertainty principle states that:", options:["The speed of light is constant in all inertial reference frames","Energy is emitted and absorbed only in discrete quantised packets","There is a fundamental limit to how precisely position and momentum of a particle can be known simultaneously","Entropy of an isolated system never decreases"], correct:2, why:"Heisenberg (1927) showed Δx · Δp ≥ ħ/2 — position and momentum cannot both be measured to arbitrary precision. It's a limit of nature, not of instruments. Statement A is special relativity; B is Planck's quantum hypothesis; D is the second law of thermodynamics.", deepDive:"Werner Heisenberg's 1927 paper showed that for conjugate variable pairs — position/momentum, energy/time — there is a fundamental product of uncertainties bounded below by ℏ/2, where ℏ is the reduced Planck constant. This is not a statement about measurement disturbance (a common misunderstanding) but about what nature is: a particle does not simultaneously possess perfectly defined position and momentum values. The principle drives much of modern physics — it explains why atoms don't collapse (the electron cannot localise without gaining infinite kinetic energy), the quantum-tunnelling that powers semiconductor leakage currents and fusion in stars, and the practical performance ceilings of electron microscopes. The Bohr–Einstein debates of the late 1920s, ultimately won by the Copenhagen interpretation, centred on whether this uncertainty was epistemic (we don't know) or ontic (it doesn't have a value). Modern physics treats it as ontic." },
+    { n:8, topic:"gk", subtopic:"mathematics", stem:"Euler's identity — often called the 'most beautiful equation in mathematics' — is:", options:["e^(iπ) + 1 = 0","a² + b² = c²","F = ma","E = mc²"], correct:0, why:"Euler's identity links five of mathematics' most fundamental constants — 0, 1, e, i, π — and three core operations (addition, multiplication, exponentiation). It falls out of Euler's formula e^(iθ) = cos θ + i sin θ at θ = π.", deepDive:"Euler's identity e^(iπ) + 1 = 0 derives from Euler's broader formula e^(iθ) = cos θ + i sin θ — substitute θ = π and you get e^(iπ) = -1, then add 1. Its aesthetic claim rests on packing the additive identity (0), multiplicative identity (1), the base of natural logarithms (e ≈ 2.718), the ratio of a circle's circumference to its diameter (π ≈ 3.14159), and the imaginary unit (i = √-1) into a single nine-character relation. Beyond beauty, it's foundational: complex exponentials are the language of signal processing (Fourier transforms), quantum mechanics (wavefunctions), electrical engineering (AC analysis via phasors), and control theory. Anywhere oscillation or rotation matters, Euler's formula is the engine." },
+    { n:9, topic:"gk", subtopic:"arts", stem:"'Guernica' (1937), the large mural-sized painting depicting the bombing of a Basque town during the Spanish Civil War, was painted by:", options:["Salvador Dalí","Pablo Picasso","Joan Miró","Francisco Goya"], correct:1, why:"Picasso painted Guernica in 1937 in response to the Luftwaffe and Italian air force's bombing of Guernica on 26 April 1937, on behalf of Franco's Nationalists. Monochrome, 3.5m × 7.8m, now hanging at the Reina Sofía, Madrid.", deepDive:"Pablo Picasso painted Guernica in Paris over five weeks in 1937 in response to the 26 April 1937 bombing of the Basque town of Guernica by the German Luftwaffe's Condor Legion and Italian Aviazione Legionaria, supporting Franco's Nationalist forces. Painted in monochrome — black, white, and grey — at 3.5m × 7.8m, the work is regarded as one of the most powerful anti-war statements in Western art. Picasso stipulated that Guernica should not return to Spain until democracy was restored; it sat at MoMA in New York for decades and only arrived in Spain in 1981. It now hangs at the Museo Reina Sofía in Madrid (not the Prado). A famous and possibly apocryphal exchange has a Nazi officer in occupied Paris ask Picasso, looking at a photo of the painting: 'Did you do that?' Picasso: 'No — you did.'" },
+    { n:10, topic:"gk", subtopic:"linguistics", stem:"The 'Sapir–Whorf hypothesis' in linguistics proposes that:", options:["All human languages descend from a single Proto-World ancestor","Language acquisition is bounded by a critical period in early childhood","The structure of a language influences or shapes how its speakers perceive and think about the world","Phonemic changes across languages follow regular, predictable 'sound laws'"], correct:2, why:"Sapir–Whorf, or 'linguistic relativity', is the claim that language shapes thought. Strong forms (language determines thought) are largely rejected; weaker forms (language nudges habitual categorisation) have modest empirical support — colour terms, spatial frames, gender marking.", deepDive:"Linguistic relativity — associated with Edward Sapir (1884–1939) and his student Benjamin Lee Whorf (1897–1941) — proposes that the grammatical and lexical structure of a language influences its speakers' cognition. A 'strong' version (language determines thought) is essentially dead, refuted by translation, bilingualism, and cross-cultural cognitive experiments. A 'weak' version — language nudges habitual categories — survives in modern psycholinguistics. Documented effects: speakers of languages with finer colour terms discriminate hues faster; speakers of Guugu Yimithirr (which uses absolute cardinal directions rather than left/right) maintain superior dead-reckoning skills; grammatical gender shifts mild metaphorical associations. The hypothesis is often confused with Chomsky's universal grammar — which argues the opposite direction, that all languages share a deep biological substrate. The two coexist: surface variation atop universal structure, with the surface still pulling cognition somewhat." }
+  ]
+};
+
+document.title = `The Morning Brief — ${TODAY.dateLabel.replace(/^[A-Za-z]+ · /, '')}`;
+
+const TOPIC_LABEL = { domain:'industry & ops', gk:'general knowledge' };
+
+// ─── STATE ─────────────────────────────────────────────────────────
+const SK = 'mb_v2_state';
+let state = { sessions: [], streak: 0, lastDate: null };
+function loadState(){ try { const s = localStorage.getItem(SK); if (s) state = Object.assign(state, JSON.parse(s)); } catch(e){} }
+function saveState(){ try { localStorage.setItem(SK, JSON.stringify(state)); } catch(e){} }
+
+// ─── HELPERS ───────────────────────────────────────────────────────
+function showScreen(id){
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  window.scrollTo(0, 0);
+}
+function setDates(){
+  ['date-loading','date-home','date-briefing','date-quiz','date-results'].forEach(id => {
+    const el = document.getElementById(id); if (el) el.textContent = TODAY.dateLabel;
+  });
+}
+function setStreak(){
+  ['streak-loading','streak-home','streak-briefing'].forEach(id => {
+    const el = document.getElementById(id); if (!el) return;
+    if (state.streak > 0) {
+      el.classList.remove('hidden');
+      el.querySelector('span').textContent = state.streak;
+    } else el.classList.add('hidden');
+  });
+}
+
+// ─── LOADING ANIMATION ─────────────────────────────────────────────
+function runLoadingAnim(done){
+  const steps = ['ls1','ls2','ls3','ls4','ls5'];
+  let i = 0;
+  const tick = () => {
+    if (i > 0) {
+      const prev = document.getElementById(steps[i-1]);
+      prev.classList.remove('active'); prev.classList.add('done');
+    }
+    if (i < steps.length) {
+      const cur = document.getElementById(steps[i]);
+      cur.classList.add('active');
+      i++;
+      setTimeout(tick, 600);
+    } else setTimeout(done, 350);
+  };
+  tick();
+}
+
+// ─── BRIEFING ──────────────────────────────────────────────────────
+function renderBriefing(){
+  document.getElementById('briefing-edition').textContent = TODAY.editionLabel;
+  let html = '';
+  if (TODAY.headline) html += `<div class="briefing-lead">${TODAY.headline}</div>`;
+  TODAY.sections.forEach(s => {
+    html += `<div class="briefing-section">
+      <div class="briefing-section-title">${s.title}</div>
+      <ul class="briefing-list">`;
+    s.items.forEach(item => {
+      const src = item.src ? ` <a class="src" href="${item.src.url}" target="_blank" rel="noopener">${item.src.name} ↗</a>` : '';
+      html += `<li class="briefing-item"><strong>${item.lead}</strong> ${item.body}${src}</li>`;
+    });
+    html += `</ul></div>`;
+  });
+  html += `
+    <div class="lesson-block">
+      <div class="lesson-label">Learn something new</div>
+      <div class="lesson-title">${TODAY.lesson.title}</div>
+      ${TODAY.lesson.paragraphs.map(p => `<p>${p}</p>`).join('')}
+      <div class="lesson-why"><strong>Why it matters.</strong> ${TODAY.lesson.why}</div>
+    </div>
+  `;
+  document.getElementById('briefing-content').innerHTML = html;
+
+  const todayDone = state.sessions.some(s => s.date === TODAY.date);
+  const bar = document.getElementById('quiz-bar');
+  if (todayDone) {
+    document.getElementById('quiz-bar-text').textContent = 'Review your quiz';
+    document.getElementById('quiz-bar-sub').textContent = 'You\'ve already taken today\'s — review only';
+    bar.onclick = () => { goHome(); };
+  }
+}
+
+// ─── HOME ──────────────────────────────────────────────────────────
+function renderHome(){
+  const sessions = state.sessions || [];
+  document.getElementById('stat-sessions').textContent = sessions.length;
+  if (sessions.length) {
+    const total = TODAY.questions.length;
+    const avg = Math.round(sessions.reduce((a,s) => a + (s.score / s.total), 0) / sessions.length * 100);
+    const best = Math.max(...sessions.map(s => Math.round(s.score / s.total * 100)));
+    document.getElementById('stat-avg').textContent = avg + '%';
+    document.getElementById('stat-best').textContent = best + '%';
+  } else {
+    document.getElementById('stat-avg').textContent = '—';
+    document.getElementById('stat-best').textContent = '—';
+  }
+  const hl = document.getElementById('history-list');
+  if (sessions.length) {
+    hl.innerHTML = sessions.slice(-7).reverse().map(s => `
+      <div class="history-item">
+        <span class="history-date">${s.displayDate}</span>
+        <span class="history-score">${s.score}/${s.total} · ${Math.round(s.score / s.total * 100)}%</span>
+      </div>`).join('');
+  } else {
+    hl.innerHTML = '<div class="history-empty">No sessions yet — read today\'s brief and take the quiz</div>';
+  }
+  const todayInHistory = state.sessions.some(s => s.date === TODAY.date);
+  document.getElementById('done-note').style.display = todayInHistory ? 'block' : 'none';
+  document.getElementById('retake-btn').style.display = todayInHistory ? 'block' : 'none';
+}
+
+function resetToday(){
+  state.sessions = state.sessions.filter(s => s.date !== TODAY.date);
+  if (state.lastDate === TODAY.date) {
+    // un-roll today's streak contribution since the session is being redone
+    state.lastDate = null;
+  }
+  saveState();
+  qIdx = 0; answers = []; qLocked = false;
+  renderQ();
+  showScreen('screen-quiz');
+}
+
+// ─── QUIZ ──────────────────────────────────────────────────────────
+let qIdx = 0, answers = [], qLocked = false;
+
+function startQuiz(){
+  if (state.sessions.some(s => s.date === TODAY.date)) {
+    goHome();
+    return;
+  }
+  qIdx = 0; answers = []; qLocked = false;
+  renderQ();
+  showScreen('screen-quiz');
+}
+
+function renderProgress(){
+  document.getElementById('quiz-progress').innerHTML = TODAY.questions.map((_, i) => {
+    let c = 'qd';
+    if (i < qIdx) c += ' done';
+    else if (i === qIdx) c += ' active';
+    return `<div class="${c}"></div>`;
+  }).join('');
+}
+
+function renderQ(){
+  qLocked = false;
+  const q = TODAY.questions[qIdx];
+  renderProgress();
+  const sub = q.subtopic ? ` · ${q.subtopic.replace(/_/g,' ')}` : '';
+  document.getElementById('q-meta').innerHTML = `<span>Q${q.n} of ${TODAY.questions.length}</span><span>${TOPIC_LABEL[q.topic] || q.topic}${sub}</span>`;
+  document.getElementById('q-text').textContent = q.stem;
+  const exp = document.getElementById('q-exp');
+  exp.classList.remove('show','bad'); exp.textContent = '';
+  const nb = document.getElementById('next-btn');
+  nb.classList.remove('show');
+  nb.textContent = qIdx < TODAY.questions.length - 1 ? 'Next →' : 'See results →';
+  const letters = ['A','B','C','D'];
+  document.getElementById('q-options').innerHTML = q.options.map((o, i) => `
+    <button class="q-opt" onclick="pick(${i})" id="opt-${i}">
+      <span class="opt-letter">${letters[i]}</span><span>${o}</span>
+    </button>`).join('');
+}
+
+function pick(i){
+  if (qLocked) return;
+  qLocked = true;
+  const q = TODAY.questions[qIdx];
+  const correct = i === q.correct;
+  answers.push({ n: q.n, topic: q.topic, subtopic: q.subtopic, stem: q.stem, picked: i, correct: q.correct, options: q.options, ok: correct, why: q.why });
+  document.querySelectorAll('.q-opt').forEach((el, idx) => {
+    el.classList.add('locked');
+    if (idx === q.correct) el.classList.add('correct');
+    else if (idx === i && !correct) el.classList.add('wrong');
+  });
+  const exp = document.getElementById('q-exp');
+  exp.classList.add('show');
+  if (!correct) exp.classList.add('bad');
+  exp.textContent = (correct ? '✓ ' : '✗ ') + q.why;
+  document.getElementById('next-btn').classList.add('show');
+}
+
+function nextQ(){
+  qIdx++;
+  if (qIdx < TODAY.questions.length) { renderQ(); window.scrollTo(0, 0); }
+  else showResults();
+}
+
+// ─── RESULTS ───────────────────────────────────────────────────────
+function showResults(){
+  const total = TODAY.questions.length;
+  const correct = answers.filter(a => a.ok).length;
+  document.getElementById('results-fraction').innerHTML = `${correct}<span class="denom">/${total}</span>`;
+  const pct = correct / total;
+  const verdict = pct >= 0.95 ? 'Clean sweep' : pct >= 0.8 ? 'Very sharp' : pct >= 0.65 ? 'Solid performance' : pct >= 0.4 ? 'Getting sharper' : 'Keep grinding';
+  document.getElementById('results-verdict').textContent = verdict;
+
+  // by topic
+  const buckets = {};
+  answers.forEach(a => {
+    if (!buckets[a.topic]) buckets[a.topic] = { c: 0, t: 0 };
+    buckets[a.topic].t++;
+    if (a.ok) buckets[a.topic].c++;
+  });
+  document.getElementById('topic-grid').innerHTML = Object.entries(buckets).map(([k, v]) => `
+    <div class="topic-row"><span class="name">${TOPIC_LABEL[k] || k}</span><span class="val ${v.c === v.t ? 'full' : ''}">${v.c}/${v.t}${v.c === v.t ? ' ✓' : ''}</span></div>
+  `).join('');
+
+  // streak (already-done check)
+  const todayDone = state.sessions.some(s => s.date === TODAY.date);
+  if (!todayDone) {
+    const yesterday = new Date(TODAY.date + 'T00:00:00');
+    yesterday.setDate(yesterday.getDate() - 1);
+    const ystr = yesterday.toISOString().split('T')[0];
+    if (correct >= 7) {
+      state.streak = (state.lastDate === ystr) ? state.streak + 1 : 1;
+    } else {
+      state.streak = 0;
+    }
+    state.lastDate = TODAY.date;
+    state.sessions.push({
+      date: TODAY.date,
+      displayDate: TODAY.dateLabel.replace(/^[A-Z][a-z]+ · /, ''),
+      score: correct,
+      total,
+      answers: answers.map(a => ({ n:a.n, topic:a.topic, subtopic:a.subtopic, stem:a.stem, picked:a.picked, correct:a.correct, ok:a.ok }))
+    });
+    if (state.sessions.length > 90) state.sessions = state.sessions.slice(-90);
+    saveState();
+  }
+  setStreak();
+  document.getElementById('results-streak-wrap').innerHTML = state.streak > 0 ? `<div class="results-streak">🔥 ${state.streak}-day streak</div>` : '';
+
+  // takeaway
+  const dom = (buckets.domain || {c:0,t:0});
+  const gk  = (buckets.gk     || {c:0,t:0});
+  const takeaway = (dom.c >= 4 && gk.c >= 4) ? 'Solid both sides. Today\'s rabbit hole: the freight surcharge stack (BAF + EFS + LSS) — where the next quarter\'s margin pressure compounds.'
+    : (dom.c >= 4) ? 'Industry side is sharp; GK is where the gap is. Pick one corner — history, science, lit — and spend 15 min reading something orthogonal to your day.'
+    : (gk.c >= 4) ? 'Broad knowledge is there; the ops side needs work. The vessel/alliance/pricing layer is where commercial decisions get made — worth a deeper pass.'
+    : 'Mixed across both. Don\'t spread thin — pick one industry topic (e.g. liner alliances post-Gemini) and one GK domain this week, go deep on each.';
+  document.getElementById('takeaway').innerHTML = `<strong>What to read next</strong>${takeaway}`;
+
+  // breakdown
+  const letters = ['A','B','C','D'];
+  document.getElementById('results-breakdown').innerHTML = answers.map(a => `
+    <div class="rb-item">
+      <div class="rb-dot ${a.ok ? 'c' : 'w'}"></div>
+      <div>
+        <div class="rb-q">${a.stem}</div>
+        <div class="rb-ans ${a.ok ? 'c' : 'w'}">${a.ok ? '✓ ' + a.options[a.correct] : '✗ You chose ' + letters[a.picked] + ' · Correct: ' + letters[a.correct] + '. ' + a.options[a.correct]}</div>
+      </div>
+    </div>`).join('');
+
+  // deep dives — only for what was missed
+  const wrongs = answers.filter(a => !a.ok);
+  const ddLabel = document.getElementById('dd-label');
+  const ddBlock = document.getElementById('deep-dives');
+  if (wrongs.length > 0) {
+    ddLabel.style.display = 'block';
+    ddBlock.innerHTML = wrongs.map(a => {
+      const q = TODAY.questions.find(x => x.n === a.n);
+      const tag = (q.subtopic || q.topic).replace(/_/g,' ');
+      const body = (q.deepDive || q.why || '').trim();
+      return `<div class="dd-item">
+        <span class="dd-tag">${tag}</span>
+        <div class="dd-q">${a.stem}</div>
+        <div class="dd-correct">Correct: ${letters[a.correct]}. ${a.options[a.correct]}</div>
+        <div class="dd-body">${body}</div>
+      </div>`;
+    }).join('');
+  } else {
+    ddLabel.style.display = 'block';
+    ddLabel.textContent = 'No misses — well done';
+    ddBlock.innerHTML = `<div class="takeaway" style="font-style:normal"><strong>Clean</strong>${total}/${total} today. Tomorrow's curriculum ratchets harder on the topics you nailed.</div>`;
+  }
+
+  showScreen('screen-results');
+}
+
+function goHome(){
+  renderHome();
+  setStreak();
+  showScreen('screen-home');
+}
+
+// ─── INIT ──────────────────────────────────────────────────────────
+function init(){
+  loadState();
+  setDates();
+  setStreak();
+  renderBriefing();
+  runLoadingAnim(() => {
+    const todayDone = state.sessions.some(s => s.date === TODAY.date);
+    if (todayDone || state.sessions.length > 0) {
+      renderHome();
+      showScreen('screen-home');
+    } else {
+      showScreen('screen-briefing');
+    }
+  });
+}
+
+init();
+</script>
+</body>
+</html>
