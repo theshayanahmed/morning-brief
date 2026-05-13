@@ -1,6 +1,6 @@
 {
   "streak": 0,
-  "last_session_date": "2026-05-12",
+  "last_session_date": "2026-05-13",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -21,151 +21,373 @@
     "Heisenberg's uncertainty principle states that:",
     "Euler's identity — often called the 'most beautiful equation in mathematics' — is:",
     "'Guernica' (1937), the large mural-sized painting depicting the bombing of a Basque town during the Spanish Civil War, was painted by:",
-    "The 'Sapir–Whorf hypothesis' in linguistics proposes that:"
+    "The 'Sapir–Whorf hypothesis' in linguistics proposes that:",
+    "A 'Capesize' bulk carrier gets its name because it:",
+    "In container shipping, Terminal Handling Charges (THC) are set and invoiced by:",
+    "The Gemini Cooperation, which launched in February 2025, consists of which two ocean carriers?",
+    "Under the WTO Customs Valuation Agreement, the primary (first-preference) method for determining dutiable value is:",
+    "A preferential Certificate of Origin (e.g. Form D under ASEAN, EUR.1 under EU agreements) differs from a standard non-preferential Certificate of Origin primarily because:",
+    "The Strait of Malacca, through which roughly 40% of global seaborne trade passes, separates which two landmasses?",
+    "The central dogma of molecular biology, as articulated by Francis Crick, describes the directional flow of biological information as:",
+    "Rabindranath Tagore (1861–1941), the first Asian Nobel laureate in Literature (1913), wrote primarily in which language, and which collection won the Nobel?",
+    "In Western music, 'counterpoint' refers to:",
+    "The Five Pillars of Islam, in standard Sunni enumeration, are:"
   ],
   "learn_history": [
-    { "date": "2026-05-10", "topic": "The Suez Crisis of 1956", "bucket": "history" },
-    { "date": "2026-05-11", "topic": "Aircraft leasing industry (AerCap, SMBC, Avolon, ALC, BOC)", "bucket": "industry_deep_dive" },
-    { "date": "2026-05-12", "topic": "The Indian Monsoon — South Asia's annual economic engine", "bucket": "geography" }
+    {
+      "date": "2026-05-10",
+      "topic": "The Suez Crisis of 1956",
+      "bucket": "history"
+    },
+    {
+      "date": "2026-05-11",
+      "topic": "Aircraft leasing industry (AerCap, SMBC, Avolon, ALC, BOC)",
+      "bucket": "industry_deep_dive"
+    },
+    {
+      "date": "2026-05-12",
+      "topic": "The Indian Monsoon — South Asia's annual economic engine",
+      "bucket": "geography"
+    },
+    {
+      "date": "2026-05-13",
+      "topic": "The Transistor, Moore's Law, and the 2nm Wall",
+      "bucket": "semiconductor_foundations"
+    }
   ],
   "curriculum_progress": {
-    "incoterms":      { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
-    "documentation":  { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "bill_of_lading": { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
-    "customs":        { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "vessels":        { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "port_ops":       { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "pricing":        { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
-    "liner_alliances":{ "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "air_freight":    { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
-    "multimodal":     { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "trade_lanes":    { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "ftas":           { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
-    "marine_insurance":{"count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "compliance":     { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "industry_econ":  { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] }
+    "incoterms": {
+      "count": 1,
+      "last_seen": "2026-05-12",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "documentation": {
+      "count": 1,
+      "last_seen": "2026-05-13",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "bill_of_lading": {
+      "count": 1,
+      "last_seen": "2026-05-12",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "customs": {
+      "count": 1,
+      "last_seen": "2026-05-13",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "vessels": {
+      "count": 1,
+      "last_seen": "2026-05-13",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "port_ops": {
+      "count": 1,
+      "last_seen": "2026-05-13",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "pricing": {
+      "count": 1,
+      "last_seen": "2026-05-12",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "liner_alliances": {
+      "count": 1,
+      "last_seen": "2026-05-13",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "air_freight": {
+      "count": 1,
+      "last_seen": "2026-05-12",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "multimodal": {
+      "count": 0,
+      "last_seen": null,
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "trade_lanes": {
+      "count": 0,
+      "last_seen": null,
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "ftas": {
+      "count": 1,
+      "last_seen": "2026-05-12",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "marine_insurance": {
+      "count": 0,
+      "last_seen": null,
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "compliance": {
+      "count": 0,
+      "last_seen": null,
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "industry_econ": {
+      "count": 0,
+      "last_seen": null,
+      "difficulty": 1,
+      "rolling_score": []
+    }
   },
   "gk_progress": {
-    "history":         { "count": 2, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
-    "geography":       { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "physical_science":{ "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
-    "life_science":    { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "mathematics":     { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
-    "literature":      { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "arts":            { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
-    "music":           { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "religion":        { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "political_theory":{ "count": 1, "last_seen": "2026-05-10", "difficulty": 1, "rolling_score": [] },
-    "economics":       { "count": 1, "last_seen": "2026-05-10", "difficulty": 1, "rolling_score": [] },
-    "linguistics":     { "count": 1, "last_seen": "2026-05-12", "difficulty": 1, "rolling_score": [] },
-    "sport":           { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
-    "pop_culture":     { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] }
+    "history": {
+      "count": 2,
+      "last_seen": "2026-05-12",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "geography": {
+      "count": 1,
+      "last_seen": "2026-05-13",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "physical_science": {
+      "count": 1,
+      "last_seen": "2026-05-12",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "life_science": {
+      "count": 1,
+      "last_seen": "2026-05-13",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "mathematics": {
+      "count": 1,
+      "last_seen": "2026-05-12",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "literature": {
+      "count": 1,
+      "last_seen": "2026-05-13",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "arts": {
+      "count": 1,
+      "last_seen": "2026-05-12",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "music": {
+      "count": 1,
+      "last_seen": "2026-05-13",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "religion": {
+      "count": 1,
+      "last_seen": "2026-05-13",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "political_theory": {
+      "count": 1,
+      "last_seen": "2026-05-10",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "economics": {
+      "count": 1,
+      "last_seen": "2026-05-10",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "linguistics": {
+      "count": 1,
+      "last_seen": "2026-05-12",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "sport": {
+      "count": 0,
+      "last_seen": null,
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "pop_culture": {
+      "count": 0,
+      "last_seen": null,
+      "difficulty": 1,
+      "rolling_score": []
+    }
   },
   "history": [],
   "today": {
-    "date": "2026-05-12",
+    "date": "2026-05-13",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "domain",
-        "subtopic": "incoterms",
-        "stem": "Under Incoterms 2020, which Incoterm requires the seller to procure insurance covering 'all risks' (Institute Cargo Clauses A or equivalent) for the buyer's benefit?",
-        "options": ["CIF (Cost, Insurance and Freight)", "CIP (Carriage and Insurance Paid To)", "DAP (Delivered at Place)", "FOB (Free on Board)"],
-        "correct": 1,
-        "why": "Incoterms 2020 split CIF and CIP on insurance: CIF still requires only Clauses C (named perils, marine only), but CIP now requires Clauses A (all-risks). DAP/FOB carry no seller insurance obligation.",
-        "deepDive": "A key Incoterms 2020 change versus 2010 was the divergence of CIF and CIP on insurance level. Under 2010, both required only the minimum Institute Cargo Clauses C — fine for bulk commodities (the original use case of CIF), but too thin for high-value manufactured goods routed multimodally. The 2020 revision lifted CIP to Clauses A (all-risks) while leaving CIF at Clauses C, reflecting CIP's typical use for containerised, finished goods. The practical implication: a buyer importing electronics CIP Chittagong gets all-risks cover from origin; a buyer importing bulk grain CIF Mongla gets only named-perils cover and should top up. Failure to read this difference is one of the most common contracting errors among non-specialist buyers."
+        "subtopic": "vessels",
+        "stem": "A 'Capesize' bulk carrier gets its name because it:",
+        "options": [
+          "Is too large to transit the Suez or Panama Canals and must route around the Cape of Good Hope or Cape Horn",
+          "Was first designed and built at Cape Town shipyards for the South Africa coal trade",
+          "Has a cargo capacity capped at a threshold set by the Cape Shipping Convention",
+          "Is sized to transit the Cape Cod Canal on the US East Coast"
+        ],
+        "correct": 0,
+        "why": "Capesize vessels (typically 100,000–400,000+ DWT) exceed the beam and draft limits of both Suez and Panama, forcing routing around the capes. The name is purely geographic — no Cape Town origin, shipping convention, or US canal association.",
+        "deepDive": "Capesize bulkers (roughly 100,000 DWT and above, with Very Large Ore Carriers reaching 400,000 DWT) are too large for both the Suez and Panama Canals, making them route-constrained to Cape Horn or the Cape of Good Hope. Their trade is dominated by iron ore (Brazil and Australia to China, Korea, and Japan) and thermal and coking coal on long-haul lanes. The Baltic Capesize Index (BCI) is the key rate benchmark in the dry bulk market. Freight-rate sensitivity is extreme: Capesize earnings can swing from under $5,000 per day in slack periods to over $80,000 per day on peak Chinese iron ore demand — a direct transmission belt between steel policy in Beijing and mining margins in the Pilbara. Smaller Panamax (60,000–80,000 DWT) and Supramax/Ultramax (50,000–65,000 DWT) bulkers trade grains, coal, and minor bulk on more diverse, shorter-haul routes. The size ladder matters operationally because port draft restrictions, terminal crane reach, and cargo lot sizes bifurcate sharply at the canal-dimension threshold."
       },
       {
         "n": 2,
         "topic": "domain",
-        "subtopic": "bill_of_lading",
-        "stem": "Which of the following best describes a 'Switch Bill of Lading' in international shipping?",
-        "options": ["A bill of lading reissued in digital form to replace a paper original", "A second bill of lading issued (typically at a transshipment hub) to replace the original, often changing shipper, consignee, or port details", "A bill of lading endorsed to a bank as security under a letter of credit", "A bill released electronically at destination via telex to bypass paper presentation"],
+        "subtopic": "port_ops",
+        "stem": "In container shipping, Terminal Handling Charges (THC) are set and invoiced by:",
+        "options": [
+          "The port authority or terminal operator directly to the shipper",
+          "The ocean carrier, who passes through its terminal costs as a line item on the freight invoice",
+          "IATA on behalf of all participating terminal operators under a global schedule",
+          "A government-regulated schedule negotiated under the WTO Trade Facilitation Agreement"
+        ],
         "correct": 1,
-        "why": "A Switch BL is a fresh set of original bills issued in place of the first set — typically used in triangular trade to hide the real shipper/origin from the end buyer, or to redirect cargo. Legitimate but carrying real fraud and double-claim risk.",
-        "deepDive": "Switch bills of lading are common in commodity and middleman trades — a Singapore-based trader buys ex-factory in China, ships goods toward an end-buyer in Bangladesh, and wants the BD buyer to see the Singapore trader (not the original Chinese supplier) as shipper. The carrier surrenders the first set and issues a second 'switched' set at the transshipment port with new shipper/consignee/loading-port particulars. Risks: the carrier must collect *all* original first-set bills before issuing the switch — otherwise two valid sets of originals exist, and either could be presented for delivery. Compliance teams flag switch-BL requests because they're a common vector for sanctions evasion (masking Russia/Iran-origin cargo) and trade-based money laundering."
+        "why": "THC is set and invoiced by the ocean carrier — the carrier contracts with and pays the terminal operator, then recovers costs from the shipper as a line item. Rates vary by port and carrier; there is no global standard.",
+        "deepDive": "THC (Terminal Handling Charge) is levied at both origin (OTHC: gate-in through vessel loading) and destination (DTHC: vessel discharge through gate-out). Despite the name, the charge flows from ocean carrier to shipper — the carrier contracts with the terminal operator, pays the terminal, and invoices the shipper separately. Terminal operators set their own port tariffs, which carriers mark up or absorb depending on competitive dynamics. THC rates vary enormously by port: Singapore OTHC runs roughly $150–200 per TEU; Chittagong DTHC is typically $60–80 per TEU, reflecting lower terminal productivity and labour costs. The EU prohibited carriers from separately charging EU-port THC after the Liner Shipping block exemption narrowed, creating a recurring contract dispute over whether EU terminal costs are inside or outside the quoted freight rate. Under OSRA 2022, the FMC requires US-facing carriers to itemise all accessorial charges — including THC — transparently on invoices, making it harder to bury costs in opaque surcharge lines."
       },
       {
         "n": 3,
         "topic": "domain",
-        "subtopic": "pricing",
-        "stem": "On a container freight invoice, the 'BAF' (Bunker Adjustment Factor) surcharge is intended to:",
-        "options": ["Pass through fluctuations in marine fuel costs to shippers", "Compensate for currency fluctuations between invoicing and settlement", "Recover capex on IMO 2020 low-sulphur scrubber retrofits", "Reflect vessel-sharing imbalances between carriers under a VSA"],
-        "correct": 0,
-        "why": "BAF (Bunker Adjustment Factor) = a fuel surcharge passing through bunker price moves. CAF handles currency. LSS specifically addresses low-sulphur compliance cost. ECA covers Emission Control Area premiums.",
-        "deepDive": "Container freight bills decompose into base ocean rate plus a stack of surcharges, each addressing a different cost driver. **BAF** floats bunker cost — usually formulaic (e.g. $X per FEU per $50/t move in Rotterdam VLSFO). **CAF** (Currency Adjustment Factor) handles the gap between USD invoicing and the carrier's home-currency costs. **LSS** (Low Sulphur Surcharge) was introduced specifically for IMO 2020 0.5% sulphur compliance — some carriers folded LSS into BAF; others kept it separate. **ECA** premiums apply in Emission Control Areas (Baltic, North Sea, North American 200nm zone). **PSS** (Peak Season) and **GRI** (General Rate Increase) are demand-driven, not cost-recovery. Surcharge transparency was a major FMC battleground in the 2022 OSRA — carriers can no longer impose surcharges without an itemised, contemporaneous tariff filing."
+        "subtopic": "liner_alliances",
+        "stem": "The Gemini Cooperation, which launched in February 2025, consists of which two ocean carriers?",
+        "options": [
+          "CMA CGM and COSCO",
+          "Maersk and Hapag-Lloyd",
+          "MSC and Evergreen",
+          "ONE and Yang Ming"
+        ],
+        "correct": 1,
+        "why": "Gemini Cooperation = Maersk + Hapag-Lloyd, formed after the 2M alliance (Maersk + MSC) dissolved. MSC chose independence and is now the world's largest carrier by fleet. Gemini differentiates on schedule reliability, targeting above 90%.",
+        "deepDive": "The 2M alliance — Maersk and MSC — was the dominant trans-oceanic partnership for roughly a decade. MSC grew its fleet aggressively during the 2022–24 pandemic-era ordering wave, surpassed Maersk as the world's largest carrier, and chose full independence when 2M expired. Maersk partnered with Hapag-Lloyd to form the Gemini Cooperation (launched February 2025), with an explicit differentiation strategy: schedule reliability targeting above 90%, versus an industry average of 55–65%, achieved through a hub-and-spoke network with large mainline vessels and smaller feeder loops rather than complex long-string structures. The other major configurations: the Premier Alliance (ONE + HMM + Yang Ming) and the Ocean Alliance (CMA CGM + COSCO + OOCL + Evergreen). MSC as a standalone operates the single largest carrier network globally. Alliance structure determines which ports receive calls, which lanes face competition, and the schedule reliability a shipper can realistically expect on any given service."
       },
       {
         "n": 4,
         "topic": "domain",
-        "subtopic": "ftas",
-        "stem": "Under EU Everything But Arms (EBA), Bangladesh currently exports duty-free to the EU. After Bangladesh's LDC graduation in November 2026, EBA preferences are extended under what arrangement?",
-        "options": ["They expire immediately at graduation", "A 5-year automatic transition to November 2031 under standard WTO rules", "A 3-year EU-negotiated transition to November 2029", "They convert automatically to GSP+ status"],
+        "subtopic": "customs",
+        "stem": "Under the WTO Customs Valuation Agreement, the primary (first-preference) method for determining dutiable value is:",
+        "options": [
+          "Computed value — cost of production plus a reasonable profit and overhead",
+          "Transaction value of identical goods from the same exporter",
+          "Transaction value of the imported goods — the price actually paid or payable",
+          "Deductive value — the resale price in the importing country minus margins and duties"
+        ],
         "correct": 2,
-        "why": "The EU's standard LDC-graduation transition is 3 years of continued EBA preferences. For Bangladesh that runs to November 2029. GSP+ requires a separate application and ratification of 32 international conventions; it is not automatic.",
-        "deepDive": "The EU's LDC-graduation transition rules give a 3-year preferences extension to graduating countries — so Bangladesh's EBA duty-free access continues to November 2029. After that, three options: (1) **GSP+** — duty-free on 66% of EU tariff lines, but requires ratification of 32 conventions on labour, human rights, environment, and good governance, and is *not* available if a country's share of total extra-EU imports for a product section exceeds 6%. Bangladesh's combined share of HS 61/62/63 apparel imports is over 20% — well above the safeguard threshold — so GSP+ for apparel is structurally blocked even if BD qualifies otherwise. (2) **Standard GSP** with MFN-9–12% tariffs. (3) An **Economic Partnership Agreement** — a fuller bilateral FTA, which the EU has so far not entered with any South Asian country. The strategic implication: even with full GSP+ effort, apparel will not benefit from preferences after 2029 unless the safeguard math changes."
+        "why": "The WTO CVA hierarchy begins with Method 1: transaction value — what was actually paid or payable for the goods when sold for export. Methods 2 through 6 are used only when Method 1 cannot be determined or verified.",
+        "deepDive": "The WTO Customs Valuation Agreement (CVA), implementing GATT Article VII across roughly 165 member countries, requires customs authorities to determine dutiable value through a cascading six-method hierarchy. Method 1 — transaction value (the price actually paid or payable, adjusted for specified additions such as royalties, commissions, and assists) — covers the vast majority of commercial clearances. It can be rejected if the buyer-seller relationship appears to have distorted the price, if conditions on resale affect value, if proceeds of resale flow abnormally back to the seller, or if the goods were not genuinely sold for export. If Method 1 fails, authorities cascade: Method 2 (transaction value of identical goods), Method 3 (similar goods), Method 4 (deductive — backward from resale price), Method 5 (computed — cost plus profit plus overhead), Method 6 (fallback — reasonable means consistent with the Agreement). Transfer pricing between related parties — a parent selling to a subsidiary below market to minimise import duty — is the most common Method 1 rejection scenario in practice, and a major compliance battlefield for multinationals operating across Asia."
       },
       {
         "n": 5,
         "topic": "domain",
-        "subtopic": "air_freight",
-        "stem": "The IATA volumetric (dimensional) weight divisor used to compute chargeable weight for general air cargo is:",
-        "options": ["4,800 cm³/kg", "5,000 cm³/kg", "6,000 cm³/kg", "7,000 cm³/kg"],
-        "correct": 2,
-        "why": "IATA general-cargo divisor is 6,000 cm³/kg (equivalent to 166.67 kg/m³). Chargeable weight = greater of actual or volumetric. Couriers/parcel networks often use 5,000 cm³/kg — a *tighter* divisor that captures more low-density freight as billable.",
-        "deepDive": "Air freight is sold by chargeable weight = max(actual kg, volume in cm³ ÷ 6,000) for general IATA cargo — the 6,000 divisor corresponds to a density of 166.67 kg/m³, the rough breakeven between light, voluminous cargo (where space is the constraint) and dense cargo (where weight is). Integrators and parcel carriers — FedEx, UPS, DHL Express — typically apply 5,000 cm³/kg, a tighter divisor (200 kg/m³) that captures more bulky-but-light shipments as space-billable. Knowing the divisor is part of every air-freight pricing conversation: a shipper of foam packaging or apparel-on-hangers will always be volumetric-billed, while a shipper of pharmaceuticals or batteries is almost always actual-weight. Carriers also apply higher-density divisors selectively for specific commodities or charter arrangements."
+        "subtopic": "documentation",
+        "stem": "A preferential Certificate of Origin (e.g. Form D under ASEAN, EUR.1 under EU agreements) differs from a standard non-preferential Certificate of Origin primarily because:",
+        "options": [
+          "Preferential certificates are self-issued by the exporter without government or chamber involvement",
+          "Preferential certificates unlock reduced or zero tariff rates and require goods to meet specific rules of origin criteria",
+          "Preferential certificates are required only for shipments above a specified customs value threshold",
+          "Preferential certificates replace the commercial invoice as the primary customs valuation document"
+        ],
+        "correct": 1,
+        "why": "A preferential CO allows the importer to claim lower or zero duty under a specific FTA — but only if goods satisfy that agreement's rules of origin. A non-preferential CO merely certifies origin for statistical or anti-dumping purposes, carrying no tariff benefit.",
+        "deepDive": "The commercial value of a Certificate of Origin lies almost entirely in its preferential variant. A non-preferential CO — issued by a chamber of commerce or trade authority — is requested by buyers, banks, or import authorities for statistical, anti-dumping, or origin-verification purposes; it carries no tariff benefit. Preferential COs come in several forms: Form D (ASEAN-AFTA), Form E (ASEAN-China FTA), EUR.1 (EU bilateral agreements), REX declarations (EU Registered Exporter system used under GSP and EBA), and Statements on Origin (CPTPP). Each requires the exporter to demonstrate compliance with the relevant rules of origin — either wholly obtained, substantial transformation (change of HS heading), or a regional value content threshold such as 40% under ASEAN. Bangladesh's RMG exports to the EU under EBA use REX declarations; the double transformation rule — yarn woven into fabric and then cut-and-sewn into garments within the beneficiary country — is exactly why Bangladesh built a domestic woven fabric sector over two decades. Misuse of preferential COs is a common customs fraud vector, particularly in triangular trade arrangements used to launder origin."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The Treaty of Westphalia (1648) is conventionally cited as the foundation of which concept in international relations?",
-        "options": ["Free trade and comparative advantage", "State sovereignty and the modern nation-state system", "Collective security via standing international institutions", "Universal human rights"],
+        "subtopic": "geography",
+        "stem": "The Strait of Malacca, through which roughly 40% of global seaborne trade passes, separates which two landmasses?",
+        "options": [
+          "Indonesia and the Philippines",
+          "The Malay Peninsula and the Indonesian island of Sumatra",
+          "Malaysia and Singapore only — it is a city-state passage",
+          "Thailand and Vietnam"
+        ],
         "correct": 1,
-        "why": "Westphalia (1648) ended the Thirty Years' War in central Europe and is the conventional origin point of the principle that sovereign states have exclusive authority within their borders — 'Westphalian sovereignty', still the default unit of the international system.",
-        "deepDive": "The Peace of Westphalia (1648) was actually two treaties — Münster and Osnabrück — that ended the Thirty Years' War, a devastating religious conflict that killed roughly a third of central Europe's population. Its conceptual legacy was the principle that each sovereign ruler (regardless of religion) held exclusive authority over their territory, and that other states should not intervene in domestic affairs. International-relations theory still describes the basic state-centric architecture of the global system as 'Westphalian'. Revisionist historians argue the principle was articulated earlier and codified more diffusely, but the symbolic anchor remains 1648. The modern challenges to Westphalian order — humanitarian intervention, ICC jurisdiction, transnational tech and capital, climate negotiations — are all framed against this baseline."
+        "why": "Malacca separates the Malay Peninsula (West Malaysia, southern Thailand) from Sumatra (Indonesia). Singapore sits at its southern exit. At its narrowest — the Phillips Channel near Singapore — the strait is about 2.8km wide.",
+        "deepDive": "The Strait of Malacca is approximately 890km long and narrows to about 2.8km at the Phillips Channel near Singapore. It links the Indian Ocean with the South China Sea and handles an estimated 40% of global seaborne trade and roughly 80% of China's seaborne oil imports. Three critical operational features: extreme draft limitations at the narrowest points (depth approximately 25m limits fully-laden VLCCs), extreme traffic density (over 85,000 vessels per year), and historically elevated piracy risk monitored by the ReCAAP Information Sharing Centre in Singapore. The alternative routing — through the Strait of Lombok between Lombok and Bali, or the Makassar Strait — adds roughly 1,000km to the voyage. Singapore's entire economic geography is premised on commanding this strait: it handles roughly $800B in annual trade and around 37 million TEUs per year as a transhipment hub precisely because it sits at the strait's southern exit. For MGH Group, Malacca dependency is embedded in every Asia-origin shipment transiting Singapore toward the Indian subcontinent."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "Heisenberg's uncertainty principle states that:",
-        "options": ["The speed of light is constant in all inertial reference frames", "Energy is emitted and absorbed only in discrete quantised packets", "There is a fundamental limit to how precisely position and momentum of a particle can be known simultaneously", "Entropy of an isolated system never decreases"],
-        "correct": 2,
-        "why": "Heisenberg (1927) showed Δx · Δp ≥ ħ/2 — position and momentum cannot both be measured to arbitrary precision. It's a limit of nature, not of instruments. Statement A is special relativity; B is Planck's quantum hypothesis; D is the second law of thermodynamics.",
-        "deepDive": "Werner Heisenberg's 1927 paper showed that for conjugate variable pairs — position/momentum, energy/time — there is a fundamental product of uncertainties bounded below by ℏ/2, where ℏ is the reduced Planck constant. This is not a statement about measurement disturbance (a common misunderstanding) but about what nature *is*: a particle does not simultaneously possess perfectly defined position and momentum values. The principle drives much of modern physics — it explains why atoms don't collapse (the electron cannot localise without gaining infinite kinetic energy), the quantum-tunnelling that powers semiconductor leakage currents and fusion in stars, and the practical performance ceilings of electron microscopes. The Bohr–Einstein debates of the late 1920s, ultimately won by the Copenhagen interpretation, centred on whether this uncertainty was epistemic (we don't know) or ontic (it doesn't have a value). Modern physics treats it as ontic."
+        "subtopic": "life_science",
+        "stem": "The central dogma of molecular biology, as articulated by Francis Crick, describes the directional flow of biological information as:",
+        "options": [
+          "Protein → RNA → DNA",
+          "DNA → RNA → Protein",
+          "RNA → DNA → Protein",
+          "Protein → DNA → RNA"
+        ],
+        "correct": 1,
+        "why": "The central dogma: DNA is transcribed into mRNA, which ribosomes translate into protein. The 1970 discovery that retroviruses can reverse-transcribe RNA back into DNA (Temin and Baltimore) was a significant but bounded exception to the one-directional model.",
+        "deepDive": "Francis Crick articulated the central dogma in a 1958 lecture and formalised it in a 1970 Nature paper: genetic information flows from DNA to RNA to protein, and not in reverse. DNA is transcribed into messenger RNA by RNA polymerase inside the nucleus; ribosomes in the cytoplasm then translate the mRNA sequence — three-nucleotide codons mapping to specific amino acids — into a polypeptide chain that folds into a functional protein. This mechanism underlies virtually all cellular biology. Key boundary cases: RNA viruses such as influenza, HIV, and SARS-CoV-2 carry RNA genomes rather than DNA; retroviruses including HIV use reverse transcriptase to convert their RNA genome back into DNA, which integrates into the host chromosome — the discovery for which Howard Temin and David Baltimore shared the 1975 Nobel Prize in Physiology or Medicine. mRNA vaccines exploit the dogma directly: inject synthetic mRNA encoding the spike protein, and the body's ribosomes translate it into antigen without any viral DNA. CRISPR-Cas9 gene editing intervenes at the DNA layer — editing the master instruction set rather than its downstream products — which is why it has greater therapeutic permanence."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "Euler's identity — often called the 'most beautiful equation in mathematics' — is:",
-        "options": ["e^(iπ) + 1 = 0", "a² + b² = c²", "F = ma", "E = mc²"],
-        "correct": 0,
-        "why": "Euler's identity links five of mathematics' most fundamental constants — 0, 1, e, i, π — and three core operations (addition, multiplication, exponentiation). It falls out of Euler's formula e^(iθ) = cos θ + i sin θ at θ = π.",
-        "deepDive": "Euler's identity e^(iπ) + 1 = 0 derives from Euler's broader formula e^(iθ) = cos θ + i sin θ — substitute θ = π and you get e^(iπ) = -1, then add 1. Its aesthetic claim rests on packing the additive identity (0), multiplicative identity (1), the base of natural logarithms (e ≈ 2.718), the ratio of a circle's circumference to its diameter (π ≈ 3.14159), and the imaginary unit (i = √-1) into a single nine-character relation. Beyond beauty, it's foundational: complex exponentials are the language of signal processing (Fourier transforms), quantum mechanics (wavefunctions), electrical engineering (AC analysis via phasors), and control theory. Anywhere oscillation or rotation matters, Euler's formula is the engine."
+        "subtopic": "literature",
+        "stem": "Rabindranath Tagore (1861–1941), the first Asian Nobel laureate in Literature (1913), wrote primarily in which language, and which collection won the Nobel?",
+        "options": [
+          "Hindi; his collected poems 'Kamayani' won the Nobel Prize",
+          "Bengali; his devotional collection 'Gitanjali' won the Nobel Prize",
+          "Sanskrit; his revival of classical kavya poetry was recognised",
+          "English; he lived in London and wrote modernist prose fiction"
+        ],
+        "correct": 1,
+        "why": "Tagore wrote overwhelmingly in Bengali — poetry, novels, short stories, drama, and 2,000+ Rabindra Sangeet songs. Gitanjali ('Song Offerings'), translated into English prose by Tagore himself, won the 1913 Nobel. He also composed both the Indian and Bangladeshi national anthems.",
+        "deepDive": "Rabindranath Tagore towers over Bengali literary and musical culture in a way few national authors match anywhere. Born in 1861 in Kolkata into the Tagore family — a leading intellectual dynasty of the Bengal Renaissance — he produced roughly 2,000 songs (Rabindra Sangeet), several dozen plays, over a dozen novels, hundreds of short stories, and vast volumes of essays. Gitanjali — his own English prose rendering of devotional Bengali poems — captivated W.B. Yeats, who wrote the introduction to the 1912 English edition, and led directly to the 1913 Nobel Prize. What is often missed outside South Asia: Tagore composed the national anthems of both India (Jana Gana Mana) and Bangladesh (Amar Sonar Bangla) — the only person in history to have authored the national anthems of two countries. He founded Visva-Bharati University at Santiniketan on principles of humanist, open-air education. He was knighted in 1915 and renounced the honour in 1919 in protest of the Jallianwala Bagh massacre — one of the earliest and most consequential acts of colonial protest by a public intellectual."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "'Guernica' (1937), the large mural-sized painting depicting the bombing of a Basque town during the Spanish Civil War, was painted by:",
-        "options": ["Salvador Dalí", "Pablo Picasso", "Joan Miró", "Francisco Goya"],
+        "subtopic": "music",
+        "stem": "In Western music, 'counterpoint' refers to:",
+        "options": [
+          "The use of silence and rests to create dramatic tension between melodic phrases",
+          "The technique of combining two or more independent melodic lines that are nonetheless harmonically interdependent, sounding simultaneously",
+          "A gradual acceleration in tempo building toward a piece's climactic passage",
+          "The practice of repeating a melody in a lower register to create an echo effect"
+        ],
         "correct": 1,
-        "why": "Picasso painted Guernica in 1937 in response to the Luftwaffe and Italian air force's bombing of Guernica on 26 April 1937, on behalf of Franco's Nationalists. Monochrome, 3.5m × 7.8m, now hanging at the Reina Sofía, Madrid.",
-        "deepDive": "Pablo Picasso painted Guernica in Paris over five weeks in 1937 in response to the 26 April 1937 bombing of the Basque town of Guernica by the German Luftwaffe's Condor Legion and Italian Aviazione Legionaria, supporting Franco's Nationalist forces. Painted in monochrome — black, white, and grey — at 3.5m × 7.8m, the work is regarded as one of the most powerful anti-war statements in Western art. Picasso stipulated that Guernica should not return to Spain until democracy was restored; it sat at MoMA in New York for decades and only arrived in Spain in 1981. It now hangs at the Museo Reina Sofía in Madrid (not the Prado). A famous and possibly apocryphal exchange has a Nazi officer in occupied Paris ask Picasso, looking at a photo of the painting: 'Did you do that?' Picasso: 'No — you did.'"
+        "why": "Counterpoint = the art of combining simultaneous, independent melodic voices that are harmonically coherent. Bach is its supreme practitioner; the fugue is its highest form. Polyphony describes multiple voices; counterpoint specifies the rules governing how they must relate.",
+        "deepDive": "Counterpoint (from Latin punctus contra punctum — note against note) is the compositional discipline governing how two or more independent melodic lines can coexist simultaneously while remaining harmonically coherent. Its rules were codified by Johannes Tinctoris in the 15th century and most influentially by Johann Joseph Fux in Gradus ad Parnassum (1725) — the textbook that Haydn, Mozart, and Beethoven all formally studied. Species counterpoint runs from first species (note against note) through fifth species combining all previous forms. The highest contrapuntal form is the fugue: a subject stated in one voice and developed through systematic imitation across multiple voices — Bach's The Art of Fugue (1750), left unfinished at his death, is the summit of the form. Counterpoint fell from favour in the homophonic Romantic era but returned powerfully in modernism: the Second Viennese School (Schoenberg, Berg, Webern) applied serial counterpoint using 12-tone rows. In contemporary pop production, countermelodies, bass-line responses, and call-and-response vocal arrangements are informal counterpoint, often uncredited as such."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "The 'Sapir–Whorf hypothesis' in linguistics proposes that:",
-        "options": ["All human languages descend from a single Proto-World ancestor", "Language acquisition is bounded by a critical period in early childhood", "The structure of a language influences or shapes how its speakers perceive and think about the world", "Phonemic changes across languages follow regular, predictable 'sound laws'"],
-        "correct": 2,
-        "why": "Sapir–Whorf, or 'linguistic relativity', is the claim that language shapes thought. Strong forms (language determines thought) are largely rejected; weaker forms (language nudges habitual categorisation) have modest empirical support — colour terms, spatial frames, gender marking.",
-        "deepDive": "Linguistic relativity — associated with Edward Sapir (1884–1939) and his student Benjamin Lee Whorf (1897–1941) — proposes that the grammatical and lexical structure of a language influences its speakers' cognition. A 'strong' version (language *determines* thought) is essentially dead, refuted by translation, bilingualism, and cross-cultural cognitive experiments. A 'weak' version — language *nudges* habitual categories — survives in modern psycholinguistics. Documented effects: speakers of languages with finer colour terms discriminate hues faster; speakers of Guugu Yimithirr (which uses absolute cardinal directions rather than left/right) maintain superior dead-reckoning skills; grammatical gender shifts mild metaphorical associations. The hypothesis is often confused with Chomsky's universal grammar — which argues the opposite direction, that all languages share a deep biological substrate. The two coexist: surface variation atop universal structure, with the surface still pulling cognition somewhat."
+        "subtopic": "religion",
+        "stem": "The Five Pillars of Islam, in standard Sunni enumeration, are:",
+        "options": [
+          "Shahada, Salat, Zakat, Sawm, Hajj",
+          "Salat, Zakat, Shahada, Hajj, Sawm",
+          "Hajj, Sawm, Zakat, Salat, Shahada",
+          "Shahada, Zakat, Salat, Hajj, Sawm"
+        ],
+        "correct": 0,
+        "why": "The Five Pillars: 1. Shahada (declaration of faith), 2. Salat (five daily prayers), 3. Zakat (obligatory charity), 4. Sawm (Ramadan fast), 5. Hajj (pilgrimage). The order is theologically significant — declaration of faith precedes all acts of worship.",
+        "deepDive": "The Five Pillars (Arkan al-Islam) are the framework of Muslim practice across Sunni schools (Shia Islam uses a partially different enumeration within a broader structure called Usul al-Din). Shahada — There is no god but God, and Muhammad is the messenger of God — is the entry point: recited sincerely before witnesses, it constitutes conversion. Salat specifies five daily prayers (Fajr at dawn, Dhuhr at midday, Asr in the afternoon, Maghrib at sunset, Isha at night) directed toward the Kaaba in Mecca. Zakat requires 2.5% of accumulated wealth above the nisab threshold — roughly one year of savings above subsistence — to be given to eligible recipients: one of the world's oldest codified wealth-redistribution mechanisms, predating modern taxation by over a millennium. Sawm is the complete daylight fast throughout Ramadan, the ninth lunar month. Hajj must be performed at least once by every Muslim who is physically and financially able. Historically, the overland Hajj routes across the Indian subcontinent were among the most important conduits of trade, scholarship, and cultural exchange across South and Southeast Asia."
       }
     ]
   }
