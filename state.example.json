@@ -1,0 +1,55 @@
+{
+  "streak": 0,
+  "last_session_date": null,
+  "questions_seen": [],
+  "learn_history": [
+    { "date": "YYYY-MM-DD", "topic": "Example lesson topic", "bucket": "history" }
+  ],
+  "curriculum_progress": {
+    "incoterms":            { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "documentation":        { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "bill_of_lading":       { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "customs":              { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "vessels":              { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "port_ops":             { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "pricing":              { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "liner_alliances":      { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "air_freight":          { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "aircraft_carriers":    { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "airport_ops":          { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "multimodal":           { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "trade_lanes":          { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "ftas":                 { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "marine_insurance":     { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "compliance":           { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "industry_econ":        { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "ma_consolidation":     { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "commercial_concepts":  { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "supply_chain_strategy":{ "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] }
+  },
+  "gk_progress": {
+    "history":          { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "geography":        { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "physical_science": { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "life_science":     { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "mathematics":      { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "literature":       { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "arts":             { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "music":            { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "religion":         { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "political_theory": { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "economics":        { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "linguistics":      { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "sport":            { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] },
+    "pop_culture":      { "count": 0, "last_seen": null, "difficulty": 1, "rolling_score": [] }
+  },
+  "history": [
+    {
+      "date": "YYYY-MM-DD",
+      "score": "8/10",
+      "displayDate": "DD Month YYYY",
+      "by_topic": { "domain": "5/5", "gk": "3/5" }
+    }
+  ],
+  "today": null
+}
