@@ -152,6 +152,42 @@ Update /Users/Shayan/morning-brief/state.json:
     bucket you touched today
   • state.questions_seen: append the stems of today's 10 questions
 
+**A.5) Validate the new TODAY object before writing it anywhere**
+
+Run a node-based parse + schema check on the new TODAY object you've built.
+ABORT THE WHOLE PUSH if any check fails — better stale-content than broken-page.
+
+  node -e '
+  const obj = <PASTE_THE_NEW_TODAY_OBJECT_HERE_AS_VALID_JS>;
+  const errs = [];
+  if (!obj.date || !/^\d{4}-\d{2}-\d{2}$/.test(obj.date)) errs.push("bad date");
+  if (!obj.dateLabel) errs.push("missing dateLabel");
+  if (!obj.editionLabel) errs.push("missing editionLabel");
+  if (!obj.headline || obj.headline.length < 10) errs.push("missing/short headline");
+  if (!Array.isArray(obj.sections) || obj.sections.length !== 4) errs.push("sections != 4");
+  for (const sec of (obj.sections || [])) {
+    if (!sec.title || !Array.isArray(sec.items) || sec.items.length < 1) { errs.push("empty section: " + (sec.title||"?")); continue; }
+    for (const it of sec.items) {
+      if (!it.lead || !it.body) errs.push("item missing lead/body in " + sec.title);
+      if (it.src && it.src.url && !/^https?:\/\//i.test(it.src.url)) errs.push("bad url: " + it.src.url);
+    }
+  }
+  if (!obj.lesson || !obj.lesson.title || !Array.isArray(obj.lesson.paragraphs) || !obj.lesson.why) errs.push("lesson incomplete");
+  if (!Array.isArray(obj.questions) || obj.questions.length !== 10) errs.push("questions != 10");
+  for (const q of (obj.questions || [])) {
+    if (!q.stem) errs.push("Q" + q.n + " missing stem");
+    if (!Array.isArray(q.options) || q.options.length !== 4) errs.push("Q" + q.n + " options != 4");
+    if (typeof q.correct !== "number" || q.correct < 0 || q.correct > 3 || !Number.isInteger(q.correct)) errs.push("Q" + q.n + " bad correct");
+    if (!q.why || !q.deepDive) errs.push("Q" + q.n + " missing why/deepDive");
+  }
+  if (errs.length) { console.error("VALIDATION FAILED:\n  - " + errs.join("\n  - ")); process.exit(1); }
+  console.log("VALIDATION OK: " + obj.questions.length + " Qs, " + obj.sections.length + " sections, headline " + obj.headline.length + " chars");
+  '
+
+If the node command exits non-zero, ABORT — do not write the file, do not
+push anything. Report the validation errors in your final summary so the
+failure is visible.
+
 **B) Update the live website**
 
 The website is /Users/Shayan/morning-brief/site/morning-brief.html. It
