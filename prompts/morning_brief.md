@@ -88,6 +88,32 @@ Brief rules:
 • NO context-padding. Don't tell Shayan things he already lives with: BD
   election outcomes from months ago, "X months into the new government",
   who runs his own country, ongoing wars without new developments today.
+
+• **🇧🇩 HARD RULE — BD/SUBCONTINENT SECTION:** Shayan lives in Bangladesh,
+  runs MGH ops there, and was personally at Tarique Rahman's house on
+  election night (Feb 2026). He knows the political baseline cold.
+  BD bullets must reference events from the LAST 24-48 HOURS only.
+  **BANNED in the BD section unless there's a brand-new development today:**
+    - "BNP won the Feb 2026 election" / Tarique Rahman becoming PM
+    - Yunus stepping down / the interim government transition
+    - "Two Begums era ending"
+    - LDC graduation as a general fact (only mention if a new policy/deal
+      lands today specifically related to it)
+    - "RMG sector under pressure" as a generic theme
+    - "Matarbari port construction begins" (already covered)
+    - "Chittagong customs delays choking flow" as ongoing context
+    - Bangladesh-Pakistan cricket unless there's a sport-as-diplomacy hook
+  **What IS welcome in the BD section:**
+    - New Bangladesh Bank moves announced today (rate, intervention, MPS)
+    - Today's RMG specific events: factory-level news, big-name orders/
+      cancellations, labour incidents, named buyers' moves
+    - Specific port operational events: a ship grounding, a strike, a
+      tariff change, a customs seizure
+    - New trade deals, tariff threats, treaty steps from today
+    - Subcontinent geopolitics moves from last 24-48h (Pakistan, India,
+      Sri Lanka, Maldives, Bhutan, Nepal — specific moves not status)
+  If you can't find 4 genuinely-new BD stories, write 2-3 bullets or write
+  "Quiet day on the BD front." Empty < padded.
 • No filler. If you're tempted to write "X is still consolidating", "Y
   remains in focus", "Z continues to be a key story" — delete it. Either
   there's news today or there isn't.
