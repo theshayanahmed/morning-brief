@@ -33,6 +33,11 @@ body { padding-bottom: env(safe-area-inset-bottom); }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
 a { color: inherit; }
 
+/* STALE BANNER */
+.stale-banner { display: none; background: var(--red); color: #fff; padding: 10px 16px; text-align: center; font-family: var(--mono); font-size: 12px; letter-spacing: 0.04em; line-height: 1.4; position: sticky; top: 0; z-index: 20; }
+.stale-banner.show { display: block; }
+.stale-banner strong { font-weight: 500; }
+
 /* MASTHEAD */
 .masthead {
   background: var(--accent);
@@ -183,6 +188,9 @@ a { color: inherit; }
 </head>
 <body>
 
+<!-- STALE-CONTENT BANNER (shown if TODAY.date < user's local date) -->
+<div id="stale-banner" class="stale-banner">⚠ <strong>This brief is dated <span id="stale-date"></span>.</strong> Today's content hasn't published yet. The morning routine may have failed — try refreshing in 10 minutes.</div>
+
 <!-- LOADING -->
 <div id="screen-loading" class="screen active">
   <div class="masthead">
@@ -230,7 +238,7 @@ a { color: inherit; }
   <div class="content">
     <div class="section-label">Your performance</div>
     <div class="score-grid">
-      <div class="score-card"><div class="num" id="stat-sessions">0</div><div class="lbl">Briefings</div></div>
+      <div class="score-card"><div class="num" id="stat-sessions">0</div><div class="lbl">Sessions</div></div>
       <div class="score-card"><div class="num" id="stat-avg">—</div><div class="lbl">Avg score</div></div>
       <div class="score-card"><div class="num" id="stat-best">—</div><div class="lbl">Best</div></div>
     </div>
@@ -701,6 +709,21 @@ document.title = `The Morning Brief — ${TODAY.dateLabel.replace(/^[A-Za-z]+ ·
 
 const TOPIC_LABEL = { domain:'industry & ops', gk:'general knowledge' };
 
+// ─── XSS-SAFE HELPERS ──────────────────────────────────────────────
+// Generated content (brief items, lesson text, quiz, sources) comes from
+// LLM + web research — both untrusted. Escape before insertion into HTML;
+// validate URLs to http/https only.
+function esc(s) {
+  if (s == null) return '';
+  return String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+function safeUrl(u) {
+  const s = String(u || '');
+  return /^https?:\/\//i.test(s) ? s : '#';
+}
+
 // ─── STATE ─────────────────────────────────────────────────────────
 const SK = 'mb_v2_state';
 let state = { sessions: [], streak: 0, lastDate: null };
@@ -751,23 +774,25 @@ function runLoadingAnim(done){
 function renderBriefing(){
   document.getElementById('briefing-edition').textContent = TODAY.editionLabel;
   let html = '';
-  if (TODAY.headline) html += `<div class="briefing-lead">${TODAY.headline}</div>`;
+  if (TODAY.headline) html += `<div class="briefing-lead">${esc(TODAY.headline)}</div>`;
   TODAY.sections.forEach(s => {
     html += `<div class="briefing-section">
-      <div class="briefing-section-title">${s.title}</div>
+      <div class="briefing-section-title">${esc(s.title)}</div>
       <ul class="briefing-list">`;
     s.items.forEach(item => {
-      const src = item.src ? ` <a class="src" href="${item.src.url}" target="_blank" rel="noopener">${item.src.name} ↗</a>` : '';
-      html += `<li class="briefing-item"><strong>${item.lead}</strong> ${item.body}${src}</li>`;
+      const src = item.src
+        ? ` <a class="src" href="${esc(safeUrl(item.src.url))}" target="_blank" rel="noopener">${esc(item.src.name)} ↗</a>`
+        : '';
+      html += `<li class="briefing-item"><strong>${esc(item.lead)}</strong> ${esc(item.body)}${src}</li>`;
     });
     html += `</ul></div>`;
   });
   html += `
     <div class="lesson-block">
       <div class="lesson-label">Learn something new</div>
-      <div class="lesson-title">${TODAY.lesson.title}</div>
-      ${TODAY.lesson.paragraphs.map(p => `<p>${p}</p>`).join('')}
-      <div class="lesson-why"><strong>Why it matters.</strong> ${TODAY.lesson.why}</div>
+      <div class="lesson-title">${esc(TODAY.lesson.title)}</div>
+      ${(TODAY.lesson.paragraphs || []).map(p => `<p>${esc(p)}</p>`).join('')}
+      <div class="lesson-why"><strong>Why it matters.</strong> ${esc(TODAY.lesson.why)}</div>
     </div>
   `;
   document.getElementById('briefing-content').innerHTML = html;
@@ -799,8 +824,8 @@ function renderHome(){
   if (sessions.length) {
     hl.innerHTML = sessions.slice(-7).reverse().map(s => `
       <div class="history-item">
-        <span class="history-date">${s.displayDate}</span>
-        <span class="history-score">${s.score}/${s.total} · ${Math.round(s.score / s.total * 100)}%</span>
+        <span class="history-date">${esc(s.displayDate)}</span>
+        <span class="history-score">${esc(s.score)}/${esc(s.total)} · ${Math.round(s.score / s.total * 100)}%</span>
       </div>`).join('');
   } else {
     hl.innerHTML = '<div class="history-empty">No sessions yet — read today\'s brief and take the quiz</div>';
@@ -811,11 +836,27 @@ function renderHome(){
 }
 
 function resetToday(){
+  // Remove today's session
   state.sessions = state.sessions.filter(s => s.date !== TODAY.date);
-  if (state.lastDate === TODAY.date) {
-    // un-roll today's streak contribution since the session is being redone
-    state.lastDate = null;
+  // Recompute streak from remaining (pre-today) sessions — preserves
+  // multi-day streaks instead of collapsing them
+  let streak = 0;
+  let prevDate = null;
+  for (const s of state.sessions) {
+    const score = s.score, total = s.total;
+    if (score / total < 0.7) { streak = 0; prevDate = s.date; continue; }
+    if (prevDate) {
+      const y = new Date(s.date + 'T00:00:00');
+      y.setDate(y.getDate() - 1);
+      const yStr = y.toISOString().split('T')[0];
+      streak = (prevDate === yStr) ? streak + 1 : 1;
+    } else {
+      streak = 1;
+    }
+    prevDate = s.date;
   }
+  state.streak = streak;
+  state.lastDate = prevDate;
   saveState();
   qIdx = 0; answers = []; qLocked = false;
   renderQ();
@@ -849,7 +890,7 @@ function renderQ(){
   const q = TODAY.questions[qIdx];
   renderProgress();
   const sub = q.subtopic ? ` · ${q.subtopic.replace(/_/g,' ')}` : '';
-  document.getElementById('q-meta').innerHTML = `<span>Q${q.n} of ${TODAY.questions.length}</span><span>${TOPIC_LABEL[q.topic] || q.topic}${sub}</span>`;
+  document.getElementById('q-meta').innerHTML = `<span>Q${esc(q.n)} of ${TODAY.questions.length}</span><span>${esc(TOPIC_LABEL[q.topic] || q.topic)}${esc(sub)}</span>`;
   document.getElementById('q-text').textContent = q.stem;
   const exp = document.getElementById('q-exp');
   exp.classList.remove('show','bad'); exp.textContent = '';
@@ -859,7 +900,7 @@ function renderQ(){
   const letters = ['A','B','C','D'];
   document.getElementById('q-options').innerHTML = q.options.map((o, i) => `
     <button class="q-opt" onclick="pick(${i})" id="opt-${i}">
-      <span class="opt-letter">${letters[i]}</span><span>${o}</span>
+      <span class="opt-letter">${letters[i]}</span><span>${esc(o)}</span>
     </button>`).join('');
 }
 
@@ -904,7 +945,7 @@ function showResults(){
     if (a.ok) buckets[a.topic].c++;
   });
   document.getElementById('topic-grid').innerHTML = Object.entries(buckets).map(([k, v]) => `
-    <div class="topic-row"><span class="name">${TOPIC_LABEL[k] || k}</span><span class="val ${v.c === v.t ? 'full' : ''}">${v.c}/${v.t}${v.c === v.t ? ' ✓' : ''}</span></div>
+    <div class="topic-row"><span class="name">${esc(TOPIC_LABEL[k] || k)}</span><span class="val ${v.c === v.t ? 'full' : ''}">${v.c}/${v.t}${v.c === v.t ? ' ✓' : ''}</span></div>
   `).join('');
 
   // streak (already-done check)
@@ -939,7 +980,7 @@ function showResults(){
     : (dom.c >= 4) ? 'Industry side is sharp; GK is where the gap is. Pick one corner — history, science, lit — and spend 15 min reading something orthogonal to your day.'
     : (gk.c >= 4) ? 'Broad knowledge is there; the ops side needs work. The vessel/alliance/pricing layer is where commercial decisions get made — worth a deeper pass.'
     : 'Mixed across both. Don\'t spread thin — pick one industry topic (e.g. liner alliances post-Gemini) and one GK domain this week, go deep on each.';
-  document.getElementById('takeaway').innerHTML = `<strong>What to read next</strong>${takeaway}`;
+  document.getElementById('takeaway').innerHTML = `<strong>What to read next</strong>${esc(takeaway)}`;
 
   // breakdown
   const letters = ['A','B','C','D'];
@@ -947,8 +988,8 @@ function showResults(){
     <div class="rb-item">
       <div class="rb-dot ${a.ok ? 'c' : 'w'}"></div>
       <div>
-        <div class="rb-q">${a.stem}</div>
-        <div class="rb-ans ${a.ok ? 'c' : 'w'}">${a.ok ? '✓ ' + a.options[a.correct] : '✗ You chose ' + letters[a.picked] + ' · Correct: ' + letters[a.correct] + '. ' + a.options[a.correct]}</div>
+        <div class="rb-q">${esc(a.stem)}</div>
+        <div class="rb-ans ${a.ok ? 'c' : 'w'}">${a.ok ? '✓ ' + esc(a.options[a.correct]) : '✗ You chose ' + letters[a.picked] + ' · Correct: ' + letters[a.correct] + '. ' + esc(a.options[a.correct])}</div>
       </div>
     </div>`).join('');
 
@@ -963,10 +1004,10 @@ function showResults(){
       const tag = (q.subtopic || q.topic).replace(/_/g,' ');
       const body = (q.deepDive || q.why || '').trim();
       return `<div class="dd-item">
-        <span class="dd-tag">${tag}</span>
-        <div class="dd-q">${a.stem}</div>
-        <div class="dd-correct">Correct: ${letters[a.correct]}. ${a.options[a.correct]}</div>
-        <div class="dd-body">${body}</div>
+        <span class="dd-tag">${esc(tag)}</span>
+        <div class="dd-q">${esc(a.stem)}</div>
+        <div class="dd-correct">Correct: ${letters[a.correct]}. ${esc(a.options[a.correct])}</div>
+        <div class="dd-body">${esc(body)}</div>
       </div>`;
     }).join('');
   } else {
@@ -984,11 +1025,28 @@ function goHome(){
   showScreen('screen-home');
 }
 
+// ─── STALE-CONTENT CHECK ───────────────────────────────────────────
+function checkStale(){
+  // Compare TODAY.date (the date this brief was generated for, YYYY-MM-DD)
+  // against the user's local date. If the brief is older, show the banner.
+  const d = new Date();
+  const localYMD = `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  if (TODAY.date && TODAY.date < localYMD) {
+    const banner = document.getElementById('stale-banner');
+    const dateSpan = document.getElementById('stale-date');
+    if (banner && dateSpan) {
+      dateSpan.textContent = TODAY.dateLabel || TODAY.date;
+      banner.classList.add('show');
+    }
+  }
+}
+
 // ─── INIT ──────────────────────────────────────────────────────────
 function init(){
   loadState();
   setDates();
   setStreak();
+  checkStale();
   renderBriefing();
   runLoadingAnim(() => {
     const todayDone = state.sessions.some(s => s.date === TODAY.date);
