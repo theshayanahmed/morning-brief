@@ -1,14 +1,14 @@
 {
   "streak": 0,
-  "last_session_date": "2026-05-14",
+  "last_session_date": "2026-05-15",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
     "In container shipping, 'demurrage' charges (as distinct from detention) apply specifically to:",
     "Which two carriers form the 'Gemini Cooperation' alliance that began operating in February 2025 after the dissolution of 2M?",
     "The Drewry World Container Index (WCI) and the Shanghai Containerized Freight Index (SCFI) differ in that:",
-    "The Strait of Hormuz \u2014 through which roughly a fifth of world oil trade passes \u2014 separates which two bodies of water?",
-    "Gabriel Garc\u00eda M\u00e1rquez's 'One Hundred Years of Solitude' (1967) is most closely associated with which literary movement?",
+    "The Strait of Hormuz — through which roughly a fifth of world oil trade passes — separates which two bodies of water?",
+    "Gabriel García Márquez's 'One Hundred Years of Solitude' (1967) is most closely associated with which literary movement?",
     "The endosymbiotic theory holds that mitochondria originated as:",
     "In mainstream Hindu cosmology, the Trimurti (the three principal deities representing creation, preservation, and dissolution) consists of:",
     "Which composer is most associated with bridging the Classical and Romantic eras of Western art music, transforming the symphony as a form?",
@@ -19,9 +19,9 @@
     "The IATA volumetric (dimensional) weight divisor used to compute chargeable weight for general air cargo is:",
     "The Treaty of Westphalia (1648) is conventionally cited as the foundation of which concept in international relations?",
     "Heisenberg's uncertainty principle states that:",
-    "Euler's identity \u2014 often called the 'most beautiful equation in mathematics' \u2014 is:",
+    "Euler's identity — often called the 'most beautiful equation in mathematics' — is:",
     "'Guernica' (1937), the large mural-sized painting depicting the bombing of a Basque town during the Spanish Civil War, was painted by:",
-    "The 'Sapir\u2013Whorf hypothesis' in linguistics proposes that:",
+    "The 'Sapir–Whorf hypothesis' in linguistics proposes that:",
     "A 'Capesize' bulk carrier gets its name because it:",
     "In container shipping, Terminal Handling Charges (THC) are set and invoiced by:",
     "The Gemini Cooperation, which launched in February 2025, consists of which two ocean carriers?",
@@ -29,19 +29,29 @@
     "A preferential Certificate of Origin (e.g. Form D under ASEAN, EUR.1 under EU agreements) differs from a standard non-preferential Certificate of Origin primarily because:",
     "The Strait of Malacca, through which roughly 40% of global seaborne trade passes, separates which two landmasses?",
     "The central dogma of molecular biology, as articulated by Francis Crick, describes the directional flow of biological information as:",
-    "Rabindranath Tagore (1861\u20131941), the first Asian Nobel laureate in Literature (1913), wrote primarily in which language, and which collection won the Nobel?",
+    "Rabindranath Tagore (1861–1941), the first Asian Nobel laureate in Literature (1913), wrote primarily in which language, and which collection won the Nobel?",
     "In Western music, 'counterpoint' refers to:",
     "The Five Pillars of Islam, in standard Sunni enumeration, are:",
     "In container logistics, 'LCL' (Less than Container Load) shipments differ from 'FCL' (Full Container Load) in that:",
-    "The 'Far East\u2013Indian Subcontinent' (FEIS) trade lane carries cargo between which origin cluster and which destination ports?",
+    "The 'Far East–Indian Subcontinent' (FEIS) trade lane carries cargo between which origin cluster and which destination ports?",
     "Under the Institute Cargo Clauses (ICC), which set of clauses provides the broadest 'all risks' coverage for cargo in transit?",
     "OFAC's SDN (Specially Designated Nationals) list creates compliance exposure for a logistics company primarily because:",
     "The Baltic Dry Index (BDI) measures which of the following?",
     "The 'Ashes' cricket series is contested between which two nations, and takes its name from:",
-    "The TV drama 'The Wire' (2002\u20132008), widely considered one of the greatest television series ever made, was created by whom and is primarily set in which American city?",
+    "The TV drama 'The Wire' (2002–2008), widely considered one of the greatest television series ever made, was created by whom and is primarily set in which American city?",
     "John Rawls's 'veil of ignorance' thought experiment, from 'A Theory of Justice' (1971), asks rational designers to choose a society's principles without knowing:",
     "David Ricardo's law of comparative advantage, from 'Principles of Political Economy' (1817), holds that:",
-    "Which of the following is a valid Pythagorean triple \u2014 three positive integers (a, b, c) satisfying a\u00b2 + b\u00b2 = c\u00b2?"
+    "Which of the following is a valid Pythagorean triple — three positive integers (a, b, c) satisfying a² + b² = c²?",
+    "Among large widebody dedicated freighters, which aircraft type is uniquely equipped with an upward-hinging nose section enabling straight-in loading of outsized cargo?",
+    "Anchorage Ted Stevens International Airport (PANC) ranks consistently in the world's top five for cargo throughput despite serving a city of ~300,000 primarily because:",
+    "The DSV–DB Schenker acquisition (~$14.8B, completed 2024-25) was significant for the freight forwarding industry primarily because it:",
+    "In a freight forwarding service contract, a Minimum Quantity Commitment (MQC) 'shortfall liability' clause means:",
+    "The 'bullwhip effect' in supply chains describes the phenomenon where:",
+    "The Chinese Communist Party's Long March (1934-35), a ~9,000 km strategic retreat that decimated the Red Army from ~100,000 to under 10,000, ended at which location where Mao consolidated his leadership?",
+    "Einstein's special relativity (1905) predicts that as an object's velocity approaches the speed of light, its mass, time, and length simultaneously do what?",
+    "Akira Kurosawa's 'Rashomon' (1950), which introduced Japanese cinema to Western audiences, is most notable for its:",
+    "Grimm's Law — formulated by Jacob Grimm of fairy-tale fame — describes which phenomenon in historical linguistics?",
+    "The Fergana Valley — one of Central Asia's most densely populated regions and site of its most complex border disputes — is divided among which three modern states?"
   ],
   "learn_history": [
     {
@@ -56,7 +66,7 @@
     },
     {
       "date": "2026-05-12",
-      "topic": "The Indian Monsoon \u2014 South Asia's annual economic engine",
+      "topic": "The Indian Monsoon — South Asia's annual economic engine",
       "bucket": "geography"
     },
     {
@@ -68,6 +78,11 @@
       "date": "2026-05-14",
       "topic": "The Impossible Trinity (Mundell-Fleming Trilemma)",
       "bucket": "economics"
+    },
+    {
+      "date": "2026-05-15",
+      "topic": "The Standard Model of Particle Physics",
+      "bucket": "science_concept"
     }
   ],
   "curriculum_progress": {
@@ -160,24 +175,54 @@
       "last_seen": "2026-05-14",
       "difficulty": 1,
       "rolling_score": []
+    },
+    "aircraft_carriers": {
+      "count": 1,
+      "last_seen": "2026-05-15",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "airport_ops": {
+      "count": 1,
+      "last_seen": "2026-05-15",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "ma_consolidation": {
+      "count": 1,
+      "last_seen": "2026-05-15",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "commercial_concepts": {
+      "count": 1,
+      "last_seen": "2026-05-15",
+      "difficulty": 1,
+      "rolling_score": []
+    },
+    "supply_chain_strategy": {
+      "count": 1,
+      "last_seen": "2026-05-15",
+      "difficulty": 1,
+      "rolling_score": []
     }
   },
   "gk_progress": {
     "history": {
-      "count": 2,
-      "last_seen": "2026-05-12",
+      "count": 3,
+      "last_seen": "2026-05-15",
       "difficulty": 1,
       "rolling_score": []
     },
     "geography": {
-      "count": 1,
-      "last_seen": "2026-05-13",
+      "count": 2,
+      "last_seen": "2026-05-15",
       "difficulty": 1,
       "rolling_score": []
     },
     "physical_science": {
-      "count": 1,
-      "last_seen": "2026-05-12",
+      "count": 2,
+      "last_seen": "2026-05-15",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -200,8 +245,8 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 1,
-      "last_seen": "2026-05-12",
+      "count": 2,
+      "last_seen": "2026-05-15",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -230,8 +275,8 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 1,
-      "last_seen": "2026-05-12",
+      "count": 2,
+      "last_seen": "2026-05-15",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -250,159 +295,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-05-14",
+    "date": "2026-05-15",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "domain",
-        "subtopic": "multimodal",
-        "stem": "In container logistics, 'LCL' (Less than Container Load) shipments differ from 'FCL' (Full Container Load) in that:",
+        "subtopic": "aircraft_carriers",
+        "stem": "Among large widebody dedicated freighters, which aircraft type is uniquely equipped with an upward-hinging nose section enabling straight-in loading of outsized cargo?",
         "options": [
-          "The shipper pays for the whole container regardless of actual cargo volume",
-          "Cargo is consolidated with other shippers' goods at a CFS and freight is charged per weight or volume unit",
-          "LCL movements are restricted to feeder services and cannot be loaded onto mainline ocean vessels",
-          "LCL containers are sealed by customs on departure and cannot be inspected at intermediate transhipment ports"
+          "Boeing 777F — the world's most fuel-efficient widebody freighter by revenue tonne-mile",
+          "Airbus A330-200F — optimised for medium-range high-density routes",
+          "Boeing 747F series — nose door gives full main-deck length access for outsized and long cargo items",
+          "Airbus A350F — designed as the next-generation 777F competitor with superior range and payload"
         ],
-        "correct": 1,
-        "why": "LCL: cargo from multiple shippers consolidated at a Container Freight Station; each shipper pays W/M (weight or measurement) freight for their portion only. FCL: the shipper pays for the whole container at a flat box rate regardless of fill level. LCL can and does move on mainline vessels via consolidators.",
-        "deepDive": "LCL (Less than Container Load) is the shipping equivalent of parcel post: a consolidator \u2014 typically an NVOCC or freight forwarder \u2014 aggregates multiple shippers' cargo at a Container Freight Station (CFS), stuffs it into shared containers, and issues a House Bill of Lading to each shipper for their portion. Freight is charged on W/M (weight or measurement), whichever generates more revenue. At destination, the container is stripped at another CFS and individual consignments are distributed. LCL adds 2-4 days of dwell time at each end versus FCL and generates CFS handling fees that can exceed the base ocean freight on small shipments. FCL gives exclusive use of a container from origin stuffing to destination unstuffing (CY/CY movement) at a flat box rate regardless of fill \u2014 the break-even versus LCL is typically around 15-17 CBM. Co-mingling risk under LCL is real: if one shipper's dangerous goods or pest-infested cargo triggers a quarantine, all consolidated cargo in the box is held. In Bangladesh's RMG export context, factory-loaded FCL boxes direct to the buyer's DC (CY/CY, DAP Incoterms) dominate for large volume orders; LCL is used for samples, small replenishment orders, and trial shipments to new buyers \u2014 with consolidation typically via Chittagong CFS operators."
+        "correct": 2,
+        "why": "The 747F's upward-hinging nose — present on 747-200F, 747-400F, and 747-8F — allows straight-in pallet loading of items too long for side-door loading. No other production widebody freighter offers this feature; it makes the 747F irreplaceable for aerospace components and military outsized cargo.",
+        "deepDive": "The Boeing 747 Freighter's nose door opens on hydraulic actuators exposing the full cross-section of the main cargo deck — a feature dating to the original 747-100F of 1971. The 747-8F, the latest variant, carries 134 tonnes over 8,130nm and delivers 16% better fuel burn per tonne versus the 747-400F. Main deck capacity: up to 36 standard 96x125-inch pallets (PMC) plus lower-lobe belly space. Key competitors: the 777F (no nose door; superior range and fuel per revenue tonne-mile for standard palletised freight; the dominant choice for express integrators on high-volume lanes) and the A330F (smaller, shorter-range, lower payload). The A350F — entering service around 2026-27 — is designed to contest the 777F on efficiency grounds. The nose-loading feature is critical for aerospace OEMs (aircraft engines, fuselage panels), defence logistics, and project cargo operators. Atlas Air is the world's largest 747F operator; Cargolux and Korean Air Cargo also run major fleets. As 777Fs displace the 747F on standard pallet lanes, the 747F's nose door niche remains its commercial survival argument. Common misconception: the 777F is not universally superior — for outsized loads that exceed side-door dimensions, the 747F has no substitute."
       },
       {
         "n": 2,
         "topic": "domain",
-        "subtopic": "trade_lanes",
-        "stem": "The 'Far East\u2013Indian Subcontinent' (FEIS) trade lane carries cargo between which origin cluster and which destination ports?",
+        "subtopic": "airport_ops",
+        "stem": "Anchorage Ted Stevens International Airport (PANC) ranks consistently in the world's top five for cargo throughput despite serving a city of ~300,000 primarily because:",
         "options": [
-          "Japan and South Korea to Mumbai and Chennai exclusively, via direct mainline vessel calls",
-          "China, Korea, and Southeast Asia to South Asian ports including JNPT, Chennai, Colombo, and Chittagong",
-          "Persian Gulf ports to India's west coast, dominated by VLCC product tanker feeders",
-          "Europe to India's east coast via the Suez Canal, with transhipment at Colombo"
+          "US law requires all transpacific inbound air cargo to clear CBP customs at Anchorage before domestic onward routing",
+          "Its great-circle position places it within 9.5 hours of 90-95% of the industrialised world — the natural pivot for transpacific freighter refuel, crew-rest, and customs stops",
+          "IATA regulations mandate a technical stop in Alaska for any freighter crossing the International Date Line",
+          "Anchorage has the world's largest bonded cargo warehouse complex with climate-controlled pharma-grade storage for transhipment"
         ],
         "correct": 1,
-        "why": "FEIS originates in East and Southeast Asia (China, Korea, Japan, Singapore, Port Klang) and feeds South Asian gateways \u2014 JNPT (Nhava Sheva), Mundra, Chennai, Colombo as a hub, and Chittagong. It is one of the fastest-growing container corridors globally and operates largely outside the major E-W alliance service structures.",
-        "deepDive": "The Far East\u2013Indian Subcontinent lane is among the fastest-growing container corridors in the world, driven by South Asia's manufacturing expansion and consumer demand growth. Origins cluster in China (Yantian, Ningbo, Shanghai, Qingdao), Korea (Busan), Japan (Tokyo, Osaka), and Southeast Asia (Singapore, Tanjung Pelepas, Port Klang, Laem Chabang). Destinations concentrate at Nhava Sheva/JNPT (Mumbai), Mundra, Chennai, Colombo (the dominant transhipment hub for the subcontinent), and Chittagong for Bangladesh. Rate dynamics differ sharply from the major E-W trades: smaller vessels in the 2,000-8,000 TEU feeder and regional class, a broader carrier mix (regional players like Wan Hai, RCL, KMTC, PIL, SCI alongside the major alliances), and higher route-level volatility. Colombo and Singapore are the two pivotal hubs: cargo arriving from the Far East on large mainline vessels is transhipped onto feeder services for final delivery to ports that cannot receive ultra-large vessels directly. Chittagong's draft restriction \u2014 roughly 9.2m alongside \u2014 limits vessel size and forces transhipment of a significant share of Bangladesh's container volume, adding cost and transit time versus deeper South Asian competitors like Mundra or Colombo. The FEIS lane is also the primary route for Bangladesh's import of fabric, yarn, and raw materials from China and Southeast Asia \u2014 the supply-side of the RMG global value chain."
+        "why": "Anchorage sits near the apex of great-circle routes between Asia and North America, placing it within 9.5 hours of 90-95% of the industrialised world by great-circle routing — making it the lowest-deviation refuel, crew-rest, and in-transit customs point for transpacific freighters bound for Memphis, Louisville, or Chicago.",
+        "deepDive": "Ted Stevens Anchorage International Airport (PANC) consistently ranks in the global top five for cargo throughput — often third, behind Hong Kong and Memphis — despite being a small Alaskan city. The explanation is almost purely geographic: great-circle routes between North Asian origins (Tokyo, Seoul, Shanghai, Beijing) and North American hubs (Memphis FedEx, Louisville UPS, Chicago, New York) arc tightly over Alaska. Freighters stop at ANC to refuel, crew-rest, and sometimes transfer loads. US CBP presence allows in-transit customs examination. ANC is curfew-free, unlike Frankfurt (22:00-05:00) or London Heathrow, enabling 24/7 operations. Cold ambient temperatures aid ground cooling. E-commerce growth from China has intensified usage: Chinese all-cargo carriers route transpacific services through ANC for domestic US delivery. Common misconception: No IATA rule mandates an Anchorage stop — it's purely commercial and geographic logic. CBP clearance at ANC is optional; many shipments clear at the final US destination."
       },
       {
         "n": 3,
         "topic": "domain",
-        "subtopic": "marine_insurance",
-        "stem": "Under the Institute Cargo Clauses (ICC), which set of clauses provides the broadest 'all risks' coverage for cargo in transit?",
+        "subtopic": "ma_consolidation",
+        "stem": "The DSV–DB Schenker acquisition (~$14.8B, completed 2024-25) was significant for the freight forwarding industry primarily because it:",
         "options": [
-          "ICC (C) \u2014 covers only total loss, fire, stranding, sinking, and collision damage",
-          "ICC (B) \u2014 covers named perils including washing overboard and entry of sea water into the hold",
-          "ICC (A) \u2014 covers all risks of physical loss or damage except expressly excluded perils",
-          "ICC (War) \u2014 covers all conflict-related and political risk damage as a standalone comprehensive clause"
+          "Created the world's largest ocean freight forwarder by TEU volume, overtaking Kuehne+Nagel's ocean division for the first time",
+          "Gave DSV dominant rail intermodal infrastructure across Europe, making it the continent's largest multimodal logistics operator",
+          "Made DSV the world's largest freight forwarder by total revenue, surpassing Kuehne+Nagel across air, ocean, and contract logistics",
+          "Was the first acquisition of a state-owned logistics asset where the acquirer assumed full sovereign debt obligations from the seller"
         ],
         "correct": 2,
-        "why": "ICC (A) is the 'all-risks' clause: it covers any fortuitous loss or damage to the cargo unless the peril is expressly excluded (inherent vice, wilful misconduct, ordinary leakage, delay, war and strikes \u2014 the last two added back via separate clauses). ICC (B) and (C) are narrower named-peril clauses.",
-        "deepDive": "The Institute Cargo Clauses \u2014 published jointly by the Lloyd's Market Association and the International Underwriting Association \u2014 set the global standard for marine cargo insurance. ICC (A) provides the broadest cover: any accidental, fortuitous loss or damage is covered unless specifically excluded. Key exclusions under ICC (A): inherent vice (goods deteriorating from their own nature \u2014 bananas ripening, iron rusting), wilful misconduct of the assured, ordinary leakage or wear, delay, insolvency of carrier, nuclear risks, and war/strikes (the last two are added back via the separate ICC (War) and ICC (Strikes) clauses at additional premium). ICC (B) covers a defined list of named perils: fire, explosion, stranding, capsizing, collision, earthquake, volcanic eruption, washing overboard, entry of sea/lake/river water, and total loss of individual packages in loading or unloading. ICC (C) is the most restrictive \u2014 only major casualties: fire, explosion, stranding, sinking, capsizing, collision, and jettison. The practical significance under Incoterms 2020: CIF requires the seller to arrange only minimum ICC (C) cover for the buyer \u2014 barely adequate for most commercial cargo. CIP was upgraded in the 2020 revision to require ICC (A) \u2014 a deliberate expansion of the seller's insurance obligation. For Bangladesh RMG export shipments, sophisticated buyers typically require ICC (A) or at minimum ICC (B); general average risk \u2014 where a ship's master sacrifices cargo or incurs extraordinary expense to save the vessel and remaining cargo \u2014 is covered under all three clause sets."
+        "why": "DSV-Schenker was the largest deal in freight forwarding history at ~$14.8B. It vaulted DSV past Kuehne+Nagel to become the world's largest freight forwarder by revenue — adding scale across air, ocean, and contract logistics across 100+ countries in a single transaction.",
+        "deepDive": "When Deutsche Bahn put DB Schenker up for sale in 2023-24 to fund German railway modernisation, DSV of Denmark won a competitive tender against bids from CVC Capital Partners and Kuehne+Nagel itself. The ~$14.8B transaction closed in late 2024/early 2025 — the largest ever in freight forwarding. The combined entity displaced Kuehne+Nagel as the world's top freight forwarder by revenue. The top four forwarders post-deal now control roughly 25-30% of global air and ocean freight volumes. For shippers, consolidation at the forwarder level compresses competition and can harden buy-rate spreads. For digital forwarders (Flexport, Forto), scale matters enormously for carrier negotiating power. DSV also gained significant contract logistics/warehouse footprint — a category it had underinvested in relative to Schenker. Common misconception: DSV is fundamentally asset-light — it is a freight forwarder using purchased carrier capacity across all modes, not a rail or trucking company. The Schenker rail assets in Europe belong to Deutsche Bahn's network, not a standalone DSV asset."
       },
       {
         "n": 4,
         "topic": "domain",
-        "subtopic": "compliance",
-        "stem": "OFAC's SDN (Specially Designated Nationals) list creates compliance exposure for a logistics company primarily because:",
+        "subtopic": "commercial_concepts",
+        "stem": "In a freight forwarding service contract, a Minimum Quantity Commitment (MQC) 'shortfall liability' clause means:",
         "options": [
-          "It automatically bans trade with all countries of nationality of listed individuals",
-          "Any entity using the US financial system \u2014 including USD clearing \u2014 that transacts with an SDN faces asset freezing and civil or criminal penalties, wherever the transaction occurs",
-          "It applies only to US-flagged vessels and US-licensed freight forwarders operating inside US territory",
-          "The SDN list is advisory only; binding enforcement authority rests with the UN Security Council Sanctions Committee"
+          "The carrier must compensate the shipper if vessel space is unavailable on contracted lanes during the commitment period",
+          "The shipper must pay a penalty or deadfreight fee on any volume shortfall against the committed quantity within the contract period",
+          "The forwarder absorbs the cost difference when contracted buy-rates rise above spot market during the commitment window",
+          "The shipping line may void all future bookings and blacklist the shipper if MQC is breached more than twice in a year"
         ],
         "correct": 1,
-        "why": "OFAC's reach is extraterritorial via the USD clearing system: virtually any transaction touching a US bank, US person, or US-denominated instrument \u2014 anywhere in the world \u2014 that involves an SDN entity triggers OFAC jurisdiction. This ensnares almost all international logistics chains that settle in USD.",
-        "deepDive": "The Office of Foreign Assets Control (OFAC), within the US Treasury, administers roughly 30 country and thematic sanctions programmes \u2014 covering Russia, Iran, North Korea, Cuba, Syria, and global terrorism and narco-trafficking networks. The SDN list includes individuals, companies, vessels, and aircraft whose US-connected assets are frozen and with whom US persons (including US subsidiaries of non-US companies) are prohibited from transacting. The critical compliance mechanism for logistics firms is OFAC's extraterritorial reach via USD: because nearly all international trade settles in dollars cleared through US correspondent banks, even a non-US freight forwarder executing a USD payment involving an SDN entity can trigger OFAC penalties \u2014 even if neither party is American. Civil penalties can reach the greater of $1 million or twice the transaction value per violation; criminal penalties include up to 20 years imprisonment. Practical compliance requirements for logistics: vessel ownership screening against the SDN list at booking (SDN vessels frequently operate under flags of convenience with obscured beneficial ownership), shipper/consignee name screening, and second-layer checks on banks in payment chains. Russia's 2022 sanctions added sectoral sanctions, oil price cap compliance obligations (requiring shipping companies to attest to capped pricing), and enhanced vessel-tracking due diligence. UFLPA (Uyghur Forced Labor Prevention Act) \u2014 which creates a rebuttable presumption that goods from Xinjiang involve forced labour \u2014 and secondary sanctions on the Iran oil 'shadow fleet' are the most active enforcement frontiers in 2025-26 for logistics operators."
+        "why": "MQC clauses bind the shipper to a minimum volume; if actual shipments fall short, deadfreight applies — the shipper pays a penalty per unit on the shortfall, typically at the contracted margin or a defined fee per TEU or CBM, for the period of the contract.",
+        "deepDive": "Minimum Quantity Commitments are the commercial backbone of freight forwarding Named Account Contracts (NACs) and NVOCC service arrangements. When a shipper negotiates a contracted rate, the forwarder commits that volume to the ocean carrier to secure space and buy-rate. The MQC is a two-sided commitment: the shipper promises minimum TEUs or CBMs per period; in return receives a below-spot contracted rate. If the shipper falls short, shortfall liability (deadfreight) kicks in at the contracted margin per unit or a flat penalty fee. The risk is structurally asymmetric: carriers rarely compensate shippers when they fail to provide contracted space. For a logistics conglomerate like MGH, MQC management is central to P&L planning — overcommitting to achieve a lower rate becomes expensive if trade lanes slow. Common misconceptions: (1) MQCs are not take-or-pay agreements in the oil-and-gas sense — penalties are usually a fraction of the full freight rate, not the full amount. (2) Rate validity windows (typically 30-90 days) and surcharge pass-through mechanics (BAF, PSS, GRI) complicate MQC economics: base rates can be fixed while surcharges float, materially altering total landed cost."
       },
       {
         "n": 5,
         "topic": "domain",
-        "subtopic": "industry_econ",
-        "stem": "The Baltic Dry Index (BDI) measures which of the following?",
+        "subtopic": "supply_chain_strategy",
+        "stem": "The 'bullwhip effect' in supply chains describes the phenomenon where:",
         "options": [
-          "Weekly spot freight rates for containerised cargo on the Asia-Europe trade lane, compiled by the Baltic Exchange",
-          "A weighted composite of time-charter rates across Capesize, Panamax, Supramax, and Handysize dry bulk vessel classes",
-          "The daily spot rate for VLCC crude tankers on the Middle East Gulf\u2013East Asia route",
-          "Average port congestion dwell times across the world's top 20 dry bulk commodity terminals"
+          "Lean manufacturing plants collapse first in disruptions because they eliminated all buffer inventory throughout the supplier base",
+          "Small fluctuations in end-consumer demand are progressively amplified into larger order swings at each upstream tier of the supply chain",
+          "Ocean carrier blanket sailing cancellations whip port congestion downstream, reducing berth productivity across entire trade lanes",
+          "Procurement teams systematically overbuild capacity by over-ordering, causing permanent supplier overinvestment even after demand normalises"
         ],
         "correct": 1,
-        "why": "The BDI is the Baltic Exchange's composite of dry bulk time-charter rates across four vessel classes. It is a leading indicator of raw material demand \u2014 iron ore, coal, grain \u2014 and one of the oldest freight rate benchmarks in global trade.",
-        "deepDive": "The Baltic Dry Index, published daily by the Baltic Exchange in London since 1985, is a composite of freight rates for shipping dry bulk commodities across four vessel classes: Capesize (Baltic Capesize Index, BCI), Panamax (BPI), Supramax (BSI), and Handysize (BHSI). Each sub-index reflects time-charter rates \u2014 daily hire for a vessel over a defined period \u2014 on a set of representative trade routes assessed by a panel of shipbrokers. The BDI has long been used as a leading economic indicator because dry bulk carries the raw materials of industrial production \u2014 Chinese steel mills importing Australian iron ore, Indian power stations importing Indonesian coal \u2014 before finished goods flows appear in mainstream trade statistics. Crucially, the BDI measures charter rates, not spot voyage rates; charter rates reflect the longer-term supply-demand balance for vessel capacity and are harder to manipulate than spot fixtures. The BDI's extreme historical volatility illustrates the industry's sensitivity: it peaked above 11,700 in May 2008 before collapsing below 300 in February 2016 during the worst dry bulk overcapacity crisis in modern history \u2014 triggered by the massive newbuild ordering wave of the 2006-08 supercycle. The separate tanker equivalents \u2014 the Baltic Dirty Tanker Index (BDTI) for crude carriers and the Baltic Clean Tanker Index (BCTI) for refined product tankers \u2014 operate on identical mechanics but are driven by oil demand, refinery throughput, and OPEC production policy rather than raw material trade."
+        "why": "The bullwhip effect (Forrester effect): a small consumer demand swing amplifies into progressively larger order variability at retailer, wholesaler, distributor, and manufacturer levels — driven by demand-signal lags, order batching, price fluctuations, and shortage gaming.",
+        "deepDive": "The bullwhip effect was first described by systems theorist Jay Forrester in 1961 and named by Hau Lee et al. in a landmark 1997 Harvard Business Review paper. Even stable consumer demand generates amplified order volatility upstream. A 5% retail demand swing becomes a 20% swing at the distributor and 40% at the manufacturer. Four root causes: (1) Demand signal processing — each tier forecasts from orders it receives, not true end demand. (2) Order batching — buyers consolidate orders to reduce transaction costs, creating lumpy demand signals. (3) Price fluctuations — forward-buying ahead of promotions or GRIs distorts true demand. (4) Shortage gaming — buyers over-order during scarcity, expecting rationing. The COVID-19 pandemic was the most visible modern bullwhip experiment: modest consumer demand rises amplified into shortages of everything from toilet paper to semiconductors; every shipper simultaneously ordered more inventory, causing the 2020-22 global container shipping chaos and rate spike. The cure: sharing point-of-sale data across tiers (vendor-managed inventory, CPFR), reducing order minimums, and using real-time demand signals instead of delayed orders. For MGH, understanding the bullwhip effect explains to customers why freight demand can surge apparently without cause — and why contracted forward space has genuine commercial value."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "The 'Ashes' cricket series is contested between which two nations, and takes its name from:",
+        "subtopic": "history",
+        "stem": "The Chinese Communist Party's Long March (1934-35), a ~9,000 km strategic retreat that decimated the Red Army from ~100,000 to under 10,000, ended at which location where Mao consolidated his leadership?",
         "options": [
-          "India and England; the ashes of a burnt bat gifted after a famous 1932 Bodyline victory",
-          "Australia and England; a satirical 1882 obituary mourning 'the death of English cricket', with an urn of ashes symbolically contested since",
-          "Australia and South Africa; the ashes of the scorebook from the first official Test match",
-          "West Indies and England; the tradition of burning the losing captain's cap at the end of each series"
+          "Yan'an in Shaanxi province — where the CCP established its revolutionary base for the next 14 years",
+          "Wuhan — where the CCP set up its wartime capital after breaking out of the Nationalist encirclement",
+          "Chongqing — the wartime united front government city where Mao and Chiang Kai-shek held their famous 1945 talks",
+          "Nanjing — from which Mao declared the People's Republic of China on October 1, 1949"
         ],
-        "correct": 1,
-        "why": "The Ashes \u2014 England vs Australia \u2014 traces to an 1882 Sporting Times satirical obituary after Australia's first Test win on English soil. A small terracotta urn purportedly containing the ashes of a cricket bail was presented to the England captain in 1883; it resides permanently at Lord's Cricket Ground.",
-        "deepDive": "The Ashes is the oldest ongoing Test cricket rivalry, first contested in 1882 when Australia defeated England at The Oval \u2014 England's first home Test defeat. A satirical obituary in The Sporting Times mourned that 'the body of English cricket will be cremated and the ashes taken to Australia.' England's subsequent tour in 1882-83 was dubbed the quest to regain the Ashes, and a small terracotta urn \u2014 purportedly containing the ashes of a bail, a ball, or a veil (accounts differ) \u2014 was presented to England captain Ivo Bligh by a group of Melbourne women. The urn now resides permanently at the Lord's Cricket Museum regardless of which team holds the series result, making it unusual among sporting trophies in that the winning team never physically possesses it. The Ashes are contested every two years in alternating venues across five Test matches. Key historical milestones: Don Bradman's 1948 Invincibles (Australia won 4-0 without losing a match), Jim Laker's 19 wickets in a single Test at Old Trafford in 1956 (still the world record for any Test match), and England's 2005 series victory \u2014 their first in 18 years \u2014 is widely cited as the greatest Test series ever played. The cultural significance in both countries is enormous: Ashes series routinely generate more column inches in the British and Australian press than any other cricket event."
+        "correct": 0,
+        "why": "The Long March ended at Yan'an, Shaanxi. Mao emerged as dominant CCP leader at the Zunyi Conference mid-march (January 1935), criticising the Soviet advisors whose tactics had led to Nationalist encirclement. Yan'an became the CCP's revolutionary base from 1935 to 1947.",
+        "deepDive": "The Long March began in October 1934 when Nationalist forces under Chiang Kai-shek encircled the Communist base area in Jiangxi. Over 12 months, ~100,000 soldiers started; fewer than 10,000 survived to reach Yan'an — crossing 24 rivers, 18 mountain ranges, and Sichuan swamps. The Zunyi Conference (January 1935, during the march) was the political turning point: Mao criticised the Soviet Comintern advisors whose rigid tactics had led to encirclement and seized control of CCP military strategy. Yan'an (1935-47) became the CCP's crucible — producing the Yan'an Rectification Campaign, the mass line political strategy, and a leadership generation including Zhou Enlai and Deng Xiaoping. CCP historiography celebrates the Long March as proof of revolutionary resilience; Xi Jinping repeatedly invokes 'the new Long March' when framing China's technology self-sufficiency drive against US chip restrictions. Common misconceptions: (1) The march was not a tactical masterstroke but a near-catastrophic defeat retrospectively romanticised — survival was partly luck, partly the 1937 Japanese invasion forcing Chiang to pivot from anti-Communist to national defence. (2) Mao declared the PRC from Tiananmen in Beijing, not Nanjing."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "The TV drama 'The Wire' (2002\u20132008), widely considered one of the greatest television series ever made, was created by whom and is primarily set in which American city?",
+        "subtopic": "physical_science",
+        "stem": "Einstein's special relativity (1905) predicts that as an object's velocity approaches the speed of light, its mass, time, and length simultaneously do what?",
         "options": [
-          "David Chase; New York City",
-          "Shonda Rhimes; Chicago",
-          "David Simon; Baltimore",
-          "Aaron Sorkin; Washington D.C."
+          "Mass decreases toward zero, time speeds up for external observers, and length expands along the direction of motion",
+          "Mass increases toward infinity, time dilates (slows relative to a stationary observer), and length contracts along the direction of motion",
+          "Mass remains constant but kinetic energy becomes infinite, requiring infinite fuel for any further acceleration toward c",
+          "Velocity can briefly exceed c via quantum tunnelling, violating the classical speed limit under extreme conditions"
         ],
-        "correct": 2,
-        "why": "The Wire was created by David Simon \u2014 a former Baltimore Sun crime reporter \u2014 and Ed Burns, a former Baltimore homicide detective and schoolteacher. Its five seasons dissected drug trade, policing, docks, city politics, schools, and the press using Baltimore as the lens.",
-        "deepDive": "The Wire (HBO, 2002-2008) is structured as a five-season indictment of institutional failure in a post-industrial American city. Creator David Simon spent a year embedded with Baltimore homicide detectives for his 1991 book 'Homicide: A Year on the Killing Streets' and co-wrote the show with Ed Burns, who served as both a Baltimore homicide detective and later a public school teacher. Each season trains the lens on a different institution: Season 1 (the drug trade and police), Season 2 (the docks and organised labour \u2014 the most underrated season), Season 3 (city politics and the limits of reform), Season 4 (the school system and adolescence), Season 5 (the press, institutions of truth-telling, and fabrication). The show received exactly one Emmy nomination during its entire five-season run \u2014 a fact that became a widely cited example of awards bodies missing genuine excellence. It now tops almost every 'greatest TV drama' list. Barack Obama named it his favourite TV show, citing Omar Little as his favourite character. The Wire's central argument \u2014 that individuals are ground up by dysfunctional institutions regardless of their personal character or intention \u2014 is a thesis in structural sociology as much as crime drama. The show is now assigned as supplementary reading in university courses in criminology, urban sociology, journalism ethics, and public policy."
+        "correct": 1,
+        "why": "Special relativity's three core effects — time dilation, length contraction, and relativistic mass increase — all scale with the Lorentz factor γ = 1/√(1−v²/c²), diverging as v → c. This makes c an absolute speed limit: reaching it would require infinite energy.",
+        "deepDive": "Einstein's 1905 paper 'On the Electrodynamics of Moving Bodies' derived special relativity from two postulates: (1) the laws of physics are identical in all inertial frames; (2) the speed of light c = 299,792,458 m/s is constant regardless of source or observer motion. Three predictions follow. Time dilation: a clock at velocity v runs slower by the Lorentz factor γ = 1/√(1−v²/c²). At 87% of c, γ = 2 — the moving clock ticks half as fast. Length contraction: a moving object is shorter by 1/γ along its direction of motion. Relativistic mass: resistance to further acceleration increases as γ, requiring infinite energy to reach c. These are real and measured daily: GPS satellites apply both special relativistic corrections (orbital motion slows clocks by 7 μs/day) and general relativistic corrections (altitude speeds clocks by 45 μs/day) — without both corrections GPS would accumulate ~10km/day of error. Muons created by cosmic rays 15km up survive to Earth's surface only because time dilation extends their observed lifetime from 2.2 to ~34 microseconds at 0.9997c. E=mc² follows directly from special relativity. Common misconception: quantum tunnelling does not allow objects with mass to exceed c — it describes probability wave behaviour, not superluminal matter transport."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "John Rawls's 'veil of ignorance' thought experiment, from 'A Theory of Justice' (1971), asks rational designers to choose a society's principles without knowing:",
+        "subtopic": "arts",
+        "stem": "Akira Kurosawa's 'Rashomon' (1950), which introduced Japanese cinema to Western audiences, is most notable for its:",
         "options": [
-          "The will of God or any divine moral authority that might govern the society",
-          "Their own position in that society \u2014 including class, wealth, race, sex, natural talents, and conception of the good",
-          "The economic history or past injustices that shaped the society being designed",
-          "The military strength or territorial security of neighbouring states"
+          "Hyper-realistic samurai warfare sequences shot with handheld cameras borrowing from Italian Neorealism",
+          "Narrative structure presenting the same murder from four mutually incompatible perspectives, with none established as the definitive truth",
+          "Non-linear structure that reveals the final scene in the opening minutes then explains events in reverse chronological order",
+          "Deliberate silent-film aesthetic scored by John Cage's prepared piano to consciously echo 1920s Japanese cinema"
         ],
         "correct": 1,
-        "why": "Rawls's 'original position' places rational designers behind a veil of ignorance, stripping all knowledge of their social position, abilities, wealth, or personal values. Rawls argues this yields two principles: equal basic liberties, and the Difference Principle (inequalities are just only if they benefit the least advantaged).",
-        "deepDive": "John Rawls's 'A Theory of Justice' (1971) is the most influential work of Anglo-American political philosophy of the 20th century, reviving social contract theory after decades of utilitarian dominance. The veil of ignorance is the centrepiece: placed in an 'original position' behind the veil, rational agents do not know their sex, race, social class, natural talents, life plan, religious beliefs, or even which generation they belong to. Rawls argues that rational designers ignorant of their own position would choose two principles. First: the Liberty Principle \u2014 equal basic liberties for all citizens (free speech, conscience, assembly, political participation). Second: the Difference Principle \u2014 social and economic inequalities are permissible only if they benefit the least advantaged members of society, and only if attached to positions open to all under fair equality of opportunity. This directly opposes utilitarian frameworks that maximise aggregate welfare even at the cost of distributional harm to minorities or the worst-off. Robert Nozick's 'Anarchy, State, and Utopia' (1974) mounted the canonical libertarian counter: any redistribution \u2014 even Rawlsian \u2014 violates individual rights of self-ownership regardless of outcome. The Rawls-Nozick debate defines the poles of liberal-libertarian political theory and remains structurally active in contemporary debates about healthcare, taxation, climate burden-sharing, and reparations. Rawls's later 'The Law of Peoples' (1999) extended the framework to international justice, though critics including Thomas Pogge argued he was far too permissive toward global inequality."
+        "why": "Rashomon presents four contradictory accounts of a samurai's death — bandit, wife, the dead samurai via medium, and a woodcutter — with no account privileged as true. The film is a meditation on the irreducible subjectivity of truth and memory, and coined the term 'Rashomon effect' in psychology and law.",
+        "deepDive": "Rashomon won the Golden Lion at Venice 1950 — the first Japanese film to win a major Western festival award — and the Honorary Oscar for Best Foreign Film in 1952, opening Western markets to Asian cinema. Based on two Ryunosuke Akutagawa short stories, its central innovation is the unreliable narrator taken to structural extreme: four witnesses give four internally coherent but mutually contradictory accounts of a samurai's death, with no resolution. The 'Rashomon effect' is now a standard term in cognitive psychology, law, and journalism for how witnesses genuinely remember the same event differently based on perspective, self-interest, and memory's constructive nature. Kurosawa's technical contribution was equally significant: he pointed cameras directly into the sun — a cinematographic taboo at the time — to create dappled forest lighting that became one of cinema's most imitated visual textures. Legacy: The Usual Suspects (1995), Hero (2002), and dozens of narratively complex films cite Rashomon directly. Common misconception: many conflate Rashomon with Seven Samurai (1954) — they are structurally opposite: Rashomon probes unknowability of truth; Seven Samurai is about collective heroism."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "David Ricardo's law of comparative advantage, from 'Principles of Political Economy' (1817), holds that:",
+        "subtopic": "linguistics",
+        "stem": "Grimm's Law — formulated by Jacob Grimm of fairy-tale fame — describes which phenomenon in historical linguistics?",
         "options": [
-          "Trade is mutually beneficial only when a country can produce a good at lower absolute cost than its trading partner",
-          "Countries should specialise in and export goods where they have the lowest opportunity cost, even if they are absolutely less efficient at producing everything",
-          "Free trade is welfare-enhancing only between economies of roughly equal size and development stage",
-          "Import tariffs maximise national welfare when applied to sectors where a country has an absolute productivity disadvantage"
+          "The universal tendency of languages to simplify phonological systems over time by shedding complex consonant clusters",
+          "A systematic set of consonant shifts separating Proto-Germanic from other Indo-European branches — e.g. p→f, t→th, k→h — explaining why Latin 'pater' became English 'father'",
+          "The principle that new vocabulary is always borrowed from economically or militarily dominant neighbouring languages rather than invented internally",
+          "The rule that children universally acquire fricatives (f, s, th) before stops (p, t, k) in first-language acquisition"
         ],
         "correct": 1,
-        "why": "Comparative advantage is about opportunity cost, not absolute efficiency. Even if one country is less productive at everything, both countries gain from trade if each specialises in its area of lowest opportunity cost. Ricardo illustrated this with Portugal producing wine and England producing cloth \u2014 both countries gain from specialisation and exchange.",
-        "deepDive": "David Ricardo's law of comparative advantage \u2014 published in 'Principles of Political Economy and Taxation' (1817) \u2014 is arguably the single most important and counter-intuitive result in all of economics. The core insight: even if Country A is absolutely more efficient at producing every good, both countries gain from specialisation and trade, because each concentrating resources in its area of lowest opportunity cost generates output gains beyond what autarky allows. Ricardo's illustration: England is relatively more efficient at cloth than wine compared to Portugal, which is relatively more efficient at wine than cloth \u2014 so England exports cloth and imports wine, and both gain, even if Portugal is absolutely better at producing both goods. The modern framework built on comparative advantage: Heckscher-Ohlin (countries export goods intensive in their abundant factors \u2014 labour-intensive garments from labour-abundant Bangladesh), the Balassa Index of Revealed Comparative Advantage (measuring what countries actually export relative to world averages), and Krugman's New Trade Theory (economies of scale and imperfect competition can justify temporary strategic trade policy in oligopolistic industries). Bangladesh's RMG industry is a textbook case: abundant low-cost labour, simple assembly manufacturing, early-mover advantage in garment value chains, and preferential market access compounded the comparative advantage into a dominant global position. The post-LDC graduation challenge is that purely labour-cost-based comparative advantage erodes as Vietnam, Cambodia, Ethiopia, and eventually Myanmar offer comparable wages \u2014 forcing Bangladesh toward higher value-added manufacturing or productivity gains."
+        "why": "Grimm's Law (1822) documented the consonant shifts distinguishing Proto-Germanic from other Indo-European branches: PIE voiceless stops became fricatives (p→f: pater→father; t→th: tres→three; k→h: cor→heart). It was the first proof that sound change is regular and predictable — not random.",
+        "deepDive": "Jacob Grimm — the same Grimm of fairy tales compiled with his brother Wilhelm — was also a founder of modern linguistics. His 1822 'Deutsche Grammatik' documented the first systematic sound change law: the Proto-Germanic consonant shift. Three interrelated shifts: (1) PIE voiceless stops became fricatives: *p→f (Latin pater→English father), *t→th (Latin tres→English three), *k→h (Latin cor→English heart). (2) PIE voiced stops became voiceless: *d→t (Latin duo→English two), *g→k. (3) PIE voiced aspirated stops became voiced fricatives or simple voiced stops. Grimm's Law was the first proof that sound change is regular and predictable across an entire language family — founding the comparative-historical linguistics tradition. Verner's Law (1875) later explained Grimm's apparent exceptions using Proto-Indo-European accent position, cementing the Neogrammarian hypothesis that 'sound laws admit no exceptions.' Common misconception: Grimm's Law does not say all languages simplify over time — it describes a specific directional shift in one branch. Latin, Sanskrit, and Greek retained the original PIE sounds that Germanic shifted away from."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "Which of the following is a valid Pythagorean triple \u2014 three positive integers (a, b, c) satisfying a\u00b2 + b\u00b2 = c\u00b2?",
+        "subtopic": "geography",
+        "stem": "The Fergana Valley — one of Central Asia's most densely populated regions and site of its most complex border disputes — is divided among which three modern states?",
         "options": [
-          "(3, 4, 6)",
-          "(5, 12, 13)",
-          "(6, 8, 11)",
-          "(7, 9, 12)"
+          "Kazakhstan, Kyrgyzstan, and Tajikistan",
+          "Uzbekistan, Kyrgyzstan, and Tajikistan",
+          "Uzbekistan, Kazakhstan, and Turkmenistan",
+          "Afghanistan, Tajikistan, and China"
         ],
         "correct": 1,
-        "why": "5\u00b2 + 12\u00b2 = 25 + 144 = 169 = 13\u00b2. This is one of the oldest known Pythagorean triples after (3,4,5). The others all fail: (3,4,6): 9+16=25\u226036; (6,8,11): 36+64=100\u2260121; (7,9,12): 49+81=130\u2260144.",
-        "deepDive": "Pythagorean triples \u2014 sets of three positive integers (a, b, c) satisfying a\u00b2 + b\u00b2 = c\u00b2 \u2014 have fascinated mathematicians for at least 4,000 years. The Plimpton 322 clay tablet (c. 1800 BCE, Babylonian) contains a systematic table of 15 Pythagorean triples, demonstrating that Babylonian mathematicians understood the pattern well before Pythagoras was born. The fundamental generating formula: for any two positive integers m > n, the triple (m\u00b2\u2212n\u00b2, 2mn, m\u00b2+n\u00b2) is Pythagorean. Setting m=2, n=1 yields (3,4,5); m=3, n=2 yields (5,12,13); m=4, n=1 yields (15,8,17); m=4, n=3 yields (7,24,25). Primitive triples \u2014 where a, b, c share no common factor \u2014 are generated when m and n are coprime and not both odd; there are infinitely many. Pythagorean triples appear in architecture (the 3-4-5 check for right angles in construction), surveying, and the foundations of number theory. The theorem generalises dramatically: Fermat's Last Theorem (proved by Andrew Wiles in 1995 after 357 years of effort) states there are no positive integer solutions to a\u207f + b\u207f = c\u207f for any exponent n greater than 2 \u2014 making the square exponent of the Pythagorean theorem uniquely special. The connection to complex numbers: the algebra of Gaussian integers (complex numbers a+bi where a and b are integers) generates all Pythagorean triples through the identity |z\u2081|\u00b2 \u00b7 |z\u2082|\u00b2 = |z\u2081z\u2082|\u00b2, linking the theorem to the deep structure of the complex plane."
+        "why": "The Fergana Valley is split among Uzbekistan (largest share: Fergana, Namangan, Andijan cities), Kyrgyzstan (eastern tip including Osh), and Tajikistan (Khujand/Leninabad). Soviet demarcation created a patchwork of enclaves — Sokh, Vorukh — that remain Central Asia's most volatile territorial flashpoints.",
+        "deepDive": "The Fergana Valley is ~300km long, 70km wide, watered by the Syr Darya, and supports 14 million people — Central Asia's densest agrarian settlement. It was the Silk Road's commercial heart; Alexander the Great founded Alexandria Eschate (Khujand) at its northern entrance. Soviet nationality policy in the 1920s deliberately fragmented the valley among three union republics to prevent any single nation dominating — creating a geopolitical puzzle of enclaves and exclaves. The Sokh enclave (a 300km² piece of Tajikistan entirely surrounded by Kyrgyz and Uzbek territory) and the Vorukh exclave (also Tajik, inside Kyrgyzstan) have generated recurring violence. The April 2021 Kyrgyz-Tajik border war erupted over water rights and infrastructure near Vorukh, killing dozens and displacing thousands. The valley is also a historical base of the Islamic Movement of Uzbekistan (IMU) and later IS-Khorasan recruitment — a security priority for Russia's CSTO and China's SCO. Water politics are acute: Kyrgyzstan controls upstream headwaters and has proposed Kambarata hydropower dams that downstream Uzbekistan fears will reduce irrigation flows for its cotton economy. Common misconception: Kazakhstan has no share of the Fergana Valley — it lies north of the valley's watershed entirely."
       }
     ]
   }
