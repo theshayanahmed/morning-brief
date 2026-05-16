@@ -1,6 +1,6 @@
 {
   "streak": 0,
-  "last_session_date": "2026-05-15",
+  "last_session_date": "2026-05-16",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -51,7 +51,17 @@
     "Einstein's special relativity (1905) predicts that as an object's velocity approaches the speed of light, its mass, time, and length simultaneously do what?",
     "Akira Kurosawa's 'Rashomon' (1950), which introduced Japanese cinema to Western audiences, is most notable for its:",
     "Grimm's Law — formulated by Jacob Grimm of fairy-tale fame — describes which phenomenon in historical linguistics?",
-    "The Fergana Valley — one of Central Asia's most densely populated regions and site of its most complex border disputes — is divided among which three modern states?"
+    "The Fergana Valley — one of Central Asia's most densely populated regions and site of its most complex border disputes — is divided among which three modern states?",
+    "Under Incoterms 2020, the ICC strongly recommends FCA (Free Carrier) over FOB (Free on Board) for containerised ocean freight. The primary reason is:",
+    "A 'Telex Release' in container shipping means that the shipper has:",
+    "A 'Container Imbalance Charge' (CIC) or Equipment Imbalance Surcharge levied by ocean carriers covers the cost of:",
+    "In air freight consolidation, a forwarder appears as the shipper on the Master Air Waybill (MAWB) issued by the airline, while issuing House Air Waybills (HAWBs) to its own customers. The primary commercial purpose of this two-tier structure is:",
+    "Under the EU's enhanced rules of origin for LDC countries like Bangladesh, garments qualify for duty-free access even if fabric is imported from third countries — provided the cut-and-sew stage occurs in Bangladesh. This preferential concession is known as:",
+    "CRISPR-Cas9 gene editing directs the Cas9 protein to a target DNA sequence using a guide RNA. Once positioned at the target site, Cas9:",
+    "Franz Kafka's 'The Metamorphosis' (Die Verwandlung, 1915) opens with Gregor Samsa waking to find himself transformed into a giant insect. The most widely accepted critical reading of the transformation is as:",
+    "Bebop, which emerged in the early 1940s in New York (Charlie Parker, Dizzy Gillespie, Thelonious Monk), broke deliberately from Swing-era jazz by:",
+    "Martin Luther's 95 Theses (1517) were specifically a protest against:",
+    "The first official Test cricket match was played in March 1877 between England and Australia in Melbourne — Australia won by 45 runs. Which batsman scored the first-ever century in Test cricket history in that match?"
   ],
   "learn_history": [
     {
@@ -83,13 +93,18 @@
       "date": "2026-05-15",
       "topic": "The Standard Model of Particle Physics",
       "bucket": "science_concept"
+    },
+    {
+      "date": "2026-05-16",
+      "topic": "Competitive Authoritarianism: The Grammar of Hybrid Regimes",
+      "bucket": "sociopolitical"
     }
   ],
   "curriculum_progress": {
     "incoterms": {
-      "count": 1,
-      "last_seen": "2026-05-12",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-16",
+      "difficulty": 2,
       "rolling_score": []
     },
     "documentation": {
@@ -99,9 +114,9 @@
       "rolling_score": []
     },
     "bill_of_lading": {
-      "count": 1,
-      "last_seen": "2026-05-12",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-16",
+      "difficulty": 2,
       "rolling_score": []
     },
     "customs": {
@@ -123,9 +138,9 @@
       "rolling_score": []
     },
     "pricing": {
-      "count": 1,
-      "last_seen": "2026-05-12",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-16",
+      "difficulty": 2,
       "rolling_score": []
     },
     "liner_alliances": {
@@ -135,9 +150,9 @@
       "rolling_score": []
     },
     "air_freight": {
-      "count": 1,
-      "last_seen": "2026-05-12",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-16",
+      "difficulty": 2,
       "rolling_score": []
     },
     "multimodal": {
@@ -153,9 +168,9 @@
       "rolling_score": []
     },
     "ftas": {
-      "count": 1,
-      "last_seen": "2026-05-12",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-16",
+      "difficulty": 2,
       "rolling_score": []
     },
     "marine_insurance": {
@@ -227,9 +242,9 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 1,
-      "last_seen": "2026-05-13",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-16",
+      "difficulty": 2,
       "rolling_score": []
     },
     "mathematics": {
@@ -239,9 +254,9 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 1,
-      "last_seen": "2026-05-13",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-16",
+      "difficulty": 2,
       "rolling_score": []
     },
     "arts": {
@@ -251,15 +266,15 @@
       "rolling_score": []
     },
     "music": {
-      "count": 1,
-      "last_seen": "2026-05-13",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-16",
+      "difficulty": 2,
       "rolling_score": []
     },
     "religion": {
-      "count": 1,
-      "last_seen": "2026-05-13",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-16",
+      "difficulty": 2,
       "rolling_score": []
     },
     "political_theory": {
@@ -281,9 +296,9 @@
       "rolling_score": []
     },
     "sport": {
-      "count": 1,
-      "last_seen": "2026-05-14",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-16",
+      "difficulty": 2,
       "rolling_score": []
     },
     "pop_culture": {
@@ -295,159 +310,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-05-15",
+    "date": "2026-05-16",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "domain",
-        "subtopic": "aircraft_carriers",
-        "stem": "Among large widebody dedicated freighters, which aircraft type is uniquely equipped with an upward-hinging nose section enabling straight-in loading of outsized cargo?",
+        "subtopic": "incoterms",
+        "stem": "Under Incoterms 2020, the ICC strongly recommends FCA (Free Carrier) over FOB (Free on Board) for containerised ocean freight. The primary reason is:",
         "options": [
-          "Boeing 777F — the world's most fuel-efficient widebody freighter by revenue tonne-mile",
-          "Airbus A330-200F — optimised for medium-range high-density routes",
-          "Boeing 747F series — nose door gives full main-deck length access for outsized and long cargo items",
-          "Airbus A350F — designed as the next-generation 777F competitor with superior range and payload"
+          "FOB transfers risk at the ship's rail, but in containerised logistics the seller hands cargo to the carrier at the Container Yard gate — days before loading — creating an uninsured gap where the seller bears risk without physical control of the goods",
+          "FCA is the only Incoterm under Incoterms 2020 that permits the seller to arrange the freight contract with the nominated shipping line",
+          "FOB is restricted to breakbulk and bulk commodities under Incoterms 2020 and has no legal standing when a multimodal transport document is issued",
+          "FCA requires the seller to obtain all-risks cargo insurance under Institute Cargo Clauses A — an obligation removed from FOB in the 2020 revision"
         ],
-        "correct": 2,
-        "why": "The 747F's upward-hinging nose — present on 747-200F, 747-400F, and 747-8F — allows straight-in pallet loading of items too long for side-door loading. No other production widebody freighter offers this feature; it makes the 747F irreplaceable for aerospace components and military outsized cargo.",
-        "deepDive": "The Boeing 747 Freighter's nose door opens on hydraulic actuators exposing the full cross-section of the main cargo deck — a feature dating to the original 747-100F of 1971. The 747-8F, the latest variant, carries 134 tonnes over 8,130nm and delivers 16% better fuel burn per tonne versus the 747-400F. Main deck capacity: up to 36 standard 96x125-inch pallets (PMC) plus lower-lobe belly space. Key competitors: the 777F (no nose door; superior range and fuel per revenue tonne-mile for standard palletised freight; the dominant choice for express integrators on high-volume lanes) and the A330F (smaller, shorter-range, lower payload). The A350F — entering service around 2026-27 — is designed to contest the 777F on efficiency grounds. The nose-loading feature is critical for aerospace OEMs (aircraft engines, fuselage panels), defence logistics, and project cargo operators. Atlas Air is the world's largest 747F operator; Cargolux and Korean Air Cargo also run major fleets. As 777Fs displace the 747F on standard pallet lanes, the 747F's nose door niche remains its commercial survival argument. Common misconception: the 777F is not universally superior — for outsized loads that exceed side-door dimensions, the 747F has no substitute."
+        "correct": 0,
+        "why": "Under FOB, risk passes when goods are 'on board' the vessel — but in container shipping the seller delivers to the carrier's CY gate days before loading, losing physical control immediately. During that gap the seller still bears risk under FOB without access to the cargo. FCA (named CY) correctly aligns risk transfer with control transfer. Incoterms 2020 also added a FCA clause allowing the buyer's carrier to issue an On Board B/L to satisfy LC requirements.",
+        "deepDive": "FOB was designed for breakbulk cargo where 'on board' is a single physical moment on the quay. In containerised shipping the seller delivers to the carrier's container yard — after which they have no physical access. Under FOB, they still technically bear risk until vessel loading, days later. ICC Incoterms 2020 addressed this: it reinforced FCA as correct for container movements and added a unique clause allowing the buyer to instruct their ocean carrier to issue an On Board Bill of Lading to the seller after loading — solving the letter-of-credit documentary requirement that had kept FOB popular despite its structural mismatch. For Bangladesh exporters selling to European buyers under FOB, the gap between CY-gate delivery and vessel loading is typically 3-7 days at Chittagong — real, uninsured exposure."
       },
       {
         "n": 2,
         "topic": "domain",
-        "subtopic": "airport_ops",
-        "stem": "Anchorage Ted Stevens International Airport (PANC) ranks consistently in the world's top five for cargo throughput despite serving a city of ~300,000 primarily because:",
+        "subtopic": "bill_of_lading",
+        "stem": "A 'Telex Release' in container shipping means that the shipper has:",
         "options": [
-          "US law requires all transpacific inbound air cargo to clear CBP customs at Anchorage before domestic onward routing",
-          "Its great-circle position places it within 9.5 hours of 90-95% of the industrialised world — the natural pivot for transpacific freighter refuel, crew-rest, and customs stops",
-          "IATA regulations mandate a technical stop in Alaska for any freighter crossing the International Date Line",
-          "Anchorage has the world's largest bonded cargo warehouse complex with climate-controlled pharma-grade storage for transhipment"
+          "Transmitted an electronic copy of the Bill of Lading to the consignee's bank via SWIFT, replacing the need for a physical original document",
+          "Surrendered the original Bill of Lading to the issuing carrier at origin, who then instructs its destination agent to release cargo to the named consignee without presentation of an original",
+          "Authorised the shipping line to transfer cargo title to the notify party via telex before the vessel reaches the port of discharge",
+          "Converted a straight Bill of Lading into a negotiable instrument, allowing endorsement and transfer of cargo ownership mid-voyage"
         ],
         "correct": 1,
-        "why": "Anchorage sits near the apex of great-circle routes between Asia and North America, placing it within 9.5 hours of 90-95% of the industrialised world by great-circle routing — making it the lowest-deviation refuel, crew-rest, and in-transit customs point for transpacific freighters bound for Memphis, Louisville, or Chicago.",
-        "deepDive": "Ted Stevens Anchorage International Airport (PANC) consistently ranks in the global top five for cargo throughput — often third, behind Hong Kong and Memphis — despite being a small Alaskan city. The explanation is almost purely geographic: great-circle routes between North Asian origins (Tokyo, Seoul, Shanghai, Beijing) and North American hubs (Memphis FedEx, Louisville UPS, Chicago, New York) arc tightly over Alaska. Freighters stop at ANC to refuel, crew-rest, and sometimes transfer loads. US CBP presence allows in-transit customs examination. ANC is curfew-free, unlike Frankfurt (22:00-05:00) or London Heathrow, enabling 24/7 operations. Cold ambient temperatures aid ground cooling. E-commerce growth from China has intensified usage: Chinese all-cargo carriers route transpacific services through ANC for domestic US delivery. Common misconception: No IATA rule mandates an Anchorage stop — it's purely commercial and geographic logic. CBP clearance at ANC is optional; many shipments clear at the final US destination."
+        "why": "Telex release is surrender at origin: the shipper returns all original B/Ls to the issuing carrier, who marks them 'Surrendered' and instructs its destination agent — historically by telex, now electronically — that the named consignee may collect cargo without presenting an original document. It does not create an electronic B/L; it eliminates the paper original entirely by cancelling it at source.",
+        "deepDive": "Telex release is commonly used for trusted trading relationships and short-sea routes where courier delivery of original B/Ls would arrive after the vessel. The shipper physically surrenders all originals; the carrier cancels them and advises the destination agent. The consignee then collects against identity verification, not document presentation. Risks: if the carrier's message system fails or the agent is unresponsive, no one can take delivery without legal intervention. Telex release is distinct from Express Bill of Lading (never issued as an original in the first place) and electronic B/L (a fully digital negotiable instrument under BIMCO MLETR or DCSA frameworks). Under UCP 600 Letter of Credit rules, a surrendered or telex-released B/L is generally not acceptable — LCs require original, negotiable documents."
       },
       {
         "n": 3,
         "topic": "domain",
-        "subtopic": "ma_consolidation",
-        "stem": "The DSV–DB Schenker acquisition (~$14.8B, completed 2024-25) was significant for the freight forwarding industry primarily because it:",
+        "subtopic": "pricing",
+        "stem": "A 'Container Imbalance Charge' (CIC) or Equipment Imbalance Surcharge levied by ocean carriers covers the cost of:",
         "options": [
-          "Created the world's largest ocean freight forwarder by TEU volume, overtaking Kuehne+Nagel's ocean division for the first time",
-          "Gave DSV dominant rail intermodal infrastructure across Europe, making it the continent's largest multimodal logistics operator",
-          "Made DSV the world's largest freight forwarder by total revenue, surpassing Kuehne+Nagel across air, ocean, and contract logistics",
-          "Was the first acquisition of a state-owned logistics asset where the acquirer assumed full sovereign debt obligations from the seller"
+          "Repairing containers returned in poor condition, including structural damage, cleaning, and recertification costs before re-use",
+          "Repositioning empty containers from trade-deficit regions — typically import-heavy destinations — back to export-heavy origins where boxes are chronically short",
+          "Port congestion premiums at imbalanced terminals where vessel berth queues exceed 72 hours of waiting time",
+          "Additional stevedoring labour at transshipment hubs when containers change vessel and must be restowed in a new bay plan"
         ],
-        "correct": 2,
-        "why": "DSV-Schenker was the largest deal in freight forwarding history at ~$14.8B. It vaulted DSV past Kuehne+Nagel to become the world's largest freight forwarder by revenue — adding scale across air, ocean, and contract logistics across 100+ countries in a single transaction.",
-        "deepDive": "When Deutsche Bahn put DB Schenker up for sale in 2023-24 to fund German railway modernisation, DSV of Denmark won a competitive tender against bids from CVC Capital Partners and Kuehne+Nagel itself. The ~$14.8B transaction closed in late 2024/early 2025 — the largest ever in freight forwarding. The combined entity displaced Kuehne+Nagel as the world's top freight forwarder by revenue. The top four forwarders post-deal now control roughly 25-30% of global air and ocean freight volumes. For shippers, consolidation at the forwarder level compresses competition and can harden buy-rate spreads. For digital forwarders (Flexport, Forto), scale matters enormously for carrier negotiating power. DSV also gained significant contract logistics/warehouse footprint — a category it had underinvested in relative to Schenker. Common misconception: DSV is fundamentally asset-light — it is a freight forwarder using purchased carrier capacity across all modes, not a rail or trucking company. The Schenker rail assets in Europe belong to Deutsche Bahn's network, not a standalone DSV asset."
+        "correct": 1,
+        "why": "Trade imbalances mean empty containers pile up at major import destinations (US, EU) while they are scarce at export origins (China, Bangladesh, Vietnam). Carriers must reposition these empties — chartering slot space with zero revenue — at significant cost. The CIC/EIS passes that repositioning expense to shippers on the imbalanced leg, typically as a per-TEU surcharge on export lanes from surplus-box regions.",
+        "deepDive": "The transpacific trade imbalance has made CIC structurally permanent: the US imports far more than it exports, so millions of empty containers sit in US depots awaiting repositioning to Asia. Carriers charter vessel space to move empties at full slot cost with zero cargo revenue, then recoup via the CIC. Rates run $100-$500 per TEU depending on lane severity. CIC is often confused with Detention (shipper keeping a carrier-owned container off-terminal beyond free time), which is a separate charge entirely. From Bangladesh's export perspective, CIC is typically a minor cost — Bangladesh is a net equipment-deficit origin where import boxes flow in and export boxes flow out, meaning repositioning pressure runs the other way. The imbalance charge bites hardest on US and European export lanes, not inbound South Asian lanes."
       },
       {
         "n": 4,
         "topic": "domain",
-        "subtopic": "commercial_concepts",
-        "stem": "In a freight forwarding service contract, a Minimum Quantity Commitment (MQC) 'shortfall liability' clause means:",
+        "subtopic": "air_freight",
+        "stem": "In air freight consolidation, a forwarder appears as the shipper on the Master Air Waybill (MAWB) issued by the airline, while issuing House Air Waybills (HAWBs) to its own customers. The primary commercial purpose of this two-tier structure is:",
         "options": [
-          "The carrier must compensate the shipper if vessel space is unavailable on contracted lanes during the commitment period",
-          "The shipper must pay a penalty or deadfreight fee on any volume shortfall against the committed quantity within the contract period",
-          "The forwarder absorbs the cost difference when contracted buy-rates rise above spot market during the commitment window",
-          "The shipping line may void all future bookings and blacklist the shipper if MQC is breached more than twice in a year"
+          "To allow the forwarder to combine multiple shipments under a single customs entry, reducing total import duty exposure at destination",
+          "To enable the forwarder to negotiate a volume-based airline buy-rate that individual shippers could not access — with the sell-rate charged on HAWBs generating the forwarder's air freight margin",
+          "To ensure the forwarder accepts unlimited cargo liability for all HAWB shipments, replacing the airline's Montréal Convention liability caps",
+          "To comply with IATA regulations that prohibit individual shippers from booking directly with airlines on international routes exceeding 1,000 kg"
         ],
         "correct": 1,
-        "why": "MQC clauses bind the shipper to a minimum volume; if actual shipments fall short, deadfreight applies — the shipper pays a penalty per unit on the shortfall, typically at the contracted margin or a defined fee per TEU or CBM, for the period of the contract.",
-        "deepDive": "Minimum Quantity Commitments are the commercial backbone of freight forwarding Named Account Contracts (NACs) and NVOCC service arrangements. When a shipper negotiates a contracted rate, the forwarder commits that volume to the ocean carrier to secure space and buy-rate. The MQC is a two-sided commitment: the shipper promises minimum TEUs or CBMs per period; in return receives a below-spot contracted rate. If the shipper falls short, shortfall liability (deadfreight) kicks in at the contracted margin per unit or a flat penalty fee. The risk is structurally asymmetric: carriers rarely compensate shippers when they fail to provide contracted space. For a logistics conglomerate like MGH, MQC management is central to P&L planning — overcommitting to achieve a lower rate becomes expensive if trade lanes slow. Common misconceptions: (1) MQCs are not take-or-pay agreements in the oil-and-gas sense — penalties are usually a fraction of the full freight rate, not the full amount. (2) Rate validity windows (typically 30-90 days) and surcharge pass-through mechanics (BAF, PSS, GRI) complicate MQC economics: base rates can be fixed while surcharges float, materially altering total landed cost."
+        "why": "Consolidation's commercial logic: the forwarder bundles many small HAWBs into one MAWB, appearing as a high-volume shipper to the airline. This earns a lower per-kg buy-rate than any individual shipper could achieve. The sell-rate charged on each HAWB minus the MAWB buy-rate is the forwarder's air freight gross margin — the economic engine of every major freight forwarder's air division.",
+        "deepDive": "Airlines want volume and predictability — large forwarders commit hundreds of thousands of kilograms monthly and receive rates far below general cargo tariffs. Individual shippers with 50-500 kg per shipment lack this leverage; the forwarder aggregates demand. HAWB liability runs between forwarder and shipper; MAWB liability runs between airline and forwarder — two separate legal relationships. The forwarder contracts as principal on the MAWB, not as agent, accepting carrier liability to the shipper. CASS (Cargo Account Settlement Systems) settles MAWB charges between airlines and forwarders on a weekly bilateral cycle. Buy-sell spreads typically run $0.10-$0.60/kg depending on lane, volume, and spot versus contracted rates. Integrators (FedEx, UPS, DHL Express) bypass this structure — they own aircraft and issue only their own waybills."
       },
       {
         "n": 5,
         "topic": "domain",
-        "subtopic": "supply_chain_strategy",
-        "stem": "The 'bullwhip effect' in supply chains describes the phenomenon where:",
+        "subtopic": "ftas",
+        "stem": "Under the EU's enhanced rules of origin for LDC countries like Bangladesh, garments qualify for duty-free access even if fabric is imported from third countries — provided the cut-and-sew stage occurs in Bangladesh. This preferential concession is known as:",
         "options": [
-          "Lean manufacturing plants collapse first in disruptions because they eliminated all buffer inventory throughout the supplier base",
-          "Small fluctuations in end-consumer demand are progressively amplified into larger order swings at each upstream tier of the supply chain",
-          "Ocean carrier blanket sailing cancellations whip port congestion downstream, reducing berth productivity across entire trade lanes",
-          "Procurement teams systematically overbuild capacity by over-ordering, causing permanent supplier overinvestment even after demand normalises"
+          "Cumulation — where the value of inputs sourced from other GSP-beneficiary developing countries counts as originating content alongside Bangladesh's manufacturing",
+          "Single transformation — where one manufacturing stage (cut-and-sew) is sufficient to confer originating status, departing from the standard two-stage rule that requires yarn-to-fabric weaving plus cut-and-sew",
+          "Substantial transformation exemption — a WTO-mandated waiver applied automatically to all LDC exports regardless of input sourcing origin",
+          "Self-certification — where Bangladesh's exporters declare origin on a REX certificate without requiring third-party verification or government endorsement"
         ],
         "correct": 1,
-        "why": "The bullwhip effect (Forrester effect): a small consumer demand swing amplifies into progressively larger order variability at retailer, wholesaler, distributor, and manufacturer levels — driven by demand-signal lags, order batching, price fluctuations, and shortage gaming.",
-        "deepDive": "The bullwhip effect was first described by systems theorist Jay Forrester in 1961 and named by Hau Lee et al. in a landmark 1997 Harvard Business Review paper. Even stable consumer demand generates amplified order volatility upstream. A 5% retail demand swing becomes a 20% swing at the distributor and 40% at the manufacturer. Four root causes: (1) Demand signal processing — each tier forecasts from orders it receives, not true end demand. (2) Order batching — buyers consolidate orders to reduce transaction costs, creating lumpy demand signals. (3) Price fluctuations — forward-buying ahead of promotions or GRIs distorts true demand. (4) Shortage gaming — buyers over-order during scarcity, expecting rationing. The COVID-19 pandemic was the most visible modern bullwhip experiment: modest consumer demand rises amplified into shortages of everything from toilet paper to semiconductors; every shipper simultaneously ordered more inventory, causing the 2020-22 global container shipping chaos and rate spike. The cure: sharing point-of-sale data across tiers (vendor-managed inventory, CPFR), reducing order minimums, and using real-time demand signals instead of delayed orders. For MGH, understanding the bullwhip effect explains to customers why freight demand can surge apparently without cause — and why contracted forward space has genuine commercial value."
+        "why": "Standard EU GSP rules for textiles require double transformation — both the weaving of fabric from yarn AND the cut-and-sew of garments must occur in Bangladesh. For LDC countries, the EU's EBA scheme reduces this to single transformation: cut-and-sew in Bangladesh suffices regardless of fabric origin. This advantage expires on Bangladesh's LDC graduation in November 2026, after which the double-transformation standard reapplies unless Bangladesh qualifies for GSP+ or negotiates cumulation arrangements.",
+        "deepDive": "EU GSP rules for textiles normally require 'double transformation' (yarn-forward): both weaving of fabric AND cutting-and-sewing must occur in the beneficiary country. For LDC countries, EBA reduces this to single transformation — cutting and sewing in Bangladesh suffices regardless of where fabric was woven. Bangladesh's $40B+ RMG sector sends ~60% of exports to the EU; this concession underpins its entire cost model for fabric sourcing from China and Korea. LDC graduation in November 2026 ends EBA eligibility; replacement under standard GSP restores the double-transformation rule. Bangladesh is negotiating cumulation arrangements and GSP+ status to mitigate this. Common misconception: 'cumulation' is a separate mechanism allowing inputs from other GSP-beneficiary countries to count as originating content — a useful but distinct flexibility."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The Chinese Communist Party's Long March (1934-35), a ~9,000 km strategic retreat that decimated the Red Army from ~100,000 to under 10,000, ended at which location where Mao consolidated his leadership?",
+        "subtopic": "life_science",
+        "stem": "CRISPR-Cas9 gene editing directs the Cas9 protein to a target DNA sequence using a guide RNA. Once positioned at the target site, Cas9:",
         "options": [
-          "Yan'an in Shaanxi province — where the CCP established its revolutionary base for the next 14 years",
-          "Wuhan — where the CCP set up its wartime capital after breaking out of the Nationalist encirclement",
-          "Chongqing — the wartime united front government city where Mao and Chiang Kai-shek held their famous 1945 talks",
-          "Nanjing — from which Mao declared the People's Republic of China on October 1, 1949"
+          "Methylates the target gene to silence its expression without altering the underlying base-pair sequence — a reversible epigenetic modification",
+          "Makes a precise double-strand break in the DNA, after which the cell's own repair pathways are harnessed to delete, disrupt, or insert genetic material at that site",
+          "Transcribes the target sequence in reverse to produce an antisense RNA strand that blocks translation of the corresponding protein",
+          "Activates endogenous viral integrase enzymes to insert corrective sequences at random locations distributed throughout the genome"
         ],
-        "correct": 0,
-        "why": "The Long March ended at Yan'an, Shaanxi. Mao emerged as dominant CCP leader at the Zunyi Conference mid-march (January 1935), criticising the Soviet advisors whose tactics had led to Nationalist encirclement. Yan'an became the CCP's revolutionary base from 1935 to 1947.",
-        "deepDive": "The Long March began in October 1934 when Nationalist forces under Chiang Kai-shek encircled the Communist base area in Jiangxi. Over 12 months, ~100,000 soldiers started; fewer than 10,000 survived to reach Yan'an — crossing 24 rivers, 18 mountain ranges, and Sichuan swamps. The Zunyi Conference (January 1935, during the march) was the political turning point: Mao criticised the Soviet Comintern advisors whose rigid tactics had led to encirclement and seized control of CCP military strategy. Yan'an (1935-47) became the CCP's crucible — producing the Yan'an Rectification Campaign, the mass line political strategy, and a leadership generation including Zhou Enlai and Deng Xiaoping. CCP historiography celebrates the Long March as proof of revolutionary resilience; Xi Jinping repeatedly invokes 'the new Long March' when framing China's technology self-sufficiency drive against US chip restrictions. Common misconceptions: (1) The march was not a tactical masterstroke but a near-catastrophic defeat retrospectively romanticised — survival was partly luck, partly the 1937 Japanese invasion forcing Chiang to pivot from anti-Communist to national defence. (2) Mao declared the PRC from Tiananmen in Beijing, not Nanjing."
+        "correct": 1,
+        "why": "Cas9 is a nuclease — it cuts both strands of DNA at the guide RNA-specified site. Two repair pathways then determine the outcome: error-prone NHEJ (Non-Homologous End Joining) creates small insertions or deletions that disrupt the gene; HDR (Homology-Directed Repair), if a template is supplied, enables precise correction or insertion. CRISPR does not methylate DNA or produce antisense RNA — it cuts, precisely.",
+        "deepDive": "CRISPR-Cas9 was adapted from a bacterial immune system (Streptococcus pyogenes) by Jennifer Doudna and Emmanuelle Charpentier, who shared the 2020 Chemistry Nobel. Mechanism: a ~20 nucleotide guide RNA matches the target sequence; Cas9 scans DNA until it finds both the guide match and an adjacent PAM sequence (NGG), then cleaves both strands. NHEJ repair (fast, error-prone) produces insertions or deletions — used for gene knockouts. HDR (slower, template-dependent) enables precise corrections — used in therapeutic applications. Clinical milestone: Casgevy (approved 2023-24) for sickle cell disease is the first approved CRISPR therapy. The technology is also transforming agricultural genetics and conservation biology. Common misconception: CRISPR is not a single molecule — Cas9 is one of many Cas proteins; base editors and prime editors further expand the toolkit beyond cutting."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "Einstein's special relativity (1905) predicts that as an object's velocity approaches the speed of light, its mass, time, and length simultaneously do what?",
+        "subtopic": "literature",
+        "stem": "Franz Kafka's 'The Metamorphosis' (Die Verwandlung, 1915) opens with Gregor Samsa waking to find himself transformed into a giant insect. The most widely accepted critical reading of the transformation is as:",
         "options": [
-          "Mass decreases toward zero, time speeds up for external observers, and length expands along the direction of motion",
-          "Mass increases toward infinity, time dilates (slows relative to a stationary observer), and length contracts along the direction of motion",
-          "Mass remains constant but kinetic energy becomes infinite, requiring infinite fuel for any further acceleration toward c",
-          "Velocity can briefly exceed c via quantum tunnelling, violating the classical speed limit under extreme conditions"
+          "A Surrealist dream sequence exploring Freudian repression — the insect representing the id unshackled from social convention and the demands of bourgeois respectability",
+          "An externalisation of Gregor's pre-existing condition: already dehumanised by his role as sole breadwinner, the transformation makes his non-personhood literal and forces his family to confront what he always was to them",
+          "A Gothic horror allegory for contagious disease, in the tradition of Poe — Gregor's transformation as divine punishment for moral failure within the family unit",
+          "A comic satire of Austro-Hungarian bureaucratic literalism, in which Gregor's transformation is treated as a legal-administrative category error the family must resolve through official channels"
         ],
         "correct": 1,
-        "why": "Special relativity's three core effects — time dilation, length contraction, and relativistic mass increase — all scale with the Lorentz factor γ = 1/√(1−v²/c²), diverging as v → c. This makes c an absolute speed limit: reaching it would require infinite energy.",
-        "deepDive": "Einstein's 1905 paper 'On the Electrodynamics of Moving Bodies' derived special relativity from two postulates: (1) the laws of physics are identical in all inertial frames; (2) the speed of light c = 299,792,458 m/s is constant regardless of source or observer motion. Three predictions follow. Time dilation: a clock at velocity v runs slower by the Lorentz factor γ = 1/√(1−v²/c²). At 87% of c, γ = 2 — the moving clock ticks half as fast. Length contraction: a moving object is shorter by 1/γ along its direction of motion. Relativistic mass: resistance to further acceleration increases as γ, requiring infinite energy to reach c. These are real and measured daily: GPS satellites apply both special relativistic corrections (orbital motion slows clocks by 7 μs/day) and general relativistic corrections (altitude speeds clocks by 45 μs/day) — without both corrections GPS would accumulate ~10km/day of error. Muons created by cosmic rays 15km up survive to Earth's surface only because time dilation extends their observed lifetime from 2.2 to ~34 microseconds at 0.9997c. E=mc² follows directly from special relativity. Common misconception: quantum tunnelling does not allow objects with mass to exceed c — it describes probability wave behaviour, not superluminal matter transport."
+        "why": "Kafka's Gregor was already functionally dehumanised before the transformation: a travelling salesman trapped by debt, family dependence, and a job he hated, with no interiority others acknowledged. The insect externalises what was already true — and the story's arc tracks his family's liberation from moral obligation as his economic value disappears. When Gregor dies, the family experiences relief.",
+        "deepDive": "Kafka wrote The Metamorphosis in 1912 (published 1915), drawing on his own alienation from family and from crushing clerical work at an insurance company. The horror is social, not supernatural: no one in the story tries to save Gregor once he cannot work. His sister, initially caring, eventually declares 'this is not our Gregor.' The father wounds him with thrown apples. Kafka explicitly left the insect species unnamed — 'Ungeziefer' means only 'vermin' — refusing to reduce the horror to something concrete. The novella inaugurated 'Kafkaesque' as a descriptor for institutional dehumanisation. Kafka found it too sentimental; he considered The Trial his more significant work. Vladimir Nabokov famously lectured on it at Cornell, insisting on a close reading of the insect's physical impossibilities as deliberate narrative devices."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Akira Kurosawa's 'Rashomon' (1950), which introduced Japanese cinema to Western audiences, is most notable for its:",
+        "subtopic": "music",
+        "stem": "Bebop, which emerged in the early 1940s in New York (Charlie Parker, Dizzy Gillespie, Thelonious Monk), broke deliberately from Swing-era jazz by:",
         "options": [
-          "Hyper-realistic samurai warfare sequences shot with handheld cameras borrowing from Italian Neorealism",
-          "Narrative structure presenting the same murder from four mutually incompatible perspectives, with none established as the definitive truth",
-          "Non-linear structure that reveals the final scene in the opening minutes then explains events in reverse chronological order",
-          "Deliberate silent-film aesthetic scored by John Cage's prepared piano to consciously echo 1920s Japanese cinema"
+          "Emphasising collective improvisation by all band members simultaneously, removing the solo spotlight to return jazz to its New Orleans communal roots",
+          "Slowing tempos and simplifying harmonies to make jazz accessible to non-musician audiences after the perceived complexity of big-band Swing arrangements",
+          "Using fast tempos, complex chord substitutions, and virtuosic improvisation that made dancing impractical — deliberately repositioning jazz as an art music rather than commercial entertainment",
+          "Incorporating electronic amplification and Indian raga scales, anticipating Miles Davis's In a Silent Way fusion experiments by more than two decades"
         ],
-        "correct": 1,
-        "why": "Rashomon presents four contradictory accounts of a samurai's death — bandit, wife, the dead samurai via medium, and a woodcutter — with no account privileged as true. The film is a meditation on the irreducible subjectivity of truth and memory, and coined the term 'Rashomon effect' in psychology and law.",
-        "deepDive": "Rashomon won the Golden Lion at Venice 1950 — the first Japanese film to win a major Western festival award — and the Honorary Oscar for Best Foreign Film in 1952, opening Western markets to Asian cinema. Based on two Ryunosuke Akutagawa short stories, its central innovation is the unreliable narrator taken to structural extreme: four witnesses give four internally coherent but mutually contradictory accounts of a samurai's death, with no resolution. The 'Rashomon effect' is now a standard term in cognitive psychology, law, and journalism for how witnesses genuinely remember the same event differently based on perspective, self-interest, and memory's constructive nature. Kurosawa's technical contribution was equally significant: he pointed cameras directly into the sun — a cinematographic taboo at the time — to create dappled forest lighting that became one of cinema's most imitated visual textures. Legacy: The Usual Suspects (1995), Hero (2002), and dozens of narratively complex films cite Rashomon directly. Common misconception: many conflate Rashomon with Seven Samurai (1954) — they are structurally opposite: Rashomon probes unknowability of truth; Seven Samurai is about collective heroism."
+        "correct": 2,
+        "why": "Bebop was explicitly anti-commercial: breakneck tempos, chromatic chord substitutions (tritone substitutions, altered dominants), asymmetric phrase lengths, and a demanding improvisational vocabulary made the music technically inaccessible to dancers and casual listeners. This was intentional — Parker, Gillespie, and Monk wanted jazz recognised as an art form requiring active listening, not background dance music.",
+        "deepDive": "Bebop developed in after-hours jam sessions at Harlem's Minton's Playhouse, where musicians gathered after Swing gigs to play for themselves, not for dancers. Charlie Parker's alto saxophone and Dizzy Gillespie's harmonic vocabulary defined the style: tempos of 200-300+ bpm, ii-V-I progressions with tritone substitutions, bebop scales with chromatic passing tones, and a rhythm section liberated from strict dance timekeeping. Thelonious Monk's angular compositions ('Round Midnight,' 'Straight No Chaser') pushed harmonic ambiguity furthest. The movement was racially charged: Black musicians reclaiming jazz from white Swing bandleaders who had commercialised it. Cool jazz (Miles Davis's Birth of the Cool, 1950) was bebop's direct successor — same harmonic sophistication, deliberately slower and more cerebral. Hard bop followed, reintegrating gospel and blues. Common misconception: bebop was not the first jazz 'revolution' — each era from New Orleans to Chicago to Swing involved similar defining breaks."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "Grimm's Law — formulated by Jacob Grimm of fairy-tale fame — describes which phenomenon in historical linguistics?",
+        "subtopic": "religion",
+        "stem": "Martin Luther's 95 Theses (1517) were specifically a protest against:",
         "options": [
-          "The universal tendency of languages to simplify phonological systems over time by shedding complex consonant clusters",
-          "A systematic set of consonant shifts separating Proto-Germanic from other Indo-European branches — e.g. p→f, t→th, k→h — explaining why Latin 'pater' became English 'father'",
-          "The principle that new vocabulary is always borrowed from economically or militarily dominant neighbouring languages rather than invented internally",
-          "The rule that children universally acquire fricatives (f, s, th) before stops (p, t, k) in first-language acquisition"
+          "The Catholic Church's insistence that scripture be read only in Latin, which Luther argued denied ordinary Christians access to God's word and enabled clerical corruption",
+          "The Pope's temporal political authority over the Holy Roman Emperor, which Luther argued violated Augustine's doctrine of the separation of spiritual and secular power",
+          "The sale of indulgences — certificates claimed to reduce time in purgatory for the buyer or their deceased relatives — which Luther argued made God's grace a commercial transaction",
+          "The Catholic doctrine of transubstantiation — the physical transformation of Eucharistic bread and wine into Christ's body and blood — which Luther called philosophically incoherent"
         ],
-        "correct": 1,
-        "why": "Grimm's Law (1822) documented the consonant shifts distinguishing Proto-Germanic from other Indo-European branches: PIE voiceless stops became fricatives (p→f: pater→father; t→th: tres→three; k→h: cor→heart). It was the first proof that sound change is regular and predictable — not random.",
-        "deepDive": "Jacob Grimm — the same Grimm of fairy tales compiled with his brother Wilhelm — was also a founder of modern linguistics. His 1822 'Deutsche Grammatik' documented the first systematic sound change law: the Proto-Germanic consonant shift. Three interrelated shifts: (1) PIE voiceless stops became fricatives: *p→f (Latin pater→English father), *t→th (Latin tres→English three), *k→h (Latin cor→English heart). (2) PIE voiced stops became voiceless: *d→t (Latin duo→English two), *g→k. (3) PIE voiced aspirated stops became voiced fricatives or simple voiced stops. Grimm's Law was the first proof that sound change is regular and predictable across an entire language family — founding the comparative-historical linguistics tradition. Verner's Law (1875) later explained Grimm's apparent exceptions using Proto-Indo-European accent position, cementing the Neogrammarian hypothesis that 'sound laws admit no exceptions.' Common misconception: Grimm's Law does not say all languages simplify over time — it describes a specific directional shift in one branch. Latin, Sanskrit, and Greek retained the original PIE sounds that Germanic shifted away from."
+        "correct": 2,
+        "why": "Luther's immediate trigger was Johann Tetzel selling indulgences across Saxony under a papal commission partly funding St. Peter's Basilica. Luther's theological objection: forgiveness of sin is God's gift alone — it cannot be purchased. The 95 Theses were written in Latin as academic propositions for debate, not as popular protest, but the printing press made them viral across Germany within weeks.",
+        "deepDive": "The 95 Theses (Disputatio pro Declaratione Virtutis Indulgentiarum) were academic propositions for debate at Wittenberg University — the dramatic church-door nailing is a retrospective legend. Pope Leo X authorised a major indulgence sale to fund St. Peter's Basilica; Dominican friar Johann Tetzel marketed it with the line 'As soon as the gold in the casket rings, the rescued soul to heaven springs.' Luther's objection evolved from practice to principle: scripture offered no basis for purgatorial remission through cash. The printing press turned an academic document viral across Germany within weeks, achieving what Luther intended as scholarly debate but became political insurgency. Luther's later doctrines — sola scriptura, sola fide, the priesthood of all believers — were theologically more radical than the 95 Theses, which were the spark. The Reformation split Western Christianity permanently and reshaped European political geography for three centuries."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Fergana Valley — one of Central Asia's most densely populated regions and site of its most complex border disputes — is divided among which three modern states?",
+        "subtopic": "sport",
+        "stem": "The first official Test cricket match was played in March 1877 between England and Australia in Melbourne — Australia won by 45 runs. Which batsman scored the first-ever century in Test cricket history in that match?",
         "options": [
-          "Kazakhstan, Kyrgyzstan, and Tajikistan",
-          "Uzbekistan, Kyrgyzstan, and Tajikistan",
-          "Uzbekistan, Kazakhstan, and Turkmenistan",
-          "Afghanistan, Tajikistan, and China"
+          "W.G. Grace of England, who made 152 in the first innings at the Melbourne Cricket Ground to set the tone for the series",
+          "Charles Bannerman of Australia, who scored 165 retired hurt — the first century in Test history, accounting for 67.3% of his team's entire first-innings total",
+          "James Southerton of England, whose combined 178 runs across both innings established the record for the highest debut Test aggregate",
+          "Billy Murdoch of Australia, who scored 141 not out in the second innings to set up the winning margin of 45 runs"
         ],
         "correct": 1,
-        "why": "The Fergana Valley is split among Uzbekistan (largest share: Fergana, Namangan, Andijan cities), Kyrgyzstan (eastern tip including Osh), and Tajikistan (Khujand/Leninabad). Soviet demarcation created a patchwork of enclaves — Sokh, Vorukh — that remain Central Asia's most volatile territorial flashpoints.",
-        "deepDive": "The Fergana Valley is ~300km long, 70km wide, watered by the Syr Darya, and supports 14 million people — Central Asia's densest agrarian settlement. It was the Silk Road's commercial heart; Alexander the Great founded Alexandria Eschate (Khujand) at its northern entrance. Soviet nationality policy in the 1920s deliberately fragmented the valley among three union republics to prevent any single nation dominating — creating a geopolitical puzzle of enclaves and exclaves. The Sokh enclave (a 300km² piece of Tajikistan entirely surrounded by Kyrgyz and Uzbek territory) and the Vorukh exclave (also Tajik, inside Kyrgyzstan) have generated recurring violence. The April 2021 Kyrgyz-Tajik border war erupted over water rights and infrastructure near Vorukh, killing dozens and displacing thousands. The valley is also a historical base of the Islamic Movement of Uzbekistan (IMU) and later IS-Khorasan recruitment — a security priority for Russia's CSTO and China's SCO. Water politics are acute: Kyrgyzstan controls upstream headwaters and has proposed Kambarata hydropower dams that downstream Uzbekistan fears will reduce irrigation flows for its cotton economy. Common misconception: Kazakhstan has no share of the Fergana Valley — it lies north of the valley's watershed entirely."
+        "why": "Charles Bannerman scored 165 retired hurt in Australia's first innings — the first century in Test cricket history. His 165 represented 67.3% of Australia's total of 245 — the highest proportion of a completed innings by any Test centurion. He retired after a ball split his finger; Australia won by 45 runs, beginning a rivalry that predates almost every other international sporting competition.",
+        "deepDive": "The Melbourne Cricket Ground hosted the first Test from 15-19 March 1877 between England (touring) and a Combined Australia XI. Bannerman's 165 retired hurt remains one of cricket's most historically resonant innings: it accounted for 67.3% of Australia's total — the highest percentage of a completed Test innings by any centurion. He retired after a ball from James Lillywhite split his finger; Australia's remaining batsmen added only 80 runs. England needed 154 and were bowled out for 108; Tom Kendall took 7/55. The Centenary Test at MCG in March 1977 — exactly 100 years later — was also won by Australia by exactly 45 runs, an extraordinary coincidence. 'Test cricket' was a retrospective designation; the players had no special name for it at the time. The Ashes name came only in 1882, after England's first home defeat to Australia."
       }
     ]
   }
