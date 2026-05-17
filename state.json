@@ -1,6 +1,6 @@
 {
   "streak": 0,
-  "last_session_date": "2026-05-16",
+  "last_session_date": "2026-05-17",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -61,7 +61,17 @@
     "Franz Kafka's 'The Metamorphosis' (Die Verwandlung, 1915) opens with Gregor Samsa waking to find himself transformed into a giant insect. The most widely accepted critical reading of the transformation is as:",
     "Bebop, which emerged in the early 1940s in New York (Charlie Parker, Dizzy Gillespie, Thelonious Monk), broke deliberately from Swing-era jazz by:",
     "Martin Luther's 95 Theses (1517) were specifically a protest against:",
-    "The first official Test cricket match was played in March 1877 between England and Australia in Melbourne — Australia won by 45 runs. Which batsman scored the first-ever century in Test cricket history in that match?"
+    "The first official Test cricket match was played in March 1877 between England and Australia in Melbourne — Australia won by 45 runs. Which batsman scored the first-ever century in Test cricket history in that match?",
+    "A commercial invoice in international trade simultaneously serves as a demand for payment and which other primary legal function?",
+    "Under the Harmonized System (HS), which international body maintains the global HS nomenclature and issues formal updates every five years?",
+    "A VLCC (Very Large Crude Carrier) cannot transit the Suez Canal when fully laden. What approximate deadweight tonnage (DWT) range defines a VLCC?",
+    "Which metric best enables apples-to-apples productivity comparison between container ports of very different annual throughput sizes?",
+    "Following Hapag-Lloyd's exit to form the Gemini Cooperation with Maersk in January 2025, which carrier grouping rebranded as the 'Premier Alliance'?",
+    "Which 2023 animated film became the fastest to cross $1 billion globally, and dethroned Detective Pikachu as the highest-grossing video game adaptation of all time?",
+    "The Riemann Hypothesis — one of the seven Millennium Prize Problems — concerns the precise location of non-trivial zeros of which mathematical function?",
+    "Which philosopher introduced the 'original position' thought experiment, arguing rational agents behind a 'veil of ignorance' would choose principles protecting the least-advantaged members of society?",
+    "Ricardo's theory of comparative advantage implies mutual gains from trade remain possible even when one country has absolute productive superiority in which set of goods?",
+    "The Sykes-Picot Agreement, secretly signed on 16 May 1916 — exactly 110 years ago — divided which geographic territory into British and French spheres of influence?"
   ],
   "learn_history": [
     {
@@ -98,6 +108,11 @@
       "date": "2026-05-16",
       "topic": "Competitive Authoritarianism: The Grammar of Hybrid Regimes",
       "bucket": "sociopolitical"
+    },
+    {
+      "date": "2026-05-17",
+      "topic": "The Meiji Restoration (1868–1912): Asia's Original Blueprint for State-Directed Industrialization",
+      "bucket": "history"
     }
   ],
   "curriculum_progress": {
@@ -108,8 +123,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 1,
-      "last_seen": "2026-05-13",
+      "count": 2,
+      "last_seen": "2026-05-17",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -120,20 +135,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 1,
-      "last_seen": "2026-05-13",
+      "count": 2,
+      "last_seen": "2026-05-17",
       "difficulty": 1,
       "rolling_score": []
     },
     "vessels": {
-      "count": 1,
-      "last_seen": "2026-05-13",
+      "count": 2,
+      "last_seen": "2026-05-17",
       "difficulty": 1,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 1,
-      "last_seen": "2026-05-13",
+      "count": 2,
+      "last_seen": "2026-05-17",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -144,8 +159,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 1,
-      "last_seen": "2026-05-13",
+      "count": 2,
+      "last_seen": "2026-05-17",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -224,8 +239,8 @@
   },
   "gk_progress": {
     "history": {
-      "count": 3,
-      "last_seen": "2026-05-15",
+      "count": 4,
+      "last_seen": "2026-05-17",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -248,8 +263,8 @@
       "rolling_score": []
     },
     "mathematics": {
-      "count": 2,
-      "last_seen": "2026-05-14",
+      "count": 3,
+      "last_seen": "2026-05-17",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -278,14 +293,14 @@
       "rolling_score": []
     },
     "political_theory": {
-      "count": 2,
-      "last_seen": "2026-05-14",
+      "count": 3,
+      "last_seen": "2026-05-17",
       "difficulty": 1,
       "rolling_score": []
     },
     "economics": {
-      "count": 2,
-      "last_seen": "2026-05-14",
+      "count": 3,
+      "last_seen": "2026-05-17",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -302,168 +317,28 @@
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 1,
-      "last_seen": "2026-05-14",
+      "count": 2,
+      "last_seen": "2026-05-17",
       "difficulty": 1,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-05-16",
+    "date": "2026-05-17",
     "current_q": 1,
     "answers": [],
     "questions": [
-      {
-        "n": 1,
-        "topic": "domain",
-        "subtopic": "incoterms",
-        "stem": "Under Incoterms 2020, the ICC strongly recommends FCA (Free Carrier) over FOB (Free on Board) for containerised ocean freight. The primary reason is:",
-        "options": [
-          "FOB transfers risk at the ship's rail, but in containerised logistics the seller hands cargo to the carrier at the Container Yard gate — days before loading — creating an uninsured gap where the seller bears risk without physical control of the goods",
-          "FCA is the only Incoterm under Incoterms 2020 that permits the seller to arrange the freight contract with the nominated shipping line",
-          "FOB is restricted to breakbulk and bulk commodities under Incoterms 2020 and has no legal standing when a multimodal transport document is issued",
-          "FCA requires the seller to obtain all-risks cargo insurance under Institute Cargo Clauses A — an obligation removed from FOB in the 2020 revision"
-        ],
-        "correct": 0,
-        "why": "Under FOB, risk passes when goods are 'on board' the vessel — but in container shipping the seller delivers to the carrier's CY gate days before loading, losing physical control immediately. During that gap the seller still bears risk under FOB without access to the cargo. FCA (named CY) correctly aligns risk transfer with control transfer. Incoterms 2020 also added a FCA clause allowing the buyer's carrier to issue an On Board B/L to satisfy LC requirements.",
-        "deepDive": "FOB was designed for breakbulk cargo where 'on board' is a single physical moment on the quay. In containerised shipping the seller delivers to the carrier's container yard — after which they have no physical access. Under FOB, they still technically bear risk until vessel loading, days later. ICC Incoterms 2020 addressed this: it reinforced FCA as correct for container movements and added a unique clause allowing the buyer to instruct their ocean carrier to issue an On Board Bill of Lading to the seller after loading — solving the letter-of-credit documentary requirement that had kept FOB popular despite its structural mismatch. For Bangladesh exporters selling to European buyers under FOB, the gap between CY-gate delivery and vessel loading is typically 3-7 days at Chittagong — real, uninsured exposure."
-      },
-      {
-        "n": 2,
-        "topic": "domain",
-        "subtopic": "bill_of_lading",
-        "stem": "A 'Telex Release' in container shipping means that the shipper has:",
-        "options": [
-          "Transmitted an electronic copy of the Bill of Lading to the consignee's bank via SWIFT, replacing the need for a physical original document",
-          "Surrendered the original Bill of Lading to the issuing carrier at origin, who then instructs its destination agent to release cargo to the named consignee without presentation of an original",
-          "Authorised the shipping line to transfer cargo title to the notify party via telex before the vessel reaches the port of discharge",
-          "Converted a straight Bill of Lading into a negotiable instrument, allowing endorsement and transfer of cargo ownership mid-voyage"
-        ],
-        "correct": 1,
-        "why": "Telex release is surrender at origin: the shipper returns all original B/Ls to the issuing carrier, who marks them 'Surrendered' and instructs its destination agent — historically by telex, now electronically — that the named consignee may collect cargo without presenting an original document. It does not create an electronic B/L; it eliminates the paper original entirely by cancelling it at source.",
-        "deepDive": "Telex release is commonly used for trusted trading relationships and short-sea routes where courier delivery of original B/Ls would arrive after the vessel. The shipper physically surrenders all originals; the carrier cancels them and advises the destination agent. The consignee then collects against identity verification, not document presentation. Risks: if the carrier's message system fails or the agent is unresponsive, no one can take delivery without legal intervention. Telex release is distinct from Express Bill of Lading (never issued as an original in the first place) and electronic B/L (a fully digital negotiable instrument under BIMCO MLETR or DCSA frameworks). Under UCP 600 Letter of Credit rules, a surrendered or telex-released B/L is generally not acceptable — LCs require original, negotiable documents."
-      },
-      {
-        "n": 3,
-        "topic": "domain",
-        "subtopic": "pricing",
-        "stem": "A 'Container Imbalance Charge' (CIC) or Equipment Imbalance Surcharge levied by ocean carriers covers the cost of:",
-        "options": [
-          "Repairing containers returned in poor condition, including structural damage, cleaning, and recertification costs before re-use",
-          "Repositioning empty containers from trade-deficit regions — typically import-heavy destinations — back to export-heavy origins where boxes are chronically short",
-          "Port congestion premiums at imbalanced terminals where vessel berth queues exceed 72 hours of waiting time",
-          "Additional stevedoring labour at transshipment hubs when containers change vessel and must be restowed in a new bay plan"
-        ],
-        "correct": 1,
-        "why": "Trade imbalances mean empty containers pile up at major import destinations (US, EU) while they are scarce at export origins (China, Bangladesh, Vietnam). Carriers must reposition these empties — chartering slot space with zero revenue — at significant cost. The CIC/EIS passes that repositioning expense to shippers on the imbalanced leg, typically as a per-TEU surcharge on export lanes from surplus-box regions.",
-        "deepDive": "The transpacific trade imbalance has made CIC structurally permanent: the US imports far more than it exports, so millions of empty containers sit in US depots awaiting repositioning to Asia. Carriers charter vessel space to move empties at full slot cost with zero cargo revenue, then recoup via the CIC. Rates run $100-$500 per TEU depending on lane severity. CIC is often confused with Detention (shipper keeping a carrier-owned container off-terminal beyond free time), which is a separate charge entirely. From Bangladesh's export perspective, CIC is typically a minor cost — Bangladesh is a net equipment-deficit origin where import boxes flow in and export boxes flow out, meaning repositioning pressure runs the other way. The imbalance charge bites hardest on US and European export lanes, not inbound South Asian lanes."
-      },
-      {
-        "n": 4,
-        "topic": "domain",
-        "subtopic": "air_freight",
-        "stem": "In air freight consolidation, a forwarder appears as the shipper on the Master Air Waybill (MAWB) issued by the airline, while issuing House Air Waybills (HAWBs) to its own customers. The primary commercial purpose of this two-tier structure is:",
-        "options": [
-          "To allow the forwarder to combine multiple shipments under a single customs entry, reducing total import duty exposure at destination",
-          "To enable the forwarder to negotiate a volume-based airline buy-rate that individual shippers could not access — with the sell-rate charged on HAWBs generating the forwarder's air freight margin",
-          "To ensure the forwarder accepts unlimited cargo liability for all HAWB shipments, replacing the airline's Montréal Convention liability caps",
-          "To comply with IATA regulations that prohibit individual shippers from booking directly with airlines on international routes exceeding 1,000 kg"
-        ],
-        "correct": 1,
-        "why": "Consolidation's commercial logic: the forwarder bundles many small HAWBs into one MAWB, appearing as a high-volume shipper to the airline. This earns a lower per-kg buy-rate than any individual shipper could achieve. The sell-rate charged on each HAWB minus the MAWB buy-rate is the forwarder's air freight gross margin — the economic engine of every major freight forwarder's air division.",
-        "deepDive": "Airlines want volume and predictability — large forwarders commit hundreds of thousands of kilograms monthly and receive rates far below general cargo tariffs. Individual shippers with 50-500 kg per shipment lack this leverage; the forwarder aggregates demand. HAWB liability runs between forwarder and shipper; MAWB liability runs between airline and forwarder — two separate legal relationships. The forwarder contracts as principal on the MAWB, not as agent, accepting carrier liability to the shipper. CASS (Cargo Account Settlement Systems) settles MAWB charges between airlines and forwarders on a weekly bilateral cycle. Buy-sell spreads typically run $0.10-$0.60/kg depending on lane, volume, and spot versus contracted rates. Integrators (FedEx, UPS, DHL Express) bypass this structure — they own aircraft and issue only their own waybills."
-      },
-      {
-        "n": 5,
-        "topic": "domain",
-        "subtopic": "ftas",
-        "stem": "Under the EU's enhanced rules of origin for LDC countries like Bangladesh, garments qualify for duty-free access even if fabric is imported from third countries — provided the cut-and-sew stage occurs in Bangladesh. This preferential concession is known as:",
-        "options": [
-          "Cumulation — where the value of inputs sourced from other GSP-beneficiary developing countries counts as originating content alongside Bangladesh's manufacturing",
-          "Single transformation — where one manufacturing stage (cut-and-sew) is sufficient to confer originating status, departing from the standard two-stage rule that requires yarn-to-fabric weaving plus cut-and-sew",
-          "Substantial transformation exemption — a WTO-mandated waiver applied automatically to all LDC exports regardless of input sourcing origin",
-          "Self-certification — where Bangladesh's exporters declare origin on a REX certificate without requiring third-party verification or government endorsement"
-        ],
-        "correct": 1,
-        "why": "Standard EU GSP rules for textiles require double transformation — both the weaving of fabric from yarn AND the cut-and-sew of garments must occur in Bangladesh. For LDC countries, the EU's EBA scheme reduces this to single transformation: cut-and-sew in Bangladesh suffices regardless of fabric origin. This advantage expires on Bangladesh's LDC graduation in November 2026, after which the double-transformation standard reapplies unless Bangladesh qualifies for GSP+ or negotiates cumulation arrangements.",
-        "deepDive": "EU GSP rules for textiles normally require 'double transformation' (yarn-forward): both weaving of fabric AND cutting-and-sewing must occur in the beneficiary country. For LDC countries, EBA reduces this to single transformation — cutting and sewing in Bangladesh suffices regardless of where fabric was woven. Bangladesh's $40B+ RMG sector sends ~60% of exports to the EU; this concession underpins its entire cost model for fabric sourcing from China and Korea. LDC graduation in November 2026 ends EBA eligibility; replacement under standard GSP restores the double-transformation rule. Bangladesh is negotiating cumulation arrangements and GSP+ status to mitigate this. Common misconception: 'cumulation' is a separate mechanism allowing inputs from other GSP-beneficiary countries to count as originating content — a useful but distinct flexibility."
-      },
-      {
-        "n": 6,
-        "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "CRISPR-Cas9 gene editing directs the Cas9 protein to a target DNA sequence using a guide RNA. Once positioned at the target site, Cas9:",
-        "options": [
-          "Methylates the target gene to silence its expression without altering the underlying base-pair sequence — a reversible epigenetic modification",
-          "Makes a precise double-strand break in the DNA, after which the cell's own repair pathways are harnessed to delete, disrupt, or insert genetic material at that site",
-          "Transcribes the target sequence in reverse to produce an antisense RNA strand that blocks translation of the corresponding protein",
-          "Activates endogenous viral integrase enzymes to insert corrective sequences at random locations distributed throughout the genome"
-        ],
-        "correct": 1,
-        "why": "Cas9 is a nuclease — it cuts both strands of DNA at the guide RNA-specified site. Two repair pathways then determine the outcome: error-prone NHEJ (Non-Homologous End Joining) creates small insertions or deletions that disrupt the gene; HDR (Homology-Directed Repair), if a template is supplied, enables precise correction or insertion. CRISPR does not methylate DNA or produce antisense RNA — it cuts, precisely.",
-        "deepDive": "CRISPR-Cas9 was adapted from a bacterial immune system (Streptococcus pyogenes) by Jennifer Doudna and Emmanuelle Charpentier, who shared the 2020 Chemistry Nobel. Mechanism: a ~20 nucleotide guide RNA matches the target sequence; Cas9 scans DNA until it finds both the guide match and an adjacent PAM sequence (NGG), then cleaves both strands. NHEJ repair (fast, error-prone) produces insertions or deletions — used for gene knockouts. HDR (slower, template-dependent) enables precise corrections — used in therapeutic applications. Clinical milestone: Casgevy (approved 2023-24) for sickle cell disease is the first approved CRISPR therapy. The technology is also transforming agricultural genetics and conservation biology. Common misconception: CRISPR is not a single molecule — Cas9 is one of many Cas proteins; base editors and prime editors further expand the toolkit beyond cutting."
-      },
-      {
-        "n": 7,
-        "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Franz Kafka's 'The Metamorphosis' (Die Verwandlung, 1915) opens with Gregor Samsa waking to find himself transformed into a giant insect. The most widely accepted critical reading of the transformation is as:",
-        "options": [
-          "A Surrealist dream sequence exploring Freudian repression — the insect representing the id unshackled from social convention and the demands of bourgeois respectability",
-          "An externalisation of Gregor's pre-existing condition: already dehumanised by his role as sole breadwinner, the transformation makes his non-personhood literal and forces his family to confront what he always was to them",
-          "A Gothic horror allegory for contagious disease, in the tradition of Poe — Gregor's transformation as divine punishment for moral failure within the family unit",
-          "A comic satire of Austro-Hungarian bureaucratic literalism, in which Gregor's transformation is treated as a legal-administrative category error the family must resolve through official channels"
-        ],
-        "correct": 1,
-        "why": "Kafka's Gregor was already functionally dehumanised before the transformation: a travelling salesman trapped by debt, family dependence, and a job he hated, with no interiority others acknowledged. The insect externalises what was already true — and the story's arc tracks his family's liberation from moral obligation as his economic value disappears. When Gregor dies, the family experiences relief.",
-        "deepDive": "Kafka wrote The Metamorphosis in 1912 (published 1915), drawing on his own alienation from family and from crushing clerical work at an insurance company. The horror is social, not supernatural: no one in the story tries to save Gregor once he cannot work. His sister, initially caring, eventually declares 'this is not our Gregor.' The father wounds him with thrown apples. Kafka explicitly left the insect species unnamed — 'Ungeziefer' means only 'vermin' — refusing to reduce the horror to something concrete. The novella inaugurated 'Kafkaesque' as a descriptor for institutional dehumanisation. Kafka found it too sentimental; he considered The Trial his more significant work. Vladimir Nabokov famously lectured on it at Cornell, insisting on a close reading of the insect's physical impossibilities as deliberate narrative devices."
-      },
-      {
-        "n": 8,
-        "topic": "gk",
-        "subtopic": "music",
-        "stem": "Bebop, which emerged in the early 1940s in New York (Charlie Parker, Dizzy Gillespie, Thelonious Monk), broke deliberately from Swing-era jazz by:",
-        "options": [
-          "Emphasising collective improvisation by all band members simultaneously, removing the solo spotlight to return jazz to its New Orleans communal roots",
-          "Slowing tempos and simplifying harmonies to make jazz accessible to non-musician audiences after the perceived complexity of big-band Swing arrangements",
-          "Using fast tempos, complex chord substitutions, and virtuosic improvisation that made dancing impractical — deliberately repositioning jazz as an art music rather than commercial entertainment",
-          "Incorporating electronic amplification and Indian raga scales, anticipating Miles Davis's In a Silent Way fusion experiments by more than two decades"
-        ],
-        "correct": 2,
-        "why": "Bebop was explicitly anti-commercial: breakneck tempos, chromatic chord substitutions (tritone substitutions, altered dominants), asymmetric phrase lengths, and a demanding improvisational vocabulary made the music technically inaccessible to dancers and casual listeners. This was intentional — Parker, Gillespie, and Monk wanted jazz recognised as an art form requiring active listening, not background dance music.",
-        "deepDive": "Bebop developed in after-hours jam sessions at Harlem's Minton's Playhouse, where musicians gathered after Swing gigs to play for themselves, not for dancers. Charlie Parker's alto saxophone and Dizzy Gillespie's harmonic vocabulary defined the style: tempos of 200-300+ bpm, ii-V-I progressions with tritone substitutions, bebop scales with chromatic passing tones, and a rhythm section liberated from strict dance timekeeping. Thelonious Monk's angular compositions ('Round Midnight,' 'Straight No Chaser') pushed harmonic ambiguity furthest. The movement was racially charged: Black musicians reclaiming jazz from white Swing bandleaders who had commercialised it. Cool jazz (Miles Davis's Birth of the Cool, 1950) was bebop's direct successor — same harmonic sophistication, deliberately slower and more cerebral. Hard bop followed, reintegrating gospel and blues. Common misconception: bebop was not the first jazz 'revolution' — each era from New Orleans to Chicago to Swing involved similar defining breaks."
-      },
-      {
-        "n": 9,
-        "topic": "gk",
-        "subtopic": "religion",
-        "stem": "Martin Luther's 95 Theses (1517) were specifically a protest against:",
-        "options": [
-          "The Catholic Church's insistence that scripture be read only in Latin, which Luther argued denied ordinary Christians access to God's word and enabled clerical corruption",
-          "The Pope's temporal political authority over the Holy Roman Emperor, which Luther argued violated Augustine's doctrine of the separation of spiritual and secular power",
-          "The sale of indulgences — certificates claimed to reduce time in purgatory for the buyer or their deceased relatives — which Luther argued made God's grace a commercial transaction",
-          "The Catholic doctrine of transubstantiation — the physical transformation of Eucharistic bread and wine into Christ's body and blood — which Luther called philosophically incoherent"
-        ],
-        "correct": 2,
-        "why": "Luther's immediate trigger was Johann Tetzel selling indulgences across Saxony under a papal commission partly funding St. Peter's Basilica. Luther's theological objection: forgiveness of sin is God's gift alone — it cannot be purchased. The 95 Theses were written in Latin as academic propositions for debate, not as popular protest, but the printing press made them viral across Germany within weeks.",
-        "deepDive": "The 95 Theses (Disputatio pro Declaratione Virtutis Indulgentiarum) were academic propositions for debate at Wittenberg University — the dramatic church-door nailing is a retrospective legend. Pope Leo X authorised a major indulgence sale to fund St. Peter's Basilica; Dominican friar Johann Tetzel marketed it with the line 'As soon as the gold in the casket rings, the rescued soul to heaven springs.' Luther's objection evolved from practice to principle: scripture offered no basis for purgatorial remission through cash. The printing press turned an academic document viral across Germany within weeks, achieving what Luther intended as scholarly debate but became political insurgency. Luther's later doctrines — sola scriptura, sola fide, the priesthood of all believers — were theologically more radical than the 95 Theses, which were the spark. The Reformation split Western Christianity permanently and reshaped European political geography for three centuries."
-      },
-      {
-        "n": 10,
-        "topic": "gk",
-        "subtopic": "sport",
-        "stem": "The first official Test cricket match was played in March 1877 between England and Australia in Melbourne — Australia won by 45 runs. Which batsman scored the first-ever century in Test cricket history in that match?",
-        "options": [
-          "W.G. Grace of England, who made 152 in the first innings at the Melbourne Cricket Ground to set the tone for the series",
-          "Charles Bannerman of Australia, who scored 165 retired hurt — the first century in Test history, accounting for 67.3% of his team's entire first-innings total",
-          "James Southerton of England, whose combined 178 runs across both innings established the record for the highest debut Test aggregate",
-          "Billy Murdoch of Australia, who scored 141 not out in the second innings to set up the winning margin of 45 runs"
-        ],
-        "correct": 1,
-        "why": "Charles Bannerman scored 165 retired hurt in Australia's first innings — the first century in Test cricket history. His 165 represented 67.3% of Australia's total of 245 — the highest proportion of a completed innings by any Test centurion. He retired after a ball split his finger; Australia won by 45 runs, beginning a rivalry that predates almost every other international sporting competition.",
-        "deepDive": "The Melbourne Cricket Ground hosted the first Test from 15-19 March 1877 between England (touring) and a Combined Australia XI. Bannerman's 165 retired hurt remains one of cricket's most historically resonant innings: it accounted for 67.3% of Australia's total — the highest percentage of a completed Test innings by any centurion. He retired after a ball from James Lillywhite split his finger; Australia's remaining batsmen added only 80 runs. England needed 154 and were bowled out for 108; Tom Kendall took 7/55. The Centenary Test at MCG in March 1977 — exactly 100 years later — was also won by Australia by exactly 45 runs, an extraordinary coincidence. 'Test cricket' was a retrospective designation; the players had no special name for it at the time. The Ashes name came only in 1882, after England's first home defeat to Australia."
-      }
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
     ]
   }
 }
