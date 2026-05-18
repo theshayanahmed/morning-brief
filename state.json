@@ -1,6 +1,6 @@
 {
   "streak": 0,
-  "last_session_date": "2026-05-17",
+  "last_session_date": "2026-05-18",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -71,7 +71,17 @@
     "The Riemann Hypothesis — one of the seven Millennium Prize Problems — concerns the precise location of non-trivial zeros of which mathematical function?",
     "Which philosopher introduced the 'original position' thought experiment, arguing rational agents behind a 'veil of ignorance' would choose principles protecting the least-advantaged members of society?",
     "Ricardo's theory of comparative advantage implies mutual gains from trade remain possible even when one country has absolute productive superiority in which set of goods?",
-    "The Sykes-Picot Agreement, secretly signed on 16 May 1916 — exactly 110 years ago — divided which geographic territory into British and French spheres of influence?"
+    "The Sykes-Picot Agreement, secretly signed on 16 May 1916 — exactly 110 years ago — divided which geographic territory into British and French spheres of influence?",
+    "In container logistics, a 'CFS/CFS' movement means the cargo:",
+    "The 'Middle Corridor' (Trans-Caspian International Transport Route) has gained strategic relevance since 2022 primarily because it:",
+    "Under the York-Antwerp Rules governing General Average, a cargo owner's obligation to contribute arises only when the sacrifice or expenditure was:",
+    "The UFLPA (Uyghur Forced Labour Prevention Act, 2022) creates a 'rebuttable presumption' for Xinjiang-origin goods. In practice, importers facing a USCBP hold must:",
+    "The Xeneta XSI (Xeneta Shipping Index) differs from spot indices like the SCFI or Drewry WCI primarily because it:",
+    "The Zagros Mountains (~1,500 km, northwest to southeast) form the natural boundary between the Iranian Plateau and which geographic region?",
+    "The Carnot efficiency formula (maximum efficiency = 1 − T_cold/T_hot) requires temperatures expressed in:",
+    "Satyajit Ray's Apu Trilogy (Pather Panchali, Aparajito, Apur Sansar, 1955-59) is primarily celebrated for which filmmaking quality?",
+    "The distinction between 'langue' and 'parole', foundational to structural linguistics, was introduced by which thinker and captures which difference?",
+    "The Duckworth-Lewis-Stern (DLS) method recalculates rain-affected limited-overs targets. Its core principle defines a batting team's remaining 'resources' as:"
   ],
   "learn_history": [
     {
@@ -113,6 +123,11 @@
       "date": "2026-05-17",
       "topic": "The Meiji Restoration (1868–1912): Asia's Original Blueprint for State-Directed Industrialization",
       "bucket": "history"
+    },
+    {
+      "date": "2026-05-18",
+      "topic": "Transshipment Hubs: The Hub-and-Spoke Engine of Container Shipping",
+      "bucket": "industry_deep_dive"
     }
   ],
   "curriculum_progress": {
@@ -171,15 +186,15 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 1,
-      "last_seen": "2026-05-14",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-18",
+      "difficulty": 2,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 1,
-      "last_seen": "2026-05-14",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-18",
+      "difficulty": 2,
       "rolling_score": []
     },
     "ftas": {
@@ -189,21 +204,21 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 1,
-      "last_seen": "2026-05-14",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-18",
+      "difficulty": 2,
       "rolling_score": []
     },
     "compliance": {
-      "count": 1,
-      "last_seen": "2026-05-14",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-18",
+      "difficulty": 2,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 1,
-      "last_seen": "2026-05-14",
-      "difficulty": 1,
+      "count": 2,
+      "last_seen": "2026-05-18",
+      "difficulty": 2,
       "rolling_score": []
     },
     "aircraft_carriers": {
@@ -245,15 +260,15 @@
       "rolling_score": []
     },
     "geography": {
-      "count": 2,
-      "last_seen": "2026-05-15",
-      "difficulty": 1,
+      "count": 3,
+      "last_seen": "2026-05-18",
+      "difficulty": 2,
       "rolling_score": []
     },
     "physical_science": {
-      "count": 2,
-      "last_seen": "2026-05-15",
-      "difficulty": 1,
+      "count": 3,
+      "last_seen": "2026-05-18",
+      "difficulty": 2,
       "rolling_score": []
     },
     "life_science": {
@@ -275,9 +290,9 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 2,
-      "last_seen": "2026-05-15",
-      "difficulty": 1,
+      "count": 3,
+      "last_seen": "2026-05-18",
+      "difficulty": 2,
       "rolling_score": []
     },
     "music": {
@@ -305,15 +320,15 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 2,
-      "last_seen": "2026-05-15",
-      "difficulty": 1,
+      "count": 3,
+      "last_seen": "2026-05-18",
+      "difficulty": 3,
       "rolling_score": []
     },
     "sport": {
-      "count": 2,
-      "last_seen": "2026-05-16",
-      "difficulty": 2,
+      "count": 3,
+      "last_seen": "2026-05-18",
+      "difficulty": 3,
       "rolling_score": []
     },
     "pop_culture": {
@@ -325,7 +340,7 @@
   },
   "history": [],
   "today": {
-    "date": "2026-05-17",
+    "date": "2026-05-18",
     "current_q": 1,
     "answers": [],
     "questions": [
