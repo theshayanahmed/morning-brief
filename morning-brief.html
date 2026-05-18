@@ -364,43 +364,61 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  "date": "2026-05-17",
-  "dateLabel": "Sunday · 17 May 2026",
-  "editionLabel": "Edition · Sunday 17 May",
-  "headline": "Beijing summit yields meagre haul as tariffs go unmentioned; Hormuz blockade holds with 1,550 ships stranded; freight rates spike 12%; Anthropic crosses $30B run-rate as Pentagon bans its AI.",
+  "date": "2026-05-18",
+  "dateLabel": "Monday · 18 May 2026",
+  "editionLabel": "Edition · Monday 18 May",
+  "headline": "Trump-Xi summit yields 200 Boeing jets but no joint statement; Iran MOU nears; Cerebras IPO soars 68%.",
   "sections": [
     {
       "title": "Macro · Geopolitics · Politics",
       "items": [
         {
-          "lead": "Trump-Xi Beijing: 200 Boeings, no tariff deal.",
-          "body": "Two-day summit produced a 200-jet Boeing order and vague trade councils — but tariffs 'barely discussed.' Xi warned Taiwan could spark conflict. Analysts call it a stabilization, not a breakthrough.",
-          "src": { "name": "CFR / CNN", "url": "https://www.cfr.org/articles/trump-wraps-china-visit" }
+          "lead": "Trump-Xi Beijing summit ends without joint statement.",
+          "body": "Conflicting narratives: China says tariffs cut, Trump says 'not discussed.' China orders 200 Boeing jets. US-China 30%/10% tariff truce entered effect May 14; grand breakthrough elusive, fragile stabilisation preserved.",
+          "src": {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/15/trump-xi-summit-the-3-big-takeaways-from-historic-meeting-in-beijing.html"
+          }
         },
         {
-          "lead": "US-Iran ceasefire on 'massive life support.'",
-          "body": "Trump rejected Tehran's May 11 counterproposal as 'TOTALLY UNACCEPTABLE.' One-page MOU framework — war-end declaration, Hormuz, nuclear — now stalled. Pakistan actively mediating.",
-          "src": { "name": "Axios / Al Jazeera", "url": "https://www.axios.com/2026/05/06/iran-us-deal-one-page-memo" }
+          "lead": "EU given July 4 ultimatum on trade deal.",
+          "body": "Trump extended 50% tariff threat from June 1 to July 4 after call with von der Leyen, who cited 'good progress.' UK-US deal remains the only fully cemented bilateral arrangement among Trump's global push.",
+          "src": {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/08/trump-tariffs-trade-eu-europe-deal.html"
+          }
         },
         {
-          "lead": "Hormuz: US naval blockade diverts 62 vessels, 1,550 ships stranded.",
-          "body": "Strait effectively closed since Feb 28. Four Iranian tankers physically disabled. VLCC spot rates peaked at $800k/day. Brent crude above $90/barrel. No reopening timeline in sight.",
-          "src": { "name": "Wikipedia / Maritime Executive", "url": "https://en.wikipedia.org/wiki/2026_United_States_naval_blockade_of_Iran" }
+          "lead": "US-Iran closing in on one-page war-ending MOU.",
+          "body": "Framework would commit Iran to a 12-15 year uranium enrichment moratorium with IAEA snap inspections, in exchange for sanctions relief and reopening the Strait of Hormuz to normal transit.",
+          "src": {
+            "name": "Axios",
+            "url": "https://www.axios.com/2026/05/06/iran-us-deal-one-page-memo"
+          }
         },
         {
-          "lead": "Chip rally pauses: Philly Semi Index still +64% from March.",
-          "body": "A hotter-than-expected May 15 CPI print triggered a tech/chip selloff — NVIDIA, AMD, TSMC, Broadcom all declined. The Philadelphia Semiconductor Index remains up roughly 64% from late-March lows.",
-          "src": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-amd-leads-chip-stock-150611712.html" }
+          "lead": "Modi's BJP wins West Bengal for the first time.",
+          "body": "Along with Assam, BJP's May state sweep cements national dominance. First BJP majority in West Bengal — Bangladesh's immediate western neighbour — marks a historic regional political shift.",
+          "src": {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/05/modi-wins-in-west-bengal-for-the-first-time.html"
+          }
         },
         {
-          "lead": "Israel-Hezbollah ceasefire extended, strikes continue.",
-          "body": "The April 23 ceasefire extension (through May 17) holds nominally while Israel has maintained near-daily strikes. Ongoing fragility sustains the Middle East risk premium across energy markets.",
-          "src": { "name": "ZeroFox / Enterprise Bank", "url": "https://www.enterprisebank.com/insights/geopolitical-update-may-2026" }
+          "lead": "Moody's cuts India 2026 GDP forecast to 6%.",
+          "body": "Sluggish private capex and elevated Middle East energy costs cited. SBI projects 6.6% for FY2026-27; World Bank had estimated 7.6% for FY25-26 — a real deceleration underway.",
+          "src": {
+            "name": "Upstox/Moody's",
+            "url": "https://upstox.com/news/business-news/economy/moody-s-slashes-india-s-2026-gdp-growth-forecast-to-6/article-193538/"
+          }
         },
         {
-          "lead": "Colombia: armed-group attacks escalate ahead of May 31 polls.",
-          "body": "Violence surging in southwestern Colombia a month before presidential elections — adding to Western Hemisphere instability that Trump has made a stated priority for US intervention.",
-          "src": { "name": "ZeroFox Geopolitical Report", "url": "https://www.zerofox.com/intelligence/monthly-geopolitical-report-may-2026/" }
+          "lead": "China Q1 exports to US fall 16%; SE Asia and Africa surge.",
+          "body": "Exports to Southeast Asia +20%, Africa +32% in Q1 2026. Tariff war is visibly accelerating Beijing's trade diversification strategy, re-routing flows that previously ran through the US.",
+          "src": {
+            "name": "PIIE",
+            "url": "https://www.piie.com/blogs/realtime-economics/2026/trump-china-trade-wars-five-takeaways-us-imports-2025"
+          }
         }
       ]
     },
@@ -408,257 +426,289 @@ const TODAY = {
       "title": "Bangladesh & Subcontinent",
       "items": [
         {
-          "lead": "Labour Minister orders Eid bonuses paid by May 21.",
-          "body": "Ariful Haque Chowdhury directed all factory owners to disburse Eid-ul-Azha bonuses by May 21 and clear monthly wages before the holiday. RMG sector compliance will be a bellwether for labour relations.",
-          "src": { "name": "The Daily Star", "url": "https://www.thedailystar.net/todays-news" }
+          "lead": "Bangladesh-US energy MoU signed in Washington (May 15).",
+          "body": "FM Khalilur Rahman and US Energy Secretary Chris Wright signed a strategic energy cooperation agreement facilitating Bangladesh's LNG and LPG imports at competitive prices. Wright called it 'historic' for bilateral ties.",
+          "src": {
+            "name": "Daily Star",
+            "url": "https://www.thedailystar.net/news/environment/natural-resources/energy/news/bangladesh-us-sign-deal-energy-cooperation-4176351"
+          }
         },
         {
-          "lead": "FY27 pre-budget: wealth tax, inheritance tax in the frame.",
-          "body": "NBR is weighing introduction of wealth and inheritance taxes, tighter exemptions, and a raised tax-free income limit. Revenue target set at Tk 6.04 lakh crore for FY27 — 20% higher than the FY26 revised figure.",
-          "src": { "name": "The Daily Star", "url": "https://www.thedailystar.net/business/news/fy27-nbr-mulls-wealth-inheritance-taxes-tighter-exemptions-4140221" }
+          "lead": "Haor floods damage 52,000 hectares of boro rice.",
+          "body": "Heavy upstream flows across 6 districts — Sunamganj, Netrokona, Moulvibazar, Habiganj, Brahmanbaria — affect 200,000 farmers. Boro is 55% of annual rice output; govt pledges 3-month food support for affected households.",
+          "src": {
+            "name": "Daily Star",
+            "url": "https://www.thedailystar.net/business/economy/news/what-it-means-rice-production-and-prices-4165046"
+          }
         },
         {
-          "lead": "Bangladesh now #2 US apparel supplier — but volumes fell.",
-          "body": "Bangladesh overtook China to second position in US apparel imports from February 2026 ($20.37B), a first. But total US apparel imports fell 8.38% YoY as the tariff shock dampened overall volumes.",
-          "src": { "name": "TBS News", "url": "https://www.tbsnews.net/economy/bangladesh-fails-capture-chinas-lost-us-apparel-market-share-despite-tariff-shifts-1435506" }
+          "lead": "NBR sets FY2027 revenue target at Tk 6.04 lakh crore.",
+          "body": "A 20% jump from the current revised target. NBR mulling wealth and inheritance taxes for the first time. Tax-to-GDP target raised to 9.2% from 6.8% — deeply ambitious against chronic underperformance.",
+          "src": {
+            "name": "Daily Star",
+            "url": "https://www.thedailystar.net/news/bangladesh/news/20-percent-higher-revenue-target-next-year-4168716"
+          }
         },
         {
-          "lead": "India-Pakistan: Indus Waters Treaty still suspended at one-year mark.",
-          "body": "One year post-Operation Sindoor ceasefire, India has not reinstated the Indus Waters Treaty. The suspension threatens water supply for 80%+ of Pakistan's agricultural land — a slow-burn pressure on the fragile truce.",
-          "src": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/5/10/two-wins-two-losses-what-india-pakistan-have-learned-a-year-after-war" }
-        },
-        {
-          "lead": "Tata Electronics-ASML partnership: India's first fab-level ASML tie-up.",
-          "body": "Announced May 16: Tata Electronics and ASML signed a strategic partnership to advance India's semiconductor manufacturing ecosystem — marking ASML's first major formal collaboration with an Indian chip manufacturer.",
-          "src": { "name": "ASML", "url": "https://www.asml.com/en" }
+          "lead": "BJP's West Bengal win reshapes Bangladesh's western neighbourhood.",
+          "body": "First-ever BJP majority directly on Bangladesh's border changes the tone on land port negotiations, border fencing, and the Teesta water-sharing talks — now managed by a BJP chief minister in Kolkata.",
+          "src": {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/05/modi-wins-in-west-bengal-for-the-first-time.html"
+          }
         }
       ]
     },
     {
-      "title": "Trade · Freight · Logistics",
+      "title": "Trade & Freight",
       "items": [
         {
-          "lead": "Drewry WCI jumps 12% to $2,553/40ft.",
-          "body": "Shanghai-Genoa +20%, Shanghai-New York +14%. Carriers rolled Emergency Fuel Surcharges (EFS) and Peak Season Surcharges (PSS) simultaneously — shippers absorbing a double surcharge hit entering peak season.",
-          "src": { "name": "Drewry", "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry" }
+          "lead": "Drewry WCI surges 12% to $2,553 for the week of May 14.",
+          "body": "Asia-Europe leads the rally: Shanghai-Genoa +20% to $3,701/40ft, Shanghai-Rotterdam +11% to $2,413. Peak season is starting earlier than usual, driven by cargo front-loading amid Iran-conflict disruption concerns.",
+          "src": {
+            "name": "Drewry",
+            "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+          }
         },
         {
-          "lead": "Hormuz rerouting via Cape adds 10–14 days and heavy fuel cost.",
-          "body": "With 20% of global seaborne oil forced around the Cape of Good Hope, voyage times from Gulf to Europe stretch by 10–14 days. Ship owners benefit; refiners and cargo owners absorb dramatically higher landed costs.",
-          "src": { "name": "Carra Globe", "url": "https://carraglobe.com/strait-of-hormuz-closure-2026/" }
+          "lead": "Carriers declare early peak season; FAK rates up to $4,600.",
+          "body": "CMA CGM, Hapag-Lloyd, MSC set FAK rates at $3,500-$4,500/40ft Asia-North Europe and $4,500-$4,600 for Asia-Mediterranean effective May 15. Yang Ming announces a $2,000 GRI on key trades.",
+          "src": {
+            "name": "Container News",
+            "url": "https://container-news.com/freight-news/"
+          }
         },
         {
-          "lead": "Carriers blanketed ~25% TPEB capacity around May Day.",
-          "body": "Aggressive pre-peak-season blank sailings to defend rates against weak demand. Shippers are withholding bookings anticipating a May rate pullback — a classic carrier-shipper standoff game playing out in real time.",
-          "src": { "name": "The Loadstar", "url": "https://theloadstar.com/blanked-sailings/" }
+          "lead": "US-China tariff truce drives aggressive front-loading out of Asia.",
+          "body": "30%/10% truce entered effect May 14; shippers racing to ship before the 90-day window expires in August. TEU bookings out of China up sharply; port congestion risk rising at North Asian load ports.",
+          "src": {
+            "name": "Supply Chain Dive",
+            "url": "https://www.supplychaindive.com/news/us-china-trade-agreement-tariff-pause/747721/"
+          }
         },
         {
-          "lead": "EU ETS at 100% coverage in 2026 — no more phase-in.",
-          "body": "Every container vessel call at an EU port now triggers full Emissions Trading System liability. Real carbon cost pressure on carriers is intensifying; shippers are challenging opaque surcharge structures as potential margin creep.",
-          "src": { "name": "Seavantage", "url": "https://www.seavantage.com/blog/ocean-freight-market-update-may-2026" }
+          "lead": "Transpacific rates surge: Shanghai-New York +14% to $4,252.",
+          "body": "Peak Season Surcharges and Emergency Fuel Surcharges stacking on base rates. Shanghai-Los Angeles +10% to $3,357/40ft. US West Coast import volumes climbing sharply on front-loading demand.",
+          "src": {
+            "name": "Freightamigo",
+            "url": "https://www.freightamigo.com/en/blog/logistics/gri-shipping-increase-what-importers-and-exporters-need-to-know-in-2026/"
+          }
         },
         {
-          "lead": "Trump appeals Section 122 tariff ruling — importers in limbo.",
-          "body": "The Trump administration filed an appeal (May 8) against a court ruling that would have allowed importers to reclaim the 10% Section 122 tariff. If appeal succeeds, no refunds — adding cost uncertainty to Bangladesh-US apparel flows.",
-          "src": { "name": "FreightRight", "url": "https://www.freightright.com/news/blank-sailings-and-rollovers-dominate-may-freight-market-tfx-update-wk-may-4-2026" }
-        },
-        {
-          "lead": "US intermodal surging as diesel prices hit trucking.",
-          "body": "High diesel, tighter truckload capacity, and new regulations are pushing US shippers toward rail intermodal. Mexico nearshoring is layering additional cross-border intermodal volume on already-squeezed infrastructure.",
-          "src": { "name": "C.H. Robinson", "url": "https://www.chrobinson.com/en-us/resources/insights-and-advisories/north-america-freight-insights/may-2026-freight-market-update/" }
+          "lead": "Hormuz watch sustains Cape routing premium on Asia-Europe.",
+          "body": "Ongoing US-Iran conflict keeps most mainlane carriers on the Cape of Good Hope routing — adding 10-14 days vs Suez. The diversion absorbs meaningful tonnage capacity, supporting rates despite structural overcapacity headwinds.",
+          "src": {
+            "name": "Lloyd's List",
+            "url": "https://www.lloydslist.com/LL1154942/The-rise-and-fall-of-container-spot-rates--and-what-it-means-for-2026"
+          }
         }
       ]
     },
     {
-      "title": "Semis · AI · Tech",
+      "title": "Semis & AI",
       "items": [
         {
-          "lead": "Broadcom: $8.4B AI semi revenue in Q1, guiding Q2 to $10.7B.",
-          "body": "CEO Hock Tan set a $100B AI sales target by FY2027. Broadcom's custom ASIC approach — building chips tailored to specific hyperscaler workloads — is proving a structural alternative to NVIDIA's merchant silicon model.",
-          "src": { "name": "247 Wall St.", "url": "https://247wallst.com/investing/2026/05/15/the-ai-chip-rally-is-masking-a-dangerous-truth-half-the-sp-500-is-being-left-behind/" }
+          "lead": "Cerebras (CBRS) soars 68% on Nasdaq debut to $95B market cap.",
+          "body": "Largest US tech IPO since Uber raised $5.55B at $185/share; closed May 14 at $311. The Wafer Scale Engine 3 is built from a full silicon wafer — 57x larger than a GPU. Fell back to $279 on day two.",
+          "src": {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html"
+          }
         },
         {
-          "lead": "Anthropic hits $30B+ run-rate; Pentagon bans its AI.",
-          "body": "Anthropic's annualized revenue surpassed $30B (from ~$9B at end-2025). Simultaneously, Trump ordered all federal agencies to stop using Anthropic after it refused to remove AI safety guardrails for autonomous weapons.",
-          "src": { "name": "CNBC / CNN Business", "url": "https://www.cnn.com/2026/05/01/tech/pentagon-ai-anthropic" }
+          "lead": "NVIDIA Q1 FY2027 earnings due Wednesday; $78.8B consensus.",
+          "body": "Wall Street sits $400M above NVIDIA's own $78B guidance midpoint. Key watches: Rubin architecture ramp timeline, China H200 restart volumes, gross margin impact of 15% tariff on China chip sales. Options price a 5-10% move.",
+          "src": {
+            "name": "S&P Global",
+            "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/05/nvidia-earnings-preview-q1-2027"
+          }
         },
         {
-          "lead": "Google debuts TPU 8t and TPU 8i at Cloud Next 2026.",
-          "body": "Two distinct AI processors — TPU 8t (training-optimized) and TPU 8i (inference-optimized) — announced at Google Cloud Next. A direct challenge to NVIDIA and AMD for cloud AI workloads at the infrastructure layer.",
-          "src": { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/sectors/technology/article/google-announces-2-ai-chips-as-competition-with-nvidia-heats-up-120011883.html" }
+          "lead": "China clears 400,000 NVIDIA H200 units for ByteDance, Alibaba, Tencent.",
+          "body": "First major batch approved after Trump-Xi summit; 15% US tariff applies to all China chip sales. Jensen Huang accompanied Trump to Beijing, signalling NVIDIA's strategic positioning in the US-China tech detente.",
+          "src": {
+            "name": "Globe and Mail / Tom's Hardware",
+            "url": "https://www.theglobeandmail.com/business/article-china-security-concerns-nvidia-h20-chips-us-export-ban/"
+          }
         },
         {
-          "lead": "HBM and advanced packaging are now the primary chip bottleneck.",
-          "body": "Deloitte 2026 outlook: even when leading-edge logic capacity exists, High Bandwidth Memory (HBM) supply and advanced packaging throughput cap AI GPU shipments. The 'backend' is now a first-order growth constraint.",
-          "src": { "name": "Deloitte", "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/semiconductor-industry-outlook.html" }
+          "lead": "Google I/O 2026 opens tomorrow; Gemini Omni expected.",
+          "body": "May 19-20 keynote set to reveal Gemini Omni (in-chat video generation), Gemini 3.5 models, Android 17, and Android XR glasses — Google's answer to OpenAI's GPT-5.5 agentic model positioning.",
+          "src": {
+            "name": "Android Central",
+            "url": "https://www.androidcentral.com/phones/live/google-i-o-2026-live-blog-android-17-android-xr-glasses-and-all-the-gemini-ai-news"
+          }
         },
         {
-          "lead": "Tata-ASML tie-up signals India's semiconductor ambition is equipment-real.",
-          "body": "May 16 partnership — beyond policy announcements — marks ASML actually committing to an Indian fab relationship. Combined with CHIPS-equivalent Indian subsidies, India's fab push is gaining tooling-level credibility.",
-          "src": { "name": "ASML / DigiTimes", "url": "https://www.asml.com/en" }
+          "lead": "Microsoft, Google, xAI open frontier AI models to US pre-deployment security testing.",
+          "body": "Commerce Department's CAISI gets early access to assess frontier models for hacking capability, military misuse, and unexpected behaviour — the first formal AI pre-deployment review framework in the US.",
+          "src": {
+            "name": "CNN",
+            "url": "https://www.cnn.com/2026/05/05/tech/microsoft-google-xai-government-test-ai-models"
+          }
         }
       ]
     }
   ],
   "lesson": {
-    "title": "The Meiji Restoration (1868–1912): Asia's Original Blueprint for State-Directed Industrialization",
+    "title": "Transshipment Hubs: The Hub-and-Spoke Engine of Container Shipping",
     "paragraphs": [
-      "In 1868, Japan's Meiji government inherited a feudal, agrarian society closed to the world for 250 years — and within four decades transformed it into Asia's first industrialized nation and a global military power. The mechanism was deliberate state capitalism: the government identified strategic industries (steel, shipbuilding, railways, textiles), built them with public funds, and then sold them to politically-connected private conglomerates called zaibatsu. The Iwakura Mission (1871–73) dispatched government officials to Europe and America with a singular mandate: systematically import institutional best practices in law, education, military organization, and manufacturing. Japan did not just copy technology; it copied entire governance frameworks — and then adapted them.",
-      "The Meiji model compressed roughly two centuries of Western industrialization into four decades. Universal compulsory education was introduced in 1872. A modern conscript army and navy were built within a generation. The 1904–05 Russo-Japanese War — won by Japan — was the first modern war won by a non-Western power over a European empire and sent shockwaves from London to Delhi. The model's shadow reaches deep into the 20th century: South Korea's post-war chaebol system, Singapore's Government-Linked Companies (GLCs), and China's SOE-dominated industrial policy all echo Meiji's core logic — state-guided accumulation, protected domestic markets, and technology transfer as the explicit goal of foreign engagement.",
-      "Why it matters today: Bangladesh's industrial planners, China's semiconductor SOEs (SMIC, YMTC), India's CHIPS-equivalent policies, and the US CHIPS Act are all operating within a Meiji-shaped tradition of state-directed modernization. The current US-China semiconductor rivalry is partly a clash between two competing visions of this legacy. Understanding the Meiji Restoration is prerequisite knowledge for anyone trying to make sense of industrial policy debates — from why Bangladesh protects its RMG sector, to why TSMC is geopolitically indispensable, to why the US is now explicitly playing industrial policy after decades of insisting it never would."
+      "Global container shipping doesn't run point-to-point between every origin and destination — it runs hub-and-spoke. Ultra-large vessels (18,000-24,000 TEU) operate mainlane services calling at 5-8 mega-hubs maximum; smaller feeder vessels redistribute cargo onward. This lets carriers fill enormous ships economically: a 24,000-TEU vessel on Asia-Europe must concentrate cargo from dozens of origins to be viable. Transshipment is the invisible middle step that makes the entire architecture function.",
+      "Three hubs define South Asian cargo corridors. Singapore (PSA, ~37M TEU/year) sits at the Malacca junction — virtually all Asia-Europe traffic passes through or near it. Jebel Ali (DP World, Dubai, ~14M+ TEU) dominates Middle East, Indian Subcontinent, and East Africa redistribution. Colombo (7M+ TEU, JCT/CICT/SAGT terminals) is the fastest-growing South Asian transshipment hub, capturing the bulk of Bangladeshi and Indian cargo flowing to European and American mainlanes. Salalah (Oman) and Tanjung Pelepas (Malaysia) serve as secondary overflow hubs.",
+      "For a logistics operator with Bangladesh exposure, hub dynamics translate directly into operational risk. When Colombo congests — as it did periodically in 2023-24 — connecting vessel cutoffs are missed and transit time blows out 7-14 days, often invisibly until Chittagong departure. Transshipment handling charges ($100-200/TEU at the hub) are a hidden cost embedded in freight structures. Monitoring PSA and DP World berth utilisation data alongside the Drewry WCI closes the loop on supply chain visibility."
     ],
-    "why": "The Meiji Restoration created the template for every Asian development model that followed — understanding it is essential context for making sense of current industrial policy debates from Bangladesh's RMG sector to the US-China chip rivalry."
+    "why": "Hub congestion is the hidden variable in Bangladesh's export lead time. When Colombo or Singapore sneezes, every Chittagong RMG shipment to Europe catches a cold — knowing which hub your cargo transships through, and its real-time berth utilisation, is operational literacy."
   },
   "questions": [
     {
       "n": 1,
       "topic": "industry",
-      "subtopic": "documentation",
-      "stem": "A commercial invoice in international trade simultaneously serves as a demand for payment and which other primary legal function?",
+      "subtopic": "multimodal",
+      "stem": "In container logistics, a 'CFS/CFS' movement means the cargo:",
       "options": [
-        "Establishing vessel charter party terms",
-        "Declaring goods value for customs duty assessment",
-        "Acting as a negotiable title document to cargo",
-        "Authorizing port discharge of the shipment"
+        "Is consolidated at origin CFS and deconsolidated at destination CFS — the standard LCL model",
+        "Moves door-to-door without any terminal stuffing or destuffing at either end",
+        "Is handed to the carrier at origin port CY and delivered to the consignee's door",
+        "Travels under a combined transport B/L from an inland depot to a destination CY"
       ],
-      "correct": 1,
-      "why": "Customs authorities globally use the commercial invoice as the primary document to assess CIF value and calculate applicable import duties.",
-      "deepDive": "The commercial invoice predates modern shipping by centuries. In international trade it simultaneously functions as a billing instrument (seller demands payment), a customs declaration (government assesses duties on declared CIF value), and an evidentiary document in disputes. Unlike a Bill of Lading, it confers no title to goods — the B/L is the document of title. Common pitfalls: undervaluing invoices to reduce duties constitutes fraud with severe penalties; description mismatches against HS codes trigger physical inspection; currency inconsistencies cause Letter of Credit discrepancies. Certain markets (Egypt, Saudi Arabia) require legalized or apostilled invoices. For Bangladesh RMG exports, accurate commercial invoices are critical — the 19% US reciprocal tariff and any anti-dumping duties are assessed against declared values, making even minor inconsistencies commercially costly."
+      "correct": 0,
+      "why": "CFS/CFS means container freight station handling at both ends — cargo is consolidated into a container by the carrier at origin and deconsolidated at destination, the default LCL flow.",
+      "deepDive": "The four standard container movement types: CY/CY (FCL, shipper stuffs own container at origin and carrier delivers to destination CY — most common for FCL), CFS/CFS (LCL, carrier consolidates at origin freight station and deconsolidates at destination — the default for small shipments), CY/CFS (shipper stuffs at origin, carrier deconsolidates at destination — buyer's consolidation), and CFS/CY (carrier stuffs at origin, shipper deconsolidates — seller's consolidation). In Bangladesh, most SME garment exporters use CFS/CFS for samples or partial shipments to European buyers. The CFS operator charges separate handling fees on top of ocean freight. Knowing the movement type determines who controls the container and who bears risk at the stuffing and destuffing stages."
     },
     {
       "n": 2,
       "topic": "industry",
-      "subtopic": "customs",
-      "stem": "Under the Harmonized System (HS), which international body maintains the global HS nomenclature and issues formal updates every five years?",
+      "subtopic": "trade_lanes",
+      "stem": "The 'Middle Corridor' (Trans-Caspian International Transport Route) has gained strategic relevance since 2022 primarily because it:",
       "options": [
-        "WTO Secretariat in Geneva",
-        "World Customs Organization (WCO)",
-        "UNCTAD Trade Facilitation Division",
-        "IMF Trade Statistics Department"
+        "Replaced the BRI northern route after Chinese state railway losses on Russian routing",
+        "Bypasses Russia via Turkey/Georgia and the Caspian Sea to China, avoiding Western sanctions exposure",
+        "Provides India a shorter route to Europe via Iran and Turkey, avoiding Suez",
+        "Is a subregional Caspian shortcut used mainly for Central Asian bulk commodities"
       ],
       "correct": 1,
-      "why": "The WCO administers the HS Convention, publishes the Explanatory Notes, and issues each five-year nomenclature revision — the WTO only references HS codes in tariff schedules.",
-      "deepDive": "The Harmonized System (created 1988, managed by the WCO in Brussels) assigns 6-digit codes to every traded product and is used by 200+ countries covering 98% of world merchandise trade. Countries append national digits (8–10 total) for specific tariff lines. Updates occur every 5 years — HS 2022 is the current edition. Misclassification carries severe consequences: duty underpayment penalties, shipment holds, and potential fraud exposure. The WTO does not set HS codes — it references them in members' tariff schedules, but the WCO owns the nomenclature itself. Bangladesh's NBR uses HS codes to determine customs duty, VAT, and supplementary duty simultaneously, making accurate classification commercially essential. The WCO's Explanatory Notes are the authoritative interpretation guide when two headings appear applicable."
+      "why": "The Middle Corridor runs Turkey/Georgia to China via the Caspian, gaining volume rapidly after Russia sanctions made the northern BRI rail route commercially and legally risky for Western-linked cargo.",
+      "deepDive": "The Trans-Caspian International Transport Route (TITR) links China to Europe via Kazakhstan, the Caspian Sea (Aktau/Kuryk to Baku), Georgia, and Turkey. Before 2022, dominant China-Europe rail ran through Russia via Brest/Malaszewicze. After G7 sanctions on Russia, European shippers and Chinese exporters diverted to avoid secondary sanctions exposure. Transit time is competitive at 18-22 days versus 20-25 for the northern route, but capacity is constrained by Caspian port bottlenecks and railway gauge changes at the Azerbaijan-Georgia border. Container volumes on the Middle Corridor roughly tripled between 2021 and 2024. For South Asian exporters, the corridor matters as an indicator of Central Asian connectivity trends and potential overland options connecting to Europe."
     },
     {
       "n": 3,
       "topic": "industry",
-      "subtopic": "vessels",
-      "stem": "A VLCC (Very Large Crude Carrier) cannot transit the Suez Canal when fully laden. What approximate deadweight tonnage (DWT) range defines a VLCC?",
+      "subtopic": "marine_insurance",
+      "stem": "Under the York-Antwerp Rules governing General Average, a cargo owner's obligation to contribute arises only when the sacrifice or expenditure was:",
       "options": [
-        "80,000–120,000 DWT",
-        "120,000–200,000 DWT",
-        "200,000–320,000 DWT",
-        "400,000+ DWT"
+        "Voluntary, extraordinary, and made for the common safety of the entire maritime adventure",
+        "Caused by a named peril explicitly listed under Institute Cargo Clauses B",
+        "Incurred within territorial waters where the flag state's P&I rules apply",
+        "Declared by the shipowner within 72 hours under ISM Code incident obligations"
       ],
-      "correct": 2,
-      "why": "VLCCs range 200,000–320,000 DWT, well exceeding the Suezmax limit (~200,000 DWT), requiring Cape of Good Hope routing when fully laden.",
-      "deepDive": "The tanker size hierarchy determines trade economics fundamentally. Suezmax (120,000–200,000 DWT, max 74.7m beam) is the largest vessel transiting Suez fully laden. VLCCs (200,000–320,000 DWT) and ULCCs (320,000+ DWT) must route via Cape of Good Hope or use ship-to-ship (STS) transfers to lighter-draught vessels. During the 2026 Hormuz crisis, VLCC rates peaked at $800,000 per day — extraordinary versus the typical $40,000–80,000 market rate. Scale: approximately 17–18 million barrels of crude transit Hormuz daily, virtually all aboard VLCCs — why this chokepoint is irreplaceable for Gulf exporters. Critical distinction: crude tankers (VLCC, Suezmax, Aframax) carry unrefined oil; product tankers (MR, LR1, LR2) carry refined fuels — separate markets with different rate dynamics. Understanding vessel classes is prerequisite for understanding why specific chokepoints carry outsized geopolitical weight."
+      "correct": 0,
+      "why": "General Average requires the act to be voluntary, extraordinary, and made for the common safety — the three elements distinguishing GA from routine expenses or ordinary insured losses.",
+      "deepDive": "General Average is a principle of maritime law dating to ancient Rhodian sea law: if cargo is deliberately jettisoned or the ship incurs extraordinary expense to save the voyage, all parties (shipowner and all cargo owners) share the loss proportionally to the value of property saved. The York-Antwerp Rules (last revised 2016) codify this internationally. In practice, the ship's master declares GA; a Lloyd's Average Adjuster is appointed; cargo must post a GA bond and sometimes a cash deposit before release — even if the cargo itself is undamaged. Institute Cargo Clauses A policies cover GA contributions automatically; Clauses B and C may not. This practical difference matters more than the abstract perils list when a vessel runs into trouble."
     },
     {
       "n": 4,
       "topic": "industry",
-      "subtopic": "port_ops",
-      "stem": "Which metric best enables apples-to-apples productivity comparison between container ports of very different annual throughput sizes?",
+      "subtopic": "compliance",
+      "stem": "The UFLPA (Uyghur Forced Labour Prevention Act, 2022) creates a 'rebuttable presumption' for Xinjiang-origin goods. In practice, importers facing a USCBP hold must:",
       "options": [
-        "Annual TEU throughput capacity",
-        "Moves per crane hour (MPCH)",
-        "Average ship turnaround time in days",
-        "Number of active berths in operation"
+        "Pay a 25% compensatory tariff on CIF value of Xinjiang-origin goods to secure release",
+        "Provide clear and convincing evidence that goods were not produced with forced labour",
+        "Obtain pre-shipment certification from the ILO or a qualified third-party social auditor",
+        "Route goods through a bonded FTZ for additional USCBP inspection before release"
       ],
       "correct": 1,
-      "why": "MPCH isolates crane efficiency independently of port size or throughput volume — the standard cross-port productivity benchmark globally.",
-      "deepDive": "Container port productivity requires multiple metrics. Annual TEU throughput indicates scale (Shanghai: 49M+ TEU/year) but not efficiency. Moves per crane hour (MPCH) isolates ship-to-shore crane productivity: world-class ports achieve 30–35 MPCH while many developing-country ports operate at 15–22 MPCH. Chittagong historically operates around 18–22 MPCH, a key contributor to vessel queuing and detention costs. Ship turnaround time is an outcome metric affected by documentation, customs clearance, labor availability, and equipment — useful for shippers but it doesn't isolate operational efficiency specifically. For logistics operators, MPCH directly affects vessel detention costs, schedule reliability, and inventory planning for clients. The global benchmarks are Shanghai, Singapore PSA, and Rotterdam — each publishing MPCH data as a transparency and competitiveness signal. Low MPCH forces carriers to budget extra berth time, which increases port call costs and can cause service loops to drop that port."
+      "why": "The UFLPA reverses the normal customs burden of proof — the importer must prove goods are free of forced labour to a 'clear and convincing' standard, rather than CBP proving the violation.",
+      "deepDive": "Enacted June 2022, UFLPA created an extraordinary trade tool: goods wholly or partly produced in Xinjiang are presumed to involve forced labour and excluded from US import unless the importer can rebut this. Clear and convincing evidence requires full supply chain traceability to raw material level. Xinjiang cotton, polysilicon, and tomatoes are the three highest-risk categories. For Bangladesh's RMG exporters, the exposure is indirect but real: if yarn or fabric contains Xinjiang cotton channelled through Chinese spinners, USCBP can detain the finished garment at US ports. This has driven demand for Better Cotton Initiative certification and non-Xinjiang traceability documentation throughout Bangladeshi garment supply chains. The enforcement list (the UFLPA Entity List) grows regularly."
     },
     {
       "n": 5,
       "topic": "industry",
-      "subtopic": "liner_alliances",
-      "stem": "Following Hapag-Lloyd's exit to form the Gemini Cooperation with Maersk in January 2025, which carrier grouping rebranded as the 'Premier Alliance'?",
+      "subtopic": "industry_econ",
+      "stem": "The Xeneta XSI (Xeneta Shipping Index) differs from spot indices like the SCFI or Drewry WCI primarily because it:",
       "options": [
-        "Remaining THE Alliance members: ONE, Yang Ming, HMM",
-        "Ocean Alliance: CMA CGM, COSCO, Evergreen, OOCL",
-        "HMM's independent digital network bloc",
-        "Zim's technology partnership vessel-sharing bloc"
+        "Tracks bulk dry cargo rates rather than containerised spot prices",
+        "Measures actual long-term contracted rates across thousands of shipper-carrier agreements, not spot",
+        "Is a weekly Norwegian research index covering only Europe-Asia and transatlantic trades",
+        "Aggregates the SCFI, WCI, and FBX into a single composite index of indices"
       ],
-      "correct": 0,
-      "why": "THE Alliance's remaining members — ONE, Yang Ming, HMM — rebranded as the Premier Alliance after Hapag-Lloyd's departure to join Maersk's Gemini Cooperation.",
-      "deepDive": "The liner alliance landscape reshuffled dramatically in 2024–25. The old three-alliance structure (2M: Maersk+MSC; Ocean: CMA CGM+COSCO+Evergreen+OOCL; THE: Hapag+ONE+Yang Ming+HMM) fractured. MSC went fully independent with its own global network. Maersk and Hapag-Lloyd formed Gemini Cooperation (effective January 2025), targeting 90%+ schedule reliability through a disciplined hub-and-spoke model — explicitly departing from the megaship-everywhere approach. THE Alliance's remaining members rebranded as Premier Alliance. Ocean Alliance (CMA CGM-led) largely retained its structure. These alliances determine which vessels serve which ports, what blank sailings occur, and who controls transhipment capacity. For Bangladesh shippers, alliance composition explains why certain services get cut from Chittagong first during blank sailing seasons — ports served by only one alliance have far less scheduling optionality than multi-alliance ports."
+      "correct": 1,
+      "why": "Xeneta's distinguishing feature is contract-rate transparency: it aggregates actual tender rates from thousands of BCOs globally, revealing the contracted market that spot indices completely miss.",
+      "deepDive": "Freight indices divide into spot (SCFI, WCI/Drewry, FBX/Freightos, CCFI — reflecting today's booking price) and contract (Xeneta XSI, Freightos FBX-C — reflecting rates in 3-12 month signed service agreements). The gap between these two layers matters strategically: in 2021-22, spot hit $15,000+/40ft while large BCOs locked in at $2,000 contract rates captured enormous advantage. In 2023, spot collapsed while contract rates held briefly, reversing the dynamic. Xeneta aggregates actual tender data from BCOs globally, giving shippers and forwarders visibility into the contracted market that spot indices miss entirely. For a commercial team at a logistics company, comparing Xeneta contract benchmarks against current WCI spot rates indicates whether contracted rates are above or below market — directly informing renewal timing and carrier negotiation strategy."
     },
     {
       "n": 6,
       "topic": "gk",
-      "subtopic": "pop_culture",
-      "stem": "Which 2023 animated film became the fastest to cross $1 billion globally, and dethroned Detective Pikachu as the highest-grossing video game adaptation of all time?",
+      "subtopic": "geography",
+      "stem": "The Zagros Mountains (~1,500 km, northwest to southeast) form the natural boundary between the Iranian Plateau and which geographic region?",
       "options": [
-        "The Super Mario Bros. Movie",
-        "Spider-Man: Across the Spider-Verse",
-        "Elemental",
-        "Puss in Boots: The Last Wish"
+        "The Anatolian Plateau of Turkey",
+        "The Mesopotamian lowlands of Iraq",
+        "The Arabian Peninsula desert interior",
+        "The Hindu Kush range of Afghanistan"
       ],
-      "correct": 0,
-      "why": "The Super Mario Bros. Movie (April 2023) crossed $1B faster than any previous animated film and finished at $1.36B worldwide — overtaking Detective Pikachu as the top video game adaptation.",
-      "deepDive": "The Super Mario Bros. Movie (Universal/Illumination, April 2023) earned $1.36 billion worldwide, becoming the highest-grossing video game adaptation and the second-highest-grossing animated film of its time. Nintendo's strategic IP control — rejecting adaptation attempts for decades after the disastrous 1993 live-action film — created pent-up demand combining genuine brand nostalgia with first-time exposure for younger audiences. Research showed strong engagement in Asian markets among viewers with no personal nostalgia for the games, disproving the pure-nostalgia theory of franchise adaptation. The film's success triggered a wave: Nintendo announced Zelda and other IP film projects; gaming companies globally accelerated cinematic adaptation strategies. Pop culture lesson: franchises with multigenerational brand equity and disciplined long-term IP control can generate cultural events rather than just movie releases. Common misconception: animated films are assumed to have modest opening weekends — Mario's record shattered that assumption entirely."
+      "correct": 1,
+      "why": "The Zagros' western escarpment drops sharply into the Tigris-Euphrates Mesopotamian lowlands of modern Iraq — one of Earth's most dramatic elevation transitions.",
+      "deepDive": "The Zagros range is Iran's dominant western feature, rising abruptly from the flat Mesopotamian plain to peaks above 4,000 metres. It runs from the Turkey-Iraq-Iran tripoint northwest down to the Strait of Hormuz region. Historically it marked the eastern frontier of Mesopotamian civilisations — Sumerian, Babylonian, Assyrian — and later divided the Ottoman Empire from Safavid Persia. The Kurdistan Region of northern Iraq lies along its western foothills. Geologically, the Zagros is a fold-and-thrust belt formed by the collision of the Arabian Plate with Eurasia — the same tectonic event that, further east, produced the Himalayas. The Khuzestan plains at the mountain's foot are Iran's primary oil-producing region, making the Zagros both a historical and contemporary strategic divide."
     },
     {
       "n": 7,
       "topic": "gk",
-      "subtopic": "mathematics",
-      "stem": "The Riemann Hypothesis — one of the seven Millennium Prize Problems — concerns the precise location of non-trivial zeros of which mathematical function?",
+      "subtopic": "physical_science",
+      "stem": "The Carnot efficiency formula (maximum efficiency = 1 − T_cold/T_hot) requires temperatures expressed in:",
       "options": [
-        "Euler's totient function φ(n)",
-        "The Riemann zeta function ζ(s)",
-        "Dirichlet's L-function series",
-        "Gauss's prime-counting function π(x)"
+        "Kelvin — absolute temperature where 0 K equals absolute zero",
+        "Celsius — because the formula was derived from water phase transitions",
+        "Fahrenheit — the original Carnot derivation used British thermal units",
+        "Either Kelvin or Celsius, since the ratio is dimensionless and scales only offset by a constant"
       ],
-      "correct": 1,
-      "why": "The Riemann Hypothesis asserts all non-trivial zeros of ζ(s) lie on the 'critical line' where the real part of s equals exactly ½.",
-      "deepDive": "The Riemann zeta function ζ(s) = Σ(1/nˢ) for complex s connects directly to prime number distribution through the Prime Number Theorem. In 1859, Riemann conjectured all non-trivial zeros lie on the critical line (Re(s) = ½), implying primes are distributed as randomly as possible — not clustering unpredictably. A proof would have profound implications for cryptography: RSA encryption depends on the computational difficulty of factoring large primes, and a proof (or disproof) could reshape our understanding of those boundaries. The Clay Mathematics Institute offers $1 million for a solution; over 10 trillion zeros have been computationally verified on the critical line, but no general proof exists after 165+ years. Common misconception: the hypothesis isn't about finding specific large primes but about the statistical distribution pattern of all primes across integers — a subtler and deeper question. Many mathematicians consider it the most important unsolved problem in pure mathematics."
+      "correct": 0,
+      "why": "The Carnot formula requires absolute temperature (Kelvin) because it involves ratios; using Celsius or Fahrenheit — whose zeros are arbitrary — produces incorrect efficiency values.",
+      "deepDive": "Sadi Carnot derived his efficiency theorem in 1824, before absolute temperature was even formalised, showing no heat engine can exceed the efficiency of a reversible cycle between two temperatures. Formalised by Clausius and Kelvin in the 1850s, the formula sets a hard upper bound: a steam turbine between 600 degrees Celsius (873 K) and 50 degrees Celsius (323 K) has maximum Carnot efficiency of roughly 63%; real turbines achieve 40-45% due to friction and heat losses. The Second Law of Thermodynamics — entropy of a closed system always increases — is essentially a generalisation of Carnot's insight. The Kelvin requirement is critical: using a Celsius ratio would give wildly wrong results because Celsius zero is arbitrary, not physically meaningful."
     },
     {
       "n": 8,
       "topic": "gk",
-      "subtopic": "political_theory",
-      "stem": "Which philosopher introduced the 'original position' thought experiment, arguing rational agents behind a 'veil of ignorance' would choose principles protecting the least-advantaged members of society?",
+      "subtopic": "arts",
+      "stem": "Satyajit Ray's Apu Trilogy (Pather Panchali, Aparajito, Apur Sansar, 1955-59) is primarily celebrated for which filmmaking quality?",
       "options": [
-        "Thomas Hobbes",
-        "Jean-Jacques Rousseau",
-        "John Rawls",
-        "Robert Nozick"
+        "Among the first films to use Technicolor outside Hollywood, pioneering colour cinema in Asia",
+        "Neorealist technique: natural lighting, non-professional actors, location shooting depicting rural Bengali life",
+        "Pioneering reverse-chronological narrative structure that later influenced directors like Christopher Nolan",
+        "Shot entirely on 16mm blown up to 35mm, creating a deliberately grainy aesthetic defining Indian parallel cinema"
       ],
-      "correct": 2,
-      "why": "John Rawls's A Theory of Justice (1971) introduced both the 'original position' and 'veil of ignorance' to derive his two principles of justice, including the 'difference principle.'",
-      "deepDive": "John Rawls's A Theory of Justice (1971) is the most influential political philosophy work of the 20th century. His thought experiment: choose societal rules without knowing your race, wealth, talents, gender, or generation. Rawls argued rational, self-interested agents would choose (1) equal basic liberties for all, and (2) social inequalities permitted only if they benefit the least advantaged — the 'difference principle.' This directly challenged utilitarianism (which can justify harming minorities to maximize aggregate welfare) and libertarianism. Robert Nozick's Anarchy, State, and Utopia (1974) was a direct libertarian rebuttal, defending strong property rights and minimal state intervention. The veil of ignorance remains a practical policy tool: apply it to immigration law, progressive taxation, or trade policy, and it forces decision-makers to imagine being on any side of the rule they're designing. Common misconception: Rawls's theory does not require equality of outcomes — it permits substantial inequality, provided the worst-off members genuinely benefit from it."
+      "correct": 1,
+      "why": "Ray's trilogy is celebrated for its neorealist approach — influenced by Italian neorealism and Jean Renoir — using location shooting, natural light, and non-professional leads to depict Apu's world with unprecedented authenticity.",
+      "deepDive": "Pather Panchali (1955) was Ray's debut, partly funded by the West Bengal government after Ray mortgaged his wife's jewellery. Shot over three years on weekends, rejected by Indian distributors, it became an international sensation after screening at MoMA New York. Ray met Jean Renoir while Renoir was shooting The River in Bengal — a direct influence on his naturalistic approach. Ravi Shankar's score elevated the films into total artistic visions. The trilogy follows Apu from village childhood through young adulthood, tracing modernisation's disruption of traditional Bengali life. Ray became the first South Asian filmmaker invited onto the Cannes jury and received an honorary Oscar in 1992, weeks before his death. The rippling pampas grass sequence in Pather Panchali remains one of cinema's most studied compositions."
     },
     {
       "n": 9,
       "topic": "gk",
-      "subtopic": "economics",
-      "stem": "Ricardo's theory of comparative advantage implies mutual gains from trade remain possible even when one country has absolute productive superiority in which set of goods?",
+      "subtopic": "linguistics",
+      "stem": "The distinction between 'langue' and 'parole', foundational to structural linguistics, was introduced by which thinker and captures which difference?",
       "options": [
-        "Only luxury and non-essential goods",
-        "All goods being traded",
-        "Only goods with inelastic consumer demand",
-        "Only tradable services, not manufactured goods"
+        "Noam Chomsky; deep structure (underlying meaning) versus surface structure (actual spoken words)",
+        "Ferdinand de Saussure; the abstract shared language system (langue) versus the individual act of speaking (parole)",
+        "Roman Jakobson; the code (langue) versus the message (parole) in his communication model",
+        "Leonard Bloomfield; phonemic inventory (langue) versus phonetic realisation (parole)"
       ],
       "correct": 1,
-      "why": "Comparative advantage works even when one party has absolute advantage in ALL goods — opportunity cost, not absolute efficiency, determines the basis for mutually beneficial specialization.",
-      "deepDive": "David Ricardo's 1817 insight (On the Principles of Political Economy and Taxation) is economics' most counterintuitive result. Absolute advantage — being better at everything — does not determine whether trade creates value. What matters is opportunity cost: what you forgo to produce one good versus another. Classic example: Portugal is more efficient than England at producing both cloth and wine, but if its comparative advantage is greatest in wine, it gains by specializing in wine and importing cloth. Both countries end up consuming more of both goods than under autarky. This principle underpins the WTO, GATT, and all modern trade agreements. Bangladesh's RMG story is comparative advantage in practice: Bangladesh is not the world's most efficient garment producer in absolute terms, but garment production has the lowest opportunity cost relative to its current skill and capital base. Critics correctly note that comparative advantage assumes full employment, ignores adjustment costs for displaced workers, and doesn't address the distributional consequences — trade may grow aggregate GDP while increasing inequality within countries."
+      "why": "Saussure's langue/parole distinction — published posthumously in Cours de Linguistique Generale (1916) — is the founding move of structural linguistics: separating the language system from its use.",
+      "deepDive": "Saussure never published his theory directly — Cours de Linguistique Generale (1916) was reconstructed by students from lecture notes after his death. Langue is the abstract, collective, shared system of a language: its rules, sounds, and meanings as understood by a speech community. Parole is the individual, concrete act of using that system — what you actually say. This separation enabled linguistics to become a science by defining a stable object of study separate from the endless variation of actual speech. Chomsky later reframed this as competence versus performance and proposed that langue-like deep structures are innate to all humans via Universal Grammar. Jakobson and Levi-Strauss extended Saussurean structuralism into anthropology and literary theory, making the distinction one of the most generative ideas in 20th-century humanities."
     },
     {
       "n": 10,
       "topic": "gk",
-      "subtopic": "history",
-      "stem": "The Sykes-Picot Agreement, secretly signed on 16 May 1916 — exactly 110 years ago — divided which geographic territory into British and French spheres of influence?",
+      "subtopic": "sport",
+      "stem": "The Duckworth-Lewis-Stern (DLS) method recalculates rain-affected limited-overs targets. Its core principle defines a batting team's remaining 'resources' as:",
       "options": [
-        "North Africa: Libya, Tunisia, and Morocco",
-        "The Levant, Mesopotamia, and the Arabian Peninsula",
-        "Anatolia and the Caucasus region",
-        "Central Asia and the Persian heartland"
+        "A combined function of overs remaining and wickets in hand, expressed as a percentage of a full innings",
+        "The average scoring rate in comparable match conditions drawn from a historical database",
+        "Remaining overs divided by required run-rate, adjusted for pitch and weather conditions",
+        "Wickets remaining only, since the over count is fixed by the rain stoppage protocol"
       ],
-      "correct": 1,
-      "why": "Sykes-Picot carved up Ottoman Arab lands — modern Syria, Lebanon, Palestine, Iraq — between Britain and France, largely ignoring existing ethnic and tribal boundaries.",
-      "deepDive": "The Sykes-Picot Agreement (May 16, 1916) was a secret wartime deal between British diplomat Sir Mark Sykes and French diplomat François Georges-Picot, dividing Ottoman Arab territories into post-war spheres. Britain received control over what became Iraq, Jordan, and the Gulf; France received Syria and Lebanon; Palestine was designated for international administration. The deal was exposed by the Bolsheviks in 1917, causing widespread outrage — the British had simultaneously promised Arab leaders an independent Arab state through the Hussein-McMahon Correspondence, a direct contradiction that poisoned Anglo-Arab relations for generations. Sykes-Picot drew borders without reference to ethnic, tribal, or religious boundaries — a structural cause of conflicts from the Iraqi civil war to the Israeli-Palestinian conflict to the Syrian civil war. Common misconception: Sykes-Picot did not directly create today's exact borders — it was significantly modified by the 1920 Treaty of Sèvres and the 1923 Treaty of Lausanne. Its lasting legacy is the betrayal of Arab self-determination it represented, not the precise lines drawn."
+      "correct": 0,
+      "why": "DLS defines resources as a joint function of both overs and wickets remaining — both are simultaneously scarce in limited-overs cricket, and the method models their combined depletion.",
+      "deepDive": "Developed by statisticians Frank Duckworth and Tony Lewis (refined by Steven Stern), DLS replaced the indefensible highest-scoring-overs method that handed South Africa an impossible 22-off-1-ball target against England in the 1992 Cricket World Cup. The insight: a batting team has two resources simultaneously — overs remaining and wickets in hand. The DLS table specifies a resource percentage for every combination (e.g., 20 overs and 10 wickets equals roughly 68.6% of expected innings runs). When rain interrupts, each team's resource percentage is compared and the target adjusted proportionally. Stern recalibrated the tables for modern high-scoring T20 and ODI matches. Bangladesh famously lost the 2014 Asia Cup match to India under a DLS-adjusted target, sparking national controversy over the method's fairness in short matches."
     }
   ]
 };
