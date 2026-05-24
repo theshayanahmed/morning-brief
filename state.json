@@ -1,6 +1,6 @@
 {
   "streak": 0,
-  "last_session_date": "2026-05-23",
+  "last_session_date": "2026-05-24",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -131,7 +131,17 @@
     "The Strait of Malacca narrows to approximately 1.7 nautical miles at Phillip Channel near Singapore. What is the main practical consequence of this for very large crude carriers (VLCCs)?",
     "John Rawls' veil of ignorance in A Theory of Justice (1971) asks people to design society without knowing their place in it. What principle does this thought experiment primarily generate?",
     "The Gini coefficient measures income inequality on a scale from 0 to 1. Which statement is correct?",
-    "The Second Law of Thermodynamics states entropy in a closed system never spontaneously decreases. Which everyday observation most directly illustrates this principle?"
+    "The Second Law of Thermodynamics states entropy in a closed system never spontaneously decreases. Which everyday observation most directly illustrates this principle?",
+    "Under Incoterms 2020 CIF, at which precise moment does risk of loss or damage transfer from seller to buyer?",
+    "A bill of lading issued 'to order of the shipper' is negotiable. Who can legally transfer title to the goods by endorsing this document?",
+    "A carrier quotes an 'all-in' ocean freight rate. Which charge is typically included in an all-in rate but billed separately under a base ocean freight rate?",
+    "International air cargo volumetric weight under standard IATA general cargo rules is calculated using which divisor?",
+    "Under ASEAN's ATIGA free trade agreement, a product qualifies as ASEAN-originating if it meets what minimum Regional Value Content (RVC) threshold?",
+    "CRISPR-Cas9 genome editing uses a guide RNA to direct Cas9 to a target DNA sequence. What does Cas9 do at the target site?",
+    "Cubism, developed by Picasso and Braque in Paris around 1907-1914, broke from traditional painting primarily by doing what?",
+    "Noam Chomsky argued children acquire complex grammar far faster than experience alone could explain. What innate mechanism did he propose?",
+    "In limited-overs cricket, the Duckworth-Lewis-Stern (DLS) method calculates rain-revised targets based on what primary input?",
+    "Which musical interval was historically condemned as 'diabolus in musica' (the devil in music) and largely prohibited in medieval church polyphony?"
   ],
   "learn_history": [
     {
@@ -203,12 +213,17 @@
       "date": "2026-05-23",
       "topic": "The 1973 Oil Embargo: When OPEC Turned Crude into a Geopolitical Weapon",
       "bucket": "history"
+    },
+    {
+      "date": "2026-05-24",
+      "topic": "The Iron Law of Oligarchy: Why Every Organization Drifts Toward Rule by the Few",
+      "bucket": "sociopolitical"
     }
   ],
   "curriculum_progress": {
     "incoterms": {
-      "count": 3,
-      "last_seen": "2026-05-20",
+      "count": 4,
+      "last_seen": "2026-05-24",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -219,8 +234,8 @@
       "rolling_score": []
     },
     "bill_of_lading": {
-      "count": 3,
-      "last_seen": "2026-05-20",
+      "count": 4,
+      "last_seen": "2026-05-24",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -243,8 +258,8 @@
       "rolling_score": []
     },
     "pricing": {
-      "count": 3,
-      "last_seen": "2026-05-20",
+      "count": 4,
+      "last_seen": "2026-05-24",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -255,8 +270,8 @@
       "rolling_score": []
     },
     "air_freight": {
-      "count": 3,
-      "last_seen": "2026-05-20",
+      "count": 4,
+      "last_seen": "2026-05-24",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -273,8 +288,8 @@
       "rolling_score": []
     },
     "ftas": {
-      "count": 3,
-      "last_seen": "2026-05-20",
+      "count": 4,
+      "last_seen": "2026-05-24",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -347,8 +362,8 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 4,
-      "last_seen": "2026-05-21",
+      "count": 5,
+      "last_seen": "2026-05-24",
       "difficulty": 2,
       "rolling_score": []
     },
@@ -365,14 +380,14 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 4,
-      "last_seen": "2026-05-21",
+      "count": 5,
+      "last_seen": "2026-05-24",
       "difficulty": 2,
       "rolling_score": []
     },
     "music": {
-      "count": 4,
-      "last_seen": "2026-05-22",
+      "count": 5,
+      "last_seen": "2026-05-24",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -395,14 +410,14 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 4,
-      "last_seen": "2026-05-21",
+      "count": 5,
+      "last_seen": "2026-05-24",
       "difficulty": 3,
       "rolling_score": []
     },
     "sport": {
-      "count": 4,
-      "last_seen": "2026-05-21",
+      "count": 5,
+      "last_seen": "2026-05-24",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -415,159 +430,59 @@
   },
   "history": [],
   "today": {
-    "date": "2026-05-23",
+    "date": "2026-05-24",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
-        "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "Which airline operates the world's largest dedicated all-cargo fleet, exceeding 680 company-owned freighters as of 2025?",
-        "options": [
-          "FedEx Express",
-          "UPS Airlines",
-          "Cargolux",
-          "Emirates SkyCargo"
-        ],
-        "correct": 0,
-        "why": "FedEx Express operates 680+ aircraft — the world's largest dedicated cargo airline fleet by a wide margin.",
-        "deepDive": "FedEx Express pioneered the hub-and-spoke air cargo model, building its SuperHub in Memphis in 1973. The fleet is dominated by Boeing 777 Freighters for long-haul international routes and older MD-11s and B757s for domestic and regional work. Unlike integrated rivals, FedEx's airline and ground express units are legally distinct entities. The fleet's scale gives FedEx enormous pricing leverage on belly-cargo spot rates and shapes competitors' network decisions. UPS Airlines, the second-largest dedicated cargo carrier, operates roughly 280 aircraft. Cargolux — Europe's largest pure-cargo airline — runs about 30 aircraft. Understanding fleet scale is essential for grasping why the three integrators (FedEx, UPS, DHL) so thoroughly dominate express air freight economics globally."
+        "topic": "domain",
+        "subtopic": "incoterms"
       },
       {
         "n": 2,
-        "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "In standard IATA-benchmarked cargo operations, the typical window from cargo handover to origin terminal through to aircraft departure cut-off for general freight is approximately:",
-        "options": [
-          "2–4 hours (same as express)",
-          "8–12 hours",
-          "24–48 hours",
-          "72 hours minimum"
-        ],
-        "correct": 2,
-        "why": "IATA benchmarks general cargo acceptance at 24–48 hours pre-departure; express can be just 2–6 hours.",
-        "deepDive": "Cargo dwell time — how long freight sits on the ground between truck delivery and aircraft loading — is the single biggest variable in air freight transit time. IATA's Air Cargo Quality & Standards framework benchmarks general cargo cut-off at roughly 24–48 hours before departure, though premium and express consignments can be accepted within 2–6 hours. Longer dwell generates storage charges and risks missed connections. Major cargo gateways like Hong Kong (HKG), Frankfurt (FRA), and Memphis (MEM) invest heavily in automated cargo handling systems to compress dwell times. For forwarders and shippers, managing dwell is critical to honouring lead-time commitments — especially in just-in-time supply chains where an hour's delay can halt a production line."
+        "topic": "domain",
+        "subtopic": "bill_of_lading"
       },
       {
         "n": 3,
-        "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "DSV's ~€14.3B acquisition of DB Schenker (completed 2024) — the largest logistics M&A transaction in history — was sold by which parent organisation?",
-        "options": [
-          "The German federal government (Bund) directly",
-          "Deutsche Bahn AG",
-          "A Lufthansa Cargo-led consortium",
-          "Allianz Private Equity"
-        ],
-        "correct": 1,
-        "why": "Deutsche Bahn AG, the state-owned German railway, sold Schenker to DSV after rejecting a rival bid from CVC Capital.",
-        "deepDive": "The DSV–DB Schenker transaction reshaped global freight forwarding. Deutsche Bahn, Germany's state rail operator, had owned Schenker since 2002 and used the acquisition to build a global logistics network. Growing debt pressures forced a sale; DSV beat rival bidder CVC Capital Partners. The combined entity — with revenue approaching €35–40 billion — challenges Kuehne+Nagel and C.H. Robinson for global leadership. M&A consolidation in freight forwarding is driven by shippers demanding single-partner, multi-modal coverage across 50+ countries. Integration risk is high: IT migrations, culture clashes, and customer overlaps typically cause 12–18 months of service turbulence. Analysts monitor DSV's gross profit per shipment as the key integration health metric post-close."
+        "topic": "domain",
+        "subtopic": "pricing"
       },
       {
         "n": 4,
-        "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "A shipper books an all-in ocean rate from Shanghai to Los Angeles. Which charge is most commonly billed separately at destination — despite the all-in label — generating shipper-carrier disputes?",
-        "options": [
-          "Bunker Adjustment Factor (BAF)",
-          "Destination Delivery Charge (DDC / D-THC)",
-          "War Risk Surcharge (WRS)",
-          "Peak Season Surcharge (PSS)"
-        ],
-        "correct": 1,
-        "why": "DDC (Destination THC) is routinely excluded from all-in quotes and billed separately at destination — the most common source of shipper-carrier disputes.",
-        "deepDive": "The distinction between base rate and all-in rate quoting is one of the most contentious commercial concepts in container shipping. All-in rates should theoretically bundle every surcharge, yet Destination Delivery Charges (DDC) — also called Destination Terminal Handling Charges (D-THC) — are regularly excluded and billed separately by carriers, especially on trans-Pacific trade. DDC covers terminal operations at the discharge port: unloading, yard positioning, and stack moves. On a 40-foot container from Asia to the US East Coast, DDC can add $250–$650. For procurement teams, the discipline is to explicitly confirm DDC inclusion in every quote request in writing. The practice was examined in the US Ocean Shipping Reform Act (OSRA 2022), which gave the FMC broader authority to investigate unreasonable charges — though enforcement remains patchy."
+        "topic": "domain",
+        "subtopic": "air_freight"
       },
       {
         "n": 5,
-        "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "The China-plus-one sourcing strategy is primarily designed to reduce which measurable supply chain risk exposure?",
-        "options": [
-          "Supplier OTIF rate falling below 95% on key SKUs",
-          "Single-country SKU concentration exceeding 50% of total sourced items",
-          "Days of inventory outstanding rising above 60 days",
-          "Carbon emissions from a single-origin sourcing hub"
-        ],
-        "correct": 1,
-        "why": "C+1 targets reducing single-country sourcing concentration below the threshold that creates catastrophic disruption exposure.",
-        "deepDive": "China-plus-one gained urgency after US-China tariff escalation (2018–2025) and COVID factory shutdowns proved that single-country sourcing concentration above roughly 50% of SKUs creates existential disruption risk. When China locked down, entire product categories vanished from global shelves. Primary C+1 destinations are Vietnam (electronics, footwear), India (pharmaceuticals, textiles), Bangladesh (garments), Mexico (automotive, nearshoring), and Indonesia. For logistics planners, C+1 increases complexity — more freight lanes, more documentation, more ports of loading — but reduces systemic fragility. Bangladesh directly benefits from its cost competitiveness and quota-free EU/UK access under GSP. Logistics groups offering multi-country consolidation are structural commercial beneficiaries of the C+1 shift."
+        "topic": "domain",
+        "subtopic": "ftas"
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The 1648 Peace of Westphalia ended the Thirty Years' War. Which foundational principle of modern international relations is it most credited with establishing?",
-        "options": [
-          "Universal human rights supersede national law",
-          "State sovereignty and non-interference in internal affairs",
-          "The right of military conquest to settle territorial disputes",
-          "Collective security through a supranational authority"
-        ],
-        "correct": 1,
-        "why": "Westphalia codified state sovereignty and non-interference — the bedrock of modern international relations theory.",
-        "deepDive": "The Peace of Westphalia (two treaties: Osnabrück and Münster, 1648) ended the Thirty Years' War, which killed roughly 8 million people across Europe. Its enduring legacy is the Westphalian system: states are the primary actors in international relations, sovereign within their borders, with outside powers having no legitimate right to interfere in internal affairs. This ended the universal authority claimed by the Holy Roman Emperor and the Pope. Every UN charter principle, every sovereignty argument made by China on Taiwan or Russia on Ukraine, and every government's resistance to ICC jurisdiction traces to Westphalia. International relations scholars debate whether globalisation, human rights norms, and humanitarian intervention doctrines have already rendered the Westphalian system effectively obsolete."
+        "subtopic": "life_science"
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Strait of Malacca narrows to approximately 1.7 nautical miles at Phillip Channel near Singapore. What is the main practical consequence of this for very large crude carriers (VLCCs)?",
-        "options": [
-          "VLCCs must slow to 5 knots to reduce wake damage to Singapore's shoreline",
-          "VLCCs cannot transit fully laden due to depth constraints, requiring alternative routes",
-          "VLCCs are prohibited by international treaty from entering the strait",
-          "VLCCs must pay a special joint transit fee to Malaysia and Indonesia"
-        ],
-        "correct": 1,
-        "why": "The Malacca Max draft limit (~20.5m) prevents fully laden VLCCs from transiting; they must use Lombok or Sunda Straits.",
-        "deepDive": "The Strait of Malacca, shared by Malaysia, Indonesia, and Singapore, carries roughly 40% of global seaborne trade by volume — around 100,000 vessels per year. At Phillip Channel near Singapore, it narrows to 1.7 nautical miles (3.1 km) and shallows to around 25 metres. This imposes the Malacca Max constraint: a draft limit of approximately 20.5 metres. Fully laden VLCCs draw more than this and must either lighten their cargo before entry or take alternative routes through the Lombok Strait (between Bali and Lombok) or Sunda Strait (between Java and Sumatra), adding roughly 1,000–1,500 nautical miles. Singapore's prosperity is built in part on commanding both shores of the world's most critical maritime chokepoint, generating port, bunkering, and financial service revenues."
+        "subtopic": "arts"
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "John Rawls' veil of ignorance in A Theory of Justice (1971) asks people to design society without knowing their place in it. What principle does this thought experiment primarily generate?",
-        "options": [
-          "Utilitarianism: maximise aggregate happiness regardless of how it is distributed",
-          "The difference principle: inequalities are just only if they benefit the least-advantaged members",
-          "Libertarianism: the state should minimally interfere with individual property rights",
-          "Communitarianism: justice must be grounded in shared cultural and communal values"
-        ],
-        "correct": 1,
-        "why": "Rational actors behind the veil choose the difference principle — inequalities must benefit the worst-off — because they might themselves be the worst-off.",
-        "deepDive": "Rawls' 1971 masterwork challenged utilitarian ethics by arguing that rational individuals designing social rules from behind a veil of ignorance — not knowing their race, gender, wealth, talent, or era — would choose two principles: first, equal basic liberties for all; second, the difference principle, permitting inequality only when it raises the position of society's least-advantaged members. Rawls directly countered both utilitarianism (which can justify harming minorities for majority benefit) and libertarianism — Robert Nozick's Anarchy, State, and Utopia (1974) was a direct philosophical response. Rawlsian theory underpins arguments for progressive taxation, affirmative action, and modern welfare state design. A Theory of Justice remains the most-cited work in 20th-century political philosophy."
+        "subtopic": "linguistics"
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The Gini coefficient measures income inequality on a scale from 0 to 1. Which statement is correct?",
-        "options": [
-          "A score of 0 means perfect equality; scores above 0.5 signal extreme inequality",
-          "A score of 1 means perfect equality; lower scores indicate more unequal distribution",
-          "Gini measures the absolute poverty headcount rather than distributional inequality",
-          "No country can mathematically record a Gini coefficient above 0.7"
-        ],
-        "correct": 0,
-        "why": "Gini 0 = perfect equality, Gini 1 = one person holds all income; scores above 0.5 flag severe distributional problems.",
-        "deepDive": "The Gini coefficient, developed by Italian statistician Corrado Gini in 1912, measures the statistical dispersion of income or wealth across a population. It equals 0 when everyone has identical income and 1 when a single person holds everything. In practice: Nordic countries score ~0.25–0.30; the US ~0.39; South Africa ~0.63 (among the world's highest, partly a legacy of apartheid). Bangladesh's Gini was approximately 0.32 in recent surveys — moderate by global standards. A key limitation: Gini is insensitive to where in the distribution changes occur. Two countries with identical Gini scores can have very different poverty profiles. Alternatives include the Palma ratio (top 10% share divided by bottom 40% share) and the Atkinson index, each illuminating different dimensions of distributional inequality."
+        "subtopic": "sport"
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "The Second Law of Thermodynamics states entropy in a closed system never spontaneously decreases. Which everyday observation most directly illustrates this principle?",
-        "options": [
-          "A compressed spring releases stored energy when uncoiled",
-          "Ice placed in warm water melts, but the water never spontaneously re-freezes into ice",
-          "A pendulum swings indefinitely in a perfect vacuum without energy input",
-          "Oxygen and nitrogen in air separate into distinct layers over time"
-        ],
-        "correct": 1,
-        "why": "Heat flows warm-to-cold and disorder increases — a melting ice cube never spontaneously re-freezes, directly expressing the Second Law.",
-        "deepDive": "The Second Law of Thermodynamics, articulated in the 1850s by Rudolf Clausius and Lord Kelvin, states that in any closed system, entropy — a measure of disorder or energy dispersal — cannot spontaneously decrease over time. The melting ice cube is the canonical example: heat flows from warm water to cold ice until equilibrium; the reverse would require entropy to decrease, which the Second Law forbids. Option D is actually the opposite of the Second Law — gases mix spontaneously, increasing entropy, not separating. The Second Law explains why perpetual motion machines are thermodynamically impossible, why chemical reactions have a preferred spontaneous direction, and why time itself appears to have an arrow — the universe moves from ordered to disordered states, not in reverse."
+        "subtopic": "music"
       }
     ]
   }
