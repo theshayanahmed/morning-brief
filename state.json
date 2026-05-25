@@ -1,6 +1,6 @@
 {
   "streak": 0,
-  "last_session_date": "2026-05-24",
+  "last_session_date": "2026-05-25",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -141,7 +141,17 @@
     "Cubism, developed by Picasso and Braque in Paris around 1907-1914, broke from traditional painting primarily by doing what?",
     "Noam Chomsky argued children acquire complex grammar far faster than experience alone could explain. What innate mechanism did he propose?",
     "In limited-overs cricket, the Duckworth-Lewis-Stern (DLS) method calculates rain-revised targets based on what primary input?",
-    "Which musical interval was historically condemned as 'diabolus in musica' (the devil in music) and largely prohibited in medieval church polyphony?"
+    "Which musical interval was historically condemned as 'diabolus in musica' (the devil in music) and largely prohibited in medieval church polyphony?",
+    "A Certificate of Origin (CoO) in international trade is issued by which authority and serves which primary legal purpose?",
+    "When a customs authority rejects transaction value for suspected under-valuation, what is the next method in the WTO Customs Valuation Agreement hierarchy?",
+    "A Panamax bulk carrier is sized principally around which limiting constraint?",
+    "In container port operations, a 'berth window' refers to which specific concept?",
+    "After departing 2M in January 2025, MSC now operates the world's largest container fleet primarily as which of the following?",
+    "The literary technique of 'stream of consciousness,' as used in James Joyce's Ulysses (1922) and Virginia Woolf's Mrs Dalloway (1925), is best characterised as which of the following?",
+    "In Islamic jurisprudence, 'ijma' ranks third in the classical usul al-fiqh (sources of law) hierarchy. Which statement most accurately defines it?",
+    "The term 'parasocial relationship,' first coined by Horton and Wohl in 1956, describes which specific dynamic between audiences and media figures?",
+    "Which combination of factors best explains why the Gangetic Plain supports one of the world's highest agricultural population densities?",
+    "Why does deep ocean water appear blue even on overcast days when no blue sky is visible overhead?"
   ],
   "learn_history": [
     {
@@ -218,6 +228,11 @@
       "date": "2026-05-24",
       "topic": "The Iron Law of Oligarchy: Why Every Organization Drifts Toward Rule by the Few",
       "bucket": "sociopolitical"
+    },
+    {
+      "date": "2026-05-25",
+      "topic": "Blank Sailings: How Ocean Carriers Engineer Rate Rallies",
+      "bucket": "industry_deep_dive"
     }
   ],
   "curriculum_progress": {
@@ -228,8 +243,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 3,
-      "last_seen": "2026-05-21",
+      "count": 4,
+      "last_seen": "2026-05-25",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -240,20 +255,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 3,
-      "last_seen": "2026-05-21",
+      "count": 4,
+      "last_seen": "2026-05-25",
       "difficulty": 1,
       "rolling_score": []
     },
     "vessels": {
-      "count": 3,
-      "last_seen": "2026-05-21",
+      "count": 4,
+      "last_seen": "2026-05-25",
       "difficulty": 1,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 3,
-      "last_seen": "2026-05-21",
+      "count": 4,
+      "last_seen": "2026-05-25",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -264,8 +279,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 3,
-      "last_seen": "2026-05-21",
+      "count": 4,
+      "last_seen": "2026-05-25",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -350,14 +365,14 @@
       "rolling_score": []
     },
     "geography": {
-      "count": 5,
-      "last_seen": "2026-05-23",
+      "count": 6,
+      "last_seen": "2026-05-25",
       "difficulty": 3,
       "rolling_score": []
     },
     "physical_science": {
-      "count": 5,
-      "last_seen": "2026-05-23",
+      "count": 6,
+      "last_seen": "2026-05-25",
       "difficulty": 2,
       "rolling_score": []
     },
@@ -374,8 +389,8 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 4,
-      "last_seen": "2026-05-22",
+      "count": 5,
+      "last_seen": "2026-05-25",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -392,8 +407,8 @@
       "rolling_score": []
     },
     "religion": {
-      "count": 4,
-      "last_seen": "2026-05-22",
+      "count": 5,
+      "last_seen": "2026-05-25",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -422,67 +437,167 @@
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 4,
-      "last_seen": "2026-05-22",
+      "count": 5,
+      "last_seen": "2026-05-25",
       "difficulty": 2,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-05-24",
+    "date": "2026-05-25",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "domain",
-        "subtopic": "incoterms"
+        "subtopic": "documentation",
+        "stem": "A Certificate of Origin (CoO) in international trade is issued by which authority and serves which primary legal purpose?",
+        "options": [
+          "Customs authority at destination to certify goods have been inspected and cleared",
+          "Chamber of Commerce (or authorised body) in the exporting country to certify where goods were produced",
+          "The freight forwarder or NVOCC to confirm that the shipment has been loaded on board",
+          "The issuing bank to authorise release of payment under a letter of credit"
+        ],
+        "correct": 1,
+        "why": "Certificates of Origin are issued by the exporter's Chamber of Commerce or authorised government body in the exporting country, certifying the origin of goods for customs and tariff purposes.",
+        "deepDive": "A Certificate of Origin certifies where goods were produced or substantially transformed — the standard being a change in HS tariff heading or a minimum value-added threshold depending on the applicable rules. Non-preferential CoOs satisfy customs entry requirements but do not unlock duty savings. Preferential CoOs — Form D under ASEAN's ATIGA, EUR.1 under EU agreements, or self-certified declarations under newer FTAs — allow importers to claim reduced or zero tariffs. They are issued by the exporter's Chamber of Commerce, relevant trade authority, or in some schemes by the exporter directly under approved-exporter status. As tariff regimes multiply in 2026's trade-war environment, CoOs have become a front-line compliance instrument and a target for customs fraud. Common errors: using the wrong form for the wrong FTA, or failing to verify that goods genuinely meet the applicable rules of origin before claiming preference."
       },
       {
         "n": 2,
         "topic": "domain",
-        "subtopic": "bill_of_lading"
+        "subtopic": "customs",
+        "stem": "When a customs authority rejects transaction value for suspected under-valuation, what is the next method in the WTO Customs Valuation Agreement hierarchy?",
+        "options": [
+          "Computed value — calculating production cost plus profit margin in the exporting country",
+          "Deductive value — working backward from the resale price in the importing country",
+          "Transaction value of identical goods — using actual prices paid for identical merchandise in comparable sales",
+          "Reference pricing — applying a minimum declared value floor set by the importing customs authority"
+        ],
+        "correct": 2,
+        "why": "The WTO CVA hierarchy runs: (1) transaction value, (2) identical goods, (3) similar goods, (4) deductive, (5) computed, (6) fall-back. Transaction value of identical goods is the first fallback.",
+        "deepDive": "The WTO Agreement on Customs Valuation (CVA) establishes a strict six-method hierarchy to prevent arbitrary valuation. When transaction value (Article 1) is rejected — typically because parties are related or invoices appear manipulated — customs must apply methods in sequence and cannot skip ahead. Identical goods (Article 2) means same goods from the same producer sold to the same or comparable destination at around the same time. Similar goods (Article 3) allows substitution for comparable merchandise. Deductive (Article 5) works backward from resale price; computed (Article 6) builds up from production cost. The fall-back (Article 7) is a flexible last resort. Reference pricing — a common workaround used by some customs administrations — is technically non-compliant with the CVA but persists in practice. In high-tariff environments, transfer pricing between related-party importers and exporters is the most common flashpoint for customs valuation disputes."
       },
       {
         "n": 3,
         "topic": "domain",
-        "subtopic": "pricing"
+        "subtopic": "vessels",
+        "stem": "A Panamax bulk carrier is sized principally around which limiting constraint?",
+        "options": [
+          "Maximum draft permitted through the Strait of Hormuz at low tide",
+          "Maximum dimensions to transit the original Panama Canal lock chambers",
+          "Maximum beam to berth at Rotterdam's Europoort without tug assistance",
+          "Maximum LOA permitted under SOLAS Chapter II-1 structural load rules"
+        ],
+        "correct": 1,
+        "why": "Panamax is defined by the original Panama Canal lock dimensions: roughly 294m LOA, 32.3m beam, 12m draft — the maximum that could squeeze through before the 2016 expansion.",
+        "deepDive": "The Panamax size class — roughly 60,000–80,000 DWT for bulk carriers, 4,000–5,000 TEU for container ships — was defined for decades by the original Panama Canal lock dimensions: 305m length, 33.5m beam, 12.04m draft. When the expanded New Panamax locks opened in 2016, accepting vessels up to 366m x 49m x 15.2m, a new class emerged: Neopanamax, carrying up to ~14,000 TEU. Kamsarmax is a further refinement — up to 229m length to fit the berths at Kamsar, Guinea. For bulk carriers, Supramax (~50,000–60,000 DWT) and Ultramax (~60,000–65,000 DWT) are the flexible general-purpose workhorses beneath Panamax. Understanding vessel size classes is commercial shipping fundamentals: they directly determine which ports, berths, and trade lanes are physically viable, shaping carrier network design and freight economics."
       },
       {
         "n": 4,
         "topic": "domain",
-        "subtopic": "air_freight"
+        "subtopic": "port_ops",
+        "stem": "In container port operations, a 'berth window' refers to which specific concept?",
+        "options": [
+          "The glass enclosure atop a port control tower used for visual vessel traffic surveillance",
+          "The pre-negotiated time slot during which a vessel is scheduled to occupy and work at a terminal berth",
+          "The maximum number of containers a terminal can store per square metre of yard area",
+          "The minimum water-column clearance between a vessel's keel and the seabed at lowest astronomical tide"
+        ],
+        "correct": 1,
+        "why": "A berth window is the pre-agreed time slot granted by a terminal to a vessel operator, specifying arrival window, expected departure, and crane allocation.",
+        "deepDive": "A berth window is a pre-negotiated time slot granted by a terminal to a carrier, specifying the arrival window, working hours, crane allocation, and expected departure. Missing a berth window — due to weather, bunker delay, or schedule slippage — means the vessel must anchor at roads (waiting anchorage), incurring demurrage and disrupting downstream port calls across the rotation. Carriers negotiate berth windows as part of their terminal service agreements; premium windows at congested hubs (Singapore, Rotterdam, Shanghai) cost more. The concept gained urgency post-2021: when vessels bunch up due to port congestion, berth windows collapse, crane productivity falls, and the schedule reliability that shippers pay for disappears. Berth productivity (moves per crane-hour) and berth occupancy rate are the two key terminal KPIs that determine whether a window holds. Gemini Cooperation's explicit 90%+ schedule reliability target is partly built on securing guaranteed berth windows at partner terminals."
       },
       {
         "n": 5,
         "topic": "domain",
-        "subtopic": "ftas"
+        "subtopic": "liner_alliances",
+        "stem": "After departing 2M in January 2025, MSC now operates the world's largest container fleet primarily as which of the following?",
+        "options": [
+          "A fully independent mega-carrier deploying 800+ vessels without fixed alliance slot commitments",
+          "An anchor member of the Premier Alliance alongside ONE, HMM and Yang Ming",
+          "A sub-alliance partner of CMA CGM within the Ocean Alliance on Asia-Europe strings",
+          "A bilateral slot-sharing partner with COSCO on Transpacific eastbound services"
+        ],
+        "correct": 0,
+        "why": "Post-2M, MSC operates independently as the world's largest carrier by fleet size — over 800 vessels — without a formal East-West alliance commitment.",
+        "deepDive": "The 2025 liner alliance restructure was the most dramatic since the alliance era began. Maersk and Hapag-Lloyd formed Gemini Cooperation, prioritising schedule reliability (targeting 90%+ on-time performance). ONE, HMM, and Yang Ming launched the Premier Alliance. Ocean Alliance (CMA CGM, COSCO, Evergreen) continued largely intact. MSC, departing 2M when Maersk pivoted to Gemini, operates as the world's largest carrier independently — a fleet exceeding 800 vessels and roughly 6 million TEUs of capacity. MSC's independence strategy gives it maximum flexibility in rate-setting and network design but lacks the schedule-reliability marketing narrative of Gemini. For shippers, the restructure matters: Gemini promises 90%+ schedule reliability vs. an industry average of roughly 50%. For logistics companies like MGH, knowing which alliance covers which corridor and what reliability they deliver is essential for carrier selection and contract negotiation."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "life_science"
+        "subtopic": "literature",
+        "stem": "The literary technique of 'stream of consciousness,' as used in James Joyce's Ulysses (1922) and Virginia Woolf's Mrs Dalloway (1925), is best characterised as which of the following?",
+        "options": [
+          "A narrative device where the author directly interrupts the story to address the reader and comment on the plot",
+          "An unbroken interior monologue replicating the associative, fragmented flow of a character's thoughts without editorial order",
+          "A plot structure following events in strict chronological sequence to mirror real-time conscious experience",
+          "The use of an unreliable narrator whose reported perceptions are shown to diverge systematically from actual events"
+        ],
+        "correct": 1,
+        "why": "Stream of consciousness attempts to replicate the unfiltered, associative, fragmentary flow of a character's inner thoughts — as they actually occur, without authorial tidying.",
+        "deepDive": "Stream of consciousness (a term borrowed from William James's 1890 psychology text) attempts to render a character's inner mental life as it actually flows — associative, non-linear, fragmented, interrupted by sense-impressions and memory. Joyce's Ulysses pushed it furthest in its final chapter (Molly Bloom's unpunctuated 40-page monologue), while Woolf used a more lyrical, modulated version in Mrs Dalloway and To the Lighthouse. Predecessors include Dostoevsky's interior monologues and Edouard Dujardin's 1887 novella Les lauriers sont coupés, which Joyce acknowledged. The technique reflects Modernism's core conviction that outward events matter less than the subjective experience of consciousness itself. Samuel Beckett, a Joyce protégé, took it further still — stripping it down to near-silence in Molloy and The Unnamable. Contrast with free indirect discourse (Austen, Flaubert), which blends narrator and character voice without full immersion."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "arts"
+        "subtopic": "religion",
+        "stem": "In Islamic jurisprudence, 'ijma' ranks third in the classical usul al-fiqh (sources of law) hierarchy. Which statement most accurately defines it?",
+        "options": [
+          "Individual scholarly reasoning by analogy from the Quran and Sunnah, applied to new cases",
+          "The consensus of qualified Islamic scholars on a legal question, regarded as binding in classical Sunni jurisprudence",
+          "The authenticated collection of the Prophet Muhammad's sayings and actions transmitted through verified chains",
+          "The custom or practice of a particular Muslim community, treated as a supplementary legal source"
+        ],
+        "correct": 1,
+        "why": "Ijma is the consensus of the Muslim scholarly community on a point of Islamic law; it ranks third in the classical hierarchy (after Quran and Sunnah) and is regarded as binding by most Sunni schools.",
+        "deepDive": "Islamic jurisprudence derives from four classical usul (sources): the Quran, the Sunnah (hadith — authenticated reports of the Prophet's words and actions), Ijma (scholarly consensus), and Qiyas (analogical reasoning). Ijma historically required agreement among all qualified jurists of a given generation — an almost impossible standard that prompted centuries of debate about whose consensus counts, over what time period, and whether tacit non-objection is sufficient. Sunni traditions accord Ijma high authority (some schools treat it as near-infallible); Shia jurisprudence places greater weight on the rulings of the Imam. In contemporary Islamic finance — directly relevant for Bangladesh, where Islamic banking holds ~35% of deposits — Sharia boards function as a practical form of institutional ijma, certifying products' compliance with Islamic law. Fatwas that achieve wide ijma spread rapidly across the Muslim world; contested ones create fiqh diversity across the four Sunni madhabs."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "linguistics"
+        "subtopic": "pop_culture",
+        "stem": "The term 'parasocial relationship,' first coined by Horton and Wohl in 1956, describes which specific dynamic between audiences and media figures?",
+        "options": [
+          "A paid sponsorship arrangement between a content creator and a brand, simulating authentic endorsement",
+          "The sense of intimacy or friendship audiences develop with media figures who cannot reciprocate the relationship",
+          "Collaborative content creation between two online creators with strategically overlapping fanbases",
+          "The algorithmic feedback loop that amplifies extreme content through repeated viewer engagement signals"
+        ],
+        "correct": 1,
+        "why": "Parasocial relationships are one-sided emotional bonds viewers form with media personalities — the audience feels genuine closeness, but the figure cannot reciprocate or even know them.",
+        "deepDive": "Donald Horton and Richard Wohl introduced the term in 1956 to describe how radio and TV audiences felt genuine intimacy with performers who could not interact back. The dynamic intensifies sharply with social media: creators post daily vlogs, reply selectively to comments, and narrate personal struggles — heightening the illusion of friendship at scale. Research shows parasocial relationships can reduce loneliness and boost audience wellbeing, but also produce 'parasocial breakups' — genuine grief when a creator goes on hiatus, changes persona, or is 'cancelled.' For commercial strategy, parasocial bonds explain influencer marketing's outsized ROI: a YouTube audience trusts a creator's product endorsement the way they would trust a close friend's, bypassing the scepticism that filters traditional advertising. South Asian digital creators — in Bangladesh, India, and Pakistan — have replicated this pattern at massive scale on YouTube and Instagram, making parasocial dynamics central to the regional creator economy."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "sport"
+        "subtopic": "geography",
+        "stem": "Which combination of factors best explains why the Gangetic Plain supports one of the world's highest agricultural population densities?",
+        "options": [
+          "Warm ocean currents on both flanks keep temperatures frost-free year-round, enabling continuous cropping",
+          "Deep alluvial soils deposited by Himalayan rivers, reliable monsoon rainfall, and flat terrain ideal for extensive irrigation",
+          "Ancient Roman-era irrigation canals maintained continuously for 2,000 years underpin the plain's productivity",
+          "An extreme continental climate with very long summer days enabling triple-cropping of rice without irrigation"
+        ],
+        "correct": 1,
+        "why": "The Gangetic Plain's extraordinary fertility comes from Himalayan alluvial deposits, monsoon water (700-1,500mm annually), and flat topography enabling large-scale gravity-fed and pump irrigation.",
+        "deepDive": "The Gangetic Plain stretches ~2,400 km from the Punjab in Pakistan through northern India into Bangladesh. It is underlaid by deep alluvial deposits — glacial meltwater and river sediment from the Himalayas built up over millions of years, creating soils among the world's richest in nitrogen, phosphorus, and organic matter. The Indian Summer Monsoon (June–September) delivers 700–1,500mm of rain annually, replenishing aquifers tapped by millions of tube-wells. Flat terrain enables gravity-fed and pump irrigation at scale, which unlocked Green Revolution double and triple cropping from the 1960s. Bangladesh sits at the eastern extremity — the Brahmaputra-Ganges-Meghna delta — where active silt deposition still creates new chars (river islands) annually. Population density here exceeds 1,200 people/km² in Bangladesh, the product of millennia of agricultural productivity. Climate change is the plain's greatest vulnerability: erratic monsoon onset, groundwater depletion from over-extraction, and sea-level rise threatening the delta."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "music"
+        "subtopic": "physical_science",
+        "stem": "Why does deep ocean water appear blue even on overcast days when no blue sky is visible overhead?",
+        "options": [
+          "Dissolved salt ions selectively reflect blue wavelengths of sunlight back toward the surface",
+          "Water molecules preferentially absorb red and green wavelengths while scattering blue light — producing blue colour intrinsic to water itself",
+          "The ocean surface acts as a perfect specular mirror, simply reflecting the blue of the sky above",
+          "Phytoplankton throughout the water column produce blue bioluminescent pigment as a photosynthesis byproduct"
+        ],
+        "correct": 1,
+        "why": "Water molecules absorb longer-wavelength red and green light within the first few meters, and blue light scatters more readily via Raman scattering — giving deep water its blue colour independent of the sky.",
+        "deepDive": "Pure water is blue because water molecules absorb light selectively: red wavelengths (~650-700nm) are absorbed within the first few metres; green follows. Blue light (~450nm) penetrates deepest and also undergoes Raman scattering within the water molecules themselves. This is why a large tank of pure water in a white room appears distinctly blue-ish — ruling out sky reflection as the primary cause. Deep ocean trenches appear royal blue even on totally overcast days, confirming the effect is intrinsic to water. Coastal waters often look green (phytoplankton chlorophyll absorbs blue and red, reflects green) or brown (suspended river sediment scatters all wavelengths). The Bay of Bengal appears murkier and greener than the Andaman Sea because of sediment from Himalayan rivers (Ganga, Brahmaputra) carried by Bangladesh's river system. For maritime navigation, water colour and light-penetration depth (Secchi depth) serve as rough proxies for water clarity and biological productivity."
       }
     ]
   }
