@@ -364,61 +364,48 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  "date": "2026-05-25",
-  "dateLabel": "Monday · 25 May 2026",
-  "editionLabel": "Edition · Monday 25 May",
-  "headline": "EU-US Turnberry deal races July 4 deadline; Drewry WCI jumps 6%; measles kills 528 Bangladeshi children; Anthropic Glasswing finds 10,000 zero-days.",
+  "date": "2026-05-26",
+  "dateLabel": "Tuesday · 26 May 2026",
+  "editionLabel": "Edition · Tuesday 26 May",
+  "headline": "Iran deal imminent as Hormuz trickles open; freight rates surge on early peak season; Nvidia locked out of China; Bangladesh opens Bay of Bengal to foreign drillers.",
   "sections": [
     {
       "title": "Macro · Geopolitics · Politics",
       "items": [
         {
-          "lead": "EU Clears Turnberry Deal for July 4 Ratification",
-          "body": "Council and Parliament struck implementing agreement May 20 — EU scraps tariffs on US industrial goods, US caps European goods at 15%; ratification vote expected mid-June ahead of Trump's July 4 deadline or face sharply higher tariffs.",
-          "src": {
-            "name": "EU Council",
-            "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/20/eu-us-trade-council-and-parliament-strike-a-deal-to-implement-the-tariff-elements-of-the-joint-statement/"
-          }
+          "lead": "Iran-US deal 'largely negotiated'",
+          "body": "Trump says Strait of Hormuz memo is imminent — 60-day ceasefire, limited oil flows resumed, nuclear pause talks to follow. Rubio still calling it a 'work in progress' with key sticking points on sanctions timing.",
+          "src": { "name": "Axios / CNN", "url": "https://www.axios.com/2026/05/24/iran-deal-strait-hormuz-sanctions-nuclear" }
         },
         {
-          "lead": "Trump Threatens Eight European States Over Greenland Arctic Exercise",
-          "body": "US threatening new tariffs on Denmark, Finland, France, Germany, Netherlands, Norway, Sweden and UK following joint military exercise 'Operation Arctic Endurance' in Greenland — testing North Atlantic deterrence dynamics post-Turnberry.",
-          "src": {
-            "name": "CFR",
-            "url": "https://www.cfr.org/articles/geopolitics-trump-tariffs-how-us-trade-policy-has-shaken-allies"
-          }
+          "lead": "Hormuz trickles open but 1,550+ vessels still stranded",
+          "body": "Limited tanker traffic resuming after 3-month near-total blockade, but ADNOC chief warns full flows won't recover before 2027 even post-deal — voyage rerouting via Cape of Good Hope has permanently re-priced energy logistics.",
+          "src": { "name": "Gulf News / gCaptain", "url": "https://gulfnews.com/business/energy/is-strait-of-hormuz-now-open-more-oil-lng-tankers-cross-gulf-chokepoint-1.500552390" }
         },
         {
-          "lead": "China Posts 5% Q1 Growth; Middle East Energy Shock Clouds Q2",
-          "body": "Q1 2026 GDP rose 5% YoY; exports grew 14.7% for the quarter. But Middle East war is spiking energy costs — Goldman Sachs forecasts full-year 4.8% with Q2 slowing sharply to ~4% annualized as oil shock hits manufacturing margins.",
-          "src": {
-            "name": "China Briefing",
-            "url": "https://www.china-briefing.com/news/chinas-q1-2026-gdp/"
-          }
+          "lead": "One Big Beautiful Bill: US deficit math gets ugly",
+          "body": "CBO projects US deficit reaching 9% of GDP by 2035 under the OBBBA — $5T debt ceiling hike carries $3.4T 10-year net cost. Federal debt tracking toward 134% of GDP by 2035.",
+          "src": { "name": "CRFB / U.S. News", "url": "https://www.crfb.org/blogs/breaking-down-one-big-beautiful-bill" }
         },
         {
-          "lead": "Big Beautiful Bill Adds $3.4T to Debt; 30-Year Treasury Flirts With 5%",
-          "body": "CBO confirmed OBBBA adds $3.4T over 10 years (up to $5T if temporary provisions extended); 10-year Treasury at ~4.46%, 30-year near 5%; post-Moody's Aa1 downgrade, fiscal credibility pressure continues mounting on bond markets.",
-          "src": {
-            "name": "CRFB",
-            "url": "https://www.crfb.org/blogs/breaking-down-one-big-beautiful-bill"
-          }
+          "lead": "US-China trade: $17B ag pledge + 200 Boeings",
+          "body": "Post-Trump-Xi summit framework holds: China commits $17B/yr in US agricultural purchases and 200 Boeing jets; tariffs stay near 30% while both sides negotiate extension of the one-year truce struck last October.",
+          "src": { "name": "CNBC", "url": "https://www.cnbc.com/2026/05/18/us-china-announce-deals-after-trump-xi-summit.html" }
         },
         {
-          "lead": "Modi Wins West Bengal; India FDI at All-Time Low, FPIs Sell $20B",
-          "body": "BJP's historic West Bengal win cements Modi's domestic grip, but macro signals are flashing: FDI near all-time lows at $0.5B for the 12 months to January 2026, and foreign portfolio investors have sold $20B in Indian equities since January.",
-          "src": {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/05/05/modi-wins-in-west-bengal-for-the-first-time.html"
-          }
+          "lead": "Macron's Indo-Pacific pivot ahead of G7",
+          "body": "French president visiting Japan and South Korea, deepening European security engagement with Asia as Middle East conflict stretches Atlantic alliance bandwidth — framed as Europe rebalancing ahead of June G7 summit.",
+          "src": { "name": "EY Geostrategy", "url": "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis" }
         },
         {
-          "lead": "Operation Sindoor Ceasefire Holds One Year; India-US Ties Remain Strained",
-          "body": "India-Pakistan ceasefire brokered May 10, 2025 holds, now one year old. Pakistan is now leading US-Iran diplomacy; India's ties with Washington cooled post-Sindoor as Modi navigates an uneasy nuclear-armed neighbourhood peace.",
-          "src": {
-            "name": "Washington Post",
-            "url": "https://www.washingtonpost.com/opinions/2026/05/05/year-later-india-pakistan-ceasefire-is-holding-so-far/"
-          }
+          "lead": "EU-US tariff asymmetry persists",
+          "body": "Under the 2025 Turnberry accord, EU eliminated its tariffs while US kept 15% on EU goods — US goods deficit with EU still $190B in 2025, the largest single-country gap, ahead of China's $175B.",
+          "src": { "name": "Euronews / Foreign Policy", "url": "https://www.euronews.com/my-europe/2026/03/16/eu-us-trade-remains-strong-despite-tariff-pressure-study-finds" }
+        },
+        {
+          "lead": "Maduro capture operationalizes US Latin America doctrine",
+          "body": "Arrest of Venezuelan president marks the most significant US intervention in Latin America in decades — Trump administration puts Western Hemisphere reprioritization into concrete action.",
+          "src": { "name": "EY Geostrategy", "url": "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis" }
         }
       ]
     },
@@ -426,289 +413,252 @@ const TODAY = {
       "title": "Bangladesh & Subcontinent",
       "items": [
         {
-          "lead": "Measles Kills 528 Children; Campaign Hits 18M — Daily Cases Still Above 1,000",
-          "body": "Bangladesh measles outbreak since mid-March: 528 dead, 60,000+ suspected cases. UNICEF/WHO mass vaccination reached 18M children; officials say next priority is tracking missed children but daily case counts remain above 1,000 with ICU capacity strained.",
-          "src": {
-            "name": "NPR",
-            "url": "https://www.npr.org/2026/05/24/g-s1-123661/measles-outbreak-bangladesh-deadline-vaccine"
-          }
+          "lead": "Bangladesh launches offshore bidding round for 26 Bay blocks TODAY",
+          "body": "Petrobangla opened the 2026 offshore round this morning — 15 deep-water + 11 shallow-water blocks under a revised PSC with Brent-linked gas pricing, removed signature bonus, third-party sales rights, and a 30 Nov bid deadline.",
+          "src": { "name": "The Business Standard / Daily Star", "url": "https://www.tbsnews.net/bangladesh/energy/bangladesh-opens-bidding-26-offshore-oil-and-gas-blocks-today-1447131" }
         },
         {
-          "lead": "Bangladesh Bank Extends Branch Hours to 10PM for Eid Cattle Markets",
-          "body": "Bangladesh Bank directed commercial banks to extend operating hours until 10PM at branches near qurbani livestock markets from May 24 through Eid eve — reducing cash-carrying risk and supporting secure financial transactions during peak Qurbani trading.",
-          "src": {
-            "name": "Bangladesh Bank",
-            "url": "https://www.bb.org.bd/en/index.php"
-          }
+          "lead": "India April exports surge 13.6% YoY to $80.8B",
+          "body": "Combined merchandise and services exports hit a monthly record in April 2026, driven by services growth and early flows through the India-EU FTA concluded in January — affirming India's export momentum heading into Q2.",
+          "src": { "name": "IBEF / Ministry of Commerce", "url": "https://www.ibef.org/economy/trade-and-external-sector" }
         },
         {
-          "lead": "Week-Long Eid-ul-Azha Holiday Starts Today; Nazrul Year Declared",
-          "body": "Government declared May 25–31 a national Eid-ul-Azha holiday across all public and private offices. PM simultaneously declared May 25, 2026 – May 25, 2027 as 'Nazrul Year' to mark the anniversary of Kazi Nazrul Islam.",
-          "src": {
-            "name": "BSS News",
-            "url": "https://www.bssnews.net/news-flash/387075"
-          }
-        },
-        {
-          "lead": "Modi Urges Fuel and Gold Cuts as Middle East Oil Shock Bites India",
-          "body": "PM Modi urged citizens to reduce fuel use, overseas travel and gold purchases as Middle East conflict spikes crude prices; India spent $174.9B on crude/petroleum in FY26 (22% of all imports); UBS cut India FY27 growth forecast to 6.2%.",
-          "src": {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/05/11/india-modi-fuel-gold-foreign-travel-middle-east-oil-shock.html"
-          }
+          "lead": "Operation Sindoor: one year on, Indus Waters Treaty still suspended",
+          "body": "India and Pakistan's ceasefire is holding but the Indus Waters Treaty abeyance continues — over 240 million Pakistanis face agricultural water insecurity, with no timeline for treaty reinstatement from New Delhi.",
+          "src": { "name": "Washington Post / Al Jazeera", "url": "https://www.washingtonpost.com/opinions/2026/05/05/year-later-india-pakistan-ceasefire-is-holding-so-far/" }
         }
       ]
     },
     {
-      "title": "Trade & Freight",
+      "title": "Trade · Freight",
       "items": [
         {
-          "lead": "Drewry WCI Jumps 6% to $2,712; Third Straight Weekly Gain",
-          "body": "World Container Index hit $2,712/FEU on May 21 — up 6% on the week and 35% year-on-year; Shanghai-Rotterdam surged 15% to $2,773 as early peak season demand arrives ahead of schedule across East-West trades.",
-          "src": {
-            "name": "gCaptain / Drewry",
-            "url": "https://gcaptain.com/drewry-container-spot-rates-continue-climb-as-early-peak-season-gains-momentum/"
-          }
+          "lead": "Drewry WCI up 6%: third consecutive weekly gain",
+          "body": "World Container Index hits $2,712/40ft — Shanghai-Rotterdam +15% to $2,773, Shanghai-Genoa +10% to $4,082. Early peak season demand plus carrier capacity discipline driving the Asia-Europe surge.",
+          "src": { "name": "Drewry WCI 21 May", "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry" }
         },
         {
-          "lead": "ONE Fires $2,000 PSS on Transpacific Eastbound Effective June 1",
-          "body": "Ocean Network Express announced $2,000/40ft Peak Season Surcharge for Transpacific eastbound cargo effective June 1; MSC is separately raising Far East–North Europe FAK to $4,300/FEU by July 1 as carriers coordinate rate firepower heading into peak.",
-          "src": {
-            "name": "Drewry",
-            "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
-          }
+          "lead": "CMA CGM FAK spike effective June 1",
+          "body": "Carrier announcing Asia-Europe $4,700/40ft and Asia-Med $5,500-5,700/40ft — market reads this as carriers engineering rates well above current spot levels ahead of peak season, with other lines likely to follow.",
+          "src": { "name": "The Loadstar", "url": "https://theloadstar.com/blanked-sailings/" }
         },
         {
-          "lead": "Only 3 Asia-Europe Blanks Next Week — Carriers Deploying Full Capacity",
-          "body": "Just three Asia-Europe blank sailings announced for next week, signalling carriers are deliberately deploying full capacity to capture elevated peak season FAK rates rather than withdrawing ships; supply discipline running bullish into June.",
-          "src": {
-            "name": "IndexBox / Drewry",
-            "url": "https://www.indexbox.io/blog/container-freight-rates-rally-for-third-week-as-peak-season-arrives-early/"
-          }
+          "lead": "Hormuz energy shock still repricing tanker markets",
+          "body": "Even with limited reopening, rerouting around Hormuz has permanently stretched voyage times; ADNOC warns LNG flows won't normalize until Q1 2027 at earliest — crude tanker rates remain elevated through the medium term.",
+          "src": { "name": "Tank Transport / gCaptain", "url": "https://tanktransport.com/2026/05/hormuz-supply-risk/" }
         },
         {
-          "lead": "Houthis Rearming Via Iran; Cape Routing Default Expected Into 2027",
-          "body": "MARAD advisory 2026-006 remains active; most carriers default to Cape of Good Hope routing; Houthis rebuilding Hodeidah port capacity with Iranian supply; 8-12 extra transit days and 15-25% cost premium vs. pre-diversion levels persist.",
-          "src": {
-            "name": "MARAD",
-            "url": "https://www.maritime.dot.gov/msci/2026-006-red-sea-bab-el-mandeb-strait-gulf-aden-arabian-sea-and-somali-basin-houthi-attacks"
-          }
+          "lead": "Gemini alliance leads on reliability: 2.8% blank sailing rate",
+          "body": "Maersk-Hapag Gemini Cooperation posting industry-low 2.8% cancelled sailing rate versus MSC's 15.9% and Premier Alliance's 17.1% — reliability premium translating into measurable shipper preference in contract negotiations.",
+          "src": { "name": "Drewry Cancelled Sailings Tracker", "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/cancelled-sailings-tracker" }
         },
         {
-          "lead": "Containerized Freight Index Up 35% Year-on-Year as Market Firms Into Peak",
-          "body": "Containerized Freight Index at 2,141 points May 22 — up 13.5% in one month and 35% YoY; early peak demand combined with persistent Red Sea premium is compressing available slot capacity across East-West trades.",
-          "src": {
-            "name": "Trading Economics",
-            "url": "https://tradingeconomics.com/commodity/containerized-freight-index"
-          }
+          "lead": "Transpacific stable as Asia-Europe pulls rate momentum",
+          "body": "Shanghai-NY up just 2% to $4,317; Shanghai-LA up 1% to $3,385 — transpacific demand firm but not surging; the Asia-Europe route is where carriers are extracting most value this cycle.",
+          "src": { "name": "Drewry WCI / C.H. Robinson", "url": "https://www.chrobinson.com/en-us/resources/insights-and-advisories/north-america-freight-insights/may-2026-freight-market-update/" }
+        },
+        {
+          "lead": "Early peak season squeezes capacity across East-West trades",
+          "body": "Carriers simultaneously blanking sailings and lifting FAK levels — classic capacity management squeeze. East-West markets firming as peak season arrives 4-6 weeks earlier than the typical mid-July inflection.",
+          "src": { "name": "IndexBox / CH Robinson", "url": "https://www.indexbox.io/blog/container-freight-rates-rally-for-third-week-as-peak-season-arrives-early/" }
         }
       ]
     },
     {
-      "title": "Semis & AI",
+      "title": "Semis · AI",
       "items": [
         {
-          "lead": "Anthropic Glasswing Finds 10,000+ Zero-Days in Major OS and Browsers",
-          "body": "Project Glasswing used Claude Mythos Preview — withheld from public release due to dual-use risk — to discover 10,000+ high/critical vulnerabilities in every major OS and browser; partners include AWS, Apple, Cisco, Google, JPMorgan, Microsoft, and Nvidia.",
-          "src": {
-            "name": "Anthropic",
-            "url": "https://www.anthropic.com/glasswing"
-          }
+          "lead": "Nvidia 'effectively foreclosed' from China data centers",
+          "body": "FY2026 10-K confirms export controls have eliminated Nvidia's ability to sell competitive data center chips to China — the gap Huawei Ascend 910C is now racing to fill with domestic hyperscalers.",
+          "src": { "name": "SEC / Reuters / Investing.com", "url": "https://www.investing.com/news/stock-market-news/nvidia-refocuses-tsmc-capacity-as-export-controls-stall-china-sales-ft-reports-4542820" }
         },
         {
-          "lead": "OpenAI Tops $25B ARR; Anthropic Near $19B as Goldman Deploys Claude",
-          "body": "OpenAI surpassed $25B annualized revenue and is taking early steps toward a late-2026 IPO; Anthropic near $19B ARR; Goldman Sachs deploying Claude to automate accounting and compliance — AI enterprise revenue concentration accelerating rapidly.",
-          "src": {
-            "name": "Air Street Press",
-            "url": "https://press.airstreet.com/p/state-of-ai-may-2026"
-          }
+          "lead": "Broadcom AI revenue doubles to $8.4B, eyes $100B by 2027",
+          "body": "Fiscal Q1 AI semiconductor revenue up 106% YoY; CEO Hock Tan guiding Q2 to $10.7B — Broadcom's custom ASIC business with hyperscalers proving that AI chip demand is broader than Nvidia's GPU monopoly.",
+          "src": { "name": "CNBC / Fabricated Knowledge", "url": "https://www.fabricatedknowledge.com/p/2026-ai-and-semiconductor-outlook" }
         },
         {
-          "lead": "TSMC $31.3B Capex Locked In; CoWoS Packaging Still the AI GPU Ceiling",
-          "body": "TSMC approved $31.3B capex for 2026 including $20B into Arizona; advanced CoWoS packaging — not logic node yields — remains the true binding constraint on AI GPU shipments; simple packaging steps outsourced to ASE and Amkor.",
-          "src": {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/04/08/tsmc-nvidia-advanced-packaging-intel.html"
-          }
+          "lead": "Anthropic closes second $30B round at $900B+ valuation",
+          "body": "Sequoia, Dragoneer, Altimeter lead; Anthropic now holds 34.4% of US paid AI business subscriptions vs OpenAI's 32.3% — the enterprise market has effectively split at the top as Google lags at 4.5%.",
+          "src": { "name": "Trending Topics / Axios", "url": "https://www.axios.com/2026/05/21/google-ai-anthropic-openai-war" }
         },
         {
-          "lead": "Nvidia Briefly Touches $5.5T Cap; Vera Rubin Refresh on N3P + HBM4 Coming",
-          "body": "Nvidia briefly touched $5.5T market cap; SOX index up 65% YTD; company preparing surprise chip alongside Vera Rubin platform refresh on TSMC N3P process with HBM4 memory integration; $95.2B in TSMC supply commitments locked in.",
-          "src": {
-            "name": "Fabricated Knowledge",
-            "url": "https://www.fabricatedknowledge.com/p/2026-ai-and-semiconductor-outlook"
-          }
+          "lead": "AI accelerates gallium semiconductor materials discovery",
+          "body": "Flinders University + Khalifa University ML platform published today — dramatically compresses gallium-based semiconductor testing timelines. AI now compressing materials science iteration cycles, not just software development.",
+          "src": { "name": "Flinders University News", "url": "https://news.flinders.edu.au/blog/2026/05/26/ai-speeds-up-discovery-of-next-gen-computer-chips-and-electronic-materials/" }
         },
         {
-          "lead": "Semiconductor Market Tracks $1T in Sales; HBM Shortage Squeezes Automakers",
-          "body": "Global semi market tracking toward ~$1T annual sales in 2026; HBM allocation dominated by AI GPU makers leaves automakers and industrial buyers in shortage; veteran analysts flagging dot-com-comparable valuation stretch in SOX after 65% YTD run.",
-          "src": {
-            "name": "Digitimes",
-            "url": "https://www.digitimes.com/news/a20260506PD233/semiconductor-industry-ai-demand-2026.html"
-          }
+          "lead": "SOX index up 65% YTD; Logic and Memory dominate",
+          "body": "Semiconductor sector in its most explosive modern rally — growth concentrated in AI accelerators, data-center networking, and HBM memory while PC, consumer, and most automotive segments remain flat-to-soft.",
+          "src": { "name": "Fabricated Knowledge / Medium", "url": "https://medium.com/@adnanmasood/semiconductors-in-2026-the-ai-driven-upswing-meets-structural-bottlenecks-3568b004905b" }
+        },
+        {
+          "lead": "GPT-5.5 edges Claude Mythos Preview on Terminal-Bench 2.0",
+          "body": "OpenAI's GPT-5.5 scores 82.7% vs Anthropic's Claude Mythos Preview at 69.4% on the benchmark — all three frontier labs describing the race as 'neck-and-neck,' with each making different cost/speed/compute tradeoffs.",
+          "src": { "name": "VentureBeat", "url": "https://venturebeat.com/ai/openais-gpt-5-5-is-here-and-its-no-potato-narrowly-beats-anthropics-claude-mythos-preview-on-terminal-bench-2-0" }
         }
       ]
     }
   ],
   "lesson": {
-    "title": "Blank Sailings: How Ocean Carriers Engineer Rate Rallies",
+    "title": "The Bay of Bengal: Frontier Energy Basin and Asia's Contested Maritime Crossroads",
     "paragraphs": [
-      "A blank sailing occurs when an ocean carrier cancels one or more port calls — or an entire voyage — on a scheduled loop service. In a market with surplus capacity, too many ships chase too little cargo and spot rates collapse. By coordinating blank sailings through their alliances, carriers artificially reduce the supply of available TEUs faster than demand falls, stabilising or reversing rate declines. The Gemini Cooperation and Ocean Alliance can surgically remove individual legs from their strings without dismantling the wider service, making blanks faster and cheaper to implement than in the pre-alliance era. Crucially, this is legal in most jurisdictions — vessel scheduling is not price-fixing — and remarkably effective at turning soft markets hard within two to three weeks.",
-      "The mechanics are straightforward. A carrier issues a blank sailing advisory two to four weeks in advance. The vessel either slow-steams on the open ocean, is redeployed to a different trade, or is sent to drydock. Shippers with booked space must scramble to rebook on sister sailings, often at higher rates — creating artificial urgency that firms the spot market quickly. Carriers are currently doing the inverse: only three Asia-Europe blank sailings were announced for next week, meaning carriers are deliberately deploying full capacity to capture elevated FAK rates at peak demand. When demand is rising, suppressing blanks maximises volume harvested at premium rates. The blank sailing is therefore a two-direction lever — withdraw capacity to build prices in a soft market, release capacity to capture volume in a hot one.",
-      "For a logistics conglomerate managing freight across 26 countries, reading blank sailing signals is commercial intelligence with direct P&L consequences. When carriers start coordinating blanks in March or April — well ahead of the traditional May-June peak — they are executing a rate-recovery playbook and broadcasting confidence in forward demand. The correct commercial response is to lock in contract rates or secure forward space before PSS announcements trigger the next rate step-up. Waiting for spot rates to 'normalise' is costly: by the time a blank sailing advisory is issued, the rate has already moved. Tracking weekly blank sailing announcements from carriers, Alphaliner, and Drewry gives procurement teams a 2-4 week early warning on rate direction."
+      "The Bay of Bengal is the world's largest bay — 3.6 million square kilometres of the northeastern Indian Ocean, bounded by India's Coromandel Coast to the west, Bangladesh and Myanmar to the north, and the Andaman-Nicobar archipelago and the Malay Peninsula to the east. Five of the world's major river systems drain into it: the Ganges, Brahmaputra, Irrawaddy, Godavari, and Mahanadi — discharging roughly 1,600 km³ of freshwater annually, making the bay significantly less saline and far more sediment-laden than its neighbours. That sediment load — the same Himalayan silt that built Bangladesh itself — has paradoxically made the bay's near-shore waters murky while depositing exactly the deep sedimentary sequences that trap hydrocarbon accumulations.",
+      "Geologically, the Bay of Bengal sits atop the Bengal Basin and related sub-basins that geologists have long believed hold substantial gas reserves — though proving them offshore has remained elusive. India's Krishna-Godavari (KG) basin on the western rim produced landmark deep-water gas at Reliance's KG-D6 field, and Myanmar's Shwe gas field on the eastern margin has been producing since 2013, piped directly to Yunnan province via a China-funded infrastructure project. Bangladesh's offshore acreage — the blocks launched for bidding today — sits in the structurally complex but potentially prolific central and northeastern Bay. Previous licensing rounds in 2008 and 2012 attracted limited interest due to unfavourable contract terms; the revised 2026 PSC removes the signature bonus, switches gas pricing to Brent-linked benchmarks, and allows third-party and export sales — changes designed to attract the IOCs who passed on prior rounds.",
+      "The Bay's strategic geometry is equally significant. It is the natural maritime highway linking South Asia to Southeast Asia and the Malacca Strait — the passage that connects it to the South China Sea and the Pacific. China's 'String of Pearls' strategy has involved port access agreements in Myanmar (Kyaukphyu), Sri Lanka (Hambantota), and Bangladesh (Chittagong area discussions); India's counter-engagement includes the Andaman-Nicobar Command and BIMSTEC frameworks. Bangladesh's offshore gas push is thus a geopolitical signal as much as an energy play: energy self-sufficiency would reduce import dependency, strengthen the current account, and give Dhaka greater strategic room relative to both Beijing and New Delhi."
     ],
-    "why": "Today's WCI surge to $2,712/FEU and ONE's $2,000 PSS for June 1 are direct products of blank sailing discipline — understanding the mechanic lets commercial teams pre-empt the next rate move rather than react to it."
+    "why": "Bangladesh today launched its most ambitious offshore energy licensing round — and the Bay of Bengal's geological potential, if even partially realised, could shift the country's energy import bill, its current account, and its geopolitical weight within BIMSTEC and the broader Indo-Pacific contest."
   },
   "questions": [
     {
       "n": 1,
       "topic": "domain",
-      "subtopic": "documentation",
-      "stem": "A Certificate of Origin (CoO) in international trade is issued by which authority and serves which primary legal purpose?",
+      "subtopic": "multimodal",
+      "stem": "A Bangladesh-origin RMG shipment moves road to Chittagong, sea to Singapore, then air to Tokyo. Which document governs the Singapore-to-Tokyo air leg?",
       "options": [
-        "Customs authority at destination to certify goods have been inspected and cleared",
-        "Chamber of Commerce (or authorised body) in the exporting country to certify where goods were produced",
-        "The freight forwarder or NVOCC to confirm that the shipment has been loaded on board",
-        "The issuing bank to authorise release of payment under a letter of credit"
+        "The original Master Bill of Lading, which covers the entire multimodal journey through to final destination",
+        "An Air Waybill (AWB) issued by the air carrier for that specific segment",
+        "A Combined Transport Document issued by the MTO covering Singapore to Tokyo only",
+        "A Seaway Bill re-issued at Singapore for the onward air movement"
       ],
       "correct": 1,
-      "why": "Certificates of Origin are issued by the exporter's Chamber of Commerce or authorised government body in the exporting country, certifying the origin of goods for customs and tariff purposes.",
-      "deepDive": "A Certificate of Origin certifies where goods were produced or substantially transformed — the standard being a change in HS tariff heading or a minimum value-added threshold depending on the applicable rules. Non-preferential CoOs satisfy customs entry requirements but do not unlock duty savings. Preferential CoOs — Form D under ASEAN's ATIGA, EUR.1 under EU agreements, or self-certified declarations under newer FTAs — allow importers to claim reduced or zero tariffs. They are issued by the exporter's Chamber of Commerce, relevant trade authority, or in some schemes by the exporter directly under approved-exporter status. As tariff regimes multiply in 2026's trade-war environment, CoOs have become a front-line compliance instrument and a target for customs fraud. Common errors: using the wrong form for the wrong FTA, or failing to verify that goods genuinely meet the applicable rules of origin before claiming preference."
+      "why": "Each mode in multimodal transport still generates its own mode-specific carrier document; the air leg requires an AWB even if an overarching MTD covers the whole journey contractually.",
+      "deepDive": "In multimodal transport, a Multimodal Transport Document (MTD) or Combined Transport Bill of Lading can cover the full journey contractually — binding the MTO as principal. But sub-contracted carriers still issue their own mode-specific documents internally. The ocean leg produces a B/L or seaway bill; the air leg requires an Air Waybill (AWB). The AWB is non-negotiable, names a specific consignee, and cannot be used as collateral in documentary credit unlike a negotiable B/L. Liability regimes switch between Hague-Visby Rules (sea) and the Montreal Convention (air) depending on the leg — critically important for insurance claims. Exporters relying on through documents should understand that the MTO sub-contracts individual legs, so cargo damage claims must navigate which regime applies to the leg where loss occurred. A common misconception: the MTD's single contract liability does not mean a single liability regime — the MTO still typically back-to-back's each sub-carrier's liability cap."
     },
     {
       "n": 2,
       "topic": "domain",
-      "subtopic": "customs",
-      "stem": "When a customs authority rejects transaction value for suspected under-valuation, what is the next method in the WTO Customs Valuation Agreement hierarchy?",
+      "subtopic": "trade_lanes",
+      "stem": "When Houthi attacks closed the Red Sea-Suez route in 2024-25, which alternative became the dominant Asia-Europe container diversion, adding roughly 10-14 extra sailing days?",
       "options": [
-        "Computed value — calculating production cost plus profit margin in the exporting country",
-        "Deductive value — working backward from the resale price in the importing country",
-        "Transaction value of identical goods — using actual prices paid for identical merchandise in comparable sales",
-        "Reference pricing — applying a minimum declared value floor set by the importing customs authority"
+        "The Trans-Siberian Rail corridor via Russia's Eastern Corridor to European railheads",
+        "The Cape of Good Hope routing around South Africa's southern tip",
+        "The Arctic Northern Sea Route operating seasonally through Russian Arctic waters",
+        "Sumed Pipeline transshipment: discharge in Gulf, pipeline to Med, reload"
       ],
-      "correct": 2,
-      "why": "The WTO CVA hierarchy runs: (1) transaction value, (2) identical goods, (3) similar goods, (4) deductive, (5) computed, (6) fall-back. Transaction value of identical goods is the first fallback.",
-      "deepDive": "The WTO Agreement on Customs Valuation (CVA) establishes a strict six-method hierarchy to prevent arbitrary valuation. When transaction value (Article 1) is rejected — typically because parties are related or invoices appear manipulated — customs must apply methods in sequence and cannot skip ahead. Identical goods (Article 2) means same goods from the same producer sold to the same or comparable destination at around the same time. Similar goods (Article 3) allows substitution for comparable merchandise. Deductive (Article 5) works backward from resale price; computed (Article 6) builds up from production cost. The fall-back (Article 7) is a flexible last resort. Reference pricing — a common workaround used by some customs administrations — is technically non-compliant with the CVA but persists in practice. In high-tariff environments, transfer pricing between related-party importers and exporters is the most common flashpoint for customs valuation disputes."
+      "correct": 1,
+      "why": "Cape routing added 10-14 days and ~$1M extra fuel per round voyage but became the dominant diversion — commercially viable despite cost because it avoided missile risk entirely.",
+      "deepDive": "The Cape of Good Hope route diverts container vessels around South Africa rather than using the Suez Canal, adding roughly 3,500 nautical miles and 10-14 days per sailing depending on vessel speed. During the 2024-25 Houthi disruption, carriers shifted the majority of Asia-Europe capacity to this route. The effective capacity reduction from longer voyage times — more ships required to maintain frequency — directly contributed to H1 2024 rate spikes exceeding $7,000/40ft. The Sumed Pipeline handles crude oil, not containers. The Arctic Northern Sea Route remains commercially marginal: it requires ice-class vessels, operates only July-November, lacks rescue infrastructure, and carries Russian geopolitical risk. Trans-Siberian rail can handle high-value breakbulk and some containerised cargo but has nowhere near the volume capacity to absorb a fraction of Asia-Europe ocean trade. The Cape Route is the only viable large-scale ocean alternative to Suez — which is why Hormuz-style disruptions transmit so powerfully into freight rates."
     },
     {
       "n": 3,
       "topic": "domain",
-      "subtopic": "vessels",
-      "stem": "A Panamax bulk carrier is sized principally around which limiting constraint?",
+      "subtopic": "marine_insurance",
+      "stem": "Under the Institute Cargo Clauses, which clause provides the broadest coverage — all risks of physical loss subject only to enumerated exclusions?",
       "options": [
-        "Maximum draft permitted through the Strait of Hormuz at low tide",
-        "Maximum dimensions to transit the original Panama Canal lock chambers",
-        "Maximum beam to berth at Rotterdam's Europoort without tug assistance",
-        "Maximum LOA permitted under SOLAS Chapter II-1 structural load rules"
+        "ICC (B) — covers a named list of perils including earthquake, lightning, and washing overboard",
+        "ICC (C) — covers major casualties only: fire, explosion, stranding, sinking, collision",
+        "ICC (A) — all risks of physical loss or damage, subject to specific exclusions",
+        "ICC (War) — covers war, capture, seizure, and political violence perils"
       ],
-      "correct": 1,
-      "why": "Panamax is defined by the original Panama Canal lock dimensions: roughly 294m LOA, 32.3m beam, 12m draft — the maximum that could squeeze through before the 2016 expansion.",
-      "deepDive": "The Panamax size class — roughly 60,000–80,000 DWT for bulk carriers, 4,000–5,000 TEU for container ships — was defined for decades by the original Panama Canal lock dimensions: 305m length, 33.5m beam, 12.04m draft. When the expanded New Panamax locks opened in 2016, accepting vessels up to 366m x 49m x 15.2m, a new class emerged: Neopanamax, carrying up to ~14,000 TEU. Kamsarmax is a further refinement — up to 229m length to fit the berths at Kamsar, Guinea. For bulk carriers, Supramax (~50,000–60,000 DWT) and Ultramax (~60,000–65,000 DWT) are the flexible general-purpose workhorses beneath Panamax. Understanding vessel size classes is commercial shipping fundamentals: they directly determine which ports, berths, and trade lanes are physically viable, shaping carrier network design and freight economics."
+      "correct": 2,
+      "why": "ICC (A) is the broadest standard marine cargo clause — it covers all fortuitous losses except those specifically excluded, unlike ICC (B) and (C) which rely on named-peril lists.",
+      "deepDive": "The Institute Cargo Clauses, maintained by the Lloyd's Market Association, operate in three tiers. ICC (C) is narrowest: fire, explosion, stranding, sinking, collision, jettison — catastrophic events only. ICC (B) adds named perils: earthquake, lightning, washing overboard, entry of sea water. ICC (A) covers all risks of physical loss or damage fortuitously caused, with exclusions for inherent vice, wilful misconduct, ordinary leakage/wear, delay, and war/strikes (the latter two added via separate War and SRCC clauses costing extra premium). The critical qualifier is 'fortuitous' — ICC (A) does not cover inevitable losses from the nature of the cargo itself (e.g., fresh produce decaying in transit without refrigeration failure). Underwriters price ICC (A) based on commodity, packaging quality, stowage position, vessel age, and voyage route. Temperature-sensitive cargo — pharmaceuticals, cut flowers, fresh food — often requires additional Survey Warranty endorsements and specialist cold-chain cover. A common misconception: ICC (A) covers commercial risk like price drops or market rejection. It does not — only physical loss or damage qualifies."
     },
     {
       "n": 4,
       "topic": "domain",
-      "subtopic": "port_ops",
-      "stem": "In container port operations, a 'berth window' refers to which specific concept?",
+      "subtopic": "compliance",
+      "stem": "IMO DCS and EU MRV both require vessel fuel consumption reporting annually. What is the primary difference in geographic scope between the two regimes?",
       "options": [
-        "The glass enclosure atop a port control tower used for visual vessel traffic surveillance",
-        "The pre-negotiated time slot during which a vessel is scheduled to occupy and work at a terminal berth",
-        "The maximum number of containers a terminal can store per square metre of yard area",
-        "The minimum water-column clearance between a vessel's keel and the seabed at lowest astronomical tide"
+        "DCS applies only to vessels above 5,000 GT; EU MRV covers all vessels above 400 GT globally",
+        "DCS has global voyage coverage; EU MRV applies only to voyages to, from, or between EU/EEA ports",
+        "DCS requires third-party accredited verification; EU MRV is self-certified by the shipping company",
+        "DCS covers CO₂ only; EU MRV captures all six Kyoto Protocol greenhouse gases"
       ],
       "correct": 1,
-      "why": "A berth window is the pre-agreed time slot granted by a terminal to a vessel operator, specifying arrival window, expected departure, and crane allocation.",
-      "deepDive": "A berth window is a pre-negotiated time slot granted by a terminal to a carrier, specifying the arrival window, working hours, crane allocation, and expected departure. Missing a berth window — due to weather, bunker delay, or schedule slippage — means the vessel must anchor at roads (waiting anchorage), incurring demurrage and disrupting downstream port calls across the rotation. Carriers negotiate berth windows as part of their terminal service agreements; premium windows at congested hubs (Singapore, Rotterdam, Shanghai) cost more. The concept gained urgency post-2021: when vessels bunch up due to port congestion, berth windows collapse, crane productivity falls, and the schedule reliability that shippers pay for disappears. Berth productivity (moves per crane-hour) and berth occupancy rate are the two key terminal KPIs that determine whether a window holds. Gemini Cooperation's explicit 90%+ schedule reliability target is partly built on securing guaranteed berth windows at partner terminals."
+      "why": "IMO DCS applies to all voyages globally; EU MRV only captures voyages touching EU/EEA ports — creating parallel reporting burdens for operators on international routes.",
+      "deepDive": "Shipping's carbon reporting has two overlapping but distinct regimes. The IMO Data Collection System (DCS), mandatory under MARPOL Annex VI since 2019, requires vessels above 5,000 GT to report annual fuel consumption data globally — all voyages, all ports. The EU Monitoring, Reporting and Verification (MRV) Regulation, updated under Fit for 55, requires monitored and independently verified CO₂ reporting for voyages involving EU/EEA ports, regardless of flag state. From 2024, EU MRV data feeds directly into the EU Emissions Trading System (ETS) — making it financially material, not just administrative. Operators must purchase carbon allowances for covered voyages, with the cost borne by ship owners (who increasingly pass it to charterers via contractual clauses). Both DCS and MRV require third-party verification in practice — the difference is that EU MRV verification must be done by an accredited verifier under specific EU standards. A non-EU flagged vessel calling Rotterdam is fully subject to EU MRV and ETS. Operators running Asia-Europe routes face DCS (all legs) and EU MRV+ETS (EU port legs) simultaneously."
     },
     {
       "n": 5,
       "topic": "domain",
-      "subtopic": "liner_alliances",
-      "stem": "After departing 2M in January 2025, MSC now operates the world's largest container fleet primarily as which of the following?",
+      "subtopic": "industry_econ",
+      "stem": "Ultra-large container vessels (24,000+ TEU) offer lower slot costs per TEU than mid-size vessels ONLY when which condition holds?",
       "options": [
-        "A fully independent mega-carrier deploying 800+ vessels without fixed alliance slot commitments",
-        "An anchor member of the Premier Alliance alongside ONE, HMM and Yang Ming",
-        "A sub-alliance partner of CMA CGM within the Ocean Alliance on Asia-Europe strings",
-        "A bilateral slot-sharing partner with COSCO on Transpacific eastbound services"
+        "The vessel operates at high utilization rates, typically above 80-85% of capacity",
+        "Port handling fees are structured per-call rather than as a per-TEU throughput charge",
+        "Bunker prices are below $400/mt, reducing fuel's share of total voyage cost",
+        "The vessel operates under an open registry, reducing crew and tax costs materially"
       ],
       "correct": 0,
-      "why": "Post-2M, MSC operates independently as the world's largest carrier by fleet size — over 800 vessels — without a formal East-West alliance commitment.",
-      "deepDive": "The 2025 liner alliance restructure was the most dramatic since the alliance era began. Maersk and Hapag-Lloyd formed Gemini Cooperation, prioritising schedule reliability (targeting 90%+ on-time performance). ONE, HMM, and Yang Ming launched the Premier Alliance. Ocean Alliance (CMA CGM, COSCO, Evergreen) continued largely intact. MSC, departing 2M when Maersk pivoted to Gemini, operates as the world's largest carrier independently — a fleet exceeding 800 vessels and roughly 6 million TEUs of capacity. MSC's independence strategy gives it maximum flexibility in rate-setting and network design but lacks the schedule-reliability marketing narrative of Gemini. For shippers, the restructure matters: Gemini promises 90%+ schedule reliability vs. an industry average of roughly 50%. For logistics companies like MGH, knowing which alliance covers which corridor and what reliability they deliver is essential for carrier selection and contract negotiation."
+      "why": "The unit-cost advantage of ULCVs only materialises at high utilization; below roughly 75-80% load factor, fixed costs overwhelm the economies of scale and slot costs invert.",
+      "deepDive": "Ultra-large container vessels (ULCVs) above 20,000 TEU cost $150-200M and run $30,000-40,000/day in operating expenses. Their economic logic is straightforward: spread a massive fixed cost base across more slots to achieve a lower unit cost per TEU. At 95% utilisation, a 24,000 TEU ULCV can deliver a slot cost $200-300 cheaper than a 14,000 TEU vessel on the same route. But below 70-75% utilisation — common in demand downturns — the calculus reverses: fixed costs don't fall, port call fees are largely fixed per-call regardless of box count, and ULCVs' deep draft requirements may force costly port deviations or lightening operations. This is precisely why carriers blank sailings rather than sail half-empty: running a ULCV at 60% undermines the entire unit-cost thesis and destroys spot rates in the process. The industry calls this 'capacity discipline.' It also explains why ULCV deployment concentrates on the highest-volume lanes — Asia-Europe, transpacific — where achieving 85%+ utilisation consistently is plausible, not on thinner trade lanes where mid-size vessels are more economic."
     },
     {
       "n": 6,
       "topic": "gk",
-      "subtopic": "literature",
-      "stem": "The literary technique of 'stream of consciousness,' as used in James Joyce's Ulysses (1922) and Virginia Woolf's Mrs Dalloway (1925), is best characterised as which of the following?",
+      "subtopic": "mathematics",
+      "stem": "Gödel's First Incompleteness Theorem (1931) proves which of the following about sufficiently powerful formal mathematical systems?",
       "options": [
-        "A narrative device where the author directly interrupts the story to address the reader and comment on the plot",
-        "An unbroken interior monologue replicating the associative, fragmented flow of a character's thoughts without editorial order",
-        "A plot structure following events in strict chronological sequence to mirror real-time conscious experience",
-        "The use of an unreliable narrator whose reported perceptions are shown to diverge systematically from actual events"
+        "Such systems contain true statements that cannot be proven within the system itself",
+        "Any sufficiently complex system will eventually generate internal contradictions",
+        "No mathematical proof can be verified in polynomial time without a quantum computer",
+        "Irrational numbers cannot be formally defined within any axiomatic set theory"
       ],
-      "correct": 1,
-      "why": "Stream of consciousness attempts to replicate the unfiltered, associative, fragmentary flow of a character's inner thoughts — as they actually occur, without authorial tidying.",
-      "deepDive": "Stream of consciousness (a term borrowed from William James's 1890 psychology text) attempts to render a character's inner mental life as it actually flows — associative, non-linear, fragmented, interrupted by sense-impressions and memory. Joyce's Ulysses pushed it furthest in its final chapter (Molly Bloom's unpunctuated 40-page monologue), while Woolf used a more lyrical, modulated version in Mrs Dalloway and To the Lighthouse. Predecessors include Dostoevsky's interior monologues and Edouard Dujardin's 1887 novella Les lauriers sont coupés, which Joyce acknowledged. The technique reflects Modernism's core conviction that outward events matter less than the subjective experience of consciousness itself. Samuel Beckett, a Joyce protégé, took it further still — stripping it down to near-silence in Molloy and The Unnamable. Contrast with free indirect discourse (Austen, Flaubert), which blends narrator and character voice without full immersion."
+      "correct": 0,
+      "why": "Gödel proved that any consistent, sufficiently expressive formal system contains true but unprovable statements — a foundational limit on what proof can achieve.",
+      "deepDive": "Kurt Gödel's 1931 incompleteness theorems shattered David Hilbert's formalist program: the dream that mathematics could be grounded in a complete, consistent axiomatic system from which all mathematical truth would follow. The First Incompleteness Theorem shows that in any formal system powerful enough to express basic arithmetic, there exist 'Gödel sentences' — statements that assert their own unprovability — which are true but cannot be proven within the system. The Second Incompleteness Theorem adds that such a system cannot prove its own consistency. The practical implication: no matter how many axioms you add, there will always be mathematical truths that escape the system's reach. This permanently changed the philosophy of mathematics and directly influenced Turing's halting problem (1936) — the proof that no algorithm can determine whether an arbitrary program halts — and modern theoretical computer science's concept of undecidability. A key misconception: Gödel didn't prove that mathematics is 'broken' or unreliable. He proved it is irreducibly incomplete — which is a different and subtler claim. Mathematics remains extraordinarily reliable for its purposes; it simply cannot be its own complete foundation."
     },
     {
       "n": 7,
       "topic": "gk",
-      "subtopic": "religion",
-      "stem": "In Islamic jurisprudence, 'ijma' ranks third in the classical usul al-fiqh (sources of law) hierarchy. Which statement most accurately defines it?",
+      "subtopic": "history",
+      "stem": "The 1648 Peace of Westphalia is cited as the birth of the modern state system. Which core principle did it enshrine in European political order?",
       "options": [
-        "Individual scholarly reasoning by analogy from the Quran and Sunnah, applied to new cases",
-        "The consensus of qualified Islamic scholars on a legal question, regarded as binding in classical Sunni jurisprudence",
-        "The authenticated collection of the Prophet Muhammad's sayings and actions transmitted through verified chains",
-        "The custom or practice of a particular Muslim community, treated as a supplementary legal source"
+        "The right of all peoples to democratic self-determination, regardless of their ruler",
+        "State sovereignty and the right of rulers to determine their territory's religious confession without external interference",
+        "Permanent international arbitration courts with binding authority over inter-state disputes",
+        "Prohibition of mercenary armies and mandatory standing national forces for all signatories"
       ],
       "correct": 1,
-      "why": "Ijma is the consensus of the Muslim scholarly community on a point of Islamic law; it ranks third in the classical hierarchy (after Quran and Sunnah) and is regarded as binding by most Sunni schools.",
-      "deepDive": "Islamic jurisprudence derives from four classical usul (sources): the Quran, the Sunnah (hadith — authenticated reports of the Prophet's words and actions), Ijma (scholarly consensus), and Qiyas (analogical reasoning). Ijma historically required agreement among all qualified jurists of a given generation — an almost impossible standard that prompted centuries of debate about whose consensus counts, over what time period, and whether tacit non-objection is sufficient. Sunni traditions accord Ijma high authority (some schools treat it as near-infallible); Shia jurisprudence places greater weight on the rulings of the Imam. In contemporary Islamic finance — directly relevant for Bangladesh, where Islamic banking holds ~35% of deposits — Sharia boards function as a practical form of institutional ijma, certifying products' compliance with Islamic law. Fatwas that achieve wide ijma spread rapidly across the Muslim world; contested ones create fiqh diversity across the four Sunni madhabs."
+      "why": "Westphalia's cuius regio, eius religio principle evolved into secular state sovereignty — the legal cornerstone of the modern international order's norm of non-interference.",
+      "deepDive": "The Peace of Westphalia (two treaties: Osnabrück and Münster, 1648) ended both the Thirty Years' War in the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic. Its foundational innovation was codifying that rulers held sovereign authority within their territories, including the right to determine the religious confession of their realm (cuius regio, eius religio — 'whose realm, his religion'). Crucially, it implicitly recognized that external powers — including the Papacy — could not legitimately dictate a state's internal arrangements. International relations scholars call this the 'Westphalian system,' though historians vigorously debate how transformative 1648 actually was versus a gradual evolution over the following century. Today, the principle is under qualified erosion: the Responsibility to Protect (R2P) doctrine, ICC universal jurisdiction, WTO dispute resolution, and unilateral sanctions all represent departures from pure Westphalian sovereignty. The tension between sovereign non-interference and human rights norms — most visible in debates over humanitarian intervention — is the defining fault line of contemporary international law. Understanding Westphalia is essential context for debates about China's sovereignty claims (Taiwan, Xinjiang) and Western interventionist frameworks."
     },
     {
       "n": 8,
       "topic": "gk",
-      "subtopic": "pop_culture",
-      "stem": "The term 'parasocial relationship,' first coined by Horton and Wohl in 1956, describes which specific dynamic between audiences and media figures?",
+      "subtopic": "political_theory",
+      "stem": "In Rawls' 'A Theory of Justice,' the 'veil of ignorance' is a hypothetical device intended to derive which of the following?",
       "options": [
-        "A paid sponsorship arrangement between a content creator and a brand, simulating authentic endorsement",
-        "The sense of intimacy or friendship audiences develop with media figures who cannot reciprocate the relationship",
-        "Collaborative content creation between two online creators with strategically overlapping fanbases",
-        "The algorithmic feedback loop that amplifies extreme content through repeated viewer engagement signals"
+        "Principles for determining whether existing laws are internally self-consistent",
+        "Principles of justice that rational persons would choose without knowing their social position, talents, or class",
+        "The minimum income required for meaningful democratic participation",
+        "How cultural background and upbringing shape individual moral intuitions over time"
       ],
       "correct": 1,
-      "why": "Parasocial relationships are one-sided emotional bonds viewers form with media personalities — the audience feels genuine closeness, but the figure cannot reciprocate or even know them.",
-      "deepDive": "Donald Horton and Richard Wohl introduced the term in 1956 to describe how radio and TV audiences felt genuine intimacy with performers who could not interact back. The dynamic intensifies sharply with social media: creators post daily vlogs, reply selectively to comments, and narrate personal struggles — heightening the illusion of friendship at scale. Research shows parasocial relationships can reduce loneliness and boost audience wellbeing, but also produce 'parasocial breakups' — genuine grief when a creator goes on hiatus, changes persona, or is 'cancelled.' For commercial strategy, parasocial bonds explain influencer marketing's outsized ROI: a YouTube audience trusts a creator's product endorsement the way they would trust a close friend's, bypassing the scepticism that filters traditional advertising. South Asian digital creators — in Bangladesh, India, and Pakistan — have replicated this pattern at massive scale on YouTube and Instagram, making parasocial dynamics central to the regional creator economy."
+      "why": "The veil of ignorance strips away self-interested knowledge to produce impartial principles of justice — Rawls' method for grounding liberal egalitarianism in rational choice.",
+      "deepDive": "John Rawls published A Theory of Justice in 1971 — arguably the most influential work in 20th-century political philosophy. His central device: imagine choosing the basic structure of society from an 'original position' behind a 'veil of ignorance' — without knowing your class, wealth, talents, race, gender, or even which generation you belong to. Rawls argues rational agents in this position would choose two principles: (1) equal basic liberties for all, and (2) the 'difference principle' — social and economic inequalities are only justified if they maximally benefit the least-advantaged members of society. The difference principle is a sophisticated egalitarianism: not strict equality, but inequality structured to raise the floor. Critics from the libertarian right (Robert Nozick, in Anarchy, State and Utopia) argued that the veil ignores historical entitlement to property — that how you came to hold something matters, not just whether distribution is fair. Critics from the left argued the original position is itself ideologically loaded. Rawls later revised and extended his framework in Political Liberalism (1993). His theory underpins much of modern welfare state justification and debates about progressive taxation, healthcare access, and educational opportunity as matters of justice rather than charity."
     },
     {
       "n": 9,
       "topic": "gk",
-      "subtopic": "geography",
-      "stem": "Which combination of factors best explains why the Gangetic Plain supports one of the world's highest agricultural population densities?",
+      "subtopic": "economics",
+      "stem": "In the Mundell-Fleming model, a small open economy with a FIXED exchange rate and perfect capital mobility finds fiscal policy is ineffective. The core mechanism is:",
       "options": [
-        "Warm ocean currents on both flanks keep temperatures frost-free year-round, enabling continuous cropping",
-        "Deep alluvial soils deposited by Himalayan rivers, reliable monsoon rainfall, and flat terrain ideal for extensive irrigation",
-        "Ancient Roman-era irrigation canals maintained continuously for 2,000 years underpin the plain's productivity",
-        "An extreme continental climate with very long summer days enabling triple-cropping of rice without irrigation"
+        "The central bank automatically sterilizes fiscal spending through open market bond operations",
+        "Fiscal stimulus attracts capital inflows that threaten currency appreciation, forcing the central bank to intervene and reverse the monetary expansion, fully crowding out the original stimulus",
+        "Ricardian equivalence causes households to fully offset fiscal transfers with increased saving",
+        "Higher government spending directly displaces private investment at a one-to-one ratio via credit rationing"
       ],
       "correct": 1,
-      "why": "The Gangetic Plain's extraordinary fertility comes from Himalayan alluvial deposits, monsoon water (700-1,500mm annually), and flat topography enabling large-scale gravity-fed and pump irrigation.",
-      "deepDive": "The Gangetic Plain stretches ~2,400 km from the Punjab in Pakistan through northern India into Bangladesh. It is underlaid by deep alluvial deposits — glacial meltwater and river sediment from the Himalayas built up over millions of years, creating soils among the world's richest in nitrogen, phosphorus, and organic matter. The Indian Summer Monsoon (June–September) delivers 700–1,500mm of rain annually, replenishing aquifers tapped by millions of tube-wells. Flat terrain enables gravity-fed and pump irrigation at scale, which unlocked Green Revolution double and triple cropping from the 1960s. Bangladesh sits at the eastern extremity — the Brahmaputra-Ganges-Meghna delta — where active silt deposition still creates new chars (river islands) annually. Population density here exceeds 1,200 people/km² in Bangladesh, the product of millennia of agricultural productivity. Climate change is the plain's greatest vulnerability: erratic monsoon onset, groundwater depletion from over-extraction, and sea-level rise threatening the delta."
+      "why": "Under fixed FX with perfect capital mobility, fiscal expansion → capital inflows → currency pressure → central bank FX intervention → monetary reversal → zero net output effect.",
+      "deepDive": "The Mundell-Fleming model (Robert Mundell and Marcus Fleming, 1960s) extends IS-LM to open economies with capital flows. Its counterintuitive result for fixed exchange rates: fiscal expansion raises domestic interest rates → attracts foreign capital inflows → creates upward pressure on exchange rate → central bank sells domestic currency to maintain the peg → money supply expands, domestic rates return to world rates → the monetary expansion fully offsets the fiscal impulse → net output effect is zero. Effectively, the exchange rate target forces the central bank to accommodate any fiscal-induced interest rate deviation, neutralising the stimulus. This contrasts sharply with floating exchange rates, where fiscal expansion raises rates, attracts capital, appreciates currency, and worsens the trade balance — partially but not fully crowding out. Monetary policy is highly effective under fixed rates because the money supply is endogenous to the peg. This insight informed decades of IMF crisis advice — particularly for small developing economies maintaining dollar pegs — and helps explain why Bangladesh, with its managed taka band and relatively open capital account, faces constrained fiscal independence. It also underpins why the eurozone peripheral crisis (2010-12) was so severe: members lost both exchange rate and independent monetary policy simultaneously."
     },
     {
       "n": 10,
       "topic": "gk",
-      "subtopic": "physical_science",
-      "stem": "Why does deep ocean water appear blue even on overcast days when no blue sky is visible overhead?",
+      "subtopic": "life_science",
+      "stem": "CRISPR-Cas9 cuts both strands of a target DNA sequence. What does the cell do IMMEDIATELY after the double-strand break, determining the edit outcome?",
       "options": [
-        "Dissolved salt ions selectively reflect blue wavelengths of sunlight back toward the surface",
-        "Water molecules preferentially absorb red and green wavelengths while scattering blue light — producing blue colour intrinsic to water itself",
-        "The ocean surface acts as a perfect specular mirror, simply reflecting the blue of the sky above",
-        "Phytoplankton throughout the water column produce blue bioluminescent pigment as a photosynthesis byproduct"
+        "The cell's immune system recognises the cut site and destroys the edited cell via apoptosis",
+        "The cell deploys either NHEJ (error-prone, causing indels) or HDR (precise, requiring a template) to repair the break",
+        "The guide RNA permanently occupies the cut site, preventing re-ligation until the desired edit is made",
+        "Cas9 makes repeated cuts until the target sequence is fully degraded and removed from the genome"
       ],
       "correct": 1,
-      "why": "Water molecules absorb longer-wavelength red and green light within the first few meters, and blue light scatters more readily via Raman scattering — giving deep water its blue colour independent of the sky.",
-      "deepDive": "Pure water is blue because water molecules absorb light selectively: red wavelengths (~650-700nm) are absorbed within the first few metres; green follows. Blue light (~450nm) penetrates deepest and also undergoes Raman scattering within the water molecules themselves. This is why a large tank of pure water in a white room appears distinctly blue-ish — ruling out sky reflection as the primary cause. Deep ocean trenches appear royal blue even on totally overcast days, confirming the effect is intrinsic to water. Coastal waters often look green (phytoplankton chlorophyll absorbs blue and red, reflects green) or brown (suspended river sediment scatters all wavelengths). The Bay of Bengal appears murkier and greener than the Andaman Sea because of sediment from Himalayan rivers (Ganga, Brahmaputra) carried by Bangladesh's river system. For maritime navigation, water colour and light-penetration depth (Secchi depth) serve as rough proxies for water clarity and biological productivity."
+      "why": "The cell's own repair machinery — error-prone NHEJ or precise HDR — takes over after the Cas9 cut; the edit outcome depends entirely on which pathway activates.",
+      "deepDive": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats) was adapted from a bacterial immune mechanism by Jennifer Doudna and Emmanuelle Charpentier, earning them the 2020 Nobel Prize in Chemistry. The editing system works in three steps: (1) a 20-nucleotide guide RNA (gRNA) is designed to match the target DNA sequence; (2) the gRNA-Cas9 complex scans the genome until it finds the matching sequence adjacent to a PAM motif (typically NGG); (3) Cas9 makes a blunt double-strand cut. The cell's response determines everything. Non-Homologous End Joining (NHEJ) is fast but sloppy — it reattaches broken ends without a template, introducing insertions or deletions (indels) that usually disrupt gene function. This is used therapeutically to knock out disease-causing genes. Homology-Directed Repair (HDR) uses a provided DNA template to make precise edits, but is less efficient and only works in cells in S or G2 phase of the cell cycle. Therapeutic applications include the sickle cell disease and beta-thalassaemia cure Casgevy (approved 2023, using base editing and prime editing variants) and emerging cancer immunotherapy uses. In vivo delivery remains the key bottleneck: getting Cas9 into the right cell type without immune rejection, off-target editing, or mosaicism."
     }
   ]
 };
