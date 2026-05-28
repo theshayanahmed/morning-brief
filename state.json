@@ -1,6 +1,6 @@
 {
   "streak": 0,
-  "last_session_date": "2026-05-27",
+  "last_session_date": "2026-05-28",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -171,7 +171,17 @@
     "Qawwali's legitimacy as Islamic devotional practice is contested internally within Muslim communities primarily because of which feature?",
     "Berlin and Kay's 1969 color-naming study is considered key evidence against the 'strong' Sapir-Whorf hypothesis. Why?",
     "The Duckworth-Lewis-Stern (DLS) method replaced the 'most productive overs' rain rule in cricket. What was the critical structural flaw in the original rule?",
-    "In Theravada Buddhism, the Pali term 'bodhisatta' differs fundamentally from the Mahayana 'bodhisattva'. What is the core distinction?"
+    "In Theravada Buddhism, the Pali term 'bodhisatta' differs fundamentally from the Mahayana 'bodhisattva'. What is the core distinction?",
+    "Under Incoterms 2020, DPU (Delivered at Place Unloaded) and DAP (Delivered at Place) are nearly identical — except for one critical difference. What is it?",
+    "A shipper presents a 'to order' Bill of Lading that has been endorsed in blank by the original shipper. In terms of title to the goods, what does blank endorsement legally create?",
+    "A shipper declares high-value electronics cargo as 'general cargo' to obtain a carrier's lower FAK (Freight All Kinds) rate rather than the applicable commodity rate. What is the primary commercial and legal risk of this misdeclaration?",
+    "A freight forwarder consolidates cargo from multiple Dhaka exporters onto a single MAWB to Frankfurt. HAWBs are issued to each individual shipper. If one shipper's cargo is damaged in transit, what is the correct liability chain under the Montreal Convention?",
+    "Bangladesh is not a member of RCEP (Regional Comprehensive Economic Partnership). What is the most concrete competitive disadvantage this creates for Bangladeshi RMG exporters relative to RCEP members like Vietnam and Cambodia?",
+    "The Wakhan Corridor — a narrow finger of Afghan territory extending east to the Chinese border — was deliberately created by late 19th-century Great Powers. What was its primary geopolitical purpose?",
+    "The Meissner effect is a hallmark of superconductivity, distinguishing a true superconductor from a perfect conductor. What does the Meissner effect involve?",
+    "Japanese Nobel laureate Kenzaburo Oe (Nobel Prize 1994) drew on a deeply personal experience for his most celebrated novel, 'A Personal Matter' (1964). What is the novel's central subject?",
+    "HBO's 'The Wire' (2002-2008), created by David Simon, is structurally unique: each season takes a different Baltimore institution as its lens. Which of these correctly matches a season number to its thematic focus?",
+    "At the 1944 Bretton Woods Conference, John Maynard Keynes put forward a radically different international monetary architecture from what was ultimately adopted. What was the central feature of his rejected proposal?"
   ],
   "learn_history": [
     {
@@ -263,13 +273,18 @@
       "date": "2026-05-27",
       "topic": "The Lender of Last Resort: Bagehot's Rule and the Limits of Central Bank Backstops",
       "bucket": "economics"
+    },
+    {
+      "date": "2026-05-28",
+      "topic": "High-Bandwidth Memory: Why the AI Era Is a Memory Race, Not Just a Compute Race",
+      "bucket": "semiconductor_foundations"
     }
   ],
   "curriculum_progress": {
     "incoterms": {
-      "count": 4,
-      "last_seen": "2026-05-24",
-      "difficulty": 3,
+      "count": 5,
+      "last_seen": "2026-05-28",
+      "difficulty": 4,
       "rolling_score": []
     },
     "documentation": {
@@ -279,9 +294,9 @@
       "rolling_score": []
     },
     "bill_of_lading": {
-      "count": 4,
-      "last_seen": "2026-05-24",
-      "difficulty": 3,
+      "count": 5,
+      "last_seen": "2026-05-28",
+      "difficulty": 4,
       "rolling_score": []
     },
     "customs": {
@@ -303,9 +318,9 @@
       "rolling_score": []
     },
     "pricing": {
-      "count": 4,
-      "last_seen": "2026-05-24",
-      "difficulty": 3,
+      "count": 5,
+      "last_seen": "2026-05-28",
+      "difficulty": 4,
       "rolling_score": []
     },
     "liner_alliances": {
@@ -315,9 +330,9 @@
       "rolling_score": []
     },
     "air_freight": {
-      "count": 4,
-      "last_seen": "2026-05-24",
-      "difficulty": 3,
+      "count": 5,
+      "last_seen": "2026-05-28",
+      "difficulty": 4,
       "rolling_score": []
     },
     "multimodal": {
@@ -333,9 +348,9 @@
       "rolling_score": []
     },
     "ftas": {
-      "count": 4,
-      "last_seen": "2026-05-24",
-      "difficulty": 3,
+      "count": 5,
+      "last_seen": "2026-05-28",
+      "difficulty": 4,
       "rolling_score": []
     },
     "marine_insurance": {
@@ -389,21 +404,21 @@
   },
   "gk_progress": {
     "history": {
-      "count": 7,
-      "last_seen": "2026-05-26",
-      "difficulty": 3,
+      "count": 8,
+      "last_seen": "2026-05-28",
+      "difficulty": 4,
       "rolling_score": []
     },
     "geography": {
-      "count": 6,
-      "last_seen": "2026-05-25",
-      "difficulty": 3,
+      "count": 7,
+      "last_seen": "2026-05-28",
+      "difficulty": 4,
       "rolling_score": []
     },
     "physical_science": {
-      "count": 6,
-      "last_seen": "2026-05-25",
-      "difficulty": 2,
+      "count": 7,
+      "last_seen": "2026-05-28",
+      "difficulty": 3,
       "rolling_score": []
     },
     "life_science": {
@@ -419,9 +434,9 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 5,
-      "last_seen": "2026-05-25",
-      "difficulty": 3,
+      "count": 6,
+      "last_seen": "2026-05-28",
+      "difficulty": 4,
       "rolling_score": []
     },
     "arts": {
@@ -467,167 +482,167 @@
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 5,
-      "last_seen": "2026-05-25",
-      "difficulty": 2,
+      "count": 6,
+      "last_seen": "2026-05-28",
+      "difficulty": 3,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "FedEx, UPS, and DHL Express are classified as 'integrators' rather than conventional cargo airlines. Which capability specifically defines the integrator model?",
+        "subtopic": "incoterms",
+        "stem": "Under Incoterms 2020, DPU (Delivered at Place Unloaded) and DAP (Delivered at Place) are nearly identical — except for one critical difference. What is it?",
         "options": [
-          "Ownership of wide-body freighter aircraft capable of intercontinental range",
-          "End-to-end custody of the shipment — from pickup through customs clearance to door delivery — under a single contract",
-          "IATA Cargo Account Settlement System (CASS) membership enabling direct carrier billing",
-          "Authorization to handle IATA DGR Class 1 dangerous goods on passenger aircraft"
+          "DPU applies to sea and inland waterway transport only; DAP covers all modes",
+          "Under DPU, the seller bears the cost and risk of unloading at the named destination; under DAP, unloading is the buyer's responsibility and risk",
+          "Under DAP, the seller must clear the goods for import; under DPU, import clearance falls to the buyer",
+          "Risk under DPU transfers at the origin terminal; risk under DAP transfers at the final named place"
         ],
         "correct": 1,
-        "why": "Integrators own every link — aircraft, trucks, sorting hubs, customs agents, last-mile delivery — enabling guaranteed time-definite service. Traditional cargo airlines only fly the air leg.",
-        "deepDive": "Integrators like FedEx (founded 1973), UPS Airlines, and DHL Express built their model around owning every link in the logistics chain. FedEx's Memphis Superhub processes roughly 1.4 million packages per night using a hub-and-spoke model designed by Frederick Smith. Traditional cargo airlines like Cargolux or Korean Air Cargo fly point-to-point; forwarders and customs brokers handle everything else. The integrator model commands a significant price premium because it shoulders end-to-end liability and delivers time-definite guarantees. A common misconception: 'integrator' means 'largest carrier' — it is a structural definition about vertical integration of the supply chain, not size. The model is capital-intensive but delivers pricing power because customers pay for certainty, not merely transport."
+        "why": "DPU replaced DAT in 2020 and is the only Incoterm requiring the seller to unload at destination — making DPU more seller-onerous than DAP for exactly one operation.",
+        "deepDive": "DPU (formerly DAT — Delivered at Terminal) was renamed to clarify it can apply to any named place, not just a terminal. The defining distinction from DAP is unloading: under DAP, risk and cost transfer when goods are placed at the buyer's disposal on the arriving conveyance, ready for unloading. Under DPU, the seller must physically unload and deliver. In practice, a DPU seller must arrange unloading equipment, bear damage risk during that operation, and absorb the unloading fee. Exporters frequently misquote DPU when they mean DAP — a costly error when dockside crane hire and liability fall on the wrong party. DAP is generally preferred by sellers for this reason."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "Anchorage (ANC) handles minimal passenger traffic yet ranks among the world's top 10 cargo airports by tonnage. What is the primary driver of its strategic role?",
+        "subtopic": "bill_of_lading",
+        "stem": "A shipper presents a 'to order' Bill of Lading endorsed in blank by the original shipper. In terms of title to the goods, what does blank endorsement legally create?",
         "options": [
-          "Alaska's liberal in-transit customs rules allow duty-free re-export of Asian goods",
-          "ANC lies on the Great Circle route between Northeast Asia and North America, minimizing actual flight distance",
-          "ANC is the only US airport with FAA-approved curfew-free 24/7 freighter operations",
-          "ANC hosts the world's largest refrigerated cold-chain hub for pharmaceutical airfreight"
+          "A non-negotiable document tied to the named consignee on the BL",
+          "A document where title vests in the issuing carrier until the goods are released",
+          "A bearer instrument — title passes to whoever physically holds the original BL",
+          "A straight BL where only the notify party can take delivery"
         ],
-        "correct": 1,
-        "why": "Earth's curvature means the Great Circle route from Tokyo or Shanghai to Chicago arcs through Alaskan airspace — ANC is a natural fuel stop that cuts thousands of kilometers off trans-Pacific routes.",
-        "deepDive": "For a 747-400F flying Tokyo to Chicago, the Great Circle distance via Anchorage is roughly 9,800 km — significantly less than the south-Pacific routing. ANC handles over 2 million metric tonnes of cargo annually despite having no major passenger hub, because range-limited freighters need a technical stop mid-Pacific. Modern 777F and 747-8F can overfly ANC nonstop on many routes with full loads, but ANC remains critical for older or maximally loaded aircraft. FedEx, UPS, Atlas Air, and most Asian pure freighter operators all use it. A persistent misconception is that ANC's importance is primarily about customs or tax rules — it is overwhelmingly geographic. The airport has invested heavily in ground handling, fuel storage, and cold-chain infrastructure to support this role."
+        "correct": 2,
+        "why": "Blank endorsement converts a 'to order' BL into a bearer instrument — whoever possesses the original document can present it and take delivery, regardless of name.",
+        "deepDive": "A 'to order' BL is negotiable by nature: the consignee field reads 'to order of shipper' or 'to order of [bank]'. To transfer title, the holder endorses it — either specifically (to a named party) or in blank (no name, just a signature). Blank endorsement makes it function like bearer paper: any holder can demand delivery. This is why banks financing international trade insist on holding original BLs — they are the pledge. Losing a blank-endorsed BL is equivalent to losing cash. Electronic BLs (eBLs) on platforms like WAVE or Bolero are specifically designed to replicate negotiability while preventing physical loss. Banks will typically only release payment under an LC once they receive the original endorsed BL."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "The DSV–DB Schenker deal (~$15B, 2024-25) would create the world's largest freight forwarder. What structural logic primarily drives forwarder-on-forwarder mega-mergers?",
+        "subtopic": "pricing",
+        "stem": "A shipper declares high-value electronics as 'general cargo' to obtain a carrier's lower FAK rate instead of the applicable higher commodity rate. What is the primary risk of this misdeclaration?",
         "options": [
-          "Eliminating IT duplication cuts per-shipment technology costs significantly",
-          "Scale improves negotiating leverage against ocean and air carriers on contracted buy-rates",
-          "Combined route networks eliminate competition on overlapping lanes, protecting yield",
-          "Regulatory arbitrage — large forwarders face lighter antitrust scrutiny than carriers"
+          "The carrier may retroactively apply the commodity rate but must honour the lower FAK liability cap",
+          "The carrier's own liability for the goods increases proportionally with the commodity rate",
+          "The shipper may face a misdeclaration surcharge and forfeit the right to claim against the carrier's standard cargo liability limits",
+          "The shipper is entitled to a refund if the commodity rate is later found inapplicable to the cargo"
         ],
-        "correct": 1,
-        "why": "Freight forwarding is a spread business: buy cheap from carriers, sell at a premium to shippers. Scale unlocks lower carrier buy-rates, expanding margin without raising prices.",
-        "deepDive": "When DSV acquired Panalpina in 2019 and Agility Logistics in 2021, each deal gave DSV more committed volume to offer carriers, unlocking progressively lower contract rates. The $15B DSV-Schenker deal adds network depth — Schenker's rail and contract logistics capability diversifies DSV's revenue mix beyond pure ocean and air. The EU antitrust review was extensive because the combined entity would control roughly 8-10% of global air and sea forwarding volumes. A common misconception: that mergers are primarily about eliminating headcount. While synergies from headcount matter, the strategic prize is carrier negotiating leverage and technology platform consolidation. The deal also reflects the broader trend of concentration — the top 5 forwarders now control approximately 30% of global forwarding revenues."
+        "correct": 2,
+        "why": "Misdeclaring cargo type can trigger surcharges and — critically — allow the carrier to disclaim liability since declared cargo description was inaccurate, voiding standard protections.",
+        "deepDive": "FAK rates cover a wide range of cargo under one flat rate, attracting shippers moving mixed loads. When cargo is knowingly misclassified to get a lower FAK rate, the risks include: (1) a misdeclaration surcharge, sometimes 3-5x the rate difference; (2) voidance of cargo insurance if the policy is linked to declared value; (3) loss of carrier liability protection, since Hague-Visby/COGSA carrier liability is tied to the BL description. Many service contracts explicitly prohibit FAK use for specified commodities. For electronics, a single container loss can exceed $1M. Consistent misdeclaration can also trigger customs investigations, as declared cargo descriptions cross-reference trade statistics and duty calculations."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "A shipper holds an NAC at $1,200/TEU Asia-Europe for 500 TEU/month. Three months in, carrier FAK rates drop to $900/TEU. What is the shipper's contractual position?",
+        "subtopic": "air_freight",
+        "stem": "A forwarder consolidates cargo from multiple Dhaka exporters onto a single MAWB to Frankfurt, issuing HAWBs to each shipper. If one shipper's cargo is damaged in transit, what is the correct liability chain under the Montreal Convention?",
         "options": [
-          "Shipper may exit the NAC immediately because market rates have fallen below contracted rate",
-          "Shipper is bound to the committed volume; shortfalling triggers penalty payments at the contracted rate",
-          "NAC rates are advisory; both parties renegotiate quarterly under FMC guidelines",
-          "NAC binds the carrier but not the shipper — shippers retain the right to book spot under US FMC rules"
+          "The airline's liability runs to the MAWB holder (the forwarder); each shipper's claim runs against the forwarder, not the airline",
+          "The airline bears full liability directly to each HAWB shipper under the Montreal Convention",
+          "Liability is pro-rated by weight across all HAWB shippers, paid directly by the airline",
+          "HAWB shippers can bypass the forwarder and claim directly from the airline under cargo insurance subrogation"
         ],
-        "correct": 1,
-        "why": "NACs create mutual commitment: shipper promises volume (MQC), carrier promises rate and space. Falling spot rates do not release the shipper from Minimum Quantity Commitment obligations.",
-        "deepDive": "Named Account Contracts sit between pure spot (no commitment) and formal service contracts. The shipper commits a Minimum Quantity Commitment — e.g., 500 TEU/month — and the carrier commits a rate and space guarantee. If the shipper falls short of MQC, shortfall liability applies: paying for phantom TEUs at the contracted rate. This is the core commercial risk of contracted freight: hedging against rate spikes while being exposed when markets fall. Smart commercial teams use a portfolio approach — partial NAC coverage, partial spot — to hedge both directions. A common misconception: that falling spot rates automatically void NAC obligations. They do not. In the US trade, service contracts are FMC-regulated; in other trades, NACs are bilateral agreements governed by contract law. The asymmetry worth knowing: carriers occasionally invoke force majeure clauses, but shippers rarely have symmetric exit rights when rates fall below contract."
+        "correct": 0,
+        "why": "Montreal Convention privity: the carrier's contract of carriage (the MAWB) is with the forwarder. Individual HAWB shippers have no direct claim against the airline.",
+        "deepDive": "The Montreal Convention 1999 governs international air cargo liability and its privity rule means the airline is liable only to its contracting party — the MAWB consignor, i.e., the forwarder acting as consolidator. Individual HAWB shippers must claim against the forwarder, who then claims against the airline on their behalf. This is why HAWB terms matter: a well-drafted HAWB passes Montreal Convention protections down (19 SDR/kg unless declared), caps the forwarder's own liability at the same limits, and preserves subrogation rights. The distinction collapses only in direct MAWB shipments where the shipper is named on the MAWB itself. Forwarders operating as NVOCCs in air are sometimes confused with this; in air, the MAWB holder has privity, full stop."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "The 'bullwhip effect' amplifies demand signals as they pass up supply chain tiers. Which intervention most directly attacks the root cause of the oscillation?",
+        "subtopic": "ftas",
+        "stem": "Bangladesh is not an RCEP member. What is the most concrete competitive disadvantage this creates for Bangladeshi RMG exporters versus RCEP members like Vietnam and Cambodia?",
         "options": [
-          "Building larger safety stock buffers at every tier to absorb demand variance",
-          "Sharing real-time point-of-sale data from the retailer directly with manufacturer and upstream suppliers",
-          "Reducing order frequency to weekly consolidated batches to smooth individual shipment patterns",
-          "Switching from JIT to JIC (just-in-case) inventory policy across all tiers simultaneously"
+          "Bangladesh faces no disadvantage because EU EBA preferences more than offset RCEP membership benefits",
+          "RCEP excludes all textile and apparel categories, making non-membership irrelevant for RMG",
+          "Bangladesh benefits indirectly via its bilateral FTA with China under RCEP's MFN extension clause",
+          "RCEP members can source inputs from any member country under cumulation rules, conferring a cost and rules-of-origin advantage in intra-RCEP markets that Bangladesh cannot match"
         ],
-        "correct": 1,
-        "why": "Bullwhip amplifies because each tier orders based on orders received, not actual end demand. Sharing real-time POS data collapses the information distortion that creates the effect.",
-        "deepDive": "Jay Forrester first described demand amplification in industrial supply chains in 1958; Hau Lee (Stanford) coined the 'bullwhip' term in a 1997 HBR paper. The effect has four root causes: demand signal processing, order batching, price fluctuation, and rationing games. The most elegant fix is Vendor Managed Inventory (VMI), where the supplier sees the retailer's actual stock levels and POS data and replenishes autonomously. Walmart's VMI arrangement with P&G in 1988 was the first large-scale deployment and reportedly reduced out-of-stocks by roughly 70%. A common misconception: that larger safety stocks fix bullwhip. They dampen consequences but don't fix the root — information distortion upstream. Real-time data sharing attacks the source. Post-COVID supply chain thinking has pushed many firms toward hybrid approaches: VMI for key suppliers plus modest strategic buffers for critical components."
+        "correct": 3,
+        "why": "RCEP's cumulation rules let members treat inputs from any member country as 'local' for origin purposes — dramatically lowering compliance costs and opening intra-regional supply chains Bangladesh cannot access.",
+        "deepDive": "RCEP covers 15 Asia-Pacific economies (ASEAN-10, China, Japan, South Korea, Australia, New Zealand). Its diagonal cumulation provisions mean a Vietnamese garment maker sourcing Chinese fabric and Korean synthetic yarn can count both as domestic content for rules-of-origin compliance across RCEP markets. Bangladesh, outside the bloc, must meet each market's individual origin requirements independently — sourcing fabric locally or from agreed bilateral partners. RCEP gives Vietnam and Cambodia preferential access to Chinese raw materials at lower cost, while Bangladesh competes at a structural disadvantage for intra-Asian orders. Bangladesh's push for bilateral FTA talks with ASEAN members partly reflects this gap. RCEP also creates a de facto preferential zone for intra-bloc logistics, sourcing, and investment that Bangladesh cannot tap."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Which film did Satyajit Ray specifically credit as the direct catalyst for his decision to direct — causing him to leave the cinema 'determined to make a film'?",
+        "subtopic": "geography",
+        "stem": "The Wakhan Corridor — a narrow finger of Afghan territory extending east to the Chinese border — was deliberately shaped by 19th-century Great Power rivalry. What was its primary geopolitical purpose?",
         "options": [
-          "Roberto Rossellini's 'Rome, Open City' (1945) — neorealism in wartime rubble",
-          "Vittorio De Sica's 'Bicycle Thieves' (1948) — vernacular realism with non-professional cast",
-          "Federico Fellini's 'La Strada' (1954) — allegorical rural journey in postwar Italy",
-          "Jean Renoir's 'The River' (1951) — filmed in Bengal and Ray's first encounter with a master"
+          "To prevent the British Indian empire and the Russian empire from sharing a common land border, maintaining a territorial buffer",
+          "To give Afghanistan direct access to China for trade along the eastern Silk Road",
+          "To provide Imperial Russia a land corridor toward the Indian Ocean, bypassing British naval dominance",
+          "To allow Persia to maintain territorial continuity with China and resist British encroachment from India"
         ],
-        "correct": 1,
-        "why": "Ray saw Bicycle Thieves in London in 1949 on a business trip and explicitly wrote it was the film that made him want to direct — directly inspiring Pather Panchali and the Apu trilogy.",
-        "deepDive": "Satyajit Ray was in London in 1949 for a Dumpy & Company design commission when he saw De Sica's Bicycle Thieves. He later wrote it was the film that made him want to direct. Pather Panchali (1955), shot over three years with a non-professional cast in rural Bengal, used available light, real locations, and vernacular dialogue — directly borrowing from Italian neorealism. The film won the Best Human Document prize at Cannes 1956, placing Indian art cinema on the global map. Jean Renoir's presence in Bengal during The River did influence Ray — they met and corresponded — but Bicycle Thieves was the catalytic work. French New Wave directors including Truffaut and Godard later acknowledged Ray's reciprocal influence. A common misconception: that Ray was primarily shaped by Hollywood. He admired De Sica and Renoir far more than classic American cinema."
+        "correct": 0,
+        "why": "The Wakhan Corridor was drawn in 1895 so the British and Russian empires never directly touched — Afghanistan served as the buffer strip between two expanding imperial systems.",
+        "deepDive": "The Wakhan Corridor is a direct legacy of the Great Game — the 19th-century imperial rivalry between Britain (protecting India) and Russia (expanding south into Central Asia). The Pamir Boundary Commission of 1895 drew the corridor's borders, assigning the narrow strip to Afghanistan (then effectively a British buffer state) to prevent a Russian-British land border. Today the corridor is 15-65km wide, borders Tajikistan, China, and Pakistan, and is one of the world's most inaccessible regions — home to Wakhi and Kyrgyz nomads. Post-2001, it gained attention as a Taliban supply route. China has built road infrastructure approaching from its side, making the corridor relevant again in Belt and Road geopolitics and cross-border security discussions."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "Qawwali's legitimacy as Islamic devotional practice is contested internally within Muslim communities primarily because of which feature?",
+        "subtopic": "physical_science",
+        "stem": "The Meissner effect is a hallmark of true superconductivity, distinguishing superconductors from perfect conductors. What does it specifically involve?",
         "options": [
-          "It incorporates musical instruments — harmonium, tabla, dholak — which stricter Sunni schools classify as impermissible",
-          "It uses Sanskrit words alongside Arabic and Persian, violating Arabic-only worship norms in orthodox practice",
-          "It originated in a Shi'a shrine tradition and was later appropriated by Sunni Sufi orders",
-          "Nusrat Fateh Ali Khan's estate holds performance rights, restricting qawwali outside Pakistan"
+          "The spontaneous emission of electric fields from the material's surface below the critical temperature",
+          "The complete expulsion of thermal energy to the environment, driving the material to absolute zero",
+          "The condensation of Cooper pairs onto the material surface, creating a quantum skin effect",
+          "The expulsion of magnetic fields from the interior of the material when cooled below the critical temperature"
         ],
-        "correct": 0,
-        "why": "The classical Islamic debate over sama (auditory mysticism) centers on music and instruments; Salafi and Deobandi scholars prohibit them, while Chishti Sufi orders permit qawwali as a form of dhikr.",
-        "deepDive": "Qawwali traces to 13th-century Chishti Sufism — specifically to Amir Khusrau, the poet-musician who served at Hazrat Nizamuddin Auliya's dargah in Delhi. Khusrau fused Persian, Turkish, Arabic, and Braj Bhasha poetic traditions. The harmonium was introduced to South Asia by 19th-century European missionaries before being adopted into the form. The Sufi theological defense rests on sama — music inducing hal, a state of spiritual ecstasy and heightened God-consciousness. Al-Ghazali defended it; Ibn Taymiyya condemned it. The debate remains live across South Asian Muslim communities. Nusrat Fateh Ali Khan (1948-1997) brought qawwali to global audiences through Peter Gabriel's WOMAD and film soundtracks. A common misconception: that all Sufi Muslims support qawwali — many Sufi orders outside the Chishti silsila do not practice it."
+        "correct": 3,
+        "why": "The Meissner effect is the expulsion of magnetic flux from a superconductor's interior — a perfect diamagnetic response that distinguishes it from a mere perfect conductor, which would trap existing flux.",
+        "deepDive": "Discovered by Walther Meissner and Robert Ochsenfeld in 1933, the Meissner effect occurs because superconductors develop surface currents that exactly cancel any applied magnetic field inside the material. A perfect conductor preserves whatever magnetic flux existed when it became superconducting; a superconductor actively expels it regardless of field history — this asymmetry is captured in the London equations. Practically, the Meissner effect enables magnetic levitation (maglev trains), MRI machines, and particle accelerator beam steering. High-temperature superconductors (cuprates, discovered 1986) exhibit the effect above liquid nitrogen temperature, making them economically viable. Room-temperature superconductivity remains the holy grail of condensed matter physics — each claimed discovery (like LK-99 in 2023) triggers enormous scientific and investment attention."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "Berlin and Kay's 1969 color-naming study is considered key evidence against the 'strong' Sapir-Whorf hypothesis. Why?",
+        "subtopic": "literature",
+        "stem": "Nobel laureate Kenzaburo Oe (Nobel Prize 1994) drew on deeply personal experience for 'A Personal Matter' (1964). What is the novel's central subject?",
         "options": [
-          "It showed all languages have the same number of color terms, proving a universal grammar",
-          "It revealed a universal hierarchy in basic color term development across cultures — suggesting perception drives language, not the reverse",
-          "It proved that bilingual speakers perceive colors identically regardless of their dominant language",
-          "It demonstrated that color perception is entirely cultural and therefore supports weak Whorf"
+          "Japan's psychological reckoning with its status as the only country struck by nuclear weapons in wartime",
+          "A father's moral crisis following the birth of his brain-damaged son — whether to accept or abandon the child",
+          "The long psychological shadow of Japan's colonial rule over Korea, told through a Japanese-Korean friendship",
+          "A soldier's haunted guilt over atrocities committed during the Imperial Army's campaign in China"
         ],
         "correct": 1,
-        "why": "Across 98 languages, color terms develop in a predictable universal sequence — implying perceptual categories are neurobiologically fixed, not linguistically constructed.",
-        "deepDive": "The Sapir-Whorf hypothesis exists in two versions. Strong linguistic determinism holds that language determines thought — you cannot perceive colors your language has no words for. Berlin and Kay (Basic Color Terms, 1969) analyzed 98 languages and found a universal hierarchy: if a language has only two color terms, they will be black and white; three terms always adds red next; then yellow or green; then blue — in that order, regardless of culture. This suggests perceptual categories are neurobiologically determined, directly refuting strong Whorf. Lera Boroditsky's more recent work shows weaker Whorfian effects (time conceptualization differs across cultures) but doesn't resurrect strong determinism. A common misconception: that Whorf was a professional linguist — he was actually an insurance adjuster who studied indigenous languages as an amateur, influencing Benjamin Lee Whorf's famous study of Hopi time concepts."
+        "why": "Oe's novel is autobiographical: his son Hikari was born with a brain abnormality, and the book explores the protagonist Bird's temptation to let the infant die versus accepting and raising him.",
+        "deepDive": "Kenzaburo Oe (1935-2023) won the Nobel Prize 'for poetic force creating an imagined world, where life and myth condense to form a disconcerting picture of the human predicament today.' 'A Personal Matter' (Kojinteki na Taiken) was written after his son Hikari was born with an encephalocele in 1963. The protagonist Bird must choose between a romanticised escape to Africa and confronting his responsibility as a father. Oe chose to care for Hikari, who became a celebrated composer of classical music. Unlike Mishima's aesthetics of death and national mythology, Oe's moral framework is rooted in life's radical imperfection and the ethics of caregiving. The novel sits alongside 'The Silent Cry' as Oe's most essential work."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "The Duckworth-Lewis-Stern (DLS) method replaced the 'most productive overs' rain rule in cricket. What was the critical structural flaw in the original rule?",
+        "subtopic": "pop_culture",
+        "stem": "HBO's 'The Wire' (2002-2008), created by David Simon, is unique in that each season takes a different Baltimore institution as its thematic lens. Which option correctly matches a season to its focus?",
         "options": [
-          "It required knowing the exact weather forecast before issuing a revised target, causing lengthy delays",
-          "It ignored wickets in hand — giving a team that had lost 9 wickets the same target credit as one batting at no loss",
-          "It could not handle matches shortened before the first ball, requiring automatic abandonment",
-          "It used the bowling side's most productive overs rather than the batting side's, systematically disadvantaging chasers"
+          "Season 2 — Baltimore City Hall and municipal politics",
+          "Season 3 — the Baltimore public school system",
+          "Season 4 — the Baltimore docks and the longshoremen's union",
+          "Season 2 — the Baltimore docks and the longshoremen's union"
         ],
-        "correct": 1,
-        "why": "The DL method's core innovation was treating batting resources as a two-dimensional function of overs remaining AND wickets in hand — the old rule used only one dimension.",
-        "deepDive": "The 'most productive overs' method gave the chasing team a target based on the fielding side's most productive n overs — but entirely ignored the chasing side's wicket resource. The most famous failure: the 1992 World Cup semi-final left South Africa needing 22 from 1 ball after a rain break. Frank Duckworth and Tony Lewis, both statisticians, published their solution in 1997 — a resource table treating batting as a two-dimensional input (overs remaining multiplied by wickets in hand). Steve Stern updated calibration in 2012 for high-scoring modern cricket. The method is mathematically elegant but publicly opaque, which remains its primary political criticism. A common misconception: that DLS always benefits the chasing team. In practice it can go either way, depending on which resource was depleted before the interruption occurred."
+        "correct": 3,
+        "why": "Season 2 focused on the Port of Baltimore and the longshoremen's union — a deliberate shift from the drug war to show how deindustrialisation devastates working-class port communities.",
+        "deepDive": "David Simon structured each Wire season around a different institution: Season 1 (drug trade/police), Season 2 (the docks/longshoremen — smuggling and labour decline), Season 3 (city government/police reform, including the 'Hamsterdam' experiment), Season 4 (public school system — arguably the show's finest), Season 5 (the Baltimore Sun and journalism). Season 2 is frequently cited as the most underrated: it used container smuggling — including the discovery of bodies in a shipping container — as a metaphor for globalisation hollowing out blue-collar port work. The show is widely taught in sociology, criminology, and media studies as rare TV of genuine literary ambition. David Simon drew on his book 'The Corner' and reporting at The Baltimore Sun."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "In Theravada Buddhism, the Pali term 'bodhisatta' differs fundamentally from the Mahayana 'bodhisattva'. What is the core distinction?",
+        "subtopic": "history",
+        "stem": "At the 1944 Bretton Woods Conference, John Maynard Keynes proposed a radically different international monetary system from what was ultimately adopted. What was the central feature of his rejected proposal?",
         "options": [
-          "In Theravada, bodhisatta refers exclusively to Siddhartha Gautama in his prior lives; in Mahayana, bodhisattva is a universal path available to all practitioners",
-          "In Theravada, a bodhisatta has already attained nirvana; Mahayana bodhisattvas deliberately delay nirvana",
-          "The terms are synonymous — both traditions use them interchangeably for any enlightened teacher",
-          "In Theravada the term applies to all ordained monks; in Mahayana it applies only to lay practitioners"
+          "A gold-backed single world currency managed by a neutral supranational central bank without US veto",
+          "Fixed exchange rates pegged to sterling, with the UK acting as global reserve manager in place of the US",
+          "An International Clearing Union issuing a supranational currency ('bancor') with symmetrical adjustment obligations on both debtor and creditor nations",
+          "A system of bilateral trade-balancing agreements between major trading nations, bypassing multilateral institutions"
         ],
-        "correct": 0,
-        "why": "Theravada treats bodhisatta as uniquely referring to the historical Buddha in prior births; Mahayana universalizes the path — any practitioner who vows Buddhahood for all sentient beings becomes a bodhisattva.",
-        "deepDive": "The Theravada-Mahayana split emerged around the 1st century BCE/CE. Theravada holds that Siddhartha Gautama was a unique being — his prior lives as bodhisatta were exceptional preparation for a singular achievement. The proper goal for practitioners is the arhat ideal: personal liberation from rebirth. Mahayana argues the arhat ideal is self-centered — true compassion requires the bodhisattva vow: delaying final nirvana until all sentient beings are liberated. This doctrinal difference explains practical divergences: Theravada (Sri Lanka, Thailand, Myanmar, Cambodia, Laos) emphasizes Vinaya discipline and the monastic path; Mahayana traditions (Zen, Tibetan, Pure Land) emphasize bodhisattva compassion practices and lay accessibility. A common misconception: that Theravada has no bodhisattva veneration — in fact, Maitreya, the future Buddha, is venerated across all Buddhist traditions."
+        "correct": 2,
+        "why": "Keynes's 'bancor' plan would have penalised surplus countries (like the US) as well as deficit countries — fundamentally different from the adopted White Plan, which put adjustment burden only on debtors.",
+        "deepDive": "Bretton Woods was a contest between Keynes's International Clearing Union (ICU) and Harry Dexter White's IMF plan. Keynes's bancor was a supranational bookkeeping currency; crucially, countries running persistent surpluses would be charged interest — forcing them to spend or lend rather than accumulate indefinitely. White's plan (which prevailed) made the US dollar the anchor, gave the US an effective IMF veto, and placed adjustment pressure mainly on deficit countries. Keynes's system would have been more symmetrical but stripped US monetary sovereignty. The asymmetry Keynes feared — surplus nations accumulating while deficits adjust painfully — is precisely the dynamic that caused the 1960s 'dollar glut,' the 1971 Nixon shock, and recurring global imbalances through today. Keynes is widely considered to have lost the negotiation but won the intellectual argument."
       }
     ]
   }
