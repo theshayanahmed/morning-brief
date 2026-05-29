@@ -1,6 +1,6 @@
 {
   "streak": 0,
-  "last_session_date": "2026-05-28",
+  "last_session_date": "2026-05-29",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -181,7 +181,17 @@
     "The Meissner effect is a hallmark of superconductivity, distinguishing a true superconductor from a perfect conductor. What does the Meissner effect involve?",
     "Japanese Nobel laureate Kenzaburo Oe (Nobel Prize 1994) drew on a deeply personal experience for his most celebrated novel, 'A Personal Matter' (1964). What is the novel's central subject?",
     "HBO's 'The Wire' (2002-2008), created by David Simon, is structurally unique: each season takes a different Baltimore institution as its lens. Which of these correctly matches a season number to its thematic focus?",
-    "At the 1944 Bretton Woods Conference, John Maynard Keynes put forward a radically different international monetary architecture from what was ultimately adopted. What was the central feature of his rejected proposal?"
+    "At the 1944 Bretton Woods Conference, John Maynard Keynes put forward a radically different international monetary architecture from what was ultimately adopted. What was the central feature of his rejected proposal?",
+    "Under the SOLAS amendment effective 1 July 2016, who bears primary legal responsibility for providing a Verified Gross Mass (VGM) declaration before a container is loaded onto a vessel?",
+    "A customs bonded warehouse (CBW) allows an importer to store goods without paying import duties. Which statement best describes the core commercial advantage this creates?",
+    "An LNG carrier requires fundamentally different cargo containment technology from a crude oil tanker. What is the defining engineering requirement driving this distinction?",
+    "In container shipping, 'free time' at the port refers to which specific period, and why is careful tracking of it critical for importers?",
+    "The Ocean Alliance (CMA CGM, COSCO Shipping Lines, OOCL, and Evergreen) was extended through which year, and what is the core commercial logic of the vessel-sharing arrangements (VSAs) that underpin it?",
+    "DNA methylation at CpG sites typically silences gene expression without altering the DNA sequence itself. Why does this challenge classical Mendelian genetics?",
+    "The Banach-Tarski paradox (1924) appears to show a solid ball can be decomposed and reassembled into two identical balls. Why does this not violate physical conservation of volume?",
+    "Hannah Arendt's concept of the 'banality of evil', derived from her report on the Eichmann trial (Jerusalem, 1961), most directly challenges which prior understanding of evil?",
+    "Goodhart's Law states: 'When a measure becomes a target, it ceases to be a good measure.' Which scenario most precisely illustrates the core mechanism the law describes?",
+    "Johannes Vermeer's mastery of natural light in Dutch Golden Age interior painting is most distinctively characterised by which compositional approach?"
   ],
   "learn_history": [
     {
@@ -278,6 +288,11 @@
       "date": "2026-05-28",
       "topic": "High-Bandwidth Memory: Why the AI Era Is a Memory Race, Not Just a Compute Race",
       "bucket": "semiconductor_foundations"
+    },
+    {
+      "date": "2026-05-29",
+      "topic": "General Relativity: How Curved Spacetime Governs Gravity, GPS, and Black Holes",
+      "bucket": "science_concept"
     }
   ],
   "curriculum_progress": {
@@ -288,8 +303,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 4,
-      "last_seen": "2026-05-25",
+      "count": 5,
+      "last_seen": "2026-05-29",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -300,20 +315,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 4,
-      "last_seen": "2026-05-25",
+      "count": 5,
+      "last_seen": "2026-05-29",
       "difficulty": 1,
       "rolling_score": []
     },
     "vessels": {
-      "count": 4,
-      "last_seen": "2026-05-25",
+      "count": 5,
+      "last_seen": "2026-05-29",
       "difficulty": 1,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 4,
-      "last_seen": "2026-05-25",
+      "count": 5,
+      "last_seen": "2026-05-29",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -324,8 +339,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 4,
-      "last_seen": "2026-05-25",
+      "count": 5,
+      "last_seen": "2026-05-29",
       "difficulty": 1,
       "rolling_score": []
     },
@@ -422,14 +437,14 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 6,
-      "last_seen": "2026-05-26",
+      "count": 7,
+      "last_seen": "2026-05-29",
       "difficulty": 2,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 6,
-      "last_seen": "2026-05-26",
+      "count": 7,
+      "last_seen": "2026-05-29",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -440,8 +455,8 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 6,
-      "last_seen": "2026-05-27",
+      "count": 7,
+      "last_seen": "2026-05-29",
       "difficulty": 2,
       "rolling_score": []
     },
@@ -458,14 +473,14 @@
       "rolling_score": []
     },
     "political_theory": {
-      "count": 6,
-      "last_seen": "2026-05-26",
+      "count": 7,
+      "last_seen": "2026-05-29",
       "difficulty": 3,
       "rolling_score": []
     },
     "economics": {
-      "count": 6,
-      "last_seen": "2026-05-26",
+      "count": 7,
+      "last_seen": "2026-05-29",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -490,159 +505,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-05-28",
+    "date": "2026-05-29",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "incoterms",
-        "stem": "Under Incoterms 2020, DPU (Delivered at Place Unloaded) and DAP (Delivered at Place) are nearly identical — except for one critical difference. What is it?",
+        "subtopic": "documentation",
+        "stem": "Under the SOLAS amendment effective 1 July 2016, who bears primary legal responsibility for providing a Verified Gross Mass (VGM) declaration before a container is loaded onto a vessel?",
         "options": [
-          "DPU applies to sea and inland waterway transport only; DAP covers all modes",
-          "Under DPU, the seller bears the cost and risk of unloading at the named destination; under DAP, unloading is the buyer's responsibility and risk",
-          "Under DAP, the seller must clear the goods for import; under DPU, import clearance falls to the buyer",
-          "Risk under DPU transfers at the origin terminal; risk under DAP transfers at the final named place"
+          "The ocean carrier, based on booking confirmation weight submitted by the shipper at time of booking",
+          "The terminal operator, which must weigh all containers in the yard before allowing loading to proceed",
+          "The shipper, who must certify total packed container weight via one of two prescribed methods before the vessel's VGM cut-off",
+          "The freight forwarder as agent of record, whose Shipper's Letter of Instruction provides the container weight to the carrier"
         ],
-        "correct": 1,
-        "why": "DPU replaced DAT in 2020 and is the only Incoterm requiring the seller to unload at destination — making DPU more seller-onerous than DAP for exactly one operation.",
-        "deepDive": "DPU (formerly DAT — Delivered at Terminal) was renamed to clarify it can apply to any named place, not just a terminal. The defining distinction from DAP is unloading: under DAP, risk and cost transfer when goods are placed at the buyer's disposal on the arriving conveyance, ready for unloading. Under DPU, the seller must physically unload and deliver. In practice, a DPU seller must arrange unloading equipment, bear damage risk during that operation, and absorb the unloading fee. Exporters frequently misquote DPU when they mean DAP — a costly error when dockside crane hire and liability fall on the wrong party. DAP is generally preferred by sellers for this reason."
+        "correct": 2,
+        "why": "SOLAS places VGM responsibility squarely on the shipper — not the forwarder, carrier, or terminal — using two approved weighing methods; no loading is permitted without a compliant VGM.",
+        "deepDive": "The SOLAS VGM amendment took effect 1 July 2016 following vessel instability incidents caused by misdeclared container weights — a contributing factor in the MSC Napoli grounding (2007). The shipper must certify total packed container weight using Method 1 (weighing the packed container on a calibrated, certified scale) or Method 2 (summing weights of all packages, dunnage, and securing material, then adding the tare weight from the container's CSC plate). Responsibility cannot be delegated: even if a freight forwarder submits the VGM electronically on behalf of a shipper, the shipper remains legally liable for accuracy. Carriers and terminal operators are legally prohibited from loading any container without a received VGM before the ship's cut-off, typically 24-48 hours before departure. At Chittagong Port, VGM is submitted via the port community system ahead of shipping instruction cut-offs. Falsified VGMs expose shippers to criminal liability under maritime law, and misdeclared weights remain a persistent cargo safety issue on high-volume export trades."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "bill_of_lading",
-        "stem": "A shipper presents a 'to order' Bill of Lading endorsed in blank by the original shipper. In terms of title to the goods, what does blank endorsement legally create?",
+        "subtopic": "customs",
+        "stem": "A customs bonded warehouse (CBW) allows an importer to store goods without paying import duties. Which statement best describes the core commercial advantage this creates?",
         "options": [
-          "A non-negotiable document tied to the named consignee on the BL",
-          "A document where title vests in the issuing carrier until the goods are released",
-          "A bearer instrument — title passes to whoever physically holds the original BL",
-          "A straight BL where only the notify party can take delivery"
+          "It eliminates import duties permanently for goods that are later re-exported from the bonded facility",
+          "It allows duty payment to be deferred until goods are withdrawn for domestic consumption, preserving importer cash flow and enabling market timing optionality",
+          "It converts ad valorem duties into specific duties, reducing total duty liability for high-value goods stored long-term",
+          "It grants the importer preferential tariff treatment equivalent to a free trade zone for goods transshipped within 30 days"
         ],
-        "correct": 2,
-        "why": "Blank endorsement converts a 'to order' BL into a bearer instrument — whoever possesses the original document can present it and take delivery, regardless of name.",
-        "deepDive": "A 'to order' BL is negotiable by nature: the consignee field reads 'to order of shipper' or 'to order of [bank]'. To transfer title, the holder endorses it — either specifically (to a named party) or in blank (no name, just a signature). Blank endorsement makes it function like bearer paper: any holder can demand delivery. This is why banks financing international trade insist on holding original BLs — they are the pledge. Losing a blank-endorsed BL is equivalent to losing cash. Electronic BLs (eBLs) on platforms like WAVE or Bolero are specifically designed to replicate negotiability while preventing physical loss. Banks will typically only release payment under an LC once they receive the original endorsed BL."
+        "correct": 1,
+        "why": "The primary CBW benefit is duty deferral not elimination — the obligation suspends until goods leave for domestic sale, giving importers working capital flexibility and market-timing optionality.",
+        "deepDive": "A customs bonded warehouse is a secured, customs-licensed facility where imported goods may be stored for extended periods — typically up to 5 years in most jurisdictions — without payment of import duties, VAT, or other taxes. The 'bond' is a financial guarantee posted by the warehouse operator or importer to customs authorities, ensuring duties will eventually be paid or goods will be re-exported. Commercial advantages include: cash flow optimization (defer duty payment until sale rather than arrival); market timing (release goods when prices are favourable); quality control (inspect, repackage, or blend goods while bonded); and re-export without duty if selling to foreign buyers. In Bangladesh, bonded warehouse facilities are central to the RMG sector's economics under the back-to-back LC system: imported fabric and accessories enter bonded, are manufactured into garments, and exported duty-free. This structure is why Bangladeshi RMG producers can compete on global price benchmarks despite being heavily import-dependent for raw materials — the duty burden is entirely avoided on export-bound production."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "pricing",
-        "stem": "A shipper declares high-value electronics as 'general cargo' to obtain a carrier's lower FAK rate instead of the applicable higher commodity rate. What is the primary risk of this misdeclaration?",
+        "subtopic": "vessels",
+        "stem": "An LNG carrier requires fundamentally different cargo containment technology from a crude oil tanker. What is the defining engineering requirement driving this distinction?",
         "options": [
-          "The carrier may retroactively apply the commodity rate but must honour the lower FAK liability cap",
-          "The carrier's own liability for the goods increases proportionally with the commodity rate",
-          "The shipper may face a misdeclaration surcharge and forfeit the right to claim against the carrier's standard cargo liability limits",
-          "The shipper is entitled to a refund if the commodity rate is later found inapplicable to the cargo"
+          "LNG carriers use double-hull construction throughout the vessel; crude tankers use a single hull with foam insulation between the plating layers",
+          "LNG is carried at approximately -162°C in cryogenic containment tanks; crude oil is carried at ambient temperature in unpressurised tanks — requiring entirely different materials, insulation, and cargo handling systems",
+          "LNG carriers pressurize cargo to 50 bar to maintain liquid state; crude oil must be heated above 40°C to remain pumpable through the ship's cargo system",
+          "LNG must be cooled to -40°C under pressure, similar to LPG carriers; crude oil requires no temperature management but must be stored below its flash point"
         ],
-        "correct": 2,
-        "why": "Misdeclaring cargo type can trigger surcharges and — critically — allow the carrier to disclaim liability since declared cargo description was inaccurate, voiding standard protections.",
-        "deepDive": "FAK rates cover a wide range of cargo under one flat rate, attracting shippers moving mixed loads. When cargo is knowingly misclassified to get a lower FAK rate, the risks include: (1) a misdeclaration surcharge, sometimes 3-5x the rate difference; (2) voidance of cargo insurance if the policy is linked to declared value; (3) loss of carrier liability protection, since Hague-Visby/COGSA carrier liability is tied to the BL description. Many service contracts explicitly prohibit FAK use for specified commodities. For electronics, a single container loss can exceed $1M. Consistent misdeclaration can also trigger customs investigations, as declared cargo descriptions cross-reference trade statistics and duty calculations."
+        "correct": 1,
+        "why": "Natural gas liquefies at -162°C at atmospheric pressure — this extreme cryogenic requirement demands purpose-built containment (Moss spherical or membrane tanks) that shares nothing with ambient-temperature crude oil tankers.",
+        "deepDive": "Natural gas must be cooled to approximately -162°C (-260°F) at atmospheric pressure to become liquid, shrinking to 1/600th of its gaseous volume — this compression makes ocean transport economically viable. LNG carriers use two dominant containment technologies: Moss-type (freestanding spherical aluminium tanks, the iconic 'dome' profile) and membrane-type (thin cryogenic membrane lining the inner hull, separated from the ship structure by insulation — now the dominant new-build design). Materials must withstand cryogenic temperatures without becoming brittle: austenitic stainless steel, aluminium, and Invar (a nickel-iron alloy with near-zero thermal expansion) are used. Modern Q-flex and Q-max LNG carriers from Qatar's Ras Laffan complex carry 170,000-266,000 m3 each and cost $200-300M+ per vessel. Bangladesh imports LNG through the Moheshkhali FSRUs (Floating Storage and Regasification Units) at spot prices linked to the JKM (Japan Korea Marker) benchmark — making LNG tanker economics and JKM price volatility directly relevant to Bangladesh Bank's energy import bill and foreign exchange reserve management."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "air_freight",
-        "stem": "A forwarder consolidates cargo from multiple Dhaka exporters onto a single MAWB to Frankfurt, issuing HAWBs to each shipper. If one shipper's cargo is damaged in transit, what is the correct liability chain under the Montreal Convention?",
+        "subtopic": "port_ops",
+        "stem": "In container shipping, 'free time' at the port refers to which specific period, and why is careful tracking of it critical for importers?",
         "options": [
-          "The airline's liability runs to the MAWB holder (the forwarder); each shipper's claim runs against the forwarder, not the airline",
-          "The airline bears full liability directly to each HAWB shipper under the Montreal Convention",
-          "Liability is pro-rated by weight across all HAWB shippers, paid directly by the airline",
-          "HAWB shippers can bypass the forwarder and claim directly from the airline under cargo insurance subrogation"
+          "The window during which a shipper may return an empty container to the carrier's depot without incurring detention charges",
+          "A guaranteed berthing window reserved for regular liner calls under a vessel-sharing agreement at no additional port cost",
+          "The period following container discharge during which an importer may store the box in the terminal's container yard without incurring demurrage charges",
+          "The period between customs entry filing and examination during which no storage fees accrue at the customs examination facility"
         ],
-        "correct": 0,
-        "why": "Montreal Convention privity: the carrier's contract of carriage (the MAWB) is with the forwarder. Individual HAWB shippers have no direct claim against the airline.",
-        "deepDive": "The Montreal Convention 1999 governs international air cargo liability and its privity rule means the airline is liable only to its contracting party — the MAWB consignor, i.e., the forwarder acting as consolidator. Individual HAWB shippers must claim against the forwarder, who then claims against the airline on their behalf. This is why HAWB terms matter: a well-drafted HAWB passes Montreal Convention protections down (19 SDR/kg unless declared), caps the forwarder's own liability at the same limits, and preserves subrogation rights. The distinction collapses only in direct MAWB shipments where the shipper is named on the MAWB itself. Forwarders operating as NVOCCs in air are sometimes confused with this; in air, the MAWB holder has privity, full stop."
+        "correct": 2,
+        "why": "Port free time is the grace period — typically 3-7 days — before daily demurrage charges begin; missing it by even a single day triggers escalating costs that compound rapidly on busy trade lanes.",
+        "deepDive": "Free time is a critical but frequently misunderstood element of container shipping economics. After a container is discharged and placed in the terminal yard, the importer has a contracted free time period (typically 3-7 days for major trade lanes, shorter at congested ports) before demurrage charges begin accruing. Demurrage at destination — distinct from detention, which applies to the container once it leaves the port — typically starts at $50-150 per container per day and can escalate to $300-500/day after the first tier. At congested or high-cost ports, free time is shorter and rates are steeper: Chittagong Port's container handling costs rose approximately 41% after October 2025 tariff increases, compressing economics for importers. Free time management is now a dedicated function in sophisticated logistics operations: customs clearance timelines, trucking slot availability, and examination queue lengths must all be planned against the free time clock. HS code disputes and customs examination backlogs — common in Bangladesh — are frequent causes of free time overruns and resulting demurrage exposure that can turn a profitable shipment into a loss-maker."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "ftas",
-        "stem": "Bangladesh is not an RCEP member. What is the most concrete competitive disadvantage this creates for Bangladeshi RMG exporters versus RCEP members like Vietnam and Cambodia?",
+        "subtopic": "liner_alliances",
+        "stem": "The Ocean Alliance (CMA CGM, COSCO Shipping Lines, OOCL, and Evergreen) was extended through which year, and what is the core commercial logic of the vessel-sharing arrangements (VSAs) that underpin it?",
         "options": [
-          "Bangladesh faces no disadvantage because EU EBA preferences more than offset RCEP membership benefits",
-          "RCEP excludes all textile and apparel categories, making non-membership irrelevant for RMG",
-          "Bangladesh benefits indirectly via its bilateral FTA with China under RCEP's MFN extension clause",
-          "RCEP members can source inputs from any member country under cumulation rules, conferring a cost and rules-of-origin advantage in intra-RCEP markets that Bangladesh cannot match"
+          "Extended to 2027; VSAs let members share terminal berths to reduce port costs on high-volume trade lanes",
+          "Extended to 2030; VSAs pool capital investment in newbuild vessels, eliminating individual carrier fleet expansion needs",
+          "Extended to 2032; VSAs allow members to contribute vessels to a shared string so each carrier gains weekly trade-lane coverage without individually deploying a complete ship loop",
+          "Extended to 2035; VSAs enable carriers to jointly set freight rates, providing a legal cartel exemption under competition law"
         ],
-        "correct": 3,
-        "why": "RCEP's cumulation rules let members treat inputs from any member country as 'local' for origin purposes — dramatically lowering compliance costs and opening intra-regional supply chains Bangladesh cannot access.",
-        "deepDive": "RCEP covers 15 Asia-Pacific economies (ASEAN-10, China, Japan, South Korea, Australia, New Zealand). Its diagonal cumulation provisions mean a Vietnamese garment maker sourcing Chinese fabric and Korean synthetic yarn can count both as domestic content for rules-of-origin compliance across RCEP markets. Bangladesh, outside the bloc, must meet each market's individual origin requirements independently — sourcing fabric locally or from agreed bilateral partners. RCEP gives Vietnam and Cambodia preferential access to Chinese raw materials at lower cost, while Bangladesh competes at a structural disadvantage for intra-Asian orders. Bangladesh's push for bilateral FTA talks with ASEAN members partly reflects this gap. RCEP also creates a de facto preferential zone for intra-bloc logistics, sourcing, and investment that Bangladesh cannot tap."
+        "correct": 2,
+        "why": "Ocean Alliance was extended to 2032; the VSA logic is that no single carrier needs to deploy a full ~12-ship loop alone — pooling vessels gives each member weekly frequency at a fraction of individual capital cost.",
+        "deepDive": "A vessel-sharing arrangement (VSA) is the core commercial mechanism of liner alliances: each member contributes an agreed number of vessels to a defined service string, and in return receives a proportional slot allocation on every sailing. Without VSAs, providing a weekly Asia-Europe service requires approximately 12 vessels per carrier on a 100-day round-trip loop. By pooling, four carriers each contributing three vessels achieve the same frequency at one-quarter the individual capital commitment. The Ocean Alliance — CMA CGM, COSCO Shipping Lines, OOCL, and Evergreen — was initially formed in 2017 and extended in 2024 through 2032, the longest horizon of any current alliance grouping. VSAs cover vessel deployment and schedule coordination only: rate-setting, contract negotiations, B/L issuance, and customer relationships remain entirely independent between members. The FMC (US) and EU DG COMP both require this separation as a condition of competition-law exemption. The 2025 alliance landscape: Gemini Cooperation (Maersk + Hapag-Lloyd), Ocean Alliance (CMA CGM + COSCO + OOCL + Evergreen), Premier Alliance (ONE + HMM + Yang Ming), and MSC operating as the world's largest carrier without an alliance."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Wakhan Corridor — a narrow finger of Afghan territory extending east to the Chinese border — was deliberately shaped by 19th-century Great Power rivalry. What was its primary geopolitical purpose?",
+        "subtopic": "life_science",
+        "stem": "DNA methylation at CpG sites typically silences gene expression without altering the DNA sequence itself. Why does this challenge classical Mendelian genetics?",
         "options": [
-          "To prevent the British Indian empire and the Russian empire from sharing a common land border, maintaining a territorial buffer",
-          "To give Afghanistan direct access to China for trade along the eastern Silk Road",
-          "To provide Imperial Russia a land corridor toward the Indian Ocean, bypassing British naval dominance",
-          "To allow Persia to maintain territorial continuity with China and resist British encroachment from India"
+          "Methylation activates the methylated gene by stabilising the double helix, and challenges Mendel by proving environmental factors can alter actual allele sequences",
+          "Methylation permanently deletes the gene segment via targeted excision, challenging Mendel by showing environmental exposures reduce the effective allele count in offspring",
+          "Methylation silences gene expression by compacting chromatin and blocking transcription factor access — and these silencing marks can be heritable across generations, violating the assumption that only DNA sequence is passed down",
+          "Methylation converts CpG cytosines into point mutations over generations, showing that environmentally-induced sequence changes are directly inherited"
         ],
-        "correct": 0,
-        "why": "The Wakhan Corridor was drawn in 1895 so the British and Russian empires never directly touched — Afghanistan served as the buffer strip between two expanding imperial systems.",
-        "deepDive": "The Wakhan Corridor is a direct legacy of the Great Game — the 19th-century imperial rivalry between Britain (protecting India) and Russia (expanding south into Central Asia). The Pamir Boundary Commission of 1895 drew the corridor's borders, assigning the narrow strip to Afghanistan (then effectively a British buffer state) to prevent a Russian-British land border. Today the corridor is 15-65km wide, borders Tajikistan, China, and Pakistan, and is one of the world's most inaccessible regions — home to Wakhi and Kyrgyz nomads. Post-2001, it gained attention as a Taliban supply route. China has built road infrastructure approaching from its side, making the corridor relevant again in Belt and Road geopolitics and cross-border security discussions."
+        "correct": 2,
+        "why": "Epigenetic methylation silences genes through chromatin compaction without sequence change — and crucially, these marks can be transmitted across generations, violating the classical assumption that only DNA sequence is heritable.",
+        "deepDive": "Epigenetics refers to heritable changes in gene expression that occur without alterations to the underlying DNA sequence. DNA methylation — addition of a methyl group to cytosine in CpG dinucleotides — is the best-characterised mechanism: when CpG islands in gene promoter regions are methylated, transcription factors cannot bind and the gene is silenced. This challenges Mendelian genetics in two ways: expression patterns are determined not just by allele identity but by which alleles are methylated (genomic imprinting); and some methylation marks are heritable across generations, meaning offspring can inherit expression states shaped by parental experiences. The Dutch Hunger Winter (1944-45) is the canonical human example: children born to women who experienced severe famine showed altered methylation patterns and elevated rates of metabolic disease decades later — as did some grandchildren. Epigenetic mechanisms including methylation, histone modification, and non-coding RNA regulation are now central to cancer biology (abnormal methylation silences tumour-suppressor genes), ageing research, developmental programming, and nutriepigenomics. Methylation patterns are also being explored as biomarkers for early cancer detection in liquid biopsy diagnostics."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "The Meissner effect is a hallmark of true superconductivity, distinguishing superconductors from perfect conductors. What does it specifically involve?",
+        "subtopic": "mathematics",
+        "stem": "The Banach-Tarski paradox (1924) appears to show a solid ball can be decomposed and reassembled into two identical balls. Why does this not violate physical conservation of volume?",
         "options": [
-          "The spontaneous emission of electric fields from the material's surface below the critical temperature",
-          "The complete expulsion of thermal energy to the environment, driving the material to absolute zero",
-          "The condensation of Cooper pairs onto the material surface, creating a quantum skin effect",
-          "The expulsion of magnetic fields from the interior of the material when cooled below the critical temperature"
+          "The decomposition requires more than a billion pieces; at that scale, quantum uncertainty makes volume conservation inapplicable to individual fragments",
+          "The pieces involved are non-measurable sets — mathematical objects with no well-defined volume — so there is no volume to conserve; the paradox relies on the Axiom of Choice to construct objects that cannot exist physically",
+          "The paradox applies only in non-Euclidean geometry; in standard three-dimensional space, the extra volume comes from shrinking each piece's interior to an arbitrarily thin shell",
+          "The two balls produced are of smaller radius than the original, preserving total volume but misleadingly described as identical in size to the original"
         ],
-        "correct": 3,
-        "why": "The Meissner effect is the expulsion of magnetic flux from a superconductor's interior — a perfect diamagnetic response that distinguishes it from a mere perfect conductor, which would trap existing flux.",
-        "deepDive": "Discovered by Walther Meissner and Robert Ochsenfeld in 1933, the Meissner effect occurs because superconductors develop surface currents that exactly cancel any applied magnetic field inside the material. A perfect conductor preserves whatever magnetic flux existed when it became superconducting; a superconductor actively expels it regardless of field history — this asymmetry is captured in the London equations. Practically, the Meissner effect enables magnetic levitation (maglev trains), MRI machines, and particle accelerator beam steering. High-temperature superconductors (cuprates, discovered 1986) exhibit the effect above liquid nitrogen temperature, making them economically viable. Room-temperature superconductivity remains the holy grail of condensed matter physics — each claimed discovery (like LK-99 in 2023) triggers enormous scientific and investment attention."
+        "correct": 1,
+        "why": "Banach-Tarski's pieces are non-measurable sets with no well-defined volume — nothing is conserved because the pieces themselves have no volume; the paradox exploits the Axiom of Choice to construct mathematically existent but physically impossible objects.",
+        "deepDive": "The Banach-Tarski paradox, proved by Stefan Banach and Alfred Tarski in 1924, states that a solid ball in R3 can be decomposed into a finite number of disjoint pieces and reassembled via rotations and translations alone into two solid balls each identical in size to the original. The key to why this does not violate physics is that the decomposition requires non-measurable sets — subsets of R3 that cannot be assigned a consistent volume under standard Lebesgue measure theory. Such sets exist only because of the Axiom of Choice, which asserts existence of mathematical objects without constructively defining them. Real matter cannot be decomposed into non-measurable pieces: physical objects consist of finitely many atoms with well-defined volumes. The paradox reveals a profound tension between axiomatic mathematics and physical intuition, and has been used in philosophical debates about whether the Axiom of Choice — while mathematically convenient — should be an unconditional foundational assumption. The related Hausdorff paradox (1914) preceded it, and together they are among the most striking results in geometric measure theory, taught as canonical examples of how mathematical existence differs from physical realizability."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Nobel laureate Kenzaburo Oe (Nobel Prize 1994) drew on deeply personal experience for 'A Personal Matter' (1964). What is the novel's central subject?",
+        "subtopic": "political_theory",
+        "stem": "Hannah Arendt's concept of the 'banality of evil', derived from her report on the Eichmann trial (Jerusalem, 1961), most directly challenges which prior understanding of evil?",
         "options": [
-          "Japan's psychological reckoning with its status as the only country struck by nuclear weapons in wartime",
-          "A father's moral crisis following the birth of his brain-damaged son — whether to accept or abandon the child",
-          "The long psychological shadow of Japan's colonial rule over Korea, told through a Japanese-Korean friendship",
-          "A soldier's haunted guilt over atrocities committed during the Imperial Army's campaign in China"
+          "Kant's 'radical evil' — the deliberate subordination of moral duty to self-love — because Arendt showed Eichmann acted from duty, not self-interest",
+          "The assumption that perpetrators of mass atrocities must be ideologically fanatical or psychopathic — Arendt argued the greater danger is thoughtless bureaucratic compliance that bypasses independent moral judgment entirely",
+          "Marx's structural account of evil as a product of capitalist exploitation, because Eichmann's crimes were committed within a nominally socialist state apparatus",
+          "Nietzsche's celebration of the will to power, because Eichmann's total submission to bureaucratic authority demonstrated the destruction wrought by surrendering individual will"
         ],
         "correct": 1,
-        "why": "Oe's novel is autobiographical: his son Hikari was born with a brain abnormality, and the book explores the protagonist Bird's temptation to let the infant die versus accepting and raising him.",
-        "deepDive": "Kenzaburo Oe (1935-2023) won the Nobel Prize 'for poetic force creating an imagined world, where life and myth condense to form a disconcerting picture of the human predicament today.' 'A Personal Matter' (Kojinteki na Taiken) was written after his son Hikari was born with an encephalocele in 1963. The protagonist Bird must choose between a romanticised escape to Africa and confronting his responsibility as a father. Oe chose to care for Hikari, who became a celebrated composer of classical music. Unlike Mishima's aesthetics of death and national mythology, Oe's moral framework is rooted in life's radical imperfection and the ethics of caregiving. The novel sits alongside 'The Silent Cry' as Oe's most essential work."
+        "why": "Arendt argued Eichmann was not a monster but a thoughtless bureaucrat — the 'banality' lay in his failure to think independently, not in sadism or ideology; the greatest evil danger may be ordinary compliance, not exceptional malice.",
+        "deepDive": "Hannah Arendt covered the 1961 Jerusalem trial of Adolf Eichmann — the SS officer who organised the logistics of the Holocaust deportation system — for The New Yorker, publishing 'Eichmann in Jerusalem: A Report on the Banality of Evil' (1963). She was struck that Eichmann appeared not demonic but disturbingly ordinary: he spoke in cliches, showed no evident hatred for Jews, and justified his actions entirely through bureaucratic duty and chain-of-command adherence. Her conclusion: the Holocaust's greatest horror was not only the fanatics at its ideological centre but the vast machinery of ordinary people who participated through thoughtlessness — an inability or refusal to exercise independent moral judgment. This was deeply controversial: philosopher Gershom Scholem accused Arendt of lacking love for the Jewish people; historian Bettina Stangneth's 'Eichmann Before Jerusalem' (2014) later argued Arendt underestimated his actual antisemitic ideology. Regardless, the concept is now fundamental to political theory — applied to corporate misconduct, ordinary participation in authoritarian systems, and the moral dangers of large-scale bureaucratic diffusion of responsibility. Arendt's broader work on totalitarianism in 'The Origins of Totalitarianism' (1951) remains essential reading."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "HBO's 'The Wire' (2002-2008), created by David Simon, is unique in that each season takes a different Baltimore institution as its thematic lens. Which option correctly matches a season to its focus?",
+        "subtopic": "economics",
+        "stem": "Goodhart's Law states: 'When a measure becomes a target, it ceases to be a good measure.' Which scenario most precisely illustrates the core mechanism the law describes?",
         "options": [
-          "Season 2 — Baltimore City Hall and municipal politics",
-          "Season 3 — the Baltimore public school system",
-          "Season 4 — the Baltimore docks and the longshoremen's union",
-          "Season 2 — the Baltimore docks and the longshoremen's union"
+          "A central bank targets 2% inflation via interest rates; financial markets become so sensitised to CPI data that small deviations cause disproportionate rate volatility",
+          "A government sets a hospital waiting-list target; hospitals reclassify long-wait patients as 'not ready for treatment' to hit the metric, leaving real waiting times completely unchanged",
+          "A country's GDP growth target causes private businesses to invest more aggressively, validating the target through self-fulfilling expectations and making the original forecast accurate",
+          "A regulator caps bank leverage ratios; banks shift risk into off-balance-sheet vehicles, meeting the reported ratio while increasing actual systemic fragility"
         ],
-        "correct": 3,
-        "why": "Season 2 focused on the Port of Baltimore and the longshoremen's union — a deliberate shift from the drug war to show how deindustrialisation devastates working-class port communities.",
-        "deepDive": "David Simon structured each Wire season around a different institution: Season 1 (drug trade/police), Season 2 (the docks/longshoremen — smuggling and labour decline), Season 3 (city government/police reform, including the 'Hamsterdam' experiment), Season 4 (public school system — arguably the show's finest), Season 5 (the Baltimore Sun and journalism). Season 2 is frequently cited as the most underrated: it used container smuggling — including the discovery of bodies in a shipping container — as a metaphor for globalisation hollowing out blue-collar port work. The show is widely taught in sociology, criminology, and media studies as rare TV of genuine literary ambition. David Simon drew on his book 'The Corner' and reporting at The Baltimore Sun."
+        "correct": 1,
+        "why": "The hospital case is the purest Goodhart's Law illustration: optimising the reported metric (reclassifying patients) severs the measure entirely from the underlying reality it was designed to track.",
+        "deepDive": "Goodhart's Law was articulated by Bank of England economist Charles Goodhart in a 1975 paper on UK monetary policy. The original context: when the UK government began targeting M3 (a broad money aggregate), banks restructured their balance sheets to manage the metric, breaking the statistical relationship between M3 and actual economic activity. The law generalises a deep problem in performance management: once a proxy measure becomes an explicit target, actors optimise for the measure rather than the underlying objective. Famous examples span domains: Soviet factories producing one giant nail to meet 'nail quota by weight'; schools teaching standardised test content at the expense of genuine education; crime statistics manipulated by downgrading offences. In logistics, it manifests when on-time delivery KPIs are hit by widening promised delivery windows rather than improving actual transit performance. Related formulations include 'Campbell's Law' in social science, 'McNamara's Fallacy' in military strategy (quantifying only what can be counted), and 'Teaching to the Test' in education. The mitigations: use multiple, diverse, harder-to-game metrics and preserve the judgment of people who understand the underlying goal rather than just the measure used to proxy it."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "At the 1944 Bretton Woods Conference, John Maynard Keynes proposed a radically different international monetary system from what was ultimately adopted. What was the central feature of his rejected proposal?",
+        "subtopic": "arts",
+        "stem": "Johannes Vermeer's mastery of natural light in Dutch Golden Age interior painting is most distinctively characterised by which compositional approach?",
         "options": [
-          "A gold-backed single world currency managed by a neutral supranational central bank without US veto",
-          "Fixed exchange rates pegged to sterling, with the UK acting as global reserve manager in place of the US",
-          "An International Clearing Union issuing a supranational currency ('bancor') with symmetrical adjustment obligations on both debtor and creditor nations",
-          "A system of bilateral trade-balancing agreements between major trading nations, bypassing multilateral institutions"
+          "Chiaroscuro — dramatic contrast between deep shadow and intense spotlight, creating theatrical scenes in the Baroque style pioneered by Caravaggio",
+          "Sfumato — soft blurring of outlines through layered transparent glazes to model light transitions without hard edges, as developed by Leonardo da Vinci",
+          "A single left-side window casting soft, diffused daylight across figures and domestic interiors — creating an intimate luminous stillness that feels almost photographic",
+          "Fresco secco — painting on dry plaster to achieve permanent, light-stable pigment surfaces that resist darkening over centuries and enable precise tonal modelling"
         ],
         "correct": 2,
-        "why": "Keynes's 'bancor' plan would have penalised surplus countries (like the US) as well as deficit countries — fundamentally different from the adopted White Plan, which put adjustment burden only on debtors.",
-        "deepDive": "Bretton Woods was a contest between Keynes's International Clearing Union (ICU) and Harry Dexter White's IMF plan. Keynes's bancor was a supranational bookkeeping currency; crucially, countries running persistent surpluses would be charged interest — forcing them to spend or lend rather than accumulate indefinitely. White's plan (which prevailed) made the US dollar the anchor, gave the US an effective IMF veto, and placed adjustment pressure mainly on deficit countries. Keynes's system would have been more symmetrical but stripped US monetary sovereignty. The asymmetry Keynes feared — surplus nations accumulating while deficits adjust painfully — is precisely the dynamic that caused the 1960s 'dollar glut,' the 1971 Nixon shock, and recurring global imbalances through today. Keynes is widely considered to have lost the negotiation but won the intellectual argument."
+        "why": "Vermeer's signature is a single left-side window bathing domestic scenes in soft natural light — creating the quiet luminosity that distinguishes his interiors from theatrical Baroque and makes them feel almost photographic.",
+        "deepDive": "Johannes Vermeer (1632-1675) worked in Delft during the Dutch Golden Age, producing only approximately 34-36 surviving paintings. His mastery lies in the rendering of soft, natural daylight entering from the left through a window, falling across fabrics, faces, and objects with extraordinary fidelity. Unlike Rembrandt's dramatic chiaroscuro or Rubens's theatrical Baroque, Vermeer's light is quiet and observational — creating what is sometimes described as 'a still life with people.' Art historians have debated whether Vermeer used a camera obscura as a compositional aid: David Hockney and Philip Steadman's book Vermeer's Camera (2001) makes a detailed case that his optical precision derives partly from this tool. Key works include 'Girl with a Pearl Earring' (c.1665, Mauritshuis, The Hague), 'The Milkmaid' (c.1657, Rijksmuseum), and 'Woman Reading a Letter' (c.1663, Rijksmuseum). Vermeer died in debt and was largely forgotten until art critic Theodore Thore-Burger rediscovered him in the 1860s. The Concert — stolen from Boston's Isabella Stewart Gardner Museum in 1990 — is considered the world's most valuable stolen artwork. His paintings command extraordinary prices when they do appear at auction, which almost never happens."
       }
     ]
   }
