@@ -1,6 +1,6 @@
 {
   "streak": 0,
-  "last_session_date": "2026-05-30",
+  "last_session_date": "2026-05-31",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -201,7 +201,17 @@
     "The concept of 'Barzakh' in Islamic theology refers to:",
     "The strong form of the Sapir-Whorf hypothesis, called linguistic determinism, claims that:",
     "In cricket, the Duckworth-Lewis-Stern (DLS) method is used to:",
-    "The Bechdel test, applied to films and other media, specifically requires that a work:"
+    "The Bechdel test, applied to films and other media, specifically requires that a work:",
+    "In air cargo, which aircraft variant dominates long-haul intercontinental freighter operations due to its payload, nose-loading capability, and range?",
+    "In a cargo airport, the 'landside' zone refers specifically to the area:",
+    "The 2016 Hanjin Shipping bankruptcy is the canonical M&A consolidation case study in container shipping primarily because it showed:",
+    "A 'spot rate' in ocean freight fundamentally differs from a 'contract rate' in that spot rates:",
+    "The 'China+1' supply chain strategy, widely adopted after 2018 trade wars and COVID disruptions, is best defined as:",
+    "The 1944 Bretton Woods Agreement established a monetary system where:",
+    "The 'Malacca Dilemma,' first articulated by Chinese President Hu Jintao in 2003, describes China's strategic vulnerability because:",
+    "Snell's Law in optics governs:",
+    "García Márquez's technique of narrating supernatural events with complete matter-of-factness in 'One Hundred Years of Solitude' is the defining feature of:",
+    "CRISPR-Cas9 achieves precise gene editing through:"
   ],
   "learn_history": [
     {
@@ -308,6 +318,11 @@
       "date": "2026-05-30",
       "topic": "The 1956 Suez Crisis: How a Canal Nationalisation Ended British Imperial Power",
       "bucket": "history"
+    },
+    {
+      "date": "2026-05-31",
+      "topic": "The Stability-Instability Paradox: How Nuclear Weapons Enable Conventional War",
+      "bucket": "sociopolitical"
     }
   ],
   "curriculum_progress": {
@@ -402,58 +417,58 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 4,
-      "last_seen": "2026-05-27",
+      "count": 5,
+      "last_seen": "2026-05-31",
       "difficulty": 1,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 4,
-      "last_seen": "2026-05-27",
+      "count": 5,
+      "last_seen": "2026-05-31",
       "difficulty": 1,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 4,
-      "last_seen": "2026-05-27",
+      "count": 5,
+      "last_seen": "2026-05-31",
       "difficulty": 1,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 4,
-      "last_seen": "2026-05-27",
+      "count": 5,
+      "last_seen": "2026-05-31",
       "difficulty": 1,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 4,
-      "last_seen": "2026-05-27",
+      "count": 5,
+      "last_seen": "2026-05-31",
       "difficulty": 1,
       "rolling_score": []
     }
   },
   "gk_progress": {
     "history": {
-      "count": 8,
-      "last_seen": "2026-05-28",
+      "count": 9,
+      "last_seen": "2026-05-31",
       "difficulty": 4,
       "rolling_score": []
     },
     "geography": {
-      "count": 7,
-      "last_seen": "2026-05-28",
+      "count": 8,
+      "last_seen": "2026-05-31",
       "difficulty": 4,
       "rolling_score": []
     },
     "physical_science": {
-      "count": 7,
-      "last_seen": "2026-05-28",
+      "count": 8,
+      "last_seen": "2026-05-31",
       "difficulty": 3,
       "rolling_score": []
     },
     "life_science": {
-      "count": 7,
-      "last_seen": "2026-05-29",
+      "count": 8,
+      "last_seen": "2026-05-31",
       "difficulty": 2,
       "rolling_score": []
     },
@@ -464,8 +479,8 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 6,
-      "last_seen": "2026-05-28",
+      "count": 7,
+      "last_seen": "2026-05-31",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -520,159 +535,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-05-30",
+    "date": "2026-05-31",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "In multimodal transport, a 'through bill of lading' differs from a conventional ocean B/L primarily because it:",
+        "subtopic": "aircraft_carriers",
+        "stem": "In air cargo, which aircraft variant dominates long-haul intercontinental freighter operations due to its payload, nose-loading capability, and range?",
         "options": [
-          "Covers only the sea freight leg and explicitly excludes inland haulage",
-          "Assigns liability to a single contracting carrier across all transport modes end-to-end",
-          "Is issued exclusively by freight forwarders rather than ocean carriers",
-          "Applies only to air-sea intermodal combinations, not road-sea or rail-sea"
+          "Boeing 747-8F",
+          "Airbus A380F",
+          "Boeing 737-800BCF",
+          "Embraer E195-E2"
         ],
-        "correct": 1,
-        "why": "A through B/L designates one contracting carrier with end-to-end responsibility across all modes, eliminating liability gaps that arise at modal transfer points.",
-        "deepDive": "Through bills of lading emerged as containerisation made multimodal transport viable in the 1960s-70s. Before containers, shippers needed separate documents for each mode — truck, rail, sea — creating liability gaps whenever cargo was damaged at a transfer point. A through B/L solves this by designating a single contracting carrier who subcontracts other mode operators but remains the shipper's sole legal counterparty for the whole journey. This differs from a Combined Transport Document under ICC rules and a Multimodal Transport Document under the UNCTAD Convention. Common misconception: freight forwarders own this space exclusively. In practice, NVOCCs, ocean carriers, and rail operators all issue through B/Ls. The Hague-Visby Rules technically govern only the sea leg, so the through B/L must explicitly state which liability regime applies at each transfer point — a detail that determines everything in a disputed claim."
+        "correct": 0,
+        "why": "The 747-8F carries up to 134 metric tonnes with nose-loading for oversized pallets across intercontinental ranges — unmatched in long-haul dedicated freighter operations.",
+        "deepDive": "The Boeing 747 has dominated air cargo since the 1970s. The 747-8F carries up to 134 metric tonnes and features a nose door enabling oversized cargo — vehicles, engines, industrial equipment — impossible on tail-load or belly-only aircraft. Its 8,130nm range allows non-stop transpacific runs with meaningful payload. The A380F was ordered but never built; A380P2F conversions are niche. Narrowbody conversions (737-800BCF) serve domestic integrators. The dominant misconception: most air cargo flies on freighters. In reality, over 50% moves in belly space of passenger widebodies — making passenger schedule changes a direct driver of cargo capacity and rates, as COVID's belly collapse demonstrated with rates spiking over 150%."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "The Transpacific Eastbound (TPEB) trade lane is strategically dominant in global container shipping primarily because:",
+        "subtopic": "airport_ops",
+        "stem": "In a cargo airport, the 'landside' zone refers specifically to the area:",
         "options": [
-          "It carries more container volume than any other single directional trade lane globally",
-          "It connects the two largest consumer electronics exporters in the world",
-          "Asian exports to North America generate the highest revenue per TEU of any major lane",
-          "It is the longest blue-water container shipping route by nautical miles"
+          "Between aircraft parking stands and the terminal cargo shed",
+          "Reserved for customs examination and border control inspection",
+          "Accessible to trucks, freight forwarders, and the public without an airside security pass",
+          "Containing ground handling equipment, fuel hydrants, and baggage systems"
         ],
-        "correct": 0,
-        "why": "TPEB carries 15M+ TEUs annually between Northeast Asia and US coasts — more volume than any other single directional lane in global container shipping.",
-        "deepDive": "The Transpacific Eastbound lane from Northeast Asia to US West Coast and Gulf/East Coast is the backbone of global container trade by volume. It emerged as a major lane in the 1980s as Japanese manufacturers pioneered lean supply chains feeding US retail, then exploded after China's WTO accession in 2001. The lane's structural imbalance is notable: US imports from Asia far exceed exports, so containers return westbound empty or carrying low-density cargo like cotton, waste paper, and soybeans — which is why Asia-US rates far exceed reverse rates. TPEB rate sensitivity is extreme: a single major US retailer's sourcing shift can move spot rates measurably. Vietnam, Bangladesh, and India are gradually reducing China's share of TPEB volume, but China still represents roughly 60%. TPEB rate volatility is the single most-watched metric in global logistics procurement."
+        "correct": 2,
+        "why": "Landside is the public-access zone — truck docks, forwarder offices, collection bays — separated from the secure airside by the sterile security boundary.",
+        "deepDive": "Cargo airports divide into two zones separated by an access-controlled sterile line. Airside covers everything beyond: aircraft stands, taxiways, aprons, and secure cargo sheds requiring security clearance. Landside is publicly accessible — truck docks, freight forwarder offices, bonded warehouses, and public roads. The terminal building sits at the boundary, with one face public and the other secure. Efficient landside-to-airside transfer — 'dwell time' — is a core performance metric: Hong Kong International (world's busiest cargo hub) targets under 8 hours from landside acceptance to airside build-up. Congestion at truck docks is the most common operational bottleneck, routinely underestimated relative to airside delays in public commentary about cargo performance."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "The Institute Cargo Clauses (A), (B), and (C) differ most significantly in terms of:",
+        "subtopic": "ma_consolidation",
+        "stem": "The 2016 Hanjin Shipping bankruptcy is the canonical M&A consolidation case study in container shipping primarily because it showed:",
         "options": [
-          "The currencies in which insurance claims can be settled internationally",
-          "The scope of perils covered, from all-risks in (A) to narrow named perils in (C)",
-          "Whether coverage applies to airfreight versus ocean freight shipments",
-          "The minimum voyage duration required before coverage is triggered"
+          "How voluntary capacity sharing can stabilise markets during carrier financial stress",
+          "That government bailouts are the primary rescue mechanism for large carrier failures",
+          "The role of IMO regulation in preventing insolvency through tonnage-tax frameworks",
+          "How a top-10 carrier collapse creates immediate systemic port congestion, stranded cargo, and accelerated industry consolidation"
         ],
-        "correct": 1,
-        "why": "ICC(A) is all-risks (broadest); ICC(B) covers specific major perils plus water entry; ICC(C) is narrowest, covering only catastrophic events like fire, sinking, and collision.",
-        "deepDive": "The Institute Cargo Clauses, maintained by the International Underwriting Association in London and last substantively revised in 1982, create three coverage tiers. ICC(C) covers only major casualties: fire, explosion, vessel stranding, collision, discharge at a port of distress — essentially catastrophic total-loss events. ICC(B) adds earthquake, volcanic eruption, lightning, sea and lake water entry, loss overboard, and damage during loading and unloading. ICC(A) covers all risks of loss or damage, subject to standard exclusions including war, strikes, inherent vice (natural deterioration), and deliberate damage by the insured. Common misconception: ICC(A) equals full coverage — in practice the inherent vice and insufficient packaging exclusions deny many legitimate claims. For high-value electronics or pharmaceuticals, ICC(A) with additional war and strike clauses is standard. Bangladesh garment exporters on buyer-controlled shipments typically face ICC(A) requirements from European and US buyers."
+        "correct": 3,
+        "why": "Hanjin's failure left ~$14B in cargo stranded at sea as ports refused ships — triggering the consolidation wave that built today's three-alliance, 85%-concentrated carrier structure.",
+        "deepDive": "Hanjin Shipping, South Korea's largest carrier and the world's 7th-biggest, filed for receivership in August 2016. Ships were turned away from ports fearing non-payment; ~$14B in cargo sat stranded. The episode exposed structural overleveraging from the 2000s shipbuilding boom. Consolidation accelerated sharply: CMA CGM bought APL and Bolloré Logistics; COSCO took OOCL; Maersk absorbed Hamburg Süd. Top-10 market share rose from ~67% in 2016 to over 85% by 2020. Today three alliances — Gemini, Premier, and Ocean — control nearly all East-West capacity. The misconception: Hanjin 'just' went bankrupt. Its systemic collapse proved carrier failure disrupts supply chains at scale, making the commercial and risk-management case for consolidation simultaneously — and reshaping the entire industry structure within four years."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "Under SOLAS 2016 Verified Gross Mass rules, when a shipper misdeclares the weight of a packed container, primary legal liability falls on:",
+        "subtopic": "commercial_concepts",
+        "stem": "A 'spot rate' in ocean freight fundamentally differs from a 'contract rate' in that spot rates:",
         "options": [
-          "The port terminal operator that physically loaded the container onto the vessel",
-          "The ocean carrier that accepted the booking and issued the bill of lading",
-          "The shipper who signed the VGM declaration",
-          "The freight forwarder who arranged the booking on the shipper's behalf"
+          "Apply exclusively to LCL shipments below 15 cubic metres",
+          "Are agreed for a specific single shipment at current market prices with no volume commitment",
+          "Include BAF and CAF surcharges that contract rates exclude by definition",
+          "Are fixed by carrier conferences for 12 months and published in official tariff schedules"
         ],
-        "correct": 2,
-        "why": "SOLAS Chapter VI Regulation 2 places VGM responsibility squarely on the shipper; a false declaration is a criminal offence in most jurisdictions regardless of who arranged the shipment.",
-        "deepDive": "SOLAS Regulation VI/2 came into force July 1, 2016 following a series of container stack collapses caused by misdeclared weights — the MV Mol Comfort sinking in 2013 is a landmark case. The rule requires every packed container to have a verified gross mass before vessel loading, using Method 1 (weigh the packed container on a calibrated scale) or Method 2 (weigh all contents plus tare weight, subject to flag state approval). The shipper must sign the VGM document; the carrier and terminal can legally refuse loading without it. Enforcement varies: Singapore, Rotterdam, and Hamburg are strict; many developing-country ports remain lax. Fraud risk is highest in agricultural commodity exports where bulk cargo is consolidated into FCL containers. Common misconception: freight forwarders can accept VGM responsibility on behalf of a shipper. They cannot. Only the named shipper on the B/L bears legal liability under SOLAS, though contractual liability can be allocated differently by private agreement."
+        "correct": 1,
+        "why": "Spot rates are transactional — one shipment, current market price, zero volume commitment; contract rates exchange volume discipline for price stability and space guarantees over a set period.",
+        "deepDive": "Ocean freight pricing has two tiers. Spot rates apply to individual shipments at real-time market conditions — fluctuating daily with supply-demand. Contract (service contract) rates are bilateral agreements for defined volume over a period, typically a year, exchanging volume commitment for price and space certainty. The COVID era exposed this dramatically: Asia-USWC spot hit $20,000+/FEU while legacy contract holders paid $2,000–$4,000; carriers rolled contract cargo in favour of spot premiums. In 2023 the reverse: spot crashed, locking contract shippers into above-market rates. Sophisticated shippers now typically run 60–70% contract for core volumes and 30–40% spot — 'portfolio blending' — as a hedge against both directions of rate movement. All-in versus base-rate definitions (including or excluding surcharges like BAF) vary by carrier and must be negotiated explicitly."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "The 'rate-volume paradox' in container shipping describes the tendency for ocean freight rates to:",
+        "subtopic": "supply_chain_strategy",
+        "stem": "The 'China+1' supply chain strategy, widely adopted after 2018 trade wars and COVID disruptions, is best defined as:",
         "options": [
-          "Rise when shippers consolidate LCL cargo into FCL to reduce per-unit costs",
-          "Rise even as cargo volumes fall, due to disciplined carrier capacity management",
-          "Fall disproportionately on low-density cargo relative to high-value goods",
-          "Remain stable during alliance renegotiation periods despite broader market volatility"
+          "Keeping China as the core manufacturing base while building parallel capacity in at least one other country to reduce single-country dependency",
+          "Shifting all production out of China to lower-cost Southeast Asian alternatives",
+          "Adding Chinese sub-suppliers to non-Chinese primary supply chains for component cost reduction",
+          "A WTO framework for managing bilateral trade imbalances through negotiated quota arrangements"
         ],
-        "correct": 1,
-        "why": "Carriers use blank sailings and slow steaming to remove supply during demand troughs, allowing rates to hold or rise despite falling volumes, defying textbook supply-demand intuition.",
-        "deepDive": "The container shipping market exhibits a paradox that puzzles price theorists: when demand falls, carriers can raise rates. This is possible because the industry is oligopolistic — three alliances control roughly 80% of global capacity — and carriers have learned that disciplined capacity management through blank sailings and vessel deferrals maintains rate floors in downturns. The post-COVID 2022-23 collapse exposed the limits: when carriers over-ordered ships during the 2021 freight boom, the supply glut overwhelmed coordination and rates collapsed from over $20,000 to under $1,500 per TEU on key lanes. The FMC scrutinizes alliance blank-sailing coordination for anti-competitive behavior; carriers argue they are simply rationalising excess capacity, which is legal. For sophisticated freight buyers, this paradox is actionable: annual contract rates should be negotiated during low-demand periods, not peak season, when carrier leverage is at its maximum and the rate-volume paradox works against the buyer."
+        "correct": 0,
+        "why": "China+1 is diversification, not exit — China remains the production core while a parallel node in Vietnam, India, Bangladesh, or Mexico hedges geopolitical and disruption risk.",
+        "deepDive": "China+1 emerged from the 2018–2019 US-China tariff war and COVID's brutal exposure of single-country supply chain fragility. The strategy retains China — which has unmatched infrastructure depth, labour skill, and supplier ecosystems — while adding a parallel production node. Vietnam has been the largest beneficiary (Apple iPhone assembly, Samsung phones, Nike footwear); India now handles ~15% of global iPhone assembly; Bangladesh has captured significant RMG share; Mexico leads US nearshoring for automotive and electronics. 'Friendshoring' is a subset — choosing the +1 from geopolitically aligned nations. The persistent misconception: China+1 means leaving China. Most companies retain 60–80% of production there; the +1 handles tariff-sensitive SKUs, surge capacity, or restricted-technology items. Bangladesh's recent export growth is substantially a China+1 beneficiary story."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "Polyphony — multiple independent melodic lines sounding simultaneously — achieved its definitive form in Western art music during which period?",
+        "subtopic": "history",
+        "stem": "The 1944 Bretton Woods Agreement established a monetary system where:",
         "options": [
-          "Ancient Greek theatre, roughly 500 to 300 BCE",
-          "The Medieval and Renaissance periods, roughly 900 to 1600 CE",
-          "The Classical period, roughly 1750 to 1820 CE",
-          "The Romantic period, roughly 1820 to 1900 CE"
+          "All major currencies were pegged directly to gold at individually negotiated fixed rates",
+          "Central banks could float within a managed band supervised by the IMF",
+          "The US dollar was convertible to gold at $35 per troy ounce and all other currencies were pegged to the dollar",
+          "A single global reserve currency administered by the World Bank replaced national currencies for trade settlement"
         ],
-        "correct": 1,
-        "why": "Organum in the 9th century, Notre Dame composers like Perotin, and the Renaissance counterpoint of Palestrina and Bach define polyphony's golden era.",
-        "deepDive": "Polyphony emerged from Gregorian chant when medieval monks began adding a second voice moving in parallel fourths or fifths, called organum, around 900 CE. By the 13th century, Notre Dame composers Leonin and Perotin developed rhythmic independence between voices. The Renaissance saw polyphony reach its apex: Josquin des Prez mastered imitative counterpoint where voices enter with the same melody in staggered sequence. Palestrina developed smooth Renaissance vocal polyphony, later codified as strict counterpoint. J.S. Bach pushed polyphony to its technical limit in fugues and inventions — the Art of Fugue is its pinnacle. Common misconception: polyphony did not end with the Baroque era. It was folded into homophony (melody with harmonic accompaniment) as the dominant Classical texture, but counterpoint training remains foundational in Western music education to this day, and jazz, film scoring, and even hip-hop production draw on its principles."
+        "correct": 2,
+        "why": "Bretton Woods created dollar-gold convertibility at $35/oz with all other currencies pegged to the dollar; Nixon suspended convertibility in August 1971 — the Nixon Shock — ending the system.",
+        "deepDive": "Convened in July 1944 with 44 Allied nations, Bretton Woods created the IMF and World Bank and established the dollar-gold standard. Only the US dollar was pegged to gold at $35/troy oz; all other currencies were pegged to the dollar within ±1%, with central banks obliged to intervene. This gave the US 'exorbitant privilege' — the world needed dollars for trade, so the US could run deficits that would force balance-of-payments crises on any other country. By 1971, Vietnam war spending and Great Society programmes had exhausted US gold reserves relative to outstanding dollar liabilities. Nixon unilaterally suspended convertibility on August 15, 1971; by 1973 the system had fully collapsed into floating exchange rates. Common misconception: Bretton Woods was a gold standard. It was not — individuals couldn't redeem dollars for gold; only foreign central banks could, and only in theory before Nixon closed the window."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "The concept of 'Barzakh' in Islamic theology refers to:",
+        "subtopic": "geography",
+        "stem": "The 'Malacca Dilemma,' first articulated by Chinese President Hu Jintao in 2003, describes China's strategic vulnerability because:",
         "options": [
-          "The divine light emanating from the Throne of God in Islamic cosmology",
-          "The intermediate realm in which souls dwell between death and the Day of Resurrection",
-          "The covenant made between God and all human souls before creation",
-          "The bridge over Hellfire that every soul must cross on the Day of Judgement"
+          "The Malacca Strait's shallow depth restricts passage of China's largest naval vessels",
+          "Persistent piracy in the Malacca Strait significantly raises Chinese merchant shipping costs",
+          "China's overwhelming dependence on the Malacca chokepoint for energy imports could be exploited by a rival naval power",
+          "Environmental regulations in the Malacca Strait restrict Chinese coal carrier transit speeds and increase voyage costs"
         ],
-        "correct": 1,
-        "why": "Barzakh (Arabic for barrier or partition) is the soul's liminal dwelling place after death and before Resurrection, explicitly referenced in Surah Al-Mu'minun (23:100).",
-        "deepDive": "Barzakh appears three times in the Quran. Surah Al-Mu'minun (23:100) is its clearest deployment: after death, a soul cannot return to the world and is held in Barzakh until Resurrection. Mainstream Sunni theology holds that in Barzakh, angels Munkar and Nakir question the soul in the grave, and it experiences either bliss or punishment based on its deeds. Sufi schools treat Barzakh as a metaphysical plane bridging material existence and divine reality. In comparative religion, Barzakh has structural parallels with Purgatory in Catholicism, Sheol in early Hebrew theology, and the bardos in Tibetan Buddhism — each tradition positing a liminal state between death and final judgment. The concept shapes Muslim burial practices: prompt burial, the washing and shrouding of the body, specific grave-side prayers, and ongoing supplication for the deceased are all grounded in Barzakh theology. The bridge over Hellfire referenced in option D is a separate concept called the Sirat."
+        "correct": 2,
+        "why": "Over 80% of China's crude oil imports transit Malacca — a naval blockade by the US or India of this narrow strait could strangle China's economy, directly driving its BRI and port investment strategy.",
+        "deepDive": "The Strait of Malacca — 550 miles long, barely 1.7 miles wide at Phillips Channel — carries 100,000+ vessels annually and ~25% of global traded goods. For China, it is existential: 80%+ of crude imports transit it. Any power controlling the strait — primarily the US Pacific Fleet supported by India's Andaman & Nicobar command — holds enormous leverage in a conflict. This anxiety drives Chinese strategy directly: BRI land routes through Myanmar, Pakistan (CPEC to Gwadar), and Central Asia are partly Malacca bypass designs. Kyaukpyu (Myanmar), Hambantota (Sri Lanka), and Gwadar (Pakistan) are all shaped by this calculus. Common misconception: the Malacca Dilemma is about piracy. It is a conflict-scenario naval chokepoint analysis — a contingency where maritime interdiction becomes a weapon of economic coercion against China's energy supply."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "The strong form of the Sapir-Whorf hypothesis, called linguistic determinism, claims that:",
+        "subtopic": "physical_science",
+        "stem": "Snell's Law in optics governs:",
         "options": [
-          "All human languages share an underlying universal grammar that is independent of culture",
-          "The language a person speaks actively determines and limits the thoughts they can form",
-          "Languages evolve to mirror the social hierarchy and power relations of their speakers",
-          "Children acquire language primarily through behavioural reinforcement rather than innate capacity"
+          "The bending of light at the interface between two media of different refractive indices",
+          "The inverse-square relationship between light intensity and distance from a point source",
+          "The relationship between electric field strength and charge density in a dielectric",
+          "The frequency shift of light emitted by a source moving relative to an observer"
         ],
-        "correct": 1,
-        "why": "Linguistic determinism holds that language structure constrains thought itself, not merely labels it — so speakers of different languages literally cannot think certain thoughts.",
-        "deepDive": "Edward Sapir and Benjamin Lee Whorf proposed that the language you speak shapes your perception of reality. The strong form holds that without vocabulary or grammar for a concept, you cannot think it. Whorf's classic example: the Hopi language allegedly lacks tense, implying fundamentally different time perception. The Amazonian language Piraha, which has no number words beyond a few and many, has been linked to difficulties with exact numerical tasks. The strong form is largely rejected by modern cognitive science: colour perception, spatial reasoning, and basic logical operations are demonstrably universal. The weak form — that language influences habitual attention and categorical perception — has experimental support: Russian speakers, who use different words for dark and light blue, distinguish blue shades faster in perception tests. Chomsky's Universal Grammar stands as the primary alternative framework. A contemporary angle: AI language models' failure modes sometimes mirror Whorfian predictions — the statistical patterns in the training corpus shape what the model can and cannot reason about, echoing the claim that language structure bounds thought."
+        "correct": 0,
+        "why": "Snell's Law — n₁sin(θ₁) = n₂sin(θ₂) — quantifies how much light bends crossing between materials with different optical densities, underpinning lenses, fibre optics, and endoscopes.",
+        "deepDive": "When light crosses a boundary between two media — air (n=1.0) into glass (n=1.5) — it bends toward or away from the normal depending on refractive indices. Snell's Law, formalised by Willebrord Snellius in 1621: n₁sin(θ₁) = n₂sin(θ₂). Applications are universal: eyeglass lenses, cameras, endoscopes, and fibre optic cables all exploit controlled refraction. Fibre optics works via total internal reflection — when light hits the glass-air boundary beyond the critical angle (derived from Snell's Law), it bounces inside the fibre, propagating signal thousands of kilometres with minimal loss. This principle underlies all internet backbone infrastructure. Common misconception: light 'loses energy' when slowing in a denser medium. It doesn't — frequency (and energy) stays constant; only wavelength shortens. Speed fully recovers upon re-entering a less dense medium."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "In cricket, the Duckworth-Lewis-Stern (DLS) method is used to:",
+        "subtopic": "literature",
+        "stem": "García Márquez's technique of narrating supernatural events with complete matter-of-factness in 'One Hundred Years of Solitude' is the defining feature of:",
         "options": [
-          "Determine whether a delivery exceeds the legal bowling speed limit for its classification",
-          "Set a revised target for the team batting second after weather interrupts a limited-overs match",
-          "Adjudicate run-out decisions when third-umpire camera angles are inconclusive",
-          "Rank teams in multi-nation tournament groups based on net run rate"
+          "Surrealism",
+          "Magical realism",
+          "Postmodernism",
+          "Stream of consciousness"
         ],
         "correct": 1,
-        "why": "DLS calculates a fair revised target using a resources model — wickets in hand and overs remaining — when rain or interruption reduces the second innings.",
-        "deepDive": "The DLS method was developed by statisticians Frank Duckworth and Tony Lewis, adopted by the ICC in 1997, and updated by Steven Stern in 2014 to handle Twenty20 formats. It replaced the controversial highest-scoring-overs method, which produced absurd outcomes — the 1992 World Cup semi-final where rain reduced South Africa's target to 22 runs off 1 ball is the canonical failure case. DLS models each team's resources as a function of wickets in hand and overs remaining, recognising that each over's value changes dynamically as wickets fall. Common misconception: DLS does not simply reduce the target proportionally to overs lost. Losing powerplay overs hurts more than losing death overs. Teams have occasionally gamed DLS by intentionally slowing play when rain seems imminent, a persistent controversy in bilateral series. Bangladesh has been directly affected by several high-profile DLS decisions in Asia Cup and ICC tournaments, making this genuinely operationally relevant cricket literacy."
+        "why": "Magical realism embeds supernatural elements into realistic settings without surprise — a woman ascending to heaven while doing laundry is narrated with the same tone as weather — the signature of Latin American literary tradition.",
+        "deepDive": "Magical realism (realismo mágico) blends the magical and mundane so completely that supernatural events are narrated without apology or dramatic emphasis. The critical term was coined in 1925 by German art critic Franz Roh; Latin American writers adopted it to encode pre-Columbian mythologies, colonial trauma, and cyclical historical memory in narrative. García Márquez's 'One Hundred Years of Solitude' (1967) — the Buendía family's century in fictional Macondo mirroring Colombia's civil wars and foreign exploitation — is the mode's masterpiece, winning the 1982 Nobel Prize. Magical realism differs from surrealism (which disorients deliberately) and fantasy (which builds a separate world-logic). The common misconception: it is escapist fantasy. It is the opposite — magic is deployed to expose social and political realities that rational Western realism cannot adequately capture."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "The Bechdel test, applied to films and other media, specifically requires that a work:",
+        "subtopic": "life_science",
+        "stem": "CRISPR-Cas9 achieves precise gene editing through:",
         "options": [
-          "Passes pre-release review by a certified panel of feminist film critics",
-          "Features at least two named women who talk to each other about something other than a man",
-          "Has a woman credited as director, writer, or lead producer",
-          "Avoids depicting women in sexualised or objectified roles"
+          "Inserting corrective DNA using engineered viral vectors as delivery mechanisms",
+          "Methylating target gene promoters to permanently silence their expression",
+          "Physically excising mutant segments using restriction enzymes and DNA ligases",
+          "A guide RNA directing the Cas9 enzyme to cut both strands of DNA at a precise target location"
         ],
-        "correct": 1,
-        "why": "The test checks for two named female characters having a conversation on a non-male topic — a deliberately minimal threshold that statistically exposes systemic underrepresentation.",
-        "deepDive": "Alison Bechdel introduced the concept in her comic strip Dykes to Watch Out For in 1985, where a character refuses to see any film that does not meet three criteria: at least two women in it, they talk to each other, and their conversation is not about a man. Bechdel credited the idea to her friend Liz Wallace. The test gained mainstream traction in the 2010s as a quick statistical proxy for female representation. Its limitations are well-documented: a film can pass and still be deeply sexist, and excellent films like Gravity and The Social Network fail it. The test's value is aggregate and systemic: when 40 to 50 percent of Hollywood films fail this minimal threshold, it reveals structural underrepresentation rather than individual film quality. Variants include the Mako Mori Test, which requires a female character with an arc not defined by a male character's story, and the Geena Davis Institute's more granular representation metrics. The term entered the Oxford English Dictionary in 2023."
+        "correct": 3,
+        "why": "A synthetic guide RNA matches the target sequence; Cas9 binds and cuts both DNA strands at that location; the cell's repair machinery then inserts, deletes, or corrects as directed.",
+        "deepDive": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) was a bacterial immune memory system before Doudna and Charpentier adapted it for programmable gene editing in 2012, earning the 2020 Nobel Prize in Chemistry. A guide RNA (gRNA) complementary to the target DNA directs Cas9 to the sequence; Cas9 makes a double-strand break. The cell repairs via two pathways: error-prone NHEJ (disrupts the gene — useful for knockouts) or precise HDR (inserts a new sequence — useful for corrections). Casgevy — the first CRISPR therapy — received FDA approval in 2023 for sickle cell disease. Future targets include hereditary blindness and Duchenne muscular dystrophy. Common misconception: CRISPR permanently fixes genes body-wide. Somatic editing affects only treated cells; germline editing (embryos) would affect all cells but is ethically restricted globally."
       }
     ]
   }
