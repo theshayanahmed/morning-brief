@@ -1,6 +1,6 @@
 {
   "streak": 1,
-  "last_session_date": "2026-06-04",
+  "last_session_date": "2026-06-05",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -251,7 +251,17 @@
     "John Rawls' 'difference principle' in A Theory of Justice (1971) holds that social and economic inequalities are just only if they:",
     "The Mundell-Fleming 'impossible trinity' (or trilemma) states that an open economy cannot simultaneously achieve which three policy objectives?",
     "Cricket's Duckworth-Lewis-Stern (DLS) method addresses a specific problem in rain-interrupted limited-overs matches. What is that problem and what concept is central to its mathematical solution?",
-    "In Western music, F# and Gb are said to be 'enharmonically equivalent.' What does this mean in practice on a modern equal-tempered instrument like a piano?"
+    "In Western music, F# and Gb are said to be 'enharmonically equivalent.' What does this mean in practice on a modern equal-tempered instrument like a piano?",
+    "Under Incoterms 2020, which trade term passes risk to the buyer at the moment goods are loaded on board the vessel at the named port of shipment?",
+    "What single feature distinguishes a negotiable bill of lading from a non-negotiable sea waybill, making it function as a tradeable document of title?",
+    "In container shipping, what does 'GRI' stand for, and at what point in the market cycle do carriers typically announce one?",
+    "In air cargo rating, what is the 'pivot weight,' and why does it determine which weight — actual or volumetric — is used to calculate the freight charge?",
+    "The Regional Comprehensive Economic Partnership (RCEP), signed November 2020, covers roughly 30% of world GDP. Which major economy withdrew from negotiations in 2019?",
+    "Mitochondria produce most of a cell's ATP by coupling the electron transport chain to a proton-powered enzyme. What is this process called?",
+    "Islamic jurisprudence (fiqh) derives Sharia from four classical sources. The Quran and Sunnah are two; Qiyas (analogy) is a third. What is the fourth source, ijma?",
+    "Chomsky's Universal Grammar claims humans have an innate language faculty with shared deep structures. Which small Amazonian language is most cited as empirical evidence against this claim?",
+    "The red pill / blue pill choice — take uncomfortable truth or remain in comforting illusion — entered global pop culture via which 1999 science-fiction film?",
+    "The Coriolis effect — caused by Earth's rotation — deflects large-scale air and ocean currents. In which direction do tropical cyclones rotate in the southern hemisphere?"
   ],
   "learn_history": [
     {
@@ -383,12 +393,17 @@
       "date": "2026-06-04",
       "topic": "Gate-All-Around Transistors: How Physics Keeps Moore's Law Alive",
       "bucket": "semiconductor_foundations"
+    },
+    {
+      "date": "2026-06-05",
+      "topic": "Nuclear Fission: Chain Reactions, Enrichment Physics, and Why the Iran War Is a Proliferation Crisis",
+      "bucket": "science_concept"
     }
   ],
   "curriculum_progress": {
     "incoterms": {
-      "count": 6,
-      "last_seen": "2026-06-01",
+      "count": 7,
+      "last_seen": "2026-06-05",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -399,8 +414,8 @@
       "rolling_score": []
     },
     "bill_of_lading": {
-      "count": 6,
-      "last_seen": "2026-06-01",
+      "count": 7,
+      "last_seen": "2026-06-05",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -423,8 +438,8 @@
       "rolling_score": []
     },
     "pricing": {
-      "count": 6,
-      "last_seen": "2026-06-01",
+      "count": 7,
+      "last_seen": "2026-06-05",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -435,8 +450,8 @@
       "rolling_score": []
     },
     "air_freight": {
-      "count": 6,
-      "last_seen": "2026-06-01",
+      "count": 7,
+      "last_seen": "2026-06-05",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -453,8 +468,8 @@
       "rolling_score": []
     },
     "ftas": {
-      "count": 6,
-      "last_seen": "2026-06-01",
+      "count": 7,
+      "last_seen": "2026-06-05",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -515,8 +530,8 @@
       "rolling_score": []
     },
     "geography": {
-      "count": 9,
-      "last_seen": "2026-06-03",
+      "count": 10,
+      "last_seen": "2026-06-05",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -527,8 +542,8 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 9,
-      "last_seen": "2026-06-02",
+      "count": 10,
+      "last_seen": "2026-06-05",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -557,8 +572,8 @@
       "rolling_score": []
     },
     "religion": {
-      "count": 8,
-      "last_seen": "2026-06-02",
+      "count": 9,
+      "last_seen": "2026-06-05",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -575,8 +590,8 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 8,
-      "last_seen": "2026-06-02",
+      "count": 9,
+      "last_seen": "2026-06-05",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -587,167 +602,167 @@
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 8,
-      "last_seen": "2026-06-02",
+      "count": 9,
+      "last_seen": "2026-06-05",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-06-04",
+    "date": "2026-06-05",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "A CATOBAR carrier launches aircraft using steam or electromagnetic catapults. What operationally distinguishes it from a STOBAR carrier that uses a ski-jump ramp?",
+        "subtopic": "incoterms",
+        "stem": "Under Incoterms 2020, which trade term passes risk to the buyer at the moment goods are loaded on board the vessel at the named port of shipment?",
         "options": [
-          "STOBAR generates more launch energy, enabling heavier payload on shorter decks than CATOBAR",
-          "CATOBAR launches fully-fuelled, maximum-payload aircraft; STOBAR's ramp limits aircraft to reduced fuel and weapons loads",
-          "CATOBAR requires nuclear propulsion; STOBAR can be conventionally powered",
-          "STOBAR is exclusive to amphibious assault ships and not used on fleet carriers"
+          "CIF (Cost, Insurance and Freight)",
+          "FOB (Free On Board)",
+          "CPT (Carriage Paid To)",
+          "DAP (Delivered at Place)"
         ],
         "correct": 1,
-        "why": "Catapults provide external kinetic energy to reach flying speed at maximum all-up weight; ski-jump ramps rely solely on the aircraft's thrust, forcing lighter, underfuelled launches.",
-        "deepDive": "CATOBAR (Catapult Assisted Take-Off But Arrested Recovery) is used by the US Navy's Nimitz and Gerald R. Ford classes and France's Charles de Gaulle. The catapult — steam on older ships, electromagnetic EMALS on the Ford class — imparts additional kinetic energy, allowing aircraft to launch at maximum all-up weight with full fuel and weapons load. STOBAR (Short Take-Off But Arrested Recovery), used by India's INS Vikrant and China's Liaoning, relies on a 12-14° ski-jump ramp; the aircraft's engines do all the work, so planes launch at reduced fuel and weapons payload, limiting combat radius and strike capacity. STOVL (Short Take-Off/Vertical Landing) is a third category — F-35B on UK Queen Elizabeth carriers and US Marine amphibious ships — using vectored thrust with no catapult and no arresting wire. China's Fujian (Type 003) is the first non-US vessel with CATOBAR, using electromagnetic catapults — a significant capability leap that closes the gap with US carrier aviation doctrine."
+        "why": "Under FOB, risk transfers the instant goods cross the ship's rail at the named port of shipment — all subsequent ocean transit risk falls on the buyer.",
+        "deepDive": "FOB is the most widely used Incoterm in bulk, break-bulk and container trade. The core misconception is that FOB means the seller pays freight — it does not. FOB fixes only where risk transfers; freight responsibility is a separate contractual matter. Under CIF, the seller pays ocean freight and insurance but risk still transfers at the port of shipment — a subtle and frequently confused distinction. Under CPT and DAP, risk transfers at different logistical milestones. The misapplication of FOB to containerised cargo — where goods are handed to a terminal operator, not loaded on board in the traditional sense — was the driving reason the ICC created FCA as the preferred Incoterm for container shipments. In practice, many Asian export contracts still use FOB incorrectly for containers, creating latent risk disputes."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "An airport is classified Level 3 under IATA's Worldwide Airport Slot Guidelines (WASG). What does this mean and who governs how slots are allocated?",
+        "subtopic": "bill_of_lading",
+        "stem": "What single feature distinguishes a negotiable bill of lading from a non-negotiable sea waybill, making it function as a tradeable document of title?",
         "options": [
-          "The airport operates 24/7 without capacity constraints; slots are self-managed bilaterally between airlines and the airport",
-          "The airport is fully coordinated — demand chronically exceeds declared capacity; slots are allocated by an independent coordinator using historical precedence and new-entrant rules",
-          "Level 3 denotes a security clearance tier required for international cargo-only operations",
-          "Slots are auctioned quarterly by the national aviation authority to the highest-bidding carrier"
+          "It includes the cargo's insurance certificate",
+          "It can be endorsed and transferred to a third party",
+          "It specifies a named consignee who cannot be changed",
+          "It is issued only for full-container-load shipments"
         ],
         "correct": 1,
-        "why": "Level 3 under IATA WASG means demand chronically exceeds declared capacity; an independent coordinator allocates using the 80/20 use-it-or-lose-it rule and grandfather rights.",
-        "deepDive": "IATA's Worldwide Airport Slot Guidelines classify airports in three levels: Level 1 (no coordination needed), Level 2 (schedule facilitated — some congestion, voluntary cooperation), and Level 3 (fully coordinated — demand chronically exceeds declared capacity in at least one scheduling period). Level 3 airports include Heathrow, JFK, Frankfurt, Singapore Changi, and Hong Kong. An independent slot coordinator — Airport Coordination Limited in Europe, for example — allocates slots using grandfather rights (historical precedence: if you used a slot last year and meet the 80% use threshold, you retain it) and a 50% new-entrant pool for airlines seeking to enter or grow. The 80/20 rule requires airlines to operate a slot at least 80% of the time or forfeit it. Slot pairs at LHR have sold for over $75 million on the secondary market — revealing their true value as protected access rights to the world's most congested infrastructure."
+        "why": "Negotiability via endorsement means the B/L can be bought, sold or pledged mid-voyage — whoever holds the original controls delivery.",
+        "deepDive": "A negotiable order bill of lading works like a bearer instrument: the shipper endorses it to the buyer or to the order of a bank, who can re-endorse it onward before the vessel arrives. This makes the B/L essential in documentary credit transactions — the issuing bank holds the original B/L as collateral for the loan extended to the importer. A sea waybill names a fixed consignee and cannot be transferred, suitable for intra-company shipments but useless in commodity trading where cargoes change hands mid-ocean. The original negotiable B/L must be surrendered at destination to obtain delivery. Losing all three originals is a serious legal event that can strand cargo for weeks while courts issue alternative delivery orders — a recurring problem in fast commodity trades."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "Between 2016 and 2018, a wave of container shipping mergers dramatically concentrated the industry. Which cluster of deals was most structurally transformative?",
+        "subtopic": "pricing",
+        "stem": "In container shipping, what does 'GRI' stand for, and at what point in the market cycle do carriers typically announce one?",
         "options": [
-          "MSC acquiring Evergreen and Hapag-Lloyd merging with ONE to create two dominant super-carriers",
-          "Maersk absorbing CMA CGM and COSCO absorbing Yang Ming under Chinese SOE consolidation directives",
-          "CMA CGM/APL, COSCO/CSCL/OOCL, Hapag-Lloyd/UASC, Maersk/Hamburg Süd, and the formation of ONE — pushing top-10 carriers above 80% of global capacity",
-          "The formation of the three major alliances (2M, Ocean Alliance, THE Alliance) without any company-level M&A"
+          "Gross Revenue Index, published monthly by BIMCO",
+          "Guaranteed Rate Index, set annually by carrier alliances",
+          "General Rate Increase, announced when spot rates fall below sustainable levels or at peak-season onset",
+          "Global Routing Index, used to price deviation surcharges"
         ],
         "correct": 2,
-        "why": "Five distinct M&A events between 2016-18 restructured the industry; post-consolidation the top 10 carriers control over 80% of global capacity, enabling unprecedented pricing coordination.",
-        "deepDive": "The 2016-18 consolidation wave was triggered by the 2016 Hanjin Shipping bankruptcy — then the seventh-largest carrier — which exposed fatal overcapacity risks. CMA CGM acquired APL ($2.4B, 2016); COSCO merged with China Shipping (2016) then acquired OOCL ($6.3B, 2018); Hapag-Lloyd merged with UASC (2017); Maersk acquired Hamburg Süd (2017). In Japan, NYK, MOL, and K Line merged their container divisions into ONE (Ocean Network Express) in 2018. This restructured the industry into three major alliances: 2M (Maersk+MSC, now dissolved), Ocean Alliance (CMA CGM+COSCO+Evergreen), and THE Alliance (Hapag-Lloyd+ONE+Yang Ming). Post-2M dissolution, MSC became the world's largest carrier by capacity. Today the top 10 carriers control over 85% of global TEU capacity — an oligopoly that regulators in the US, EU, and China continue to scrutinise for rate-fixing behaviour."
+        "why": "GRI = General Rate Increase; carriers announce them when spot rates have eroded or at peak-season entry to restore yield per container.",
+        "deepDive": "A GRI is a carrier's published intent to raise base ocean freight rates by a fixed dollar amount per TEU or FEU on a specified date. Implementation is not guaranteed: in a weak market, shippers rebook at lower spot rates and the GRI fails. In a tight market — like today's, with Hormuz closed, peak season running early and tariff front-loading compressing capacity — GRIs stick and often exceed the announced increment. Carriers typically give 30 days notice, which also serves as a signalling mechanism: announcing a GRI telegraphs that capacity is tightening, encourages early bookings and thereby self-fulfillingly tightens the market further. Monitoring GRI announcements is an early-warning indicator of rate direction and carrier confidence in demand."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "A freight forwarder quotes a shipper an all-in ocean rate rather than a base-rate-plus-surcharges structure. What is the key commercial risk the forwarder now bears?",
+        "subtopic": "air_freight",
+        "stem": "In air cargo rating, what is the 'pivot weight,' and why does it determine which weight — actual or volumetric — is used to calculate the freight charge?",
         "options": [
-          "The all-in rate legally locks the carrier into a fixed commitment, removing the forwarder's rebooking flexibility during peak season",
-          "The forwarder absorbs surcharge volatility — if BAF, CAF, or PSS spike after the quote, the forwarder's margin erodes while the shipper retains cost certainty",
-          "All-in rates are prohibited under FMC regulations on US trade lanes, exposing the forwarder to civil penalties",
-          "All-in quotes exclude THC by IATA convention, creating a hidden cost the shipper must absorb at origin"
+          "The breakeven point where chargeable weight equals actual weight, above which the per-kg rate decreases",
+          "The minimum cargo weight required to qualify for IATA special-commodity rates",
+          "The maximum single-piece weight per IATA dangerous-goods handling rules",
+          "The weight used to calculate carrier liability under the Montreal Convention"
         ],
-        "correct": 1,
-        "why": "All-in quoting shifts BAF, CAF, and PSS volatility risk from shipper onto the forwarder; the client gains budget certainty while the intermediary bears surcharge fluctuation exposure.",
-        "deepDive": "Ocean freight pricing operates in two broad modes. Base-rate-plus-surcharges: the shipper pays a transparent base freight and separately absorbs fluctuating surcharges — Bunker Adjustment Factor (BAF), Currency Adjustment Factor (CAF), Peak Season Surcharge (PSS), Emergency Risk Surcharge, etc. All-in quoting: the forwarder or NVOCC rolls all known and projected surcharges into one fixed price, absorbing volatility risk. In stable markets, all-in is a minor pricing technique. In volatile markets — 2021-22 post-COVID or 2026's front-loading surge — surcharges can exceed base freight multiple times over, turning an all-in quote into a significant loss-leader for the forwarder. US FMC regulations require pricing transparency but do not prohibit all-in quotes. THC (Terminal Handling Charge) is typically excluded separately in both models. IATA governs air freight, not ocean shipping — a common exam trick."
+        "correct": 0,
+        "why": "Pivot weight is where volumetric (dimensional) weight equals gross weight; airlines offer lower per-kg rates above it to attract dense, heavy cargo.",
+        "deepDive": "Air cargo is rated on chargeable weight — whichever is greater between actual gross weight and volumetric weight (volume in cm³ divided by 6,000). The pivot weight is the specific threshold at which a lower rate bracket applies, incentivising dense freight that efficiently fills belly or freighter space. Think metal parts vs. foam pillows: identical cubic volume, vastly different weights and revenue per cubic metre. Airlines price to maximise yield per unit of belly capacity, so they discount the per-kg rate to attract dense cargo above the pivot. Understanding pivot weight drives the commercial decision of whether to ship as air cargo, consolidate into a heavier consignment or split — the core pricing skill of any air freight sales or operations role."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "A manufacturer shifts from just-in-time (JIT) to just-in-case (JIC) inventory strategy. What is the primary financial trade-off of this decision?",
+        "subtopic": "ftas",
+        "stem": "The Regional Comprehensive Economic Partnership (RCEP), signed November 2020, covers roughly 30% of world GDP. Which major economy withdrew from negotiations in 2019?",
         "options": [
-          "JIC reduces working capital requirements because safety stock generates a float return on warehoused goods",
-          "JIC increases inventory carrying costs — storage, insurance, capital tie-up, and obsolescence — in exchange for resilience against supply chain disruptions",
-          "JIT always requires expensive emergency airfreight for replenishment, making it structurally more costly than JIC in volatile markets",
-          "JIC eliminates the bullwhip effect entirely because safety stock buffers all upstream demand variability"
+          "India",
+          "Australia",
+          "Vietnam",
+          "Pakistan"
         ],
-        "correct": 1,
-        "why": "JIC trades higher carrying costs — typically 20-30% of inventory value annually — for supply chain resilience: the core tension COVID-19 and Hormuz/Suez disruptions made visceral.",
-        "deepDive": "Just-in-time inventory was pioneered by Toyota's production system in the 1970s: synchronise supply to near-real-time production demand, minimise stock, reduce warehouse spend and obsolescence risk. The vulnerability: any supply disruption — port congestion, geopolitical shock, pandemic — immediately halts production with no buffer. Just-in-case adds safety stock to absorb shocks. The financial cost of JIC: inventory carrying costs run 20-30% of inventory value per year (financing at opportunity cost, warehousing, insurance, shrinkage, obsolescence). Post-COVID, multinationals measurably shifted toward JIC — McKinsey data showed median inventory days rising 10-15% across manufacturing sectors 2021-23. The pendulum is now swinging back as interest rates and carrying costs bite. The bullwhip effect — demand variance amplifying upstream through the supply chain — is not eliminated by JIC; safety stock buffers its downstream impact but does not fix the information-sharing root cause."
+        "correct": 0,
+        "why": "India withdrew in November 2019, fearing import surges — particularly cheap Chinese goods — would undercut domestic manufacturing and agriculture.",
+        "deepDive": "RCEP covers 15 nations: 10 ASEAN members plus China, Japan, South Korea, Australia and New Zealand. India had been a founding participant since 2012 but withdrew citing asymmetric trade deficit risks: India already runs large deficits with most RCEP members, and lower tariffs risked a flood of Chinese goods into Indian markets. Domestic political pressure from farmer and manufacturing lobbies sealed the decision. India's absence is strategically significant — it leaves the world's most populous country and fifth-largest economy outside the agreement's supply-chain framework. For Bangladesh, RCEP membership by regional competitors like Vietnam and Cambodia affects their relative tariff advantages in third markets and shapes the competitive landscape for RMG and light manufacturing."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "The Bauhaus school (1919-1933) revolutionised design by insisting fine art and industrial production must be unified. In which German city did Walter Gropius found it in 1919?",
+        "subtopic": "life_science",
+        "stem": "Mitochondria produce most of a cell's ATP by coupling the electron transport chain to a proton-powered enzyme. What is this process called?",
         "options": [
-          "Berlin",
-          "Munich",
-          "Weimar",
-          "Dresden"
+          "Glycolysis",
+          "Photosynthesis",
+          "Substrate-level fermentation",
+          "Oxidative phosphorylation"
         ],
-        "correct": 2,
-        "why": "Gropius founded the Bauhaus in Weimar in 1919; it relocated to Dessau in 1925 and Berlin in 1932 before Nazi pressure forced closure in 1933.",
-        "deepDive": "The Bauhaus (German for 'building house') was founded by architect Walter Gropius in Weimar in 1919 by merging the Grand-Ducal School of Arts and Crafts with the Weimar Academy of Fine Arts. Its core philosophy rejected the separation of fine art from functional craft: furniture, typography, textiles, theatre, and architecture were taught as unified disciplines under the motto 'art and technology — a new unity.' The school moved to Dessau in 1925 (its most productive phase — the Dessau building itself became a Bauhaus manifesto) and then to Berlin in 1932 under Ludwig Mies van der Rohe, before Nazi political pressure closed it in 1933. Alumni and faculty — László Moholy-Nagy, Marcel Breuer, Paul Klee, Wassily Kandinsky, Herbert Bayer — emigrated to the US, spreading Bauhaus thinking into American design education, corporate identity, and mid-century modernism. The 2019 centenary was widely celebrated; the Dessau Bauhaus campus is now a UNESCO World Heritage Site."
+        "correct": 3,
+        "why": "Oxidative phosphorylation couples electron flow through the ETC to proton-driven ATP synthase, yielding roughly 32-34 ATP per glucose molecule.",
+        "deepDive": "Glucose is first broken down via glycolysis in the cytoplasm, yielding just 2 ATP, then converted to acetyl-CoA for the Krebs cycle. The Krebs cycle strips electrons from fuel molecules and loads them onto carriers (NADH, FADH2). These electrons flow down four protein complexes embedded in the inner mitochondrial membrane — the electron transport chain — to their final acceptor, oxygen. As electrons flow, protons are pumped into the intermembrane space, creating an electrochemical gradient. Those protons flow back through ATP synthase, a molecular turbine, generating ATP. This is why oxygen deprivation halts cellular function so rapidly: remove oxygen and the ETC stalls, ATP synthesis stops, and cells die within minutes. Mitochondria retain their own circular DNA — evidence they were once free-living proteobacteria engulfed by ancestral eukaryotic cells."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "John Rawls' 'difference principle' in A Theory of Justice (1971) holds that social and economic inequalities are just only if they:",
+        "subtopic": "religion",
+        "stem": "Islamic jurisprudence (fiqh) derives Sharia from four classical sources. The Quran and Sunnah are two; Qiyas (analogy) is a third. What is the fourth source, ijma?",
         "options": [
-          "Result from fair meritocratic competition and are proportional to individual contribution to society",
-          "Benefit the least advantaged members of society to the greatest extent possible",
-          "Are unanimously endorsed by all parties operating behind the veil of ignorance",
-          "Do not exceed a defined ratio between the wealthiest and the poorest citizens"
+          "The Prophetic traditions (Hadith collections)",
+          "Public welfare (maslaha)",
+          "Scholarly consensus",
+          "Analogical reasoning applied to novel cases"
         ],
-        "correct": 1,
-        "why": "The difference principle permits inequality only when it maximises the position of the worst-off group — the cornerstone of Rawlsian liberal egalitarianism.",
-        "deepDive": "John Rawls published A Theory of Justice in 1971, reigniting Anglo-American political philosophy after decades dominated by utilitarianism. His foundational thought experiment: the 'veil of ignorance' asks what principles rational agents would choose if they did not know their position in society — their wealth, talent, race, gender, or social class. From this 'original position,' Rawls argued agents would agree on two principles: (1) equal basic liberties for all, and (2) the difference principle — inequalities are just only if they benefit the least advantaged member of society as much as possible. Critically, the difference principle does NOT demand equal outcomes; it permits inequality where inequality creates growth that genuinely helps the worst-off. Rawls was directly challenging utilitarianism (which can justify harming minorities for aggregate benefit) and anticipating libertarianism (Robert Nozick's Anarchy, State, and Utopia, 1974, is the defining response). Rawlsian frameworks underpin progressive taxation theory, welfare state design, and global justice debates."
+        "correct": 2,
+        "why": "Ijma means the consensus of qualified Islamic scholars — once formed, it is considered binding and prevents the law from being revised arbitrarily.",
+        "deepDive": "The four usul al-fiqh (roots of Islamic law) are: the Quran — the primary divine text; Sunnah — the Prophet's sayings, acts and tacit approvals preserved in Hadith; Ijma — scholarly consensus, grounded in the hadith that the community will not agree on an error; and Qiyas — applying analogical reasoning to situations the Quran and Sunnah do not directly address. The four Sunni legal schools (Hanafi, Maliki, Shafi'i, Hanbali) weight these sources differently — Hanafis give relatively more weight to Qiyas; Hanbalis lean more strictly on text. Shia jurisprudence replaces some functions of Ijma with the authority of the Imam. This framework is why Islamic finance instruments such as murabaha and sukuk can function without interest — Qiyas extends the Quranic prohibition on riba to modern financial structures."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The Mundell-Fleming 'impossible trinity' (or trilemma) states that an open economy cannot simultaneously achieve which three policy objectives?",
+        "subtopic": "linguistics",
+        "stem": "Chomsky's Universal Grammar claims humans have an innate language faculty with shared deep structures. Which small Amazonian language is most cited as empirical evidence against this claim?",
         "options": [
-          "Low inflation, full employment, and a balanced fiscal budget simultaneously",
-          "A fixed exchange rate, free capital mobility, and an independent monetary policy",
-          "Trade surplus, capital account surplus, and current account surplus at the same time",
-          "Monetary union, fiscal federalism, and democratic national sovereignty in parallel"
+          "Pirahã",
+          "Quechua",
+          "Guaraní",
+          "Aymara"
         ],
-        "correct": 1,
-        "why": "Mundell-Fleming's trilemma forces every country to sacrifice one goal: exchange rate stability, open capital flows, or autonomous monetary control — only two are simultaneously achievable.",
-        "deepDive": "Robert Mundell and Marcus Fleming developed the impossible trinity in the early 1960s. The logic: if a country fixes its exchange rate and allows free capital flows, it loses monetary autonomy — any rate differential triggers arbitrage capital flows that undermine the fix. China is the canonical example of choosing exchange rate management and monetary autonomy by sacrificing capital account openness (managed float + capital controls). The Eurozone chose free capital flows and a fixed exchange rate (the euro itself) but sacrificed each member state's independent monetary policy — the core institutional tension exposed by the 2010-12 sovereign debt crisis, when Greece could not devalue or cut rates unilaterally. Hong Kong's currency board (hard peg to USD + open capital flows) means Hong Kong's monetary policy is effectively set by the US Federal Reserve, not the HKMA. The trilemma is one of the most useful lenses for reading any central bank constraint in real time."
+        "correct": 0,
+        "why": "Pirahã reportedly lacks recursion, numerals, colour terms and creation myths — features Chomsky listed as universal innate linguistic properties.",
+        "deepDive": "Linguist Daniel Everett spent decades with the Pirahã people of the Amazon and reported their language lacks recursion (embedding clauses within clauses), has no number words, no colour terms, no perfect tense and constrains speech to what speakers have directly experienced. If accurate, this challenges Chomsky's Universal Grammar hypothesis that recursion is a hard-wired universal property of human language. Chomsky and colleagues dispute Everett's analysis, arguing recursion exists at a deep structural level even when surface forms differ. The debate is unresolved and touches the deepest questions in cognitive science: is language a uniquely human biological adaptation with fixed structure, or a culturally evolved technology with far more variation than UG allows? Both sides have compelling evidence and the argument remains very much live in linguistics."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "Cricket's Duckworth-Lewis-Stern (DLS) method addresses a specific problem in rain-interrupted limited-overs matches. What is that problem and what concept is central to its mathematical solution?",
+        "subtopic": "pop_culture",
+        "stem": "The red pill / blue pill choice — take uncomfortable truth or remain in comforting illusion — entered global pop culture via which 1999 science-fiction film?",
         "options": [
-          "It determines whether a batting team deliberately slowed play to trigger a weather delay and adjusts the result to penalise that team",
-          "It sets a revised target by quantifying the combined 'resources' — overs and wickets remaining — lost to the interruption, weighted by the phase of innings in which it occurred",
-          "It calculates the umpire's call threshold for LBW decisions using a ball-tracking probability model calibrated to pitch conditions",
-          "It standardises pitch condition scoring so both teams face equivalent surface deterioration across the match duration"
+          "Fight Club",
+          "Dark City",
+          "The Truman Show",
+          "The Matrix"
         ],
-        "correct": 1,
-        "why": "DLS uses a mathematical resource curve — overs × wickets remaining, weighted by match phase — to fairly revise targets, replacing the discredited average run-rate method.",
-        "deepDive": "Before DLS, interrupted limited-overs games used the Average Run Rate method, which produced absurd outcomes: in the 1992 World Cup semifinal, South Africa needed 22 runs off 13 balls; rain reduced their allocation by 2.12 overs, and the revised target became 22 off 1 ball. Frank Duckworth and Tony Lewis introduced their resource-based method in 1997; Steven Stern refined it in 2014. The insight: a batting side has two diminishing resources — overs remaining and wickets remaining. The DLS table assigns a 'resource percentage' to every combination; losing overs in the powerplay (many wickets remain, high scoring rate potential) is statistically more damaging than losing overs at the death. When play is interrupted, the lost resource percentage is subtracted and the target scaled accordingly. DLS is now used in all ICC-sanctioned international and major domestic matches. Critics note it can still produce counterintuitive results in extreme truncations (matches reduced to 5 overs), where the resource curves become nonlinear."
+        "correct": 3,
+        "why": "The Wachowskis' The Matrix (1999) presented the definitive red-pill/blue-pill scene that became a global metaphor for epistemic awakening.",
+        "deepDive": "In The Matrix, Morpheus offers Neo a red pill (see the truth of the machine-simulated reality) or a blue pill (return to blissful ignorance). The scene crystallises a philosophical tradition running from Plato's Allegory of the Cave through Descartes' evil-demon hypothesis to Putnam's brain-in-a-vat thought experiment. The metaphor escaped its film context rapidly and is now deployed — often loosely — across political, philosophical and online-community discourse, with red-pilling shorthand for introducing someone to any alternative worldview. Dark City (1998) explored near-identical simulation themes a year earlier but lacked The Matrix's cultural penetration, partly because The Matrix arrived with then-revolutionary bullet-time visual effects that made it a pop-culture landmark rather than merely a cult film."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "In Western music, F# and Gb are said to be 'enharmonically equivalent.' What does this mean in practice on a modern equal-tempered instrument like a piano?",
+        "subtopic": "geography",
+        "stem": "The Coriolis effect — caused by Earth's rotation — deflects large-scale air and ocean currents. In which direction do tropical cyclones rotate in the southern hemisphere?",
         "options": [
-          "They produce physically identical pitches on equal-tempered instruments but are notated differently based on harmonic and key context",
-          "They are exactly one semitone apart, forming a minor second interval regardless of key signature",
-          "Enharmonic equivalence applies only in atonal music — in tonal harmony F# and Gb have acoustically distinct pitches",
-          "They form a dissonance requiring resolution to a consonant interval such as a perfect fifth or major third"
+          "Anti-clockwise, same as northern-hemisphere hurricanes",
+          "Clockwise, opposite to northern-hemisphere hurricanes",
+          "Randomly, determined by local sea-surface temperature gradients",
+          "Clockwise only south of the Tropic of Capricorn"
         ],
-        "correct": 0,
-        "why": "Equal temperament (12-TET) divides the octave into 12 identical semitones, making all enharmonic pairs acoustically identical; notation is chosen for harmonic grammar within the key.",
-        "deepDive": "In just intonation — pure mathematical ratios derived from the overtone series — F# and Gb are actually slightly different pitches, separated by the syntonic comma (~21.5 cents). Equal temperament (12-tone equal temperament, 12-TET), formalised in the Baroque era and popularised by J.S. Bach's Well-Tempered Clavier (1722), divides the octave into exactly 12 equal semitones of 100 cents each. This deliberate compromise makes every enharmonic pair — C#/Db, F#/Gb, G#/Ab, B#/C — acoustically identical on any equal-tempered instrument: piano, fretted guitar, synthesiser, tuned percussion. The choice of which spelling to use is determined by harmonic grammar: B major uses F# as its fifth scale degree; Db major uses Gb as its fourth. Composers from Schubert to Beethoven exploited 'enharmonic reinterpretation' as a modulation technique — renaming a chord to give it a new harmonic function in a different key, pivoting between remote tonalities without aural disruption. In non-equal systems (just intonation, meantone temperament), enharmonic equivalence does not hold."
+        "correct": 1,
+        "why": "In the southern hemisphere the Coriolis effect deflects air to the left, causing cyclones to spin clockwise — the mirror image of northern-hemisphere storms.",
+        "deepDive": "The Coriolis effect arises because Earth's surface rotates at different linear velocities at different latitudes — fastest at the equator, zero at the poles. A parcel of air moving poleward carries equatorial eastward momentum into slower-moving air, appearing to deflect right in the northern hemisphere and left in the southern hemisphere. This deflection sets large atmospheric systems spinning: northern-hemisphere hurricanes and typhoons rotate counter-clockwise; southern-hemisphere cyclones (Indian Ocean, South Pacific) rotate clockwise. A common myth is that water drains clockwise in one hemisphere and counter-clockwise in the other due to Coriolis — this is false at domestic scales. The effect only becomes meaningful at spatial scales of hundreds of kilometres and above, governing ocean gyres, trade winds and cyclone rotation, but not a bathtub drain."
       }
     ]
   }
