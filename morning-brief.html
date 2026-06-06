@@ -364,43 +364,61 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-    date: "2026-06-05",
-    dateLabel: "Friday · 05 June 2026",
-    editionLabel: "Edition · Friday 05 June",
-    headline: "Freight rates surge on Hormuz closure and tariff front-loading; US forced-labour tariffs hit 60 economies; Anthropic files $965B IPO; Bangladesh FM wins UNGA presidency.",
+    date: "2026-06-06",
+    dateLabel: "Saturday · 06 June 2026",
+    editionLabel: "Edition · Saturday 06 June",
+    headline: "Warsh debuts as Fed chair; Hormuz ghost route persists; OpenAI goes open-source; Bangladesh budget week opens.",
     sections: [
         {
             title: "Macro · Geopolitics · Politics",
             items: [
                 {
-                    lead: "Iran–Lebanon ceasefire agreed; US House votes to curb Trump's war powers.",
-                    body: "Israel and Lebanon reached a ceasefire Wednesday contingent on Hezbollah withdrawal from southern Lebanon. Iran's FM insists the wider conflict ends only when Lebanon is fully included. The US House passed a resolution limiting Trump's Iran war powers — a rare legislative rebuke of the sitting commander-in-chief.",
-                    src: { name: "Al Jazeera", url: "https://www.aljazeera.com/news/liveblog/2026/6/4/iran-war-live-tensions-simmer-after-latest-us-iran-clashes-in-gulf" }
+                    lead: "Kevin Warsh sworn in as Fed chair; first FOMC meeting June 16–17 watched for signal.",
+                    body: "Trump swore in Kevin Warsh as the 11th Fed chair on May 22. The June 16–17 FOMC is his first presiding. Markets price no cuts — some analysts warn bond vigilantes could force a July hike if eurozone-style inflation (ECB now at 3%, forecast 4% year-end) spills into US data.",
+                    src: {
+                        name: "CNBC",
+                        url: "https://www.cnbc.com/2026/05/22/trump-kevin-warsh-fed-chair-interest-rates.html"
+                    }
                 },
                 {
-                    lead: "G7 Évian summit opens June 15 — Macron's last stand, Japan PM Takaichi's debut.",
-                    body: "The 52nd G7 convenes in Évian-les-Bains, France, June 15–17. Agenda centres on global macroeconomic imbalances, trade fragmentation, and Iran fallout. Macron hosts for the final time before his term ends; Japan PM Sanae Takaichi attends her first summit.",
-                    src: { name: "EU Council", url: "https://www.consilium.europa.eu/en/meetings/international-summit/2026/06/15-17/" }
+                    lead: "Iran–US ceasefire fragile; peace talks stalling over centrifuge caps and IRGC sanctions.",
+                    body: "The May 24 US–Iran ceasefire holds but broader peace talks are stalling. Core disputes: enrichment ceiling, number of permitted centrifuges, and IRGC sanctions relief. The IAEA confirmed one major underground enrichment facility survived Operation Epic Fury intact — the central card in Iran’s hand.",
+                    src: {
+                        name: "Britannica",
+                        url: "https://www.britannica.com/event/2026-Iran-war"
+                    }
                 },
                 {
-                    lead: "USTR proposes 10–12.5% forced-labour tariffs on 60 economies; public comment opens.",
-                    body: "The USTR launched Section 301 forced-labour probes against 60 trading partners and proposed 10–12.5% additional duties on their imports. Bangladesh, China, UK, EU, Pakistan, India, Cambodia and Malaysia all in scope. Written comments due July 6; public hearings July 7.",
-                    src: { name: "CNBC", url: "https://www.cnbc.com/2026/06/03/us-tariffs-60-economies-dection-301-forced-labor-trade-practices-.html" }
+                    lead: "India reiterates Indus Waters Treaty stays suspended; Saudi Arabia formalises defence pact with Pakistan.",
+                    body: "New Delhi reiterates the Indus Waters Treaty remains in abeyance until Pakistan ends terrorism support. Simultaneously, Riyadh formalised its defence pact with Islamabad post-Operation Sindoor — Pakistani troops and a fighter squadron now deployed to King Abdulaziz Air Base, reshaping Gulf security architecture.",
+                    src: {
+                        name: "DD News",
+                        url: "https://ddnews.gov.in/en/india-reiterates-indus-waters-treaty-to-remain-in-abeyance-until-pakistan-ends-support-for-terrorism/"
+                    }
                 },
                 {
-                    lead: "Fed holds at 3.5–3.75% for third straight meeting; Powell vacancy clouds the easing path.",
-                    body: "The FOMC left rates unchanged for a third consecutive meeting. Jerome Powell's term expired May 15 with no successor confirmed. Middle East energy inflation complicates easing; markets now price at most 1–2 cuts by year-end, contingent on the new chair's guidance.",
-                    src: { name: "Federal Reserve", url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm" }
+                    lead: "US–China 30% tariff baseline holds; July review deadline is driving global cargo front-loading.",
+                    body: "Trump’s 90-day tariff truce locked a 30% effective rate on Chinese goods (20% fentanyl + 10% reciprocal). The July expiry review is the single biggest demand driver for early peak-season container bookings as shippers race to beat any tariff step-up.",
+                    src: {
+                        name: "Tax Foundation",
+                        url: "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+                    }
                 },
                 {
-                    lead: "India and Pakistan each raising defence budgets 13–15% one year after their four-day war.",
-                    body: "A year after the May 2025 four-day conflict, both sides are expanding drone, missile and air-defence programmes. Pakistan formalised a defence pact with Saudi Arabia and deployed 8,000 troops plus a fighter squadron to King Abdulaziz Air Base — reshaping Gulf security architecture.",
-                    src: { name: "CS Monitor", url: "https://www.csmonitor.com/World/Asia-South-Central/2026/0530/india-pakistan-arms-race-war-concerns" }
+                    lead: "ECB headed for multiple rate hikes as eurozone inflation forecast hits 4% by year-end.",
+                    body: "An ECB board member says April’s 3% eurozone inflation will reach 4% by December, warranting several hikes — the opposite of what markets expected six months ago. Euro area growth revised down 0.2pp for 2026, primarily on trade policy uncertainty.",
+                    src: {
+                        name: "ECB",
+                        url: "https://www.ecb.europa.eu/press/other-publications/ire/html/ecb.ire202606.en.html"
+                    }
                 },
                 {
-                    lead: "US-China Board of Trade takes shape; 30% tariff baseline holds as June 30 deadline looms.",
-                    body: "Washington opened public comment on the scope of the US-China Board of Trade agreed at last month's bilateral summit. The existing 30% tariff stack (20% fentanyl + 10% reciprocal) remains the floor. China urged both sides to meet each other halfway ahead of the June 30 review window.",
-                    src: { name: "Tax Foundation", url: "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/" }
+                    lead: "World Bank cuts South Asia 2026 growth forecast to 6.2% on trade restriction drag.",
+                    body: "South Asia growth moderates to 6.2% in 2026, below earlier projections, primarily reflecting increased trade restrictions and tariff fragmentation. Bangladesh, India, and Pakistan all face headwinds from US and EU trade policy shifts; remittance flows provide a partial forex buffer.",
+                    src: {
+                        name: "World Bank",
+                        url: "https://www.worldbank.org/en/publication/global-economic-prospects"
+                    }
                 }
             ]
         },
@@ -408,24 +426,36 @@ const TODAY = {
             title: "Bangladesh · Subcontinent",
             items: [
                 {
-                    lead: "Bangladesh FM Khalilur Rahman elected 81st UN General Assembly President, defeating Cyprus.",
-                    body: "In a June 3 vote, Foreign Minister Khalilur Rahman beat Cyprus to become UNGA president — the first Bangladeshi to hold the role. A significant diplomatic win for the new government's international positioning and a personal milestone for the foreign minister.",
-                    src: { name: "Al Jazeera", url: "https://www.aljazeera.com/news/2026/6/3/bangladeshs-rahman-elected-un-general-assembly-president-in-tight-race" }
+                    lead: "Budget 2026–27 tables June 11: wealth tax, inheritance levy, automated excess-tax refund on the table.",
+                    body: "Finance Minister Amir Khosru Mahmud Chowdhury presents the FY2026–27 budget in parliament June 11. Draft includes an automated excess-tax refund mechanism, reintroduction of a wealth tax, and a new inheritance levy for the ultra-rich — structural revenue reform targeting Bangladesh’s sub-8% tax-to-GDP ratio.",
+                    src: {
+                        name: "Daily Star",
+                        url: "https://www.thedailystar.net/business/bangladesh-budget-2026-27/news/govt-plans-refund-system-excess-tax-4187591"
+                    }
                 },
                 {
-                    lead: "PM's first foreign tour confirmed: Malaysia then China — India skipped by deliberate design.",
-                    body: "Dhaka confirmed PM Tarique Rahman will visit Kuala Lumpur June 21–22 at Anwar Ibrahim's invitation, then tentatively Beijing June 23–26. The Malaysia-first sequencing — bypassing both New Delhi and Beijing as the debut destination — is a calculated hedge in a competitive-alignment environment New Delhi will read clearly.",
-                    src: { name: "Prothom Alo", url: "https://en.prothomalo.com/amp/story/bangladesh/q8oqfzvrte" }
+                    lead: "NBR faces Tk 2.6 lakh crore shortfall with 25 days left in the fiscal year.",
+                    body: "NBR missed its nine-month FY2025–26 target by nearly Tk 1 lakh crore and must mobilise Tk 2.60 lakh crore in the final quarter. The structural gap — tax-to-GDP below 8%, one of the lowest globally — is precisely what the incoming FY27 budget must address with genuine reform.",
+                    src: {
+                        name: "Daily Star",
+                        url: "https://www.thedailystar.net/business/economy/news/missed-targets-nbr-needs-tk-26-lakh-crore-june-avoid-shortfall-4157306"
+                    }
                 },
                 {
-                    lead: "US Section 301 probe proposes 10% extra duty on Bangladeshi imports over forced-labour failures.",
-                    body: "Bangladesh is among 60 economies facing new US forced-labour tariffs of 10%, squarely hitting RMG — roughly 85% of export earnings — at a structurally sensitive moment. A special textile mechanism may reduce effective impact. BGMEA must file public comments before July 6 to shape the final rule.",
-                    src: { name: "Dhaka Tribune", url: "https://www.dhakatribune.com/business/411606/forced-labour-us-proposes-additional-duties-on" }
+                    lead: "First three days of June: $483M in remittances; 11-month cumulative hits record $33.24B.",
+                    body: "Bangladesh Bank data shows non-resident Bangladeshis remitted $483M in just the first three days of June. Cumulative 11-month formal inflows through June 3 reached an unprecedented $33.24B — outpacing prior full-year records and providing critical forex reserve support at a sensitive fiscal moment.",
+                    src: {
+                        name: "Banking Gurukul",
+                        url: "https://bankinggoln.com/central-bank-outlines-recent-remittance-influx-trends/"
+                    }
                 },
                 {
-                    lead: "BGB repels 10 BSF push-in attempts; border friction with India quietly accumulates.",
-                    body: "Border Guard Bangladesh thwarted 10 push-in attempts by India's Border Security Force in the latest operational cycle, relying on enhanced patrols and community intelligence. The incidents add friction to a Bangladesh–India relationship already running cool under the new government.",
-                    src: { name: "Daily Star", url: "https://www.thedailystar.net/" }
+                    lead: "Three to four heatwaves forecast for June alone; power demand and harvest logistics at risk.",
+                    body: "Bangladesh Meteorological Department warns of 8–10 heatwaves over the next three months, with 3–4 in June. Power grid demand will spike; boro rice post-harvest logistics will stress; RMG factory productivity typically drops sharply above 38°C — a seasonal cost risk for export operations.",
+                    src: {
+                        name: "Daily Star",
+                        url: "https://www.thedailystar.net/news/bangladesh/news/bangladesh-may-feel-el-ninos-heat-not-its-full-force-4189621"
+                    }
                 }
             ]
         },
@@ -433,29 +463,44 @@ const TODAY = {
             title: "Trade · Freight",
             items: [
                 {
-                    lead: "Drewry WCI spikes: Shanghai–LA +31%, Shanghai–NY +20%, Shanghai–Rotterdam +25% week-on-week.",
-                    body: "The Drewry World Container Index hit a weekly high on June 4 as early peak-season demand tightened supply. Shanghai–LA: $4,565/FEU (+31%); Shanghai–NY: $5,505/FEU (+20%); Shanghai–Rotterdam: $3,579/FEU (+25%). Only three blank sailings on Transpacific next week — carriers are filling ships.",
-                    src: { name: "Drewry", url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry" }
+                    lead: "SCFI at 2,726 after five-week rally; peak season running 4–6 weeks ahead of schedule.",
+                    body: "The SCFI jumped 155 points to 2,726 as of June 5 — its highest in two years. Shanghai–LA: $4,565/FEU (+31%); Shanghai–NY: $5,505/FEU (+20%); Shanghai–Rotterdam: $3,579/FEU (+25%). Only 3 blank sailings on Transpacific next week — carriers are filling ships.",
+                    src: {
+                        name: "Drewry WCI",
+                        url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+                    }
                 },
                 {
-                    lead: "Hapag-Lloyd and Maersk fire Peak Season Surcharges on Asia–Europe, effective June 8–10.",
-                    body: "Both carriers imposed PSS on Asia–Europe lanes: $300–500/TEU and $600–1,000/FEU, Hapag-Lloyd effective June 8, Maersk June 10. An additional rate layer on a trade already absorbing Hormuz rerouting costs.",
-                    src: { name: "Dimerco", url: "https://dimerco.com/news-press/asia-pac-freight-report-june-2026/" }
+                    lead: "Hormuz ghost route: 11 ships/day vs normal 100; Aramco CEO says normalisation by 2027 earliest.",
+                    body: "More than 100 days into the Hormuz crisis, commercial traffic is a ghost — just 11 ships transited last weekend. The IEA calls it the largest supply shock in modern oil history: 880M barrels lost cumulatively. Saudi Aramco’s CEO says markets won’t normalise until 2027 if disruption persists.",
+                    src: {
+                        name: "Gulf News",
+                        url: "https://gulfnews.com/amp/story/world/mena/three-months-of-paralysis-strait-of-hormuz-remains-a-ghost-route-1.500560668"
+                    }
                 },
                 {
-                    lead: "Hormuz at historic trickle — 191 vessels in April; DHL forecasts 4–6 months to normalisation.",
-                    body: "Both the Strait of Hormuz and Red Sea are simultaneously blocked — unprecedented in modern shipping history. Hormuz traffic collapsed to 191 vessels in April. Cape of Good Hope rerouting adds 10–14 days transit. DHL projects 4–6 months to lane normalisation even after a ceasefire holds.",
-                    src: { name: "Seavantage", url: "https://www.seavantage.com/blog/strait-of-hormuz-crisis-2026-shipping-disruption-timeline" }
+                    lead: "FIFA World Cup 2026 cargo wave overlapping with tariff front-load: double-demand event at US ports.",
+                    body: "FIFA World Cup (June 11–July 19, US/Mexico/Canada) is generating stadium equipment, merchandise, and broadcast cargo surges into US ports — overlapping directly with tariff front-loading. US East and Gulf Coast ports face a compound demand event through mid-July.",
+                    src: {
+                        name: "IndexBox",
+                        url: "https://www.indexbox.io/blog/container-shipping-spot-rates-surge-at-unprecedented-pace-in-early-peak-season/"
+                    }
                 },
                 {
-                    lead: "Tariff front-loading and FIFA World Cup cargo pulling peak season 4–6 weeks early.",
-                    body: "Shippers are accelerating bookings ahead of July US tariff reviews. FIFA World Cup (June 11–July 19, across US/Mexico/Canada) is generating atypical transpacific merchandise demand. Together they are squeezing effective vessel capacity and amplifying the current rate surge.",
-                    src: { name: "Vizion", url: "https://www.vizionapi.com/blog/how-rates-capacity-cuts-and-the-china-trade-truce-are-reshaping-global-trade" }
+                    lead: "Mexico enforces e-DIVA electronic import declaration from June 1; non-compliance triggers fines and detentions.",
+                    body: "Mexico’s electronic import value declaration became mandatory June 1. Importers must pre-file consistent shipment documentation via the government portal or face fines and cargo delays. Material compliance risk for MGH clients routing China–Mexico–US flows under nearshoring arrangements.",
+                    src: {
+                        name: "Intelligent Audit",
+                        url: "https://www.intelligentaudit.com/blog/ia-insights-june-1-2026"
+                    }
                 },
                 {
-                    lead: "Bangkok cargo delays exceed 7 days; jet-fuel shortages tighten Asia-Pac airfreight capacity.",
-                    body: "Thailand airport congestion now delays cargo pickups beyond 7 days, pushing freight into cross-border trucking alternatives. War-driven jet-fuel shortages and Middle East route suspensions are reducing aircraft payload capacity across Asia-Pacific, tightening supply on US and Europe airfreight lanes.",
-                    src: { name: "Dimerco Asia-Pac Report", url: "https://dimerco.com/news-press/asia-pac-freight-report-june-2026/" }
+                    lead: "Cape routing adds 12–14 days and $400–600/TEU as Hormuz forces Middle East cargo via Africa.",
+                    body: "Container carriers routing Middle East-origin cargo around Cape of Good Hope incur 12–14 extra transit days and roughly $400–600/TEU additional bunker and port costs. These layer on top of emergency fuel surcharges already in effect; cumulative carrier fuel overrun since the conflict began is now $5.5B.",
+                    src: {
+                        name: "Dimerco",
+                        url: "https://dimerco.com/news-press/asia-pac-freight-report-june-2026/"
+                    }
                 }
             ]
         },
@@ -463,147 +508,215 @@ const TODAY = {
             title: "Semis · AI",
             items: [
                 {
-                    lead: "Nvidia unveils RTX Spark superchip at Computex: Arm CPU, Blackwell GPU, 128GB unified memory.",
-                    body: "RTX Spark, co-built with MediaTek, arrives in PCs from Dell, HP, Microsoft, ASUS, Lenovo and MSI. A 20-core Arm CPU couples via NVLink-C2C to a Blackwell GPU with 128GB unified memory — a direct assault on Apple M-series and Qualcomm Snapdragon in the premium PC space.",
-                    src: { name: "Tom's Hardware", url: "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory" }
+                    lead: "SIA–Deloitte: chips are 95% of AI server rack value; global semi market hits $1.51T in 2026.",
+                    body: "A new SIA–Deloitte study finds semiconductors account for 95% of leading AI data-server rack value across the full chip stack. The global semiconductor market is projected at $1.51T in 2026 — a ~90% YoY jump driven by AI accelerator and HBM demand. Annual AI-chip revenue alone could exceed $1.2T by 2028.",
+                    src: {
+                        name: "SIA",
+                        url: "https://www.semiconductors.org/new-report-finds-semiconductors-account-for-95-of-an-ai-data-server-racks-value-encompassing-the-full-stack-of-chip-technologies/"
+                    }
                 },
                 {
-                    lead: "Nvidia Vera Rubin in full production; OpenAI, Anthropic and SpaceX are launch customers.",
-                    body: "Jensen Huang confirmed Vera Rubin — including the Vera CPU and Spectrum-X Ethernet Photonics — is in full production. OpenAI, Anthropic and SpaceX are early adopters. Huang teased a 'surprise new product' in H2 2026 at the Computex keynote.",
-                    src: { name: "NVIDIA Blog", url: "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/" }
+                    lead: "BIS closes Malaysia loophole: AI chip export ban now covers all Chinese-parented subsidiaries globally.",
+                    body: "The Department of Commerce confirmed advanced AI chip licensing requirements apply to every entity with a Chinese parent — regardless of where subsidiaries are incorporated. The ruling directly targets Nvidia accelerator diversion via Malaysian subsidiaries, a workaround Chinese cloud firms had exploited since early 2025.",
+                    src: {
+                        name: "Al Jazeera",
+                        url: "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china"
+                    }
                 },
                 {
-                    lead: "Anthropic confidentially files for IPO at $965B valuation, surpassing OpenAI.",
-                    body: "Anthropic filed confidentially for an IPO on June 1 at a reported $965B valuation — edging ahead of OpenAI's implied market value. Claude Code is cited as the primary growth driver. Anthropic, OpenAI and SpaceX's xAI are now in a three-way race for Wall Street debut.",
-                    src: { name: "CBS News", url: "https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/" }
+                    lead: "NVIDIA and TSMC deploy AI inside fabs: lithography and defect inspection now AI-driven.",
+                    body: "NVIDIA and TSMC announced deployment of NVIDIA accelerated computing within TSMC’s own fabs to improve lithography patterning and defect inspection. AI-in-fab is now a competitive differentiator at the leading edge — potentially widening TSMC’s manufacturing advantage at 2nm and below.",
+                    src: {
+                        name: "NVIDIA",
+                        url: "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing"
+                    }
                 },
                 {
-                    lead: "US closes offshore loophole: AI chip ban now covers all Chinese-parented subsidiaries globally.",
-                    body: "The Department of Commerce confirmed advanced AI chip export licensing requirements apply to all entities with a Chinese parent or headquarters, regardless of where subsidiaries are registered. The ruling closes an offshore loophole Chinese firms had used to procure restricted GPU-class chips.",
-                    src: { name: "Al Jazeera", url: "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china" }
+                    lead: "Google Gemini 3.5 Flash: 280+ tokens/sec, but 5.5× costlier than its predecessor — frontier premium accelerates.",
+                    body: "Gemini 3.5 Flash delivers 280+ output tokens/second but at 5.5× the operating cost of the previous generation. Google, Anthropic, and OpenAI are all raising prices on newer models — signalling the frontier compute cost curve is not flattening fast enough to enable commodity AI pricing.",
+                    src: {
+                        name: "The Decoder",
+                        url: "https://the-decoder.com/googles-gemini-3-5-flash-follows-anthropic-and-openai-in-making-newer-ai-models-significantly-pricier/"
+                    }
                 },
                 {
-                    lead: "Global semiconductor market forecast: $1.51T in 2026, +90% YoY; memory chips to triple.",
-                    body: "The global semiconductor market is projected to reach $1.51 trillion in 2026 — a ~90% YoY jump on AI datacenter demand. Memory is the biggest winner, forecast to surge 3.5x to $803.9B as HBM-intensive AI accelerators absorb capacity. SIA reports chips now account for 95%+ of leading AI server rack value.",
-                    src: { name: "SIA", url: "https://www.semiconductors.org/new-report-finds-semiconductors-account-for-95-of-an-ai-data-server-racks-value-encompassing-the-full-stack-of-chip-technologies/" }
+                    lead: "OpenAI drops two open-source models: 120B (single-GPU) and 20B (consumer laptop) — near o3 performance.",
+                    body: "OpenAI released gpt-oss-120b (runs on a single GPU, benchmarks near o3) and gpt-oss-20b (runs on high-end consumer laptops). The open-source move is a strategic bid to capture developer ecosystems and counter Meta LLaMA’s dominance in the open-source AI tier.",
+                    src: {
+                        name: "AI Flash Report",
+                        url: "https://aiflashreport.com/model-releases.html"
+                    }
                 },
                 {
-                    lead: "ByteDance buying millions of Qualcomm custom AI chips — sidestepping Nvidia export limits.",
-                    body: "ByteDance is on track to procure millions of Qualcomm's custom AI processors to power its agentic AI platform. A significant design win for Qualcomm in the AI-inference segment and a strategic workaround: US export restrictions prevent ByteDance from buying Nvidia H-series chips directly.",
-                    src: { name: "Bloomberg", url: "https://www.bloomberg.com/news/articles/2026-06-01/nvidia-s-ai-chips-sought-by-chinese-labs-with-ties-to-military" }
+                    lead: "Monash researchers build first fully integrated photonic chip — light-powered compute may disrupt AI inference.",
+                    body: "Researchers at Monash University built a fully integrated chip that produces, steers, and converts specialised light signals within a single compact system. Photonic computing could offer orders-of-magnitude better energy efficiency than silicon CMOS for AI inference — a long-horizon threat to the GPU-dominant compute paradigm.",
+                    src: {
+                        name: "ScienceDaily",
+                        url: "https://www.sciencedaily.com/releases/2026/06/260601025343.htm"
+                    }
                 }
             ]
         }
     ],
     lesson: {
-        title: "Nuclear Fission: Chain Reactions, Enrichment Physics, and Why the Iran War Is a Proliferation Crisis",
+        title: "The Peace of Westphalia (1648): How the Thirty Years’ War Forged the Modern State System",
         paragraphs: [
-            "When a neutron strikes a fissile nucleus — uranium-235 or plutonium-239 — the nucleus splits into two lighter fragments while releasing 2–3 additional neutrons and roughly 200 MeV of energy. Those freed neutrons can split further nuclei, producing a chain reaction. In a nuclear reactor, control rods made of boron or hafnium absorb excess neutrons so that exactly one neutron per fission event triggers another — a self-sustaining but controlled burn. Remove the rods entirely and the reaction goes supercritical. The physics of that uncontrolled version is the physics of a weapon.",
-            "The critical variable is enrichment: the fraction of uranium that is the fissile isotope U-235. Natural uranium ore is only ~0.7% U-235; reactor-grade low-enriched uranium runs 3–5%; weapons-grade requires above 90%. Enrichment is achieved by spinning uranium hexafluoride gas in cascades of centrifuges at tens of thousands of rpm — the slightly heavier U-238 migrates outward while U-235 concentrates inward. Because each centrifuge stage increases the fraction only marginally, you need thousands of machines in series. Before the February 2026 US-Israel strike, Iran had enriched to 60% — two steps from weapons grade, with a breakout timeline measured in weeks.",
-            "The Iran war is, at its core, a proliferation crisis: the strikes targeted enrichment facilities precisely to reset that breakout clock. Post-war diplomacy will centre on three questions — how many centrifuges Iran may operate, at what enrichment ceiling, and under what IAEA verification regime. Every Hormuz shipping disruption, oil price spike and freight rate surge you track is downstream of where that negotiation lands. Understanding enrichment physics means you can read any IAEA safeguards report or deal term sheet without needing anyone to translate it."
+            "The Thirty Years’ War (1618–1648) began as a religious conflict between Protestant and Catholic princes inside the Holy Roman Empire but rapidly metastasised into a continental power struggle involving Sweden, France, Spain, and the Dutch Republic. By 1648, roughly one-third of the German-speaking population had died from battle, plague, and famine — proportionally Europe’s worst demographic catastrophe until World War I. The simultaneous negotiations at Osnabrück (Protestant powers) and Münster (Catholic powers) produced twin treaties that ended the war and rewrote European political architecture.",
+            "The treaty’s most consequential innovation was the codification of territorial sovereignty. It replaced the older principle of cuius regio, eius religio (‘whose realm, his religion’ — a ruler’s faith determines his subjects’ faith) with a framework in which rulers held exclusive authority within defined borders and external powers had no legitimate right to intervene in their internal governance. It also recognised Dutch and Swiss full independence, permanently weakened Habsburg imperial authority over German princes, and embedded the balance-of-power concept as the organising logic of European diplomacy — the idea that no single power should dominate the continent.",
+            "The ‘Westphalian system’ became the intellectual foundation of modern international relations: the world is composed of sovereign, juridically equal states that interact through diplomacy rather than religious or imperial hierarchy. It underpins the UN Charter (Art. 2.1: sovereign equality; Art. 2.7: non-interference in domestic affairs). Today that framework is under severe strain — the US–Israel strikes on Iran were a textbook Westphalian violation; China’s position on Taiwan denies the island’s de facto sovereignty; Russia’s Ukraine invasion attacked territorial inviolability directly. Understanding Westphalia is understanding why every geopolitical argument returns to: ‘who has the right to intervene, and on what basis?’"
         ],
-        why: "The terms of any Iran nuclear deal — and with them Gulf transit, oil prices and freight rates — are decided by enrichment thresholds. Knowing the physics lets you parse IAEA reports and ceasefire frameworks on your own terms."
+        why: "Every geopolitical argument about intervention — Iran, Taiwan, Ukraine, Kashmir — is ultimately an argument about Westphalian norms. Knowing where those norms came from, and how contingent they always were, sharpens how you read any crisis."
     },
     questions: [
         {
             n: 1,
             topic: "industry",
-            subtopic: "incoterms",
-            stem: "Under Incoterms 2020, which trade term passes risk to the buyer at the moment goods are loaded on board the vessel at the named port of shipment?",
-            options: ["CIF (Cost, Insurance and Freight)", "FOB (Free On Board)", "CPT (Carriage Paid To)", "DAP (Delivered at Place)"],
-            correct: 1,
-            why: "Under FOB, risk transfers the instant goods cross the ship's rail at the named port of shipment — all subsequent ocean transit risk falls on the buyer.",
-            deepDive: "FOB is the most widely used Incoterm in bulk, break-bulk and container trade. The core misconception is that FOB means the seller pays freight — it does not. FOB fixes only where risk transfers; freight responsibility is a separate contractual matter. Under CIF, the seller pays ocean freight and insurance but risk still transfers at the port of shipment — a subtle and frequently confused distinction. Under CPT and DAP, risk transfers at different logistical milestones. The misapplication of FOB to containerised cargo — where goods are handed to a terminal operator, not loaded on board in the traditional sense — was the driving reason the ICC created FCA as the preferred Incoterm for container shipments. In practice, many Asian export contracts still use FOB incorrectly for containers, creating latent risk disputes."
+            subtopic: "documentation",
+            stem: "A shipper moves a mixed consignment with one IMDG Class 3 flammable-liquid line item by ocean. Beyond the standard commercial invoice and packing list, which two specific documents become mandatory for the hazardous component?",
+            options: [
+                "Dangerous Goods Declaration (DGD) and IMO Declaration",
+                "Fumigation Certificate and Phytosanitary Certificate",
+                "VGM Declaration and Shipper’s Letter of Instruction",
+                "SGS Inspection Certificate and Certificate of Origin"
+            ],
+            correct: 0,
+            why: "IMDG regulations require a Dangerous Goods Declaration for hazardous cargo and, for ocean shipment, an IMO Declaration confirming IMDG Code compliance.",
+            deepDive: "The Dangerous Goods Declaration is required under IMDG Code Chapter 5.4 for any hazardous cargo — it identifies the UN number, proper shipping name, hazard class, packing group, quantity, and emergency contact. The IMO Declaration is the carrier-facing confirmation the goods comply with IMDG and are safe to load. Fumigation and phytosanitary certificates relate to agricultural pest control, not hazmat. The VGM Declaration is required under SOLAS for all packed containers but is not hazmat-specific. The Shipper’s Letter of Instruction is a commercial directive to the forwarder, not a statutory transport document. Common misconception: the Material Safety Data Sheet (MSDS/SDS) covers product hazard data but is not the transport declaration. The DGD must accompany the cargo from origin to destination and be held by the carrier."
         },
         {
             n: 2,
             topic: "industry",
-            subtopic: "bill_of_lading",
-            stem: "What single feature distinguishes a negotiable bill of lading from a non-negotiable sea waybill, making it function as a tradeable document of title?",
-            options: ["It includes the cargo's insurance certificate", "It can be endorsed and transferred to a third party", "It specifies a named consignee who cannot be changed", "It is issued only for full-container-load shipments"],
+            subtopic: "customs",
+            stem: "An importer disputes the customs authority’s transaction-value determination. Under the WTO Customs Valuation Agreement, what is the second sequential method the authority must apply before proceeding further?",
+            options: [
+                "Deductive value method",
+                "Identical goods value method",
+                "Computed value method",
+                "Fallback method"
+            ],
             correct: 1,
-            why: "Negotiability via endorsement means the B/L can be bought, sold or pledged mid-voyage — whoever holds the original controls delivery.",
-            deepDive: "A negotiable order bill of lading works like a bearer instrument: the shipper endorses it to the buyer or to the order of a bank, who can re-endorse it onward before the vessel arrives. This makes the B/L essential in documentary credit transactions — the issuing bank holds the original B/L as collateral for the loan extended to the importer. A sea waybill names a fixed consignee and cannot be transferred, suitable for intra-company shipments but useless in commodity trading where cargoes change hands mid-ocean. The original negotiable B/L must be surrendered at destination to obtain delivery. Losing all three originals is a serious legal event that can strand cargo for weeks while courts issue alternative delivery orders — a recurring problem in fast commodity trades."
+            why: "The WTO agreement mandates a strict hierarchy: transaction value → identical goods → similar goods → deductive → computed → fallback. Steps cannot be skipped.",
+            deepDive: "The WTO Customs Valuation Agreement establishes six valuation methods applied in strict sequence. Transaction value (the actual price paid) is primary. If rejected, the authority must try identical goods — comparing the transaction value of identical goods sold at the same commercial level in substantially the same quantities. Only then may it move to similar goods, followed by deductive value (based on domestic resale price), computed value (based on production cost), and finally the fallback. An importer may request deductive and computed be reversed, but no other skipping is permitted. This sequence is critical in transfer-pricing disputes and anti-dumping investigations. Bangladesh’s NBR follows this hierarchy under the Customs Act 1969 and Bangladesh’s WTO commitments. Auditors who jump straight to deductive or computed methods without exhausting the identical-goods step are procedurally non-compliant."
         },
         {
             n: 3,
             topic: "industry",
-            subtopic: "pricing",
-            stem: "In container shipping, what does 'GRI' stand for, and at what point in the market cycle do carriers typically announce one?",
-            options: ["Gross Revenue Index, published monthly by BIMCO", "Guaranteed Rate Index, set annually by carrier alliances", "General Rate Increase, announced when spot rates fall below sustainable levels or at peak-season onset", "Global Routing Index, used to price deviation surcharges"],
+            subtopic: "vessels",
+            stem: "Neo-Panamax container vessels are sized for the expanded Panama Canal locks with a 49-metre maximum beam. What approximate TEU capacity range do vessels in this class typically carry?",
+            options: [
+                "5,000–8,000 TEU",
+                "8,000–12,000 TEU",
+                "12,000–16,000 TEU",
+                "18,000–24,000 TEU"
+            ],
             correct: 2,
-            why: "GRI = General Rate Increase; carriers announce them when spot rates have eroded or at peak-season entry to restore yield per container.",
-            deepDive: "A GRI is a carrier's published intent to raise base ocean freight rates by a fixed dollar amount per TEU or FEU on a specified date. Implementation is not guaranteed: in a weak market, shippers rebook at lower spot rates and the GRI fails. In a tight market — like today's, with Hormuz closed, peak season running early and tariff front-loading compressing capacity — GRIs stick and often exceed the announced increment. Carriers typically give 30 days notice, which also serves as a signalling mechanism: announcing a GRI telegraphs that capacity is tightening, encourages early bookings and thereby self-fulfillingly tightens the market further. Monitoring GRI announcements is an early-warning indicator of rate direction and carrier confidence in demand."
+            why: "Neo-Panamax vessels run roughly 12,000–16,000 TEU — above old Panamax limits but below the 18,000–24,000 TEU ULCV/Megamax class that cannot transit the canal.",
+            deepDive: "The Panama Canal expansion completed in 2016 introduced Neopanamax locks rated for vessels up to 366m LOA × 49m beam × 15.2m draft, unlocking the 12,000–16,000 TEU vessel class. The older Panamax locks (32.3m beam) capped ships at roughly 5,000 TEU. ULCV/Megamax vessels above 16,000 TEU — deployed by MSC, CMA CGM, and Evergreen on Asia–Europe — still cannot transit Panama and route via Suez or Cape Horn. The Neopanamax class changed transpacific trade lane economics: Asia–US East Coast can now be served with large ships direct, altering transshipment economics through Caribbean hubs like Kingston. During 2023–24 drought-related canal restrictions, Neopanamax transits were depth-limited, temporarily invalidating the expanded lock advantage and sending ships around Cape Horn."
         },
         {
             n: 4,
             topic: "industry",
-            subtopic: "air_freight",
-            stem: "In air cargo rating, what is the 'pivot weight,' and why does it determine which weight — actual or volumetric — is used to calculate the freight charge?",
-            options: ["The breakeven point where chargeable weight equals actual weight, above which the per-kg rate decreases", "The minimum cargo weight required to qualify for IATA special-commodity rates", "The maximum single-piece weight per IATA dangerous-goods handling rules", "The weight used to calculate carrier liability under the Montreal Convention"],
-            correct: 0,
-            why: "Pivot weight is where volumetric (dimensional) weight equals gross weight; airlines offer lower per-kg rates above it to attract dense, heavy cargo.",
-            deepDive: "Air cargo is rated on chargeable weight — whichever is greater between actual gross weight and volumetric weight (volume in cm³ ÷ 6,000). The pivot weight is the specific threshold at which a lower rate bracket applies, incentivising dense freight that efficiently fills belly or freighter space. Think metal parts vs. foam pillows: identical cubic volume, vastly different weights and revenue per cubic metre. Airlines price to maximise yield per unit of belly capacity, so they discount the per-kg rate to attract dense cargo above the pivot. Understanding pivot weight drives the commercial decision of whether to ship as air cargo, consolidate into a heavier consignment or split — the core pricing skill of any air freight sales or operations role."
+            subtopic: "port_ops",
+            stem: "A carrier grants 7 days’ free time at the destination port. The container is not collected within 7 days. In what sequence do charges apply?",
+            options: [
+                "Storage starts day 1; detention begins only once the box leaves the terminal",
+                "Detention starts at the port gate; demurrage applies only if the box is never returned empty",
+                "Demurrage is charged while the box remains inside the terminal past free time; detention kicks in once it leaves in the merchant’s custody",
+                "Demurrage and detention run concurrently from day 8 onward"
+            ],
+            correct: 2,
+            why: "Demurrage = carrier’s charge for its container sitting in the terminal beyond free time. Detention = carrier’s charge once the container leaves the terminal but is not returned empty. They are sequential, not concurrent.",
+            deepDive: "The demurrage/detention/storage trio is among the most misunderstood in logistics. Demurrage is the carrier’s charge for its container sitting inside the terminal past free time — the carrier’s equipment is immobilised at port. Detention is the carrier’s charge once the container gates out but has not been returned empty — the merchant is holding the carrier’s asset outside the terminal. Storage is a separate terminal-operator charge for the ground slot occupied. These charges have different clock-start events and different claimants. The US Federal Maritime Commission’s 2024 D&D rulemaking required carriers to publish transparent practices and provide dispute mechanisms, following widespread abuse during COVID-era congestion. For MGH cargo operations, negotiating free time in service contracts is a direct and meaningful cost lever."
         },
         {
             n: 5,
             topic: "industry",
-            subtopic: "ftas",
-            stem: "The Regional Comprehensive Economic Partnership (RCEP), signed November 2020, covers roughly 30% of world GDP. Which major economy withdrew from negotiations in 2019?",
-            options: ["India", "Australia", "Vietnam", "Pakistan"],
-            correct: 0,
-            why: "India withdrew in November 2019, fearing import surges — particularly cheap Chinese goods — would undercut domestic manufacturing and agriculture.",
-            deepDive: "RCEP covers 15 nations: 10 ASEAN members plus China, Japan, South Korea, Australia and New Zealand. India had been a founding participant since 2012 but withdrew citing asymmetric trade deficit risks: India already runs large deficits with most RCEP members, and lower tariffs risked a flood of Chinese goods into Indian markets. Domestic political pressure from farmer and manufacturing lobbies sealed the decision. India's absence is strategically significant — it leaves the world's most populous country and fifth-largest economy outside the agreement's supply-chain framework. For Bangladesh, RCEP membership by regional competitors like Vietnam and Cambodia affects their relative tariff advantages in third markets and shapes the competitive landscape for RMG and light manufacturing."
+            subtopic: "liner_alliances",
+            stem: "After the 2M dissolution and 2025 alliance restructuring, which major carrier now operates entirely outside any alliance as a standalone global carrier?",
+            options: [
+                "Maersk",
+                "CMA CGM",
+                "MSC",
+                "Hapag-Lloyd"
+            ],
+            correct: 2,
+            why: "MSC exited when 2M dissolved in January 2025 and operates as a fully standalone carrier — the world’s largest by fleet capacity, with no slot-sharing agreements.",
+            deepDive: "The liner alliance landscape reset completely in 2025. The 2M Alliance (MSC + Maersk) dissolved in January 2025. Maersk formed the Gemini Cooperation with Hapag-Lloyd, prioritising schedule reliability. MSC — now the world’s largest carrier by fleet capacity — chose to operate standalone, leveraging its scale without cooperative slot-sharing and investing heavily in owned terminals and logistics assets. The Ocean Alliance (CMA CGM, COSCO, OOCL, Evergreen) and Premier Alliance (ONE, HMM, Yang Ming) continue operating. The standalone MSC model means its blank-sailing, capacity-injection, and rate decisions are entirely unilateral — making it the dominant swing variable in global container supply. When MSC injects or withholds capacity, no alliance partner moderates the signal."
         },
         {
             n: 6,
             topic: "gk",
-            subtopic: "life_science",
-            stem: "Mitochondria produce most of a cell's ATP by coupling the electron transport chain to a proton-powered enzyme. What is this process called?",
-            options: ["Glycolysis", "Photosynthesis", "Substrate-level fermentation", "Oxidative phosphorylation"],
-            correct: 3,
-            why: "Oxidative phosphorylation couples electron flow through the ETC to proton-driven ATP synthase, yielding roughly 32–34 ATP per glucose molecule.",
-            deepDive: "Glucose is first broken down via glycolysis in the cytoplasm, yielding just 2 ATP, then converted to acetyl-CoA for the Krebs cycle. The Krebs cycle strips electrons from fuel molecules and loads them onto carriers (NADH, FADH₂). These electrons flow down four protein complexes embedded in the inner mitochondrial membrane — the electron transport chain — to their final acceptor, oxygen. As electrons flow, protons are pumped into the intermembrane space, creating an electrochemical gradient. Those protons flow back through ATP synthase, a molecular turbine, generating ATP. This is why oxygen deprivation halts cellular function so rapidly: remove oxygen and the ETC stalls, ATP synthesis stops, and cells die within minutes. Mitochondria retain their own circular DNA — evidence they were once free-living proteobacteria engulfed by ancestral eukaryotic cells."
+            subtopic: "history",
+            stem: "China’s Hundred Days’ Reform of 1898 ended after 103 days when Empress Dowager Cixi staged a coup. One reformer was publicly executed for refusing to flee; another escaped to Japan. Which pair is correct?",
+            options: [
+                "Tan Sitong executed; Kang Youwei escaped to Japan",
+                "Kang Youwei executed; Liang Qichao escaped to Japan",
+                "Liang Qichao executed; Tan Sitong escaped to Japan",
+                "Zhang Jian executed; Kang Youwei escaped to Japan"
+            ],
+            correct: 0,
+            why: "Tan Sitong refused to flee — ‘reform without sacrifice produces nothing’ — and was publicly beheaded with five colleagues. Kang Youwei escaped with Emperor Guangxu’s protection.",
+            deepDive: "The Hundred Days’ Reform (June–September 1898) was Emperor Guangxu’s attempt to modernise the Qing dynasty along Meiji Japan’s lines, guided by reformists Kang Youwei and Liang Qichao. Empress Dowager Cixi’s coup ended it swiftly. Tan Sitong, one of the Six Gentlemen of 1898, refused to flee, reportedly saying reform needed martyrs, and was publicly beheaded in Beijing. Kang Youwei escaped to Japan, then Canada, continuing to advocate constitutional monarchy even after the 1911 Republic made his position anachronistic. Liang Qichao also escaped to Japan and became one of China’s most influential modern journalists. The failure of 1898 proved the impossibility of top-down Qing reform under Cixi — accelerating the revolutionary path culminating in the 1911 Xinhai Revolution and the fall of the dynasty."
         },
         {
             n: 7,
             topic: "gk",
-            subtopic: "religion",
-            stem: "Islamic jurisprudence (fiqh) derives Sharia from four classical sources. The Quran and Sunnah are two; Qiyas (analogy) is a third. What is the fourth source, ijma?",
-            options: ["The Prophetic traditions (Hadith collections)", "Public welfare (maslaha)", "Scholarly consensus", "Analogical reasoning applied to novel cases"],
-            correct: 2,
-            why: "Ijma means the consensus of qualified Islamic scholars — once formed, it is considered binding and prevents the law from being revised arbitrarily.",
-            deepDive: "The four usul al-fiqh (roots of Islamic law) are: the Quran — the primary divine text; Sunnah — the Prophet's sayings, acts and tacit approvals preserved in Hadith; Ijma — scholarly consensus, grounded in the hadith that the community will not agree on an error; and Qiyas — applying analogical reasoning to situations the Quran and Sunnah do not directly address. The four Sunni legal schools (Hanafi, Maliki, Shafi'i, Hanbali) weight these sources differently — Hanafis give relatively more weight to Qiyas; Hanbalis lean more strictly on text. Shia jurisprudence replaces some functions of Ijma with the authority of the Imam. This framework is why Islamic finance instruments such as murabaha and sukuk can function without interest — Qiyas extends the Quranic prohibition on riba to modern financial structures."
+            subtopic: "physical_science",
+            stem: "Maxwell’s equations (1865) unified electricity and magnetism and allowed the speed of electromagnetic waves to be derived mathematically. From which two physical constants did Maxwell calculate that speed?",
+            options: [
+                "Planck’s constant (h) and Boltzmann’s constant (kʙ)",
+                "Permittivity of free space (ε₀) and permeability of free space (μ₀)",
+                "Gravitational constant (G) and the speed of sound",
+                "Elementary charge (e) and electron rest mass (mₑ)"
+            ],
+            correct: 1,
+            why: "Maxwell derived c = 1/√(ε₀μ₀); the numerical result matched the known speed of light exactly, proving light is an electromagnetic wave.",
+            deepDive: "Maxwell’s four equations describe how electric and magnetic fields generate and interact with each other. Combining them, he found oscillating fields propagate as waves at speed 1/√(ε₀μ₀) ≈ 3×10⁸ m/s — matching the measured speed of light precisely. Maxwell wrote: ‘This velocity is so nearly that of light that it seems we have strong reason to conclude that light itself is an electromagnetic disturbance.’ One of physics’ most dramatic unifications: it implied visible light is one narrow band of a vast electromagnetic spectrum. Heinrich Hertz confirmed radio waves experimentally in 1887. The constants ε₀ and μ₀ describe how strongly the vacuum responds to electric and magnetic fields respectively; their product determines how fast electromagnetic disturbances propagate — the foundation of radio, radar, fibre optics, and all wireless technology."
         },
         {
             n: 8,
             topic: "gk",
-            subtopic: "linguistics",
-            stem: "Chomsky's Universal Grammar claims humans have an innate language faculty with shared deep structures. Which small Amazonian language is most cited as empirical evidence against this claim?",
-            options: ["Pirahã", "Quechua", "Guaraní", "Aymara"],
-            correct: 0,
-            why: "Pirahã reportedly lacks recursion, numerals, colour terms and creation myths — features Chomsky listed as universal innate linguistic properties.",
-            deepDive: "Linguist Daniel Everett spent decades with the Pirahã people of the Amazon and reported their language lacks recursion (embedding clauses within clauses), has no number words, no colour terms, no perfect tense and constrains speech to what speakers have directly experienced. If accurate, this challenges Chomsky's Universal Grammar hypothesis that recursion is a hard-wired universal property of human language. Chomsky and colleagues dispute Everett's analysis, arguing recursion exists at a deep structural level even when surface forms differ. The debate is unresolved and touches the deepest questions in cognitive science: is language a uniquely human biological adaptation with fixed structure, or a culturally evolved technology with far more variation than UG allows? Both sides have compelling evidence and the argument remains very much live in linguistics."
+            subtopic: "mathematics",
+            stem: "Ramanujan’s number 1729 is the smallest integer expressible as the sum of two positive cubes in two distinct ways. Which mathematician gave the famous hospital anecdote that named it the taxicab number?",
+            options: [
+                "Bertrand Russell",
+                "G.H. Hardy",
+                "David Hilbert",
+                "Henri Poincaré"
+            ],
+            correct: 1,
+            why: "Hardy arrived at Ramanujan’s hospital in a taxi numbered 1729 and called it dull; Ramanujan instantly described its two-cube-sum property, naming the class of numbers.",
+            deepDive: "G.H. Hardy arrived by taxi to visit Srinivasa Ramanujan at Putney Hospital, where Ramanujan was ill with tuberculosis. Hardy remarked the taxi number 1729 seemed dull. Ramanujan replied immediately: 1729 is the smallest positive integer expressible as a sum of two positive cubes in two ways — 1³ + 12³ = 9³ + 10³ = 1729. The episode illustrates Ramanujan’s extraordinary intuition for number properties, catalogued largely without formal training. Taxicab numbers are now a recognised area of recreational mathematics. Hardy and Ramanujan’s collaboration (1914–1919) was one of history’s most celebrated mathematical partnerships — Hardy a rigorous Cambridge formalist; Ramanujan self-taught in Madras. They worked together on integer partitions, the circle method, and highly composite numbers. Ramanujan died in 1920 aged 32, leaving notebooks that mathematicians still mine for insights today."
         },
         {
             n: 9,
             topic: "gk",
-            subtopic: "pop_culture",
-            stem: "The red pill / blue pill choice — take uncomfortable truth or remain in comforting illusion — entered global pop culture via which 1999 science-fiction film?",
-            options: ["Fight Club", "Dark City", "The Truman Show", "The Matrix"],
-            correct: 3,
-            why: "The Wachowskis' The Matrix (1999) presented the definitive red-pill/blue-pill scene that became a global metaphor for epistemic awakening.",
-            deepDive: "In The Matrix, Morpheus offers Neo a red pill (see the truth of the machine-simulated reality) or a blue pill (return to blissful ignorance). The scene crystallises a philosophical tradition running from Plato's Allegory of the Cave through Descartes' evil-demon hypothesis to Putnam's brain-in-a-vat thought experiment. The metaphor escaped its film context rapidly and is now deployed — often loosely — across political, philosophical and online-community discourse, with red-pilling shorthand for introducing someone to any alternative worldview. Dark City (1998) explored near-identical simulation themes a year earlier but lacked The Matrix's cultural penetration, partly because The Matrix arrived with then-revolutionary bullet-time visual effects that made it a pop-culture landmark rather than merely a cult film."
+            subtopic: "literature",
+            stem: "Chinua Achebe’s 1975 essay ‘An Image of Africa: Racism in Conrad’s Heart of Darkness’ is a landmark of postcolonial criticism. What was Achebe’s central charge against Conrad?",
+            options: [
+                "Conrad plagiarised African oral traditions for the novella’s plot structure",
+                "Conrad used Africa merely as a backdrop to project European psychological anxieties, denying Africans language, agency, and interior life",
+                "Conrad fabricated the Congo journey — he never actually visited the river",
+                "Conrad’s portrayal of Kurtz expressed covert sympathy for Belgian colonial administration"
+            ],
+            correct: 1,
+            why: "Achebe argued Africa in Conrad functions only as a ‘foil’ for European self-exploration — Africans appear without voice, language, or interior life.",
+            deepDive: "Achebe’s lecture — delivered at UMass Amherst, later published as an essay — argued Conrad reduced Africa to ‘the other world,’ a dark mirror for European neurosis. African characters in Heart of Darkness appear as shadows: voiceless, without language, history, or inner life. Achebe concluded Conrad was ‘a thoroughgoing racist,’ not redeemed by artistic merit. The pushback was fierce — many scholars defended Conrad as anti-colonial for his era, or distinguished authorial intent from textual effect. The critique became foundational to postcolonial literary theory alongside Said’s Orientalism (1978). Its deeper value: it forces the distinction between what an author intended and what a text does — a question structuralism and Foucauldian discourse theory formalised. Achebe’s Things Fall Apart is the counter-text: African interiority told from inside, not projected from outside."
         },
         {
             n: 10,
             topic: "gk",
-            subtopic: "geography",
-            stem: "The Coriolis effect — caused by Earth's rotation — deflects large-scale air and ocean currents. In which direction do tropical cyclones rotate in the southern hemisphere?",
-            options: ["Anti-clockwise, same as northern-hemisphere hurricanes", "Clockwise, opposite to northern-hemisphere hurricanes", "Randomly, determined by local sea-surface temperature gradients", "Clockwise only south of the Tropic of Capricorn"],
+            subtopic: "arts",
+            stem: "The Impressionist movement takes its name from a Monet painting exhibited at the April 1874 group show in Paris, whose title a hostile critic used to mock the style. What is the painting’s title?",
+            options: [
+                "Water Lilies (Nymphéas)",
+                "Impression, Sunrise (Impression, soleil levant)",
+                "Haystacks (Meules)",
+                "The Luncheon on the Grass (Le déjeuner sur l’herbe)"
+            ],
             correct: 1,
-            why: "In the southern hemisphere the Coriolis effect deflects air to the left, causing cyclones to spin clockwise — the mirror image of northern-hemisphere storms.",
-            deepDive: "The Coriolis effect arises because Earth's surface rotates at different linear velocities at different latitudes — fastest at the equator, zero at the poles. A parcel of air moving poleward carries equatorial eastward momentum into slower-moving air, appearing to deflect right in the northern hemisphere and left in the southern hemisphere. This deflection sets large atmospheric systems spinning: northern-hemisphere hurricanes and typhoons rotate counter-clockwise; southern-hemisphere cyclones (Indian Ocean, South Pacific) rotate clockwise. A common myth is that water drains clockwise in one hemisphere and counter-clockwise in the other due to Coriolis — this is false at domestic scales. The effect only becomes meaningful at spatial scales of hundreds of kilometres and above, governing ocean gyres, trade winds and cyclone rotation, but not a bathtub drain."
+            why: "Critic Louis Leroy used ‘Impression, Sunrise’ to mock the April 1874 group exhibition; the painters adopted ‘Impressionist’ defiantly as their own label.",
+            deepDive: "In April 1874, Monet, Renoir, Pissarro, Degas, Sisley, and Morisot mounted their own exhibition in Paris after repeated rejection by the official Académie Salon. Critic Louis Leroy, reviewing Monet’s Impression, Sunrise for Le Charivari, wrote sarcastically that the unfinished canvases were mere ‘impressions’ — wallpaper was more finished. The painters embraced the insult as their collective name. Impressionism’s defining innovations: painting en plein air, short visible brushstrokes, capturing fleeting light rather than precise outlines, and placing unmixed pure colours side by side. It broke fundamentally from academic tradition’s smooth finish and classical subjects. Impression, Sunrise depicts Le Havre harbour at dawn — the loose industrial port scene and orange sun over misty blue water was exactly what offended Leroy. The painting now hangs in the Musée Marmottan Monet, Paris."
         }
     ]
 };
