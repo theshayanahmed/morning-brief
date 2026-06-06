@@ -1,6 +1,6 @@
 {
   "streak": 1,
-  "last_session_date": "2026-06-05",
+  "last_session_date": "2026-06-06",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -261,7 +261,17 @@
     "Islamic jurisprudence (fiqh) derives Sharia from four classical sources. The Quran and Sunnah are two; Qiyas (analogy) is a third. What is the fourth source, ijma?",
     "Chomsky's Universal Grammar claims humans have an innate language faculty with shared deep structures. Which small Amazonian language is most cited as empirical evidence against this claim?",
     "The red pill / blue pill choice — take uncomfortable truth or remain in comforting illusion — entered global pop culture via which 1999 science-fiction film?",
-    "The Coriolis effect — caused by Earth's rotation — deflects large-scale air and ocean currents. In which direction do tropical cyclones rotate in the southern hemisphere?"
+    "The Coriolis effect — caused by Earth's rotation — deflects large-scale air and ocean currents. In which direction do tropical cyclones rotate in the southern hemisphere?",
+    "A shipper moves a mixed consignment with one IMDG Class 3 flammable-liquid line item by ocean. Beyond the standard commercial invoice and packing list, which two specific documents become mandatory for the hazardous component?",
+    "An importer disputes the customs authority's transaction-value determination. Under the WTO Customs Valuation Agreement, what is the second sequential method the authority must apply before proceeding further?",
+    "Neo-Panamax container vessels are sized for the expanded Panama Canal locks with a 49-metre maximum beam. What approximate TEU capacity range do vessels in this class typically carry?",
+    "A carrier grants 7 days' free time at the destination port. The container is not collected within 7 days. In what sequence do charges apply?",
+    "After the 2M dissolution and 2025 alliance restructuring, which major carrier now operates entirely outside any alliance as a standalone global carrier?",
+    "China's Hundred Days' Reform of 1898 ended after 103 days when Empress Dowager Cixi staged a coup. One reformer was publicly executed for refusing to flee; another escaped to Japan. Which pair is correct?",
+    "Maxwell's equations (1865) unified electricity and magnetism and allowed the speed of electromagnetic waves to be derived mathematically. From which two physical constants did Maxwell calculate that speed?",
+    "Ramanujan's number 1729 is the smallest integer expressible as the sum of two positive cubes in two distinct ways. Which mathematician gave the famous hospital anecdote that named it the taxicab number?",
+    "Chinua Achebe's 1975 essay 'An Image of Africa: Racism in Conrad's Heart of Darkness' is a landmark of postcolonial criticism. What was Achebe's central charge against Conrad?",
+    "The Impressionist movement takes its name from a Monet painting exhibited at the April 1874 group show in Paris, whose title a hostile critic used to mock the style. What is the painting's title?"
   ],
   "learn_history": [
     {
@@ -398,6 +408,11 @@
       "date": "2026-06-05",
       "topic": "Nuclear Fission: Chain Reactions, Enrichment Physics, and Why the Iran War Is a Proliferation Crisis",
       "bucket": "science_concept"
+    },
+    {
+      "date": "2026-06-06",
+      "topic": "The Peace of Westphalia (1648): How the Thirty Years' War Forged the Modern State System",
+      "bucket": "history"
     }
   ],
   "curriculum_progress": {
@@ -408,9 +423,9 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 6,
-      "last_seen": "2026-06-02",
-      "difficulty": 1,
+      "count": 7,
+      "last_seen": "2026-06-06",
+      "difficulty": 2,
       "rolling_score": []
     },
     "bill_of_lading": {
@@ -420,21 +435,21 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 6,
-      "last_seen": "2026-06-02",
-      "difficulty": 1,
+      "count": 7,
+      "last_seen": "2026-06-06",
+      "difficulty": 2,
       "rolling_score": []
     },
     "vessels": {
-      "count": 6,
-      "last_seen": "2026-06-02",
-      "difficulty": 1,
+      "count": 7,
+      "last_seen": "2026-06-06",
+      "difficulty": 2,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 6,
-      "last_seen": "2026-06-02",
-      "difficulty": 1,
+      "count": 7,
+      "last_seen": "2026-06-06",
+      "difficulty": 2,
       "rolling_score": []
     },
     "pricing": {
@@ -444,9 +459,9 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 6,
-      "last_seen": "2026-06-02",
-      "difficulty": 1,
+      "count": 7,
+      "last_seen": "2026-06-06",
+      "difficulty": 2,
       "rolling_score": []
     },
     "air_freight": {
@@ -524,8 +539,8 @@
   },
   "gk_progress": {
     "history": {
-      "count": 10,
-      "last_seen": "2026-06-03",
+      "count": 11,
+      "last_seen": "2026-06-06",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -536,8 +551,8 @@
       "rolling_score": []
     },
     "physical_science": {
-      "count": 9,
-      "last_seen": "2026-06-03",
+      "count": 10,
+      "last_seen": "2026-06-06",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -548,20 +563,20 @@
       "rolling_score": []
     },
     "mathematics": {
-      "count": 9,
-      "last_seen": "2026-06-03",
+      "count": 10,
+      "last_seen": "2026-06-06",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 8,
-      "last_seen": "2026-06-03",
+      "count": 9,
+      "last_seen": "2026-06-06",
       "difficulty": 4,
       "rolling_score": []
     },
     "arts": {
-      "count": 9,
-      "last_seen": "2026-06-04",
+      "count": 10,
+      "last_seen": "2026-06-06",
       "difficulty": 2,
       "rolling_score": []
     },
@@ -610,159 +625,69 @@
   },
   "history": [],
   "today": {
-    "date": "2026-06-05",
+    "date": "2026-06-06",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "incoterms",
-        "stem": "Under Incoterms 2020, which trade term passes risk to the buyer at the moment goods are loaded on board the vessel at the named port of shipment?",
-        "options": [
-          "CIF (Cost, Insurance and Freight)",
-          "FOB (Free On Board)",
-          "CPT (Carriage Paid To)",
-          "DAP (Delivered at Place)"
-        ],
-        "correct": 1,
-        "why": "Under FOB, risk transfers the instant goods cross the ship's rail at the named port of shipment — all subsequent ocean transit risk falls on the buyer.",
-        "deepDive": "FOB is the most widely used Incoterm in bulk, break-bulk and container trade. The core misconception is that FOB means the seller pays freight — it does not. FOB fixes only where risk transfers; freight responsibility is a separate contractual matter. Under CIF, the seller pays ocean freight and insurance but risk still transfers at the port of shipment — a subtle and frequently confused distinction. Under CPT and DAP, risk transfers at different logistical milestones. The misapplication of FOB to containerised cargo — where goods are handed to a terminal operator, not loaded on board in the traditional sense — was the driving reason the ICC created FCA as the preferred Incoterm for container shipments. In practice, many Asian export contracts still use FOB incorrectly for containers, creating latent risk disputes."
+        "subtopic": "documentation",
+        "stem": "A shipper moves a mixed consignment with one IMDG Class 3 flammable-liquid line item by ocean. Beyond the standard commercial invoice and packing list, which two specific documents become mandatory for the hazardous component?"
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "bill_of_lading",
-        "stem": "What single feature distinguishes a negotiable bill of lading from a non-negotiable sea waybill, making it function as a tradeable document of title?",
-        "options": [
-          "It includes the cargo's insurance certificate",
-          "It can be endorsed and transferred to a third party",
-          "It specifies a named consignee who cannot be changed",
-          "It is issued only for full-container-load shipments"
-        ],
-        "correct": 1,
-        "why": "Negotiability via endorsement means the B/L can be bought, sold or pledged mid-voyage — whoever holds the original controls delivery.",
-        "deepDive": "A negotiable order bill of lading works like a bearer instrument: the shipper endorses it to the buyer or to the order of a bank, who can re-endorse it onward before the vessel arrives. This makes the B/L essential in documentary credit transactions — the issuing bank holds the original B/L as collateral for the loan extended to the importer. A sea waybill names a fixed consignee and cannot be transferred, suitable for intra-company shipments but useless in commodity trading where cargoes change hands mid-ocean. The original negotiable B/L must be surrendered at destination to obtain delivery. Losing all three originals is a serious legal event that can strand cargo for weeks while courts issue alternative delivery orders — a recurring problem in fast commodity trades."
+        "subtopic": "customs",
+        "stem": "An importer disputes the customs authority's transaction-value determination. Under the WTO Customs Valuation Agreement, what is the second sequential method the authority must apply before proceeding further?"
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "pricing",
-        "stem": "In container shipping, what does 'GRI' stand for, and at what point in the market cycle do carriers typically announce one?",
-        "options": [
-          "Gross Revenue Index, published monthly by BIMCO",
-          "Guaranteed Rate Index, set annually by carrier alliances",
-          "General Rate Increase, announced when spot rates fall below sustainable levels or at peak-season onset",
-          "Global Routing Index, used to price deviation surcharges"
-        ],
-        "correct": 2,
-        "why": "GRI = General Rate Increase; carriers announce them when spot rates have eroded or at peak-season entry to restore yield per container.",
-        "deepDive": "A GRI is a carrier's published intent to raise base ocean freight rates by a fixed dollar amount per TEU or FEU on a specified date. Implementation is not guaranteed: in a weak market, shippers rebook at lower spot rates and the GRI fails. In a tight market — like today's, with Hormuz closed, peak season running early and tariff front-loading compressing capacity — GRIs stick and often exceed the announced increment. Carriers typically give 30 days notice, which also serves as a signalling mechanism: announcing a GRI telegraphs that capacity is tightening, encourages early bookings and thereby self-fulfillingly tightens the market further. Monitoring GRI announcements is an early-warning indicator of rate direction and carrier confidence in demand."
+        "subtopic": "vessels",
+        "stem": "Neo-Panamax container vessels are sized for the expanded Panama Canal locks with a 49-metre maximum beam. What approximate TEU capacity range do vessels in this class typically carry?"
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "air_freight",
-        "stem": "In air cargo rating, what is the 'pivot weight,' and why does it determine which weight — actual or volumetric — is used to calculate the freight charge?",
-        "options": [
-          "The breakeven point where chargeable weight equals actual weight, above which the per-kg rate decreases",
-          "The minimum cargo weight required to qualify for IATA special-commodity rates",
-          "The maximum single-piece weight per IATA dangerous-goods handling rules",
-          "The weight used to calculate carrier liability under the Montreal Convention"
-        ],
-        "correct": 0,
-        "why": "Pivot weight is where volumetric (dimensional) weight equals gross weight; airlines offer lower per-kg rates above it to attract dense, heavy cargo.",
-        "deepDive": "Air cargo is rated on chargeable weight — whichever is greater between actual gross weight and volumetric weight (volume in cm³ divided by 6,000). The pivot weight is the specific threshold at which a lower rate bracket applies, incentivising dense freight that efficiently fills belly or freighter space. Think metal parts vs. foam pillows: identical cubic volume, vastly different weights and revenue per cubic metre. Airlines price to maximise yield per unit of belly capacity, so they discount the per-kg rate to attract dense cargo above the pivot. Understanding pivot weight drives the commercial decision of whether to ship as air cargo, consolidate into a heavier consignment or split — the core pricing skill of any air freight sales or operations role."
+        "subtopic": "port_ops",
+        "stem": "A carrier grants 7 days' free time at the destination port. The container is not collected within 7 days. In what sequence do charges apply?"
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "ftas",
-        "stem": "The Regional Comprehensive Economic Partnership (RCEP), signed November 2020, covers roughly 30% of world GDP. Which major economy withdrew from negotiations in 2019?",
-        "options": [
-          "India",
-          "Australia",
-          "Vietnam",
-          "Pakistan"
-        ],
-        "correct": 0,
-        "why": "India withdrew in November 2019, fearing import surges — particularly cheap Chinese goods — would undercut domestic manufacturing and agriculture.",
-        "deepDive": "RCEP covers 15 nations: 10 ASEAN members plus China, Japan, South Korea, Australia and New Zealand. India had been a founding participant since 2012 but withdrew citing asymmetric trade deficit risks: India already runs large deficits with most RCEP members, and lower tariffs risked a flood of Chinese goods into Indian markets. Domestic political pressure from farmer and manufacturing lobbies sealed the decision. India's absence is strategically significant — it leaves the world's most populous country and fifth-largest economy outside the agreement's supply-chain framework. For Bangladesh, RCEP membership by regional competitors like Vietnam and Cambodia affects their relative tariff advantages in third markets and shapes the competitive landscape for RMG and light manufacturing."
+        "subtopic": "liner_alliances",
+        "stem": "After the 2M dissolution and 2025 alliance restructuring, which major carrier now operates entirely outside any alliance as a standalone global carrier?"
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "Mitochondria produce most of a cell's ATP by coupling the electron transport chain to a proton-powered enzyme. What is this process called?",
-        "options": [
-          "Glycolysis",
-          "Photosynthesis",
-          "Substrate-level fermentation",
-          "Oxidative phosphorylation"
-        ],
-        "correct": 3,
-        "why": "Oxidative phosphorylation couples electron flow through the ETC to proton-driven ATP synthase, yielding roughly 32-34 ATP per glucose molecule.",
-        "deepDive": "Glucose is first broken down via glycolysis in the cytoplasm, yielding just 2 ATP, then converted to acetyl-CoA for the Krebs cycle. The Krebs cycle strips electrons from fuel molecules and loads them onto carriers (NADH, FADH2). These electrons flow down four protein complexes embedded in the inner mitochondrial membrane — the electron transport chain — to their final acceptor, oxygen. As electrons flow, protons are pumped into the intermembrane space, creating an electrochemical gradient. Those protons flow back through ATP synthase, a molecular turbine, generating ATP. This is why oxygen deprivation halts cellular function so rapidly: remove oxygen and the ETC stalls, ATP synthesis stops, and cells die within minutes. Mitochondria retain their own circular DNA — evidence they were once free-living proteobacteria engulfed by ancestral eukaryotic cells."
+        "subtopic": "history",
+        "stem": "China's Hundred Days' Reform of 1898 ended after 103 days when Empress Dowager Cixi staged a coup. One reformer was publicly executed for refusing to flee; another escaped to Japan. Which pair is correct?"
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "Islamic jurisprudence (fiqh) derives Sharia from four classical sources. The Quran and Sunnah are two; Qiyas (analogy) is a third. What is the fourth source, ijma?",
-        "options": [
-          "The Prophetic traditions (Hadith collections)",
-          "Public welfare (maslaha)",
-          "Scholarly consensus",
-          "Analogical reasoning applied to novel cases"
-        ],
-        "correct": 2,
-        "why": "Ijma means the consensus of qualified Islamic scholars — once formed, it is considered binding and prevents the law from being revised arbitrarily.",
-        "deepDive": "The four usul al-fiqh (roots of Islamic law) are: the Quran — the primary divine text; Sunnah — the Prophet's sayings, acts and tacit approvals preserved in Hadith; Ijma — scholarly consensus, grounded in the hadith that the community will not agree on an error; and Qiyas — applying analogical reasoning to situations the Quran and Sunnah do not directly address. The four Sunni legal schools (Hanafi, Maliki, Shafi'i, Hanbali) weight these sources differently — Hanafis give relatively more weight to Qiyas; Hanbalis lean more strictly on text. Shia jurisprudence replaces some functions of Ijma with the authority of the Imam. This framework is why Islamic finance instruments such as murabaha and sukuk can function without interest — Qiyas extends the Quranic prohibition on riba to modern financial structures."
+        "subtopic": "physical_science",
+        "stem": "Maxwell's equations (1865) unified electricity and magnetism and allowed the speed of electromagnetic waves to be derived mathematically. From which two physical constants did Maxwell calculate that speed?"
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "Chomsky's Universal Grammar claims humans have an innate language faculty with shared deep structures. Which small Amazonian language is most cited as empirical evidence against this claim?",
-        "options": [
-          "Pirahã",
-          "Quechua",
-          "Guaraní",
-          "Aymara"
-        ],
-        "correct": 0,
-        "why": "Pirahã reportedly lacks recursion, numerals, colour terms and creation myths — features Chomsky listed as universal innate linguistic properties.",
-        "deepDive": "Linguist Daniel Everett spent decades with the Pirahã people of the Amazon and reported their language lacks recursion (embedding clauses within clauses), has no number words, no colour terms, no perfect tense and constrains speech to what speakers have directly experienced. If accurate, this challenges Chomsky's Universal Grammar hypothesis that recursion is a hard-wired universal property of human language. Chomsky and colleagues dispute Everett's analysis, arguing recursion exists at a deep structural level even when surface forms differ. The debate is unresolved and touches the deepest questions in cognitive science: is language a uniquely human biological adaptation with fixed structure, or a culturally evolved technology with far more variation than UG allows? Both sides have compelling evidence and the argument remains very much live in linguistics."
+        "subtopic": "mathematics",
+        "stem": "Ramanujan's number 1729 is the smallest integer expressible as the sum of two positive cubes in two distinct ways. Which mathematician gave the famous hospital anecdote that named it the taxicab number?"
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "The red pill / blue pill choice — take uncomfortable truth or remain in comforting illusion — entered global pop culture via which 1999 science-fiction film?",
-        "options": [
-          "Fight Club",
-          "Dark City",
-          "The Truman Show",
-          "The Matrix"
-        ],
-        "correct": 3,
-        "why": "The Wachowskis' The Matrix (1999) presented the definitive red-pill/blue-pill scene that became a global metaphor for epistemic awakening.",
-        "deepDive": "In The Matrix, Morpheus offers Neo a red pill (see the truth of the machine-simulated reality) or a blue pill (return to blissful ignorance). The scene crystallises a philosophical tradition running from Plato's Allegory of the Cave through Descartes' evil-demon hypothesis to Putnam's brain-in-a-vat thought experiment. The metaphor escaped its film context rapidly and is now deployed — often loosely — across political, philosophical and online-community discourse, with red-pilling shorthand for introducing someone to any alternative worldview. Dark City (1998) explored near-identical simulation themes a year earlier but lacked The Matrix's cultural penetration, partly because The Matrix arrived with then-revolutionary bullet-time visual effects that made it a pop-culture landmark rather than merely a cult film."
+        "subtopic": "literature",
+        "stem": "Chinua Achebe's 1975 essay 'An Image of Africa: Racism in Conrad's Heart of Darkness' is a landmark of postcolonial criticism. What was Achebe's central charge against Conrad?"
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Coriolis effect — caused by Earth's rotation — deflects large-scale air and ocean currents. In which direction do tropical cyclones rotate in the southern hemisphere?",
-        "options": [
-          "Anti-clockwise, same as northern-hemisphere hurricanes",
-          "Clockwise, opposite to northern-hemisphere hurricanes",
-          "Randomly, determined by local sea-surface temperature gradients",
-          "Clockwise only south of the Tropic of Capricorn"
-        ],
-        "correct": 1,
-        "why": "In the southern hemisphere the Coriolis effect deflects air to the left, causing cyclones to spin clockwise — the mirror image of northern-hemisphere storms.",
-        "deepDive": "The Coriolis effect arises because Earth's surface rotates at different linear velocities at different latitudes — fastest at the equator, zero at the poles. A parcel of air moving poleward carries equatorial eastward momentum into slower-moving air, appearing to deflect right in the northern hemisphere and left in the southern hemisphere. This deflection sets large atmospheric systems spinning: northern-hemisphere hurricanes and typhoons rotate counter-clockwise; southern-hemisphere cyclones (Indian Ocean, South Pacific) rotate clockwise. A common myth is that water drains clockwise in one hemisphere and counter-clockwise in the other due to Coriolis — this is false at domestic scales. The effect only becomes meaningful at spatial scales of hundreds of kilometres and above, governing ocean gyres, trade winds and cyclone rotation, but not a bathtub drain."
+        "subtopic": "arts",
+        "stem": "The Impressionist movement takes its name from a Monet painting exhibited at the April 1874 group show in Paris, whose title a hostile critic used to mock the style. What is the painting's title?"
       }
     ]
   }
