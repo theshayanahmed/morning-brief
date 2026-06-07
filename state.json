@@ -1,6 +1,6 @@
 {
-  "streak": 1,
-  "last_session_date": "2026-06-06",
+  "streak": 2,
+  "last_session_date": "2026-06-07",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -271,7 +271,17 @@
     "Maxwell's equations (1865) unified electricity and magnetism and allowed the speed of electromagnetic waves to be derived mathematically. From which two physical constants did Maxwell calculate that speed?",
     "Ramanujan's number 1729 is the smallest integer expressible as the sum of two positive cubes in two distinct ways. Which mathematician gave the famous hospital anecdote that named it the taxicab number?",
     "Chinua Achebe's 1975 essay 'An Image of Africa: Racism in Conrad's Heart of Darkness' is a landmark of postcolonial criticism. What was Achebe's central charge against Conrad?",
-    "The Impressionist movement takes its name from a Monet painting exhibited at the April 1874 group show in Paris, whose title a hostile critic used to mock the style. What is the painting's title?"
+    "The Impressionist movement takes its name from a Monet painting exhibited at the April 1874 group show in Paris, whose title a hostile critic used to mock the style. What is the painting's title?",
+    "Under a Combined Transport Bill of Lading (CT BL), who bears single-point liability to the cargo owner for the entire door-to-door movement — including legs operated by subcontractors?",
+    "The India-Middle East-Europe Corridor (IMEC), announced at the 2023 G20 in New Delhi, is a multimodal alternative to the Suez route. Which sequence best describes its planned routing?",
+    "Under the York-Antwerp Rules governing General Average, which of the following would NOT qualify as a General Average sacrifice or expenditure?",
+    "The UFLPA (Uyghur Forced Labor Prevention Act, in force June 2022) established a 'rebuttable presumption' for goods from Xinjiang. What does this mean for US importers?",
+    "The Baltic Dry Index (BDI) — the primary benchmark for dry bulk shipping — is a weighted composite of freight rates across which three vessel-size segments?",
+    "The 'prepared piano' — in which objects such as screws, bolts, and rubber pieces are inserted between piano strings to alter its timbre — was pioneered by which 20th-century American composer?",
+    "Isaiah Berlin's 1958 'Two Concepts of Liberty' argued that 'positive liberty' poses a distinctive danger compared to 'negative liberty'. What specific danger did he identify?",
+    "The 'Dutch Disease' describes a specific economic mechanism triggered by a resource boom. Which of the following best captures it?",
+    "In the Open Era of tennis (post-1968), who is the only male player to have completed the calendar-year Grand Slam — winning all four majors in the same calendar year?",
+    "In Sunni Islamic jurisprudence, the doctrine of the 'closing of the gate of ijtihad' holds that independent scholarly reasoning from primary sources is no longer practised. When is this generally dated and what does it mean?"
   ],
   "learn_history": [
     {
@@ -413,6 +423,11 @@
       "date": "2026-06-06",
       "topic": "The Peace of Westphalia (1648): How the Thirty Years' War Forged the Modern State System",
       "bucket": "history"
+    },
+    {
+      "date": "2026-06-07",
+      "topic": "Ethnic Nationalism vs Civic Nationalism: The Identity Fault Line That Shapes States",
+      "bucket": "sociopolitical"
     }
   ],
   "curriculum_progress": {
@@ -471,14 +486,14 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 6,
-      "last_seen": "2026-06-03",
+      "count": 7,
+      "last_seen": "2026-06-07",
       "difficulty": 4,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 6,
-      "last_seen": "2026-06-03",
+      "count": 7,
+      "last_seen": "2026-06-07",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -489,20 +504,20 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 6,
-      "last_seen": "2026-06-03",
+      "count": 7,
+      "last_seen": "2026-06-07",
       "difficulty": 4,
       "rolling_score": []
     },
     "compliance": {
-      "count": 6,
-      "last_seen": "2026-06-03",
+      "count": 7,
+      "last_seen": "2026-06-07",
       "difficulty": 4,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 6,
-      "last_seen": "2026-06-03",
+      "count": 7,
+      "last_seen": "2026-06-07",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -581,26 +596,26 @@
       "rolling_score": []
     },
     "music": {
-      "count": 9,
-      "last_seen": "2026-06-04",
+      "count": 10,
+      "last_seen": "2026-06-07",
       "difficulty": 4,
       "rolling_score": []
     },
     "religion": {
-      "count": 9,
-      "last_seen": "2026-06-05",
+      "count": 10,
+      "last_seen": "2026-06-07",
       "difficulty": 4,
       "rolling_score": []
     },
     "political_theory": {
-      "count": 9,
-      "last_seen": "2026-06-04",
+      "count": 10,
+      "last_seen": "2026-06-07",
       "difficulty": 3,
       "rolling_score": []
     },
     "economics": {
-      "count": 9,
-      "last_seen": "2026-06-04",
+      "count": 10,
+      "last_seen": "2026-06-07",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -611,8 +626,8 @@
       "rolling_score": []
     },
     "sport": {
-      "count": 9,
-      "last_seen": "2026-06-04",
+      "count": 10,
+      "last_seen": "2026-06-07",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -625,69 +640,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-06-06",
+    "date": "2026-06-07",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "documentation",
-        "stem": "A shipper moves a mixed consignment with one IMDG Class 3 flammable-liquid line item by ocean. Beyond the standard commercial invoice and packing list, which two specific documents become mandatory for the hazardous component?"
+        "subtopic": "multimodal",
+        "stem": "Under a Combined Transport Bill of Lading (CT BL), who bears single-point liability to the cargo owner for the entire door-to-door movement — including legs operated by subcontractors?",
+        "options": [
+          "The ocean carrier operating the main sea leg",
+          "Each subcontractor, severally liable for their respective segment only",
+          "The Multimodal Transport Operator (MTO) who issued the CT BL",
+          "The freight forwarder who arranged and booked the shipment"
+        ],
+        "correct": 2,
+        "why": "Under a CT BL, the MTO assumes single-entity liability for the whole journey regardless of how many sub-carriers are involved.",
+        "deepDive": "A Combined Transport BL makes the Multimodal Transport Operator the single point of liability for the entire door-to-door journey — regardless of how many sub-carriers operate individual legs. This differs from segmented documentation (separate ocean BL, rail waybill, truck consignment note), where each carrier is liable only for their leg. The MTO model simplifies claims: one entity, one document, one dispute. MTOs price consolidated risk into their rate. The legal framework is fragmented — UNCTAD's 1980 Multimodal Convention was never ratified, so practice relies on national law and FIATA's FBL (Freight Forwarders' Negotiable Multimodal BL), the market's de facto standard. For logistics groups acting as MTO, this means accepting end-to-end liability — a powerful commercial tool but a concentrated risk position that must be carefully back-to-back covered with sub-carrier contracts."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "customs",
-        "stem": "An importer disputes the customs authority's transaction-value determination. Under the WTO Customs Valuation Agreement, what is the second sequential method the authority must apply before proceeding further?"
+        "subtopic": "trade_lanes",
+        "stem": "The India-Middle East-Europe Corridor (IMEC), announced at the 2023 G20 in New Delhi, is a multimodal alternative to the Suez route. Which sequence best describes its planned routing?",
+        "options": [
+          "India to Oman, then Saudi Arabia by rail, then Turkey, then Bulgaria into Europe",
+          "India to UAE by sea, then Saudi Arabia and Jordan by rail, then Israel's Haifa port, then Mediterranean sea into Europe",
+          "India to Sri Lanka, then Egypt via Suez Canal, then Greece into Europe by sea",
+          "India to Iran by rail, then Turkey, then Greece via the Trans-Caspian Middle Corridor"
+        ],
+        "correct": 1,
+        "why": "IMEC: sea from India to UAE, rail across Saudi Arabia and Jordan to Haifa, then Mediterranean sea into European networks.",
+        "deepDive": "IMEC was signed at the G20 in New Delhi in September 2023 by the US, India, Saudi Arabia, UAE, France, Germany, Italy, and the EU. The routing: Indian ports (Mundra, JNPT) by sea to UAE (Jebel Ali or Fujairah); rail across Saudi Arabia and Jordan; Israeli port of Haifa; then Mediterranean sea to Piraeus (Greece) or Italian ports; onward by European rail. IMEC's strategic logic: it bypasses Suez and Red Sea chokepoints, normalises Saudi-Israeli trade flows under the Abraham Accords framework, and positions India as a connector hub between the Indo-Pacific and Europe. Progress has stalled due to the Gaza war and 2026 Iran conflict, particularly the Israel-Arab normalisation elements. IMEC competes directly with China's Belt and Road for corridor dominance across the same geography."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "vessels",
-        "stem": "Neo-Panamax container vessels are sized for the expanded Panama Canal locks with a 49-metre maximum beam. What approximate TEU capacity range do vessels in this class typically carry?"
+        "subtopic": "marine_insurance",
+        "stem": "Under the York-Antwerp Rules governing General Average, which of the following would NOT qualify as a General Average sacrifice or expenditure?",
+        "options": [
+          "Deliberately jettisoning cargo to refloat a grounded vessel",
+          "Cost of tug services when a vessel voluntarily enters a port of refuge to repair storm damage",
+          "Cargo damaged by water used to extinguish a fire in the ship's hold",
+          "Loss of a container that fell overboard accidentally in rough weather due to improper stowage"
+        ],
+        "correct": 3,
+        "why": "Accidental losses — not voluntary sacrifices — fall under ordinary cargo insurance, not General Average.",
+        "deepDive": "General Average is a centuries-old maritime principle codified in the York-Antwerp Rules: any extraordinary sacrifice or expenditure made voluntarily for the common safety of ship and cargo is shared proportionally by all parties with a financial interest in the voyage. The test has four elements — real peril, voluntary act, reasonable sacrifice, and common benefit. Jettison, firefighting water damage, and port-of-refuge costs all qualify. Accidental losses (cargo falling overboard due to poor stowage) fail the voluntariness test and fall under ordinary cargo insurance under Institute Cargo Clauses. GA declarations trigger a complex adjustment process: a GA adjuster calculates each party's proportional share, and cargo owners must post GA security (bond or cash) before goods are released. Resolution can take years, particularly for casualties involving multiple cargo interests and jurisdictions."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "port_ops",
-        "stem": "A carrier grants 7 days' free time at the destination port. The container is not collected within 7 days. In what sequence do charges apply?"
+        "subtopic": "compliance",
+        "stem": "The UFLPA (Uyghur Forced Labor Prevention Act, in force June 2022) established a 'rebuttable presumption' for goods from Xinjiang. What does this mean for US importers?",
+        "options": [
+          "US CBP may detain Xinjiang-origin goods but must first prove forced labor before refusing entry",
+          "Only goods from entities on the UFLPA Entity List face the presumption; all others are admitted normally",
+          "Any goods produced wholly or in part in Xinjiang are presumed made with forced labor — the importer must disprove it to clear customs",
+          "Importers must declare Xinjiang origin on the entry form but face no automatic detention or seizure"
+        ],
+        "correct": 2,
+        "why": "The rebuttable presumption shifts the entire burden to the importer — CBP need not prove forced labor; the importer must disprove it with clear and convincing evidence.",
+        "deepDive": "The UFLPA's rebuttable presumption bans all goods from Xinjiang unless the importer provides clear and convincing evidence they were not made with forced labour — an extremely high bar requiring factory audits, worker records, and raw-material traceability. Key goods affected: cotton (Xinjiang produces roughly 85% of China's cotton), polysilicon for solar panels, tomatoes, and aluminium. For Bangladesh's RMG sector, the upstream risk is real: any Xinjiang cotton in garments exported to the US can trigger CBP detention. Compliance requires full supply chain traceability — something most South Asian mills currently lack. The UFLPA Entity List of 600-plus firms creates a second, lower-bar trigger: goods touched by listed entities are automatically detained regardless of origin claims. Due diligence must now extend to yarn and fabric suppliers' raw material sourcing."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "liner_alliances",
-        "stem": "After the 2M dissolution and 2025 alliance restructuring, which major carrier now operates entirely outside any alliance as a standalone global carrier?"
+        "subtopic": "industry_econ",
+        "stem": "The Baltic Dry Index (BDI) — the primary benchmark for dry bulk shipping — is a weighted composite of freight rates across which three vessel-size segments?",
+        "options": [
+          "Capesize, Supramax, and Handysize",
+          "VLOC, Capesize, and Panamax",
+          "Capesize, Panamax, and Supramax",
+          "Handymax, Panamax, and Post-Panamax"
+        ],
+        "correct": 2,
+        "why": "BDI equals the Baltic Capesize Index at 40% plus Baltic Panamax Index at 30% plus Baltic Supramax Index at 30%; Handysize was removed in a 2021 methodology revision.",
+        "deepDive": "The Baltic Dry Index, published by the Baltic Exchange in London since 1985, is a weighted composite of three sub-indices: Capesize (180,000-plus DWT, iron ore and coal, 40% weight), Panamax (60,000-80,000 DWT, grain and coal, 30%), and Supramax (50,000-60,000 DWT, minor bulks, 30%). Handysize is now tracked separately as the BHSI following the 2021 methodology revision. The BDI is extraordinarily volatile, ranging from 291 in February 2016 to 11,400 in October 2021, and serves as a leading indicator of global commodity demand and industrial activity. A sustained BDI rally typically signals commodity demand surges four to six weeks before they appear in trade statistics. The index measures charter rates, not commodity prices — making it a proxy for the cost of moving raw materials and a real-time pulse of global heavy industry."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "China's Hundred Days' Reform of 1898 ended after 103 days when Empress Dowager Cixi staged a coup. One reformer was publicly executed for refusing to flee; another escaped to Japan. Which pair is correct?"
+        "subtopic": "music",
+        "stem": "The 'prepared piano' — in which objects such as screws, bolts, and rubber pieces are inserted between piano strings to alter its timbre — was pioneered by which 20th-century American composer?",
+        "options": [
+          "Philip Glass",
+          "Steve Reich",
+          "John Cage",
+          "Aaron Copland"
+        ],
+        "correct": 2,
+        "why": "John Cage invented the prepared piano in 1940 for Syvilla Fort's Bacchanale when he could not fit a percussion ensemble on the stage.",
+        "deepDive": "John Cage (1912-1992) invented the prepared piano in 1940 after being asked to compose for a dance performance but finding no room for the percussion ensemble he had planned. By inserting screws, bolts, and rubber between piano strings, he turned one instrument into a full percussion orchestra. His most celebrated prepared piano work is Sonatas and Interludes (1946-48), evoking Indian philosophical ideas of permanent emotions via Ananda Coomaraswamy's writings. Cage's broader project was shaped by Zen Buddhism, via D.T. Suzuki, and studies with Arnold Schoenberg. His notorious 4'33'' (1952) — four minutes and thirty-three seconds of silence — treats ambient sound as composition. Cage bridges modernist composition and conceptual art, influencing minimalism, Fluxus, and sound art. Philip Glass and Steve Reich are minimalists in a related but distinct tradition; Copland wrote in a distinctly American nationalist idiom."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "Maxwell's equations (1865) unified electricity and magnetism and allowed the speed of electromagnetic waves to be derived mathematically. From which two physical constants did Maxwell calculate that speed?"
+        "subtopic": "political_theory",
+        "stem": "Isaiah Berlin's 1958 'Two Concepts of Liberty' argued that 'positive liberty' poses a distinctive danger compared to 'negative liberty'. What specific danger did he identify?",
+        "options": [
+          "Positive liberty's emphasis on self-realisation encourages laissez-faire economics and widens inequality",
+          "Positive liberty can be appropriated by states to claim they are liberating people by coercing them toward a supposedly rational or collective good",
+          "Positive liberty denies the importance of community, producing atomised individuals incapable of political participation",
+          "Positive liberty's focus on economic capability leads inevitably to bloated and inefficient welfare states"
+        ],
+        "correct": 1,
+        "why": "Berlin's core warning: positive liberty's logic — real freedom is X — can justify totalitarian coercion in the name of true self-realisation.",
+        "deepDive": "Isaiah Berlin (1909-1997) delivered this lecture at Oxford in 1958. Negative liberty is freedom from external obstacles, associated with Hobbes, Locke, and Mill. Positive liberty is freedom to achieve self-mastery and autonomous self-governance, associated with Rousseau, Hegel, and Marx. Berlin's warning: positive liberty is vulnerable to perversion. If real freedom requires rationality, and the state claims to know what rationality demands, it can assert the right to liberate you by coercing you, overriding your expressed preferences for your supposed true self. He saw this as the theoretical grammar of Stalinist totalitarianism. Critics including Charles Taylor and Quentin Skinner argue the negative-positive distinction is too blurry and that negative liberty ignores real capability constraints. But Berlin's framework anchors contemporary liberal political philosophy and debates about paternalism, welfare states, and authoritarian developmental regimes across Asia and the Middle East."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "Ramanujan's number 1729 is the smallest integer expressible as the sum of two positive cubes in two distinct ways. Which mathematician gave the famous hospital anecdote that named it the taxicab number?"
+        "subtopic": "economics",
+        "stem": "The 'Dutch Disease' describes a specific economic mechanism triggered by a resource boom. Which of the following best captures it?",
+        "options": [
+          "A vicious cycle where high commodity revenues fund government borrowing that eventually triggers a sovereign debt crisis",
+          "The deindustrialisation of an economy caused by currency appreciation following a natural resource windfall",
+          "The tendency for resource-rich states to develop corrupt, rent-seeking institutions that block economic diversification",
+          "The commodity price collapse that follows overproduction once a resource boom peaks and investment flows reverse"
+        ],
+        "correct": 1,
+        "why": "Dutch Disease: resource windfall causes currency appreciation, which makes manufactured exports uncompetitive, which shrinks the manufacturing sector.",
+        "deepDive": "The term Dutch Disease was coined by The Economist in 1977 to describe Netherlands manufacturing decline after the 1959 Groningen natural gas discovery. The mechanism: the resource sector generates foreign exchange inflows, the currency appreciates, manufactured exports become globally expensive, and manufacturing contracts. Option C describes the resource curse — a broader concept covering Dutch Disease plus institutional decay from rent-seeking. Mitigation strategies include sterilising revenues into sovereign wealth funds such as Norway's Government Pension Fund Global and Kuwait's KIA, deliberate currency management such as Gulf pegs, or diversification investment. Bangladesh faces a soft analog via remittances: large inflows appreciate the taka and marginally erode RMG export competitiveness — one reason Bangladesh Bank maintains a managed float rather than free flotation of the currency."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Chinua Achebe's 1975 essay 'An Image of Africa: Racism in Conrad's Heart of Darkness' is a landmark of postcolonial criticism. What was Achebe's central charge against Conrad?"
+        "subtopic": "sport",
+        "stem": "In the Open Era of tennis (post-1968), who is the only male player to have completed the calendar-year Grand Slam — winning all four majors in the same calendar year?",
+        "options": [
+          "Pete Sampras",
+          "Roger Federer",
+          "Rod Laver",
+          "Novak Djokovic"
+        ],
+        "correct": 2,
+        "why": "Rod Laver completed the calendar Grand Slam in 1969 — the only man to do so in the Open Era.",
+        "deepDive": "Rod Laver, the Australian left-hander, completed the calendar Grand Slam twice: in 1962 in the amateur era when professionals were excluded from majors, and in 1969 in the Open Era. His 1969 Slam across the Australian Open, French Open, Wimbledon, and US Open has gone unmatched for more than 55 years despite the Federer-Djokovic-Nadal era of dominance. Djokovic came closest in 2021, winning the first three majors before losing the US Open final to Daniil Medvedev. On the women's side, Steffi Graf completed the 1988 Golden Slam — all four majors plus Olympic gold. A career Grand Slam, meaning winning each major at least once over a career rather than in a single year, has been achieved by Djokovic, Federer, Nadal, Agassi, and others. The single-year calendar Slam remains tennis's ultimate unreached summit in the Open Era."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "The Impressionist movement takes its name from a Monet painting exhibited at the April 1874 group show in Paris, whose title a hostile critic used to mock the style. What is the painting's title?"
+        "subtopic": "religion",
+        "stem": "In Sunni Islamic jurisprudence, the doctrine of the 'closing of the gate of ijtihad' holds that independent scholarly reasoning from primary sources is no longer practised. When is this generally dated and what does it mean?",
+        "options": [
+          "It was banned by the Abbasid Caliph in 945 CE after the Mu'tazilite controversy made speculative theology politically dangerous",
+          "It dates to the Mongol destruction of Baghdad in 1258, which killed so many scholars that original jurisprudence became impossible",
+          "By roughly the 10th century CE, Sunni jurists held that major legal questions had been resolved within the four madhhabs, making fresh ijtihad unnecessary — though the doctrine is strongly contested",
+          "The Ottoman Empire officially prohibited ijtihad in 1517 upon assuming the Caliphate, to consolidate legal authority under a single school"
+        ],
+        "correct": 2,
+        "why": "The closing is a Sunni jurisprudential trend roughly dated to the 10th century, holding major questions settled within the four schools — never universal and strongly contested by reformists.",
+        "deepDive": "Ijtihad, from the Arabic root meaning striving or exerting effort — the same root as jihad — is independent scholarly reasoning to derive Islamic law directly from Quran and Hadith. The closing of the gate is not a single historical event but a jurisprudential trend broadly dated to the late 9th or 10th century CE, when Sunni scholars argued major questions were resolved within the four madhhabs: Hanafi, Maliki, Shafi'i, and Hanbali. Thereafter taqlid, meaning following established precedent within a school, became standard. However the closing was never universal: Ibn Taymiyya, Shah Waliullah of Delhi, and 20th-century reformers including Muhammad Abduh and Rashid Rida all claimed the right to fresh ijtihad. In Shia Islam, ijtihad remains institutionally alive — senior marjas exercise continuous reasoning, enabling rulings on contemporary issues including bioethics. The tension between taqlid and ijtihad remains central to debates about Islamic legal reform and modernity."
       }
     ]
   }
