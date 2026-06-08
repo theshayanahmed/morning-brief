@@ -1,6 +1,6 @@
 {
   "streak": 2,
-  "last_session_date": "2026-06-07",
+  "last_session_date": "2026-06-08",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -281,7 +281,17 @@
     "Isaiah Berlin's 1958 'Two Concepts of Liberty' argued that 'positive liberty' poses a distinctive danger compared to 'negative liberty'. What specific danger did he identify?",
     "The 'Dutch Disease' describes a specific economic mechanism triggered by a resource boom. Which of the following best captures it?",
     "In the Open Era of tennis (post-1968), who is the only male player to have completed the calendar-year Grand Slam — winning all four majors in the same calendar year?",
-    "In Sunni Islamic jurisprudence, the doctrine of the 'closing of the gate of ijtihad' holds that independent scholarly reasoning from primary sources is no longer practised. When is this generally dated and what does it mean?"
+    "In Sunni Islamic jurisprudence, the doctrine of the 'closing of the gate of ijtihad' holds that independent scholarly reasoning from primary sources is no longer practised. When is this generally dated and what does it mean?",
+    "Which dedicated cargo airline operates the world's largest all-freighter fleet by aircraft count in 2026, with Memphis (MEM) as its global super-hub?",
+    "Which major European air freight hub imposes a strict 23:00-05:00 night-flight ban, directly influencing DHL's decision to develop Leipzig-Halle (LEJ) as its European super-hub?",
+    "DSV's acquisition of DB Schenker, closed in early 2025 for approximately 14.3 billion euros, created the world's largest freight forwarder by air tonnage. What is the approximate combined annual air freight volume?",
+    "In ocean freight commercial practice, a Named Account Contract (NAC) differs from a standard service contract or NRA primarily because NACs are:",
+    "The bullwhip effect describes demand signal amplification up the supply chain tiers. The single most effective structural intervention to dampen it is:",
+    "Lake Baikal holds approximately what fraction of Earth's total liquid surface freshwater?",
+    "In CRISPR-Cas9 gene editing, which component physically cleaves the target DNA, creating the double-strand break?",
+    "In Saussurean structural linguistics, the relationship between the signifier (sound-image) and the signified (concept) is described as:",
+    "In HBO's The Wire (2002-2008), which institution did Season 2, Season 3, and Season 4 respectively examine?",
+    "The Monty Hall problem's result — switching doors gives 2/3 winning probability vs 1/3 for staying — is formally derived from which mathematical framework?"
   ],
   "learn_history": [
     {
@@ -428,6 +438,11 @@
       "date": "2026-06-07",
       "topic": "Ethnic Nationalism vs Civic Nationalism: The Identity Fault Line That Shapes States",
       "bucket": "sociopolitical"
+    },
+    {
+      "date": "2026-06-08",
+      "topic": "Vessel Sharing Agreements and Slot Charters: The Hidden Architecture of Liner Trade",
+      "bucket": "industry_deep_dive"
     }
   ],
   "curriculum_progress": {
@@ -522,32 +537,32 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 6,
-      "last_seen": "2026-06-04",
+      "count": 7,
+      "last_seen": "2026-06-08",
       "difficulty": 1,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 6,
-      "last_seen": "2026-06-04",
+      "count": 7,
+      "last_seen": "2026-06-08",
       "difficulty": 1,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 6,
-      "last_seen": "2026-06-04",
+      "count": 7,
+      "last_seen": "2026-06-08",
       "difficulty": 1,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 6,
-      "last_seen": "2026-06-04",
+      "count": 7,
+      "last_seen": "2026-06-08",
       "difficulty": 1,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 6,
-      "last_seen": "2026-06-04",
+      "count": 7,
+      "last_seen": "2026-06-08",
       "difficulty": 1,
       "rolling_score": []
     }
@@ -560,8 +575,8 @@
       "rolling_score": []
     },
     "geography": {
-      "count": 10,
-      "last_seen": "2026-06-05",
+      "count": 11,
+      "last_seen": "2026-06-08",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -572,14 +587,14 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 10,
-      "last_seen": "2026-06-05",
+      "count": 11,
+      "last_seen": "2026-06-08",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 10,
-      "last_seen": "2026-06-06",
+      "count": 11,
+      "last_seen": "2026-06-08",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -620,8 +635,8 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 9,
-      "last_seen": "2026-06-05",
+      "count": 10,
+      "last_seen": "2026-06-08",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -632,167 +647,167 @@
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 9,
-      "last_seen": "2026-06-05",
+      "count": 10,
+      "last_seen": "2026-06-08",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-06-07",
+    "date": "2026-06-08",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "Under a Combined Transport Bill of Lading (CT BL), who bears single-point liability to the cargo owner for the entire door-to-door movement — including legs operated by subcontractors?",
+        "subtopic": "aircraft_carriers",
+        "stem": "Which dedicated cargo airline operates the world's largest all-freighter fleet by aircraft count in 2026, with Memphis (MEM) as its global super-hub?",
         "options": [
-          "The ocean carrier operating the main sea leg",
-          "Each subcontractor, severally liable for their respective segment only",
-          "The Multimodal Transport Operator (MTO) who issued the CT BL",
-          "The freight forwarder who arranged and booked the shipment"
+          "UPS Airlines — approximately 500 aircraft, primarily 767F and 747-8F",
+          "FedEx Express — approximately 700+ aircraft spanning 757F, 767F, MD-11F, and 777F",
+          "Atlas Air — approximately 100 owned aircraft, operating ACMI for Amazon and DHL",
+          "Cargolux — approximately 30 Boeing 747-8F and 747-400F aircraft"
         ],
-        "correct": 2,
-        "why": "Under a CT BL, the MTO assumes single-entity liability for the whole journey regardless of how many sub-carriers are involved.",
-        "deepDive": "A Combined Transport BL makes the Multimodal Transport Operator the single point of liability for the entire door-to-door journey — regardless of how many sub-carriers operate individual legs. This differs from segmented documentation (separate ocean BL, rail waybill, truck consignment note), where each carrier is liable only for their leg. The MTO model simplifies claims: one entity, one document, one dispute. MTOs price consolidated risk into their rate. The legal framework is fragmented — UNCTAD's 1980 Multimodal Convention was never ratified, so practice relies on national law and FIATA's FBL (Freight Forwarders' Negotiable Multimodal BL), the market's de facto standard. For logistics groups acting as MTO, this means accepting end-to-end liability — a powerful commercial tool but a concentrated risk position that must be carefully back-to-back covered with sub-carrier contracts."
+        "correct": 1,
+        "why": "FedEx Express consistently fields the world's largest all-freighter fleet (~700+ aircraft), with Memphis (MEM) as its global super-hub — the world's busiest cargo airport by aircraft-movement count.",
+        "deepDive": "FedEx Express runs the world's largest dedicated freight airline by count, spanning B757-200F, B767F, MD-11F, and 777F types. Its integrator model — owning aircraft, trucks, and final-mile delivery — separates it from traditional cargo airlines selling airport-to-airport capacity. UPS Airlines (~500+ aircraft) is second. Atlas Air is the largest ACMI wet-lease operator but maintains only ~100 owned aircraft; it flies capacity for Amazon Air, DHL, and others without holding those on its own certificate. Cargolux's niche: ~30 747-8Fs serving high-value cargo requiring the nose-door for outsized loads on thin-frequency routes. Key distinction for forwarders: integrators (FedEx, UPS, DHL Express) offer guaranteed door-to-door services; traditional carriers (Cargolux, Cathay Cargo, Lufthansa Cargo) sell airport-to-airport capacity through forwarders who handle the ground leg."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "The India-Middle East-Europe Corridor (IMEC), announced at the 2023 G20 in New Delhi, is a multimodal alternative to the Suez route. Which sequence best describes its planned routing?",
+        "subtopic": "airport_ops",
+        "stem": "Which major European air freight hub imposes a strict 23:00-05:00 night-flight ban, directly influencing DHL's decision to develop Leipzig-Halle (LEJ) as its European super-hub?",
         "options": [
-          "India to Oman, then Saudi Arabia by rail, then Turkey, then Bulgaria into Europe",
-          "India to UAE by sea, then Saudi Arabia and Jordan by rail, then Israel's Haifa port, then Mediterranean sea into Europe",
-          "India to Sri Lanka, then Egypt via Suez Canal, then Greece into Europe by sea",
-          "India to Iran by rail, then Turkey, then Greece via the Trans-Caspian Middle Corridor"
+          "Paris Charles de Gaulle (CDG) — noise-quota rules but no absolute curfew",
+          "Frankfurt Main (FRA) — legally-codified curfew upheld by Federal Administrative Court in 2012",
+          "Amsterdam Schiphol (AMS) — slot-count limits but flexible night access for cargo",
+          "Milan Malpensa (MXP) — seasonal restrictions during winter schedule only"
         ],
         "correct": 1,
-        "why": "IMEC: sea from India to UAE, rail across Saudi Arabia and Jordan to Haifa, then Mediterranean sea into European networks.",
-        "deepDive": "IMEC was signed at the G20 in New Delhi in September 2023 by the US, India, Saudi Arabia, UAE, France, Germany, Italy, and the EU. The routing: Indian ports (Mundra, JNPT) by sea to UAE (Jebel Ali or Fujairah); rail across Saudi Arabia and Jordan; Israeli port of Haifa; then Mediterranean sea to Piraeus (Greece) or Italian ports; onward by European rail. IMEC's strategic logic: it bypasses Suez and Red Sea chokepoints, normalises Saudi-Israeli trade flows under the Abraham Accords framework, and positions India as a connector hub between the Indo-Pacific and Europe. Progress has stalled due to the Gaza war and 2026 Iran conflict, particularly the Israel-Arab normalisation elements. IMEC competes directly with China's Belt and Road for corridor dominance across the same geography."
+        "why": "Frankfurt FRA's legally-codified 23:00-05:00 ban makes overnight freighter operations impossible; DHL chose Leipzig-Halle 160 km away specifically for its unrestricted 24-hour operations, lower costs, and central European geography.",
+        "deepDive": "Night-flight curfews are critical for cargo hubs: freighters prefer late-evening departure (after factory cutoffs) to arrive at destination at business-opening time. FRA's curfew forces Lufthansa Cargo and others to compress operations tightly into narrow windows. DHL's Leipzig-Halle (LEJ) selection in 2008 was explicitly driven by FRA's restrictions — LEJ now handles ~1.3M tonnes annually. Amsterdam (AMS) uses noise-quota systems (Lnight exposure limits) rather than absolute bans, allowing more flexibility. London Heathrow (LHR) has night restrictions, but Stansted (STN) and East Midlands (EMA) operate curfew-free as UK cargo feeders. Common misconception: CDG is not unrestricted — it applies quota counts on noise exposure at night, making it semi-constrained. The pattern across European hubs is that cargo operators route sensitive overnight missions through secondary unconstrained airports while daytime belly and premium cargo uses the constrained majors."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "Under the York-Antwerp Rules governing General Average, which of the following would NOT qualify as a General Average sacrifice or expenditure?",
+        "subtopic": "ma_consolidation",
+        "stem": "DSV's acquisition of DB Schenker, closed in early 2025 for approximately 14.3 billion euros, created the world's largest freight forwarder by air tonnage. What is the approximate combined annual air freight volume?",
         "options": [
-          "Deliberately jettisoning cargo to refloat a grounded vessel",
-          "Cost of tug services when a vessel voluntarily enters a port of refuge to repair storm damage",
-          "Cargo damaged by water used to extinguish a fire in the ship's hold",
-          "Loss of a container that fell overboard accidentally in rough weather due to improper stowage"
+          "~1.4 million tonnes — roughly equal to DSV alone before the deal",
+          "~2.5 million tonnes — DSV (~1.4M) plus Schenker (~1.1M) combined",
+          "~3.8 million tonnes — implying Schenker was twice DSV's pre-deal air size",
+          "~5.2 million tonnes — exceeding the next three forwarders combined"
         ],
-        "correct": 3,
-        "why": "Accidental losses — not voluntary sacrifices — fall under ordinary cargo insurance, not General Average.",
-        "deepDive": "General Average is a centuries-old maritime principle codified in the York-Antwerp Rules: any extraordinary sacrifice or expenditure made voluntarily for the common safety of ship and cargo is shared proportionally by all parties with a financial interest in the voyage. The test has four elements — real peril, voluntary act, reasonable sacrifice, and common benefit. Jettison, firefighting water damage, and port-of-refuge costs all qualify. Accidental losses (cargo falling overboard due to poor stowage) fail the voluntariness test and fall under ordinary cargo insurance under Institute Cargo Clauses. GA declarations trigger a complex adjustment process: a GA adjuster calculates each party's proportional share, and cargo owners must post GA security (bond or cash) before goods are released. Resolution can take years, particularly for casualties involving multiple cargo interests and jurisdictions."
+        "correct": 1,
+        "why": "DSV (~1.4M tonnes air) plus Schenker (~1.1M) combine to ~2.5M tonnes annually, displacing Kuehne+Nagel (~1.5M) from the top spot in global air freight forwarding by volume.",
+        "deepDive": "Deutsche Bahn divested Schenker after years of underperformance vs private rivals. DSV — which had already absorbed Panalpina (2019) and Agility GIL (2021) — beat CVC Capital in the auction. At ~$15.5B, this is the largest logistics acquisition in history. Air freight forwarder ranking post-deal: DSV-Schenker (~2.5M tonnes), Kuehne+Nagel (~1.5M), DHL Global Forwarding (~1.4M), Sinotrans (~1.3M), Expeditors (~1.1M). In ocean forwarding, K+N and DSV-Schenker trade the top spot at ~4-5M TEUs each. Integration risk: platform consolidation across two large multinationals with different corporate cultures — Danish operational efficiency versus German corporate structure. DB Schenker's strongest asset was contract logistics and European rail forwarding, both strategic additions for DSV's portfolio. The deal marks the end of Deutsche Bahn's ambition to be a global logistics champion."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "The UFLPA (Uyghur Forced Labor Prevention Act, in force June 2022) established a 'rebuttable presumption' for goods from Xinjiang. What does this mean for US importers?",
+        "subtopic": "commercial_concepts",
+        "stem": "In ocean freight commercial practice, a Named Account Contract (NAC) differs from a standard service contract or NRA primarily because NACs are:",
         "options": [
-          "US CBP may detain Xinjiang-origin goods but must first prove forced labor before refusing entry",
-          "Only goods from entities on the UFLPA Entity List face the presumption; all others are admitted normally",
-          "Any goods produced wholly or in part in Xinjiang are presumed made with forced labor — the importer must disprove it to clear customs",
-          "Importers must declare Xinjiang origin on the entry form but face no automatic detention or seizure"
+          "Publicly filed with the FMC and accessible to any shipper requesting identical terms",
+          "Carrier-to-carrier slot-charter arrangements for sharing vessel capacity within alliances",
+          "Confidential, account-specific bilateral rates not publicly filed, negotiated directly with large-volume BCOs",
+          "Only valid for FTZ-to-FTZ movements to qualify for duty-suspension treatment"
         ],
         "correct": 2,
-        "why": "The rebuttable presumption shifts the entire burden to the importer — CBP need not prove forced labor; the importer must disprove it with clear and convincing evidence.",
-        "deepDive": "The UFLPA's rebuttable presumption bans all goods from Xinjiang unless the importer provides clear and convincing evidence they were not made with forced labour — an extremely high bar requiring factory audits, worker records, and raw-material traceability. Key goods affected: cotton (Xinjiang produces roughly 85% of China's cotton), polysilicon for solar panels, tomatoes, and aluminium. For Bangladesh's RMG sector, the upstream risk is real: any Xinjiang cotton in garments exported to the US can trigger CBP detention. Compliance requires full supply chain traceability — something most South Asian mills currently lack. The UFLPA Entity List of 600-plus firms creates a second, lower-bar trigger: goods touched by listed entities are automatically detained regardless of origin claims. Due diligence must now extend to yarn and fabric suppliers' raw material sourcing."
+        "why": "NACs are private, bilateral rate agreements between a carrier and a named beneficial cargo owner — confidential, not publicly filed, and typically include MQC clauses with shortfall penalties for volume misses.",
+        "deepDive": "In US regulatory practice, NVOCCs must file NRAs (NVOCC Rate Arrangements) with the FMC — a published-tariff obligation. Carriers dealing directly with BCOs (beneficial cargo owners — actual goods owners, not intermediaries) can offer Named Account Contracts, purely private bilateral agreements. Large BCOs — IKEA, Walmart, Nike — negotiate NACs directly with MSC, Maersk, CMA CGM, often covering annual volumes split across multiple carriers. The commercial rate hierarchy: NAC (confidential, best rates) > service contract (negotiated, filed in US) > FAK/Freight All Kinds (commodity-blind, published) > spot (fully market-exposed). NACs typically include MQC (Minimum Quantity Commitment) clauses: shortfall penalties of $200-$600/FEU apply if volume targets are missed. Forwarders compete by aggregating client volumes to present a single large account to the carrier, achieving NAC-equivalent pricing for smaller individual shippers who could not negotiate directly."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "The Baltic Dry Index (BDI) — the primary benchmark for dry bulk shipping — is a weighted composite of freight rates across which three vessel-size segments?",
+        "subtopic": "supply_chain_strategy",
+        "stem": "The bullwhip effect describes demand signal amplification up the supply chain tiers. The single most effective structural intervention to dampen it is:",
         "options": [
-          "Capesize, Supramax, and Handysize",
-          "VLOC, Capesize, and Panamax",
-          "Capesize, Panamax, and Supramax",
-          "Handymax, Panamax, and Post-Panamax"
+          "Increasing safety stock at every tier simultaneously to absorb demand variability",
+          "Sharing real-time point-of-sale demand data directly with upstream suppliers",
+          "Extending supplier lead times so downstream demand volatility has time to average out",
+          "Routing all procurement through a 4PL to homogenise ordering patterns across tiers"
         ],
-        "correct": 2,
-        "why": "BDI equals the Baltic Capesize Index at 40% plus Baltic Panamax Index at 30% plus Baltic Supramax Index at 30%; Handysize was removed in a 2021 methodology revision.",
-        "deepDive": "The Baltic Dry Index, published by the Baltic Exchange in London since 1985, is a weighted composite of three sub-indices: Capesize (180,000-plus DWT, iron ore and coal, 40% weight), Panamax (60,000-80,000 DWT, grain and coal, 30%), and Supramax (50,000-60,000 DWT, minor bulks, 30%). Handysize is now tracked separately as the BHSI following the 2021 methodology revision. The BDI is extraordinarily volatile, ranging from 291 in February 2016 to 11,400 in October 2021, and serves as a leading indicator of global commodity demand and industrial activity. A sustained BDI rally typically signals commodity demand surges four to six weeks before they appear in trade statistics. The index measures charter rates, not commodity prices — making it a proxy for the cost of moving raw materials and a real-time pulse of global heavy industry."
+        "correct": 1,
+        "why": "Sharing POS data upstream eliminates the information lag that creates signal amplification — Walmart's VMI partnership with P&G and Zara's daily store data processing are the canonical implementations of this principle.",
+        "deepDive": "The bullwhip effect was formalised by Jay Forrester (MIT, 1961) and named by Hau Lee in his 1997 paper. A 5% retail demand uptick becomes a 15% distributor order, 25% wholesaler order, 40% manufacturer build — each tier amplifying perceived uncertainty. Root causes: demand forecast errors, order batching (weekly vs daily), promotional spikes, and shortage gaming (over-ordering when supply is tight). The fix is demand-side visibility: EDI-linked POS sharing, VMI (where the supplier owns the replenishment decision), or CPFR (Collaborative Planning, Forecasting, Replenishment). Extending lead times (option C) worsens the bullwhip by increasing forecast uncertainty horizons. Safety stock (option A) absorbs variability at cost but does not fix the root signal. Post-COVID the JIT-to-JIC shift raised global stock levels but simultaneously increased bullwhip exposure — evidenced by the massive inventory overhang across US retail in 2022-23 as demand normalised while pipeline orders continued arriving."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "The 'prepared piano' — in which objects such as screws, bolts, and rubber pieces are inserted between piano strings to alter its timbre — was pioneered by which 20th-century American composer?",
+        "subtopic": "geography",
+        "stem": "Lake Baikal holds approximately what fraction of Earth's total liquid surface freshwater?",
         "options": [
-          "Philip Glass",
-          "Steve Reich",
-          "John Cage",
-          "Aaron Copland"
+          "Around 5-8%",
+          "Around 10-12%",
+          "Around 20-25%",
+          "Around 35-40%"
         ],
         "correct": 2,
-        "why": "John Cage invented the prepared piano in 1940 for Syvilla Fort's Bacchanale when he could not fit a percussion ensemble on the stage.",
-        "deepDive": "John Cage (1912-1992) invented the prepared piano in 1940 after being asked to compose for a dance performance but finding no room for the percussion ensemble he had planned. By inserting screws, bolts, and rubber between piano strings, he turned one instrument into a full percussion orchestra. His most celebrated prepared piano work is Sonatas and Interludes (1946-48), evoking Indian philosophical ideas of permanent emotions via Ananda Coomaraswamy's writings. Cage's broader project was shaped by Zen Buddhism, via D.T. Suzuki, and studies with Arnold Schoenberg. His notorious 4'33'' (1952) — four minutes and thirty-three seconds of silence — treats ambient sound as composition. Cage bridges modernist composition and conceptual art, influencing minimalism, Fluxus, and sound art. Philip Glass and Steve Reich are minimalists in a related but distinct tradition; Copland wrote in a distinctly American nationalist idiom."
+        "why": "Lake Baikal contains ~23,615 km3 — roughly 20-25% of all liquid surface freshwater on Earth, despite being smaller by surface area than the saline Caspian Sea.",
+        "deepDive": "Baikal sits in a Siberian rift valley near the Mongolian border, reaching 1,642 metres depth — the world's deepest lake and geologically about 25-30 million years old. At current tectonic rates (~2 cm/year spreading), it is in the early stages of continental rifting — a future ocean in hundreds of millions of years, analogous to the East African Rift today. The lake hosts over 1,700 endemic species, most notably the nerpa, the world's only fully freshwater seal — an evolutionary puzzle since its closest relatives are Arctic marine seals, suggesting the lake was once connected to Arctic waters via ancient river systems. Common misconception: the Caspian Sea (~371,000 km2 surface) is sometimes called the largest lake but is saline and technically an endorheic sea. Lake Superior holds ~12,100 km3 — roughly half of Baikal's volume. The Soviet-era Baikal Pulp and Paper Mill dumped dioxins for decades before closing in 2013; remediation remains incomplete, a canonical case study in industrial environmental cost."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "Isaiah Berlin's 1958 'Two Concepts of Liberty' argued that 'positive liberty' poses a distinctive danger compared to 'negative liberty'. What specific danger did he identify?",
+        "subtopic": "life_science",
+        "stem": "In CRISPR-Cas9 gene editing, which component physically cleaves the target DNA, creating the double-strand break?",
         "options": [
-          "Positive liberty's emphasis on self-realisation encourages laissez-faire economics and widens inequality",
-          "Positive liberty can be appropriated by states to claim they are liberating people by coercing them toward a supposedly rational or collective good",
-          "Positive liberty denies the importance of community, producing atomised individuals incapable of political participation",
-          "Positive liberty's focus on economic capability leads inevitably to bloated and inefficient welfare states"
+          "The guide RNA (gRNA), which base-pairs with the target sequence and triggers cleavage",
+          "The Cas9 protein's HNH and RuvC nuclease domains, acting on complementary and non-complementary strands",
+          "The PAM sequence in the host genome, which destabilises the double helix at the cut site",
+          "The tracrRNA scaffold, which activates Cas9's enzymatic function upon target binding"
         ],
         "correct": 1,
-        "why": "Berlin's core warning: positive liberty's logic — real freedom is X — can justify totalitarian coercion in the name of true self-realisation.",
-        "deepDive": "Isaiah Berlin (1909-1997) delivered this lecture at Oxford in 1958. Negative liberty is freedom from external obstacles, associated with Hobbes, Locke, and Mill. Positive liberty is freedom to achieve self-mastery and autonomous self-governance, associated with Rousseau, Hegel, and Marx. Berlin's warning: positive liberty is vulnerable to perversion. If real freedom requires rationality, and the state claims to know what rationality demands, it can assert the right to liberate you by coercing you, overriding your expressed preferences for your supposed true self. He saw this as the theoretical grammar of Stalinist totalitarianism. Critics including Charles Taylor and Quentin Skinner argue the negative-positive distinction is too blurry and that negative liberty ignores real capability constraints. But Berlin's framework anchors contemporary liberal political philosophy and debates about paternalism, welfare states, and authoritarian developmental regimes across Asia and the Middle East."
+        "why": "Cas9 carries two nuclease domains — HNH cleaves the complementary strand, RuvC cleaves the non-complementary strand. The gRNA is GPS that guides Cas9 to the site; it does not cut.",
+        "deepDive": "CRISPR evolved in bacteria as adaptive immunity: surviving a phage attack, bacteria store snippets of phage DNA in CRISPR arrays; re-attack triggers CRISPR RNA plus Cas9 to destroy the phage genome. Jennifer Doudna and Emmanuelle Charpentier repurposed this as a precision gene editor, winning the Nobel Chemistry Prize in 2020. The PAM sequence (Protospacer Adjacent Motif — typically NGG for SpCas9) is a lock: Cas9 will not bind without it, preventing accidental self-cleavage of the bacterium's own genome. After cutting, cells repair via NHEJ (error-prone, creates knockouts) or HDR (precise, using a provided template). Toolbox evolution: Cas12a (staggered cuts), base editors (single-nucleotide changes without a double-strand break), prime editors (search-and-replace without any cut). First approved therapy: Casgevy for sickle cell disease (2023). Common misconception: the gRNA is often called the cutting component — it is the targeting system; Cas9 protein is the scissors."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The 'Dutch Disease' describes a specific economic mechanism triggered by a resource boom. Which of the following best captures it?",
+        "subtopic": "linguistics",
+        "stem": "In Saussurean structural linguistics, the relationship between the signifier (sound-image) and the signified (concept) is described as:",
         "options": [
-          "A vicious cycle where high commodity revenues fund government borrowing that eventually triggers a sovereign debt crisis",
-          "The deindustrialisation of an economy caused by currency appreciation following a natural resource windfall",
-          "The tendency for resource-rich states to develop corrupt, rent-seeking institutions that block economic diversification",
-          "The commodity price collapse that follows overproduction once a resource boom peaks and investment flows reverse"
+          "Iconic — the sound naturally resembles or mimics the concept it represents",
+          "Arbitrary — the link is purely conventional, with no inherent or natural connection",
+          "Indexical — words point to objects the way smoke causally points to fire",
+          "Motivated — the form of a word is systematically derived from its referent's properties"
         ],
         "correct": 1,
-        "why": "Dutch Disease: resource windfall causes currency appreciation, which makes manufactured exports uncompetitive, which shrinks the manufacturing sector.",
-        "deepDive": "The term Dutch Disease was coined by The Economist in 1977 to describe Netherlands manufacturing decline after the 1959 Groningen natural gas discovery. The mechanism: the resource sector generates foreign exchange inflows, the currency appreciates, manufactured exports become globally expensive, and manufacturing contracts. Option C describes the resource curse — a broader concept covering Dutch Disease plus institutional decay from rent-seeking. Mitigation strategies include sterilising revenues into sovereign wealth funds such as Norway's Government Pension Fund Global and Kuwait's KIA, deliberate currency management such as Gulf pegs, or diversification investment. Bangladesh faces a soft analog via remittances: large inflows appreciate the taka and marginally erode RMG export competitiveness — one reason Bangladesh Bank maintains a managed float rather than free flotation of the currency."
+        "why": "Saussure's foundational principle: the signifier-signified bond is arbitrary and purely conventional — proved by the fact that different languages use entirely different sounds for identical concepts.",
+        "deepDive": "Ferdinand de Saussure's Course in General Linguistics (1916, posthumously compiled by students) founded structural linguistics and influenced structuralism across anthropology (Levi-Strauss), literary theory (Barthes), and psychoanalysis (Lacan). His key binaries: signifier/signified (sound-image vs concept), langue/parole (the language system vs individual speech acts), synchrony/diachrony (present state vs historical evolution). Arbitrariness is foundational — 'tree,' 'arbre,' and the Arabic 'shajara' map to identical concepts with no shared phonetic logic. Apparent counterexample: onomatopoeia (buzz, crash) — but even these vary cross-linguistically (Japanese cats say 'nya,' English cats say 'meow'), proving sound-symbolism is also conventional. Saussure's framework contrasts with Peirce's semiotic triad: icon (resemblance), index (causal connection), symbol (arbitrary convention). Derrida later destabilised the signified itself — meaning is always deferred (differance), building directly on Saussure's binary to dismantle it."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "In the Open Era of tennis (post-1968), who is the only male player to have completed the calendar-year Grand Slam — winning all four majors in the same calendar year?",
+        "subtopic": "pop_culture",
+        "stem": "In HBO's The Wire (2002-2008), which institution did Season 2, Season 3, and Season 4 respectively examine?",
         "options": [
-          "Pete Sampras",
-          "Roger Federer",
-          "Rod Laver",
-          "Novak Djokovic"
+          "Port/docks, then drug trade again, then schools",
+          "Port/docks, then city hall and police politics, then schools",
+          "Schools, then port/docks, then city hall",
+          "Drug trade, then port/docks, then newspapers"
         ],
-        "correct": 2,
-        "why": "Rod Laver completed the calendar Grand Slam in 1969 — the only man to do so in the Open Era.",
-        "deepDive": "Rod Laver, the Australian left-hander, completed the calendar Grand Slam twice: in 1962 in the amateur era when professionals were excluded from majors, and in 1969 in the Open Era. His 1969 Slam across the Australian Open, French Open, Wimbledon, and US Open has gone unmatched for more than 55 years despite the Federer-Djokovic-Nadal era of dominance. Djokovic came closest in 2021, winning the first three majors before losing the US Open final to Daniil Medvedev. On the women's side, Steffi Graf completed the 1988 Golden Slam — all four majors plus Olympic gold. A career Grand Slam, meaning winning each major at least once over a career rather than in a single year, has been achieved by Djokovic, Federer, Nadal, Agassi, and others. The single-year calendar Slam remains tennis's ultimate unreached summit in the Open Era."
+        "correct": 1,
+        "why": "Season 2 = Baltimore port and dockworkers (Sobotka stevedores); Season 3 = city hall, policing politics, and Hamsterdam; Season 4 = Baltimore middle schools and children trapped between street and a failing system.",
+        "deepDive": "David Simon's The Wire is structured as a novel-in-seasons, each dissecting a civic institution: S1 (drug trade/towers), S2 (port/stevedores), S3 (city hall/police), S4 (schools), S5 (newspaper). Season 2 is the series' most underrated — using white working-class dockworker Frank Sobotka's corruption as a mirror to S1's Black drug trade, arguing Baltimore's decay is structural and economic, not racial. Season 3 introduces Hamsterdam — a de facto free drug zone created by Major Colvin as a harm-reduction experiment that dramatically reduces crime statistics until politically suppressed — Simon's most direct argument against the War on Drugs. Season 4, following four middle-schoolers, is widely cited as the best season: it shows how institutions collectively fail children before they make any meaningful choice. The Wire established the institutional, seasonal-arc structure later borrowed by Simon's own Treme and The Deuce, and by The Americans and Succession."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "In Sunni Islamic jurisprudence, the doctrine of the 'closing of the gate of ijtihad' holds that independent scholarly reasoning from primary sources is no longer practised. When is this generally dated and what does it mean?",
+        "subtopic": "mathematics",
+        "stem": "The Monty Hall problem's result — switching doors gives 2/3 winning probability vs 1/3 for staying — is formally derived from which mathematical framework?",
         "options": [
-          "It was banned by the Abbasid Caliph in 945 CE after the Mu'tazilite controversy made speculative theology politically dangerous",
-          "It dates to the Mongol destruction of Baghdad in 1258, which killed so many scholars that original jurisprudence became impossible",
-          "By roughly the 10th century CE, Sunni jurists held that major legal questions had been resolved within the four madhhabs, making fresh ijtihad unnecessary — though the doctrine is strongly contested",
-          "The Ottoman Empire officially prohibited ijtihad in 1517 upon assuming the Caliphate, to consolidate legal authority under a single school"
+          "The Law of Large Numbers, showing switching wins more often over many repeated trials",
+          "Bayes' theorem, updating the prior 1/3 probability after Monty's reveal provides conditional information",
+          "The Birthday Paradox's combinatorial counting of door permutations",
+          "The Central Limit Theorem's convergence of discrete to continuous probability"
         ],
-        "correct": 2,
-        "why": "The closing is a Sunni jurisprudential trend roughly dated to the 10th century, holding major questions settled within the four schools — never universal and strongly contested by reformists.",
-        "deepDive": "Ijtihad, from the Arabic root meaning striving or exerting effort — the same root as jihad — is independent scholarly reasoning to derive Islamic law directly from Quran and Hadith. The closing of the gate is not a single historical event but a jurisprudential trend broadly dated to the late 9th or 10th century CE, when Sunni scholars argued major questions were resolved within the four madhhabs: Hanafi, Maliki, Shafi'i, and Hanbali. Thereafter taqlid, meaning following established precedent within a school, became standard. However the closing was never universal: Ibn Taymiyya, Shah Waliullah of Delhi, and 20th-century reformers including Muhammad Abduh and Rashid Rida all claimed the right to fresh ijtihad. In Shia Islam, ijtihad remains institutionally alive — senior marjas exercise continuous reasoning, enabling rulings on contemporary issues including bioethics. The tension between taqlid and ijtihad remains central to debates about Islamic legal reform and modernity."
+        "correct": 1,
+        "why": "Monty's reveal — he always opens a goat door — provides conditional information that updates posteriors via Bayes' theorem: your door stays at 1/3, the unopened door absorbs the remaining 2/3.",
+        "deepDive": "The Monty Hall problem was popularised in 1990 when Marilyn vos Savant printed the correct answer in Parade, triggering 10,000 letters — many from PhDs — insisting she was wrong. Bayesian derivation: P(car at door 2 | Monty opens door 3) = P(Monty opens door 3 | car at door 2) times P(car at door 2) divided by P(Monty opens door 3) = 1 times (1/3) divided by (1/2) = 2/3. The key insight: Monty is not random — he always reveals a goat and never the car. This information asymmetry breaks the naive 50/50 intuition after the reveal. Simulation confirms it: run 1,000 trials, switchers win ~667 times. The Birthday Paradox uses complementary-event combinatorics to show 23 people suffice for a 50%+ shared-birthday chance — entirely different. The Law of Large Numbers explains why simulation results converge but does not derive the conditional probability. Real-world parallel: false-positive reasoning in medical testing follows the same Bayesian structure — a positive test on a rare disease may still imply low probability of actually having it, given the low base rate."
       }
     ]
   }
