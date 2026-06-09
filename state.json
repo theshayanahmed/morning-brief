@@ -1,6 +1,6 @@
 {
   "streak": 2,
-  "last_session_date": "2026-06-08",
+  "last_session_date": "2026-06-09",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -291,7 +291,17 @@
     "In CRISPR-Cas9 gene editing, which component physically cleaves the target DNA, creating the double-strand break?",
     "In Saussurean structural linguistics, the relationship between the signifier (sound-image) and the signified (concept) is described as:",
     "In HBO's The Wire (2002-2008), which institution did Season 2, Season 3, and Season 4 respectively examine?",
-    "The Monty Hall problem's result — switching doors gives 2/3 winning probability vs 1/3 for staying — is formally derived from which mathematical framework?"
+    "The Monty Hall problem's result — switching doors gives 2/3 winning probability vs 1/3 for staying — is formally derived from which mathematical framework?",
+    "Under Incoterms 2020, which single term places maximum obligation on the seller — requiring it to be",
+    "A shipper consigns cargo ‘To Order’ on the Bill of Lading. How does title to the cargo transfer to a",
+    "When a liner carrier announces a ‘rate restoration’ on a trade lane, what does this action typically",
+    "A 60cm × 50cm × 40cm carton weighs 6 kg gross. Applying IATA’s standard chargeable weight formula (v",
+    "Which WTO principle requires a member to extend any trade concession granted to one trading partner ",
+    "The Berlin Conference of 1884–85 introduced which foundational legal principle to govern European te",
+    "In classical thermodynamics, a ‘reversible process’ is correctly defined as one that:",
+    "In García Márquez’s One Hundred Years of Solitude, how does the patriarch José Arcadio Buenía ultima",
+    "The distinctive inner luminosity of Flemish Renaissance painting — most associated with Jan van Eyck",
+    "A fugue in Western classical music is most accurately characterised as:"
   ],
   "learn_history": [
     {
@@ -443,12 +453,17 @@
       "date": "2026-06-08",
       "topic": "Vessel Sharing Agreements and Slot Charters: The Hidden Architecture of Liner Trade",
       "bucket": "industry_deep_dive"
+    },
+    {
+      "date": "2026-06-09",
+      "topic": "The Bay of Bengal: Asia's Most Contested Maritime Frontier",
+      "bucket": "geography"
     }
   ],
   "curriculum_progress": {
     "incoterms": {
-      "count": 7,
-      "last_seen": "2026-06-05",
+      "count": 8,
+      "last_seen": "2026-06-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -459,8 +474,8 @@
       "rolling_score": []
     },
     "bill_of_lading": {
-      "count": 7,
-      "last_seen": "2026-06-05",
+      "count": 8,
+      "last_seen": "2026-06-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -483,8 +498,8 @@
       "rolling_score": []
     },
     "pricing": {
-      "count": 7,
-      "last_seen": "2026-06-05",
+      "count": 8,
+      "last_seen": "2026-06-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -495,8 +510,8 @@
       "rolling_score": []
     },
     "air_freight": {
-      "count": 7,
-      "last_seen": "2026-06-05",
+      "count": 8,
+      "last_seen": "2026-06-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -513,8 +528,8 @@
       "rolling_score": []
     },
     "ftas": {
-      "count": 7,
-      "last_seen": "2026-06-05",
+      "count": 8,
+      "last_seen": "2026-06-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -569,8 +584,8 @@
   },
   "gk_progress": {
     "history": {
-      "count": 11,
-      "last_seen": "2026-06-06",
+      "count": 12,
+      "last_seen": "2026-06-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -581,8 +596,8 @@
       "rolling_score": []
     },
     "physical_science": {
-      "count": 10,
-      "last_seen": "2026-06-06",
+      "count": 11,
+      "last_seen": "2026-06-09",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -599,20 +614,20 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 9,
-      "last_seen": "2026-06-06",
+      "count": 10,
+      "last_seen": "2026-06-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "arts": {
-      "count": 10,
-      "last_seen": "2026-06-06",
+      "count": 11,
+      "last_seen": "2026-06-09",
       "difficulty": 2,
       "rolling_score": []
     },
     "music": {
-      "count": 10,
-      "last_seen": "2026-06-07",
+      "count": 11,
+      "last_seen": "2026-06-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -655,159 +670,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-06-08",
+    "date": "2026-06-09",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "Which dedicated cargo airline operates the world's largest all-freighter fleet by aircraft count in 2026, with Memphis (MEM) as its global super-hub?",
+        "subtopic": "incoterms",
+        "stem": "Under Incoterms 2020, which single term places maximum obligation on the seller — requiring it to bear all costs including main carriage, import customs clearance, and delivery to the buyer’s named destination?",
         "options": [
-          "UPS Airlines — approximately 500 aircraft, primarily 767F and 747-8F",
-          "FedEx Express — approximately 700+ aircraft spanning 757F, 767F, MD-11F, and 777F",
-          "Atlas Air — approximately 100 owned aircraft, operating ACMI for Amazon and DHL",
-          "Cargolux — approximately 30 Boeing 747-8F and 747-400F aircraft"
+          "EXW (Ex Works)",
+          "CIF (Cost, Insurance and Freight)",
+          "DAP (Delivered at Place)",
+          "DDP (Delivered Duty Paid)"
         ],
-        "correct": 1,
-        "why": "FedEx Express consistently fields the world's largest all-freighter fleet (~700+ aircraft), with Memphis (MEM) as its global super-hub — the world's busiest cargo airport by aircraft-movement count.",
-        "deepDive": "FedEx Express runs the world's largest dedicated freight airline by count, spanning B757-200F, B767F, MD-11F, and 777F types. Its integrator model — owning aircraft, trucks, and final-mile delivery — separates it from traditional cargo airlines selling airport-to-airport capacity. UPS Airlines (~500+ aircraft) is second. Atlas Air is the largest ACMI wet-lease operator but maintains only ~100 owned aircraft; it flies capacity for Amazon Air, DHL, and others without holding those on its own certificate. Cargolux's niche: ~30 747-8Fs serving high-value cargo requiring the nose-door for outsized loads on thin-frequency routes. Key distinction for forwarders: integrators (FedEx, UPS, DHL Express) offer guaranteed door-to-door services; traditional carriers (Cargolux, Cathay Cargo, Lufthansa Cargo) sell airport-to-airport capacity through forwarders who handle the ground leg."
+        "correct": 3,
+        "why": "DDP is the seller’s maximum commitment — it covers everything including import duties at destination; EXW at the other end covers only making goods available at the seller’s premises.",
+        "deepDive": "Under Incoterms 2020, DDP (Delivered Duty Paid) is the apex of seller obligation: the seller arranges main carriage, export clearance, import customs clearance, and delivers to the named place — duty paid. In practice DDP is rare because the exporter must navigate the importing country’s customs regime, exposing them to unpredictable foreign duty liability. Common misconception: CIF is sometimes mistaken as ‘all-inclusive’ — it is not; risk transfers to the buyer at the ship’s rail at the port of loading. DAP is similar to DDP but the buyer handles import duties. The Incoterms spectrum runs EXW → FCA → FAS → FOB → CFR → CIF → CPT → CIP → DAP → DPU → DDP. The 2020 update upgraded FCA to allow shipped-on-board notation on a B/L, addressing the LC/FOB tension that long plagued containerised trade. Read: ICC Incoterms 2020 official guide; SITPRO training modules; TradeReady CITP."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "Which major European air freight hub imposes a strict 23:00-05:00 night-flight ban, directly influencing DHL's decision to develop Leipzig-Halle (LEJ) as its European super-hub?",
+        "subtopic": "bill_of_lading",
+        "stem": "A shipper consigns cargo ‘To Order’ on the Bill of Lading. How does title to the cargo transfer to a subsequent buyer under this arrangement?",
         "options": [
-          "Paris Charles de Gaulle (CDG) — noise-quota rules but no absolute curfew",
-          "Frankfurt Main (FRA) — legally-codified curfew upheld by Federal Administrative Court in 2012",
-          "Amsterdam Schiphol (AMS) — slot-count limits but flexible night access for cargo",
-          "Milan Malpensa (MXP) — seasonal restrictions during winter schedule only"
+          "The carrier amends the consignee field in its manifest system upon written request from the shipper",
+          "The original B/L is physically endorsed on the reverse and delivered to the new holder",
+          "A novation agreement is registered with the port authority at the destination port",
+          "The shipper files a transfer of title with the flag state’s maritime registry"
         ],
         "correct": 1,
-        "why": "Frankfurt FRA's legally-codified 23:00-05:00 ban makes overnight freighter operations impossible; DHL chose Leipzig-Halle 160 km away specifically for its unrestricted 24-hour operations, lower costs, and central European geography.",
-        "deepDive": "Night-flight curfews are critical for cargo hubs: freighters prefer late-evening departure (after factory cutoffs) to arrive at destination at business-opening time. FRA's curfew forces Lufthansa Cargo and others to compress operations tightly into narrow windows. DHL's Leipzig-Halle (LEJ) selection in 2008 was explicitly driven by FRA's restrictions — LEJ now handles ~1.3M tonnes annually. Amsterdam (AMS) uses noise-quota systems (Lnight exposure limits) rather than absolute bans, allowing more flexibility. London Heathrow (LHR) has night restrictions, but Stansted (STN) and East Midlands (EMA) operate curfew-free as UK cargo feeders. Common misconception: CDG is not unrestricted — it applies quota counts on noise exposure at night, making it semi-constrained. The pattern across European hubs is that cargo operators route sensitive overnight missions through secondary unconstrained airports while daytime belly and premium cargo uses the constrained majors."
+        "why": "A ‘To Order’ B/L is a negotiable document of title: it transfers by endorsement and physical delivery of the original — like endorsing a bearer cheque.",
+        "deepDive": "Bills of Lading come in three forms: (1) Straight — non-negotiable, names a specific consignee; (2) To Order — negotiable, consignee field reads ‘To Order of [shipper/bank]’; (3) Bearer — negotiable, whoever physically holds it owns the cargo. The ‘To Order’ B/L is the backbone of documentary credit (LC) trade finance: the issuing bank holds the original as security, releases it to the importer on payment, and the importer presents the original at the destination port to claim cargo. Transfer is by endorsing the back and handing over the physical original — exactly like endorsing a cheque to a new payee. Electronic B/Ls (eBL via Bolero, WAVE, essDOCS) are legally equivalent in ~60 jurisdictions under MLETR (UN Model Law on Electronic Transferable Records) but remain a minority of global trade. Key rule: most LCs require a ‘shipped on board’ B/L, not ‘received for shipment.’ Read: UCP 600 Article 20; CMI Rules for Electronic B/Ls; WAVE/Bolero rulebooks."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "DSV's acquisition of DB Schenker, closed in early 2025 for approximately 14.3 billion euros, created the world's largest freight forwarder by air tonnage. What is the approximate combined annual air freight volume?",
+        "subtopic": "pricing",
+        "stem": "When a liner carrier announces a ‘rate restoration’ on a trade lane, what does this action typically represent?",
         "options": [
-          "~1.4 million tonnes — roughly equal to DSV alone before the deal",
-          "~2.5 million tonnes — DSV (~1.4M) plus Schenker (~1.1M) combined",
-          "~3.8 million tonnes — implying Schenker was twice DSV's pre-deal air size",
-          "~5.2 million tonnes — exceeding the next three forwarders combined"
+          "A refund mechanism activated when cargo is lost or delayed beyond the carrier’s published transit time",
+          "A unilateral announcement seeking to raise depressed spot rates back toward a previously higher published tariff level",
+          "A regulatory re-filing with the FMC following a change in carrier alliance structure",
+          "A terminal’s procedure for reinstating suspended reefer plug-in service after a power outage"
         ],
         "correct": 1,
-        "why": "DSV (~1.4M tonnes air) plus Schenker (~1.1M) combine to ~2.5M tonnes annually, displacing Kuehne+Nagel (~1.5M) from the top spot in global air freight forwarding by volume.",
-        "deepDive": "Deutsche Bahn divested Schenker after years of underperformance vs private rivals. DSV — which had already absorbed Panalpina (2019) and Agility GIL (2021) — beat CVC Capital in the auction. At ~$15.5B, this is the largest logistics acquisition in history. Air freight forwarder ranking post-deal: DSV-Schenker (~2.5M tonnes), Kuehne+Nagel (~1.5M), DHL Global Forwarding (~1.4M), Sinotrans (~1.3M), Expeditors (~1.1M). In ocean forwarding, K+N and DSV-Schenker trade the top spot at ~4-5M TEUs each. Integration risk: platform consolidation across two large multinationals with different corporate cultures — Danish operational efficiency versus German corporate structure. DB Schenker's strongest asset was contract logistics and European rail forwarding, both strategic additions for DSV's portfolio. The deal marks the end of Deutsche Bahn's ambition to be a global logistics champion."
+        "why": "Rate restorations (functionally GRIs) are carriers’ unilateral signals to push depressed spot rates back toward higher published tariff levels — anchoring contract negotiations rather than guaranteeing actual market increases.",
+        "deepDive": "When container spot rates fall well below a carrier’s cost of service or its published ‘standard’ tariff, the carrier issues a rate restoration — effectively a GRI (General Rate Increase) announcement — to signal the market and anchor contract negotiations at a higher level. In practice these rarely achieve the full announced increase; their function is partly psychological (shift market expectations) and partly contractual (give sales teams a reference point). In alliance structures, coordinated rate restoration announcements raised antitrust concerns in the EU and US, contributing to the EU’s 2022–2024 review of the carrier block exemption under EU competition law. Shippers track the spread between announced restorations and actual transaction prices using indices like Xeneta, Freightos Baltic Index, or Drewry WCI. In a supply-glut market restorations routinely fail; in a capacity-tight market they stick. Read: Xeneta market reports; Alphaliner weekly; FMC tariff database; Drewry Container Forecaster."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "In ocean freight commercial practice, a Named Account Contract (NAC) differs from a standard service contract or NRA primarily because NACs are:",
+        "subtopic": "air_freight",
+        "stem": "A 60cm × 50cm × 40cm carton weighs 6 kg gross. Applying IATA’s standard chargeable weight formula (volumetric divisor 6,000 cm³/kg), what is the chargeable weight billed to the shipper?",
         "options": [
-          "Publicly filed with the FMC and accessible to any shipper requesting identical terms",
-          "Carrier-to-carrier slot-charter arrangements for sharing vessel capacity within alliances",
-          "Confidential, account-specific bilateral rates not publicly filed, negotiated directly with large-volume BCOs",
-          "Only valid for FTZ-to-FTZ movements to qualify for duty-suspension treatment"
+          "6 kg (actual gross weight governs)",
+          "10 kg (straight arithmetic average of gross and volumetric)",
+          "20 kg (volumetric weight governs as it exceeds gross weight)",
+          "16 kg (rounded to nearest 0.5 kg per IATA rounding rules)"
         ],
         "correct": 2,
-        "why": "NACs are private, bilateral rate agreements between a carrier and a named beneficial cargo owner — confidential, not publicly filed, and typically include MQC clauses with shortfall penalties for volume misses.",
-        "deepDive": "In US regulatory practice, NVOCCs must file NRAs (NVOCC Rate Arrangements) with the FMC — a published-tariff obligation. Carriers dealing directly with BCOs (beneficial cargo owners — actual goods owners, not intermediaries) can offer Named Account Contracts, purely private bilateral agreements. Large BCOs — IKEA, Walmart, Nike — negotiate NACs directly with MSC, Maersk, CMA CGM, often covering annual volumes split across multiple carriers. The commercial rate hierarchy: NAC (confidential, best rates) > service contract (negotiated, filed in US) > FAK/Freight All Kinds (commodity-blind, published) > spot (fully market-exposed). NACs typically include MQC (Minimum Quantity Commitment) clauses: shortfall penalties of $200-$600/FEU apply if volume targets are missed. Forwarders compete by aggregating client volumes to present a single large account to the carrier, achieving NAC-equivalent pricing for smaller individual shippers who could not negotiate directly."
+        "why": "Volumetric weight = (60×50×40)/6,000 = 20 kg; chargeable weight = max(6 kg gross, 20 kg volumetric) = 20 kg.",
+        "deepDive": "Chargeable weight is the pricing foundation of air freight. IATA standard volumetric formula: L(cm) × W(cm) × H(cm) ÷ 6,000 = volumetric weight in kg. Chargeable weight = max(actual gross weight, volumetric weight). Airlines use this because light but bulky cargo ‘wastes’ payload volume — an aircraft has both a weight limit and a volume limit. If volumetric weight exceeds gross weight, the shipper pays for the space consumed, not just the mass. Express couriers (DHL, FedEx, UPS) often use 5,000 as the divisor, making the calculation more aggressive. Common mistake: shippers budget on actual gross weight and receive invoices with ‘dimensional uplift.’ Key skill for quoting: always calculate both and take the higher. Dimensional weight pricing also applies to road and courier shipments with varying divisors by carrier. Read: IATA TACT (The Air Cargo Tariff and Rules); FIATA air freight module; individual carrier Air Waybill rate manuals."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "The bullwhip effect describes demand signal amplification up the supply chain tiers. The single most effective structural intervention to dampen it is:",
+        "subtopic": "ftas",
+        "stem": "Which WTO principle requires a member to extend any trade concession granted to one trading partner automatically and unconditionally to all other WTO members — and which GATT article enshrines it?",
         "options": [
-          "Increasing safety stock at every tier simultaneously to absorb demand variability",
-          "Sharing real-time point-of-sale demand data directly with upstream suppliers",
-          "Extending supplier lead times so downstream demand volatility has time to average out",
-          "Routing all procurement through a 4PL to homogenise ordering patterns across tiers"
+          "National Treatment — GATT Article III",
+          "Most Favoured Nation (MFN) — GATT Article I",
+          "Special and Differential Treatment — the Enabling Clause (1979)",
+          "Reciprocity and Mutual Advantage — GATT Article XXVIII bis"
         ],
         "correct": 1,
-        "why": "Sharing POS data upstream eliminates the information lag that creates signal amplification — Walmart's VMI partnership with P&G and Zara's daily store data processing are the canonical implementations of this principle.",
-        "deepDive": "The bullwhip effect was formalised by Jay Forrester (MIT, 1961) and named by Hau Lee in his 1997 paper. A 5% retail demand uptick becomes a 15% distributor order, 25% wholesaler order, 40% manufacturer build — each tier amplifying perceived uncertainty. Root causes: demand forecast errors, order batching (weekly vs daily), promotional spikes, and shortage gaming (over-ordering when supply is tight). The fix is demand-side visibility: EDI-linked POS sharing, VMI (where the supplier owns the replenishment decision), or CPFR (Collaborative Planning, Forecasting, Replenishment). Extending lead times (option C) worsens the bullwhip by increasing forecast uncertainty horizons. Safety stock (option A) absorbs variability at cost but does not fix the root signal. Post-COVID the JIT-to-JIC shift raised global stock levels but simultaneously increased bullwhip exposure — evidenced by the massive inventory overhang across US retail in 2022-23 as demand normalised while pipeline orders continued arriving."
+        "why": "MFN (GATT Article I) is the WTO’s non-discrimination cornerstone; FTAs are WTO-sanctioned exceptions under GATT Article XXIV requiring coverage of ‘substantially all trade.’",
+        "deepDive": "Most Favoured Nation (GATT Article I, GATS Article II) is the WTO system’s bedrock: if you lower tariffs for one member, you must do so for all. FTAs are legal exceptions under GATT Article XXIV — permitted provided they cover ‘substantially all trade’ between the parties and do not raise barriers against non-FTA partners. Bangladesh, as an LDC, has benefited from Enhanced Integrated Framework GSP — a WTO waiver allowing developed countries to grant LDCs zero-duty access without triggering MFN extension. With LDC graduation approaching (November 2026), Bangladesh will revert to MFN rates in many markets (EU: EBA → GSP+ or standard GSP) unless it negotiates bilateral FTAs. National Treatment (Article III) is the other non-discrimination rule — treating imports no less favourably than domestic goods once cleared through customs. SDT is not automatic MFN-extension but a package of special provisions for developing/LDC countries. Read: WTO GATT Article I and XXIV texts; UNCTAD GSP Handbook; WTO Trade Policy Review Bangladesh."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "Lake Baikal holds approximately what fraction of Earth's total liquid surface freshwater?",
+        "subtopic": "history",
+        "stem": "The Berlin Conference of 1884–85 introduced which foundational legal principle to govern European territorial claims in Africa?",
         "options": [
-          "Around 5-8%",
-          "Around 10-12%",
-          "Around 20-25%",
-          "Around 35-40%"
+          "Terra nullius — unclaimed land belongs to the first Christian power to discover it",
+          "Effective occupation — claims require demonstrated administrative control, not mere discovery",
+          "Contiguity — a colonial power automatically owns territory geographically adjacent to its existing claims",
+          "A 50-year exclusive development mandate before rival claims become legally valid"
         ],
-        "correct": 2,
-        "why": "Lake Baikal contains ~23,615 km3 — roughly 20-25% of all liquid surface freshwater on Earth, despite being smaller by surface area than the saline Caspian Sea.",
-        "deepDive": "Baikal sits in a Siberian rift valley near the Mongolian border, reaching 1,642 metres depth — the world's deepest lake and geologically about 25-30 million years old. At current tectonic rates (~2 cm/year spreading), it is in the early stages of continental rifting — a future ocean in hundreds of millions of years, analogous to the East African Rift today. The lake hosts over 1,700 endemic species, most notably the nerpa, the world's only fully freshwater seal — an evolutionary puzzle since its closest relatives are Arctic marine seals, suggesting the lake was once connected to Arctic waters via ancient river systems. Common misconception: the Caspian Sea (~371,000 km2 surface) is sometimes called the largest lake but is saline and technically an endorheic sea. Lake Superior holds ~12,100 km3 — roughly half of Baikal's volume. The Soviet-era Baikal Pulp and Paper Mill dumped dioxins for decades before closing in 2013; remediation remains incomplete, a canonical case study in industrial environmental cost."
+        "correct": 1,
+        "why": "The Berlin Act codified ‘effectivity’: territorial sovereignty required actual administrative occupation, not prior discovery, detonating the Scramble for Africa.",
+        "deepDive": "The Berlin Conference (November 1884 – February 1885), convened by Bismarck and attended by 14 European powers plus the United States, produced the General Act of Berlin. Its centrepiece was the ‘effectivity’ principle: a European power could claim African territory only by demonstrating effective occupation — administrative presence, trading posts, capacity to enforce law and protect existing rights. This replaced the older doctrine of discovery and ignited the Scramble for Africa: within 15 years, roughly 90% of the continent was under European control. The conference also created the Congo Free State as Leopold II of Belgium’s personal property — not a Belgian colony — which became the site of catastrophic atrocities (10 million deaths estimated). By 1914, only Ethiopia and Liberia remained independent African states. Common misconception: the conference ‘carved up Africa on a map’ — it set the rules; the actual land-grabbing happened in the field over the following two decades. Read: Thomas Pakenham, ‘The Scramble for Africa’; Adam Hochschild, ‘King Leopold’s Ghost’; Mamdani, ‘Citizen and Subject.’"
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "In CRISPR-Cas9 gene editing, which component physically cleaves the target DNA, creating the double-strand break?",
+        "subtopic": "physical_science",
+        "stem": "In classical thermodynamics, a ‘reversible process’ is correctly defined as one that:",
         "options": [
-          "The guide RNA (gRNA), which base-pairs with the target sequence and triggers cleavage",
-          "The Cas9 protein's HNH and RuvC nuclease domains, acting on complementary and non-complementary strands",
-          "The PAM sequence in the host genome, which destabilises the double helix at the cut site",
-          "The tracrRNA scaffold, which activates Cas9's enzymatic function upon target binding"
+          "Conserves both kinetic and potential energy throughout, with zero net work done on the system",
+          "Returns the system to its original temperature and pressure after completing one full thermodynamic cycle",
+          "Proceeds via infinitesimal quasi-static steps such that the system and surroundings can be restored to their exact original states with zero net entropy change in the universe",
+          "Operates at constant entropy within the system regardless of heat exchanged with the surroundings"
         ],
-        "correct": 1,
-        "why": "Cas9 carries two nuclease domains — HNH cleaves the complementary strand, RuvC cleaves the non-complementary strand. The gRNA is GPS that guides Cas9 to the site; it does not cut.",
-        "deepDive": "CRISPR evolved in bacteria as adaptive immunity: surviving a phage attack, bacteria store snippets of phage DNA in CRISPR arrays; re-attack triggers CRISPR RNA plus Cas9 to destroy the phage genome. Jennifer Doudna and Emmanuelle Charpentier repurposed this as a precision gene editor, winning the Nobel Chemistry Prize in 2020. The PAM sequence (Protospacer Adjacent Motif — typically NGG for SpCas9) is a lock: Cas9 will not bind without it, preventing accidental self-cleavage of the bacterium's own genome. After cutting, cells repair via NHEJ (error-prone, creates knockouts) or HDR (precise, using a provided template). Toolbox evolution: Cas12a (staggered cuts), base editors (single-nucleotide changes without a double-strand break), prime editors (search-and-replace without any cut). First approved therapy: Casgevy for sickle cell disease (2023). Common misconception: the gRNA is often called the cutting component — it is the targeting system; Cas9 protein is the scissors."
+        "correct": 2,
+        "why": "A reversible process is a theoretical idealization: quasi-static, frictionless, generating zero entropy in the universe; all real processes are irreversible.",
+        "deepDive": "A reversible process moves a system through a continuous series of equilibrium states so slowly that it can be run in exact reverse — the system and its surroundings return precisely to their prior states, with zero net entropy production in the universe. This is a theoretical limit: real processes are always irreversible due to friction, finite temperature gradients, turbulence, and mixing. The Carnot cycle (isothermal expansion → adiabatic expansion → isothermal compression → adiabatic compression) is the archetypal reversible heat engine; its efficiency η = 1 − T_cold/T_hot (in Kelvin) sets the absolute maximum for any heat engine operating between those temperatures. The Second Law of Thermodynamics states that entropy of an isolated system can only increase (irreversible) or stay constant (reversible). Misconception: ‘reversible’ does not mean ‘cyclic’ — a Carnot cycle is both reversible and cyclic; other processes can be cyclic but irreversible (e.g., a real refrigerator with friction). Read: Callen, ‘Thermodynamics and an Introduction to Thermostatistics’; Blundell & Blundell, ‘Concepts in Thermal Physics’; Zemansky, ‘Heat and Thermodynamics.’"
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "In Saussurean structural linguistics, the relationship between the signifier (sound-image) and the signified (concept) is described as:",
+        "subtopic": "literature",
+        "stem": "In García Márquez’s One Hundred Years of Solitude, how does the patriarch José Arcadio Buenía ultimately die?",
         "options": [
-          "Iconic — the sound naturally resembles or mimics the concept it represents",
-          "Arbitrary — the link is purely conventional, with no inherent or natural connection",
-          "Indexical — words point to objects the way smoke causally points to fire",
-          "Motivated — the form of a word is systematically derived from its referent's properties"
+          "Drowned during the seventeen years of rain that end Macondo",
+          "Shot while leading a Liberal uprising in the second generation of the family",
+          "Tied to a chestnut tree in the courtyard after descending into madness, dying there alone and forgotten",
+          "Poisoned by a political rival after he discovers the key to alchemy in Melquíades’ manuscripts"
         ],
-        "correct": 1,
-        "why": "Saussure's foundational principle: the signifier-signified bond is arbitrary and purely conventional — proved by the fact that different languages use entirely different sounds for identical concepts.",
-        "deepDive": "Ferdinand de Saussure's Course in General Linguistics (1916, posthumously compiled by students) founded structural linguistics and influenced structuralism across anthropology (Levi-Strauss), literary theory (Barthes), and psychoanalysis (Lacan). His key binaries: signifier/signified (sound-image vs concept), langue/parole (the language system vs individual speech acts), synchrony/diachrony (present state vs historical evolution). Arbitrariness is foundational — 'tree,' 'arbre,' and the Arabic 'shajara' map to identical concepts with no shared phonetic logic. Apparent counterexample: onomatopoeia (buzz, crash) — but even these vary cross-linguistically (Japanese cats say 'nya,' English cats say 'meow'), proving sound-symbolism is also conventional. Saussure's framework contrasts with Peirce's semiotic triad: icon (resemblance), index (causal connection), symbol (arbitrary convention). Derrida later destabilised the signified itself — meaning is always deferred (differance), building directly on Saussure's binary to dismantle it."
+        "correct": 2,
+        "why": "After losing his mind to the revelation that time is not passing, José Arcadio Buenía is tied to the chestnut tree where he dies — the novel’s defining image of civilisational solitude.",
+        "deepDive": "José Arcadio Buenía, founder of Macondo, is García Márquez’s archetype of visionary obsession: he founds a city, pursues alchemy and astronomy, and eventually experiences the shattering epiphany that time is not moving — every day is Monday repeating. His mind fractures. His family ties him to the chestnut tree in the courtyard, where he remains for years, sometimes visited by the ghost of Melquíades, until he dies there — still chained, isolated even within the civilization he created. The image is the novel’s central metaphor: solitude is not personal but civilisational — the founder ends up a madman chained to a tree. García Márquez encodes real Colombian political history (the Thousand Days War, the United Fruit Company massacre) in a cyclical magic-realist structure where each generation of Buenías repeats the same names and fates. The magical elements are not decoration — they are inseparable from Latin America’s cycles of violence, amnesia, and repetition. Read: GGM, ‘One Hundred Years of Solitude’ (Gregory Rabassa translation); Gerald Martin, ‘Gabriel García Márquez: A Life’; Franco Moretti, ‘The Modern Epic.’"
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "In HBO's The Wire (2002-2008), which institution did Season 2, Season 3, and Season 4 respectively examine?",
+        "subtopic": "arts",
+        "stem": "The distinctive inner luminosity of Flemish Renaissance painting — most associated with Jan van Eyck — was achieved primarily through which technique?",
         "options": [
-          "Port/docks, then drug trade again, then schools",
-          "Port/docks, then city hall and police politics, then schools",
-          "Schools, then port/docks, then city hall",
-          "Drug trade, then port/docks, then newspapers"
+          "Impasto: thick, textured oil paint applied in a single wet-on-wet session",
+          "Fresco secco: painting on dry plaster with egg-tempera highlights added as a final layer",
+          "Scumbling: dry, semi-opaque paint dragged over a dried underlayer to create atmospheric effects",
+          "Layered oil glazing: successive translucent oil glazes over a brilliant white ground, allowing light to pass through and reflect back"
         ],
-        "correct": 1,
-        "why": "Season 2 = Baltimore port and dockworkers (Sobotka stevedores); Season 3 = city hall, policing politics, and Hamsterdam; Season 4 = Baltimore middle schools and children trapped between street and a failing system.",
-        "deepDive": "David Simon's The Wire is structured as a novel-in-seasons, each dissecting a civic institution: S1 (drug trade/towers), S2 (port/stevedores), S3 (city hall/police), S4 (schools), S5 (newspaper). Season 2 is the series' most underrated — using white working-class dockworker Frank Sobotka's corruption as a mirror to S1's Black drug trade, arguing Baltimore's decay is structural and economic, not racial. Season 3 introduces Hamsterdam — a de facto free drug zone created by Major Colvin as a harm-reduction experiment that dramatically reduces crime statistics until politically suppressed — Simon's most direct argument against the War on Drugs. Season 4, following four middle-schoolers, is widely cited as the best season: it shows how institutions collectively fail children before they make any meaningful choice. The Wire established the institutional, seasonal-arc structure later borrowed by Simon's own Treme and The Deuce, and by The Americans and Succession."
+        "correct": 3,
+        "why": "Flemish masters built up translucent oil glazes over a lead-white or chalk ground; light passes through the layers, reflects off the ground, and returns through the glazes — creating luminosity no single opaque layer can produce.",
+        "deepDive": "Jan van Eyck and the Flemish school pioneered a multi-stage oil painting process: (1) a detailed underdrawing; (2) a monochrome underpainting (grisaille or lead white) establishing form and value; (3) successive thin, translucent oil glazes — each layer dried fully before the next was applied. The physics: light enters the painting, bounces off the brilliant white ground (lead white or chalk gesso), and passes back through the coloured glazes, mixing optically rather than on the palette. This produces depth and luminosity impossible with a single opaque layer. The technique spread from Flanders to Renaissance Italy via trade routes through the Low Countries; by 1475 Italian painters like Antonello da Messina had adopted it. Impasto (think late Rembrandt, van Gogh) creates texture through thick paint — the opposite of glazing. Scumbling is dry-brush over a dry layer, used for atmospheric effects like fog. Common misconception: van Eyck ‘invented’ oil painting — he perfected the systematic layered glazing technique; oil had been used earlier. Read: Max Doerner, ‘The Materials of the Artist’; National Gallery Technical Bulletins on Flemish painting; Marcia Hall, ‘Color and Meaning.’"
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "The Monty Hall problem's result — switching doors gives 2/3 winning probability vs 1/3 for staying — is formally derived from which mathematical framework?",
+        "subtopic": "music",
+        "stem": "A fugue in Western classical music is most accurately characterised as:",
         "options": [
-          "The Law of Large Numbers, showing switching wins more often over many repeated trials",
-          "Bayes' theorem, updating the prior 1/3 probability after Monty's reveal provides conditional information",
-          "The Birthday Paradox's combinatorial counting of door permutations",
-          "The Central Limit Theorem's convergence of discrete to continuous probability"
+          "A free-form rhapsodic keyboard composition from the Romantic era built on improvisatory development",
+          "A theme-and-variations structure in which the original melody is restated with increasingly complex harmonisation",
+          "A contrapuntal composition in which a short melodic subject is introduced by successive voices and then developed through imitation, inversion, augmentation, and stretto",
+          "A three-movement concerto structure in which a solo instrument engages in thematic dialogue with the orchestra"
         ],
-        "correct": 1,
-        "why": "Monty's reveal — he always opens a goat door — provides conditional information that updates posteriors via Bayes' theorem: your door stays at 1/3, the unopened door absorbs the remaining 2/3.",
-        "deepDive": "The Monty Hall problem was popularised in 1990 when Marilyn vos Savant printed the correct answer in Parade, triggering 10,000 letters — many from PhDs — insisting she was wrong. Bayesian derivation: P(car at door 2 | Monty opens door 3) = P(Monty opens door 3 | car at door 2) times P(car at door 2) divided by P(Monty opens door 3) = 1 times (1/3) divided by (1/2) = 2/3. The key insight: Monty is not random — he always reveals a goat and never the car. This information asymmetry breaks the naive 50/50 intuition after the reveal. Simulation confirms it: run 1,000 trials, switchers win ~667 times. The Birthday Paradox uses complementary-event combinatorics to show 23 people suffice for a 50%+ shared-birthday chance — entirely different. The Law of Large Numbers explains why simulation results converge but does not derive the conditional probability. Real-world parallel: false-positive reasoning in medical testing follows the same Bayesian structure — a positive test on a rare disease may still imply low probability of actually having it, given the low base rate."
+        "correct": 2,
+        "why": "A fugue is defined by its contrapuntal architecture: subject entered by successive voices, then developed through imitation and transformational techniques — not a fixed form but a compositional technique.",
+        "deepDive": "The fugue is the supreme form of Western counterpoint, perfected by J.S. Bach in ‘The Well-Tempered Clavier’ (48 preludes and fugues in all 24 keys) and ‘The Art of Fugue.’ A fugue opens with a subject — a short, characteristic melodic theme — stated alone by one voice. A second voice enters (usually in the dominant) with the same subject (the ‘answer’), while the first voice continues with a counter-subject. This exposition repeats until all voices have entered. Then comes the development: the subject appears inverted (upside-down), in augmentation (note values doubled), in diminution (halved), and in stretto (overlapping entries from multiple voices simultaneously). A fugue is a technique, not a fixed form — it can be a standalone work or embedded in a larger piece. Misconception: a fugue is not the same as a canon (like ‘Row Your Boat’ as a round), which demands strict imitation at a fixed time interval throughout; a fugue is freer, with episodic passages between subject entries. Read: Alfred Mann, ‘The Study of Fugue’; Charles Rosen, ‘The Classical Style’; Bach’s Well-Tempered Clavier with Tovey’s analytical notes."
       }
     ]
   }
