@@ -1,6 +1,6 @@
 {
   "streak": 2,
-  "last_session_date": "2026-06-09",
+  "last_session_date": "2026-06-10",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -301,7 +301,17 @@
     "In classical thermodynamics, a ‘reversible process’ is correctly defined as one that:",
     "In García Márquez’s One Hundred Years of Solitude, how does the patriarch José Arcadio Buenía ultima",
     "The distinctive inner luminosity of Flemish Renaissance painting — most associated with Jan van Eyck",
-    "A fugue in Western classical music is most accurately characterised as:"
+    "A fugue in Western classical music is most accurately characterised as:",
+    "Under SOLAS VGM regulations, which party bears primary legal responsibility for submitting an accurate Verified Gross Mass declaration before a container may be loaded aboard a vessel?",
+    "A Bangladeshi garment exporter to the US discovers its goods are subject to both anti-dumping duties (ADD) and countervailing duties (CVD). Which statement most accurately distinguishes the two measures?",
+    "A containership is 400 metres LOA with a 61-metre beam. It cannot transit the Panama Canal's Third Set of Locks but can transit Suez Canal. Which vessel class does this describe?",
+    "An exporter collects an empty container from the carrier's inland depot, packs it at their factory over 6 days, then returns it to the terminal. The container sits at the terminal for 4 more days awaiting vessel loading. Under standard carrier tariff logic, which charges apply to which periods?",
+    "Which carrier pairing forms the Gemini Cooperation alliance (launched February 2025), and what distinguishes its operational model from Ocean Alliance and Premier Alliance?",
+    "Among the four principal Sunni schools of jurisprudence (madhabs), which uniquely elevates maslaha mursala (unrestricted public interest) and the living practice of Medina as authoritative legal sources alongside Quran and hadith?",
+    "Rousseau distinguished the 'general will' (volonté générale) from the 'will of all' (volonté de tous). Which statement best captures the distinction as Rousseau intended it?",
+    "In cricket's Decision Review System (DRS), ball-tracking shows the ball would have clipped the very edge of the leg stump (less than 50% ball impact on the stump). The on-field umpire gave not-out. Under ICC rules, what is the correct outcome?",
+    "In CRISPR-Cas9 gene editing, what is the specific role of the PAM sequence (Protospacer Adjacent Motif) that distinguishes it from the guide RNA's function?",
+    "A medical test has 99% sensitivity and 99% specificity. The disease it tests for affects 1 in 1,000 people. A randomly selected person tests positive. What is the approximate probability they actually have the disease?"
   ],
   "learn_history": [
     {
@@ -458,6 +468,11 @@
       "date": "2026-06-09",
       "topic": "The Bay of Bengal: Asia's Most Contested Maritime Frontier",
       "bucket": "geography"
+    },
+    {
+      "date": "2026-06-10",
+      "topic": "The Impossible Trinity: Why Bangladesh Bank Can't Fix the Taka, Set Rates Freely, and Keep Capital Open",
+      "bucket": "economics"
     }
   ],
   "curriculum_progress": {
@@ -468,8 +483,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 7,
-      "last_seen": "2026-06-06",
+      "count": 8,
+      "last_seen": "2026-06-10",
       "difficulty": 2,
       "rolling_score": []
     },
@@ -480,20 +495,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 7,
-      "last_seen": "2026-06-06",
+      "count": 8,
+      "last_seen": "2026-06-10",
       "difficulty": 2,
       "rolling_score": []
     },
     "vessels": {
-      "count": 7,
-      "last_seen": "2026-06-06",
+      "count": 8,
+      "last_seen": "2026-06-10",
       "difficulty": 2,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 7,
-      "last_seen": "2026-06-06",
+      "count": 8,
+      "last_seen": "2026-06-10",
       "difficulty": 2,
       "rolling_score": []
     },
@@ -504,8 +519,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 7,
-      "last_seen": "2026-06-06",
+      "count": 8,
+      "last_seen": "2026-06-10",
       "difficulty": 2,
       "rolling_score": []
     },
@@ -602,14 +617,14 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 11,
-      "last_seen": "2026-06-08",
+      "count": 12,
+      "last_seen": "2026-06-10",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 11,
-      "last_seen": "2026-06-08",
+      "count": 12,
+      "last_seen": "2026-06-10",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -632,14 +647,14 @@
       "rolling_score": []
     },
     "religion": {
-      "count": 10,
-      "last_seen": "2026-06-07",
+      "count": 11,
+      "last_seen": "2026-06-10",
       "difficulty": 4,
       "rolling_score": []
     },
     "political_theory": {
-      "count": 10,
-      "last_seen": "2026-06-07",
+      "count": 11,
+      "last_seen": "2026-06-10",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -656,8 +671,8 @@
       "rolling_score": []
     },
     "sport": {
-      "count": 10,
-      "last_seen": "2026-06-07",
+      "count": 11,
+      "last_seen": "2026-06-10",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -670,160 +685,9 @@
   },
   "history": [],
   "today": {
-    "date": "2026-06-09",
+    "date": "2026-06-10",
     "current_q": 1,
     "answers": [],
-    "questions": [
-      {
-        "n": 1,
-        "topic": "industry",
-        "subtopic": "incoterms",
-        "stem": "Under Incoterms 2020, which single term places maximum obligation on the seller — requiring it to bear all costs including main carriage, import customs clearance, and delivery to the buyer’s named destination?",
-        "options": [
-          "EXW (Ex Works)",
-          "CIF (Cost, Insurance and Freight)",
-          "DAP (Delivered at Place)",
-          "DDP (Delivered Duty Paid)"
-        ],
-        "correct": 3,
-        "why": "DDP is the seller’s maximum commitment — it covers everything including import duties at destination; EXW at the other end covers only making goods available at the seller’s premises.",
-        "deepDive": "Under Incoterms 2020, DDP (Delivered Duty Paid) is the apex of seller obligation: the seller arranges main carriage, export clearance, import customs clearance, and delivers to the named place — duty paid. In practice DDP is rare because the exporter must navigate the importing country’s customs regime, exposing them to unpredictable foreign duty liability. Common misconception: CIF is sometimes mistaken as ‘all-inclusive’ — it is not; risk transfers to the buyer at the ship’s rail at the port of loading. DAP is similar to DDP but the buyer handles import duties. The Incoterms spectrum runs EXW → FCA → FAS → FOB → CFR → CIF → CPT → CIP → DAP → DPU → DDP. The 2020 update upgraded FCA to allow shipped-on-board notation on a B/L, addressing the LC/FOB tension that long plagued containerised trade. Read: ICC Incoterms 2020 official guide; SITPRO training modules; TradeReady CITP."
-      },
-      {
-        "n": 2,
-        "topic": "industry",
-        "subtopic": "bill_of_lading",
-        "stem": "A shipper consigns cargo ‘To Order’ on the Bill of Lading. How does title to the cargo transfer to a subsequent buyer under this arrangement?",
-        "options": [
-          "The carrier amends the consignee field in its manifest system upon written request from the shipper",
-          "The original B/L is physically endorsed on the reverse and delivered to the new holder",
-          "A novation agreement is registered with the port authority at the destination port",
-          "The shipper files a transfer of title with the flag state’s maritime registry"
-        ],
-        "correct": 1,
-        "why": "A ‘To Order’ B/L is a negotiable document of title: it transfers by endorsement and physical delivery of the original — like endorsing a bearer cheque.",
-        "deepDive": "Bills of Lading come in three forms: (1) Straight — non-negotiable, names a specific consignee; (2) To Order — negotiable, consignee field reads ‘To Order of [shipper/bank]’; (3) Bearer — negotiable, whoever physically holds it owns the cargo. The ‘To Order’ B/L is the backbone of documentary credit (LC) trade finance: the issuing bank holds the original as security, releases it to the importer on payment, and the importer presents the original at the destination port to claim cargo. Transfer is by endorsing the back and handing over the physical original — exactly like endorsing a cheque to a new payee. Electronic B/Ls (eBL via Bolero, WAVE, essDOCS) are legally equivalent in ~60 jurisdictions under MLETR (UN Model Law on Electronic Transferable Records) but remain a minority of global trade. Key rule: most LCs require a ‘shipped on board’ B/L, not ‘received for shipment.’ Read: UCP 600 Article 20; CMI Rules for Electronic B/Ls; WAVE/Bolero rulebooks."
-      },
-      {
-        "n": 3,
-        "topic": "industry",
-        "subtopic": "pricing",
-        "stem": "When a liner carrier announces a ‘rate restoration’ on a trade lane, what does this action typically represent?",
-        "options": [
-          "A refund mechanism activated when cargo is lost or delayed beyond the carrier’s published transit time",
-          "A unilateral announcement seeking to raise depressed spot rates back toward a previously higher published tariff level",
-          "A regulatory re-filing with the FMC following a change in carrier alliance structure",
-          "A terminal’s procedure for reinstating suspended reefer plug-in service after a power outage"
-        ],
-        "correct": 1,
-        "why": "Rate restorations (functionally GRIs) are carriers’ unilateral signals to push depressed spot rates back toward higher published tariff levels — anchoring contract negotiations rather than guaranteeing actual market increases.",
-        "deepDive": "When container spot rates fall well below a carrier’s cost of service or its published ‘standard’ tariff, the carrier issues a rate restoration — effectively a GRI (General Rate Increase) announcement — to signal the market and anchor contract negotiations at a higher level. In practice these rarely achieve the full announced increase; their function is partly psychological (shift market expectations) and partly contractual (give sales teams a reference point). In alliance structures, coordinated rate restoration announcements raised antitrust concerns in the EU and US, contributing to the EU’s 2022–2024 review of the carrier block exemption under EU competition law. Shippers track the spread between announced restorations and actual transaction prices using indices like Xeneta, Freightos Baltic Index, or Drewry WCI. In a supply-glut market restorations routinely fail; in a capacity-tight market they stick. Read: Xeneta market reports; Alphaliner weekly; FMC tariff database; Drewry Container Forecaster."
-      },
-      {
-        "n": 4,
-        "topic": "industry",
-        "subtopic": "air_freight",
-        "stem": "A 60cm × 50cm × 40cm carton weighs 6 kg gross. Applying IATA’s standard chargeable weight formula (volumetric divisor 6,000 cm³/kg), what is the chargeable weight billed to the shipper?",
-        "options": [
-          "6 kg (actual gross weight governs)",
-          "10 kg (straight arithmetic average of gross and volumetric)",
-          "20 kg (volumetric weight governs as it exceeds gross weight)",
-          "16 kg (rounded to nearest 0.5 kg per IATA rounding rules)"
-        ],
-        "correct": 2,
-        "why": "Volumetric weight = (60×50×40)/6,000 = 20 kg; chargeable weight = max(6 kg gross, 20 kg volumetric) = 20 kg.",
-        "deepDive": "Chargeable weight is the pricing foundation of air freight. IATA standard volumetric formula: L(cm) × W(cm) × H(cm) ÷ 6,000 = volumetric weight in kg. Chargeable weight = max(actual gross weight, volumetric weight). Airlines use this because light but bulky cargo ‘wastes’ payload volume — an aircraft has both a weight limit and a volume limit. If volumetric weight exceeds gross weight, the shipper pays for the space consumed, not just the mass. Express couriers (DHL, FedEx, UPS) often use 5,000 as the divisor, making the calculation more aggressive. Common mistake: shippers budget on actual gross weight and receive invoices with ‘dimensional uplift.’ Key skill for quoting: always calculate both and take the higher. Dimensional weight pricing also applies to road and courier shipments with varying divisors by carrier. Read: IATA TACT (The Air Cargo Tariff and Rules); FIATA air freight module; individual carrier Air Waybill rate manuals."
-      },
-      {
-        "n": 5,
-        "topic": "industry",
-        "subtopic": "ftas",
-        "stem": "Which WTO principle requires a member to extend any trade concession granted to one trading partner automatically and unconditionally to all other WTO members — and which GATT article enshrines it?",
-        "options": [
-          "National Treatment — GATT Article III",
-          "Most Favoured Nation (MFN) — GATT Article I",
-          "Special and Differential Treatment — the Enabling Clause (1979)",
-          "Reciprocity and Mutual Advantage — GATT Article XXVIII bis"
-        ],
-        "correct": 1,
-        "why": "MFN (GATT Article I) is the WTO’s non-discrimination cornerstone; FTAs are WTO-sanctioned exceptions under GATT Article XXIV requiring coverage of ‘substantially all trade.’",
-        "deepDive": "Most Favoured Nation (GATT Article I, GATS Article II) is the WTO system’s bedrock: if you lower tariffs for one member, you must do so for all. FTAs are legal exceptions under GATT Article XXIV — permitted provided they cover ‘substantially all trade’ between the parties and do not raise barriers against non-FTA partners. Bangladesh, as an LDC, has benefited from Enhanced Integrated Framework GSP — a WTO waiver allowing developed countries to grant LDCs zero-duty access without triggering MFN extension. With LDC graduation approaching (November 2026), Bangladesh will revert to MFN rates in many markets (EU: EBA → GSP+ or standard GSP) unless it negotiates bilateral FTAs. National Treatment (Article III) is the other non-discrimination rule — treating imports no less favourably than domestic goods once cleared through customs. SDT is not automatic MFN-extension but a package of special provisions for developing/LDC countries. Read: WTO GATT Article I and XXIV texts; UNCTAD GSP Handbook; WTO Trade Policy Review Bangladesh."
-      },
-      {
-        "n": 6,
-        "topic": "gk",
-        "subtopic": "history",
-        "stem": "The Berlin Conference of 1884–85 introduced which foundational legal principle to govern European territorial claims in Africa?",
-        "options": [
-          "Terra nullius — unclaimed land belongs to the first Christian power to discover it",
-          "Effective occupation — claims require demonstrated administrative control, not mere discovery",
-          "Contiguity — a colonial power automatically owns territory geographically adjacent to its existing claims",
-          "A 50-year exclusive development mandate before rival claims become legally valid"
-        ],
-        "correct": 1,
-        "why": "The Berlin Act codified ‘effectivity’: territorial sovereignty required actual administrative occupation, not prior discovery, detonating the Scramble for Africa.",
-        "deepDive": "The Berlin Conference (November 1884 – February 1885), convened by Bismarck and attended by 14 European powers plus the United States, produced the General Act of Berlin. Its centrepiece was the ‘effectivity’ principle: a European power could claim African territory only by demonstrating effective occupation — administrative presence, trading posts, capacity to enforce law and protect existing rights. This replaced the older doctrine of discovery and ignited the Scramble for Africa: within 15 years, roughly 90% of the continent was under European control. The conference also created the Congo Free State as Leopold II of Belgium’s personal property — not a Belgian colony — which became the site of catastrophic atrocities (10 million deaths estimated). By 1914, only Ethiopia and Liberia remained independent African states. Common misconception: the conference ‘carved up Africa on a map’ — it set the rules; the actual land-grabbing happened in the field over the following two decades. Read: Thomas Pakenham, ‘The Scramble for Africa’; Adam Hochschild, ‘King Leopold’s Ghost’; Mamdani, ‘Citizen and Subject.’"
-      },
-      {
-        "n": 7,
-        "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "In classical thermodynamics, a ‘reversible process’ is correctly defined as one that:",
-        "options": [
-          "Conserves both kinetic and potential energy throughout, with zero net work done on the system",
-          "Returns the system to its original temperature and pressure after completing one full thermodynamic cycle",
-          "Proceeds via infinitesimal quasi-static steps such that the system and surroundings can be restored to their exact original states with zero net entropy change in the universe",
-          "Operates at constant entropy within the system regardless of heat exchanged with the surroundings"
-        ],
-        "correct": 2,
-        "why": "A reversible process is a theoretical idealization: quasi-static, frictionless, generating zero entropy in the universe; all real processes are irreversible.",
-        "deepDive": "A reversible process moves a system through a continuous series of equilibrium states so slowly that it can be run in exact reverse — the system and its surroundings return precisely to their prior states, with zero net entropy production in the universe. This is a theoretical limit: real processes are always irreversible due to friction, finite temperature gradients, turbulence, and mixing. The Carnot cycle (isothermal expansion → adiabatic expansion → isothermal compression → adiabatic compression) is the archetypal reversible heat engine; its efficiency η = 1 − T_cold/T_hot (in Kelvin) sets the absolute maximum for any heat engine operating between those temperatures. The Second Law of Thermodynamics states that entropy of an isolated system can only increase (irreversible) or stay constant (reversible). Misconception: ‘reversible’ does not mean ‘cyclic’ — a Carnot cycle is both reversible and cyclic; other processes can be cyclic but irreversible (e.g., a real refrigerator with friction). Read: Callen, ‘Thermodynamics and an Introduction to Thermostatistics’; Blundell & Blundell, ‘Concepts in Thermal Physics’; Zemansky, ‘Heat and Thermodynamics.’"
-      },
-      {
-        "n": 8,
-        "topic": "gk",
-        "subtopic": "literature",
-        "stem": "In García Márquez’s One Hundred Years of Solitude, how does the patriarch José Arcadio Buenía ultimately die?",
-        "options": [
-          "Drowned during the seventeen years of rain that end Macondo",
-          "Shot while leading a Liberal uprising in the second generation of the family",
-          "Tied to a chestnut tree in the courtyard after descending into madness, dying there alone and forgotten",
-          "Poisoned by a political rival after he discovers the key to alchemy in Melquíades’ manuscripts"
-        ],
-        "correct": 2,
-        "why": "After losing his mind to the revelation that time is not passing, José Arcadio Buenía is tied to the chestnut tree where he dies — the novel’s defining image of civilisational solitude.",
-        "deepDive": "José Arcadio Buenía, founder of Macondo, is García Márquez’s archetype of visionary obsession: he founds a city, pursues alchemy and astronomy, and eventually experiences the shattering epiphany that time is not moving — every day is Monday repeating. His mind fractures. His family ties him to the chestnut tree in the courtyard, where he remains for years, sometimes visited by the ghost of Melquíades, until he dies there — still chained, isolated even within the civilization he created. The image is the novel’s central metaphor: solitude is not personal but civilisational — the founder ends up a madman chained to a tree. García Márquez encodes real Colombian political history (the Thousand Days War, the United Fruit Company massacre) in a cyclical magic-realist structure where each generation of Buenías repeats the same names and fates. The magical elements are not decoration — they are inseparable from Latin America’s cycles of violence, amnesia, and repetition. Read: GGM, ‘One Hundred Years of Solitude’ (Gregory Rabassa translation); Gerald Martin, ‘Gabriel García Márquez: A Life’; Franco Moretti, ‘The Modern Epic.’"
-      },
-      {
-        "n": 9,
-        "topic": "gk",
-        "subtopic": "arts",
-        "stem": "The distinctive inner luminosity of Flemish Renaissance painting — most associated with Jan van Eyck — was achieved primarily through which technique?",
-        "options": [
-          "Impasto: thick, textured oil paint applied in a single wet-on-wet session",
-          "Fresco secco: painting on dry plaster with egg-tempera highlights added as a final layer",
-          "Scumbling: dry, semi-opaque paint dragged over a dried underlayer to create atmospheric effects",
-          "Layered oil glazing: successive translucent oil glazes over a brilliant white ground, allowing light to pass through and reflect back"
-        ],
-        "correct": 3,
-        "why": "Flemish masters built up translucent oil glazes over a lead-white or chalk ground; light passes through the layers, reflects off the ground, and returns through the glazes — creating luminosity no single opaque layer can produce.",
-        "deepDive": "Jan van Eyck and the Flemish school pioneered a multi-stage oil painting process: (1) a detailed underdrawing; (2) a monochrome underpainting (grisaille or lead white) establishing form and value; (3) successive thin, translucent oil glazes — each layer dried fully before the next was applied. The physics: light enters the painting, bounces off the brilliant white ground (lead white or chalk gesso), and passes back through the coloured glazes, mixing optically rather than on the palette. This produces depth and luminosity impossible with a single opaque layer. The technique spread from Flanders to Renaissance Italy via trade routes through the Low Countries; by 1475 Italian painters like Antonello da Messina had adopted it. Impasto (think late Rembrandt, van Gogh) creates texture through thick paint — the opposite of glazing. Scumbling is dry-brush over a dry layer, used for atmospheric effects like fog. Common misconception: van Eyck ‘invented’ oil painting — he perfected the systematic layered glazing technique; oil had been used earlier. Read: Max Doerner, ‘The Materials of the Artist’; National Gallery Technical Bulletins on Flemish painting; Marcia Hall, ‘Color and Meaning.’"
-      },
-      {
-        "n": 10,
-        "topic": "gk",
-        "subtopic": "music",
-        "stem": "A fugue in Western classical music is most accurately characterised as:",
-        "options": [
-          "A free-form rhapsodic keyboard composition from the Romantic era built on improvisatory development",
-          "A theme-and-variations structure in which the original melody is restated with increasingly complex harmonisation",
-          "A contrapuntal composition in which a short melodic subject is introduced by successive voices and then developed through imitation, inversion, augmentation, and stretto",
-          "A three-movement concerto structure in which a solo instrument engages in thematic dialogue with the orchestra"
-        ],
-        "correct": 2,
-        "why": "A fugue is defined by its contrapuntal architecture: subject entered by successive voices, then developed through imitation and transformational techniques — not a fixed form but a compositional technique.",
-        "deepDive": "The fugue is the supreme form of Western counterpoint, perfected by J.S. Bach in ‘The Well-Tempered Clavier’ (48 preludes and fugues in all 24 keys) and ‘The Art of Fugue.’ A fugue opens with a subject — a short, characteristic melodic theme — stated alone by one voice. A second voice enters (usually in the dominant) with the same subject (the ‘answer’), while the first voice continues with a counter-subject. This exposition repeats until all voices have entered. Then comes the development: the subject appears inverted (upside-down), in augmentation (note values doubled), in diminution (halved), and in stretto (overlapping entries from multiple voices simultaneously). A fugue is a technique, not a fixed form — it can be a standalone work or embedded in a larger piece. Misconception: a fugue is not the same as a canon (like ‘Row Your Boat’ as a round), which demands strict imitation at a fixed time interval throughout; a fugue is freer, with episodic passages between subject entries. Read: Alfred Mann, ‘The Study of Fugue’; Charles Rosen, ‘The Classical Style’; Bach’s Well-Tempered Clavier with Tovey’s analytical notes."
-      }
-    ]
+    "questions": []
   }
 }
