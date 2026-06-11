@@ -1,6 +1,6 @@
 {
   "streak": 2,
-  "last_session_date": "2026-06-10",
+  "last_session_date": "2026-06-11",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -311,7 +311,17 @@
     "Rousseau distinguished the 'general will' (volonté générale) from the 'will of all' (volonté de tous). Which statement best captures the distinction as Rousseau intended it?",
     "In cricket's Decision Review System (DRS), ball-tracking shows the ball would have clipped the very edge of the leg stump (less than 50% ball impact on the stump). The on-field umpire gave not-out. Under ICC rules, what is the correct outcome?",
     "In CRISPR-Cas9 gene editing, what is the specific role of the PAM sequence (Protospacer Adjacent Motif) that distinguishes it from the guide RNA's function?",
-    "A medical test has 99% sensitivity and 99% specificity. The disease it tests for affects 1 in 1,000 people. A randomly selected person tests positive. What is the approximate probability they actually have the disease?"
+    "A medical test has 99% sensitivity and 99% specificity. The disease it tests for affects 1 in 1,000 people. A randomly selected person tests positive. What is the approximate probability they actually have the disease?",
+    "In a CFS/CFS (LCL) shipment versus CY/CY (FCL) on the same trade lane, which cost outcome is structurally certain regardless of cargo volume or commodity?",
+    "A carrier evaluating Cape of Good Hope routing versus Suez Canal on Asia-Europe trade bases its economic break-even calculation primarily on which comparison?",
+    "Under York-Antwerp Rules, a deliberate cargo sacrifice qualifies as General Average only when three conditions are met. Which of these is NOT one of those three qualifying conditions?",
+    "The US Uyghur Forced Labor Prevention Act imposes a rebuttable presumption on goods produced in Xinjiang. What legal standard must an importer meet to successfully rebut it?",
+    "The Drewry World Container Index (WCI) and the Shanghai Containerized Freight Index (SCFI) are both spot-rate benchmarks. What is the most significant methodological distinction between them?",
+    "The Coase theorem is most precisely stated as which claim about externalities and efficient outcomes?",
+    "The Indus Waters Treaty (1960) divided six Indus basin rivers between India and Pakistan. Which three rivers were allocated exclusively to Pakistan?",
+    "Grimm's Law describes systematic consonant shifts that distinguish Proto-Germanic from other Indo-European languages. Which specific correspondence does it predict?",
+    "Which album was the first rap record to reach #1 on the Billboard 200, signalling hip-hop's commercial breakthrough into mainstream America?",
+    "The 1923 Convention on the Greek-Turkish population exchange under the Lausanne process was legally unprecedented primarily for what reason?"
   ],
   "learn_history": [
     {
@@ -473,6 +483,11 @@
       "date": "2026-06-10",
       "topic": "The Impossible Trinity: Why Bangladesh Bank Can't Fix the Taka, Set Rates Freely, and Keep Capital Open",
       "bucket": "economics"
+    },
+    {
+      "date": "2026-06-11",
+      "topic": "High-Bandwidth Memory: The Invisible Bottleneck Powering the AI Chip Race",
+      "bucket": "semiconductor_foundations"
     }
   ],
   "curriculum_progress": {
@@ -531,14 +546,14 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 7,
-      "last_seen": "2026-06-07",
+      "count": 8,
+      "last_seen": "2026-06-11",
       "difficulty": 4,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 7,
-      "last_seen": "2026-06-07",
+      "count": 8,
+      "last_seen": "2026-06-11",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -549,20 +564,20 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 7,
-      "last_seen": "2026-06-07",
+      "count": 8,
+      "last_seen": "2026-06-11",
       "difficulty": 4,
       "rolling_score": []
     },
     "compliance": {
-      "count": 7,
-      "last_seen": "2026-06-07",
+      "count": 8,
+      "last_seen": "2026-06-11",
       "difficulty": 4,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 7,
-      "last_seen": "2026-06-07",
+      "count": 8,
+      "last_seen": "2026-06-11",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -599,14 +614,14 @@
   },
   "gk_progress": {
     "history": {
-      "count": 12,
-      "last_seen": "2026-06-09",
+      "count": 13,
+      "last_seen": "2026-06-11",
       "difficulty": 4,
       "rolling_score": []
     },
     "geography": {
-      "count": 11,
-      "last_seen": "2026-06-08",
+      "count": 12,
+      "last_seen": "2026-06-11",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -659,14 +674,14 @@
       "rolling_score": []
     },
     "economics": {
-      "count": 10,
-      "last_seen": "2026-06-07",
+      "count": 11,
+      "last_seen": "2026-06-11",
       "difficulty": 3,
       "rolling_score": []
     },
     "linguistics": {
-      "count": 10,
-      "last_seen": "2026-06-08",
+      "count": 11,
+      "last_seen": "2026-06-11",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -677,17 +692,168 @@
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 10,
-      "last_seen": "2026-06-08",
+      "count": 11,
+      "last_seen": "2026-06-11",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-06-10",
+    "date": "2026-06-11",
     "current_q": 1,
     "answers": [],
-    "questions": []
+    "questions": [
+      {
+        "n": 1,
+        "topic": "industry",
+        "subtopic": "multimodal",
+        "stem": "In a CFS/CFS (LCL) shipment versus CY/CY (FCL) on the same trade lane, which cost outcome is structurally certain regardless of cargo volume or commodity?",
+        "options": [
+          "The shipper pays cargo freight station handling charges for both origin stuffing and destination stripping — two fees absent in CY/CY",
+          "LCL freight rates per CBM always exceed the pro-rata FCL rate for equivalent cargo volumes",
+          "Customs examination probability doubles because LCL containers are classified as higher risk by all major customs authorities",
+          "Demurrage free time is shorter for LCL shipments because CFS operators charge from the date of vessel arrival"
+        ],
+        "correct": 0,
+        "why": "CFS/CFS always incurs two distinct handling fees (origin stuffing + destination stripping) that simply don't exist in CY/CY FCL movement.",
+        "deepDive": "In CY/CY (FCL), the shipper presents a sealed container at origin; the consignee collects it sealed at destination — no additional cargo touches. CFS/CFS (LCL) introduces two handling events: origin stuffing, where cargo is consolidated with others' goods into a shared container, and destination stripping, where the shared container is deconsolidated at a CFS before final delivery. Both generate separate fees on top of standard THC. LCL freight is rated per weight-measurement tonne, cost-effective only for small parcels that can't fill a box. Additional downsides: longer transit due to consolidation windows, commingling risk, joint customs examination of shared containers, and elevated pilferage exposure. Always calculate total LCL landed cost — not just the per-CBM rate — when comparing against"
+      },
+      {
+        "n": 2,
+        "topic": "industry",
+        "subtopic": "trade_lanes",
+        "stem": "A carrier evaluating Cape of Good Hope routing versus Suez Canal on Asia-Europe trade bases its economic break-even calculation primarily on which comparison?",
+        "options": [
+          "The Suez Canal toll (~$700k–$1M per ULCV) versus additional bunker cost and fleet deployment for 10–14 extra steaming days via Cape",
+          "The war-risk insurance differential versus storm-routing premium for Cape sea states and cyclone season exposure",
+          "The lost weekly service frequency that Cape routing imposes versus the shipper demand penalty for slower transit",
+          "The carbon cost under EU ETS for Cape extra miles versus the Suez congestion surcharge during peak sailing seasons"
+        ],
+        "correct": 0,
+        "why": "The primary break-even is toll savings (~$700k–$1M) versus extra bunker and fleet-deployment cost for 10-14 additional sea days — Suez wins economically under normal conditions.",
+        "deepDive": "The Suez Canal charges a fully-laden ULCV roughly $700,000–$1,000,000 per northbound transit based on Suez Canal Net Tonnage and cargo type. The Cape route adds 3,500–4,000 extra nautical miles — approximately 10–14 steaming days at 14–15 knots. At prevailing VLSFO prices (~$600/MT) and a ULCV daily fuel burn of 100–150 MT, extra bunker alone costs $600,000–$1,260,000. Add fleet deployment cost — one extra vessel needed per weekly string to maintain frequency — and Cape routing typically adds $2–4M per sailing. Suez wins economically under normal conditions. Cape becomes viable when: canal tolls spike, war-risk surcharges exceed $300–400k, Houthi or Iran interdiction risk is high, or Suez congestion erases most of the time saved."
+      },
+      {
+        "n": 3,
+        "topic": "industry",
+        "subtopic": "marine_insurance",
+        "stem": "Under York-Antwerp Rules, a deliberate cargo sacrifice qualifies as General Average only when three conditions are met. Which of these is NOT one of those three qualifying conditions?",
+        "options": [
+          "The loss must be extraordinary — not already required by law, contract, or ordinary seamanship duty",
+          "The act must be intentional and voluntary for the common safety of ship and cargo",
+          "The sacrificed cargo must have been declared at full insured value before the voyage commenced",
+          "The peril must be real and imminent, not caused by the fault of the party claiming contribution"
+        ],
+        "correct": 2,
+        "why": "Insurance status or declared value of sacrificed cargo is entirely irrelevant to GA qualification — the three conditions are real peril, intentional act, and common benefit.",
+        "deepDive": "General Average is among the oldest principles in maritime law — possibly dating to Rhodian Sea Law of 800 BCE. When a voluntary sacrifice saves the common maritime adventure, all surviving cargo interests share the loss proportionally. York-Antwerp Rules (last revised 2016) govern virtually all modern contracts of carriage. The three qualifying conditions are: real and imminent peril; intentional sacrifice; for common benefit of ship and all cargo. What is not required: that the cargo was insured, declared, or covered by any documentation. A shipper who forgot to insure their containers still has a valid GA claim, and uninsured cargo owners must still contribute — they pay cash deposits at destination rather than relying on an insurer. GA commonly"
+      },
+      {
+        "n": 4,
+        "topic": "industry",
+        "subtopic": "compliance",
+        "stem": "The US Uyghur Forced Labor Prevention Act imposes a rebuttable presumption on goods produced in Xinjiang. What legal standard must an importer meet to successfully rebut it?",
+        "options": [
+          "Preponderance of the evidence — demonstrating it is more likely than not that no forced labour was used",
+          "Clear and convincing evidence that goods were not produced with forced labour anywhere in the supply chain",
+          "Beyond reasonable doubt — the same evidentiary standard applied in criminal proceedings",
+          "An affidavit from a CBP-approved third-party auditor certifying compliant labour conditions"
+        ],
+        "correct": 1,
+        "why": "'Clear and convincing evidence' is the statutory standard under UFLPA Section 3 — the highest civil bar in US law, well above preponderance.",
+        "deepDive": "The Uyghur Forced Labor Prevention Act (signed June 2022) creates a rebuttable presumption: any goods wholly or partly produced in Xinjiang XUAR, or by entities on the UFLPA Entity List, are presumed made with forced labour and banned under 19 U.S.C. § 1307. The 'clear and convincing' standard required for rebuttal is the highest in US civil law — substantially harder than 'preponderance of the evidence' (greater than 50%) used in most civil cases, and below only the criminal 'beyond reasonable doubt' bar. In practice, CBP requires complete, documented supply chain traceability from raw material through finished good, credible labour-condition evidence, and often independent third-party verification. A signed affidavit alone is necessary but not sufficient. The law covers cotton,"
+      },
+      {
+        "n": 5,
+        "topic": "industry",
+        "subtopic": "industry_econ",
+        "stem": "The Drewry World Container Index (WCI) and the Shanghai Containerized Freight Index (SCFI) are both spot-rate benchmarks. What is the most significant methodological distinction between them?",
+        "options": [
+          "WCI tracks 8 specific global port-pair composites published weekly by an independent research firm; SCFI tracks 15 Shanghai-origin routes published weekly by Shanghai Shipping Exchange",
+          "WCI is based on time-charter equivalent rates normalised per TEU; SCFI measures voyage-charter equivalent rates on the same corridor",
+          "WCI is a physically settled exchange product in USD; SCFI is a forward index settled against container slot auctions",
+          "WCI includes bunker adjustment factors in its headline rate; SCFI reports base ocean freight only and adds surcharges separately"
+        ],
+        "correct": 0,
+        "why": "WCI = 8 global port-pair routes (both directions), all-in rates, Drewry. SCFI = 15 Shanghai-origin routes (one-directional), spot freight, Shanghai Shipping Exchange.",
+        "deepDive": "WCI (Drewry World Container Index): published every Thursday, tracks 8 specific port-pair routes globally — including both legs (Shanghai-Rotterdam and Rotterdam-Shanghai). Rates are all-in: bunker and THC included. Widely cited as the clearest spot-rate signal for general use. SCFI (Shanghai Containerized Freight Index): published weekly by the Shanghai Shipping Exchange, covers 15 Shanghai-origin routes, one-directional, reports base freight with surcharges often separate depending on route. CCFI covers similar Shanghai-origin routes but blends spot and contract rates — a lagging indicator. Xeneta XSI is the benchmark for contracted long-term rates. Practical rule: use WCI or SCFI for spot market pulse; XSI for contract benchmarking; Baltic Dry Index and BDTI only for dry bulk and tanker markets respectively."
+      },
+      {
+        "n": 6,
+        "topic": "gk",
+        "subtopic": "economics",
+        "stem": "The Coase theorem is most precisely stated as which claim about externalities and efficient outcomes?",
+        "options": [
+          "In competitive markets, voluntary exchange always produces Pareto-efficient outcomes regardless of transaction costs",
+          "If property rights are clearly assigned and transaction costs are negligible, bargaining parties will reach efficient outcomes regardless of the initial rights allocation",
+          "Externalities require government intervention whenever more than two parties are affected",
+          "Efficient bargaining outcomes require symmetric information between all negotiating parties"
+        ],
+        "correct": 1,
+        "why": "Coase (1960) showed that with well-defined property rights and zero transaction costs, bargaining produces efficiency regardless of who holds the initial entitlement.",
+        "deepDive": "Ronald Coase's 1960 paper 'The Problem of Social Cost' showed that when property rights are clearly defined and transaction costs are negligible, voluntary bargaining produces efficient outcomes regardless of the initial rights assignment — whether the polluter or the victim holds the property right. This challenged the Pigouvian prescription that externalities always require government taxes or regulation. In practice, transaction costs are rarely zero: information asymmetry, strategic bargaining, and coordination failures among large groups all impede Coasian solutions. The common error is citing Coase to argue against all environmental regulation. Coase never made this argument — the theorem identifies conditions under which markets can self-correct, not a claim that those conditions reliably exist in the real world. Read: Coase,"
+      },
+      {
+        "n": 7,
+        "topic": "gk",
+        "subtopic": "geography",
+        "stem": "The Indus Waters Treaty (1960) divided six Indus basin rivers between India and Pakistan. Which three rivers were allocated exclusively to Pakistan?",
+        "options": [
+          "Ravi, Beas, and Sutlej — the eastern rivers flowing toward the Punjab plains",
+          "Indus, Jhelum, and Chenab — the three western rivers",
+          "Kabul, Indus, and Jhelum — the northern and western tributaries",
+          "Indus, Chenab, and Ravi — the three main trunk rivers"
+        ],
+        "correct": 1,
+        "why": "The treaty gave Pakistan the three western rivers (Indus, Jhelum, Chenab) and India the three eastern rivers (Ravi, Beas, Sutlej).",
+        "deepDive": "The Indus Waters Treaty (1960), brokered by the World Bank, divided six rivers: Pakistan received the three western rivers (Indus, Jhelum, Chenab — higher flow, flowing into Pakistani Punjab and Sindh); India received the three eastern rivers (Ravi, Beas, Sutlej). India retained limited non-consumptive use rights on western rivers for navigation, fishing, and run-of-river hydropower. The treaty survived the 1965 and 1971 India-Pakistan wars, making it one of the most durable water-sharing agreements in history. Pakistan depends on the western rivers for approximately 80% of its agricultural water — any upstream diversion by India of the Indus, Jhelum, or Chenab is existential. India unilaterally suspended the treaty in April 2025 following the Pahalgam terror attack, eliminating the last regular"
+      },
+      {
+        "n": 8,
+        "topic": "gk",
+        "subtopic": "linguistics",
+        "stem": "Grimm's Law describes systematic consonant shifts that distinguish Proto-Germanic from other Indo-European languages. Which specific correspondence does it predict?",
+        "options": [
+          "PIE voiced stops (b, d, g) shift to Germanic voiceless stops (p, t, k)",
+          "PIE voiceless stops (p, t, k) shift to Germanic voiceless fricatives (f, θ, x/h)",
+          "PIE voiceless fricatives (f, s) shift to Germanic voiced stops (b, d)",
+          "Latin fricatives shift to Greek stops via the same mechanism as the English Great Vowel Shift"
+        ],
+        "correct": 1,
+        "why": "Shift 1 of Grimm's Law: PIE voiceless stops p, t, k become Germanic voiceless fricatives f, þ (th), and h — e.g. Latin pater → English father.",
+        "deepDive": "Grimm's Law (1822), formulated by Jacob Grimm, identified three consonant shifts distinguishing Proto-Germanic (ancestor of English, German, Dutch, Norse, Gothic) from other Indo-European branches. Shift 1: PIE voiceless stops (p, t, k) → Germanic voiceless fricatives (f, þ/th, h). Examples: Latin pater → English father; Latin piscis → English fish; Latin canis → English hound. Shift 2: PIE voiced stops (b, d, g) → Germanic voiceless stops (p, t, k). Shift 3: PIE voiced aspirates (bh, dh, gh) → Germanic voiced fricatives, eventually hardening to (b, d, g). This explained why English and Latin share roots but look so different phonologically. Verner's Law (1875) later accounted for the exceptions by showing that word-stress patterns in PIE determined which words"
+      },
+      {
+        "n": 9,
+        "topic": "gk",
+        "subtopic": "pop_culture",
+        "stem": "Which album was the first rap record to reach #1 on the Billboard 200, signalling hip-hop's commercial breakthrough into mainstream America?",
+        "options": [
+          "Raising Hell — Run-DMC (1986)",
+          "Radio — LL Cool J (1985)",
+          "Licensed to Ill — Beastie Boys (1986)",
+          "Criminal Minded — Boogie Down Productions (1987)"
+        ],
+        "correct": 2,
+        "why": "Licensed to Ill (Nov 1986) reached #1 on the Billboard 200 in early 1987 — the first rap album to do so — spending seven weeks at the top.",
+        "deepDive": "Licensed to Ill (Beastie Boys, Nov 1986) became the first rap album to reach #1 on the Billboard 200, spending seven weeks at the top in early 1987 and going 9× platinum in the US. Its crossover formula — hip-hop beats fused with rock guitar samples, including Led Zeppelin's 'When the Levee Breaks' — unlocked suburban rock audiences largely untouched by rap, proving hip-hop could dominate all-genre pop charts. Def Jam's success opened major-label doors industry-wide. Common confusion: Run-DMC's Raising Hell (1986) is often cited as the commercial breakthrough — it was the first rap album certified platinum and enormously influential — but it did not reach #1 on the Billboard 200. Licensed to Ill holds that specific first."
+      },
+      {
+        "n": 10,
+        "topic": "gk",
+        "subtopic": "history",
+        "stem": "The 1923 Convention on the Greek-Turkish population exchange under the Lausanne process was legally unprecedented primarily for what reason?",
+        "options": [
+          "It was the first treaty to impose a compulsory bilateral exchange — binding both states to transfer their own citizens by treaty obligation",
+          "It classified populations by ethnicity rather than religion, setting a new precedent in international humanitarian law",
+          "It was the first exchange to include individual financial reparations paid by the receiving state to displaced persons",
+          "It created a permanent international commission with binding enforcement powers over both signatory states"
+        ],
+        "correct": 0,
+        "why": "Lausanne was the first legally mandated compulsory bilateral exchange — both states were treaty-bound to transfer their own populations, unlike all prior displacements which were unilateral.",
+        "deepDive": "The 1923 Lausanne Convention was legally unprecedented: both sovereign states were bound by treaty to compulsorily transfer their own citizens — the first bilateral population exchange mandated under international law. Earlier mass movements (Balkan War displacements, Armenian deportations) were unilateral expulsions or flight; Lausanne created a mutual treaty obligation. Classification was by religion, not ethnicity: Greek Orthodox Christians left Anatolia (including Turkish-speakers), and Muslims left Greece (including Greek-speakers). Approximately 1.5 million Greeks and 500,000 Muslims were relocated. The template was debated — and largely rejected — during Palestine negotiations (1937 Peel Commission) and Cypriot partition talks. Critics argue it legitimised forced ethnic cleansing under international legal cover; defenders call it the least-bad alternative to ongoing massacres. Read: Bruce Clark,"
+      }
+    ]
   }
 }
