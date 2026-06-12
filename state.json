@@ -1,6 +1,6 @@
 {
   "streak": 2,
-  "last_session_date": "2026-06-11",
+  "last_session_date": "2026-06-12",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -321,7 +321,17 @@
     "The Indus Waters Treaty (1960) divided six Indus basin rivers between India and Pakistan. Which three rivers were allocated exclusively to Pakistan?",
     "Grimm's Law describes systematic consonant shifts that distinguish Proto-Germanic from other Indo-European languages. Which specific correspondence does it predict?",
     "Which album was the first rap record to reach #1 on the Billboard 200, signalling hip-hop's commercial breakthrough into mainstream America?",
-    "The 1923 Convention on the Greek-Turkish population exchange under the Lausanne process was legally unprecedented primarily for what reason?"
+    "The 1923 Convention on the Greek-Turkish population exchange under the Lausanne process was legally unprecedented primarily for what reason?",
+    "The 777F and 747-8F are the two most widely operated widebody freighters. Which ",
+    "Frankfurt (FRA) and London Heathrow (LHR) operate under strict night-flight curf",
+    "DSV's ~$15B acquisition of DB Schenker in 2024-25 was the largest freight forwar",
+    "A shipper has an annual service contract with an MQC of 5,000 TEUs at $1,800/TEU",
+    "The 'bullwhip effect' causes small consumer demand fluctuations to generate prog",
+    "Maxwell's equations contain four laws. Which specific combination predicts the e",
+    "Samuel Beckett's 'Waiting for Godot' is the defining Theatre of the Absurd text.",
+    "George Lucas explicitly credited which Akira Kurosawa film as the direct structu",
+    "Miles Davis's 'Kind of Blue' (1959) is the best-selling jazz record of all time.",
+    "Euler's identity (e^(iπ) + 1 = 0) is a special case of Euler's formula. Which pa"
   ],
   "learn_history": [
     {
@@ -488,6 +498,11 @@
       "date": "2026-06-11",
       "topic": "High-Bandwidth Memory: The Invisible Bottleneck Powering the AI Chip Race",
       "bucket": "semiconductor_foundations"
+    },
+    {
+      "date": "2026-06-12",
+      "topic": "Synthetic Biology: Engineering Life from Genetic Parts — and the Dual-Use Frontier Keeping Washington Awake",
+      "bucket": "science_concept"
     }
   ],
   "curriculum_progress": {
@@ -582,32 +597,32 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 7,
-      "last_seen": "2026-06-08",
+      "count": 8,
+      "last_seen": "2026-06-12",
       "difficulty": 1,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 7,
-      "last_seen": "2026-06-08",
+      "count": 8,
+      "last_seen": "2026-06-12",
       "difficulty": 1,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 7,
-      "last_seen": "2026-06-08",
+      "count": 8,
+      "last_seen": "2026-06-12",
       "difficulty": 1,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 7,
-      "last_seen": "2026-06-08",
+      "count": 8,
+      "last_seen": "2026-06-12",
       "difficulty": 1,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 7,
-      "last_seen": "2026-06-08",
+      "count": 8,
+      "last_seen": "2026-06-12",
       "difficulty": 1,
       "rolling_score": []
     }
@@ -626,8 +641,8 @@
       "rolling_score": []
     },
     "physical_science": {
-      "count": 11,
-      "last_seen": "2026-06-09",
+      "count": 12,
+      "last_seen": "2026-06-12",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -638,26 +653,26 @@
       "rolling_score": []
     },
     "mathematics": {
-      "count": 12,
-      "last_seen": "2026-06-10",
+      "count": 13,
+      "last_seen": "2026-06-12",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 10,
-      "last_seen": "2026-06-09",
+      "count": 11,
+      "last_seen": "2026-06-12",
       "difficulty": 4,
       "rolling_score": []
     },
     "arts": {
-      "count": 11,
-      "last_seen": "2026-06-09",
+      "count": 12,
+      "last_seen": "2026-06-12",
       "difficulty": 2,
       "rolling_score": []
     },
     "music": {
-      "count": 11,
-      "last_seen": "2026-06-09",
+      "count": 12,
+      "last_seen": "2026-06-12",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -700,159 +715,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-06-11",
+    "date": "2026-06-12",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "In a CFS/CFS (LCL) shipment versus CY/CY (FCL) on the same trade lane, which cost outcome is structurally certain regardless of cargo volume or commodity?",
+        "subtopic": "aircraft_carriers",
+        "stem": "The 777F and 747-8F are the two most widely operated widebody freighters. Which operational advantage makes the 777F the preferred choice on thinner long-haul routes where full payload cannot be achieved?",
         "options": [
-          "The shipper pays cargo freight station handling charges for both origin stuffing and destination stripping — two fees absent in CY/CY",
-          "LCL freight rates per CBM always exceed the pro-rata FCL rate for equivalent cargo volumes",
-          "Customs examination probability doubles because LCL containers are classified as higher risk by all major customs authorities",
-          "Demurrage free time is shorter for LCL shipments because CFS operators charge from the date of vessel arrival"
+          "Higher maximum structural payload, enabling heavier single shipments than the 747-8F",
+          "Lower fuel burn per tonne-kilometre due to its twin high-bypass turbofan engines",
+          "More main-deck ULD positions, maximising cargo density per departure",
+          "Shorter take-off run enabling access to airports with restricted runway lengths"
         ],
-        "correct": 0,
-        "why": "CFS/CFS always incurs two distinct handling fees (origin stuffing + destination stripping) that simply don't exist in CY/CY FCL movement.",
-        "deepDive": "In CY/CY (FCL), the shipper presents a sealed container at origin; the consignee collects it sealed at destination — no additional cargo touches. CFS/CFS (LCL) introduces two handling events: origin stuffing, where cargo is consolidated with others' goods into a shared container, and destination stripping, where the shared container is deconsolidated at a CFS before final delivery. Both generate separate fees on top of standard THC. LCL freight is rated per weight-measurement tonne, cost-effective only for small parcels that can't fill a box. Additional downsides: longer transit due to consolidation windows, commingling risk, joint customs examination of shared containers, and elevated pilferage exposure. Always calculate total LCL landed cost — not just the per-CBM rate — when comparing against"
+        "correct": 1,
+        "why": "The 777F's two GE90 engines deliver better fuel economy per tonne-km than the 747-8F's four GEnx engines; when payload fills fall short of 134t, the 777F wins on unit economics.",
+        "deepDive": "The Boeing 747-8F carries ~134 tonnes max payload across 30+ ULD positions and dominates high-density trunk routes (HKG-ANC-MEM, PVG-JFK). The 777F carries ~103 tonnes but its two high-bypass GE90 engines deliver significantly better fuel efficiency per tonne-km — critical on routes where filling a 747 is impossible. The industry rule: when demand fills the plane, 747-8F wins on absolute cost; when it can't be filled, 777F wins on per-unit economics. This is why Cathay Cargo and Cargolux operate both. The A350F — entering service 2026-27 — threatens the 777F with composite airframe efficiency gains; watch how Lufthansa Cargo and SIA Cargo position their next fleet cycle in response."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "A carrier evaluating Cape of Good Hope routing versus Suez Canal on Asia-Europe trade bases its economic break-even calculation primarily on which comparison?",
+        "subtopic": "airport_ops",
+        "stem": "Frankfurt (FRA) and London Heathrow (LHR) operate under strict night-flight curfews. Which operational consequence most directly forces air cargo carriers to restructure their hub network strategies?",
         "options": [
-          "The Suez Canal toll (~$700k–$1M per ULCV) versus additional bunker cost and fleet deployment for 10–14 extra steaming days via Cape",
-          "The war-risk insurance differential versus storm-routing premium for Cape sea states and cyclone season exposure",
-          "The lost weekly service frequency that Cape routing imposes versus the shipper demand penalty for slower transit",
-          "The carbon cost under EU ETS for Cape extra miles versus the Suez congestion surcharge during peak sailing seasons"
+          "Bonded warehouse storage becomes unavailable outside curfew hours, delaying customs clearance",
+          "Customs authorities suspend overnight operations, delaying perishable clearances by 12 hours",
+          "Late-night freighter arrivals and departures are banned, compelling carriers to divert freight via alternative hubs or resequence schedules",
+          "Aircraft maintenance windows are restricted, reducing fleet availability during peak periods"
         ],
-        "correct": 0,
-        "why": "The primary break-even is toll savings (~$700k–$1M) versus extra bunker and fleet-deployment cost for 10-14 additional sea days — Suez wins economically under normal conditions.",
-        "deepDive": "The Suez Canal charges a fully-laden ULCV roughly $700,000–$1,000,000 per northbound transit based on Suez Canal Net Tonnage and cargo type. The Cape route adds 3,500–4,000 extra nautical miles — approximately 10–14 steaming days at 14–15 knots. At prevailing VLSFO prices (~$600/MT) and a ULCV daily fuel burn of 100–150 MT, extra bunker alone costs $600,000–$1,260,000. Add fleet deployment cost — one extra vessel needed per weekly string to maintain frequency — and Cape routing typically adds $2–4M per sailing. Suez wins economically under normal conditions. Cape becomes viable when: canal tolls spike, war-risk surcharges exceed $300–400k, Houthi or Iran interdiction risk is high, or Suez congestion erases most of the time saved."
+        "correct": 2,
+        "why": "FRA and LHR curfews prohibit freighter movements in defined overnight windows, forcing carriers to route via CGN, AMS, CDG, or MXP to serve the same catchment zones.",
+        "deepDive": "Frankfurt's curfew (23:00–05:00) constrains Europe's #1 cargo hub by tonnage, compelling Lufthansa Cargo to rely on its sister hub at Leipzig-Halle (LEJ), where DHL Express also operates curfew-free. Heathrow's restrictions (night quota 23:30–06:00) push British Airways World Cargo and partners toward Stansted or East Midlands. Slot constraints at curfew airports also mean cargo gets deprioritised versus passenger flights during peak hours. For forwarders, the practical consequence: transhipping through Amsterdam (AMS) or Paris CDG adds 4-8 hours transit time but eliminates curfew risk. Premium time-sensitive shipments — pharma cold chain, automotive AOG parts, live animals — are most exposed; experienced ops teams pre-position in alternate hubs ahead of known curfew windows."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "Under York-Antwerp Rules, a deliberate cargo sacrifice qualifies as General Average only when three conditions are met. Which of these is NOT one of those three qualifying conditions?",
+        "subtopic": "ma_consolidation",
+        "stem": "DSV's ~$15B acquisition of DB Schenker in 2024-25 was the largest freight forwarding deal ever recorded. Which structural outcome best describes its market impact?",
         "options": [
-          "The loss must be extraordinary — not already required by law, contract, or ordinary seamanship duty",
-          "The act must be intentional and voluntary for the common safety of ship and cargo",
-          "The sacrificed cargo must have been declared at full insured value before the voyage commenced",
-          "The peril must be real and imminent, not caused by the fault of the party claiming contribution"
+          "Created a forwarder ranked #1 or #2 simultaneously in ocean, air, and road — a trimodal scale milestone no single forwarder had previously achieved",
+          "Gave DSV direct control of DB AG's rail freight network, creating a vertically integrated rail-forwarding empire across Europe",
+          "Triggered mandatory EU divestiture orders requiring DSV to sell Schenker's ocean forwarding division to a smaller rival",
+          "Made DSV the undisputed world #1 in air freight tonnage, overtaking Kuehne+Nagel for the first time"
         ],
-        "correct": 2,
-        "why": "Insurance status or declared value of sacrificed cargo is entirely irrelevant to GA qualification — the three conditions are real peril, intentional act, and common benefit.",
-        "deepDive": "General Average is among the oldest principles in maritime law — possibly dating to Rhodian Sea Law of 800 BCE. When a voluntary sacrifice saves the common maritime adventure, all surviving cargo interests share the loss proportionally. York-Antwerp Rules (last revised 2016) govern virtually all modern contracts of carriage. The three qualifying conditions are: real and imminent peril; intentional sacrifice; for common benefit of ship and all cargo. What is not required: that the cargo was insured, declared, or covered by any documentation. A shipper who forgot to insure their containers still has a valid GA claim, and uninsured cargo owners must still contribute — they pay cash deposits at destination rather than relying on an insurer. GA commonly"
+        "correct": 0,
+        "why": "DSV+Schenker achieved top-1 or top-2 ranking across ocean, air, and road simultaneously — a scale and scope combination previously impossible for any single non-asset forwarder.",
+        "deepDive": "Before the deal, DSV was already top-3 in ocean and air after its acquisitions of Panalpina (2019) and Agility Logistics (2021). DB Schenker added massive European road and contract logistics volume plus Schenker's own ocean/air forwarding book. Combined, DSV+Schenker competes with Kuehne+Nagel and DHL Global Forwarding for the #1-#2 slot across every mode — trimodal dominance that forces rivals (Expeditors, Ceva, Bollore) to respond through specialisation or their own M&A. The deal also pulled DSV deep into contract logistics (warehousing, value-added services), blurring the asset-light forwarder vs 3PL distinction. Watch for DSV's next strategic move in Asia-Pacific and Africa, where Schenker had footprint gaps relative to DHL and Kuehne+Nagel."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "The US Uyghur Forced Labor Prevention Act imposes a rebuttable presumption on goods produced in Xinjiang. What legal standard must an importer meet to successfully rebut it?",
+        "subtopic": "commercial_concepts",
+        "stem": "A shipper has an annual service contract with an MQC of 5,000 TEUs at $1,800/TEU contracted rate. At year-end they shipped only 3,800 TEUs while prevailing spot averaged $2,400/TEU. What is the standard shortfall liability?",
         "options": [
-          "Preponderance of the evidence — demonstrating it is more likely than not that no forced labour was used",
-          "Clear and convincing evidence that goods were not produced with forced labour anywhere in the supply chain",
-          "Beyond reasonable doubt — the same evidentiary standard applied in criminal proceedings",
-          "An affidavit from a CBP-approved third-party auditor certifying compliant labour conditions"
+          "$2.16M — the carrier invoices the contracted rate on the full 5,000 committed TEUs",
+          "$720,000 — shortfall penalty equals the rate differential ($600/TEU) on the 1,200 unshipped TEUs",
+          "$2.88M — the shipper pays the spot rate on the full committed volume as liquidated damages",
+          "Zero — MQC contracts include a force majeure clause releasing liability when spot exceeds contracted rate"
         ],
         "correct": 1,
-        "why": "'Clear and convincing evidence' is the statutory standard under UFLPA Section 3 — the highest civil bar in US law, well above preponderance.",
-        "deepDive": "The Uyghur Forced Labor Prevention Act (signed June 2022) creates a rebuttable presumption: any goods wholly or partly produced in Xinjiang XUAR, or by entities on the UFLPA Entity List, are presumed made with forced labour and banned under 19 U.S.C. § 1307. The 'clear and convincing' standard required for rebuttal is the highest in US civil law — substantially harder than 'preponderance of the evidence' (greater than 50%) used in most civil cases, and below only the criminal 'beyond reasonable doubt' bar. In practice, CBP requires complete, documented supply chain traceability from raw material through finished good, credible labour-condition evidence, and often independent third-party verification. A signed affidavit alone is necessary but not sufficient. The law covers cotton,"
+        "why": "Shortfall liability equals the carrier's opportunity cost: (spot rate − contracted rate) × unshipped TEUs = $600 × 1,200 = $720,000 in lost margin the carrier would have earned elsewhere.",
+        "deepDive": "MQC contracts protect carriers who hold space at low contracted rates against shippers who defect to spot when rates fall below contract. The liquidated damages clause compensates the carrier for the opportunity cost of holding capacity for a shipper who didn't use it — typically calculated as (prevailing spot − contracted rate) × shortfall TEUs. In practice, formulas vary: some contracts specify a flat per-TEU penalty; others use the spot-minus-contract method shown here. Sophisticated shippers negotiate a shortfall corridor (e.g., 10% variance is penalty-free) to manage demand variability. NVOCCs face the same exposure when they commit to VOCC slot charters without equivalent shipper contracts to back them — a common source of P&L volatility in soft markets."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "The Drewry World Container Index (WCI) and the Shanghai Containerized Freight Index (SCFI) are both spot-rate benchmarks. What is the most significant methodological distinction between them?",
+        "subtopic": "supply_chain_strategy",
+        "stem": "The 'bullwhip effect' causes small consumer demand fluctuations to generate progressively larger order oscillations upstream. Which factor is its most fundamental root cause?",
         "options": [
-          "WCI tracks 8 specific global port-pair composites published weekly by an independent research firm; SCFI tracks 15 Shanghai-origin routes published weekly by Shanghai Shipping Exchange",
-          "WCI is based on time-charter equivalent rates normalised per TEU; SCFI measures voyage-charter equivalent rates on the same corridor",
-          "WCI is a physically settled exchange product in USD; SCFI is a forward index settled against container slot auctions",
-          "WCI includes bunker adjustment factors in its headline rate; SCFI reports base ocean freight only and adds surcharges separately"
+          "Insufficient warehouse automation causing systematic order entry delays",
+          "Each supply chain tier independently buffering against demand uncertainty, amplifying the signal at every handoff up the chain",
+          "Port congestion creating artificial supply shocks misread as genuine demand spikes by upstream planners",
+          "Oligopolistic raw material suppliers forcing downstream buyers to purchase in large minimum batch quantities"
         ],
-        "correct": 0,
-        "why": "WCI = 8 global port-pair routes (both directions), all-in rates, Drewry. SCFI = 15 Shanghai-origin routes (one-directional), spot freight, Shanghai Shipping Exchange.",
-        "deepDive": "WCI (Drewry World Container Index): published every Thursday, tracks 8 specific port-pair routes globally — including both legs (Shanghai-Rotterdam and Rotterdam-Shanghai). Rates are all-in: bunker and THC included. Widely cited as the clearest spot-rate signal for general use. SCFI (Shanghai Containerized Freight Index): published weekly by the Shanghai Shipping Exchange, covers 15 Shanghai-origin routes, one-directional, reports base freight with surcharges often separate depending on route. CCFI covers similar Shanghai-origin routes but blends spot and contract rates — a lagging indicator. Xeneta XSI is the benchmark for contracted long-term rates. Practical rule: use WCI or SCFI for spot market pulse; XSI for contract benchmarking; Baltic Dry Index and BDTI only for dry bulk and tanker markets respectively."
+        "correct": 1,
+        "why": "Each tier adds safety stock and adjusts orders based on imperfect downstream signals rather than end-consumer data, compounding original demand variance at every step.",
+        "deepDive": "First formalised by Hau Lee (Stanford) in 1997, the bullwhip effect has four root causes: demand signal processing (each tier forecasts from its own orders, not POS data), order batching (weekly or monthly cycles create artificial peaks), price fluctuations (promotions trigger forward buying), and shortage gaming (buyers inflate orders when supply is tight). The beer distribution game demonstrates how a 5% consumer demand increase causes 40%+ swings at the brewery. Post-COVID examples at industrial scale: toilet paper shortages 2020, semiconductor shortages 2021, toy gluts 2022 — all classic bullwhip dynamics. The cure: sharing point-of-sale data upstream (VMI/CPFR models), smoothing order cycles, and eliminating shortage gaming through transparent allocation policies."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The Coase theorem is most precisely stated as which claim about externalities and efficient outcomes?",
+        "subtopic": "physical_science",
+        "stem": "Maxwell's equations contain four laws. Which specific combination predicts the existence of self-propagating electromagnetic waves — and therefore light — as a purely mathematical consequence?",
         "options": [
-          "In competitive markets, voluntary exchange always produces Pareto-efficient outcomes regardless of transaction costs",
-          "If property rights are clearly assigned and transaction costs are negligible, bargaining parties will reach efficient outcomes regardless of the initial rights allocation",
-          "Externalities require government intervention whenever more than two parties are affected",
-          "Efficient bargaining outcomes require symmetric information between all negotiating parties"
+          "Gauss's law for electricity alone, showing that electric field lines originate from charges",
+          "Gauss's law for magnetism, establishing that magnetic monopoles cannot exist",
+          "Faraday's induction law combined with Ampère's law plus Maxwell's displacement current correction, creating a coupled E-B oscillation",
+          "Coulomb's inverse-square law reformulated in differential form"
         ],
-        "correct": 1,
-        "why": "Coase (1960) showed that with well-defined property rights and zero transaction costs, bargaining produces efficiency regardless of who holds the initial entitlement.",
-        "deepDive": "Ronald Coase's 1960 paper 'The Problem of Social Cost' showed that when property rights are clearly defined and transaction costs are negligible, voluntary bargaining produces efficient outcomes regardless of the initial rights assignment — whether the polluter or the victim holds the property right. This challenged the Pigouvian prescription that externalities always require government taxes or regulation. In practice, transaction costs are rarely zero: information asymmetry, strategic bargaining, and coordination failures among large groups all impede Coasian solutions. The common error is citing Coase to argue against all environmental regulation. Coase never made this argument — the theorem identifies conditions under which markets can self-correct, not a claim that those conditions reliably exist in the real world. Read: Coase,"
+        "correct": 2,
+        "why": "Maxwell's key addition — the displacement current ε₀∂E/∂t — coupled Faraday and Ampère into a self-sustaining wave propagating at c = 1/√(ε₀μ₀), which matched the speed of light exactly.",
+        "deepDive": "James Clerk Maxwell completed classical electromagnetism in 1865. The critical addition was the displacement current term — without it, Ampère's law was mathematically inconsistent for circuits with capacitors. Maxwell's correction meant a changing electric field generates a magnetic field (Ampère+Maxwell), and a changing magnetic field generates an electric field (Faraday). The two effects sustain each other through space, propagating as a wave. The predicted speed came out as 1/√(ε₀μ₀) ≈ 3×10⁸ m/s — precisely the speed of light, leading Maxwell to conclude light is an electromagnetic wave. Hertz confirmed this experimentally in 1887. The unification ranks with Newton's laws and Einstein's relativity as one of the most consequential theoretical predictions in all of physics history."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Indus Waters Treaty (1960) divided six Indus basin rivers between India and Pakistan. Which three rivers were allocated exclusively to Pakistan?",
+        "subtopic": "literature",
+        "stem": "Samuel Beckett's 'Waiting for Godot' is the defining Theatre of the Absurd text. Which Romanian-French playwright, best known for 'The Bald Soprano' (1950) and 'Rhinoceros' (1959), is considered Beckett's closest peer in founding the movement?",
         "options": [
-          "Ravi, Beas, and Sutlej — the eastern rivers flowing toward the Punjab plains",
-          "Indus, Jhelum, and Chenab — the three western rivers",
-          "Kabul, Indus, and Jhelum — the northern and western tributaries",
-          "Indus, Chenab, and Ravi — the three main trunk rivers"
+          "Jean-Paul Sartre",
+          "Albert Camus",
+          "Eugène Ionesco",
+          "Harold Pinter"
         ],
-        "correct": 1,
-        "why": "The treaty gave Pakistan the three western rivers (Indus, Jhelum, Chenab) and India the three eastern rivers (Ravi, Beas, Sutlej).",
-        "deepDive": "The Indus Waters Treaty (1960), brokered by the World Bank, divided six rivers: Pakistan received the three western rivers (Indus, Jhelum, Chenab — higher flow, flowing into Pakistani Punjab and Sindh); India received the three eastern rivers (Ravi, Beas, Sutlej). India retained limited non-consumptive use rights on western rivers for navigation, fishing, and run-of-river hydropower. The treaty survived the 1965 and 1971 India-Pakistan wars, making it one of the most durable water-sharing agreements in history. Pakistan depends on the western rivers for approximately 80% of its agricultural water — any upstream diversion by India of the Indus, Jhelum, or Chenab is existential. India unilaterally suspended the treaty in April 2025 following the Pahalgam terror attack, eliminating the last regular"
+        "correct": 2,
+        "why": "Ionesco and Beckett are the twin architects of Theatre of the Absurd; 'The Bald Soprano' dismantled theatrical convention entirely while 'Rhinoceros' dramatised totalitarian conformism.",
+        "deepDive": "Eugène Ionesco (1909-1994) was born in Romania but wrote in French, and his debut 'The Bald Soprano' (1950) grew from his experience learning English by phrasebook — the banality of everyday dialogue became radical theatre. Critic Martin Esslin coined 'Theatre of the Absurd' in 1961 to describe Beckett, Ionesco, Adamov, and Genet. Ionesco's work is more politically satirical than Beckett's: 'Rhinoceros' depicts townsfolk transforming into rhinoceroses — a direct metaphor for fascism and mass conformism drawn from Ionesco's experience of Romanian fascism in the 1930s. Sartre and Camus (options A and B) are Existentialists, philosophically adjacent but theatrically distinct. Pinter (D) developed his own 'comedy of menace' influenced by Absurdism — but his signature style of pregnant pauses and power dynamics is categorically different."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "Grimm's Law describes systematic consonant shifts that distinguish Proto-Germanic from other Indo-European languages. Which specific correspondence does it predict?",
+        "subtopic": "arts",
+        "stem": "George Lucas explicitly credited which Akira Kurosawa film as the direct structural inspiration for Star Wars (1977), particularly for its device of telling an epic conflict through the eyes of two peripheral, comic characters?",
         "options": [
-          "PIE voiced stops (b, d, g) shift to Germanic voiceless stops (p, t, k)",
-          "PIE voiceless stops (p, t, k) shift to Germanic voiceless fricatives (f, θ, x/h)",
-          "PIE voiceless fricatives (f, s) shift to Germanic voiced stops (b, d)",
-          "Latin fricatives shift to Greek stops via the same mechanism as the English Great Vowel Shift"
+          "Rashomon (1950)",
+          "Yojimbo (1961)",
+          "The Hidden Fortress (1958)",
+          "Sanjuro (1962)"
         ],
-        "correct": 1,
-        "why": "Shift 1 of Grimm's Law: PIE voiceless stops p, t, k become Germanic voiceless fricatives f, þ (th), and h — e.g. Latin pater → English father.",
-        "deepDive": "Grimm's Law (1822), formulated by Jacob Grimm, identified three consonant shifts distinguishing Proto-Germanic (ancestor of English, German, Dutch, Norse, Gothic) from other Indo-European branches. Shift 1: PIE voiceless stops (p, t, k) → Germanic voiceless fricatives (f, þ/th, h). Examples: Latin pater → English father; Latin piscis → English fish; Latin canis → English hound. Shift 2: PIE voiced stops (b, d, g) → Germanic voiceless stops (p, t, k). Shift 3: PIE voiced aspirates (bh, dh, gh) → Germanic voiced fricatives, eventually hardening to (b, d, g). This explained why English and Latin share roots but look so different phonologically. Verner's Law (1875) later accounted for the exceptions by showing that word-stress patterns in PIE determined which words"
+        "correct": 2,
+        "why": "'The Hidden Fortress' follows two squabbling peasants trapped in a feudal war — Lucas cited it specifically as the template for C-3PO and R2-D2 narrating a larger conflict from the margins.",
+        "deepDive": "Kurosawa's influence on Hollywood constitutes a minor sub-discipline in film studies. 'The Hidden Fortress' (1958) gave Lucas the peripheral-characters framing device and the structure of a princess smuggled through enemy territory by an unlikely band — directly transposed into Star Wars. Rashomon (A) pioneered unreliable narration — multiple subjective accounts of the same event; many directors cite it but Lucas was specific about 'The Hidden Fortress.' Yojimbo (B) was the near-identical source for Sergio Leone's 'A Fistful of Dollars' (1964), for which Kurosawa successfully sued. 'Seven Samurai' became 'The Magnificent Seven' (1960). The cross-cultural loop completes itself: Kurosawa himself cited John Ford Westerns as formative, making the debt bilateral."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "Which album was the first rap record to reach #1 on the Billboard 200, signalling hip-hop's commercial breakthrough into mainstream America?",
+        "subtopic": "music",
+        "stem": "Miles Davis's 'Kind of Blue' (1959) is the best-selling jazz record of all time. Its approach — improvising over scales rather than rapid chord changes — gave a name to which movement in jazz?",
         "options": [
-          "Raising Hell — Run-DMC (1986)",
-          "Radio — LL Cool J (1985)",
-          "Licensed to Ill — Beastie Boys (1986)",
-          "Criminal Minded — Boogie Down Productions (1987)"
+          "Bebop",
+          "Free jazz",
+          "Hard bop",
+          "Modal jazz"
         ],
-        "correct": 2,
-        "why": "Licensed to Ill (Nov 1986) reached #1 on the Billboard 200 in early 1987 — the first rap album to do so — spending seven weeks at the top.",
-        "deepDive": "Licensed to Ill (Beastie Boys, Nov 1986) became the first rap album to reach #1 on the Billboard 200, spending seven weeks at the top in early 1987 and going 9× platinum in the US. Its crossover formula — hip-hop beats fused with rock guitar samples, including Led Zeppelin's 'When the Levee Breaks' — unlocked suburban rock audiences largely untouched by rap, proving hip-hop could dominate all-genre pop charts. Def Jam's success opened major-label doors industry-wide. Common confusion: Run-DMC's Raising Hell (1986) is often cited as the commercial breakthrough — it was the first rap album certified platinum and enormously influential — but it did not reach #1 on the Billboard 200. Licensed to Ill holds that specific first."
+        "correct": 3,
+        "why": "'Kind of Blue' pioneered modal jazz: soloists improvise within a mode (Dorian, Mixolydian) rather than navigating bebop's rapid ii-V-I substitutions, creating space and melodic freedom.",
+        "deepDive": "Miles Davis assembled the greatest recording session in jazz history for 'Kind of Blue': Coltrane, Cannonball Adderley, Bill Evans, Paul Chambers, Jimmy Cobb. Most players saw the compositions for the first time in the studio — Davis and Evans designed sparse modal frameworks (e.g., 'So What' alternates between D and E-flat Dorian) rather than dense bebop charts. Bebop (A), pioneered by Charlie Parker and Dizzy Gillespie in the 1940s, uses fast-moving chord progressions demanding virtuosic harmonic knowledge. Hard bop (C) was a 1950s evolution adding bluesy, gospel-inflected elements. Free jazz (B), associated with Ornette Coleman, abandoned tonal centres entirely — the opposite direction from modal jazz's measured architecture. 'Kind of Blue' has sold over 10 million copies; it remains the universal entry point for serious jazz listening."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The 1923 Convention on the Greek-Turkish population exchange under the Lausanne process was legally unprecedented primarily for what reason?",
+        "subtopic": "mathematics",
+        "stem": "Euler's identity (e^(iπ) + 1 = 0) is a special case of Euler's formula. Which pair of mathematical disciplines does Euler's formula most fundamentally connect?",
         "options": [
-          "It was the first treaty to impose a compulsory bilateral exchange — binding both states to transfer their own citizens by treaty obligation",
-          "It classified populations by ethnicity rather than religion, setting a new precedent in international humanitarian law",
-          "It was the first exchange to include individual financial reparations paid by the receiving state to displaced persons",
-          "It created a permanent international commission with binding enforcement powers over both signatory states"
+          "Number theory and combinatorics",
+          "Complex analysis and trigonometry — showing the complex exponential equals a combination of sine and cosine",
+          "Differential equations and linear algebra",
+          "Topology and set theory"
         ],
-        "correct": 0,
-        "why": "Lausanne was the first legally mandated compulsory bilateral exchange — both states were treaty-bound to transfer their own populations, unlike all prior displacements which were unilateral.",
-        "deepDive": "The 1923 Lausanne Convention was legally unprecedented: both sovereign states were bound by treaty to compulsorily transfer their own citizens — the first bilateral population exchange mandated under international law. Earlier mass movements (Balkan War displacements, Armenian deportations) were unilateral expulsions or flight; Lausanne created a mutual treaty obligation. Classification was by religion, not ethnicity: Greek Orthodox Christians left Anatolia (including Turkish-speakers), and Muslims left Greece (including Greek-speakers). Approximately 1.5 million Greeks and 500,000 Muslims were relocated. The template was debated — and largely rejected — during Palestine negotiations (1937 Peel Commission) and Cypriot partition talks. Critics argue it legitimised forced ethnic cleansing under international legal cover; defenders call it the least-bad alternative to ongoing massacres. Read: Bruce Clark,"
+        "correct": 1,
+        "why": "Euler's formula e^(iθ) = cos θ + i sin θ establishes that complex exponentials and trigonometric functions are the same object — rotation in the complex plane — viewed differently.",
+        "deepDive": "Euler published the formula in 1748 in 'Introductio in analysin infinitorum'. The identity e^(iπ)+1=0 emerges at θ=π: cos π = −1 and sin π = 0, so e^(iπ) = −1. The formula's deeper significance: multiplying by e^(iθ) is geometrically equivalent to rotating a point by angle θ in the complex plane, making complex exponentials the natural language for all oscillatory phenomena. AC circuit analysis, quantum wavefunctions, signal processing (Fourier transform), and control theory all rely on this connection. The identity is called beautiful because it links five fundamental constants — e (analysis), π (geometry), i (algebra), 1 and 0 (arithmetic) — in a single equation. Richard Feynman called it 'the most remarkable formula in mathematics'; it is routinely voted the most beautiful equation in physics and mathematics surveys."
       }
     ]
   }
