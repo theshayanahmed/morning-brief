@@ -364,61 +364,43 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  "date": "2026-06-14",
-  "dateLabel": "Sunday · 14 June 2026",
-  "editionLabel": "Edition · Sunday 14 June",
-  "headline": "G7 Évian opens tomorrow; Iran claims Hormuz victory; WCI +3% to $3,549 as early peak season bites; NVIDIA/TSMC bring AI inside the fab.",
+  "date": "2026-06-15",
+  "dateLabel": "Monday · 15 June 2026",
+  "editionLabel": "Edition · Monday 15 June",
+  "headline": "G7 opens in Évian with Zelensky in tow and AI CEOs on stage; US-Iran deal hours away; Anthropic's frontier models banned for all non-Americans; spot freight breaches $6K.",
   "sections": [
     {
       "title": "Macro · Geopolitics · Politics",
       "items": [
         {
-          "lead": "G7 Évian summit opens tomorrow",
-          "body": "June 15–17 agenda: Hormuz deal, critical-minerals secretariat, and a post-tariff framework before the Section 122 15%-cap expires July 24. AI CEOs Altman, Amodei, and Hassabis attend alongside G7 leaders — first time frontier-AI executives are embedded in the summit programme.",
-          "src": {
-            "name": "TechTimes",
-            "url": "https://www.techtimes.com/articles/318327/20260613/g7-summit-2026-iran-hormuz-deal-tariff-deadline-rare-earth-crisis-hit-evian.htm"
-          }
+          "lead": "G7 Évian underway — Ukraine, Iran, AI",
+          "body": "52nd G7 summit opens today in France (Jun 15-17); Zelensky joins Tuesday's Ukraine session for a peace-framework push; AI CEOs Altman, Amodei, and Hassabis appear before G7 leaders simultaneously for the first time — Macron's AI-governance agenda front and centre.",
+          "src": { "name": "EU Council", "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/06/15-17/" }
         },
         {
-          "lead": "Iran FM: 'Tehran considers itself the winner'",
-          "body": "Araghchi says ceasefire on all fronts imminent but insists Hormuz administration won't revert to pre-war status; frozen Iranian assets to be unblocked as part of the interim deal. G7 FMs made any Hormuz stabilisation mission conditional on full cessation of hostilities.",
-          "src": {
-            "name": "NATO News Pravda",
-            "url": "https://nato.news-pravda.com/world/2026/06/13/107937.html"
-          }
+          "lead": "Iran deal: text confirmed, signing imminent",
+          "body": "Pakistan's PM declared the US-Iran MoU text finalised June 12; draft bars Iran from Hormuz toll collection and requires mine-clearance within 30 days — Trump called signing 'imminent'; Iranian FM says 'a few hours away.'",
+          "src": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/6/12/pakistan-says-final-agreed-upon-text-of-iran-war-ceasefire-deal-reached" }
         },
         {
-          "lead": "US-China: June 11 deal freezes tariffs at 30% for 60 days",
-          "body": "20% fentanyl + 10% reciprocal duties stay in place; higher rates paused. USTR separately proposes Section 301 forced-labor duties on 60 economies (Bangladesh 10%, Vietnam 12.5%) — public comment closes July 6, creating parallel tariff risk to the main China deal.",
-          "src": {
-            "name": "Tax Foundation",
-            "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
-          }
+          "lead": "Ukraine: may truce violated, G7 is the pivot",
+          "body": "May 2026 truce repeatedly violated by both sides; Zelensky using G7 for a peace-framework push — US-brokered Abu Dhabi talks produced no breakthrough; Russia still demands Donbas withdrawal Kyiv will never accept.",
+          "src": { "name": "Chatham House", "url": "https://www.chathamhouse.org/2026/05/how-russia-ukraine-ceasefire-could-imperil-ukrainian-and-european-security/02-ukraine" }
         },
         {
-          "lead": "Pakistan outmaneuvers India as Iran war's key mediator",
-          "body": "Islamabad parlayed deep China and Gulf ties into an indispensable backchannel role neither Washington nor Delhi could replicate; India aligned with the US-Israeli camp and gained little diplomatic capital, straining its Vishwaguru positioning across the Global South.",
-          "src": {
-            "name": "EPC EU",
-            "url": "https://www.epc.eu/publication/why-pakistan-has-become-the-iran-wars-key-mediator-and-india-has-not/"
-          }
+          "lead": "ECB hiked 25bps — first since 2023",
+          "body": "Hormuz-driven energy inflation forced the ECB's June rate hike — first increase since 2023. Eurozone GDP now projected at just 0.8% for 2026; European leaders arrive at G7 under simultaneous trade-war and stagflation pressure.",
+          "src": { "name": "ECB", "url": "https://www.ecb.europa.eu/press/other-publications/ire/html/ecb.ire202606.en.html" }
         },
         {
-          "lead": "Ukraine netted ~100 sq miles in Zaporizhzhia–Kupyansk corridor",
-          "body": "Gains over April 28–May 26 are now being used as diplomatic leverage; no formal ceasefire but the G7 summit window is the clearest opportunity for a framework — Kyiv unlikely to accept terms that lock in territorial losses.",
-          "src": {
-            "name": "ZeroFox",
-            "url": "https://www.zerofox.com/intelligence/monthly-geopolitical-report-june-2026/"
-          }
+          "lead": "US tariff legal foundation struck down",
+          "body": "Supreme Court voided the 2025 'reciprocal tariff' legal basis; Trump admin drafting alternative legislation — but $165B in US-China trade already permanently rerouted, a structural shift that doesn't auto-reverse with any court ruling.",
+          "src": { "name": "Tax Foundation", "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/" }
         },
         {
-          "lead": "China indium exports to US down 77% since February 2025 controls",
-          "body": "Indium phosphide — the key optical interconnect material in next-gen AI data centres — is the hardest-hit item. G7 Évian is pushing a critical-minerals secretariat to coordinate Western alternative supply chains; the window before AI infrastructure hits a physical bottleneck is narrowing.",
-          "src": {
-            "name": "Discovery Alert",
-            "url": "https://discoveryalert.com.au/china-rare-earth-export-restrictions-us-processing-power/"
-          }
+          "lead": "Anthropic's top models banned for foreigners",
+          "body": "US government ordered (June 13) Fable 5 and Mythos 5 blocked for all foreign nationals, citing a discovered jailbreak. Anthropic complied but protested publicly: 'this standard would freeze all new frontier AI model deployments industry-wide.'",
+          "src": { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-13/anthropic-says-us-limits-foreign-access-to-fable-5-mythos-5" }
         }
       ]
     },
@@ -426,36 +408,24 @@ const TODAY = {
       "title": "Bangladesh & Subcontinent",
       "items": [
         {
-          "lead": "BCB sends formal ICC letter flagging India security concerns",
-          "body": "Bangladesh Cricket Board wrote to the ICC on June 13 detailing security concerns about the national team travelling to India for the T20 World Cup — the first formal diplomatic friction between Dhaka and Delhi channelled through cricket's governing body since the new government took office.",
-          "src": {
-            "name": "Daily Star",
-            "url": "https://www.thedailystar.net/"
-          }
+          "lead": "NBR: Tk 2.6 lakh crore gap with weeks left",
+          "body": "Bangladesh's NBR needs Tk 2.6 lakh crore more to avoid a historic FY26 revenue shortfall — with only weeks remaining in the fiscal year. Casts serious doubt on the FY27 target of Tk 6.04 lakh crore, a near-50% jump from likely actuals.",
+          "src": { "name": "Daily Star", "url": "https://www.thedailystar.net/business/economy/news/missed-targets-nbr-needs-tk-26-lakh-crore-june-avoid-shortfall-4157306" }
         },
         {
-          "lead": "USTR proposes 10% additional duty on Bangladesh over forced-labor failures",
-          "body": "Section 301 action (announced June 2) targets 60 economies; Bangladesh faces 10%, Vietnam 12.5%. Public comment closes July 6. Stacks directly on top of LDC-graduation tariff exposure — the RMG industry is mobilizing a lobbying response as BGMEA prepares submissions.",
-          "src": {
-            "name": "Textile Today BD",
-            "url": "https://www.textiletoday.com.bd/us-proposes-new-tariffs-on-bangladesh-and-59-other-economies-over-forced-labor-concerns"
-          }
+          "lead": "Forex reserves $29.5bn — shy of $40bn target",
+          "body": "Bangladesh Bank IMF-method reserves at $29.47bn (highest since July 2023), driven by strong remittances and IMF/WB disbursements — still well short of Governor Mansur's June 2026 target of $40bn.",
+          "src": { "name": "Daily Star", "url": "https://www.thedailystar.net/business/news/forex-reserves-cross-29-billion-month-imf-calculation-4102131" }
         },
         {
-          "lead": "FM Chowdhury's maiden budget frames a structural break from the Hasina era",
-          "body": "Finance Minister Amir Khosru Mahmud Chowdhury's first budget speech was simultaneously an indictment of the old fiscal order and a reform blueprint — committing to ease of doing business improvements and pitching Bangladesh as South Asia's most competitive investment destination.",
-          "src": {
-            "name": "Daily Star Business",
-            "url": "https://www.thedailystar.net/business"
-          }
+          "lead": "Pakistan cements mediator capital",
+          "body": "PM confirming Iran deal text finalised on June 12 repositions Islamabad as the indispensable back-channel — offsetting India's post-Pahalgam diplomatic gains and reshaping South Asia's power geometry ahead of any Gulf post-war reconstruction dividend.",
+          "src": { "name": "Washington Post", "url": "https://www.washingtonpost.com/world/2026/06/12/pakistan-prime-minister-says-us-iran-deal-text-finalized/" }
         },
         {
-          "lead": "Bangladesh GDP crosses $500B for the first time",
-          "body": "Nominal GDP hit $501B in FY25-26; PPP-adjusted figure is already ~$1.5–1.8T. The milestone matters for sovereign credit optics, but structural tests — export diversification, FX reserve rebuild, post-LDC preference erosion — remain the harder story.",
-          "src": {
-            "name": "TBS News",
-            "url": "https://www.tbsnews.net/economy/bangladesh-economy-crosses-half-trillion-dollar-mark-1459061"
-          }
+          "lead": "India-Pakistan ceasefire: one year, fraying",
+          "body": "US-brokered May 2025 ceasefire formally marks one year, but both sides file mutual LoC violation accusations; bilateral trade and Indus Waters Treaty talks remain frozen — managed antagonism, not peace.",
+          "src": { "name": "NBC News", "url": "https://www.nbcnews.com/world/india/india-pakistan-reach-ceasefire-deal-us-trump-rubio-rcna206010" }
         }
       ]
     },
@@ -463,44 +433,29 @@ const TODAY = {
       "title": "Trade · Freight",
       "items": [
         {
-          "lead": "Drewry WCI: +3% to $3,549/40ft (week of June 11)",
-          "body": "Shanghai–NY +7% to $5,870; Shanghai–LA +3% to $4,683. Early peak season fuelled by two drivers: shippers front-running the July 24 Section 122 tariff-cap expiry, and FIFA World Cup cargo demand — same dual-catalyst dynamic that pushed rates sharply in May.",
-          "src": {
-            "name": "Drewry WCI",
-            "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
-          }
+          "lead": "Maersk TP PSS goes live tomorrow",
+          "body": "Maersk's $1k/20ft, $2k/40ft Transpacific Peak Season Surcharge activates June 17 — stacking on Asia-Europe PSS already live since June 10; all major lanes now under simultaneous GRI and PSS regime for the first time this cycle.",
+          "src": { "name": "Maersk", "url": "https://www.maersk.com/news/articles/2026/05/18/far-east-asia-us-canada-pss-june" }
         },
         {
-          "lead": "Maersk PSS $1k/20ft effective June 17; Asia-Europe PSS already live",
-          "body": "Hapag-Lloyd and Maersk imposed $300–500/20ft, $600–1,000/40ft PSS on Asia–Europe from June 8–10; Maersk's Transpacific round ($1k/20ft, $2k/40ft) follows June 17. Back-to-back surcharge rounds signal carriers are actively defending rate floors through the peak.",
-          "src": {
-            "name": "SeaRates",
-            "url": "https://www.searates.com/blog/post/early-peak-season-container-rates-asia-europe-transpacific-2026"
-          }
+          "lead": "MSC targets $6,000/40ft; 30 sailings blanked",
+          "body": "Carriers blanked 30 sailings (Jun 12–Jul 16, 4.4% of scheduled capacity) to defend rate floors against the newbuild delivery wave; Rotterdam, Hamburg, Antwerp running 3-5 day berth delays amplifying the effective supply crunch.",
+          "src": { "name": "SeaNews UK", "url": "https://www.seanews.co.uk/maritime/freight-rates-increase-demand-ahead-of-new-u-s-tariffs-july-2026" }
         },
         {
-          "lead": "30 blank sailings Jun 12 – Jul 16; Northern Europe congested 3–5 days",
-          "body": "Carriers blanked 4.4% of scheduled sailings (30 of 680 across TP/TA/AE) to discipline capacity against the newbuild delivery wave. Rotterdam, Hamburg, and Antwerp are running 3–5 day berth delays — compressing effective supply and justifying further PSS without apparent oversupply.",
-          "src": {
-            "name": "SeaNews UK",
-            "url": "https://www.seanews.co.uk/maritime/freight-rates-increase-demand-ahead-of-new-u-s-tariffs-july-2026"
-          }
+          "lead": "Hormuz toll dispute blocks final MoU",
+          "body": "Iran's demand to charge transit fees on commercial vessels is the last major sticking point in the US-Iran MoU; Cape rerouting remains in effect, adding ~8 days per round-trip and structurally compressing effective fleet supply on every long-haul trade lane.",
+          "src": { "name": "Lloyd's List", "url": "https://www.lloydslist.com/LL1157327/Hormuz-crisis-side-effect-a-sharp-rise-in-container-shipping-rates" }
         },
         {
-          "lead": "Shanghai–Rotterdam +5% to $3,768; Genoa +1% to $5,139",
-          "body": "Asia–Europe spot rates ~40% above January 2026 lows. The Suez diversion dynamic from the Iran conflict continues to add 7–10 transit days on the round trip, compressing effective vessel supply on the lane and providing structural support for rates independent of seasonal demand.",
-          "src": {
-            "name": "Freightos Baltic Index",
-            "url": "https://www.freightos.com/enterprise/terminal/freightos-baltic-index-global-container-pricing-index/"
-          }
+          "lead": "Section 122 tariff cliff: six weeks out",
+          "body": "The 15% Section 122 tariff cap expires July 24. Current rate rally is partly artificial pull-forward demand; if Congress doesn't replace the cap, August bookings could collapse as front-loaded inventory unwinds sharply.",
+          "src": { "name": "VIZION", "url": "https://www.vizionapi.com/blog/how-rates-capacity-cuts-and-the-china-trade-truce-are-reshaping-global-trade" }
         },
         {
-          "lead": "Post-July 24 outlook: artificial demand spike, cliff risk after cap expiry",
-          "body": "The Section 122 15% tariff cap expires at 12:01am ET July 24 — six weeks from now. If Congress does not extend or replace it, US import duties reset, potentially flipping the front-running dynamic: a sharp demand cliff in August that unwinds the current rate rally.",
-          "src": {
-            "name": "VIZION",
-            "url": "https://www.vizionapi.com/blog/how-rates-capacity-cuts-and-the-china-trade-truce-are-reshaping-global-trade"
-          }
+          "lead": "US West Coast spot: +51% to $4,836/FEU",
+          "body": "Asia-US West Coast up 51% in two weeks; East Coast at $6,336/FEU. FIFA World Cup cargo demand compounding tariff front-loading, pulling peak season two months earlier than the 2024 cycle playbook.",
+          "src": { "name": "IndexBox", "url": "https://www.indexbox.io/blog/peak-shipping-season-underway-as-container-rates-surge-amid-tariffs-and-middle-east-tensions/" }
         }
       ]
     },
@@ -508,215 +463,192 @@ const TODAY = {
       "title": "Semis · AI",
       "items": [
         {
-          "lead": "NVIDIA + TSMC bring AI inside the semiconductor fab",
-          "body": "Partnership announced at GTC Taipei: NVIDIA AI applied to computational lithography, transistor simulation, defect inspection, and factory scheduling at TSMC fabs. First major AI-runs-the-fab deployment at nm-scale production — targets faster cycle times and better nanometer-scale defect detection.",
-          "src": {
-            "name": "NVIDIA Newsroom",
-            "url": "https://nvidianews.nvidia.com/news/nvidia-and-tsmc-bring-ai-into-fabs-to-advance-semiconductor-design-and-manufacturing"
-          }
+          "lead": "Fable 5 and Mythos 5 pulled globally",
+          "body": "Anthropic's two most powerful models blocked for all foreign nationals by US government order (June 13); Anthropic disputes: 'this standard, if applied industry-wide, would effectively halt all new frontier model deployments' — warns of chilling effect on AI development.",
+          "src": { "name": "Time", "url": "https://time.com/article/2026/06/13/anthropic-fable-mythos-ban-US-security/" }
         },
         {
-          "lead": "SIA/Deloitte: AI server chip revenue to hit $1.2T by 2028",
-          "body": "Semiconductors now constitute 95% of a full AI data-centre rack's total value. Revenue from chips deployed in AI workloads is on a ~10x, four-year trajectory — the single largest structural shift in computing economics since the PC era began in the 1980s.",
-          "src": {
-            "name": "SIA",
-            "url": "https://www.semiconductors.org/new-report-finds-semiconductors-account-for-95-of-an-ai-data-server-racks-value-encompassing-the-full-stack-of-chip-technologies/"
-          }
+          "lead": "BIS closes offshore China chip loophole",
+          "body": "June 1 BIS guidance extends Nvidia export licence requirements to offshore subsidiaries of China-HQ firms — closing the workaround that had let advanced Blackwell chips reach China via non-China affiliates; TSMC not yet required to perform additional due diligence.",
+          "src": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china" }
         },
         {
-          "lead": "Broadcom guidance miss triggered a sector-wide selloff",
-          "body": "Q3 AI chip guidance of $16B vs $17.2B analyst estimate; Broadcom fell 14%, NVIDIA –6%, AMD –10.9%, Intel –11.3% on June 4–5. Market is now pricing in cliff-risk from hyperscaler AI capex concentration — if two or three buyers slow orders, the entire food chain feels it.",
-          "src": {
-            "name": "Kavout",
-            "url": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off"
-          }
+          "lead": "Nvidia pivots TSMC capacity to Vera Rubin",
+          "body": "China H200 sales effectively zero post-export ban; Nvidia reallocating entire TSMC allocation to next-gen Vera Rubin AI training chips — TSMC guiding >30% revenue growth for 2026 on undiminished AI demand from US hyperscalers.",
+          "src": { "name": "Reuters", "url": "https://www.investing.com/news/stock-market-news/nvidia-refocuses-tsmc-capacity-as-export-controls-stall-china-sales-ft-reports-4542820" }
         },
         {
-          "lead": "AI CEOs urge Congress: mandate synthetic DNA screening now",
-          "body": "OpenAI, Anthropic, Google DeepMind, and Microsoft chiefs wrote to Congress June 5 warning that AI has materially lowered the expertise barrier for bioweapon design via online synthetic DNA/RNA orders — calling for mandatory screening of synthetic biology providers.",
-          "src": {
-            "name": "Yellow.com",
-            "url": "https://yellow.com/news/openai-anthropic-google-microsoft-synthetic-dna-congress-letter"
-          }
+          "lead": "OpenAI files S-1 confidentially",
+          "body": "Confidential SEC filing June 8; targeting Q4 2026 IPO at $852bn valuation — but company flagged missed early-2026 revenue and user-growth targets; Wall Street scrutiny of unit economics will be intense for an entity burning cash at scale.",
+          "src": { "name": "CNBC", "url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html" }
         },
         {
-          "lead": "Claude Mythos (Project Glasswing): 23,019 open-source vulnerabilities in month one",
-          "body": "Anthropic gave Claude Mythos Preview to 50 security partner organisations for defensive cyber work; in month one it found 23,019 vulnerabilities across 1,000+ open-source projects, 90.6% confirmed real on independent sampling. AI bulk-vulnerability scanning is now production-grade.",
-          "src": {
-            "name": "WaveSpeed Blog",
-            "url": "https://wavespeed.ai/blog/posts/june-2026-ai-launch-wave/"
-          }
-        },
-        {
-          "lead": "Light-powered photonic chip could reshape AI inference economics",
-          "body": "New photonic chip announced early June uses photons — not electrons — for matrix multiplication (the core neural-network operation), promising orders-of-magnitude gains in energy efficiency for AI inference workloads. Commercialisation timeline unclear but the physics have now been demonstrated at chip scale.",
-          "src": {
-            "name": "ScienceDaily",
-            "url": "https://www.sciencedaily.com/releases/2026/06/260601025343.htm"
-          }
+          "lead": "ChatGPT hits 1 billion monthly users",
+          "body": "Fastest consumer app to 1bn MAU in history — exactly as CEO Altman joins rivals Amodei and Hassabis at G7 in Évian today, the first time all three frontier-AI lab chiefs appear before world leaders together on AI governance.",
+          "src": { "name": "AI Weekly", "url": "https://aiweekly.co/ai-news-today/anthropic-news" }
         }
       ]
     }
   ],
   "lesson": {
-    "title": "Soft Power: How States Win Without Fighting — Joseph Nye's Framework",
+    "title": "The Rentier State: How Oil Wealth Short-Circuits Governance",
     "paragraphs": [
-      "In 1990, Harvard political scientist Joseph Nye coined 'soft power' to describe a state's ability to shape others' preferences through attraction rather than coercion or payment. Hard power compels — through military force or economic sanctions. Soft power co-opts: others want what you want because they find your culture appealing, your political values legitimate, and your foreign policy credible and fair. Nye later synthesised 'smart power' as the strategic combination of both. The three pillars are culture (Hollywood, K-pop, the BBC), political values (democracy and the rule of law — persuasive only when actually practised), and foreign policy (seen as legitimate and morally coherent).",
-      "A fourth category — sharp power, coined by the National Endowment for Democracy in 2017 — captures what authoritarian states do: manipulate information environments, use bribery and elite capture, and weaponise economic dependency to distort rather than attract. China's rare-earth export controls cutting US indium supply by 77% are not soft power; that is economic coercion dressed in civilian clothes — structurally closer to hard power without the military. The G7's agenda-setting capacity — writing the rules on AI governance, critical-mineral standards, and forced-labour tariffs — is the West's clearest soft-power expression right now.",
-      "Pakistan's emergence as the Iran war's key mediator illustrates soft power accruing from relational capital: Islamabad's leverage comes not from tanks but from trusted back-channels with Tehran, the Gulf, and Beijing that Washington lacks. Bangladesh's soft-power toolkit is underdeveloped but real: remittances build diaspora networks, RMG supply-chain dependency gives Dhaka leverage with Western buyers, and a non-aligned foreign-policy posture preserves maneuverability between India, China, and the West."
+      "Coined by economist Hossein Mahdavy in 1970 and refined by Hazem Beblawi, the 'rentier state' describes a government that derives most of its revenue from external rents — primarily oil and gas royalties paid by foreign companies — rather than taxing its own citizens. The core political consequence: no taxation without representation runs in reverse. When citizens pay no taxes, they have little institutional leverage to demand accountability, and the state becomes a distributor of largesse rather than a contractor with its population.",
+      "The rentier model creates three reinforcing dynamics: a distributive state (subsidies, free utilities, state jobs, and welfare replace taxation as the social contract), a well-funded repressive capacity (security apparatus financed without public accountability), and legitimacy purchase (citizens are bought off rather than empowered). Saudi Arabia, UAE, Kuwait, and Qatar are the canonical cases — all Gulf states that converted oil rents into compliance-based social contracts. Oil income also finances massive sovereign wealth funds and domestic megaprojects (airports, stadiums, universities) that signal modernisation without democratic participation.",
+      "Gulf states running Vision 2030-type programmes know the rentier model has a finite shelf life. EV adoption, renewables, and demand destruction threaten the oil income underwriting the social contract. The central question for the next two decades: can Gulf governments transition to taxing citizens and building genuine institutional accountability before oil rents collapse — essentially constructing a post-rentier state from scratch? Singapore built accountable, high-income governance without oil. Gulf states are attempting the same trajectory with a very different political baseline and a rapidly narrowing time window."
     ],
-    "why": "Every story in today's brief — the G7's normative agenda-setting, China's mineral leverage play, Pakistan's mediator capital, the AI CEOs' congressional lobbying, Bangladesh's forced-labour tariff threat — is a soft, sharp, or hard power move. Knowing which is which changes how you read who is actually winning."
+    "why": "MGH operates across the Gulf, South Asia, and Bangladesh — all tied to Gulf capital, remittances, and sovereign spending cycles. Understanding why Gulf states behave as they do — subsidising loyalty, building megaprojects, keeping citizens compliant via handouts rather than responsive governance — predicts regulatory stability, infrastructure investment durability, and sovereign risk in your operating markets. The Hormuz crisis driving today's freight costs is a downstream consequence of the Gulf's rentier geopolitics."
   },
   "questions": [
     {
       "n": 1,
       "topic": "industry",
-      "subtopic": "documentation",
-      "stem": "A shipper consigns electronics to a trusted repeat buyer and wants the receiver to collect without presenting any original transport document. Which instrument achieves this while remaining legally non-negotiable?",
+      "subtopic": "multimodal",
+      "stem": "A shipper moves goods from Wuhan to Frankfurt via river barge, rail, and road under a single through-bill of lading issued by one operator. What is the correct regulatory/commercial term for this arrangement?",
       "options": [
-        "Negotiable Bill of Lading",
-        "Sea Waybill",
-        "To-Order Bill of Lading",
-        "Straight Bill of Lading endorsed in blank"
+        "Intermodal transport",
+        "Segmented transport",
+        "Multimodal transport",
+        "Co-loading"
       ],
-      "correct": 1,
-      "why": "A sea waybill is non-negotiable — the named consignee collects on identity proof alone; no original document needs to be surrendered or couriered.",
-      "deepDive": "The sea waybill (SWB) and bill of lading (B/L) serve fundamentally different commercial purposes. A B/L is a document of title — whoever holds the original controls the cargo; this is essential for letter-of-credit trade where a bank needs a security interest over goods in transit. A sea waybill is merely a receipt and evidence of contract; the named consignee simply proves identity to collect — no original required. This makes SWBs faster, cheaper, and ideal for intra-company shipments or established trading relationships. The trade-off: SWBs cannot be traded or pledged to banks as collateral, making them unsuitable where a bank needs a lien over cargo. Electronic bills of lading (BOLERO, WAVE, essDOCS) now bridge this gap, offering negotiability without paper logistics — an area regulators are actively standardising globally."
+      "correct": 2,
+      "why": "Multimodal transport is defined as carriage by at least two modes under a single contract issued by one multimodal transport operator (MTO) — distinct from intermodal, which describes the loading unit, not the contractual structure.",
+      "deepDive": "Multimodal transport, referenced in the UN Multimodal Transport Convention (1980, not yet in force but widely cited), requires a single MTO to issue one combined transport bill of lading covering the entire door-to-door journey. The MTO bears full liability from origin to destination regardless of which mode caused damage. 'Intermodal' is widely misused as a synonym: it actually describes a cargo unit (container) staying the same across modes, potentially under separate contracts and liability regimes. A multimodal B/L from a Dhaka freight forwarder covering a Wuhan-to-Frankfurt door move means the shipper has one counterparty for all claims — critical distinction in disputes. Most modern house bills issued by freight forwarders are effectively multimodal documents."
     },
     {
       "n": 2,
       "topic": "industry",
-      "subtopic": "customs",
-      "stem": "A Bangladesh exporter ships woven fabric pre-cut into shirt shapes but not yet sewn. Under the WCO Harmonized System, which General Rule of Interpretation (GRI) determines that customs should classify these cut panels as shirts rather than fabric?",
+      "subtopic": "trade_lanes",
+      "stem": "Which containerised trade lane handles the highest global TEU volume — often surprising industry newcomers who assume it is the transpacific or Asia-Europe corridor?",
       "options": [
-        "GRI 1 — heading wording controls; classify as woven fabric",
-        "GRI 2(a) — incomplete-article rule; classify under finished shirt if essential character is present",
-        "GRI 3(b) — essential character of a mixture or composite good",
-        "GRI 6 — subheading-level classification takes precedence"
+        "Transpacific (Asia – North America West Coast)",
+        "Asia – Europe via Suez Canal",
+        "Intra-Asia",
+        "Transatlantic (Europe – North America)"
       ],
-      "correct": 1,
-      "why": "GRI 2(a) extends a tariff heading to incomplete or unfinished articles if they already present the essential character of the complete article — so pre-cut shirt panels classify under HS 62, not HS 54 fabric.",
-      "deepDive": "The Harmonized System (HS) is a 6-digit global tariff classification framework maintained by the WCO covering ~98% of world trade. Its six General Rules of Interpretation are applied sequentially. GRI 2(a) — the 'incomplete article' rule — is pivotal across global manufacturing: it extends headings to cover incomplete articles if they present the essential character of the finished good (a car body without an engine is still HS 8703). In Bangladesh's RMG sector this distinction is commercially critical: fabric (HS 54/55) and cut components (HS 61/62) attract different GSP tariff rates in the EU and UK — sometimes the difference between 0% and 12%. Post-LDC graduation, Bangladesh loses preference margins that currently shelter this classification advantage, making correct HS classification a major cost variable."
+      "correct": 2,
+      "why": "Intra-Asia is the largest by TEU volume (~35-40%), driven by dense regional manufacturing supply chains — components from Korea and Japan assembled in Vietnam or Bangladesh, redistributed across the region.",
+      "deepDive": "Intra-Asia trade covers routes between China, Japan, Korea, ASEAN, India, Bangladesh, Sri Lanka, and Pakistan. Because Asia is the world's manufacturing hub with massive internal supply chains, the volume of short-sea and feeder traffic dwarfs even the transpacific. Typical volume splits: Intra-Asia ~35-40%, Transpacific ~25-28%, Asia-Europe ~20-22%, Transatlantic ~5%. Singapore, Port Klang, Tanjung Pelepas, and Hong Kong are the key intra-Asian transshipment hubs. For Bangladesh-based logistics operators, understanding feeder connections to Colombo or Singapore as gateways to mainlane trade is commercially critical — the cost and frequency of these feeder calls directly determines Chittagong's competitiveness vs. Indian ports for third-country cargo."
     },
     {
       "n": 3,
       "topic": "industry",
-      "subtopic": "vessels",
-      "stem": "After the Panama Canal's expanded locks opened in 2016, which vessel class — capable of transiting the new locks — drove billions in US East Coast port infrastructure investment at Savannah, Baltimore, and New York?",
+      "subtopic": "marine_insurance",
+      "stem": "Under the Institute Cargo Clauses (A) — the broadest 'all risks' cargo cover available — which of the following loss events remains EXCLUDED from coverage?",
       "options": [
-        "VLCC (Very Large Crude Carrier)",
-        "Original Panamax (~4,500 TEU)",
-        "Neo-Panamax / New Panamax (~13,000–14,500 TEU)",
-        "ULCV (Ultra-Large Container Vessel, 18,000+ TEU)"
+        "Theft of cargo during a warehouse fire",
+        "Seawater ingress damage during a storm at sea",
+        "Deterioration caused by the cargo's inherent vice",
+        "General average contribution payable by the cargo owner"
       ],
       "correct": 2,
-      "why": "Neo-Panamax vessels (up to ~366m LOA, 49m beam, 15.2m draft) fit the new locks; US East Coast ports spent billions deepening channels to receive them, fundamentally restructuring the Transpacific trade routing.",
-      "deepDive": "Container vessel classes are defined by the physical constraints they must pass through. Original Panamax (≤4,500 TEU): 294m long, 32.3m beam, 12m draft — sized for the old Canal locks. The 2016 expansion created Neo-Panamax: up to 366m, 49m beam, 15.2m draft, ~13,000–14,500 TEU. This triggered massive US East Coast dredging programmes (Savannah Harbor Expansion, NY/NJ channel deepening). ULCVs (18,000–24,000+ TEU) are too large even for the new locks — they operate exclusively on Asia–Europe via Suez. The vessel class choice is central to liner network design: ULCVs minimise per-unit cost but require very few, very large gateway ports. For Bangladesh, Neo-Panamax feeder connections to Colombo or Port Klang determine the frequency and cost of Chittagong's access to mainlane trade."
+      "why": "Inherent vice — a cargo's natural tendency to deteriorate without any external cause — is excluded under all ICC clauses including the broadest ICC-A. 'All risks' means all external risks, not all risks without exception.",
+      "deepDive": "Inherent vice is the cargo's own tendency to self-damage: fruit ripening, iron rusting in humidity, rubber degrading from heat, or glass cracking under its own weight. All three ICC clauses (A, B, and C) explicitly exclude it. Insurance buyers commonly mistake 'all risks' for genuinely comprehensive cover. Other universal ICC exclusions include wilful misconduct of the assured, ordinary wear and tear, loss from delay (even when the delay is caused by an insured peril), and nuclear contamination. Carriers regularly disclaim inherent vice in B/L terms too. When a claim is denied for inherent vice, the shipper's recourse is typically against the packer or manufacturer, not the carrier or insurer. Forensic surveyors and loss adjusters assess whether deterioration has an external trigger or is purely self-generated."
     },
     {
       "n": 4,
       "topic": "industry",
-      "subtopic": "port_ops",
-      "stem": "Bangladesh maritime authorities board a foreign-flagged vessel at Chittagong, inspect SOLAS certificates, MARPOL compliance, and MLC 2006 crew conditions — then detain it for deficiencies. This authority derives from which international regime?",
+      "subtopic": "compliance",
+      "stem": "A freight forwarder screens a new customer against OFAC's Specially Designated Nationals (SDN) list and gets a positive match on the consignee. Which action is legally required under US sanctions law?",
       "options": [
-        "Flag State Control — the ship's flag nation enforces standards globally",
-        "Port State Control (PSC) — coastal states inspect foreign vessels in their ports",
-        "Classification Society Survey — the vessel's class society inspects for structural safety",
-        "Charterer's Pre-Fixture Inspection — commercial vetting by the cargo owner"
+        "File a Suspicious Activity Report with FinCEN and proceed with the shipment",
+        "Block the transaction and report it to OFAC within 10 business days",
+        "Refuse the booking but take no formal reporting obligation",
+        "Apply for a specific licence from BIS before proceeding"
       ],
       "correct": 1,
-      "why": "Port State Control gives coastal states authority under SOLAS, MARPOL, and MLC to inspect any foreign-flagged vessel in their ports and detain sub-standard ships until deficiencies are corrected.",
-      "deepDive": "Port State Control (PSC) is the system by which a coastal nation inspects foreign-flagged vessels visiting its ports for compliance with SOLAS (Safety of Life at Sea), MARPOL (marine pollution), MLC 2006 (seafarer labour), and STCW (crew training). Authority derives from the law of the sea: once inside a port, the coastal state has jurisdiction regardless of the vessel's flag. Nine regional PSC MOUs (Paris, Tokyo, Indian Ocean, etc.) coordinate globally, sharing detention records to prevent 'port shopping.' Bangladesh falls under the Indian Ocean MOU. A detained vessel cannot depart until deficiencies are corrected — daily charter-rate exposure of $10,000–30,000 for a container ship. Panama, Comoros, and Palau flags historically attract higher PSC detention rates than Norway or Germany, driving 'flag discrimination' in commercial chartering."
+      "why": "SDN matches require blocking the transaction and reporting to OFAC (not FinCEN, not BIS) within 10 business days — proceeding with the shipment is illegal and carries severe civil and criminal penalties.",
+      "deepDive": "OFAC (Office of Foreign Assets Control) administers US sanctions and its SDN list is among the world's most powerful financial regulatory tools. Any US person — and many non-US entities via secondary sanctions — must block transactions with SDN-listed parties and file a blocked-property report with OFAC within 10 business days. For logistics operators, SDN screening before booking, accepting payment, or releasing goods is mandatory. False negatives carry severe civil penalties (up to the greater of $308,000 per violation or twice the transaction value) and potential criminal liability. OFAC's extraterritorial reach means even non-US carriers risk losing dollar-clearing access if they knowingly serve sanctioned parties. Common confusion: BIS handles export controls (EAR/CCL) while OFAC handles sanctions (SDN/blocked parties) — different regimes, different reporting obligations, different enforcement agencies."
     },
     {
       "n": 5,
       "topic": "industry",
-      "subtopic": "liner_alliances",
-      "stem": "After the 2M partnership (Maersk + MSC) dissolved in early 2025, Maersk formed a new operational alliance. What is it called, and who is its partner carrier?",
+      "subtopic": "industry_econ",
+      "stem": "The Bunker Adjustment Factor (BAF) charged by ocean carriers is designed to recover which specific underlying operating cost?",
       "options": [
-        "THE Alliance — Maersk + Hapag-Lloyd + ONE",
-        "Gemini Cooperation — Maersk + Hapag-Lloyd",
-        "Premier Alliance — Maersk + CMA CGM",
-        "Ocean Alliance — Maersk + COSCO + Evergreen"
+        "Port terminal handling fees that vary by destination",
+        "Fuel oil consumption changes for vessel propulsion",
+        "Crew wages indexed to flag-state inflation",
+        "Canal toll increases on key waterways"
       ],
       "correct": 1,
-      "why": "The Gemini Cooperation — Maersk and Hapag-Lloyd, launched February 1, 2025 — replaced 2M with a hub-and-spoke model explicitly targeting 90%+ schedule reliability.",
-      "deepDive": "The container shipping alliance landscape restructured dramatically in 2025. MSC — now the world's largest carrier — went fully independent after 2M broke up, giving it maximum pricing flexibility unconstrained by slot obligations. Maersk and Hapag-Lloyd formed the Gemini Cooperation (launched February 1, 2025), targeting a stated 90%+ schedule reliability vs. the industry average ~55%. Gemini operates a hub-and-spoke model with fewer, larger mainlane vessels connecting to secondary ports via feeder services — departing from traditional point-to-point port pairing. THE Alliance remnants (ONE, Yang Ming, HMM) rebranded as the Premier Alliance; Ocean Alliance (CMA CGM, COSCO, Evergreen, OOCL) continues unchanged. Commercial implication for Bangladesh: feeder access from Chittagong to Gemini mainlane hubs (e.g. Colombo, Port Klang) is now negotiated outside the old alliance framework, potentially changing frequency and pricing."
+      "why": "BAF specifically recovers changes in bunker fuel cost — the largest variable operating expense for container vessels, typically 20-35% of total voyage costs.",
+      "deepDive": "Bunker fuel is the single largest variable operating cost for container ships (typically 20-35% of total voyage costs). Carriers introduced BAF (Bunker Adjustment Factor) — also called Low Sulphur Surcharge (LSS) — as a pass-through mechanism so that base freight rates reflect demand and capacity while fuel volatility is handled separately. The 2020 IMO 0.5% sulphur cap (IMO 2020) forced ships to switch from cheap high-sulphur fuel oil (HSFO) to more expensive very-low-sulphur fuel oil (VLSFO), costing 30-40% more and triggering major surcharge recalibrations. Today's BAF calculations are route-specific and tied to VLSFO price indices at Singapore, Rotterdam, and Fujairah. Shippers should scrutinise BAF clauses carefully — some contracts allow unlimited pass-through while others cap or fix fuel cost exposure for the contract period."
     },
     {
       "n": 6,
       "topic": "gk",
-      "subtopic": "history",
-      "stem": "Lord Curzon's 1905 partition of Bengal was reversed in 1911 under mass nationalist pressure. What was the most consequential political outcome of the reversal for the subcontinent's long-run trajectory?",
+      "subtopic": "mathematics",
+      "stem": "Bayes' Theorem lets you update the probability of a hypothesis given new evidence. Which formula correctly expresses P(H|E)?",
       "options": [
-        "It permanently reconciled Hindu and Muslim political leadership within the Indian National Congress",
-        "It reinforced Muslim separatism — Muslim League leaders read the reversal as proof that Congress-led Hindu agitation could override Muslim interests, accelerating the case for a separate Muslim political vehicle",
-        "It discredited the Swadeshi movement, which collapsed immediately following the British concession",
-        "It triggered the Morley-Minto Reforms of 1911, which granted Muslims separate electorates for the first time"
+        "P(E|H) × P(H) / P(E)",
+        "P(H) × P(E) / P(H|E)",
+        "P(E|H) / [P(E|H) + P(E|not-H)]",
+        "P(H) + P(E) − P(H and E)"
       ],
-      "correct": 1,
-      "why": "The reversal was widely interpreted by Muslim League leaders as Congress mass mobilisation overriding a settlement favourable to East Bengal Muslims — strengthening the argument for separate political representation.",
-      "deepDive": "Curzon's October 16, 1905 partition of Bengal created a Muslim-majority East Bengal & Assam and a Hindu-majority West Bengal. The backlash produced the Swadeshi movement — boycott of British goods, mass cloth-burning — and split Congress between Moderates and Extremists (the 'Lal Bal Pal' trio: Tilak, Pal, Lajpat Rai, demanding swaraj). When Britain reversed the partition in 1911, Muslim elites in Dhaka concluded their interests could be overridden by sustained Hindu agitation — sharpening the argument for a separate political vehicle. The Muslim League (founded in Dhaka, 1906) grew more assertive. The Morley-Minto Reforms (1909, not 1911) had already institutionalised separate Muslim electorates. Together — partition, reversal, separate electorates — these events form the direct genealogy of the 1947 partition and Bangladesh's 1971 independence. The 1905 partition literally drew the map of what later became East Pakistan and then Bangladesh."
+      "correct": 0,
+      "why": "Bayes' theorem: posterior = (likelihood × prior) / marginal evidence. P(H|E) = P(E|H) × P(H) / P(E). The numerator multiplies the likelihood by the prior; the denominator normalises by total evidence probability.",
+      "deepDive": "Thomas Bayes (1701-1761), an English minister, wrote the theorem published posthumously in 1763. Its power lies in the 'prior' — your baseline belief before new evidence. When evidence arrives, multiply the prior by the likelihood (how probable the evidence is if the hypothesis were true) and normalise by the total probability of observing that evidence at all. This underlies spam filters, medical diagnosis, AI model training, intelligence assessment, and financial risk models. A classic trap: 'base rate neglect' — if a disease affects 1 in 1,000 people and a test is 99% accurate, a positive result still implies only about a 9% chance of actually having the disease. Bayesian reasoning corrects this counter-intuitive but very common error. Option C is related — it is the expanded denominator form — but not the canonical statement of Bayes' theorem."
     },
     {
       "n": 7,
       "topic": "gk",
-      "subtopic": "geography",
-      "stem": "The Strait of Malacca narrows to approximately 2.7 km at the Phillips Channel near Singapore. Roughly what share of global seaborne trade by value passes through it each year?",
+      "subtopic": "literature",
+      "stem": "Gabriel García Márquez's 'One Hundred Years of Solitude' (1967) follows six generations of the Buendía family through founding, boom, and decay. In which fictional town is the novel set?",
       "options": [
-        "~5–8%",
-        "~20–25%",
-        "~40–45%",
-        "~60%"
+        "Santa Marta",
+        "Bogotá",
+        "Macondo",
+        "Aracataca"
       ],
-      "correct": 1,
-      "why": "~80,000–90,000 vessels transit Malacca annually, carrying roughly 20–25% of global trade by value — including ~80% of China's seaborne oil imports — making it the world's busiest maritime chokepoint by vessel count.",
-      "deepDive": "The Strait of Malacca — 800 km long between the Malay Peninsula and Sumatra — narrows to 2.7 km at the Phillips Channel, with a minimum navigable depth of ~25 metres that limits laden VLCCs. Roughly 80,000–90,000 vessels transit annually, carrying ~25% of global trade and about a third of global container traffic, plus vast quantities of Gulf crude heading to China, Japan, South Korea, and Taiwan. China's 'Malacca Dilemma' — over-reliance on a chokepoint flanked by Singapore (a close US partner) — has driven the China-Myanmar Economic Corridor pipeline, the Kyaukphyu deepwater port, and BRI land-bridge ambitions. A closure would reroute ships via Lombok or Sunda Straits, adding 2–4 transit days and hundreds of dollars per TEU. For MGH's Bangladesh operations, Malacca's health is existential: most Chittagong export containers route through or near it en route to East Asia and the US West Coast."
+      "correct": 2,
+      "why": "The novel is set in Macondo — fictional. Aracataca is García Márquez's real birthplace that inspired Macondo, making it the classic trap answer.",
+      "deepDive": "García Márquez based Macondo on Aracataca, his birthplace in Colombia's Caribbean lowlands — a banana plantation town he visited as an adult and found in magical decline under United Fruit Company legacy. One Hundred Years of Solitude uses magical realism: presenting supernatural events as mundane and mundane events as extraordinary — a mode that is deeply political, rooted in Latin American colonial and post-colonial experience, not fantasy escapism. García Márquez won the Nobel Prize in Literature in 1982. He wrote the novel in 18 months in Mexico City while the family was so poor his wife pawned her hair dryer to pay postage for the final chapters. A common misconception: the four central themes (solitude, repetition, memory, political violence) mirror Latin American history directly — the Buendía family's cycles are Colombia's political cycles in literary form."
     },
     {
       "n": 8,
       "topic": "gk",
-      "subtopic": "economics",
-      "stem": "Bangladesh's nominal GDP just crossed $500 billion; the IMF's PPP-adjusted figure is roughly 3× larger (~$1.5–1.8T). What specific economic phenomenon does the PPP adjustment correct for?",
+      "subtopic": "arts",
+      "stem": "In Raphael's 'School of Athens' (c.1509-11), the two central figures are Plato and Aristotle, identified by contrasting gestures. What do their gestures signify?",
       "options": [
-        "The informal economy not captured in official national accounts",
-        "Differences in domestic price levels — a dollar buys far more goods and services in Bangladesh than in the US",
-        "Currency speculation and black-market exchange rate premiums over the official BDT rate",
-        "Seasonal inflation spikes in food and fuel not smoothed in GDP deflators"
+        "Socrates pointing up (ideal Forms) and Aristotle pointing down (empirical world)",
+        "Plato pointing up (transcendent Forms) and Aristotle gesturing forward (observational method)",
+        "Plato pointing up (eternal truth) and Aristotle pointing downward (earthly reality)",
+        "Heraclitus pointing up (flux) and Parmenides pointing down (permanence)"
       ],
-      "correct": 1,
-      "why": "PPP adjusts for the fact that a dollar buys far more in Bangladesh than in the US — correcting for price-level differences so that real productive capacity and living standards are not understated by nominal exchange rates.",
-      "deepDive": "Purchasing Power Parity (PPP) is the hypothetical exchange rate at which two currencies would buy an identical basket of goods. Formalised by the IMF/World Bank International Comparison Program and popularised by The Economist's Big Mac Index (1986), PPP corrects a systematic bias in nominal GDP comparisons: developing-country currencies appear 'weak' partly because non-tradeable goods (haircuts, housing, meals) are cheap locally. A Bangladeshi earning BDT 50,000/month has far more real purchasing power than the ~$460 nominal USD equivalent implies. PPP-adjusted GDP ~$1.5–1.8T puts Bangladesh inside the global top 30 — largely invisible in nominal rankings. This matters strategically for MNC cost models, IMF lending capacity calculations, and development economics. But nominal GDP governs hard realities: dollar-denominated debt servicing, import capacity, and hard-currency export earnings — making Bangladesh Bank's FX management and the current account balance so consequential for businesses with cross-border treasury exposure."
+      "correct": 2,
+      "why": "Plato points upward to his theory of transcendent eternal Forms; Aristotle gestures downward/outward toward the earthly, observable world — the two gestures encode their core philosophical disagreement.",
+      "deepDive": "Raphael painted the 'School of Athens' in the Stanza della Segnatura in the Vatican Palace for Pope Julius II around 1509-1511, as part of a four-room fresco cycle. The fresco places roughly 30 Greek philosophers in an idealised Greco-Roman architectural setting. Plato's upward finger encodes his Theory of Forms: ultimate reality resides in abstract, eternal, transcendent Forms — the physical world is mere shadow. Aristotle's downward gesture encodes his empiricism: truth is found through careful observation of the physical world. This tension between idealism and empiricism defines much of Western intellectual history. Plato's face is believed to be modelled on Leonardo da Vinci. Option A is a common error — the two figures are definitively Plato and Aristotle, not Socrates and Aristotle; Socrates appears elsewhere in the fresco."
     },
     {
       "n": 9,
       "topic": "gk",
-      "subtopic": "linguistics",
-      "stem": "UNESCO's International Mother Language Day — observed every February 21 — was established to honour the 1952 Language Movement martyrs. What specific policy were students protesting when police shot them at Dhaka University?",
+      "subtopic": "music",
+      "stem": "J.S. Bach's 'The Well-Tempered Clavier' (Books I and II, 1722 and 1742) presents preludes and fugues in all 24 major and minor keys. What did its composition primarily demonstrate?",
       "options": [
-        "The British colonial ban on teaching Bengali at Dhaka University post-Partition",
-        "Pakistan's declaration that Urdu alone would be the national language, excluding Bangla despite it being spoken by the majority of Pakistan's total population",
-        "The exclusion of Bangla from the United Nations' list of official languages in 1948",
-        "India's imposition of Hindi as the medium of instruction in East Bengal schools"
+        "The superiority of the harpsichord over the clavichord for polyphonic writing",
+        "That equal (or well) temperament tuning allowed playing in all keys without retuning",
+        "A new approach to choral harmony by adapting medieval church modes",
+        "The mathematical relationship between fugue subject inversion and retrograde motion"
       ],
       "correct": 1,
-      "why": "Pakistan's 1948 Urdu-only national language declaration was rejected by East Pakistan's Bangla-speaking majority — protests on February 21, 1952 ended when police killed students at Dhaka University.",
-      "deepDive": "The 1952 Language Movement — Bhasha Andolan — is one of history's most consequential linguistic protests and the foundational act of Bangladeshi national consciousness. Pakistan's founder Jinnah declared Urdu the sole national language in 1948, despite East Pakistan's ~55% share of total Pakistani population being Bangla-speaking. Resistance built until February 21, 1952, when police opened fire on Dhaka University demonstrators, killing Abul Barkat, Rafiquddin Ahmed, and others — the Bhasha Shahids. The Shaheed Minar monument was built in their honour. UNESCO declared February 21 International Mother Language Day in November 1999, effective from 2000, globalising the date as a celebration of linguistic diversity. The Language Movement is the first distinct act of the independence struggle: it established that Bengali identity was incompatible with Pakistani statehood, setting the trajectory to the 1971 Liberation War. Bangla is the 7th most spoken language globally by native speakers, at ~230 million — and the only language for which people died in a national sovereignty struggle."
+      "why": "The WTC demonstrated that a single keyboard instrument, tuned with equal (or well) temperament, could navigate all 24 keys expressively — previously certain keys were harsh or unusable under older tuning systems.",
+      "deepDive": "Before equal temperament, keyboard instruments used meantone or just intonation: beautifully pure in certain keys but harsh or unplayable in others, so performers typically worked in two or three preferred keys. Equal temperament subtly 'wrongs' every interval (no perfectly pure fifth or major third) but wrongs them all equally, making every key equally usable and modulation between distant keys seamless. Bach's WTC demonstrated this across all 24 keys — though historians debate whether he used strict equal temperament or a specific 'well temperament' variant. Either way, the work opened the door to Romantic-era free modulation: Beethoven's distant-key excursions, Schubert's harmonic surprises, and Brahms's complex tonal architecture would have been musically impossible without it. The WTC is often called the 'Old Testament' of the keyboard repertoire; Beethoven's 32 sonatas are the 'New Testament.'"
     },
     {
       "n": 10,
       "topic": "gk",
-      "subtopic": "physical_science",
-      "stem": "Regulators worldwide designate sub-6GHz spectrum (especially 3.5GHz C-band) as the primary band for broad national 5G NR coverage rather than millimeter wave (mmWave, 24–86GHz). What is the core physical reason mmWave cannot serve as a national coverage layer?",
+      "subtopic": "religion",
+      "stem": "Zakat — the third Pillar of Islam — is obligatory on wealth held above the nisab threshold for one lunar year. What percentage rate applies to savings, investments, and business inventory?",
       "options": [
-        "mmWave signals carry less data per hertz than sub-6GHz signals",
-        "mmWave signals attenuate rapidly over distance and are blocked by walls, rain, and foliage — limiting cell coverage radius to roughly 100–300 metres",
-        "The ITU reserves the mmWave band exclusively for satellite and radar applications",
-        "mmWave base stations require substantially more power per transmitted bit at scale"
+        "2%",
+        "2.5%",
+        "5%",
+        "10%"
       ],
       "correct": 1,
-      "why": "Higher frequency = shorter wavelength = much faster path-loss and poor obstacle penetration; mmWave cells cover ~100–300 m vs. several kilometres for sub-6GHz, making national rollout economically impractical.",
-      "deepDive": "Radio frequency propagation follows a fundamental physics trade-off: lower frequency (longer wavelength) → greater range and obstacle penetration, lower peak bandwidth capacity per channel. Sub-6GHz (especially 3.5 GHz C-band) balances range and capacity — a single base station covers kilometres, penetrates building walls, and handles thousands of simultaneous devices. Millimeter wave (mmWave, 24–86 GHz) offers extraordinary bandwidth — multi-gigabit speeds — but signals attenuate severely in rain, are blocked by walls, foliage, and even humidity, and realistically cover only 100–300 metres per small cell. mmWave therefore concentrates in dense, controlled venues: stadiums, airports, convention centres, factory floors. Spectrum auction economics reflect this scarcity differential: sub-6GHz bands sell for enormous premiums. Bangladesh Telecom Regulatory Commission's spectrum allocation decisions directly affect whether BD carriers can build cost-effective 5G for port logistics digitalisation, warehouse automation, and supply-chain IoT — areas directly relevant to logistics operators like MGH."
+      "why": "Zakat al-mal (on wealth) is 2.5% of net assets exceeding the nisab (roughly equivalent to 85g of gold or 595g of silver) held for one full lunar year.",
+      "deepDive": "Zakat (from Arabic zakāh — purification or growth) is obligatory almsgiving, the third of Islam's Five Pillars. The nisab is the minimum wealth threshold: approximately 85 grams of gold or 595 grams of silver in value. When savings, investments, or business inventory exceed the nisab for a full lunar year (hawl), 2.5% of the total is due. Unlike income tax, zakat is calculated on net assets held, not on income earned. The Quran (9:60) designates eight specific recipient categories: the poor, the needy, zakat administrators, those whose hearts are to be reconciled, those in bondage, the indebted, in the cause of God, and the wayfarer. In Bangladesh, Malaysia, Saudi Arabia, and several other Muslim-majority countries, zakat is institutionally administered alongside the state. Key distinctions: zakat vs. sadaqah (voluntary charity) — zakat is a legal obligation with fixed rules; ushr (tithe on agricultural produce irrigated naturally) is 10%; Shia khums is 20% of surplus income."
     }
   ]
 };
