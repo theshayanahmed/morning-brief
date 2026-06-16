@@ -1,6 +1,6 @@
 {
   "streak": 3,
-  "last_session_date": "2026-06-15",
+  "last_session_date": "2026-06-16",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -361,7 +361,17 @@
     "Gabriel García Márquez's 'One Hundred Years of Solitude' (1967) follows six generations of the Buendía family through founding, boom, and decay. In which fictional town is the novel set?",
     "In Raphael's 'School of Athens' (c.1509-11), the two central figures are Plato and Aristotle, identified by contrasting gestures. What do their gestures signify?",
     "J.S. Bach's 'The Well-Tempered Clavier' (Books I and II, 1722 and 1742) presents preludes and fugues in all 24 major and minor keys. What did its composition primarily demonstrate?",
-    "Zakat — the third Pillar of Islam — is obligatory on wealth held above the nisab threshold for one lunar year. What percentage rate applies to savings, investments, and business inventory?"
+    "Zakat — the third Pillar of Islam — is obligatory on wealth held above the nisab threshold for one lunar year. What percentage rate applies to savings, investments, and business inventory?",
+    "The Boeing 747-8F, 777F, and Airbus A330-200F are examples of which aircraft classification used in cargo operations?",
+    "At an air cargo terminal, 'break-bulk' in the import process refers to which operation?",
+    "Maersk's 2017 acquisition of Hamburg Süd was primarily driven by which strategic rationale?",
+    "In ocean freight service contracts, 'dead freight' is the charge levied when:",
+    "In supply chain theory, the bullwhip effect describes amplifying demand variability as signals move upstream. What is the primary mechanism driving this amplification?",
+    "Which cellular organelle generates ATP through oxidative phosphorylation using the electron transport chain?",
+    "John Rawls's 'veil of ignorance' asks rational agents to design society without knowing their social position. What principle does this exercise derive?",
+    "In cricket, a delivery that bounces twice before reaching the batsman is officially ruled as:",
+    "Quentin Tarantino's Pulp Fiction (1994) won which prestigious award at the Cannes Film Festival?",
+    "Purchasing Power Parity (PPP) predicts that in the long run, exchange rates between two countries should adjust so that:"
   ],
   "learn_history": [
     {
@@ -548,6 +558,11 @@
       "date": "2026-06-15",
       "topic": "The Rentier State: How Oil Wealth Short-Circuits Governance",
       "bucket": "sociopolitical"
+    },
+    {
+      "date": "2026-06-16",
+      "topic": "Forward Freight Agreements: The Derivatives Market That Prices Shipping Risk",
+      "bucket": "industry_deep_dive"
     }
   ],
   "curriculum_progress": {
@@ -642,32 +657,32 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 8,
-      "last_seen": "2026-06-12",
+      "count": 9,
+      "last_seen": "2026-06-16",
       "difficulty": 1,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 8,
-      "last_seen": "2026-06-12",
+      "count": 9,
+      "last_seen": "2026-06-16",
       "difficulty": 1,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 8,
-      "last_seen": "2026-06-12",
+      "count": 9,
+      "last_seen": "2026-06-16",
       "difficulty": 1,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 8,
-      "last_seen": "2026-06-12",
+      "count": 9,
+      "last_seen": "2026-06-16",
       "difficulty": 1,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 8,
-      "last_seen": "2026-06-12",
+      "count": 9,
+      "last_seen": "2026-06-16",
       "difficulty": 1,
       "rolling_score": []
     }
@@ -692,8 +707,8 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 13,
-      "last_seen": "2026-06-13",
+      "count": 14,
+      "last_seen": "2026-06-16",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -728,14 +743,14 @@
       "rolling_score": []
     },
     "political_theory": {
-      "count": 12,
-      "last_seen": "2026-06-13",
+      "count": 13,
+      "last_seen": "2026-06-16",
       "difficulty": 3,
       "rolling_score": []
     },
     "economics": {
-      "count": 12,
-      "last_seen": "2026-06-14",
+      "count": 13,
+      "last_seen": "2026-06-16",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -746,174 +761,23 @@
       "rolling_score": []
     },
     "sport": {
-      "count": 12,
-      "last_seen": "2026-06-13",
+      "count": 13,
+      "last_seen": "2026-06-16",
       "difficulty": 3,
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 12,
-      "last_seen": "2026-06-13",
+      "count": 13,
+      "last_seen": "2026-06-16",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-06-15",
+    "date": "2026-06-16",
     "current_q": 1,
     "answers": [],
-    "questions": [
-      {
-        "n": 1,
-        "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "A shipper moves goods from Wuhan to Frankfurt via river barge, rail, and road under a single through-bill of lading issued by one operator. What is the correct regulatory/commercial term for this arrangement?",
-        "options": [
-          "Intermodal transport",
-          "Segmented transport",
-          "Multimodal transport",
-          "Co-loading"
-        ],
-        "correct": 2,
-        "why": "Multimodal transport is defined as carriage by at least two modes under a single contract issued by one multimodal transport operator (MTO) — distinct from intermodal, which describes the loading unit, not the contractual structure.",
-        "deepDive": "Multimodal transport, referenced in the UN Multimodal Transport Convention (1980, not yet in force but widely cited), requires a single MTO to issue one combined transport bill of lading covering the entire door-to-door journey. The MTO bears full liability from origin to destination regardless of which mode caused damage. 'Intermodal' is widely misused as a synonym: it actually describes a cargo unit (container) staying the same across modes, potentially under separate contracts and liability regimes. A multimodal B/L from a Dhaka freight forwarder covering a Wuhan-to-Frankfurt door move means the shipper has one counterparty for all claims — critical distinction in disputes. Most modern house bills issued by freight forwarders are effectively multimodal documents."
-      },
-      {
-        "n": 2,
-        "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "Which containerised trade lane handles the highest global TEU volume — often surprising industry newcomers who assume it is the transpacific or Asia-Europe corridor?",
-        "options": [
-          "Transpacific (Asia – North America West Coast)",
-          "Asia – Europe via Suez Canal",
-          "Intra-Asia",
-          "Transatlantic (Europe – North America)"
-        ],
-        "correct": 2,
-        "why": "Intra-Asia is the largest by TEU volume (~35-40%), driven by dense regional manufacturing supply chains — components from Korea and Japan assembled in Vietnam or Bangladesh, redistributed across the region.",
-        "deepDive": "Intra-Asia trade covers routes between China, Japan, Korea, ASEAN, India, Bangladesh, Sri Lanka, and Pakistan. Because Asia is the world's manufacturing hub with massive internal supply chains, the volume of short-sea and feeder traffic dwarfs even the transpacific. Typical volume splits: Intra-Asia ~35-40%, Transpacific ~25-28%, Asia-Europe ~20-22%, Transatlantic ~5%. Singapore, Port Klang, Tanjung Pelepas, and Hong Kong are the key intra-Asian transshipment hubs. For Bangladesh-based logistics operators, understanding feeder connections to Colombo or Singapore as gateways to mainlane trade is commercially critical — the cost and frequency of these feeder calls directly determines Chittagong's competitiveness vs. Indian ports for third-country cargo."
-      },
-      {
-        "n": 3,
-        "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "Under the Institute Cargo Clauses (A) — the broadest 'all risks' cargo cover available — which of the following loss events remains EXCLUDED from coverage?",
-        "options": [
-          "Theft of cargo during a warehouse fire",
-          "Seawater ingress damage during a storm at sea",
-          "Deterioration caused by the cargo's inherent vice",
-          "General average contribution payable by the cargo owner"
-        ],
-        "correct": 2,
-        "why": "Inherent vice — a cargo's natural tendency to deteriorate without any external cause — is excluded under all ICC clauses including the broadest ICC-A. 'All risks' means all external risks, not all risks without exception.",
-        "deepDive": "Inherent vice is the cargo's own tendency to self-damage: fruit ripening, iron rusting in humidity, rubber degrading from heat, or glass cracking under its own weight. All three ICC clauses (A, B, and C) explicitly exclude it. Insurance buyers commonly mistake 'all risks' for genuinely comprehensive cover. Other universal ICC exclusions include wilful misconduct of the assured, ordinary wear and tear, loss from delay (even when the delay is caused by an insured peril), and nuclear contamination. Carriers regularly disclaim inherent vice in B/L terms too. When a claim is denied for inherent vice, the shipper's recourse is typically against the packer or manufacturer, not the carrier or insurer. Forensic surveyors and loss adjusters assess whether deterioration has an external trigger or is purely self-generated."
-      },
-      {
-        "n": 4,
-        "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "A freight forwarder screens a new customer against OFAC's Specially Designated Nationals (SDN) list and gets a positive match on the consignee. Which action is legally required under US sanctions law?",
-        "options": [
-          "File a Suspicious Activity Report with FinCEN and proceed with the shipment",
-          "Block the transaction and report it to OFAC within 10 business days",
-          "Refuse the booking but take no formal reporting obligation",
-          "Apply for a specific licence from BIS before proceeding"
-        ],
-        "correct": 1,
-        "why": "SDN matches require blocking the transaction and reporting to OFAC (not FinCEN, not BIS) within 10 business days — proceeding with the shipment is illegal and carries severe civil and criminal penalties.",
-        "deepDive": "OFAC (Office of Foreign Assets Control) administers US sanctions and its SDN list is among the world's most powerful financial regulatory tools. Any US person — and many non-US entities via secondary sanctions — must block transactions with SDN-listed parties and file a blocked-property report with OFAC within 10 business days. For logistics operators, SDN screening before booking, accepting payment, or releasing goods is mandatory. False negatives carry severe civil penalties (up to the greater of $308,000 per violation or twice the transaction value) and potential criminal liability. OFAC's extraterritorial reach means even non-US carriers risk losing dollar-clearing access if they knowingly serve sanctioned parties. Common confusion: BIS handles export controls (EAR/CCL) while OFAC handles sanctions (SDN/blocked parties) — different regimes, different reporting obligations, different enforcement agencies."
-      },
-      {
-        "n": 5,
-        "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "The Bunker Adjustment Factor (BAF) charged by ocean carriers is designed to recover which specific underlying operating cost?",
-        "options": [
-          "Port terminal handling fees that vary by destination",
-          "Fuel oil consumption changes for vessel propulsion",
-          "Crew wages indexed to flag-state inflation",
-          "Canal toll increases on key waterways"
-        ],
-        "correct": 1,
-        "why": "BAF specifically recovers changes in bunker fuel cost — the largest variable operating expense for container vessels, typically 20-35% of total voyage costs.",
-        "deepDive": "Bunker fuel is the single largest variable operating cost for container ships (typically 20-35% of total voyage costs). Carriers introduced BAF (Bunker Adjustment Factor) — also called Low Sulphur Surcharge (LSS) — as a pass-through mechanism so that base freight rates reflect demand and capacity while fuel volatility is handled separately. The 2020 IMO 0.5% sulphur cap (IMO 2020) forced ships to switch from cheap high-sulphur fuel oil (HSFO) to more expensive very-low-sulphur fuel oil (VLSFO), costing 30-40% more and triggering major surcharge recalibrations. Today's BAF calculations are route-specific and tied to VLSFO price indices at Singapore, Rotterdam, and Fujairah. Shippers should scrutinise BAF clauses carefully — some contracts allow unlimited pass-through while others cap or fix fuel cost exposure for the contract period."
-      },
-      {
-        "n": 6,
-        "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "Bayes' Theorem lets you update the probability of a hypothesis given new evidence. Which formula correctly expresses P(H|E)?",
-        "options": [
-          "P(E|H) × P(H) / P(E)",
-          "P(H) × P(E) / P(H|E)",
-          "P(E|H) / [P(E|H) + P(E|not-H)]",
-          "P(H) + P(E) − P(H and E)"
-        ],
-        "correct": 0,
-        "why": "Bayes' theorem: posterior = (likelihood × prior) / marginal evidence. P(H|E) = P(E|H) × P(H) / P(E). The numerator multiplies the likelihood by the prior; the denominator normalises by total evidence probability.",
-        "deepDive": "Thomas Bayes (1701-1761), an English minister, wrote the theorem published posthumously in 1763. Its power lies in the 'prior' — your baseline belief before new evidence. When evidence arrives, multiply the prior by the likelihood (how probable the evidence is if the hypothesis were true) and normalise by the total probability of observing that evidence at all. This underlies spam filters, medical diagnosis, AI model training, intelligence assessment, and financial risk models. A classic trap: 'base rate neglect' — if a disease affects 1 in 1,000 people and a test is 99% accurate, a positive result still implies only about a 9% chance of actually having the disease. Bayesian reasoning corrects this counter-intuitive but very common error. Option C is related — it is the expanded denominator form — but not the canonical statement of Bayes' theorem."
-      },
-      {
-        "n": 7,
-        "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Gabriel García Márquez's 'One Hundred Years of Solitude' (1967) follows six generations of the Buendía family through founding, boom, and decay. In which fictional town is the novel set?",
-        "options": [
-          "Santa Marta",
-          "Bogotá",
-          "Macondo",
-          "Aracataca"
-        ],
-        "correct": 2,
-        "why": "The novel is set in Macondo — fictional. Aracataca is García Márquez's real birthplace that inspired Macondo, making it the classic trap answer.",
-        "deepDive": "García Márquez based Macondo on Aracataca, his birthplace in Colombia's Caribbean lowlands — a banana plantation town he visited as an adult and found in magical decline under United Fruit Company legacy. One Hundred Years of Solitude uses magical realism: presenting supernatural events as mundane and mundane events as extraordinary — a mode that is deeply political, rooted in Latin American colonial and post-colonial experience, not fantasy escapism. García Márquez won the Nobel Prize in Literature in 1982. He wrote the novel in 18 months in Mexico City while the family was so poor his wife pawned her hair dryer to pay postage for the final chapters. A common misconception: the four central themes (solitude, repetition, memory, political violence) mirror Latin American history directly — the Buendía family's cycles are Colombia's political cycles in literary form."
-      },
-      {
-        "n": 8,
-        "topic": "gk",
-        "subtopic": "arts",
-        "stem": "In Raphael's 'School of Athens' (c.1509-11), the two central figures are Plato and Aristotle, identified by contrasting gestures. What do their gestures signify?",
-        "options": [
-          "Socrates pointing up (ideal Forms) and Aristotle pointing down (empirical world)",
-          "Plato pointing up (transcendent Forms) and Aristotle gesturing forward (observational method)",
-          "Plato pointing up (eternal truth) and Aristotle pointing downward (earthly reality)",
-          "Heraclitus pointing up (flux) and Parmenides pointing down (permanence)"
-        ],
-        "correct": 2,
-        "why": "Plato points upward to his theory of transcendent eternal Forms; Aristotle gestures downward/outward toward the earthly, observable world — the two gestures encode their core philosophical disagreement.",
-        "deepDive": "Raphael painted the 'School of Athens' in the Stanza della Segnatura in the Vatican Palace for Pope Julius II around 1509-1511, as part of a four-room fresco cycle. The fresco places roughly 30 Greek philosophers in an idealised Greco-Roman architectural setting. Plato's upward finger encodes his Theory of Forms: ultimate reality resides in abstract, eternal, transcendent Forms — the physical world is mere shadow. Aristotle's downward gesture encodes his empiricism: truth is found through careful observation of the physical world. This tension between idealism and empiricism defines much of Western intellectual history. Plato's face is believed to be modelled on Leonardo da Vinci. Option A is a common error — the two figures are definitively Plato and Aristotle, not Socrates and Aristotle; Socrates appears elsewhere in the fresco."
-      },
-      {
-        "n": 9,
-        "topic": "gk",
-        "subtopic": "music",
-        "stem": "J.S. Bach's 'The Well-Tempered Clavier' (Books I and II, 1722 and 1742) presents preludes and fugues in all 24 major and minor keys. What did its composition primarily demonstrate?",
-        "options": [
-          "The superiority of the harpsichord over the clavichord for polyphonic writing",
-          "That equal (or well) temperament tuning allowed playing in all keys without retuning",
-          "A new approach to choral harmony by adapting medieval church modes",
-          "The mathematical relationship between fugue subject inversion and retrograde motion"
-        ],
-        "correct": 1,
-        "why": "The WTC demonstrated that a single keyboard instrument, tuned with equal (or well) temperament, could navigate all 24 keys expressively — previously certain keys were harsh or unusable under older tuning systems.",
-        "deepDive": "Before equal temperament, keyboard instruments used meantone or just intonation: beautifully pure in certain keys but harsh or unplayable in others, so performers typically worked in two or three preferred keys. Equal temperament subtly 'wrongs' every interval (no perfectly pure fifth or major third) but wrongs them all equally, making every key equally usable and modulation between distant keys seamless. Bach's WTC demonstrated this across all 24 keys — though historians debate whether he used strict equal temperament or a specific 'well temperament' variant. Either way, the work opened the door to Romantic-era free modulation: Beethoven's distant-key excursions, Schubert's harmonic surprises, and Brahms's complex tonal architecture would have been musically impossible without it. The WTC is often called the 'Old Testament' of the keyboard repertoire; Beethoven's 32 sonatas are the 'New Testament.'"
-      },
-      {
-        "n": 10,
-        "topic": "gk",
-        "subtopic": "religion",
-        "stem": "Zakat — the third Pillar of Islam — is obligatory on wealth held above the nisab threshold for one lunar year. What percentage rate applies to savings, investments, and business inventory?",
-        "options": [
-          "2%",
-          "2.5%",
-          "5%",
-          "10%"
-        ],
-        "correct": 1,
-        "why": "Zakat al-mal (on wealth) is 2.5% of net assets exceeding the nisab (roughly equivalent to 85g of gold or 595g of silver) held for one full lunar year.",
-        "deepDive": "Zakat (from Arabic zakāh — purification or growth) is obligatory almsgiving, the third of Islam's Five Pillars. The nisab is the minimum wealth threshold: approximately 85 grams of gold or 595 grams of silver in value. When savings, investments, or business inventory exceed the nisab for a full lunar year (hawl), 2.5% of the total is due. Unlike income tax, zakat is calculated on net assets held, not on income earned. The Quran (9:60) designates eight specific recipient categories: the poor, the needy, zakat administrators, those whose hearts are to be reconciled, those in bondage, the indebted, in the cause of God, and the wayfarer. In Bangladesh, Malaysia, Saudi Arabia, and several other Muslim-majority countries, zakat is institutionally administered alongside the state. Key distinctions: zakat vs. sadaqah (voluntary charity) — zakat is a legal obligation with fixed rules; ushr (tithe on agricultural produce irrigated naturally) is 10%; Shia khums is 20% of surplus income."
-      }
-    ]
+    "questions": []
   }
 }
