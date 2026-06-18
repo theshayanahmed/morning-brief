@@ -1,6 +1,6 @@
 {
-  "streak": 4,
-  "last_session_date": "2026-06-17",
+  "streak": 5,
+  "last_session_date": "2026-06-18",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -381,7 +381,17 @@
     "The Tibetan Plateau is called 'the Water Tower of Asia' because major rivers originate there. Which of the following rivers does NOT originate on or near the Tibetan Plateau?",
     "Le Chatelier's Principle states that a system at equilibrium shifts to counteract an imposed change. When pressure is increased on a gaseous equilibrium system, which shift occurs?",
     "In morphology, 'derivational morphemes' differ from 'inflectional morphemes.' Which of the following examples illustrates a derivational morpheme?",
-    "A dataset has values {2, 4, 4, 4, 5, 5, 7, 9} with mean = 5 and standard deviation σ ≈ 2. If every value is doubled, what happens to the standard deviation of the new dataset?"
+    "A dataset has values {2, 4, 4, 4, 5, 5, 7, 9} with mean = 5 and standard deviation σ ≈ 2. If every value is doubled, what happens to the standard deviation of the new dataset?",
+    "An exporter ships trade-show display equipment and professional samples across three countries over six months, then repatriates them. Which customs document enables duty-free temporary admission across borders without filing complex import declarations in each country?",
+    "A Vietnam garment manufacturer imports Chinese fabric, makes finished shirts, and re-exports to the US — paying import duties on the fabric at Vietnam customs entry. Under duty drawback, what can the exporter claim?",
+    "A crude-oil charterer wants the largest tanker class that can transit the Suez Canal fully laden for a Persian Gulf-to-Rotterdam voyage. Which vessel class meets this specification?",
+    "Ocean carriers declare a Port Congestion Surcharge (PCS) on a trade lane. What scenario typically triggers a PCS, and who bears the charge?",
+    "In liner shipping, a 'slot charter' differs structurally from a 'Vessel Sharing Agreement' (VSA). Which statement best captures the key distinction?",
+    "Nabokov's 'Pale Fire' (1962) is structured as the scholarly apparatus of an unreliable editor — foreword, commentary on a poem, index. What formal innovation makes it canonical postmodernism?",
+    "Caravaggio developed a radical variant of chiaroscuro — near-total darkness with spotlit figures. What is the specific term for this technique?",
+    "The premiere of Stravinsky's 'The Rite of Spring' at Paris's Théâtre des Champs-Élysées on 29 May 1913 triggered one of music history's most famous incidents. What happened?",
+    "Al-Ghazali's 'Revival of the Religious Sciences' (11th century) resolved the tension between Sufi mysticism and Sunni orthodoxy. What specifically did he achieve?",
+    "Long-term potentiation (LTP), discovered by Bliss and Lømo in 1973, is considered the primary cellular mechanism underlying learning and memory. What does LTP involve at the synaptic level?"
   ],
   "learn_history": [
     {
@@ -578,6 +588,11 @@
       "date": "2026-06-17",
       "topic": "The Strait of Hormuz: Chokepoint of the Global Economy",
       "bucket": "geography"
+    },
+    {
+      "date": "2026-06-18",
+      "topic": "Creative Destruction: Schumpeter's Theory of How Capitalism Eats Itself and Grows",
+      "bucket": "economics"
     }
   ],
   "curriculum_progress": {
@@ -588,9 +603,9 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 9,
-      "last_seen": "2026-06-14",
-      "difficulty": 2,
+      "count": 10,
+      "last_seen": "2026-06-18",
+      "difficulty": 3,
       "rolling_score": []
     },
     "bill_of_lading": {
@@ -600,21 +615,21 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 9,
-      "last_seen": "2026-06-14",
-      "difficulty": 2,
+      "count": 10,
+      "last_seen": "2026-06-18",
+      "difficulty": 3,
       "rolling_score": []
     },
     "vessels": {
-      "count": 9,
-      "last_seen": "2026-06-14",
-      "difficulty": 2,
+      "count": 10,
+      "last_seen": "2026-06-18",
+      "difficulty": 3,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 9,
-      "last_seen": "2026-06-14",
-      "difficulty": 2,
+      "count": 10,
+      "last_seen": "2026-06-18",
+      "difficulty": 3,
       "rolling_score": []
     },
     "pricing": {
@@ -624,9 +639,9 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 9,
-      "last_seen": "2026-06-14",
-      "difficulty": 2,
+      "count": 10,
+      "last_seen": "2026-06-18",
+      "difficulty": 3,
       "rolling_score": []
     },
     "air_freight": {
@@ -722,8 +737,8 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 14,
-      "last_seen": "2026-06-16",
+      "count": 15,
+      "last_seen": "2026-06-18",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -734,26 +749,26 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 12,
-      "last_seen": "2026-06-15",
+      "count": 13,
+      "last_seen": "2026-06-18",
       "difficulty": 4,
       "rolling_score": []
     },
     "arts": {
-      "count": 13,
-      "last_seen": "2026-06-15",
-      "difficulty": 2,
+      "count": 14,
+      "last_seen": "2026-06-18",
+      "difficulty": 3,
       "rolling_score": []
     },
     "music": {
-      "count": 13,
-      "last_seen": "2026-06-15",
+      "count": 14,
+      "last_seen": "2026-06-18",
       "difficulty": 4,
       "rolling_score": []
     },
     "religion": {
-      "count": 13,
-      "last_seen": "2026-06-15",
+      "count": 14,
+      "last_seen": "2026-06-18",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -790,159 +805,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-06-17",
+    "date": "2026-06-18",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "incoterms",
-        "stem": "Under Incoterms 2020, DDP (Delivered Duty Paid) places the maximum obligation on the seller. Which of the following best captures the critical practical risk DDP creates for the seller?",
+        "subtopic": "documentation",
+        "stem": "An exporter ships trade-show display equipment and professional samples across three countries over six months, then repatriates them. Which customs document enables duty-free temporary admission across borders without filing complex import declarations in each country?",
         "options": [
-          "The seller bears all costs and risks to the named destination, including import customs clearance and duties in the buyer's country — even if the seller has no legal entity or agent there",
-          "The seller pays freight to destination but the buyer handles import duties and customs clearance",
-          "The seller bears risk only until goods are loaded on the main carriage vessel at the port of origin",
-          "The seller must arrange and pay for pre-shipment inspection at origin at its own cost"
+          "A Temporary Export Licence (TEL) issued by the originating country's trade ministry, valid for one year",
+          "An ATA Carnet — an international customs document guaranteeing temporary duty-free admission across ~87 WCO member territories",
+          "A Combined Export-Import Declaration filed simultaneously with customs authorities in each transit country",
+          "A Letter of Credit with 'return for re-export' notation endorsed by the exporter's chamber of commerce"
         ],
-        "correct": 0,
-        "why": "DDP is the only Incoterm where the seller handles import clearance in the buyer's country — operationally very difficult if the seller has no local entity or power of attorney there.",
-        "deepDive": "Delivered Duty Paid is the most seller-loaded Incoterm in the 2020 revision. The seller must arrange and pay for carriage to the named destination, clear both export and import customs, pay all duties and taxes, and bear risk throughout until goods are placed at the buyer's disposal. The critical trap: clearing import customs requires a legal entity or power of attorney in the destination country, which many sellers lack. Consequently, the ICC now recommends DAP (Delivered At Place) or DPU (Delivered At Place Unloaded) as practical alternatives leaving import clearance with the buyer. DDP works well for intra-EU trade where sellers hold VAT registration — it is problematic in intercontinental contexts."
+        "correct": 1,
+        "why": "ATA Carnets — administered by ICC World Chambers Federation under the Istanbul Convention — cover professional equipment, commercial samples, and trade-show goods for temporary duty-free admission across ~87 member territories.",
+        "deepDive": "The ATA Carnet (Admission Temporaire / Temporary Admission) is administered by the ICC World Chambers Federation under the Istanbul Convention. In the originating country, the carnet is guaranteed by a national chamber of commerce — in Bangladesh, the DCCI or MCCI. It contains counterfoils and vouchers for each country of temporary import; customs in each transit country stamps and detaches vouchers on entry and exit, confirming goods will be re-exported. If goods are not re-exported within the carnet's validity (typically one year), the guaranteeing chamber pays customs duties — so exporters must track deadlines carefully. Carnets cover three categories: professional equipment (broadcast gear, film tools, trade equipment), commercial samples, and goods for fairs and exhibitions. Carnets do not cover consumable goods, goods for processing, or goods intended for sale. For MGH clients exhibiting across South and Southeast Asia, ATA Carnet knowledge avoids costly duty deposits at every border crossing."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "bill_of_lading",
-        "stem": "In ocean freight, a 'claused' (or 'unclean') Bill of Lading differs from a 'clean' B/L. What does a clause or notation on the B/L signify, and why does it critically matter to an exporter collecting payment under a Letter of Credit?",
+        "subtopic": "customs",
+        "stem": "A Vietnam garment manufacturer imports Chinese fabric, makes finished shirts, and re-exports to the US — paying import duties on the fabric at Vietnam customs entry. Under duty drawback, what can the exporter claim?",
         "options": [
-          "The shipper has prepaid all freight charges and the carrier has confirmed receipt",
-          "The carrier has noted a discrepancy, visible damage, or defect in the cargo's apparent condition or packaging at the time of loading",
-          "The goods have passed pre-shipment inspection by a third-party surveyor appointed by the buyer",
-          "The vessel has been inspected and certified seaworthy by port-state control authorities"
+          "Full exemption from US import duties on the finished shirts, because Vietnam is the country of manufacture",
+          "A refund of up to 99% of the customs duties paid on the imported Chinese fabric, provided it was used in goods subsequently exported",
+          "Permanent duty-free fabric imports from China, provided a monthly export volume threshold is maintained",
+          "An exemption from all Vietnamese VAT and excise taxes on domestically produced goods"
         ],
         "correct": 1,
-        "why": "A claused B/L means the carrier has reservations about cargo condition. Most LCs require a clean B/L — a claused B/L triggers a documentary discrepancy, blocking payment.",
-        "deepDive": "A 'clean' Bill of Lading certifies goods were received in apparent good order and condition. If the carrier observes torn packaging, missing items, moisture damage, or other defects at loading, they add a notation — creating a 'claused' or 'foul' B/L. This has severe commercial consequences: UCP 600 Article 27 requires a clean transport document for LC presentations. A claused B/L creates a discrepancy, potentially blocking the exporter from collecting payment under the LC until the buyer waives the discrepancy. Exporters sometimes pressure carriers to issue clean B/Ls despite visible cargo defects — this is fraudulent practice that exposes the carrier to liability. A Letter of Indemnity (LOI) is sometimes offered, but carriers must assess LOI enforceability carefully."
+        "why": "Duty drawback refunds (up to 99% under US CBP rules) import duties paid on inputs when those inputs are incorporated into manufactured goods that are subsequently exported — eliminating double taxation on export-oriented manufacturers.",
+        "deepDive": "Duty drawback is a customs refund mechanism: when imported materials are incorporated into goods that are then exported, the importer can reclaim up to 99% (under US CBP Title 19 USC 1313) of duties originally paid on those inputs. Major drawback types: manufacturing drawback (imported inputs transformed into exported articles), same-condition drawback (goods exported in the same state as imported), and substitution drawback (using fungible domestic goods interchangeably with imported inputs). Bangladesh operates an analogous pre-emptive system: RMG manufacturers with a bond licence import fabric duty-free under a bonded warehouse regime — effectively advance drawback. Drawback claims require meticulous documentation correlating imported fabric to exported finished goods. Failure to substantiate the input-output connection is the most common drawback claim rejection reason. For a logistics company advising garment exporters across Vietnam, Bangladesh, and Cambodia, drawback eligibility and documentation requirements are a real commercial value-add."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "pricing",
-        "stem": "A Container Imbalance Charge (CIC), sometimes called an Equipment Repositioning Surcharge (ERS), is levied by ocean carriers on certain trade lanes. What specific cost does this charge recover?",
+        "subtopic": "vessels",
+        "stem": "A crude-oil charterer wants the largest tanker class that can transit the Suez Canal fully laden for a Persian Gulf-to-Rotterdam voyage. Which vessel class meets this specification?",
         "options": [
-          "The cost of storing surplus empty containers at congested inland depots pending return",
-          "The cost of repositioning empty containers from import-heavy destinations back to major export origins where equipment is in short supply",
-          "Additional port dues levied on carriers when a vessel calls at more than one port per leg",
-          "The surcharge applied when a shipper switches an existing booking from one carrier to a competitor"
+          "VLCC (Very Large Crude Carrier), 200,000–320,000 DWT — routinely transits Suez Canal when fully laden",
+          "Aframax, 80,000–120,000 DWT — named for the AFRA scale; suited to shorter regional routes",
+          "Suezmax, 120,000–200,000 DWT — designed to maximally utilise the Suez Canal's allowable draft and beam when fully laden",
+          "ULCC (Ultra Large Crude Carrier), 320,000+ DWT — the largest class available for crude charter"
         ],
-        "correct": 1,
-        "why": "Trade imbalances leave containers piling up at import-heavy ports; repositioning them empty back to export origins — by sea, rail, or road — is a direct cost carriers recover via the CIC.",
-        "deepDive": "Global container trade is structurally imbalanced: more full boxes flow from Asia to Europe and North America than return laden the other way. Carriers end up with surplus empties at import-heavy ports (e.g., US East Coast, European inland depots) and equipment shortages at major export hubs (e.g., China, Vietnam). Repositioning those empties is expensive and complex. The CIC recovers this cost, typically charged per TEU on the imbalanced trade leg. During the 2020-22 pandemic boom, CICs spiked dramatically as US importers held containers too long, starving Asian exporters of equipment. Understanding CIC helps shippers on minor or imbalanced trade lanes anticipate surcharges beyond the base ocean freight rate — often a surprise in freight invoice reconciliation."
+        "correct": 2,
+        "why": "Suezmax (120,000–200,000 DWT) is explicitly designed to transit the Suez Canal fully laden at maximum allowable draft. VLCCs and ULCCs cannot transit Suez laden and must cape-route.",
+        "deepDive": "Tanker nomenclature reflects route constraints and economic optima. Aframax (80,000–120,000 DWT) is named for the AFRA (Average Freight Rate Assessment) scale and dominates shorter regional trades — North Sea, Mediterranean, Caribbean, intra-Asia — where port depth limits exclude larger vessels. Suezmax (120,000–200,000 DWT) is sized to maximally exploit the Suez Canal at its ~21m allowable draft, carrying maximum cargo per transit fee dollar — the commercial workhorse on West Africa-US, Black Sea-Europe, and Middle East-Europe routes. VLCCs (200,000–320,000 DWT) dominate long-haul Middle East-to-Asia crude, but must cape-route for Europe-bound laden voyages. The Hormuz-Suez-Rotterdam route uses Suezmax precisely because VLCCs cannot transit Suez laden — directly relevant to Iranian oil sanctions enforcement during the 2026 Hormuz closure. The Suez Canal Authority charges tolls by Suez Canal Net Tonnage (SCNT), not DWT, so Suezmax designation also carries a tariff optimisation dimension."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "air_freight",
-        "stem": "A freight forwarder consolidates multiple shippers' cargo and issues each shipper a House Air Waybill (HAWB), while the airline issues the forwarder a Master Air Waybill (MAWB). Which statement best describes the legal character of the HAWB?",
+        "subtopic": "port_ops",
+        "stem": "Ocean carriers declare a Port Congestion Surcharge (PCS) on a trade lane. What scenario typically triggers a PCS, and who bears the charge?",
         "options": [
-          "The HAWB is a negotiable instrument of title, like an original ocean Bill of Lading, transferable by endorsement to third parties",
-          "The HAWB is a non-negotiable receipt and contract of carriage between the forwarder (acting as carrier) and the shipper, governing the forwarder-to-shipper relationship",
-          "The HAWB gives the airline a direct contractual claim against the underlying shipper for unpaid freight charges",
-          "The HAWB must be countersigned by the airline to become a legally valid transport document"
+          "PCS is declared when weather delays vessels at anchorage; it is absorbed by the vessel owner as an operating cost",
+          "PCS is a per-TEU surcharge added by the carrier to shippers on the affected lane when sustained port congestion materially extends vessel turnaround times — billed to cargo interests",
+          "PCS is a government levy imposed by the port authority on vessels calling during peak holiday periods",
+          "PCS applies only to reefer cargo to compensate for extended power costs during congestion delays"
         ],
         "correct": 1,
-        "why": "Air waybills — both MAWB and HAWB — are non-negotiable receipts, not documents of title. The HAWB governs the forwarder-shipper relationship; the airline only recognises the MAWB.",
-        "deepDive": "Air Waybills are fundamentally non-negotiable receipts, not documents of title — a critical contrast with ocean Bills of Lading. The airline issues an MAWB to the freight forwarder covering a consolidated shipment; the forwarder issues HAWBs to individual shippers for their specific cargo. The airline has no direct contractual relationship with the underlying shippers — only with the forwarder. If the forwarder becomes insolvent, shippers may face difficulty claiming cargo from the airline. Under the Montreal Convention (1999), the MAWB governs airline liability limits. HAWBs may offer different, sometimes more favorable, liability terms since forwarders can contractually expand on the Convention's minimums. This structural split explains why shipper due diligence on forwarder financial health is important."
+        "why": "PCS is a carrier-imposed per-TEU surcharge on shippers (cargo interests) that passes through the additional cost of extended vessel turnaround times — longer anchorage means more bunker, crew time, and schedule disruption costs.",
+        "deepDive": "Port congestion occurs when vessel arrivals exceed terminal and berth capacity, forcing ships to queue at anchorage. Each day at anchor costs approximately $15,000–$30,000 for a large container vessel in fuel, crew time, and time-charter opportunity cost. Carriers recover this via a Port Congestion Surcharge (PCS) or Port Congestion Premium (PCP), billed per TEU to shippers on affected lanes. During 2020-22, US West Coast and Chinese port congestion generated PCS additions of $400–$1,000/TEU on Transpacific routes. Triggers range from labour disputes (ILWU negotiations halting terminal operations), typhoon closures, pandemic workforce reductions, and post-holiday cargo surges. Shippers should review service contracts for surcharge validity windows and dispute processes — some carriers declared PCS on lanes where actual delays were marginal, triggering FMC arbitration. Commercially, PCS is a classic variable cost pass-through: the carrier shifts unpredictable congestion costs to cargo interests in exchange for a more predictable base ocean freight rate."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "ftas",
-        "stem": "The Regional Comprehensive Economic Partnership (RCEP) — the world's largest FTA by GDP and population — was signed November 2020 and in force January 2022 across 15 nations. Which major Asian economy walked away from RCEP negotiations in November 2019 and remains outside the agreement?",
+        "subtopic": "liner_alliances",
+        "stem": "In liner shipping, a 'slot charter' differs structurally from a 'Vessel Sharing Agreement' (VSA). Which statement best captures the key distinction?",
         "options": [
-          "Pakistan",
-          "India",
-          "Bangladesh",
-          "South Korea"
+          "A VSA requires each member to contribute vessels to a shared pool; a slot charter lets one carrier buy fixed slots on another carrier's vessel without committing any tonnage in return",
+          "A slot charter is identical to a VSA but applies only on routes where a single carrier operates the full service",
+          "Under a VSA, one carrier owns all vessels and charters the full ship to alliance partners; in a slot charter, partners share vessel ownership pro-rata",
+          "Slot charters require FMC approval in all markets; VSAs are exempt from regulatory oversight globally"
         ],
-        "correct": 1,
-        "why": "India withdrew from RCEP in November 2019, citing fears of Chinese goods flooding its market via weak rules-of-origin, inadequate services market access, and political sensitivity around farm-sector liberalisation.",
-        "deepDive": "India was a founding member of RCEP negotiations from 2012 but withdrew abruptly in November 2019. PM Modi cited three concerns: (1) rules-of-origin standards too weak to prevent Chinese goods being rerouted through ASEAN partners; (2) inadequate commitments on Indian IT services market access; (3) political impossibility of farm-sector liberalisation given India's agrarian voting base. RCEP was signed by 15 nations (ASEAN-10 plus China, Japan, South Korea, Australia, New Zealand) in November 2020, entering force January 2022, covering ~30% of global GDP. India's absence is striking — it is now the only major Asian economy outside both RCEP and CPTPP, creating an increasingly complex trade positioning challenge as supply chains reorganise around these blocs."
+        "correct": 0,
+        "why": "A VSA pools vessel capacity from multiple carriers — each contributes ships and receives slots. A slot charter is one-way: the purchasing carrier buys slots on another's vessel without committing any ship of its own to that service.",
+        "deepDive": "Liner alliances are built on two primary instruments. In a Vessel Sharing Agreement (VSA), multiple carriers each contribute vessels proportional to their agreed slot allocation, creating a joint service: all partners market and fill their own slots independently, with costs shared pro-rata. No cash changes hands for the ship itself. In a slot charter, Carrier A pays Carrier B for a fixed number of TEU slots per voyage — a cash transaction — without committing any vessel. Carrier A fills those slots and earns revenue; Carrier B keeps its remaining slots. Slot charters are used by smaller regional carriers to access major deep-sea corridors without the capital and schedule commitment of contributing vessels. Both VSAs and slot charters require notification or filing with competition authorities (EU BER block exemption, US FMC exemption under the Shipping Act). Within the three surviving major alliances — Gemini Cooperation, Premier Alliance, Ocean Alliance — VSAs form the structural backbone, while slot charters are the flexibility mechanism for third-party access."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The Congress of Vienna (1814-15) reshaped Europe after Napoleon's defeat. Which Austrian statesman served as its dominant architect, championing the principle of 'legitimacy' — restoring pre-revolutionary monarchies — as the new European order's foundation?",
+        "subtopic": "literature",
+        "stem": "Nabokov's 'Pale Fire' (1962) is structured as the scholarly apparatus of an unreliable editor — foreword, commentary on a poem, index. What formal innovation makes it canonical postmodernism?",
         "options": [
-          "Otto von Bismarck",
-          "Klemens von Metternich",
-          "Friedrich von Gentz",
-          "Karl von Hardenberg"
+          "It was the first novel written entirely as correspondence between characters who never meet, pioneering the 20th-century epistolary form",
+          "The entire novel is told through a fictional scholarly apparatus — the editor's commentary so dominated by his own delusions that the real story must be assembled by reading between the apparatus",
+          "It presents the same plot three times from three different perspectives, anticipating the technique made famous by Rashomon",
+          "Stream-of-consciousness interior monologue is interrupted every hundred pages by a change of narrator, creating multiple unreliable voices"
         ],
         "correct": 1,
-        "why": "Metternich, as Austrian Foreign Minister and congress chairman, pioneered the 'Concert of Europe' and the conservative legitimacy doctrine that shaped the continent for three decades.",
-        "deepDive": "Klemens von Metternich (1773-1859) was the Austrian Foreign Minister who chaired the Congress of Vienna and dominated European politics until 1848. His core doctrine — 'legitimacy' — held that pre-revolutionary dynastic order should be restored and maintained through collective great-power intervention against liberal or nationalist revolts. This produced the Concert of Europe: Austria, Prussia, Russia, Britain, and France managing the continent as a conservative club. Metternich's system suppressed the 1820 and 1830 revolutions but ultimately collapsed in the 1848 'Springtime of Nations.' Otto von Bismarck belongs to a later era (German unification 1866-71). Friedrich von Gentz was Metternich's private secretary. Karl von Hardenberg represented Prussia at Vienna but was not its chairman."
+        "why": "Pale Fire's radicalism lies in burying the actual narrative inside a fictional scholarly apparatus — foreword, line-by-line commentary, index — where the editor's digressions constitute the real story that must be assembled.",
+        "deepDive": "Vladimir Nabokov's 'Pale Fire' (1962) is structured as a scholarly edition of a 999-line poem by fictional poet John Shade, with a foreword and extensive commentary by Shade's neighbor Charles Kinbote. Kinbote's commentary is almost entirely about himself — his memories of the fictional kingdom of Zembla and its exiled king — with only marginal connection to Shade's actual poem. As the commentary accumulates, readers realize Kinbote is either a delusional academic, the genuine exiled king he claims to be, or possibly Shade's murderer rationalizing the killing. The novel can only be 'read' by flipping between poem, commentary, and index simultaneously, making the reader an active assembler of plot. Nabokov turned the academic apparatus itself into narrative form — arguably the most extreme use of an unreliable narrator in literary history. His influence on postmodern fiction is vast: David Foster Wallace's footnotes-as-narrative in Infinite Jest and W.G. Sebald's embedded photographs both owe something to Pale Fire's structural radicalism. The title is from Shakespeare's Timon of Athens: 'The moon's an arrant thief, / And her pale fire she snatches from the sun.'"
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Tibetan Plateau is called 'the Water Tower of Asia' because major rivers originate there. Which of the following rivers does NOT originate on or near the Tibetan Plateau?",
+        "subtopic": "arts",
+        "stem": "Caravaggio developed a radical variant of chiaroscuro — near-total darkness with spotlit figures. What is the specific term for this technique?",
         "options": [
-          "The Mekong (Lancang Jiang)",
-          "The Brahmaputra (Yarlung Tsangpo)",
-          "The Volga",
-          "The Salween (Nu Jiang)"
+          "Sfumato — Leonardo da Vinci's technique of blurring outlines using translucent glazes to create atmospheric haze",
+          "Pointillism — building images from tiny dots of pure colour, pioneered by Georges Seurat in the 1880s",
+          "Tenebrism — from Latin 'tenebrae' (darkness); backgrounds near-black, subjects illuminated as if by a single direct light source",
+          "Impasto — applying thick, heavily textured paint to the canvas surface to create tactile relief"
         ],
         "correct": 2,
-        "why": "The Volga rises in the Valdai Hills of northwestern Russia at just 228m elevation — not on the Tibetan Plateau. The Mekong, Brahmaputra, and Salween all originate on the plateau.",
-        "deepDive": "The Tibetan Plateau, averaging over 4,500m elevation, is the headwater source of Asia's greatest rivers: the Yangtze, Yellow River, Mekong, Salween, Brahmaputra, Indus, and Sutlej all originate there. These rivers collectively supply fresh water to roughly 2 billion people across China, India, Bangladesh, Myanmar, Laos, Vietnam, Cambodia, and Thailand. China's control of these headwaters gives Beijing enormous geopolitical leverage, particularly over dam projects on the Brahmaputra (Yarlung Tsangpo) that affect India and Bangladesh. The Volga, by contrast, is Europe's longest river, rising in the Valdai Hills of northwestern Russia at just 228m — on an entirely different continent. This distinction is why today's India-Pakistan Indus Waters Treaty dispute is so fraught: the Indus also originates on the Tibetan Plateau."
+        "why": "Tenebrism (from Latin tenebrae) is specifically Caravaggio's radical innovation beyond standard chiaroscuro — extreme, near-total darkness with figures illuminated as if by a spotlight in an otherwise dark room.",
+        "deepDive": "Michelangelo Merisi da Caravaggio (1571–1610) transformed European painting by radicalising chiaroscuro into what critics later named tenebrism — from Latin tenebrae ('darkness'). Where Renaissance painters modelled form by graded shading, Caravaggio bathed entire backgrounds in near-complete black and illuminated figures as if by a single harsh light source — a candle or lantern — creating unprecedented psychological drama. His religious subjects scandalised Rome: dirty-footed saints, prostitutes as Madonnas, thieves as apostles — the shock theological as much as painterly. Caravaggio's influence radiated through Artemisia Gentileschi (scenes of female power), Rubens (who collected Caravaggio), Rembrandt (mastered the technique secondhand), Velázquez, and Georges de La Tour. 'Caravaggisti' describes the wave of painters across Italy, France, Spain, and the Netherlands who adopted his tenebrist approach. Common misconception: sfumato (Leonardo's smoky boundary-blurring with thin glazes) is often confused with tenebrism — they solve different problems: sfumato creates atmospheric haze, tenebrism creates dramatic illumination. Impasto (thick textured paint, associated with Rembrandt and Van Gogh) is an entirely different technique."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "Le Chatelier's Principle states that a system at equilibrium shifts to counteract an imposed change. When pressure is increased on a gaseous equilibrium system, which shift occurs?",
+        "subtopic": "music",
+        "stem": "The premiere of Stravinsky's 'The Rite of Spring' at Paris's Théâtre des Champs-Élysées on 29 May 1913 triggered one of music history's most famous incidents. What happened?",
         "options": [
-          "The system shifts toward the side with more moles of gas, to release the added pressure",
-          "The system shifts toward the side with fewer moles of gas, thereby reducing pressure",
-          "The equilibrium constant K increases to accommodate the new pressure conditions",
-          "The system shifts toward higher temperature regardless of which side is endothermic"
+          "The work was technically so demanding that the orchestra refused to play the final movement, and Stravinsky completed the premiere at the piano",
+          "The audience rioted — booing, catcalling, and physical fighting between admirers and detractors broke out within minutes of the curtain rising",
+          "The French government banned the work on grounds of pagan ritual content, triggering a diplomatic incident with Russia",
+          "Stravinsky collapsed during the performance and never publicly conducted again"
         ],
         "correct": 1,
-        "why": "Le Chatelier predicts the system adjusts to partially counteract the disturbance — increased pressure favours the side producing fewer gas molecules, reducing total molar volume.",
-        "deepDive": "Le Chatelier's Principle (1884) states that any perturbation to an equilibrium system triggers a shift that partially counteracts the change. For pressure: increasing pressure favours the side with fewer gas moles. This is the basis of the Haber-Bosch process (N2 + 3H2 = 2NH3) which runs at 150-300 atm because 4 moles of reactant gas produce only 2 moles of ammonia. For temperature: adding heat shifts equilibrium toward the endothermic direction. Critical distinction: changing pressure does NOT change the equilibrium constant K (which is temperature-dependent only) — only the position of equilibrium shifts. Common misconception: students confuse a shift in equilibrium position with a change in K. Industrial chemistry applications include the Contact process (H2SO4 production) and many pharmaceutical syntheses."
+        "why": "The 1913 premiere is legendary for the audience riot — provoked by Stravinsky's dissonant, rhythmically violent score and Nijinsky's deliberately primitive choreography for the Ballets Russes.",
+        "deepDive": "Igor Stravinsky's 'The Rite of Spring' (Le Sacre du Printemps) premiered with Diaghilev's Ballets Russes, choreographed by Vaslav Nijinsky. Within minutes, audience members expecting elegant ballet were confronted with stamping, turned-in feet, hunched postures, and Stravinsky's ferociously percussive, poly-rhythmic score with asymmetrical time signatures and dissonant harmonics. Hissing and booing escalated into physical fighting between admirers and detractors. Stravinsky watched the later sections from the wings; Nijinsky reportedly called out counts from backstage to dancers who could no longer hear the orchestra. The work explored pagan pre-Christian Russia — the sacrifice of a chosen maiden to ensure spring's arrival. Carl Van Vechten, present that night, wrote that the audience's savagery matched the primitivism on stage. Within years the Rite became a concert-hall standard received with rapturous applause — the riot was about novelty, not quality. Common misconception: the premiere uproar was partly about Nijinsky's radical choreography — turned-in feet and stamping that physically embodied the score's primitiveness — as much as the music itself. Later concert performances of the score without dance were received with immediate success."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "In morphology, 'derivational morphemes' differ from 'inflectional morphemes.' Which of the following examples illustrates a derivational morpheme?",
+        "subtopic": "religion",
+        "stem": "Al-Ghazali's 'Revival of the Religious Sciences' (11th century) resolved the tension between Sufi mysticism and Sunni orthodoxy. What specifically did he achieve?",
         "options": [
-          "The '-s' added to 'cat' to produce 'cats' (marking plural number)",
-          "The '-ed' added to 'walk' to produce 'walked' (marking past tense)",
-          "The '-ness' added to 'kind' to produce 'kindness' (creating a new noun from an adjective)",
-          "The '-ing' added to 'run' to produce 'running' (marking present participle)"
+          "He declared all Sufi orders heretical and persuaded the Abbasid caliph to ban Sufi practices across the empire",
+          "He founded the Qadiriyya order — the oldest surviving Sufi order — providing the organizational vehicle through which Sufism spread to South Asia",
+          "He integrated Sufi spiritual psychology within orthodox Sunni jurisprudence, showing that mystical inner devotion and legal observance (fiqh) were complementary rather than competing",
+          "He proved through formal philosophical argument that Sufi sama' (musical listening) was permissible under Sharia, resolving the qawwali controversy"
         ],
         "correct": 2,
-        "why": "Derivational morphemes change a word's category or core meaning (adjective to noun), creating a new lexical item. Inflectional morphemes (-s, -ed, -ing) modify grammatical features without changing word class.",
-        "deepDive": "Morphology distinguishes two types of bound morphemes. Inflectional morphemes (English: plural -s, past tense -ed, comparative -er, present participle -ing) modify grammatical features — tense, number, case, aspect — without changing the fundamental word class or core meaning. They apply broadly and predictably. Derivational morphemes (-ness, -tion, -ify, un-, pre-) change the word's grammatical category or create new core meanings: 'kind' (adjective) becomes 'kindness' (abstract noun); 'teach' (verb) becomes 'teacher' (noun). Derivation is less predictable: 'happy' gives 'happiness' but 'angry' does not give 'angriness' — we use 'anger' instead. This distinction matters in computational linguistics, second-language acquisition theory, and understanding how agglutinative languages like Turkish differ structurally from English."
+        "why": "Al-Ghazali's Ihya Ulum al-Din systematically integrated Sufi mystical practice within Sunni orthodoxy — rescuing Sufism from the charge of bid'a (illegitimate innovation) and placing it at the heart of mainstream Islamic piety.",
+        "deepDive": "Abu Hamid al-Ghazali (1058–1111), known as 'Hujjat al-Islam' (Proof of Islam), was a Persian theologian, jurist, and philosopher who experienced a spiritual crisis at the height of his fame, abandoning his prestigious Baghdad professorship for two years of Sufi seclusion. His masterwork 'Ihya Ulum al-Din' (Revival of the Religious Sciences) — arguably the most widely read Islamic text after the Quran and Hadith — systematically integrated Sufi spiritual psychology with orthodox Sunni practice across four books: acts of worship, social customs, destructive vices, and salvific virtues. He argued that Sharia observance without inner spiritual purification (tazkiyat al-nafs) was hollow, and that authentic mystical experience was the living heart of Islamic practice — not a deviation from it. Before Al-Ghazali, Sufism risked condemnation as bid'a; after him, it became mainstream Sunni piety. Al-Ghazali separately produced 'The Incoherence of the Philosophers' (Tahafut al-Falasifa), attacking Avicenna's Aristotelian cosmology — which Ibn Rushd (Averroes) rebutted in 'The Incoherence of the Incoherence.' Common misconception: Al-Ghazali is sometimes portrayed as anti-intellectual; in fact he was rigorously trained in philosophy and used its methods systematically to critique it."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "A dataset has values {2, 4, 4, 4, 5, 5, 7, 9} with mean = 5 and standard deviation σ ≈ 2. If every value is doubled, what happens to the standard deviation of the new dataset?",
+        "subtopic": "life_science",
+        "stem": "Long-term potentiation (LTP), discovered by Bliss and Lømo in 1973, is considered the primary cellular mechanism underlying learning and memory. What does LTP involve at the synaptic level?",
         "options": [
-          "σ stays the same, because the shape of the distribution is unchanged",
-          "σ doubles to approximately 4, because all deviations from the (also doubled) mean scale proportionally",
-          "σ increases by 5 (the original mean), combining additive and multiplicative effects",
-          "σ quadruples to approximately 8, because variance — the square of σ — doubles"
+          "New neuron formation (neurogenesis) in the hippocampus after a learning event, permanently encoding memory in fresh neural tissue",
+          "Activity-dependent strengthening of synapses: repeated firing causes NMDA receptors to open, allowing calcium influx that makes the synapse more responsive to future stimulation",
+          "Memory transfer from short-term to long-term storage by converting electrical signals into modified proteins stored in the cell nucleus",
+          "Glial cells insulating synaptic connections to prevent memory degradation over time"
         ],
         "correct": 1,
-        "why": "Multiplying every value by a constant k multiplies σ by |k|. The mean doubles and so does every deviation from the mean, so σ doubles.",
-        "deepDive": "Standard deviation measures average distance from the mean. Two key transformation rules: (1) Multiplying every value by constant k multiplies σ by |k| — both the mean and every deviation from the mean scale proportionally. Doubling all values means σ doubles. (2) Adding a constant k to every value shifts the mean by k but leaves σ unchanged — all deviations from the new mean are identical to those from the old. For the example: {2,4,4,4,5,5,7,9} mean=5, σ≈2; doubled: {4,8,8,8,10,10,14,18} mean=10, σ≈4. Common exam trap: option D confuses variance with standard deviation — variance σ² does double when σ doubles, but σ itself doubles not quadruples. These scaling properties are fundamental in data normalisation, portfolio risk calculations, and understanding measurement unit changes in statistics."
+        "why": "LTP works through activity-dependent synaptic strengthening: the NMDA receptor acts as a 'coincidence detector,' opening when pre- and post-synaptic neurons fire together, allowing calcium influx that strengthens the synapse.",
+        "deepDive": "Long-term potentiation (LTP) was discovered by Timothy Bliss and Terje Lømo in Per Andersen's Oslo lab, published definitively in 1973. They found that high-frequency electrical stimulation of hippocampal pathways caused lasting enhancement of synaptic transmission. At the molecular level: repeated firing depolarises the postsynaptic neuron enough to dislodge the magnesium ion (Mg²⁺) that normally blocks the NMDA receptor channel. With Mg²⁺ removed, glutamate binding opens NMDA receptors, allowing calcium (Ca²⁺) to flow in. This calcium influx triggers a cascade — including AMPA receptor insertion into the synaptic membrane and dendritic spine enlargement — making the synapse stronger and more sensitive to future input. LTP thus embodies Hebb's Rule (1949): neurons that fire together, wire together. The hippocampus is critical for declarative memory consolidation, which is why hippocampal LTP is so intensively studied. The NMDA receptor's requirement for simultaneous pre- and post-synaptic activity makes it a precise 'coincidence detector,' preventing random noise from strengthening irrelevant synapses. Common misconceptions: LTP does not create new neurons; adult neurogenesis occurs in the hippocampus but is a separate, smaller phenomenon. LTP is also not the only memory mechanism — protein synthesis-dependent late LTP and structural plasticity also contribute."
       }
     ]
   }
