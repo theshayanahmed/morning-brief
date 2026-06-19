@@ -364,339 +364,299 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  "date": "2026-06-18",
-  "dateLabel": "Thursday · 18 June 2026",
-  "editionLabel": "Edition · Thursday 18 June",
-  "headline": "Iran deal signs in Bürgenstock tomorrow; EU-China summit underway today; Samsung chases TSMC's AI clients; BD per capita breaks $3,000.",
-  "sections": [
+  date: "2026-06-19",
+  dateLabel: "Friday · 19 June 2026",
+  editionLabel: "Edition · Friday 19 June",
+  headline: "US-Iran Versailles MOU reopens Hormuz as Pakistan emerges as Gulf kingmaker; EU launches Ukraine accession; Nvidia storms Intel's PC stronghold.",
+  sections: [
     {
-      "title": "Macro · Geopolitics · Politics",
-      "items": [
+      title: "Macro · Geopolitics · Politics",
+      items: [
         {
-          "lead": "Hormuz formal signing tomorrow: 'Islamabad Memorandum' at Bürgenstock, Switzerland.",
-          "body": "The US-Iran ceasefire framework signs June 19 at Bürgenstock resort, mediated by Pakistan and Qatar. Full text now public: $300B US financing commitment to rebuild Iran, Iranian oil export ban lifted immediately on signing, Strait of Hormuz reopens to commercial shipping within 30 days. Nuclear status-quo talks begin post-signing; low-level enrichment permitted under Trump concession. War-risk insurance premiums remain elevated until first VLCC convoy transits.",
-          "src": {
-            "name": "Business Standard / Al Jazeera",
-            "url": "https://www.business-standard.com/amp/world-news/us-iran-reach-deal-to-end-war-signing-set-for-june-19-in-switzerland-126061500032_1.html"
-          }
+          lead: "Hormuz MOU signed at Versailles",
+          body: "Trump and Iran's Pezeshkian signed a 14-point MOU June 18 ending the war and reopening the Strait; nuclear negotiations to follow in Switzerland under a 60-day framework.",
+          src: { name: "NBC News", url: "https://www.nbcnews.com/world/iran/strait-hormuz-reopen-us-lift-iran-sanctions-14-point-deal-seeking-end-rcna350513" }
         },
         {
-          "lead": "EU-China: every EU member now in deficit with Beijing — summit dinner on 'imbalances.'",
-          "body": "EU leaders met June 18-19 in Brussels with 'global macroeconomic imbalances' as the dinner agenda item — code for China. Europe's 2025 deficit with China: €360bn, the first year every single EU member ran a bilateral deficit. Chinese EVs rose 26% in volume despite EU tariffs introduced a year earlier. EU trade chief Sefcovic met China's Li Chenggang in Paris today; Commerce Minister Wang Wentao visits Brussels June 28-29.",
-          "src": {
-            "name": "EUobserver / SCMP",
-            "url": "https://euobserver.com/222436/eu-leaders-to-pick-from-menu-of-anti-china-trade-measures-over-summit-dinner/"
-          }
+          lead: "Hormuz opens but backlog lingers",
+          body: "First vessels transited June 19; industry warns weeks for the tanker queue to clear. Oil dropped on the deal then drifted back toward $100/bbl as the logistics gap persists.",
+          src: { name: "CNBC", url: "https://www.cnbc.com/2026/06/18/strait-hormuz-reopening-shipping-oil.html" }
         },
         {
-          "lead": "US-China June 11 deal: 30% baseline locked, 60-day clock expires July 11.",
-          "body": "Trump's June 11 trade deal with Beijing left 30% tariffs in place (20% fentanyl + 10% reciprocal) and paused higher tariffs for 60 days — deadline July 11. USTR seeking public comment on a new US-China Board of Trade agreed at the Trump-Xi summit that could provide a route to negotiated reductions. Markets treating July 11 as the next key structural date in US-China trade.",
-          "src": {
-            "name": "CNBC / PIIE",
-            "url": "https://www.cnbc.com/2026/05/18/us-china-announce-deals-after-trump-xi-summit.html"
-          }
+          lead: "Pakistan signs as Gulf kingmaker",
+          body: "PM Shehbaz Sharif co-signed the Islamabad MOU as principal mediator — elevating Islamabad as the indispensable US interlocutor and sidelining India from the Gulf peace architecture.",
+          src: { name: "Arab News", url: "https://www.arabnews.com/node/2647636/pakistan" }
         },
         {
-          "lead": "Fed holds at 3.5-3.75%; tariff inflation costing households $1,500/year — no cut until Q4.",
-          "body": "Second consecutive Fed hold as tariff-driven core PCE stays above target. Tax Foundation classifies the Trump tariff package as the largest US tax increase as share of GDP since 1993, costing the average household ~$1,500/year. Stagflation risk premium rising in long-end Treasuries; market is pricing no Fed cut until Q4 2026.",
-          "src": {
-            "name": "Tax Foundation",
-            "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
-          }
+          lead: "Ukraine and Moldova open EU accession cluster",
+          body: "European Council met June 18-19; the first formal accession cluster with Ukraine and Moldova opened June 15 after Hungary's new government dropped its Orbán-era veto.",
+          src: { name: "EU Enlargement", url: "https://enlargement.ec.europa.eu/news/eu-and-ukraine-open-first-accession-negotiations-cluster-2026-06-15_en" }
         },
         {
-          "lead": "India-Pakistan Indus Waters: 'not a single drop' standoff firms — no off-ramp visible.",
-          "body": "Indian Minister Patil reaffirmed June 17 that no Indus waters will flow to Pakistan while the IWT remains suspended (since April 2025). Pakistan Foreign Ministry demanded reinstatement and warned of regional destabilisation. First sustained use of the 66-year-old treaty as a coercive instrument; water supplies for 240M Pakistanis at risk. Analysts see no diplomatic off-ramp while post-war military tensions persist.",
-          "src": {
-            "name": "CFR / Al Jazeera",
-            "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-between-india-and-pakistan"
-          }
+          lead: "US-China 60-day tariff truce",
+          body: "June 11 Trump-Xi deal holds 30% combined tariff (20% fentanyl + 10% reciprocal), pausing higher rates; USTR separately proposes a 12.5% Section 301 forced-labor levy on China.",
+          src: { name: "Tax Foundation", url: "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/" }
+        },
+        {
+          lead: "EU trade defense tools tabled at summit",
+          body: "Von der Leyen presented new trade defense instruments June 18-19; Merz and Macron aligned on firm-but-not-protectionist stance against unfair US and Chinese competition.",
+          src: { name: "European Council", url: "https://www.consilium.europa.eu/en/meetings/european-council/2026/06/18-19/" }
         }
       ]
     },
     {
-      "title": "Bangladesh · Subcontinent",
-      "items": [
+      title: "Bangladesh & Subcontinent",
+      items: [
         {
-          "lead": "RAB draft legislation to rename force People's Protection Forces (PPF) — oversight body planned.",
-          "body": "Bangladesh's Rapid Action Battalion (RAB) draft legislation circulating to rename the force People's Protection Forces (PPF) and establish an independent complaints body legally separate from its command chain. Part of the new government's security sector reform agenda, responding to years of human rights criticism. Structural rather than cosmetic: if enacted, accountability mechanism would be one of the first independent oversight bodies in Bangladesh's security sector.",
-          "src": {
-            "name": "The Daily Star",
-            "url": "https://www.thedailystar.net/news/bangladesh"
-          }
+          lead: "Bangladesh's first Free Trade Zone approved",
+          body: "CCEA approved a 600-acre FTZ in Anwara, Chattogram on June 17 — beside the Karnaphuli Tunnel, three EPZs, and Shah Amanat Airport. Development begins this year.",
+          src: { name: "BSS News", url: "https://www.bssnews.net/business/396926" }
         },
         {
-          "lead": "Bangladesh per capita income crosses $3,000 for the first time — BBS June 10 estimate.",
-          "body": "Bangladesh Bureau of Statistics June 10 provisional estimate: per capita income rose to $3,020 in FY2025-26, the first time in Bangladesh's history. Economy at current prices: ~$501bn nominal, up from $456bn in FY25. GDP growth 4.14% in FY26, above FY25's 3.49% but still well below the government's 6.5% target. BNP's economic narrative now has a milestone number.",
-          "src": {
-            "name": "The Business Standard (TBS)",
-            "url": "https://www.tbsnews.net/economy/fy26-bangladeshs-capita-income-crosses-3000-first-time-1459091"
-          }
+          lead: "NBR FY26 shortfall breaches Tk 1 lakh crore",
+          body: "Only 10.6% revenue growth in 10 months; NBR now needs 128.6% growth in the final two months to avoid a record shortfall — CPD terms it a 14-year institutional failure streak.",
+          src: { name: "TBS News", url: "https://www.tbsnews.net/bangladesh/nbr-sees-over-tk1-lakh-crore-revenue-shortfall-fy26-nears-end-cpd-terms-1286-annual" }
         },
         {
-          "lead": "BIDA cuts factory permit to 14 days; Royalty Payment Service now fully digital (7 days).",
-          "body": "BIDA Executive Chairman outlined reforms targeting an investment-led growth strategy: factory permit approval cut from months to 14 days; Royalty Payment Service approval down from 2 months to 7 days via full digitization. Bangladesh needs FDI inflows to diversify beyond RMG and cover market access gaps after LDC graduation in late 2026.",
-          "src": {
-            "name": "The Daily Star",
-            "url": "https://www.thedailystar.net/business"
-          }
+          lead: "Private credit stuck near record low",
+          body: "June private-sector credit growth at 6.4% — far below Bangladesh Bank's 8.5% projection — signaling a persistent investment drought driven by high rates and public crowding-out.",
+          src: { name: "The Daily Star", url: "https://www.thedailystar.net/business/news/private-sector-credit-growth-symptom-deeper-investment-malaise-4180461" }
+        },
+        {
+          lead: "Pakistan's Iran dividend resets subcontinent calculus",
+          body: "Islamabad's co-signing of the US-Iran MOU grants Pakistan rare Gulf diplomatic credit, shifting South Asian influence dynamics as India remains outside the peace architecture.",
+          src: { name: "Zee News", url: "https://zeenews.india.com/world/the-shifting-sands-of-gulf-geopolitics-how-pakistan-mediated-iran-peace-deal-affect-indias-interests-in-middle-east-3055596.html" }
         }
       ]
     },
     {
-      "title": "Trade · Freight",
-      "items": [
+      title: "Trade · Freight · Logistics",
+      items: [
         {
-          "lead": "Drewry WCI $3,549 (June 11); mid-July GRI of $1,000-2,000/FEU signalled by carriers.",
-          "body": "Drewry World Container Index at $3,549/40ft as of June 11, +3% week-on-week. Shanghai-NY up 7% to $5,870; Shanghai-Rotterdam +5% to $3,768. MSC set Asia-N.Europe FAK at $6,000/FEU effective June 15. Carriers signalling mid-July GRIs of $1,000-2,000/FEU above current levels — the contract-vs-spot spread is widening rapidly as early peak season fires.",
-          "src": {
-            "name": "Drewry / Freightos",
-            "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
-          }
+          lead: "Container rates surge 39% in a month",
+          body: "Drewry WCI hit $3,549/40ft on June 11 (+3% WoW); Containerized Freight Index up 39% in 30 days as PSS of up to $2,000/FEU goes live across transpacific and Asia-Europe lanes.",
+          src: { name: "Drewry WCI", url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry" }
         },
         {
-          "lead": "Hormuz full text: oil ban lifted immediately, commercial transit within 30 days of June 19.",
-          "body": "Islamabad Memorandum terms released June 15: coalition oil export ban on Iran lifted immediately on signing; Strait opens to commercial shipping within 30 days; $25B frozen assets unlocked pending compliance. VLCC operators pricing in a 2-4 week re-normalisation window. War-risk insurance review expected only after first convoy clears; 800+ vessels still sequenced to exit.",
-          "src": {
-            "name": "TradingKey / NBC News",
-            "url": "https://www.tradingkey.com/analysis/politics/middle-east/261971794-straitofhormuz-oil-us-tradingkey"
-          }
+          lead: "Hormuz tanker queue: weeks to clear",
+          body: "Even with the MOU signed June 18, only a handful of tankers attempted transit on June 19; insurance premiums still elevated, phased restart expected — not a single-day snap-back.",
+          src: { name: "CNBC", url: "https://www.cnbc.com/2026/06/18/strait-hormuz-reopening-shipping-oil.html" }
         },
         {
-          "lead": "Early peak season: FIFA World Cup cargo and July tariff front-loading pulling volumes forward.",
-          "body": "Peak season running 3-4 weeks early, pulled by FIFA World Cup merchandise flows and tariff front-loading ahead of the July 11 US-China deadline. East Coast and Gulf Coast sailings from China and Vietnam severely capacity-constrained. Drewry expects further rate rises through July before post-peak pull-back. Container rates from China to US range $1,700-$2,400 per 40ft.",
-          "src": {
-            "name": "Global Trade Magazine / Freightos",
-            "url": "https://www.globaltrademag.com/container-freight-rates-surge-23-as-early-peak-season-drives-demand-on-major-trade-lanes/"
-          }
+          lead: "GRI and PSS stack successfully landed",
+          body: "Carriers pushed GRIs and Peak Season Surcharges through in early June; capacity extremely tight on East Coast and Gulf services from China and Vietnam heading into peak demand.",
+          src: { name: "Freightos", url: "https://www.freightos.com/freight-industry-updates/weekly-freight-updates/container-rates-starting-to-spike-on-peak-season-rush-june-2-2026-update/" }
         },
         {
-          "lead": "Houthi pause intact, but June 19 signing is the hinge — Red Sea not yet normal.",
-          "body": "Houthis have not attacked commercial vessels since the Gaza ceasefire in October 2025, but reserve the right to resume if Iran deal collapses. Tomorrow's Bürgenstock signing is a direct commercial pivot for Red Sea routing decisions. Daily Red Sea transits remain significantly below pre-conflict levels as of May 2026; full restoration requires sustained Houthi restraint post-signing.",
-          "src": {
-            "name": "MARAD / Maritime Executive",
-            "url": "https://www.maritime.dot.gov/msci/2026-006-red-sea-bab-el-mandeb-strait-gulf-aden-arabian-sea-and-somali-basin-houthi-attacks"
-          }
+          lead: "Asia-Europe spikes on July BAF pull-forward",
+          body: "Shanghai-Rotterdam rose 5% to $3,768/40ft as shippers pull cargo forward ahead of a July 1 bunker fuel adjustment; Asia-Europe spot at highest since the 2022 Red Sea surge.",
+          src: { name: "Drewry WCI", url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry" }
         },
         {
-          "lead": "Newbuild overhang: 22-25% orderbook-to-fleet ratio threatens post-peak rate reversal.",
-          "body": "The 2024-25 post-COVID newbuild ordering surge left container fleet orderbook-to-fleet at ~22-25%, with deliveries running through 2026-27. Demand growth cannot absorb the tonnage at current rate levels — analysts expect sustained rate pressure once peak-season front-loading completes in July-August. Cape-routed vessels returning to normal Suez routing post-Hormuz will further add effective supply.",
-          "src": {
-            "name": "Lloyd's List / Maritime Gateway",
-            "url": "https://www.lloydslist.com/LL1154942/The-rise-and-fall-of-container-spot-rates--and-what-it-means-for-2026"
-          }
+          lead: "BD RMG caught in triple cost squeeze",
+          body: "Rising ocean rates, residual Hormuz war-risk premiums, and compounding US tariff pressure are stacking costs on Bangladesh garment factories already operating on razor-thin margins.",
+          src: { name: "TBS News", url: "https://www.tbsnews.net/economy/can-bangladesh-reach-1tn-economy-private-investment-languishes-1463331" }
         }
       ]
     },
     {
-      "title": "Semis · AI",
-      "items": [
+      title: "Semiconductors · AI",
+      items: [
         {
-          "lead": "Samsung foundry chasing Nvidia, Google, Tesla, AMD — TSMC still 11x the revenue.",
-          "body": "Samsung Foundry is in talks with Google, Nvidia, Tesla, AMD, and BYD for sub-5nm orders. TSMC Q1 2026 foundry revenue: $35.86B — 11x Samsung's $3.2B, which fell 5.8% QoQ. MediaTek CEO publicly reaffirmed TSMC as 'most important and long-term' partner despite Samsung's pitch. Samsung Chairman Jay Y. Lee reportedly made a discreet visit to Taiwan to secure orders — the gap is closing only at the margins.",
-          "src": {
-            "name": "TechSpot / TrendForce / Sammy Fans",
-            "url": "https://www.techspot.com/news/112800-samsung-foundry-booming-tsmc-struggles-demand-bags-nvidia.html"
-          }
+          lead: "Nvidia invades Intel's last stronghold",
+          body: "RTX Spark Superchip (ARM+Blackwell GPU+128GB unified RAM on TSMC 3nm) lands in Dell/HP/Lenovo/Microsoft PCs this fall; Intel fell 4.7% on the announcement, Nvidia gained 6%.",
+          src: { name: "Tom's Hardware", url: "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory" }
         },
         {
-          "lead": "Intel 18A-P enters risk production; Chandrasekaran: 'committed to leading edge process.'",
-          "body": "Intel pushed its 18A-P node into risk production this week — the step before volume ramp. Foundry chief Naga Chandrasekaran cited the milestone as proof of Intel's roadmap commitment. 18A-P must still demonstrate yields, customer demand, and economics. Apple and Nvidia reportedly shifted some orders to Intel, but TSMC retains overwhelming volume and customer loyalty.",
-          "src": {
-            "name": "ts2.tech / SemiWiki",
-            "url": "https://ts2.tech/en/june-2026-semiconductor-news-roundup-u-s-chip-controls-sandboxaq-funding-and-intel-18a-p/"
-          }
+          lead: "TSMC warns Nvidia and Broadcom on capacity",
+          body: "TSMC alerting top clients of limits at advanced nodes; 2nm targeting 100k wafers/mo; CoWoS packaging targeting 130-140k wafers/mo by 2026-27 — still insufficient for AI demand surge.",
+          src: { name: "AI Business Review", url: "https://www.aibusinessreview.org/2026/06/04/tsmc-ai-chip-capacity-constraints/" }
         },
         {
-          "lead": "Claude Fable 5 scores 88% on FrontierMath Tier 4 — 13 points ahead of GPT-5.5.",
-          "body": "Anthropic's Claude Fable 5 achieved 88% on FrontierMath Tier 4 — AI's hardest public mathematics benchmark — outpacing OpenAI's GPT-5.5 by 13 percentage points. The gap marks a meaningful shift in the frontier model hierarchy on reasoning tasks. Anthropic, OpenAI, and DeepMind CEOs (Amodei, Altman, Hassabis) all appeared before G7 leaders at Évian June 15-17 — the first simultaneous G7 appearance by all three frontier lab heads.",
-          "src": {
-            "name": "AI Weekly / WaveSpeed",
-            "url": "https://aiweekly.co/ai-news-today/anthropic-news"
-          }
+          lead: "Intel 18A world-class yields deferred to 2027",
+          body: "Intel 18A-P ships late 2026 but yield ramp to world-class deferred to early 2027 — first credible foundry alternative since Apple left Samsung in 2016, but not quite there yet.",
+          src: { name: "ts2.tech", url: "https://ts2.tech/en/june-2026-semiconductor-news-roundup-u-s-chip-controls-sandboxaq-funding-and-intel-18a-p/" }
         },
         {
-          "lead": "NVIDIA Blackwell: $1T confirmed demand; B200 pre-allocated through Q2; HBM3e eases Q4.",
-          "body": "NVIDIA has $1T in confirmed Blackwell and Rubin AI chip demand visibility through 2027. B200 GPU production pre-allocated to Microsoft, Google, Meta, Amazon through Q2 2026. HBM3e supply from SK Hynix and TSMC is the binding bottleneck; meaningful new capacity expected online Q4 2026 — will ease premiums but not clear the existing backlog.",
-          "src": {
-            "name": "Spheron / Singularity Moments",
-            "url": "https://www.spheron.network/blog/gpu-shortage-2026/"
-          }
+          lead: "Chips = 95% of AI server rack value",
+          body: "SIA-Deloitte report: semiconductors account for 95% of an AI data center rack's total value; annual AI chip revenue could reach $1.2T by 2028 — a near-tenfold rise from 2024.",
+          src: { name: "SIA", url: "https://www.semiconductors.org/new-report-finds-semiconductors-account-for-95-of-an-ai-data-server-racks-value-encompassing-the-full-stack-of-chip-technologies/" }
         },
         {
-          "lead": "US holds off DeepSeek blacklist despite security pressure — decoupling constrained by supply chain.",
-          "body": "US officials held off adding China's DeepSeek and 100+ other Chinese firms to trade blacklists despite security community pressure. Commerce is balancing the chip-supply-chain buildout at home versus maintaining TSMC access — blacklisting risks diplomatic fallout with Taiwan. Signals Washington's tech-decoupling strategy remains constrained by supply-chain interdependence it cannot yet exit.",
-          "src": {
-            "name": "ts2.tech / June 2026 Semis Roundup",
-            "url": "https://ts2.tech/en/june-2026-semiconductor-news-roundup-u-s-chip-controls-sandboxaq-funding-and-intel-18a-p/"
-          }
+          lead: "Light-powered chip breakthrough",
+          body: "Researchers built a single-device photonic chip that generates, steers, and reads light-based data — a potential leap toward ultra-fast, low-energy alternatives to silicon transistors.",
+          src: { name: "ScienceDaily", url: "https://www.sciencedaily.com/releases/2026/06/260601025343.htm" }
+        },
+        {
+          lead: "AI buildout bottleneck: power, copper, gas",
+          body: "Beyond chips, 2026's AI data center expansion is constrained by electricity shortages, copper scarcity, and critical industrial gas supply — even as accelerators grow ever more powerful.",
+          src: { name: "Manufacturing Dive", url: "https://www.manufacturingdive.com/news/opinion-omdia-ai-semiconductor-chip-scarcity/817172/" }
         }
       ]
     }
   ],
-  "lesson": {
-    "title": "Creative Destruction: Schumpeter's Theory of How Capitalism Eats Itself and Grows",
-    "paragraphs": [
-      "Joseph Schumpeter (1883–1950) proposed in his 1942 masterwork Capitalism, Socialism and Democracy that capitalism's defining dynamic is not the orderly equilibrium competition assumed by classical economics, but a perpetual gale of creative destruction. Innovation relentlessly obsoletes existing industries: the automobile destroys the carriage trade; the container ship kills breakbulk terminals; the smartphone simultaneously wipes out the camera, GPS-device, and alarm-clock industries. The engine of this process is the entrepreneur — not the factory manager or financier — who introduces 'new combinations': new products, new production methods, new markets, new organizational forms.",
-      "Crucially for Schumpeter, the innovation cycle is monopolistic in the short run. The first firm to introduce a successful combination earns extraordinary profits until imitators catch up — profits that are the incentive, not a market failure requiring intervention. This made Schumpeter relaxed about temporary monopolies in a way most economists were not. His deeper worry was the opposite: that large corporations, by routinizing innovation into R&D bureaucracies, would hollow out the entrepreneurial spirit that drives the cycle. He feared capitalism's own professional-managerial class would eventually embrace socialism as more orderly — a prophesy with some uncomfortable resonance today.",
-      "Why it matters for a logistics executive: DSV's $14.3B absorption of DB Schenker, Maersk acquiring freight forwarders, CMA CGM buying ports and media companies — these are defensive Schumpeterian moves by incumbents trying to capture the next wave before it destroys them. Digital forwarders (Flexport, Forto) and AI-driven autonomous dispatch represent entrepreneurial new combinations attacking the industry's value chain from below. The logistics strategist's most important question is Schumpeterian: which new combination will make your current capability obsolete — and can you be the one introducing it?"
+  lesson: {
+    title: "Nuclear Fission and Enrichment: The Physics Behind Every Iran Headline",
+    paragraphs: [
+      "Nuclear fission occurs when a neutron strikes a heavy nucleus — most usefully U-235 — causing it to split into lighter elements while releasing energy and additional neutrons, which can strike further U-235 atoms and sustain a chain reaction. Natural uranium is 99.3% U-238, which absorbs neutrons without fissioning, and 0.7% U-235, which does. Enrichment concentrates U-235 by spinning uranium hexafluoride gas in centrifuge cascades that exploit the tiny mass difference between the two isotopes.",
+      "Enrichment level determines use: below 5% powers civilian reactors; around 20% feeds research reactors; above 90% is weapons-grade. Iran's declared stockpile sits around 60% — far above civilian norms but officially below weapons threshold. The concept that matters is 'breakout time': how quickly Iran could enrich its existing stockpile to produce enough weapons-grade material for a single bomb. At 60%, that window is measured in weeks, not months — which is why IAEA cameras and inspector access are a core demand in any nuclear deal.",
+      "The US-Iran MOU signed June 18 is a ceasefire framework and a Hormuz fix; the hard part — a nuclear accord — is what the next negotiating rounds will actually determine. The core variables: how many centrifuges Iran retains, at what enrichment cap, verified by what IAEA access regime. Every Iran headline from here forward will hinge on exactly these three numbers."
     ],
-    "why": "Schumpeter reframes competitive strategy from 'how do we beat today's rivals' to 'which wave of innovation makes us irrelevant — and can we ride it first.' That lens — not Porter's Five Forces — explains why major logistics consolidation is accelerating now, and why digital forwarders and AI automation represent an existential, not incremental, threat."
+    why: "The deal signed yesterday reopens Hormuz and kicks off nuclear talks. You cannot parse those talks without understanding enrichment levels, breakout time, and IAEA verification — the three pillars every negotiator will argue over for the next 60 days."
   },
-  "questions": [
+  questions: [
     {
-      "n": 1,
-      "topic": "industry",
-      "subtopic": "documentation",
-      "stem": "An exporter ships trade-show display equipment and professional samples across three countries over six months, then repatriates them. Which customs document enables duty-free temporary admission across borders without filing complex import declarations in each country?",
-      "options": [
-        "A Temporary Export Licence (TEL) issued by the originating country's trade ministry, valid for one year",
-        "An ATA Carnet — an international customs document guaranteeing temporary duty-free admission across ~87 WCO member territories",
-        "A Combined Export-Import Declaration filed simultaneously with customs authorities in each transit country",
-        "A Letter of Credit with 'return for re-export' notation endorsed by the exporter's chamber of commerce"
+      n: 1,
+      topic: "industry",
+      subtopic: "multimodal",
+      stem: "A freight forwarder consolidates LCL shipments from multiple shippers into one FCL box under a CFS/CFS arrangement. At the destination port, who performs deconsolidation, and what document governs each individual shipper's cargo?",
+      options: [
+        "The destination forwarder or NVOCC deconsolidates; each shipper holds a House Bill of Lading",
+        "The ocean carrier deconsolidates; each shipper holds a Master Bill of Lading",
+        "The customs broker deconsolidates; all cargo moves on a single commercial invoice",
+        "The consignee deconsolidates at their warehouse; cargo is covered by an arrival notice only"
       ],
-      "correct": 1,
-      "why": "ATA Carnets — administered by ICC World Chambers Federation under the Istanbul Convention — cover professional equipment, commercial samples, and trade-show goods for temporary duty-free admission across ~87 member territories.",
-      "deepDive": "The ATA Carnet (Admission Temporaire / Temporary Admission) is administered by the ICC World Chambers Federation under the Istanbul Convention. In the originating country, the carnet is guaranteed by a national chamber of commerce — in Bangladesh, the DCCI or MCCI. It contains counterfoils and vouchers for each country of temporary import; customs in each transit country stamps and detaches vouchers on entry and exit, confirming goods will be re-exported. If goods are not re-exported within the carnet's validity (typically one year), the guaranteeing chamber pays customs duties — so exporters must track deadlines carefully. Carnets cover three categories: professional equipment (broadcast gear, film tools, trade equipment), commercial samples, and goods for fairs and exhibitions. Carnets do not cover consumable goods, goods for processing, or goods intended for sale. For MGH clients exhibiting across South and Southeast Asia, ATA Carnet knowledge avoids costly duty deposits at every border crossing."
+      correct: 0,
+      why: "In NVOCC/forwarder LCL, the NVOCC (or their destination agent) deconsolidates at the CFS; each shipper holds a House BL, while the ocean carrier holds only the Master BL issued to the NVOCC.",
+      deepDive: "An NVOCC acts as carrier to the shipper but as shipper to the actual ocean carrier. In a CFS/CFS LCL movement, the NVOCC consolidates cargo at the origin CFS, issues House BLs to individual shippers, and holds a single Master BL from the ocean line. At destination, the NVOCC's agent deconsolidates at the CFS and releases individual shipments against the House BLs. This two-layer structure matters for cargo claims: if damage occurs during ocean transit, the shipper sues under the House BL; the NVOCC then pursues the carrier under the Master BL. If the NVOCC becomes insolvent, shippers face serious recovery challenges — hence the importance of FMC licensing (in the US) and selecting financially stable NVOCCs. Tracking can also be fragmented as the NVOCC's system and the carrier's system may not sync, making end-to-end visibility harder than in FCL."
     },
     {
-      "n": 2,
-      "topic": "industry",
-      "subtopic": "customs",
-      "stem": "A Vietnam garment manufacturer imports Chinese fabric, makes finished shirts, and re-exports to the US — paying import duties on the fabric at Vietnam customs entry. Under duty drawback, what can the exporter claim?",
-      "options": [
-        "Full exemption from US import duties on the finished shirts, because Vietnam is the country of manufacture",
-        "A refund of up to 99% of the customs duties paid on the imported Chinese fabric, provided it was used in goods subsequently exported",
-        "Permanent duty-free fabric imports from China, provided a monthly export volume threshold is maintained",
-        "An exemption from all Vietnamese VAT and excise taxes on domestically produced goods"
+      n: 2,
+      topic: "industry",
+      subtopic: "trade_lanes",
+      stem: "The Middle Corridor (Trans-Caspian International Transport Route) gained traction as a China-Europe rail alternative after 2022 Russia sanctions. What is its primary capacity bottleneck compared to the Trans-Siberian/TCR all-rail route?",
+      options: [
+        "Insufficient gauge conversion facilities at the European terminal end of the route",
+        "Multiple transshipment points including Caspian Sea ferry crossings that break all-rail continuity",
+        "Chinese government restrictions on routing sensitive cargo through Central Asian states",
+        "Shortage of reefer and temperature-controlled rail wagons for high-value goods"
       ],
-      "correct": 1,
-      "why": "Duty drawback refunds (up to 99% under US CBP rules) import duties paid on inputs when those inputs are incorporated into manufactured goods that are subsequently exported — eliminating double taxation on export-oriented manufacturers.",
-      "deepDive": "Duty drawback is a customs refund mechanism: when imported materials are incorporated into goods that are then exported, the importer can reclaim up to 99% (under US CBP Title 19 USC 1313) of duties originally paid on those inputs. Major drawback types: manufacturing drawback (imported inputs transformed into exported articles), same-condition drawback (goods exported in the same state as imported), and substitution drawback (using fungible domestic goods interchangeably with imported inputs). Bangladesh operates an analogous pre-emptive system: RMG manufacturers with a bond licence import fabric duty-free under a bonded warehouse regime — effectively advance drawback. Drawback claims require meticulous documentation correlating imported fabric to exported finished goods. Failure to substantiate the input-output connection is the most common drawback claim rejection reason. For a logistics company advising garment exporters across Vietnam, Bangladesh, and Cambodia, drawback eligibility and documentation requirements are a real commercial value-add."
+      correct: 1,
+      why: "The Middle Corridor requires a Caspian Sea ferry crossing between Kazakhstan/Turkmenistan and Azerbaijan — unlike the all-rail TCR — plus multiple gauge changes, driving up cost and transit time.",
+      deepDive: "The Trans-Caspian International Transport Route runs China–Kazakhstan–Caspian Sea ferry–Azerbaijan–Georgia–Turkey–Europe. Its appeal surged after 2022 Russia sanctions made the Trans-Siberian/TCR route legally and commercially risky. The Caspian ferry crossing at Aktau (Kazakhstan) or Turkmenbashi (Turkmenistan) to Alat (Azerbaijan) is the key bottleneck: ferry capacity is finite, weather disrupts crossings, and every transshipment adds days and cost versus pure rail. Gauge changes — broad gauge across Central Asia, standard gauge in Turkey and Europe — add further complexity. Compare to TCR: China–Kazakhstan–Russia–Belarus–Poland, which is all-rail and faster in theory but now politically restricted. Middle Corridor throughput has tripled since 2022 but remains a fraction of TCR historical volumes; its ceiling depends on Caspian ferry infrastructure investment and port capacity at Alat and Aktau."
     },
     {
-      "n": 3,
-      "topic": "industry",
-      "subtopic": "vessels",
-      "stem": "A crude-oil charterer wants the largest tanker class that can transit the Suez Canal fully laden for a Persian Gulf-to-Rotterdam voyage. Which vessel class meets this specification?",
-      "options": [
-        "VLCC (Very Large Crude Carrier), 200,000–320,000 DWT — routinely transits Suez Canal when fully laden",
-        "Aframax, 80,000–120,000 DWT — named for the AFRA scale; suited to shorter regional routes",
-        "Suezmax, 120,000–200,000 DWT — designed to maximally utilise the Suez Canal's allowable draft and beam when fully laden",
-        "ULCC (Ultra Large Crude Carrier), 320,000+ DWT — the largest class available for crude charter"
+      n: 3,
+      topic: "industry",
+      subtopic: "marine_insurance",
+      stem: "General Average is declared after cargo is sacrificed to save the vessel. Under the York-Antwerp Rules 2016, which condition MUST the sacrifice have met for a valid G/A claim to arise?",
+      options: [
+        "The cargo must have been covered under ICC(A) all-risks insurance at the time of sacrifice",
+        "The sacrifice must have been voluntarily and reasonably made for the common safety of all interests at risk",
+        "The shipowner must notify all cargo interests of the sacrifice within 72 hours of the event",
+        "The value of sacrificed cargo must exceed 5% of the vessel's declared insured value"
       ],
-      "correct": 2,
-      "why": "Suezmax (120,000–200,000 DWT) is explicitly designed to transit the Suez Canal fully laden at maximum allowable draft. VLCCs and ULCCs cannot transit Suez laden and must cape-route.",
-      "deepDive": "Tanker nomenclature reflects route constraints and economic optima. Aframax (80,000–120,000 DWT) is named for the AFRA (Average Freight Rate Assessment) scale and dominates shorter regional trades — North Sea, Mediterranean, Caribbean, intra-Asia — where port depth limits exclude larger vessels. Suezmax (120,000–200,000 DWT) is sized to maximally exploit the Suez Canal at its ~21m allowable draft, carrying maximum cargo per transit fee dollar — the commercial workhorse on West Africa-US, Black Sea-Europe, and Middle East-Europe routes. VLCCs (200,000–320,000 DWT) dominate long-haul Middle East-to-Asia crude, but must cape-route for Europe-bound laden voyages. The Hormuz-Suez-Rotterdam route uses Suezmax precisely because VLCCs cannot transit Suez laden — directly relevant to Iranian oil sanctions enforcement during the 2026 Hormuz closure. The Suez Canal Authority charges tolls by Suez Canal Net Tonnage (SCNT), not DWT, so Suezmax designation also carries a tariff optimisation dimension."
+      correct: 1,
+      why: "York-Antwerp Rule A: the G/A act must be intentional, reasonable, and made for the common benefit of all interests at risk. Accidental damage or losses from negligence do not qualify.",
+      deepDive: "General Average traces to ancient maritime custom — the Lex Rhodia de Jactu from Rhodian Sea Law — and was codified in the York-Antwerp Rules (first 1890, latest revision 2016). The core logic: if cargo is thrown overboard to save a ship in peril, all parties who benefited (ship, cargo, freight) contribute proportionally to compensate the sacrificing party. For a valid G/A claim, the act must be (1) intentional — not accidental; (2) reasonable and necessary given the peril; (3) for the common safety. The 2016 Rules amended GA significantly, excluding salvage special compensation from contributions and tightening interest provisions. In practice, GA is increasingly rare because modern ICC(A) cargo insurance typically covers a cargo owner's GA contribution. Shipowners appoint GA adjusters who issue GA bonds and demand security deposits from cargo receivers — shipments can be held until security is provided, which surprises many shippers encountering GA for the first time."
     },
     {
-      "n": 4,
-      "topic": "industry",
-      "subtopic": "port_ops",
-      "stem": "Ocean carriers declare a Port Congestion Surcharge (PCS) on a trade lane. What scenario typically triggers a PCS, and who bears the charge?",
-      "options": [
-        "PCS is declared when weather delays vessels at anchorage; it is absorbed by the vessel owner as an operating cost",
-        "PCS is a per-TEU surcharge added by the carrier to shippers on the affected lane when sustained port congestion materially extends vessel turnaround times — billed to cargo interests",
-        "PCS is a government levy imposed by the port authority on vessels calling during peak holiday periods",
-        "PCS applies only to reefer cargo to compensate for extended power costs during congestion delays"
+      n: 4,
+      topic: "industry",
+      subtopic: "compliance",
+      stem: "Under the US Uyghur Forced Labor Prevention Act (UFLPA), a shipment from a Xinjiang-based supplier arrives at a US port. The importer claims no forced labor was used. What legal standard applies?",
+      options: [
+        "CBP must prove forced labor use before detaining; importers get free entry unless specific evidence is found",
+        "The shipment is presumed to involve forced labor; the importer must rebut with clear and convincing evidence",
+        "Goods are held 30 days for CBP investigation; a third-party SGS inspection certificate clears the shipment",
+        "Detention applies only if the supplier appears on the UFLPA Entity List; otherwise normal customs entry proceeds"
       ],
-      "correct": 1,
-      "why": "PCS is a carrier-imposed per-TEU surcharge on shippers (cargo interests) that passes through the additional cost of extended vessel turnaround times — longer anchorage means more bunker, crew time, and schedule disruption costs.",
-      "deepDive": "Port congestion occurs when vessel arrivals exceed terminal and berth capacity, forcing ships to queue at anchorage. Each day at anchor costs approximately $15,000–$30,000 for a large container vessel in fuel, crew time, and time-charter opportunity cost. Carriers recover this via a Port Congestion Surcharge (PCS) or Port Congestion Premium (PCP), billed per TEU to shippers on affected lanes. During 2020-22, US West Coast and Chinese port congestion generated PCS additions of $400–$1,000/TEU on Transpacific routes. Triggers range from labour disputes (ILWU negotiations halting terminal operations), typhoon closures, pandemic workforce reductions, and post-holiday cargo surges. Shippers should review service contracts for surcharge validity windows and dispute processes — some carriers declared PCS on lanes where actual delays were marginal, triggering FMC arbitration. Commercially, PCS is a classic variable cost pass-through: the carrier shifts unpredictable congestion costs to cargo interests in exchange for a more predictable base ocean freight rate."
+      correct: 1,
+      why: "UFLPA creates a rebuttable presumption that ALL goods from Xinjiang involve forced labor; the importer bears the burden of proof by 'clear and convincing evidence' — the highest civil standard.",
+      deepDive: "The Uyghur Forced Labor Prevention Act was signed December 2021 and took effect June 2022. It applies to goods produced wholly or in part in Xinjiang, or by entities on the UFLPA Entity List maintained by DHS, Commerce, and USTR. The rebuttable presumption is unusually powerful: unlike most trade enforcement where CBP must find evidence of violation, UFLPA reverses the burden onto the importer. 'Clear and convincing evidence' is higher than the normal civil 'preponderance of evidence' threshold. Acceptable evidence typically requires granular supply chain documentation tracing every input to a non-forced-labor source, third-party audits with unannounced access, and shipment-level traceability. CBP has detained billions in goods — particularly cotton textiles, polysilicon for solar panels, and automotive parts. The law has forced many multinationals to exit Xinjiang supplier relationships entirely, even for indirect or Tier-2 suppliers."
     },
     {
-      "n": 5,
-      "topic": "industry",
-      "subtopic": "liner_alliances",
-      "stem": "In liner shipping, a 'slot charter' differs structurally from a 'Vessel Sharing Agreement' (VSA). Which statement best captures the key distinction?",
-      "options": [
-        "A VSA requires each member to contribute vessels to a shared pool; a slot charter lets one carrier buy fixed slots on another carrier's vessel without committing any tonnage in return",
-        "A slot charter is identical to a VSA but applies only on routes where a single carrier operates the full service",
-        "Under a VSA, one carrier owns all vessels and charters the full ship to alliance partners; in a slot charter, partners share vessel ownership pro-rata",
-        "Slot charters require FMC approval in all markets; VSAs are exempt from regulatory oversight globally"
+      n: 5,
+      topic: "industry",
+      subtopic: "industry_econ",
+      stem: "The container shipping orderbook-to-fleet ratio currently sits near 22%. How do sophisticated market analysts use this metric to forecast freight rates 18-36 months ahead?",
+      options: [
+        "A ratio above 20% guarantees rate declines within 12 months as new tonnage floods the market",
+        "The ratio must be adjusted for scrapping forecasts, delivery slippage, and demand growth before drawing rate conclusions — a high orderbook alone does not signal oversupply",
+        "A ratio below 15% triggers carrier GRI declarations; above 15%, rates are competitively suppressed regardless of demand",
+        "Orderbook ratios are lagging indicators; sophisticated analysts rely exclusively on spot WCI data for 36-month forecasting"
       ],
-      "correct": 0,
-      "why": "A VSA pools vessel capacity from multiple carriers — each contributes ships and receives slots. A slot charter is one-way: the purchasing carrier buys slots on another's vessel without committing any ship of its own to that service.",
-      "deepDive": "Liner alliances are built on two primary instruments. In a Vessel Sharing Agreement (VSA), multiple carriers each contribute vessels proportional to their agreed slot allocation, creating a joint service: all partners market and fill their own slots independently, with costs shared pro-rata. No cash changes hands for the ship itself. In a slot charter, Carrier A pays Carrier B for a fixed number of TEU slots per voyage — a cash transaction — without committing any vessel. Carrier A fills those slots and earns revenue; Carrier B keeps its remaining slots. Slot charters are used by smaller regional carriers to access major deep-sea corridors without the capital and schedule commitment of contributing vessels. Both VSAs and slot charters require notification or filing with competition authorities (EU BER block exemption, US FMC exemption under the Shipping Act). Within the three surviving major alliances — Gemini Cooperation, Premier Alliance, Ocean Alliance — VSAs form the structural backbone, while slot charters are the flexibility mechanism for third-party access."
+      correct: 1,
+      why: "A high orderbook ratio is a useful leading indicator but requires adjustment for delivery slippage (historically 20-40%), scrapping rates, and demand growth before drawing rate conclusions.",
+      deepDive: "The orderbook-to-fleet ratio measures vessels on order as a percentage of the existing fleet in TEU. During the 2007-2010 newbuilding binge, the ratio hit 60%+ — and fleet expansion through 2012 crushed rates for the better part of a decade. But the raw ratio is often misleading. Historical delivery slippage averages 20-40%: orders are cancelled, yards delay delivery, or vessel specs change. Scrapping rates are procyclical — owners scrap aging tonnage when rates are low (reducing net fleet growth) and keep everything earning when rates are high. Demand growth from trade expansion, route diversification (e.g., Cape routing during Red Sea disruptions adding effective ton-miles), or inventory build cycles can absorb significant new supply. Drewry's supply-demand model layers adjusted net fleet additions against demand forecasts to derive utilization rates — the actual driver of freight rate pressure. The raw orderbook number alone has misled analysts repeatedly."
     },
     {
-      "n": 6,
-      "topic": "gk",
-      "subtopic": "literature",
-      "stem": "Nabokov's 'Pale Fire' (1962) is structured as the scholarly apparatus of an unreliable editor — foreword, commentary on a poem, index. What formal innovation makes it canonical postmodernism?",
-      "options": [
-        "It was the first novel written entirely as correspondence between characters who never meet, pioneering the 20th-century epistolary form",
-        "The entire novel is told through a fictional scholarly apparatus — the editor's commentary so dominated by his own delusions that the real story must be assembled by reading between the apparatus",
-        "It presents the same plot three times from three different perspectives, anticipating the technique made famous by Rashomon",
-        "Stream-of-consciousness interior monologue is interrupted every hundred pages by a change of narrator, creating multiple unreliable voices"
+      n: 6,
+      topic: "gk",
+      subtopic: "political_theory",
+      stem: "In 'A Theory of Justice' (1971), Rawls uses the 'veil of ignorance' to derive principles of justice. What are the two principles he arrives at, and how does he rank them?",
+      options: [
+        "The Utility Principle and the Difference Principle; the Difference Principle takes strict priority",
+        "The Equal Liberty Principle and the Difference Principle; the Liberty Principle has strict lexical priority — it cannot be traded off for economic gains",
+        "The Fairness Principle and the Sufficiency Principle; they apply simultaneously with equal weight",
+        "The Social Contract Principle and the Harm Principle; the Harm Principle operates as a side constraint on the Social Contract"
       ],
-      "correct": 1,
-      "why": "Pale Fire's radicalism lies in burying the actual narrative inside a fictional scholarly apparatus — foreword, line-by-line commentary, index — where the editor's digressions constitute the real story that must be assembled.",
-      "deepDive": "Vladimir Nabokov's 'Pale Fire' (1962) is structured as a scholarly edition of a 999-line poem by fictional poet John Shade, with a foreword and extensive commentary by Shade's neighbor Charles Kinbote. Kinbote's commentary is almost entirely about himself — his memories of the fictional kingdom of Zembla and its exiled king — with only marginal connection to Shade's actual poem. As the commentary accumulates, readers realize Kinbote is either a delusional academic, the genuine exiled king he claims to be, or possibly Shade's murderer rationalizing the killing. The novel can only be 'read' by flipping between poem, commentary, and index simultaneously, making the reader an active assembler of plot. Nabokov turned the academic apparatus itself into narrative form — arguably the most extreme use of an unreliable narrator in literary history. His influence on postmodern fiction is vast: David Foster Wallace's footnotes-as-narrative in Infinite Jest and W.G. Sebald's embedded photographs both owe something to Pale Fire's structural radicalism. The title is from Shakespeare's Timon of Athens: 'The moon's an arrant thief, / And her pale fire she snatches from the sun.'"
+      correct: 1,
+      why: "Rawls derives: (1) equal basic liberties for all; (2) inequalities justified only if they benefit the least advantaged. The Liberty Principle has strict lexical priority — no trade-off for economic gain.",
+      deepDive: "John Rawls' 'A Theory of Justice' (1971) is the most influential work in 20th-century political philosophy. The 'original position' is a hypothetical design exercise: imagine choosing principles of justice without knowing your place in society — your class, abilities, or values (the 'veil of ignorance'). Rawls argues rational agents would choose two principles. First: each person gets the most extensive system of equal basic liberties compatible with similar liberty for all (speech, conscience, association, political participation). Second — the Difference Principle: social and economic inequalities are just only if they benefit the least advantaged members of society. Rawls ranks them lexically: liberty cannot be sacrificed for prosperity. Robert Nozick challenged this in 'Anarchy, State, and Utopia' (1974) with his entitlement theory — justice is about fair acquisition and transfer of holdings, not distributive pattern. The Rawls-Nozick debate defines liberal political philosophy's two poles and underpins every serious argument about taxation, welfare, and redistribution."
     },
     {
-      "n": 7,
-      "topic": "gk",
-      "subtopic": "arts",
-      "stem": "Caravaggio developed a radical variant of chiaroscuro — near-total darkness with spotlit figures. What is the specific term for this technique?",
-      "options": [
-        "Sfumato — Leonardo da Vinci's technique of blurring outlines using translucent glazes to create atmospheric haze",
-        "Pointillism — building images from tiny dots of pure colour, pioneered by Georges Seurat in the 1880s",
-        "Tenebrism — from Latin 'tenebrae' (darkness); backgrounds near-black, subjects illuminated as if by a single direct light source",
-        "Impasto — applying thick, heavily textured paint to the canvas surface to create tactile relief"
+      n: 7,
+      topic: "gk",
+      subtopic: "economics",
+      stem: "The Coase Theorem (Ronald Coase, 1960) holds that externalities can be resolved through private bargaining. What conditions does Coase specify, and why do they fail in most real-world pollution cases?",
+      options: [
+        "Conditions: competitive markets and price-taking behavior; fail because polluters hold monopoly power",
+        "Conditions: well-defined property rights and zero (or negligible) transaction costs; fail because large numbers of affected parties and free-rider problems make bargaining impractical",
+        "Conditions: government first assigns pollution permits; fail because markets distort permit prices over time",
+        "Conditions: Pareto-efficient initial allocation of rights; fail because pollution rights are never initially Pareto-efficient"
       ],
-      "correct": 2,
-      "why": "Tenebrism (from Latin tenebrae) is specifically Caravaggio's radical innovation beyond standard chiaroscuro — extreme, near-total darkness with figures illuminated as if by a spotlight in an otherwise dark room.",
-      "deepDive": "Michelangelo Merisi da Caravaggio (1571–1610) transformed European painting by radicalising chiaroscuro into what critics later named tenebrism — from Latin tenebrae ('darkness'). Where Renaissance painters modelled form by graded shading, Caravaggio bathed entire backgrounds in near-complete black and illuminated figures as if by a single harsh light source — a candle or lantern — creating unprecedented psychological drama. His religious subjects scandalised Rome: dirty-footed saints, prostitutes as Madonnas, thieves as apostles — the shock theological as much as painterly. Caravaggio's influence radiated through Artemisia Gentileschi (scenes of female power), Rubens (who collected Caravaggio), Rembrandt (mastered the technique secondhand), Velázquez, and Georges de La Tour. 'Caravaggisti' describes the wave of painters across Italy, France, Spain, and the Netherlands who adopted his tenebrist approach. Common misconception: sfumato (Leonardo's smoky boundary-blurring with thin glazes) is often confused with tenebrism — they solve different problems: sfumato creates atmospheric haze, tenebrism creates dramatic illumination. Impasto (thick textured paint, associated with Rembrandt and Van Gogh) is an entirely different technique."
+      correct: 1,
+      why: "Coase requires clearly defined property rights and negligible transaction costs. In real pollution cases, large affected groups, free-rider problems, and coordination costs make private bargaining unworkable.",
+      deepDive: "Ronald Coase's 'The Problem of Social Cost' (Journal of Law and Economics, 1960) challenged the Pigouvian consensus that externalities require government tax or regulation. Coase showed: if property rights are clearly assigned and transaction costs are zero, parties will bargain to an efficient outcome regardless of who holds the right initially. His classic example — a cattle rancher whose cows trample a farmer's crops — shows that whether the rancher or farmer holds the right, they negotiate to the efficient crop-protection level. George Stigler named it the 'Coase Theorem.' Coase himself was frequently frustrated: he argued his paper was really about why transaction costs are ubiquitous and why property rights institutions matter for real-world outcomes — not a claim that markets solve externalities. Emissions trading schemes like the EU ETS are a Coasean approach applied at scale: define tradeable rights (carbon permits), let parties bargain. They work better than pure Pigou taxes when the optimal tax level is uncertain."
     },
     {
-      "n": 8,
-      "topic": "gk",
-      "subtopic": "music",
-      "stem": "The premiere of Stravinsky's 'The Rite of Spring' at Paris's Théâtre des Champs-Élysées on 29 May 1913 triggered one of music history's most famous incidents. What happened?",
-      "options": [
-        "The work was technically so demanding that the orchestra refused to play the final movement, and Stravinsky completed the premiere at the piano",
-        "The audience rioted — booing, catcalling, and physical fighting between admirers and detractors broke out within minutes of the curtain rising",
-        "The French government banned the work on grounds of pagan ritual content, triggering a diplomatic incident with Russia",
-        "Stravinsky collapsed during the performance and never publicly conducted again"
+      n: 8,
+      topic: "gk",
+      subtopic: "sport",
+      stem: "The Duckworth-Lewis-Stern (DLS) method replaced the 'run-rate method' in rain-interrupted limited-overs cricket. What fundamental insight separates DLS from its predecessor, and what notorious incident exposed the old method's flaw?",
+      options: [
+        "DLS uses a logarithmic run-rate formula; the run-rate method failed when West Indies needed 0 runs off 0 balls at the 1992 WC",
+        "DLS accounts for both overs remaining AND wickets in hand as dual resources; the run-rate method was exposed at the 1992 WC semi-final where South Africa needed 22 runs from 1 ball",
+        "DLS accounts only for wickets lost, not overs remaining; exposed when England were set 0 runs from 0 balls at Lord's in 1999",
+        "DLS uses historical match databases to set revised targets dynamically; the run-rate method was abandoned for purely statistical reasons with no famous incident"
       ],
-      "correct": 1,
-      "why": "The 1913 premiere is legendary for the audience riot — provoked by Stravinsky's dissonant, rhythmically violent score and Nijinsky's deliberately primitive choreography for the Ballets Russes.",
-      "deepDive": "Igor Stravinsky's 'The Rite of Spring' (Le Sacre du Printemps) premiered with Diaghilev's Ballets Russes, choreographed by Vaslav Nijinsky. Within minutes, audience members expecting elegant ballet were confronted with stamping, turned-in feet, hunched postures, and Stravinsky's ferociously percussive, poly-rhythmic score with asymmetrical time signatures and dissonant harmonics. Hissing and booing escalated into physical fighting between admirers and detractors. Stravinsky watched the later sections from the wings; Nijinsky reportedly called out counts from backstage to dancers who could no longer hear the orchestra. The work explored pagan pre-Christian Russia — the sacrifice of a chosen maiden to ensure spring's arrival. Carl Van Vechten, present that night, wrote that the audience's savagery matched the primitivism on stage. Within years the Rite became a concert-hall standard received with rapturous applause — the riot was about novelty, not quality. Common misconception: the premiere uproar was partly about Nijinsky's radical choreography — turned-in feet and stamping that physically embodied the score's primitiveness — as much as the music itself. Later concert performances of the score without dance were received with immediate success."
+      correct: 1,
+      why: "DLS recognizes two resources — overs AND wickets. The run-rate method used only overs, producing the absurd 1992 WC semi-final result: South Africa needed 22 runs from 1 ball after a rain reduction.",
+      deepDive: "Frank Duckworth and Tony Lewis developed their method in the early 1990s, first used in international cricket in January 1997. The key insight: a batting team's 'resource' is the combination of overs remaining AND wickets in hand — not just overs. Losing 10 overs with all 10 wickets in hand is far less damaging than losing 10 overs with 2 wickets remaining; the old run-rate method treated both identically, using (runs needed ÷ original overs) × remaining overs. The 1992 World Cup semi-final between England and South Africa remains the most famous victim: a rain break reduced South Africa's adjusted target such that they needed exactly 22 runs from 1 delivery — because the rain had wiped out England's lowest-scoring over. DLS maps every combination of overs × wickets onto a 'resource percentage' table, derived from empirical match data. Steven Stern took over maintenance from Duckworth and Lewis in 2014, giving the method its 'S.' Controversies persist in T20 format, where assumption of innings shape fits less well."
     },
     {
-      "n": 9,
-      "topic": "gk",
-      "subtopic": "religion",
-      "stem": "Al-Ghazali's 'Revival of the Religious Sciences' (11th century) resolved the tension between Sufi mysticism and Sunni orthodoxy. What specifically did he achieve?",
-      "options": [
-        "He declared all Sufi orders heretical and persuaded the Abbasid caliph to ban Sufi practices across the empire",
-        "He founded the Qadiriyya order — the oldest surviving Sufi order — providing the organizational vehicle through which Sufism spread to South Asia",
-        "He integrated Sufi spiritual psychology within orthodox Sunni jurisprudence, showing that mystical inner devotion and legal observance (fiqh) were complementary rather than competing",
-        "He proved through formal philosophical argument that Sufi sama' (musical listening) was permissible under Sharia, resolving the qawwali controversy"
+      n: 9,
+      topic: "gk",
+      subtopic: "pop_culture",
+      stem: "The word 'blog' entered common use around 1999. Jorn Barger coined 'weblog' in 1997. How did the shortened form 'blog' emerge, and which platform cemented its mainstream adoption?",
+      options: [
+        "Peter Merholz wrote 'we blog' as a joke in his website sidebar in 1999; Pyra Labs' Blogger platform then popularized 'blog' as both noun and verb",
+        "Barger himself shortened 'weblog' to 'blog' in a 1998 email newsletter; AOL Journals drove its adoption",
+        "The hyphen in 'web-log' was dropped by early CMS software; LiveJournal popularized the shortened term from 2000",
+        "Dave Winer coined 'blog' as the plural of 'weblog' in a Scripting News post; Movable Type spread the term"
       ],
-      "correct": 2,
-      "why": "Al-Ghazali's Ihya Ulum al-Din systematically integrated Sufi mystical practice within Sunni orthodoxy — rescuing Sufism from the charge of bid'a (illegitimate innovation) and placing it at the heart of mainstream Islamic piety.",
-      "deepDive": "Abu Hamid al-Ghazali (1058–1111), known as 'Hujjat al-Islam' (Proof of Islam), was a Persian theologian, jurist, and philosopher who experienced a spiritual crisis at the height of his fame, abandoning his prestigious Baghdad professorship for two years of Sufi seclusion. His masterwork 'Ihya Ulum al-Din' (Revival of the Religious Sciences) — arguably the most widely read Islamic text after the Quran and Hadith — systematically integrated Sufi spiritual psychology with orthodox Sunni practice across four books: acts of worship, social customs, destructive vices, and salvific virtues. He argued that Sharia observance without inner spiritual purification (tazkiyat al-nafs) was hollow, and that authentic mystical experience was the living heart of Islamic practice — not a deviation from it. Before Al-Ghazali, Sufism risked condemnation as bid'a; after him, it became mainstream Sunni piety. Al-Ghazali separately produced 'The Incoherence of the Philosophers' (Tahafut al-Falasifa), attacking Avicenna's Aristotelian cosmology — which Ibn Rushd (Averroes) rebutted in 'The Incoherence of the Incoherence.' Common misconception: Al-Ghazali is sometimes portrayed as anti-intellectual; in fact he was rigorously trained in philosophy and used its methods systematically to critique it."
+      correct: 0,
+      why: "Peter Merholz jokingly split 'weblog' into 'we blog' on peterme.com in 1999; Evan Williams at Pyra Labs built Blogger (August 1999) around 'blog' as both noun and verb, driving it mainstream.",
+      deepDive: "Jorn Barger coined 'weblog' on December 17, 1997, on his site Robot Wisdom — a 'log' of his web browsing. In April or May 1999, Peter Merholz split the word into 'we blog' in the sidebar of peterme.com as a deliberate joke. Evan Williams at Pyra Labs noticed and incorporated 'blog' and 'blogger' when naming his new publishing platform Blogger, launched August 1999. Google acquired Blogger in 2003, massively accelerating global adoption. The term entered the Oxford English Dictionary in 2003. The cultural impact was enormous: blogging democratized publishing before social media existed, shaped political discourse (the 2004 US election was widely called the first 'blog election'), and broke major news stories — notably the CBS Memogate scandal in 2004, where bloggers disproved document authenticity faster than any newsroom. Blogging's decline as a distinct medium tracks almost exactly with the rise of Twitter and Facebook in the 2010s, but its DNA lives in every newsletter, Substack, and personal brand online today."
     },
     {
-      "n": 10,
-      "topic": "gk",
-      "subtopic": "life_science",
-      "stem": "Long-term potentiation (LTP), discovered by Bliss and Lømo in 1973, is considered the primary cellular mechanism underlying learning and memory. What does LTP involve at the synaptic level?",
-      "options": [
-        "New neuron formation (neurogenesis) in the hippocampus after a learning event, permanently encoding memory in fresh neural tissue",
-        "Activity-dependent strengthening of synapses: repeated firing causes NMDA receptors to open, allowing calcium influx that makes the synapse more responsive to future stimulation",
-        "Memory transfer from short-term to long-term storage by converting electrical signals into modified proteins stored in the cell nucleus",
-        "Glial cells insulating synaptic connections to prevent memory degradation over time"
+      n: 10,
+      topic: "gk",
+      subtopic: "physical_science",
+      stem: "The Meissner effect distinguishes a true superconductor from a hypothetical 'perfect conductor.' A perfect conductor would trap magnetic flux when cooled. What does a superconductor do instead, and why does this distinction matter?",
+      options: [
+        "A superconductor allows magnetic fields to pass through freely, enabling MRI machines to function at lower energy cost",
+        "A superconductor expels all magnetic flux from its interior regardless of field history — proving superconductivity is a distinct thermodynamic phase, not just zero resistance",
+        "A superconductor amplifies magnetic fields at its surface, which is why superconducting magnets generate unusually strong field strengths",
+        "A superconductor oscillates its surface field to create eddy-current repulsion, similar to Lenz's Law in normal conductors"
       ],
-      "correct": 1,
-      "why": "LTP works through activity-dependent synaptic strengthening: the NMDA receptor acts as a 'coincidence detector,' opening when pre- and post-synaptic neurons fire together, allowing calcium influx that strengthens the synapse.",
-      "deepDive": "Long-term potentiation (LTP) was discovered by Timothy Bliss and Terje Lømo in Per Andersen's Oslo lab, published definitively in 1973. They found that high-frequency electrical stimulation of hippocampal pathways caused lasting enhancement of synaptic transmission. At the molecular level: repeated firing depolarises the postsynaptic neuron enough to dislodge the magnesium ion (Mg²⁺) that normally blocks the NMDA receptor channel. With Mg²⁺ removed, glutamate binding opens NMDA receptors, allowing calcium (Ca²⁺) to flow in. This calcium influx triggers a cascade — including AMPA receptor insertion into the synaptic membrane and dendritic spine enlargement — making the synapse stronger and more sensitive to future input. LTP thus embodies Hebb's Rule (1949): neurons that fire together, wire together. The hippocampus is critical for declarative memory consolidation, which is why hippocampal LTP is so intensively studied. The NMDA receptor's requirement for simultaneous pre- and post-synaptic activity makes it a precise 'coincidence detector,' preventing random noise from strengthening irrelevant synapses. Common misconceptions: LTP does not create new neurons; adult neurogenesis occurs in the hippocampus but is a separate, smaller phenomenon. LTP is also not the only memory mechanism — protein synthesis-dependent late LTP and structural plasticity also contribute."
+      correct: 1,
+      why: "Meissner effect (1933): superconductors actively expel all internal flux — unlike perfect conductors which would freeze existing flux. This proves superconductivity is a thermodynamic phase, not just zero resistance.",
+      deepDive: "Walther Meissner and Robert Ochsenfeld discovered flux expulsion in 1933, finding that lead and tin became perfect diamagnets below their critical temperatures, expelling any magnetic field regardless of whether the field was applied before or after cooling. A 'perfect conductor' (Lenz's Law) would merely oppose flux change, freezing existing flux in place — a superconductor actively ejects it. This demonstrates that the superconducting state is a distinct thermodynamic phase with its own free energy minimum at zero internal field. The BCS theory (Bardeen, Cooper, Schrieffer, Nobel 1972) explained the mechanism microscopically: electron pairs (Cooper pairs) form a coherent quantum ground state that excludes magnetic flux via supercurrents circulating at the surface. Type I superconductors expel all flux below their critical field; Type II allow partial penetration as quantized flux vortices above a lower critical field (enabling strong magnets). Applications: MRI, particle accelerators (LHC dipole magnets), maglev trains. Room-temperature superconductors remain an open frontier — the 2023 LK-99 claim was not reproduced."
     }
   ]
-}
-;
+};
 ;
 
 
