@@ -364,296 +364,351 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  date: "2026-06-19",
-  dateLabel: "Friday · 19 June 2026",
-  editionLabel: "Edition · Friday 19 June",
-  headline: "US-Iran Versailles MOU reopens Hormuz as Pakistan emerges as Gulf kingmaker; EU launches Ukraine accession; Nvidia storms Intel's PC stronghold.",
-  sections: [
+  "date": "2026-06-20",
+  "dateLabel": "Saturday · 20 June 2026",
+  "editionLabel": "Edition · Saturday 20 June",
+  "headline": "Hormuz backlog clears as nuclear clock starts; VivaTech's EU sovereignty summit closes today; freight hits two-year highs on tariff front-loading.",
+  "sections": [
     {
-      title: "Macro · Geopolitics · Politics",
-      items: [
+      "title": "Macro · Geopolitics · Politics",
+      "items": [
         {
-          lead: "Hormuz MOU signed at Versailles",
-          body: "Trump and Iran's Pezeshkian signed a 14-point MOU June 18 ending the war and reopening the Strait; nuclear negotiations to follow in Switzerland under a 60-day framework.",
-          src: { name: "NBC News", url: "https://www.nbcnews.com/world/iran/strait-hormuz-reopen-us-lift-iran-sanctions-14-point-deal-seeking-end-rcna350513" }
+          "lead": "Hormuz reopens — backlog clearing, but interpretations diverge.",
+          "body": "The US-Iran 60-day ceasefire MOU was signed electronically (no Geneva ceremony). First vessels transited June 19; weeks to clear the tanker queue. Both sides diverge on asset release sequencing and long-term Hormuz management rules.",
+          "src": {
+            "name": "NPR / Axios",
+            "url": "https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates"
+          }
         },
         {
-          lead: "Hormuz opens but backlog lingers",
-          body: "First vessels transited June 19; industry warns weeks for the tanker queue to clear. Oil dropped on the deal then drifted back toward $100/bbl as the logistics gap persists.",
-          src: { name: "CNBC", url: "https://www.cnbc.com/2026/06/18/strait-hormuz-reopening-shipping-oil.html" }
+          "lead": "60-day nuclear negotiation window begins today.",
+          "body": "Under the MOU, Iran and the US enter a 60-day window to negotiate the nuclear programme, sanctions relief, and asset releases. Iran repeats it will never acquire nuclear weapons; US wants enrichment caps. Qatar and Pakistan serve as mediators.",
+          "src": {
+            "name": "CSIS / PBS",
+            "url": "https://www.csis.org/analysis/united-states-and-iran-announce-deal-end-war-state-play"
+          }
         },
         {
-          lead: "Pakistan signs as Gulf kingmaker",
-          body: "PM Shehbaz Sharif co-signed the Islamabad MOU as principal mediator — elevating Islamabad as the indispensable US interlocutor and sidelining India from the Gulf peace architecture.",
-          src: { name: "Arab News", url: "https://www.arabnews.com/node/2647636/pakistan" }
+          "lead": "VivaTech Paris closes today — EU tech sovereignty goes formal.",
+          "body": "France and Germany jointly defined 'sovereign technology' at the Paris summit (June 17–20), with Macron, Modi, and EU Commissioner Virkkunen headlining. Explicit fear: dependency on AWS, Azure, and GCP for critical AI. Germany's delegation was VivaTech's largest ever.",
+          "src": {
+            "name": "Euronews / Reuters",
+            "url": "https://www.euronews.com/next/2026/06/17/from-jeff-bezos-to-europes-ai-push-everything-to-know-about-vivatech-2026"
+          }
         },
         {
-          lead: "Ukraine and Moldova open EU accession cluster",
-          body: "European Council met June 18-19; the first formal accession cluster with Ukraine and Moldova opened June 15 after Hungary's new government dropped its Orbán-era veto.",
-          src: { name: "EU Enlargement", url: "https://enlargement.ec.europa.eu/news/eu-and-ukraine-open-first-accession-negotiations-cluster-2026-06-15_en" }
+          "lead": "Fed holds 4.25–4.50%; tariff inflation and Iran oil shock kill the cut case.",
+          "body": "Powell's 'well positioned to wait' is Fed code for indefinitely on hold. Tariff-driven goods inflation plus the Iran oil shock — oil drifting back toward $100/bbl despite Hormuz deal — have eliminated the short-term rate-cut argument. Two cuts pencilled for 2026; markets price one.",
+          "src": {
+            "name": "Yahoo Finance / Al Jazeera",
+            "url": "https://finance.yahoo.com/economy/article/fed-expected-to-hold-rates-steady-this-week-as-rate-hike-talks-heat-up-and-us-strikes-a-deal-with-iran-100000734.html"
+          }
         },
         {
-          lead: "US-China 60-day tariff truce",
-          body: "June 11 Trump-Xi deal holds 30% combined tariff (20% fentanyl + 10% reciprocal), pausing higher rates; USTR separately proposes a 12.5% Section 301 forced-labor levy on China.",
-          src: { name: "Tax Foundation", url: "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/" }
+          "lead": "Section 122 tariff cliff: 35 days to July 24 expiry, Congress stalled.",
+          "body": "The admin's 10% emergency tariff (replacing IEEPA authority struck by the Supreme Court in February) expires July 24. Congress has not legislated replacement trade authority. Trading partners who made concessions for 'Liberation Day' relief face legal limbo if the levy lapses.",
+          "src": {
+            "name": "CNBC / CFR",
+            "url": "https://www.cnbc.com/2026/02/26/trump-state-of-the-union-supreme-court-tariffs-trade-deals-ieepa-section-301-232-122.html"
+          }
         },
         {
-          lead: "EU trade defense tools tabled at summit",
-          body: "Von der Leyen presented new trade defense instruments June 18-19; Merz and Macron aligned on firm-but-not-protectionist stance against unfair US and Chinese competition.",
-          src: { name: "European Council", url: "https://www.consilium.europa.eu/en/meetings/european-council/2026/06/18-19/" }
+          "lead": "Ukraine-EU: accession cluster opens; Russia-Ukraine talks produce process, not outcome.",
+          "body": "The first formal EU-Ukraine accession cluster opened June 15 after Hungary's new post-Orbán government dropped its veto. Separately, Ukraine-Russia June talks continue in Geneva without a binding ceasefire; Easter and Victory Day truces held imperfectly across contested frontlines.",
+          "src": {
+            "name": "EU Enlargement",
+            "url": "https://enlargement.ec.europa.eu/news/eu-and-ukraine-open-first-accession-negotiations-cluster-2026-06-15_en"
+          }
         }
       ]
     },
     {
-      title: "Bangladesh & Subcontinent",
-      items: [
+      "title": "Bangladesh & Subcontinent",
+      "items": [
         {
-          lead: "Bangladesh's first Free Trade Zone approved",
-          body: "CCEA approved a 600-acre FTZ in Anwara, Chattogram on June 17 — beside the Karnaphuli Tunnel, three EPZs, and Shah Amanat Airport. Development begins this year.",
-          src: { name: "BSS News", url: "https://www.bssnews.net/business/396926" }
+          "lead": "BB forex reserves cross $29B (IMF method) for first time since 2021.",
+          "body": "Bangladesh Bank reported reserves crossing $29 billion this month under IMF BPM6 calculation — first time since the 2021 peak — driven by accelerating remittance inflows and compressed import bills. BB maintaining exchange-rate stability as its primary anti-inflation anchor; taka stable near 110/USD.",
+          "src": {
+            "name": "The Daily Star",
+            "url": "https://www.thedailystar.net/business/news/forex-reserves-cross-29-billion-month-imf-calculation-4102131"
+          }
         },
         {
-          lead: "NBR FY26 shortfall breaches Tk 1 lakh crore",
-          body: "Only 10.6% revenue growth in 10 months; NBR now needs 128.6% growth in the final two months to avoid a record shortfall — CPD terms it a 14-year institutional failure streak.",
-          src: { name: "TBS News", url: "https://www.tbsnews.net/bangladesh/nbr-sees-over-tk1-lakh-crore-revenue-shortfall-fy26-nears-end-cpd-terms-1286-annual" }
+          "lead": "Ex-IGP Benazir Ahmed arrested in UAE; extradition request filed.",
+          "body": "Bangladesh's former inspector general of police Benazir Ahmed was arrested in the UAE on June 16 with extradition papers filed. The case deepens accountability proceedings against senior Hasina-era law enforcement figures — part of the BNP government's systematic reckoning with the previous administration's security apparatus.",
+          "src": {
+            "name": "The Daily Star",
+            "url": "https://www.thedailystar.net/"
+          }
         },
         {
-          lead: "Private credit stuck near record low",
-          body: "June private-sector credit growth at 6.4% — far below Bangladesh Bank's 8.5% projection — signaling a persistent investment drought driven by high rates and public crowding-out.",
-          src: { name: "The Daily Star", url: "https://www.thedailystar.net/business/news/private-sector-credit-growth-symptom-deeper-investment-malaise-4180461" }
-        },
-        {
-          lead: "Pakistan's Iran dividend resets subcontinent calculus",
-          body: "Islamabad's co-signing of the US-Iran MOU grants Pakistan rare Gulf diplomatic credit, shifting South Asian influence dynamics as India remains outside the peace architecture.",
-          src: { name: "Zee News", url: "https://zeenews.india.com/world/the-shifting-sands-of-gulf-geopolitics-how-pakistan-mediated-iran-peace-deal-affect-indias-interests-in-middle-east-3055596.html" }
+          "lead": "FM confirms US duty-free deal: BD garments using American cotton get preferential access.",
+          "body": "Bangladesh's Foreign Minister confirmed a trade arrangement granting duty-free US market access to garments manufactured with American cotton — announced at the June 13 Trade & Investment Conference. Positions Dhaka for partial tariff insulation ahead of the July 24 Section 122 expiry deadline.",
+          "src": {
+            "name": "Daily Sun",
+            "url": "https://www.daily-sun.com/business/880797/us-trade-deal-will-strengthen-bangladesh-economy-foreign-minister"
+          }
         }
       ]
     },
     {
-      title: "Trade · Freight · Logistics",
-      items: [
+      "title": "Trade & Freight",
+      "items": [
         {
-          lead: "Container rates surge 39% in a month",
-          body: "Drewry WCI hit $3,549/40ft on June 11 (+3% WoW); Containerized Freight Index up 39% in 30 days as PSS of up to $2,000/FEU goes live across transpacific and Asia-Europe lanes.",
-          src: { name: "Drewry WCI", url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry" }
+          "lead": "SCFI hits 2,726 — two-year high; peak season 4–6 weeks early.",
+          "body": "Shanghai Containerized Freight Index surged to 2,726.48 on June 5 (five straight weeks of gains). Transpacific (Shanghai-LA) up 31% to $4,565/FEU; Asia-Europe (Shanghai-Rotterdam) up 25% to $3,579/FEU. Demand driver: importers front-loading hard ahead of the July 24 US tariff cliff.",
+          "src": {
+            "name": "IndexBox / Freightos",
+            "url": "https://www.indexbox.io/blog/container-shipping-spot-rates-surge-at-unprecedented-pace-in-early-peak-season/"
+          }
         },
         {
-          lead: "Hormuz tanker queue: weeks to clear",
-          body: "Even with the MOU signed June 18, only a handful of tankers attempted transit on June 19; insurance premiums still elevated, phased restart expected — not a single-day snap-back.",
-          src: { name: "CNBC", url: "https://www.cnbc.com/2026/06/18/strait-hormuz-reopening-shipping-oil.html" }
+          "lead": "Carriers blank sailings to defend rates; East/Gulf Coast capacity critically tight.",
+          "body": "Lines are restricting transpacific supply through blank sailings as importers front-load inventory. Asia-USWC at $4,836/FEU, Asia-USEC at $6,336/FEU post-June 1 GRIs. PSS surcharges adding $500–$2,000/container. NRF projects demand peaks in June — making July US-bound hikes less likely.",
+          "src": {
+            "name": "FreightWaves / Global Trade Magazine",
+            "url": "https://www.freightwaves.com/news/frontload-frenzy-new-tariffs-fueling-early-trans-pacific-peak-season"
+          }
         },
         {
-          lead: "GRI and PSS stack successfully landed",
-          body: "Carriers pushed GRIs and Peak Season Surcharges through in early June; capacity extremely tight on East Coast and Gulf services from China and Vietnam heading into peak demand.",
-          src: { name: "Freightos", url: "https://www.freightos.com/freight-industry-updates/weekly-freight-updates/container-rates-starting-to-spike-on-peak-season-rush-june-2-2026-update/" }
+          "lead": "WCI (Drewry) up 23% to $3,433/FEU; US-bound rates easing in H2 June.",
+          "body": "Drewry's World Container Index confirmed the broad-based surge with sharp gains on transpacific, intra-Asia, and Asia-Europe. Europe, SE Asia, and Australia routes still firming on seasonal demand. DHL/DSV market update: shippers advised to secure capacity now ahead of World Cup return-flow peak.",
+          "src": {
+            "name": "Drewry / DSV Insights",
+            "url": "https://www.dsv.com/en-nl/insights/sea-freight-updates/update-june-2026"
+          }
         },
         {
-          lead: "Asia-Europe spikes on July BAF pull-forward",
-          body: "Shanghai-Rotterdam rose 5% to $3,768/40ft as shippers pull cargo forward ahead of a July 1 bunker fuel adjustment; Asia-Europe spot at highest since the 2022 Red Sea surge.",
-          src: { name: "Drewry WCI", url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry" }
+          "lead": "Hormuz open for tankers — VLCC rates fell sharply; Red Sea still closed to containers.",
+          "body": "Iran-US deal reopening the Strait caused VLCC tanker rates to drop on the news. But Houthi activity in the Red Sea is a separate dynamic: container lines maintain the Cape-of-Good-Hope diversion (~14 extra days per voyage), keeping Asia-Europe per-box costs elevated.",
+          "src": {
+            "name": "Axios / Al Jazeera",
+            "url": "https://www.axios.com/2026/06/14/us-iran-ceasefire-extended-hormuz-reopen-trump"
+          }
         },
         {
-          lead: "BD RMG caught in triple cost squeeze",
-          body: "Rising ocean rates, residual Hormuz war-risk premiums, and compounding US tariff pressure are stacking costs on Bangladesh garment factories already operating on razor-thin margins.",
-          src: { name: "TBS News", url: "https://www.tbsnews.net/economy/can-bangladesh-reach-1tn-economy-private-investment-languishes-1463331" }
+          "lead": "FIFA World Cup logistics surge in play through July 19.",
+          "body": "The 2026 World Cup (June 11–July 19, hosted across US, Canada, Mexico) is adding a measurable demand layer — merchandise, broadcast equipment, hospitality supply chains all front-loaded. Carriers flagging potential late-July congestion as outbound return flows concentrate at US and Mexican ports.",
+          "src": {
+            "name": "Global Trade Magazine",
+            "url": "https://www.globaltrademag.com/peak-shipping-season-underway-as-container-rates-surge-amid-tariffs-and-middle-east-tensions/"
+          }
         }
       ]
     },
     {
-      title: "Semiconductors · AI",
-      items: [
+      "title": "Semiconductors & AI",
+      "items": [
         {
-          lead: "Nvidia invades Intel's last stronghold",
-          body: "RTX Spark Superchip (ARM+Blackwell GPU+128GB unified RAM on TSMC 3nm) lands in Dell/HP/Lenovo/Microsoft PCs this fall; Intel fell 4.7% on the announcement, Nvidia gained 6%.",
-          src: { name: "Tom's Hardware", url: "https://www.tomshardware.com/laptops/nvidia-unveils-rtx-spark-superchip-at-computex-2026-new-platform-promises-to-turn-windows-into-an-agentic-ai-os-with-arm-cpu-blackwell-gpu-and-128gb-unified-memory" }
+          "lead": "Anthropic files confidential S-1 with SEC — IPO process officially under way.",
+          "body": "Anthropic submitted a draft S-1 on June 1, marking the first formal step toward a public listing. ARR reported at $30B+ by April/May; Claude Code and enterprise API are the primary growth drivers. No public timeline announced; the filing initiates the SEC review clock.",
+          "src": {
+            "name": "QverLabs / LLM Stats",
+            "url": "https://qverlabs.com/blog/openai-vs-google-deepmind-vs-anthropic-2026"
+          }
         },
         {
-          lead: "TSMC warns Nvidia and Broadcom on capacity",
-          body: "TSMC alerting top clients of limits at advanced nodes; 2nm targeting 100k wafers/mo; CoWoS packaging targeting 130-140k wafers/mo by 2026-27 — still insufficient for AI demand surge.",
-          src: { name: "AI Business Review", url: "https://www.aibusinessreview.org/2026/06/04/tsmc-ai-chip-capacity-constraints/" }
+          "lead": "NVIDIA FY2026: $215.9B revenue (+65% YoY); RTX Spark superchip enters PC market.",
+          "body": "NVIDIA confirmed explosive AI-driven growth. The RTX Spark 'superchip' for Windows PCs (shipping fall 2026 via Dell and Lenovo) opens a second front against Intel and AMD. Vera CPU for AI agents also unveiled. Refocusing TSMC capacity from H200 toward next-gen Vera Rubin.",
+          "src": {
+            "name": "Bloomberg / EE News",
+            "url": "https://www.bloomberg.com/news/articles/2026-06-01/nvidia-enters-windows-laptop-market-taking-on-intel-and-amd"
+          }
         },
         {
-          lead: "Intel 18A world-class yields deferred to 2027",
-          body: "Intel 18A-P ships late 2026 but yield ramp to world-class deferred to early 2027 — first credible foundry alternative since Apple left Samsung in 2016, but not quite there yet.",
-          src: { name: "ts2.tech", url: "https://ts2.tech/en/june-2026-semiconductor-news-roundup-u-s-chip-controls-sandboxaq-funding-and-intel-18a-p/" }
+          "lead": "AMD claims record one-third of server CPU market; trading at 84x forward earnings.",
+          "body": "AMD Q1 2026: $10.3B revenue (+38% YoY), a record 1/3 of the server CPU market. AMD is up 130% YTD at 84x forward earnings, versus NVIDIA at 25x — a structural shift in data-center silicon buying that is accelerating Intel's market share loss.",
+          "src": {
+            "name": "Analytics Insight / Intellectia",
+            "url": "https://intellectia.ai/blog/chip-stocks-rebound-investment-strategy-june-2026"
+          }
         },
         {
-          lead: "Chips = 95% of AI server rack value",
-          body: "SIA-Deloitte report: semiconductors account for 95% of an AI data center rack's total value; annual AI chip revenue could reach $1.2T by 2028 — a near-tenfold rise from 2024.",
-          src: { name: "SIA", url: "https://www.semiconductors.org/new-report-finds-semiconductors-account-for-95-of-an-ai-data-server-racks-value-encompassing-the-full-stack-of-chip-technologies/" }
+          "lead": "Apple reportedly eyeing Intel's US fabs — first collaboration since the 2006 Mac transition.",
+          "body": "Reports emerged June 18 that Apple is in discussions to manufacture chips at Intel's US fabs — potentially its first Intel partnership since switching to PowerPC and then Apple silicon. Intel stock hit $133.99 on the news; 18A-P process node is in risk production.",
+          "src": {
+            "name": "Analytics Insight",
+            "url": "https://www.analyticsinsight.net/stocks/intel-stock-hits-13399-can-intel-outperform-nvidia-and-amd-in-2026"
+          }
         },
         {
-          lead: "Light-powered chip breakthrough",
-          body: "Researchers built a single-device photonic chip that generates, steers, and reads light-based data — a potential leap toward ultra-fast, low-energy alternatives to silicon transistors.",
-          src: { name: "ScienceDaily", url: "https://www.sciencedaily.com/releases/2026/06/260601025343.htm" }
+          "lead": "TSMC CEO warns chip capacity can't meet AI demand for several years.",
+          "body": "TSMC CEO flagged that even as the company guides 30%+ revenue growth for 2026 on record quarterly profits, global production capacity may fall short of AI demand for years. The SIA confirms chips account for 95% of AI server rack value; Deloitte pegs 2026 AI chip market at $500B.",
+          "src": {
+            "name": "EE News Europe / SIA",
+            "url": "https://www.eenewseurope.com/en/nvidia-and-tsmc-push-ai-deeper-into-semiconductor-fabs/"
+          }
         },
         {
-          lead: "AI buildout bottleneck: power, copper, gas",
-          body: "Beyond chips, 2026's AI data center expansion is constrained by electricity shortages, copper scarcity, and critical industrial gas supply — even as accelerators grow ever more powerful.",
-          src: { name: "Manufacturing Dive", url: "https://www.manufacturingdive.com/news/opinion-omdia-ai-semiconductor-chip-scarcity/817172/" }
+          "lead": "EU presses 'sovereign AI' after US export ban extends to Chinese firms outside China.",
+          "body": "US clarified June 1 that the AI chip export ban applies to Chinese firms headquartered outside China — broadening the control perimeter. Timing coincides with EU declaring tech sovereignty at VivaTech, as Brussels identifies cloud and AI dependency on US hyperscalers as its primary strategic vulnerability.",
+          "src": {
+            "name": "Al Jazeera / TechPolicy.Press",
+            "url": "https://www.aljazeera.com/economy/2026/6/1/us-says-ban-on-ai-chip-shipments-applies-to-chinese-firms-outside-china"
+          }
         }
       ]
     }
   ],
-  lesson: {
-    title: "Nuclear Fission and Enrichment: The Physics Behind Every Iran Headline",
-    paragraphs: [
-      "Nuclear fission occurs when a neutron strikes a heavy nucleus — most usefully U-235 — causing it to split into lighter elements while releasing energy and additional neutrons, which can strike further U-235 atoms and sustain a chain reaction. Natural uranium is 99.3% U-238, which absorbs neutrons without fissioning, and 0.7% U-235, which does. Enrichment concentrates U-235 by spinning uranium hexafluoride gas in centrifuge cascades that exploit the tiny mass difference between the two isotopes.",
-      "Enrichment level determines use: below 5% powers civilian reactors; around 20% feeds research reactors; above 90% is weapons-grade. Iran's declared stockpile sits around 60% — far above civilian norms but officially below weapons threshold. The concept that matters is 'breakout time': how quickly Iran could enrich its existing stockpile to produce enough weapons-grade material for a single bomb. At 60%, that window is measured in weeks, not months — which is why IAEA cameras and inspector access are a core demand in any nuclear deal.",
-      "The US-Iran MOU signed June 18 is a ceasefire framework and a Hormuz fix; the hard part — a nuclear accord — is what the next negotiating rounds will actually determine. The core variables: how many centrifuges Iran retains, at what enrichment cap, verified by what IAEA access regime. Every Iran headline from here forward will hinge on exactly these three numbers."
+  "lesson": {
+    "title": "EUV Lithography: The $380M Machine Running the Global Chip Arms Race",
+    "paragraphs": [
+      "Every advanced chip — the GPU running Claude, the neural engine in your phone — is patterned using extreme ultraviolet (EUV) light. ASML, a Dutch company in Eindhoven, is the world's only EUV machine manufacturer, making it the single most important chokepoint in the global semiconductor supply chain. No EUV access means no sub-7nm chips. Full stop.",
+      "EUV works by firing a high-power CO₂ laser at tiny tin droplets 50,000 times per second, vaporising them into plasma that emits light at 13.5 nanometres — far shorter than conventional deep-UV sources. That beam reflects off 130,000+ precision mirrors (accurate to 0.1nm, or 1/10,000th the width of a human hair) onto silicon wafers, printing transistor patterns at atomic scale. A single EUV machine costs $380M, contains 100,000 parts, weighs 180 tonnes, and ships in two Boeing 747 freighter loads.",
+      "The latest generation — High-NA EUV (numerical aperture 0.55, up from 0.33) — unlocks sub-2nm features: TSMC's N2 node, Intel's 18A. Only TSMC, Samsung, and Intel can currently afford to run them. Export controls preventing ASML from shipping EUV machines to China — imposed jointly by the US and the Netherlands — are the most consequential single lever in the tech war. Without EUV, China's leading fabs are capped at roughly 7nm. Every ASML export control headline is really a headline about how many years China stays behind."
     ],
-    why: "The deal signed yesterday reopens Hormuz and kicks off nuclear talks. You cannot parse those talks without understanding enrichment levels, breakout time, and IAEA verification — the three pillars every negotiator will argue over for the next 60 days."
+    "why": "ASML is worth more than Deutsche Bank and BMW combined, and the Netherlands became a pivot in US-China geopolitics, because of one machine. Understanding EUV makes every 'chip export control' headline legible — and explains why TSMC's capacity warning matters so much."
   },
-  questions: [
+  "questions": [
     {
-      n: 1,
-      topic: "industry",
-      subtopic: "multimodal",
-      stem: "A freight forwarder consolidates LCL shipments from multiple shippers into one FCL box under a CFS/CFS arrangement. At the destination port, who performs deconsolidation, and what document governs each individual shipper's cargo?",
-      options: [
-        "The destination forwarder or NVOCC deconsolidates; each shipper holds a House Bill of Lading",
-        "The ocean carrier deconsolidates; each shipper holds a Master Bill of Lading",
-        "The customs broker deconsolidates; all cargo moves on a single commercial invoice",
-        "The consignee deconsolidates at their warehouse; cargo is covered by an arrival notice only"
+      "n": 1,
+      "topic": "industry",
+      "subtopic": "aircraft_carriers",
+      "stem": "FedEx Express operates the world's largest cargo airline fleet by aircraft count and uses Memphis International (MEM) as its global superhub. Which factor is the primary reason MEM was chosen over a larger gateway like Chicago O'Hare or JFK?",
+      "options": [
+        "MEM has the lowest landing fees of any major US cargo airport, reducing FedEx's per-package cost significantly",
+        "Memphis sits close to the population-weighted geographic centroid of the continental US, minimising average aircraft range to any delivery point",
+        "US DOT regulations require express integrators to designate a single domestic hub airport for overnight sort operations",
+        "MEM's runway configuration uniquely allows simultaneous triple-parallel freighter departures, maximising overnight sort throughput"
       ],
-      correct: 0,
-      why: "In NVOCC/forwarder LCL, the NVOCC (or their destination agent) deconsolidates at the CFS; each shipper holds a House BL, while the ocean carrier holds only the Master BL issued to the NVOCC.",
-      deepDive: "An NVOCC acts as carrier to the shipper but as shipper to the actual ocean carrier. In a CFS/CFS LCL movement, the NVOCC consolidates cargo at the origin CFS, issues House BLs to individual shippers, and holds a single Master BL from the ocean line. At destination, the NVOCC's agent deconsolidates at the CFS and releases individual shipments against the House BLs. This two-layer structure matters for cargo claims: if damage occurs during ocean transit, the shipper sues under the House BL; the NVOCC then pursues the carrier under the Master BL. If the NVOCC becomes insolvent, shippers face serious recovery challenges — hence the importance of FMC licensing (in the US) and selecting financially stable NVOCCs. Tracking can also be fragmented as the NVOCC's system and the carrier's system may not sync, making end-to-end visibility harder than in FCL."
+      "correct": 1,
+      "why": "Memphis is close to the US population centroid, minimising the average distance (and fuel burn) to any ZIP code — the core logic of hub-and-spoke overnight express.",
+      "deepDive": "FedEx's Memphis Super Hub was selected in 1973 partly because Memphis sits near the population-weighted centroid of the contiguous US, minimising total aircraft-miles flown to reach any delivery zone. This maximises aircraft utilisation and enables the hub-and-spoke model: all packages converge, are sorted, and radiate outward in one overnight cycle. MEM also has no nighttime curfew, 24/7 operations, abundant cheap land for sorting infrastructure, and cooperative local government. A coastal hub like JFK would add excessive leg-distance for half the country. UPS chose Louisville (also near-centroid) for the same reason. The hub-and-spoke model, pioneered by FedEx, transformed air freight from ad-hoc point-to-point charter into a reliable network commodity."
     },
     {
-      n: 2,
-      topic: "industry",
-      subtopic: "trade_lanes",
-      stem: "The Middle Corridor (Trans-Caspian International Transport Route) gained traction as a China-Europe rail alternative after 2022 Russia sanctions. What is its primary capacity bottleneck compared to the Trans-Siberian/TCR all-rail route?",
-      options: [
-        "Insufficient gauge conversion facilities at the European terminal end of the route",
-        "Multiple transshipment points including Caspian Sea ferry crossings that break all-rail continuity",
-        "Chinese government restrictions on routing sensitive cargo through Central Asian states",
-        "Shortage of reefer and temperature-controlled rail wagons for high-value goods"
+      "n": 2,
+      "topic": "industry",
+      "subtopic": "airport_ops",
+      "stem": "A pharmaceutical shipper is moving temperature-sensitive insulin (2°C–8°C) from Frankfurt (FRA) to Singapore (SIN) on a commercial freighter. Which combination of requirements is non-negotiable to maintain an unbroken cold chain end-to-end?",
+      "options": [
+        "IATA CEIV Pharma-certified handling at origin only; SIN can use standard cool-room storage since Singapore's customs clearance is under 4 hours",
+        "The carrier must use ULD type PMC, and both airports must file temperature excursion reports within 2 hours of delivery — curfew compliance is unrelated",
+        "IATA CEIV Pharma certification at both FRA and SIN handlers, temperature-controlled acceptance and delivery areas, validated cool-chain ULDs, and continuous temperature monitoring with deviation alerts",
+        "Routing via DXB is mandatory since Emirates SkyCargo holds the only IATA CEIV-certified pharma corridor connecting Europe to Southeast Asia"
       ],
-      correct: 1,
-      why: "The Middle Corridor requires a Caspian Sea ferry crossing between Kazakhstan/Turkmenistan and Azerbaijan — unlike the all-rail TCR — plus multiple gauge changes, driving up cost and transit time.",
-      deepDive: "The Trans-Caspian International Transport Route runs China–Kazakhstan–Caspian Sea ferry–Azerbaijan–Georgia–Turkey–Europe. Its appeal surged after 2022 Russia sanctions made the Trans-Siberian/TCR route legally and commercially risky. The Caspian ferry crossing at Aktau (Kazakhstan) or Turkmenbashi (Turkmenistan) to Alat (Azerbaijan) is the key bottleneck: ferry capacity is finite, weather disrupts crossings, and every transshipment adds days and cost versus pure rail. Gauge changes — broad gauge across Central Asia, standard gauge in Turkey and Europe — add further complexity. Compare to TCR: China–Kazakhstan–Russia–Belarus–Poland, which is all-rail and faster in theory but now politically restricted. Middle Corridor throughput has tripled since 2022 but remains a fraction of TCR historical volumes; its ceiling depends on Caspian ferry infrastructure investment and port capacity at Alat and Aktau."
+      "correct": 2,
+      "why": "End-to-end cold chain requires CEIV-certified handling at both ends, temperature-controlled ground infrastructure, validated ULDs, and continuous monitoring — no single element is sufficient alone.",
+      "deepDive": "IATA's CEIV Pharma (Centre of Excellence for Independent Validators) is the gold standard certification for pharmaceutical cargo handlers and airports. A compliant 2–8°C shipment requires: CEIV-certified acceptance and delivery at both FRA and SIN; pre-conditioned, validated temperature-controlled ULDs (not just any PMC — the ULD must be validated for the specific lane and temperature band); temperature data loggers providing continuous readings; and GDP (Good Distribution Practice) documentation accompanying the shipment. FRA's CargoCity Süd hosts multiple CEIV-certified handlers including Lufthansa Cargo's Cool Center. Singapore's Coolport (dnata) serves SIN. Nighttime curfews at FRA apply mainly to passenger aircraft — most freighter services have exemptions, so curfew is relevant to scheduling but not a cold-chain constraint per se."
     },
     {
-      n: 3,
-      topic: "industry",
-      subtopic: "marine_insurance",
-      stem: "General Average is declared after cargo is sacrificed to save the vessel. Under the York-Antwerp Rules 2016, which condition MUST the sacrifice have met for a valid G/A claim to arise?",
-      options: [
-        "The cargo must have been covered under ICC(A) all-risks insurance at the time of sacrifice",
-        "The sacrifice must have been voluntarily and reasonably made for the common safety of all interests at risk",
-        "The shipowner must notify all cargo interests of the sacrifice within 72 hours of the event",
-        "The value of sacrificed cargo must exceed 5% of the vessel's declared insured value"
+      "n": 3,
+      "topic": "industry",
+      "subtopic": "ma_consolidation",
+      "stem": "MSC's acquisition of Bolloré Africa Logistics (rebranded African Global Logistics, AGL) for ~€5.7B in 2023 was strategically distinct from most carrier M&A of that era. What unique capability did it primarily add for MSC?",
+      "options": [
+        "Deepwater container terminal concessions at Lagos, Abidjan, and Mombasa that MSC had previously been unable to secure under third-party terminal-sharing agreements",
+        "Control over pan-African inland logistics — rail concessions, inland container depots, and last-mile delivery networks across 50+ countries — completing vertical integration from vessel to final delivery",
+        "A digital freight marketplace covering intra-African cross-border trade, allowing MSC to compete with Maersk's Twill platform in high-growth emerging markets",
+        "Exclusive slot agreements on African coastal feeder routes that Bolloré had held under a legacy VSA with CMA CGM"
       ],
-      correct: 1,
-      why: "York-Antwerp Rule A: the G/A act must be intentional, reasonable, and made for the common benefit of all interests at risk. Accidental damage or losses from negligence do not qualify.",
-      deepDive: "General Average traces to ancient maritime custom — the Lex Rhodia de Jactu from Rhodian Sea Law — and was codified in the York-Antwerp Rules (first 1890, latest revision 2016). The core logic: if cargo is thrown overboard to save a ship in peril, all parties who benefited (ship, cargo, freight) contribute proportionally to compensate the sacrificing party. For a valid G/A claim, the act must be (1) intentional — not accidental; (2) reasonable and necessary given the peril; (3) for the common safety. The 2016 Rules amended GA significantly, excluding salvage special compensation from contributions and tightening interest provisions. In practice, GA is increasingly rare because modern ICC(A) cargo insurance typically covers a cargo owner's GA contribution. Shipowners appoint GA adjusters who issue GA bonds and demand security deposits from cargo receivers — shipments can be held until security is provided, which surprises many shippers encountering GA for the first time."
+      "correct": 1,
+      "why": "AGL's value was its pan-African inland logistics footprint — rail, ICDs, last-mile — not just ports, giving MSC vertical integration from vessel to door across 50+ African countries.",
+      "deepDive": "MSC's AGL acquisition gave it control of one of Africa's deepest inland logistics networks: rail concessions (Abidjan-Ouagadougou corridor, Tanzania's central railway), 400+ inland container depots (ICDs), last-mile trucking, warehousing, and customs brokerage across 50+ countries. This mirrors what Maersk did with Damco and CMA CGM did with CEVA — vertical integration beyond vessel and port into the inland supply chain — but specifically targeted at Africa, where infrastructure control is often more valuable than slot access. The strategic logic: an MSC shipper in Nairobi or Ouagadougou can now receive a door-to-door MSC solution without an intermediary 3PL. Port terminals were secondary — MSC already had terminal access through its Terminal Investment Ltd (TIL) subsidiary."
     },
     {
-      n: 4,
-      topic: "industry",
-      subtopic: "compliance",
-      stem: "Under the US Uyghur Forced Labor Prevention Act (UFLPA), a shipment from a Xinjiang-based supplier arrives at a US port. The importer claims no forced labor was used. What legal standard applies?",
-      options: [
-        "CBP must prove forced labor use before detaining; importers get free entry unless specific evidence is found",
-        "The shipment is presumed to involve forced labor; the importer must rebut with clear and convincing evidence",
-        "Goods are held 30 days for CBP investigation; a third-party SGS inspection certificate clears the shipment",
-        "Detention applies only if the supplier appears on the UFLPA Entity List; otherwise normal customs entry proceeds"
+      "n": 4,
+      "topic": "industry",
+      "subtopic": "commercial_concepts",
+      "stem": "A shipper signs a forwarder service contract with an MQC (Minimum Quantity Commitment) of 600 TEU per quarter at a contracted rate of $2,100/TEU. In Q3 they ship only 420 TEU. What is the shortfall charge the forwarder is typically entitled to claim?",
+      "options": [
+        "$0 — the forwarder bears the volume shortfall risk as the carrier-facing contract party",
+        "$378,000 — the contracted rate applied to the full 180-TEU shortfall volume",
+        "$189,000 — 50% of the contracted rate applied to the shortfall, reflecting standard MQC penalty discount practice",
+        "The penalty cannot be calculated from these figures alone; it depends on whether the forwarder actually purchased the capacity from a carrier"
       ],
-      correct: 1,
-      why: "UFLPA creates a rebuttable presumption that ALL goods from Xinjiang involve forced labor; the importer bears the burden of proof by 'clear and convincing evidence' — the highest civil standard.",
-      deepDive: "The Uyghur Forced Labor Prevention Act was signed December 2021 and took effect June 2022. It applies to goods produced wholly or in part in Xinjiang, or by entities on the UFLPA Entity List maintained by DHS, Commerce, and USTR. The rebuttable presumption is unusually powerful: unlike most trade enforcement where CBP must find evidence of violation, UFLPA reverses the burden onto the importer. 'Clear and convincing evidence' is higher than the normal civil 'preponderance of evidence' threshold. Acceptable evidence typically requires granular supply chain documentation tracing every input to a non-forced-labor source, third-party audits with unannounced access, and shipment-level traceability. CBP has detained billions in goods — particularly cotton textiles, polysilicon for solar panels, and automotive parts. The law has forced many multinationals to exit Xinjiang supplier relationships entirely, even for indirect or Tier-2 suppliers."
+      "correct": 1,
+      "why": "Standard MQC shortfall = contracted rate × volume gap: 180 TEU × $2,100 = $378,000, unless the contract specifies a reduced penalty rate or make-good window.",
+      "deepDive": "MQC clauses protect forwarders who have committed capacity to carriers — via NACs (Named Account Contracts) or service contracts — on behalf of a specific shipper. If the shipper tenders less than the committed volume, the forwarder has already paid or is obligated to pay for that space. The shortfall charge transfers this liability back to the shipper. Standard formula: shortfall volume × contracted rate. Some contracts discount the penalty (e.g., 50%) or allow volume make-good in subsequent quarters within the contract year. MQC mechanics are a major lever in RFQ/tender negotiations — shippers with stable volume can use MQC commitments to negotiate lower base rates, but must model volume downside risk carefully before committing. Forwarders typically prefer MQC structures for large-volume shippers on high-frequency lanes."
     },
     {
-      n: 5,
-      topic: "industry",
-      subtopic: "industry_econ",
-      stem: "The container shipping orderbook-to-fleet ratio currently sits near 22%. How do sophisticated market analysts use this metric to forecast freight rates 18-36 months ahead?",
-      options: [
-        "A ratio above 20% guarantees rate declines within 12 months as new tonnage floods the market",
-        "The ratio must be adjusted for scrapping forecasts, delivery slippage, and demand growth before drawing rate conclusions — a high orderbook alone does not signal oversupply",
-        "A ratio below 15% triggers carrier GRI declarations; above 15%, rates are competitively suppressed regardless of demand",
-        "Orderbook ratios are lagging indicators; sophisticated analysts rely exclusively on spot WCI data for 36-month forecasting"
+      "n": 5,
+      "topic": "industry",
+      "subtopic": "supply_chain_strategy",
+      "stem": "The 'bullwhip effect' (Lee, Padmanabhan & Whang, 1997) describes how small demand variations at retail amplify into massive order swings at the manufacturer. Which single intervention has the strongest empirical support for reducing it?",
+      "options": [
+        "Increasing safety stock at each distribution node to buffer against demand variability",
+        "Extending order cycle times from weekly to monthly to smooth short-term demand noise",
+        "Sharing real-time point-of-sale demand data upstream across all supply chain tiers",
+        "Switching from push to pull replenishment at the retailer level only"
       ],
-      correct: 1,
-      why: "A high orderbook ratio is a useful leading indicator but requires adjustment for delivery slippage (historically 20-40%), scrapping rates, and demand growth before drawing rate conclusions.",
-      deepDive: "The orderbook-to-fleet ratio measures vessels on order as a percentage of the existing fleet in TEU. During the 2007-2010 newbuilding binge, the ratio hit 60%+ — and fleet expansion through 2012 crushed rates for the better part of a decade. But the raw ratio is often misleading. Historical delivery slippage averages 20-40%: orders are cancelled, yards delay delivery, or vessel specs change. Scrapping rates are procyclical — owners scrap aging tonnage when rates are low (reducing net fleet growth) and keep everything earning when rates are high. Demand growth from trade expansion, route diversification (e.g., Cape routing during Red Sea disruptions adding effective ton-miles), or inventory build cycles can absorb significant new supply. Drewry's supply-demand model layers adjusted net fleet additions against demand forecasts to derive utilization rates — the actual driver of freight rate pressure. The raw orderbook number alone has misled analysts repeatedly."
+      "correct": 2,
+      "why": "Information asymmetry is the root cause; sharing real-time POS data breaks the amplification by anchoring all tiers to actual end demand rather than sequential upstream forecasts.",
+      "deepDive": "The bullwhip effect arises because each supply chain tier orders based on its own inventory plus what its downstream partner ordered — not actual consumer demand. This information lag amplifies small retail fluctuations exponentially upstream. The four identified causes: demand signal processing, rationing game (hoarding during shortages), order batching, and price variation. Real-time POS data sharing via VMI (Vendor Managed Inventory) or CPFR (Collaborative Planning, Forecasting, and Replenishment) addresses the root cause by giving manufacturers direct visibility into sell-through. Walmart's VMI programs with P&G in the 1990s are the canonical example. Safety stock (option A) and pull replenishment (option D) reduce symptoms without fixing information asymmetry; extending order cycles (option B) can actually worsen batching-driven amplification."
     },
     {
-      n: 6,
-      topic: "gk",
-      subtopic: "political_theory",
-      stem: "In 'A Theory of Justice' (1971), Rawls uses the 'veil of ignorance' to derive principles of justice. What are the two principles he arrives at, and how does he rank them?",
-      options: [
-        "The Utility Principle and the Difference Principle; the Difference Principle takes strict priority",
-        "The Equal Liberty Principle and the Difference Principle; the Liberty Principle has strict lexical priority — it cannot be traded off for economic gains",
-        "The Fairness Principle and the Sufficiency Principle; they apply simultaneously with equal weight",
-        "The Social Contract Principle and the Harm Principle; the Harm Principle operates as a side constraint on the Social Contract"
+      "n": 6,
+      "topic": "gk",
+      "subtopic": "history",
+      "stem": "The Wannsee Conference (January 20, 1942) is often mischaracterised as the moment the Holocaust began. What was its actual documented purpose, per the surviving Wannsee Protocol?",
+      "options": [
+        "To decide at the highest level whether to proceed with systematic mass murder of European Jews — a policy still debated among senior Nazis",
+        "To coordinate the bureaucratic and logistical implementation of the 'Final Solution' across Nazi ministries and SS structures already committed to genocide",
+        "To brief senior Nazi officials on the existence of the extermination programme for the first time",
+        "To align Germany and its Axis partners — Italy, Romania, and Hungary — on a shared Jewish policy for occupied eastern territories"
       ],
-      correct: 1,
-      why: "Rawls derives: (1) equal basic liberties for all; (2) inequalities justified only if they benefit the least advantaged. The Liberty Principle has strict lexical priority — no trade-off for economic gain.",
-      deepDive: "John Rawls' 'A Theory of Justice' (1971) is the most influential work in 20th-century political philosophy. The 'original position' is a hypothetical design exercise: imagine choosing principles of justice without knowing your place in society — your class, abilities, or values (the 'veil of ignorance'). Rawls argues rational agents would choose two principles. First: each person gets the most extensive system of equal basic liberties compatible with similar liberty for all (speech, conscience, association, political participation). Second — the Difference Principle: social and economic inequalities are just only if they benefit the least advantaged members of society. Rawls ranks them lexically: liberty cannot be sacrificed for prosperity. Robert Nozick challenged this in 'Anarchy, State, and Utopia' (1974) with his entitlement theory — justice is about fair acquisition and transfer of holdings, not distributive pattern. The Rawls-Nozick debate defines liberal political philosophy's two poles and underpins every serious argument about taxation, welfare, and redistribution."
+      "correct": 1,
+      "why": "The genocide decision had already been made and killings were already underway; Wannsee was a coordination meeting to align Nazi ministries and SS on implementation logistics.",
+      "deepDive": "The Wannsee Conference, chaired by Reinhard Heydrich and attended by 15 senior officials including Adolf Eichmann (who took minutes), met January 20, 1942 in a Berlin villa. Mass murder was already underway — the Chelmno extermination camp had been operating since December 1941, and the Einsatzgruppen had shot over 500,000 Soviet Jews. The meeting's purpose was bureaucratic coordination: ensuring civilian ministries, the Reichsbahn (railway), occupation administrators, and SS killing units operated in alignment. The Wannsee Protocol (30 copies made; one survived in the German Foreign Office archives, discovered 1947) is among the clearest documentary evidence for deliberate, organised genocide. Common misconception: Wannsee as a 'decision point.' It was a logistics meeting for a decision already made at the top."
     },
     {
-      n: 7,
-      topic: "gk",
-      subtopic: "economics",
-      stem: "The Coase Theorem (Ronald Coase, 1960) holds that externalities can be resolved through private bargaining. What conditions does Coase specify, and why do they fail in most real-world pollution cases?",
-      options: [
-        "Conditions: competitive markets and price-taking behavior; fail because polluters hold monopoly power",
-        "Conditions: well-defined property rights and zero (or negligible) transaction costs; fail because large numbers of affected parties and free-rider problems make bargaining impractical",
-        "Conditions: government first assigns pollution permits; fail because markets distort permit prices over time",
-        "Conditions: Pareto-efficient initial allocation of rights; fail because pollution rights are never initially Pareto-efficient"
+      "n": 7,
+      "topic": "gk",
+      "subtopic": "geography",
+      "stem": "The Rovuma Basin, straddling northern Mozambique and southern Tanzania offshore, has emerged as one of the 21st century's most significant energy discoveries. What combination of factors makes it geopolitically significant beyond raw resource size?",
+      "options": [
+        "It contains the world's largest proven uranium deposits, intersecting African nuclear ambitions and non-proliferation concerns",
+        "Massive gas discoveries position Mozambique as a potential top-5 LNG exporter — intersecting European post-Russia diversification, Chinese investment, and an active Islamist insurgency that has already forced a force majeure",
+        "It straddles a disputed UNCLOS Article 76 continental shelf boundary between Mozambique and Tanzania, creating legal uncertainty over resource ownership",
+        "It hosts the only deep-water port in sub-Saharan Africa capable of berthing Q-flex LNG carriers, giving the region structural export dominance"
       ],
-      correct: 1,
-      why: "Coase requires clearly defined property rights and negligible transaction costs. In real pollution cases, large affected groups, free-rider problems, and coordination costs make private bargaining unworkable.",
-      deepDive: "Ronald Coase's 'The Problem of Social Cost' (Journal of Law and Economics, 1960) challenged the Pigouvian consensus that externalities require government tax or regulation. Coase showed: if property rights are clearly assigned and transaction costs are zero, parties will bargain to an efficient outcome regardless of who holds the right initially. His classic example — a cattle rancher whose cows trample a farmer's crops — shows that whether the rancher or farmer holds the right, they negotiate to the efficient crop-protection level. George Stigler named it the 'Coase Theorem.' Coase himself was frequently frustrated: he argued his paper was really about why transaction costs are ubiquitous and why property rights institutions matter for real-world outcomes — not a claim that markets solve externalities. Emissions trading schemes like the EU ETS are a Coasean approach applied at scale: define tradeable rights (carbon permits), let parties bargain. They work better than pure Pigou taxes when the optimal tax level is uncertain."
+      "correct": 1,
+      "why": "Rovuma's 100+ trillion cubic feet of gas intersects European post-Russia diversification, Chinese BRI investment, and a jihadist insurgency that forced TotalEnergies to declare force majeure — a perfect case study in stranded energy.",
+      "deepDive": "The Rovuma Basin (Cabo Delgado, northern Mozambique) holds an estimated 100+ trillion cubic feet of natural gas. Two flagship projects: TotalEnergies' Mozambique LNG (onshore, suspended under force majeure since April 2021 after jihadist attacks on Mocímboa da Praia) and ENI/ExxonMobil's Coral FLNG (floating, first LNG cargo delivered 2022). At full build-out, Mozambique could export 40+ million tonnes of LNG per year, rivalling Qatar. European buyers — ENI, Shell, BP — signed long-term offtake agreements as post-Russia gas diversification. China's CNPC and CNOOC also hold equity. The jihadist insurgency (linked to Islamic State Central Africa Province) has killed 4,000+ and displaced over 1 million people, illustrating that resource wealth without security is largely unmonetisable — and making Mozambique a test case for the resource curse under asymmetric security conditions."
     },
     {
-      n: 8,
-      topic: "gk",
-      subtopic: "sport",
-      stem: "The Duckworth-Lewis-Stern (DLS) method replaced the 'run-rate method' in rain-interrupted limited-overs cricket. What fundamental insight separates DLS from its predecessor, and what notorious incident exposed the old method's flaw?",
-      options: [
-        "DLS uses a logarithmic run-rate formula; the run-rate method failed when West Indies needed 0 runs off 0 balls at the 1992 WC",
-        "DLS accounts for both overs remaining AND wickets in hand as dual resources; the run-rate method was exposed at the 1992 WC semi-final where South Africa needed 22 runs from 1 ball",
-        "DLS accounts only for wickets lost, not overs remaining; exposed when England were set 0 runs from 0 balls at Lord's in 1999",
-        "DLS uses historical match databases to set revised targets dynamically; the run-rate method was abandoned for purely statistical reasons with no famous incident"
+      "n": 8,
+      "topic": "gk",
+      "subtopic": "mathematics",
+      "stem": "A disease has 1% prevalence in a population. A diagnostic test has 99% sensitivity and 99% specificity. A randomly selected person tests positive. What is the probability they actually have the disease?",
+      "options": [
+        "~99% — the test is 99% accurate in both directions, so a positive is almost certain to be correct",
+        "~50% — the false positive rate applied to the large healthy population generates as many false alarms as true positives",
+        "~9% — disease rarity means most positives are false even with a highly accurate test",
+        "~91% — Bayesian adjustment for both sensitivity and specificity yields a high positive predictive value"
       ],
-      correct: 1,
-      why: "DLS recognizes two resources — overs AND wickets. The run-rate method used only overs, producing the absurd 1992 WC semi-final result: South Africa needed 22 runs from 1 ball after a rain reduction.",
-      deepDive: "Frank Duckworth and Tony Lewis developed their method in the early 1990s, first used in international cricket in January 1997. The key insight: a batting team's 'resource' is the combination of overs remaining AND wickets in hand — not just overs. Losing 10 overs with all 10 wickets in hand is far less damaging than losing 10 overs with 2 wickets remaining; the old run-rate method treated both identically, using (runs needed ÷ original overs) × remaining overs. The 1992 World Cup semi-final between England and South Africa remains the most famous victim: a rain break reduced South Africa's adjusted target such that they needed exactly 22 runs from 1 delivery — because the rain had wiped out England's lowest-scoring over. DLS maps every combination of overs × wickets onto a 'resource percentage' table, derived from empirical match data. Steven Stern took over maintenance from Duckworth and Lewis in 2014, giving the method its 'S.' Controversies persist in T20 format, where assumption of innings shape fits less well."
+      "correct": 1,
+      "why": "In 10,000 people: 100 sick → 99 true positives; 9,900 healthy → 99 false positives. Total positives = 198; PPV = 99/198 = 50%.",
+      "deepDive": "This is the base rate fallacy — the most counterintuitive result in applied probability. In 10,000 people with 1% prevalence: 100 have the disease; 9,900 don't. With 99% sensitivity: 99 true positives, 1 missed. With 99% specificity: 9,801 true negatives, 99 false positives. Total positives = 198; true positives = 99. PPV = 99/198 = 50%. The lower the prevalence, the more false positives overwhelm true positives. This result, from Bayes' Theorem, has massive real-world implications: mass screening for rare diseases, COVID testing strategy, security screening, and drug testing. Policymakers who see '99% accurate' and assume a positive means infection have committed a base-rate error — a systematic bias documented by Kahneman and Tversky and central to evidence-based medical screening policy."
     },
     {
-      n: 9,
-      topic: "gk",
-      subtopic: "pop_culture",
-      stem: "The word 'blog' entered common use around 1999. Jorn Barger coined 'weblog' in 1997. How did the shortened form 'blog' emerge, and which platform cemented its mainstream adoption?",
-      options: [
-        "Peter Merholz wrote 'we blog' as a joke in his website sidebar in 1999; Pyra Labs' Blogger platform then popularized 'blog' as both noun and verb",
-        "Barger himself shortened 'weblog' to 'blog' in a 1998 email newsletter; AOL Journals drove its adoption",
-        "The hyphen in 'web-log' was dropped by early CMS software; LiveJournal popularized the shortened term from 2000",
-        "Dave Winer coined 'blog' as the plural of 'weblog' in a Scripting News post; Movable Type spread the term"
+      "n": 9,
+      "topic": "gk",
+      "subtopic": "linguistics",
+      "stem": "The Sapir-Whorf hypothesis posits that language shapes thought. Which empirical finding provides the strongest controlled experimental support for a weak form of linguistic relativity?",
+      "options": [
+        "The Hopi language lacks grammatical tense markers; Whorf claimed Hopi speakers therefore perceive time as cyclical rather than linear",
+        "Russian mandatorily distinguishes dark blue (синий) from light blue (голубой) as separate basic colour categories; Russian speakers discriminate these shades faster on perceptual tasks",
+        "Children acquire language before demonstrating abstract reasoning, suggesting language is a prerequisite for higher-order thought",
+        "Deaf communities without signed-language access develop spontaneous gestural pointing systems, indicating prelinguistic spatial cognition"
       ],
-      correct: 0,
-      why: "Peter Merholz jokingly split 'weblog' into 'we blog' on peterme.com in 1999; Evan Williams at Pyra Labs built Blogger (August 1999) around 'blog' as both noun and verb, driving it mainstream.",
-      deepDive: "Jorn Barger coined 'weblog' on December 17, 1997, on his site Robot Wisdom — a 'log' of his web browsing. In April or May 1999, Peter Merholz split the word into 'we blog' in the sidebar of peterme.com as a deliberate joke. Evan Williams at Pyra Labs noticed and incorporated 'blog' and 'blogger' when naming his new publishing platform Blogger, launched August 1999. Google acquired Blogger in 2003, massively accelerating global adoption. The term entered the Oxford English Dictionary in 2003. The cultural impact was enormous: blogging democratized publishing before social media existed, shaped political discourse (the 2004 US election was widely called the first 'blog election'), and broke major news stories — notably the CBS Memogate scandal in 2004, where bloggers disproved document authenticity faster than any newsroom. Blogging's decline as a distinct medium tracks almost exactly with the rise of Twitter and Facebook in the 2010s, but its DNA lives in every newsletter, Substack, and personal brand online today."
+      "correct": 1,
+      "why": "The Russian colour-term study (Winawer et al., PNAS 2007) provides controlled experimental evidence that linguistic category boundaries influence real-time perceptual discrimination — the clearest empirical support for weak linguistic relativity.",
+      "deepDive": "Linguistic relativity has two versions: strong (language determines thought — largely rejected) and weak (language influences certain cognitive tendencies — empirically supported). The Russian colour study by Winawer et al. (PNAS, 2007) is the cleanest evidence: Russian mandatorily distinguishes синий (dark blue) and голубой (light blue) as separate basic categories; English treats both as 'blue.' Russian speakers were significantly faster discriminating stimuli that fell across this linguistic boundary versus within-category shades. Crucially, the effect disappeared under verbal interference (repeating words aloud) — showing the influence is language-mediated, not purely perceptual. Option A (Hopi) was Whorf's original claim but has been widely contested; later linguistic analysis shows Hopi does encode temporal concepts. Option D is evidence for prelinguistic universals — the opposite of what Whorf claimed."
     },
     {
-      n: 10,
-      topic: "gk",
-      subtopic: "physical_science",
-      stem: "The Meissner effect distinguishes a true superconductor from a hypothetical 'perfect conductor.' A perfect conductor would trap magnetic flux when cooled. What does a superconductor do instead, and why does this distinction matter?",
-      options: [
-        "A superconductor allows magnetic fields to pass through freely, enabling MRI machines to function at lower energy cost",
-        "A superconductor expels all magnetic flux from its interior regardless of field history — proving superconductivity is a distinct thermodynamic phase, not just zero resistance",
-        "A superconductor amplifies magnetic fields at its surface, which is why superconducting magnets generate unusually strong field strengths",
-        "A superconductor oscillates its surface field to create eddy-current repulsion, similar to Lenz's Law in normal conductors"
+      "n": 10,
+      "topic": "gk",
+      "subtopic": "life_science",
+      "stem": "The mitochondrial theory of aging (Harman, 1972) proposes that accumulated mtDNA mutations drive cellular senescence. Which structural feature makes mitochondrial DNA uniquely vulnerable to mutation compared to nuclear DNA?",
+      "options": [
+        "mtDNA is single-stranded, lacking a complementary template for standard mismatch repair pathways",
+        "Mitochondria divide more rapidly than the nucleus, increasing replication-error rate per unit time relative to nuclear DNA",
+        "mtDNA is unprotected by histones and sits adjacent to the inner mitochondrial membrane — the primary site of reactive oxygen species production",
+        "mtDNA uses a variant genetic code that excludes nuclear DNA repair enzymes from acting on it"
       ],
-      correct: 1,
-      why: "Meissner effect (1933): superconductors actively expel all internal flux — unlike perfect conductors which would freeze existing flux. This proves superconductivity is a thermodynamic phase, not just zero resistance.",
-      deepDive: "Walther Meissner and Robert Ochsenfeld discovered flux expulsion in 1933, finding that lead and tin became perfect diamagnets below their critical temperatures, expelling any magnetic field regardless of whether the field was applied before or after cooling. A 'perfect conductor' (Lenz's Law) would merely oppose flux change, freezing existing flux in place — a superconductor actively ejects it. This demonstrates that the superconducting state is a distinct thermodynamic phase with its own free energy minimum at zero internal field. The BCS theory (Bardeen, Cooper, Schrieffer, Nobel 1972) explained the mechanism microscopically: electron pairs (Cooper pairs) form a coherent quantum ground state that excludes magnetic flux via supercurrents circulating at the surface. Type I superconductors expel all flux below their critical field; Type II allow partial penetration as quantized flux vortices above a lower critical field (enabling strong magnets). Applications: MRI, particle accelerators (LHC dipole magnets), maglev trains. Room-temperature superconductors remain an open frontier — the 2023 LK-99 claim was not reproduced."
+      "correct": 2,
+      "why": "mtDNA lacks histone shielding and lies physically adjacent to the electron transport chain, where reactive oxygen species are generated — maximising oxidative damage to nearby DNA.",
+      "deepDive": "Mitochondrial DNA is circular and double-stranded (option A is factually wrong). Unlike nuclear DNA, it has no histone packaging to physically shield it from chemical attack. It sits in the mitochondrial matrix immediately adjacent to the inner membrane where Complexes I–IV of the electron transport chain generate the cell's reactive oxygen species (superoxide, hydrogen peroxide, hydroxyl radical). ROS are highly reactive and oxidise nearby DNA; the most common lesion is 8-hydroxydeoxyguanosine (8-OHdG). mtDNA repair mechanisms are also less robust than nuclear repair pathways. Because each cell contains hundreds to thousands of mitochondria, mutations accumulate heteroplastically — a mixed wild-type/mutant population. When mutant mtDNA load exceeds ~60–80%, ATP production fails — the threshold model underlying age-related energy decline and diseases like MELAS and Leber's Hereditary Optic Neuropathy."
     }
   ]
 };
