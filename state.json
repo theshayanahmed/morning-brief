@@ -1,6 +1,6 @@
 {
   "streak": 5,
-  "last_session_date": "2026-06-20",
+  "last_session_date": "2026-06-21",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -411,7 +411,17 @@
     "The Rovuma Basin, straddling northern Mozambique and southern Tanzania offshore, has emerged as one of the 21st century's most significant energy discoveries. What combination of factors makes it geopolitically significant beyond raw resource size?",
     "A disease has 1% prevalence in a population. A diagnostic test has 99% sensitivity and 99% specificity. A randomly selected person tests positive. What is the probability they actually have the disease?",
     "The Sapir-Whorf hypothesis posits that language shapes thought. Which empirical finding provides the strongest controlled experimental support for a weak form of linguistic relativity?",
-    "The mitochondrial theory of aging (Harman, 1972) proposes that accumulated mtDNA mutations drive cellular senescence. Which structural feature makes mitochondrial DNA uniquely vulnerable to mutation compared to nuclear DNA?"
+    "The mitochondrial theory of aging (Harman, 1972) proposes that accumulated mtDNA mutations drive cellular senescence. Which structural feature makes mitochondrial DNA uniquely vulnerable to mutation compared to nuclear DNA?",
+    "Under Incoterms 2020, which is the ONLY rule that upgraded the seller's minimum insurance obligation from Institute Cargo Clauses (C) to the higher all-risks Clauses (A) standard?",
+    "A commodity trader buys crude oil on a 'to-order' Bill of Lading and resells the cargo mid-voyage. The simplest mechanism to transfer cargo title to the new buyer without issuing a Switch B/L is:",
+    "A container carrier announces a $400/FEU GRI effective July 1. A shipper holding a long-term NAC (Named Account Contract) at $2,100/FEU asks whether the GRI applies to their bookings. Standard market practice holds that:",
+    "An air cargo shipment weighs 45 kg actual and measures 120 cm × 100 cm × 90 cm. The IATA volumetric divisor is 6,000 cm³/kg. What is the chargeable weight?",
+    "Bangladesh graduates from LDC status in November 2026. After the 3-year EBA transitional safeguard period ends in November 2029, what must Bangladesh do to maintain preferential EU market access for its RMG sector?",
+    "Samuel Beckett deliberately wrote 'Waiting for Godot' in a language other than his native English. Which language, and what was his stated reason?",
+    "The Bauhaus school (Weimar, 1919) unified fine arts and industrial craft under a founding director. Who founded it, and in which year did the Nazis forcibly close it?",
+    "Miles Davis's 'Kind of Blue' (1959) pioneered a jazz compositional approach replacing bebop's rapid chord changes with scales, giving improvisers more freedom. What is this approach called?",
+    "Of the four major Sunni schools of Islamic jurisprudence, which madhab dominates the Indian subcontinent — Bangladesh, Pakistan, and India — and who founded it?",
+    "The Mpemba effect, named after Tanzanian student Erasto Mpemba (1963), describes a scientifically contested observation. What does it claim?"
   ],
   "learn_history": [
     {
@@ -623,12 +633,17 @@
       "date": "2026-06-20",
       "topic": "EUV Lithography: The $380M Machine Running the Global Chip Arms Race",
       "bucket": "semiconductor_foundations"
+    },
+    {
+      "date": "2026-06-21",
+      "topic": "The Opium Wars (1839–1860): How Free Trade Became Imperial Conquest",
+      "bucket": "history"
     }
   ],
   "curriculum_progress": {
     "incoterms": {
-      "count": 10,
-      "last_seen": "2026-06-17",
+      "count": 11,
+      "last_seen": "2026-06-21",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -639,8 +654,8 @@
       "rolling_score": []
     },
     "bill_of_lading": {
-      "count": 10,
-      "last_seen": "2026-06-17",
+      "count": 11,
+      "last_seen": "2026-06-21",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -663,8 +678,8 @@
       "rolling_score": []
     },
     "pricing": {
-      "count": 10,
-      "last_seen": "2026-06-17",
+      "count": 11,
+      "last_seen": "2026-06-21",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -675,8 +690,8 @@
       "rolling_score": []
     },
     "air_freight": {
-      "count": 10,
-      "last_seen": "2026-06-17",
+      "count": 11,
+      "last_seen": "2026-06-21",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -693,8 +708,8 @@
       "rolling_score": []
     },
     "ftas": {
-      "count": 10,
-      "last_seen": "2026-06-17",
+      "count": 11,
+      "last_seen": "2026-06-21",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -761,8 +776,8 @@
       "rolling_score": []
     },
     "physical_science": {
-      "count": 15,
-      "last_seen": "2026-06-19",
+      "count": 16,
+      "last_seen": "2026-06-21",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -779,26 +794,26 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 13,
-      "last_seen": "2026-06-18",
+      "count": 14,
+      "last_seen": "2026-06-21",
       "difficulty": 4,
       "rolling_score": []
     },
     "arts": {
-      "count": 14,
-      "last_seen": "2026-06-18",
+      "count": 15,
+      "last_seen": "2026-06-21",
       "difficulty": 3,
       "rolling_score": []
     },
     "music": {
-      "count": 14,
-      "last_seen": "2026-06-18",
+      "count": 15,
+      "last_seen": "2026-06-21",
       "difficulty": 4,
       "rolling_score": []
     },
     "religion": {
-      "count": 14,
-      "last_seen": "2026-06-18",
+      "count": 15,
+      "last_seen": "2026-06-21",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -835,159 +850,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-06-20",
+    "date": "2026-06-21",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "FedEx Express operates the world's largest cargo airline fleet by aircraft count and uses Memphis International (MEM) as its global superhub. Which factor is the primary reason MEM was chosen over a larger gateway like Chicago O'Hare or JFK?",
+        "subtopic": "incoterms",
+        "stem": "Under Incoterms 2020, which is the ONLY rule that upgraded the seller's minimum insurance obligation from Institute Cargo Clauses (C) to the higher all-risks Clauses (A) standard?",
         "options": [
-          "MEM has the lowest landing fees of any major US cargo airport, reducing FedEx's per-package cost significantly",
-          "Memphis sits close to the population-weighted geographic centroid of the continental US, minimising average aircraft range to any delivery point",
-          "US DOT regulations require express integrators to designate a single domestic hub airport for overnight sort operations",
-          "MEM's runway configuration uniquely allows simultaneous triple-parallel freighter departures, maximising overnight sort throughput"
+          "CIP (Carriage and Insurance Paid To)",
+          "DAP (Delivered at Place)",
+          "CPT (Carriage Paid To)",
+          "DDP (Delivered Duty Paid)"
         ],
-        "correct": 1,
-        "why": "Memphis is close to the US population centroid, minimising the average distance (and fuel burn) to any ZIP code — the core logic of hub-and-spoke overnight express.",
-        "deepDive": "FedEx's Memphis Super Hub was selected in 1973 partly because Memphis sits near the population-weighted centroid of the contiguous US, minimising total aircraft-miles flown to reach any delivery zone. This maximises aircraft utilisation and enables the hub-and-spoke model: all packages converge, are sorted, and radiate outward in one overnight cycle. MEM also has no nighttime curfew, 24/7 operations, abundant cheap land for sorting infrastructure, and cooperative local government. A coastal hub like JFK would add excessive leg-distance for half the country. UPS chose Louisville (also near-centroid) for the same reason. The hub-and-spoke model, pioneered by FedEx, transformed air freight from ad-hoc point-to-point charter into a reliable network commodity."
+        "correct": 0,
+        "why": "Incoterms 2020 upgraded CIP to require Clauses (A) minimum — all-risks — while CIF deliberately kept Clauses (C) to serve bulk commodity trades. This is the most significant insurance change in the 2020 revision.",
+        "deepDive": "In Incoterms 2010, both CIF and CIP required only minimum ICC Clauses (C) — named perils with limited cover. Incoterms 2020 upgraded CIP to ICC Clauses (A) — effectively all-risks — while CIF deliberately kept Clauses (C) to serve bulk commodity trades where all-risks coverage is impractical and hard to price. The practical implication: a CIP contract now gives the buyer meaningful cargo protection against virtually all transit risks; a CIF contract gives only limited named-perils cover. Many buyers mistakenly assume CIF provides strong insurance. This is one of the most commercially significant changes in the 2020 revision and a frequent source of trade finance disputes. For a logistics group like MGH, knowing the CIP/CIF insurance distinction is essential when reviewing customer contracts and structuring cross-border cargo coverage."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "A pharmaceutical shipper is moving temperature-sensitive insulin (2°C–8°C) from Frankfurt (FRA) to Singapore (SIN) on a commercial freighter. Which combination of requirements is non-negotiable to maintain an unbroken cold chain end-to-end?",
+        "subtopic": "bill_of_lading",
+        "stem": "A commodity trader buys crude oil on a 'to-order' Bill of Lading and resells the cargo mid-voyage. The simplest mechanism to transfer cargo title to the new buyer without issuing a Switch B/L is:",
         "options": [
-          "IATA CEIV Pharma-certified handling at origin only; SIN can use standard cool-room storage since Singapore's customs clearance is under 4 hours",
-          "The carrier must use ULD type PMC, and both airports must file temperature excursion reports within 2 hours of delivery — curfew compliance is unrelated",
-          "IATA CEIV Pharma certification at both FRA and SIN handlers, temperature-controlled acceptance and delivery areas, validated cool-chain ULDs, and continuous temperature monitoring with deviation alerts",
-          "Routing via DXB is mandatory since Emirates SkyCargo holds the only IATA CEIV-certified pharma corridor connecting Europe to Southeast Asia"
+          "Endorse the original B/L in blank and physically deliver it to the new buyer",
+          "Issue a telex release instruction to the carrier's destination agent",
+          "Convert to a Seaway Bill naming the new buyer as consignee",
+          "File a Carrier's Release with the vessel operator's port agent"
         ],
-        "correct": 2,
-        "why": "End-to-end cold chain requires CEIV-certified handling at both ends, temperature-controlled ground infrastructure, validated ULDs, and continuous monitoring — no single element is sufficient alone.",
-        "deepDive": "IATA's CEIV Pharma (Centre of Excellence for Independent Validators) is the gold standard certification for pharmaceutical cargo handlers and airports. A compliant 2–8°C shipment requires: CEIV-certified acceptance and delivery at both FRA and SIN; pre-conditioned, validated temperature-controlled ULDs (not just any PMC — the ULD must be validated for the specific lane and temperature band); temperature data loggers providing continuous readings; and GDP (Good Distribution Practice) documentation accompanying the shipment. FRA's CargoCity Süd hosts multiple CEIV-certified handlers including Lufthansa Cargo's Cool Center. Singapore's Coolport (dnata) serves SIN. Nighttime curfews at FRA apply mainly to passenger aircraft — most freighter services have exemptions, so curfew is relevant to scheduling but not a cold-chain constraint per se."
+        "correct": 0,
+        "why": "A blank-endorsed negotiable 'to-order' B/L is a bearer instrument — whoever holds it presents it at destination to take delivery. Telex releases and Seaway Bills are non-negotiable and cannot transfer title mid-voyage.",
+        "deepDive": "A 'to-order' Bill of Lading is negotiable: the holder of the original document — or whoever it's endorsed to — can take delivery. Blank endorsement means the holder signs the reverse without naming a new consignee, creating a bearer instrument transferable by physical delivery. A trader can buy FOB, receive the B/L via letter of credit, endorse it in blank, and hand it to a new buyer in the destination port who presents it at the terminal — all while the ship is at sea. This is commodity trading's version of a bearer bond. Switch B/Ls reissue a whole new B/L (often changing origin, consignee, or destination details); telex release surrenders the original at origin for paperless delivery — but neither can transfer title to a third party mid-voyage the way a blank-endorsed negotiable B/L can."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "MSC's acquisition of Bolloré Africa Logistics (rebranded African Global Logistics, AGL) for ~€5.7B in 2023 was strategically distinct from most carrier M&A of that era. What unique capability did it primarily add for MSC?",
+        "subtopic": "pricing",
+        "stem": "A container carrier announces a $400/FEU GRI effective July 1. A shipper holding a long-term NAC (Named Account Contract) at $2,100/FEU asks whether the GRI applies to their bookings. Standard market practice holds that:",
         "options": [
-          "Deepwater container terminal concessions at Lagos, Abidjan, and Mombasa that MSC had previously been unable to secure under third-party terminal-sharing agreements",
-          "Control over pan-African inland logistics — rail concessions, inland container depots, and last-mile delivery networks across 50+ countries — completing vertical integration from vessel to final delivery",
-          "A digital freight marketplace covering intra-African cross-border trade, allowing MSC to compete with Maersk's Twill platform in high-growth emerging markets",
-          "Exclusive slot agreements on African coastal feeder routes that Bolloré had held under a legacy VSA with CMA CGM"
+          "NAC rates are fixed for the contract period; GRIs apply only to spot and FAK bookings",
+          "GRIs automatically stack on top of NAC rates unless a specific cap was negotiated at signing",
+          "NAC rates float monthly with the WCI index, so GRIs are already embedded in the pricing",
+          "GRIs apply to NAC bookings after a mandated 30-day notice period per FMC tariff filing rules"
         ],
-        "correct": 1,
-        "why": "AGL's value was its pan-African inland logistics footprint — rail, ICDs, last-mile — not just ports, giving MSC vertical integration from vessel to door across 50+ African countries.",
-        "deepDive": "MSC's AGL acquisition gave it control of one of Africa's deepest inland logistics networks: rail concessions (Abidjan-Ouagadougou corridor, Tanzania's central railway), 400+ inland container depots (ICDs), last-mile trucking, warehousing, and customs brokerage across 50+ countries. This mirrors what Maersk did with Damco and CMA CGM did with CEVA — vertical integration beyond vessel and port into the inland supply chain — but specifically targeted at Africa, where infrastructure control is often more valuable than slot access. The strategic logic: an MSC shipper in Nairobi or Ouagadougou can now receive a door-to-door MSC solution without an intermediary 3PL. Port terminals were secondary — MSC already had terminal access through its Terminal Investment Ltd (TIL) subsidiary."
+        "correct": 0,
+        "why": "NAC rates are contractually fixed for the validity period; GRIs apply to spot FAK traffic. NAC holders pay a premium precisely for rate certainty — that's the commercial logic of the contract.",
+        "deepDive": "Named Account Contracts are bilaterally negotiated fixed-rate agreements between a carrier and a high-volume shipper, valid for a set period (typically 6–12 months). Unlike FAK spot bookings that float with market conditions, NAC rates are locked. When carriers announce GRIs, they apply to spot and open bookings — not to NAC holders, who are paying partly for rate certainty. In practice, carriers sometimes attempt to apply surcharges (PSS, BAF adjustments) to NAC customers; well-drafted NAC contracts specify exactly which surcharges pass through and which are frozen. For a large forwarder like MGH, NACs are the commercial tool that lets you sell predictable rates to customers while locking carrier costs — the spread between your buy-rate NAC and sell-rate is the margin. MQC clauses in NACs protect the carrier side of the same arrangement."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "A shipper signs a forwarder service contract with an MQC (Minimum Quantity Commitment) of 600 TEU per quarter at a contracted rate of $2,100/TEU. In Q3 they ship only 420 TEU. What is the shortfall charge the forwarder is typically entitled to claim?",
+        "subtopic": "air_freight",
+        "stem": "An air cargo shipment weighs 45 kg actual and measures 120 cm × 100 cm × 90 cm. The IATA volumetric divisor is 6,000 cm³/kg. What is the chargeable weight?",
         "options": [
-          "$0 — the forwarder bears the volume shortfall risk as the carrier-facing contract party",
-          "$378,000 — the contracted rate applied to the full 180-TEU shortfall volume",
-          "$189,000 — 50% of the contracted rate applied to the shortfall, reflecting standard MQC penalty discount practice",
-          "The penalty cannot be calculated from these figures alone; it depends on whether the forwarder actually purchased the capacity from a carrier"
+          "45 kg — actual weight prevails as it exceeds volumetric weight",
+          "180 kg — volumetric weight prevails as it exceeds actual weight",
+          "112.5 kg — IATA rules apply a blended average of actual and volumetric",
+          "135 kg — the longest linear dimension triggers an automatic surcharge uplift"
         ],
         "correct": 1,
-        "why": "Standard MQC shortfall = contracted rate × volume gap: 180 TEU × $2,100 = $378,000, unless the contract specifies a reduced penalty rate or make-good window.",
-        "deepDive": "MQC clauses protect forwarders who have committed capacity to carriers — via NACs (Named Account Contracts) or service contracts — on behalf of a specific shipper. If the shipper tenders less than the committed volume, the forwarder has already paid or is obligated to pay for that space. The shortfall charge transfers this liability back to the shipper. Standard formula: shortfall volume × contracted rate. Some contracts discount the penalty (e.g., 50%) or allow volume make-good in subsequent quarters within the contract year. MQC mechanics are a major lever in RFQ/tender negotiations — shippers with stable volume can use MQC commitments to negotiate lower base rates, but must model volume downside risk carefully before committing. Forwarders typically prefer MQC structures for large-volume shippers on high-frequency lanes."
+        "why": "Volumetric: 120×100×90 = 1,080,000 cm³ ÷ 6,000 = 180 kg. Since 180 > 45 kg actual, volumetric weight governs. The 'greater of' rule protects carriers from light-but-bulky cargo that fills hold space without generating weight-based revenue.",
+        "deepDive": "Air cargo pricing follows the 'greater of actual or volumetric weight' rule to protect carriers from shipments that consume hold space disproportionate to their mass. The IATA formula: length × width × height (in cm) ÷ 6,000 = volumetric kg. For this shipment: 120×100×90 = 1,080,000 cm³ ÷ 6,000 = 180 kg volumetric versus 45 kg actual — volumetric dominates. Sea freight equivalents: 1 CBM = 1 metric tonne (or ~363 kg/CBM depending on carrier). Express couriers such as DHL and FedEx sometimes use 5,000 for domestic/road and 6,000 for international air. Common misconception: shippers assume actual weight always governs — but bulky, lightweight items like automotive parts, furniture, or apparel almost always bill volumetrically, significantly affecting the true landed cost. Quoting actual weight without checking volumetric is a classic commercial error."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "The 'bullwhip effect' (Lee, Padmanabhan & Whang, 1997) describes how small demand variations at retail amplify into massive order swings at the manufacturer. Which single intervention has the strongest empirical support for reducing it?",
+        "subtopic": "ftas",
+        "stem": "Bangladesh graduates from LDC status in November 2026. After the 3-year EBA transitional safeguard period ends in November 2029, what must Bangladesh do to maintain preferential EU market access for its RMG sector?",
         "options": [
-          "Increasing safety stock at each distribution node to buffer against demand variability",
-          "Extending order cycle times from weekly to monthly to smooth short-term demand noise",
-          "Sharing real-time point-of-sale demand data upstream across all supply chain tiers",
-          "Switching from push to pull replenishment at the retailer level only"
+          "Negotiate a bilateral arrangement — EPA-style deal or qualify for GSP+ — to retain preferences",
+          "Bangladesh automatically converts to standard EU GSP at LDC graduation with no additional steps",
+          "EBA preferences continue indefinitely for RMG as a designated developmental sector",
+          "Bangladesh qualifies for GSP+ automatically as LDC graduation takes effect in November 2026"
         ],
-        "correct": 2,
-        "why": "Information asymmetry is the root cause; sharing real-time POS data breaks the amplification by anchoring all tiers to actual end demand rather than sequential upstream forecasts.",
-        "deepDive": "The bullwhip effect arises because each supply chain tier orders based on its own inventory plus what its downstream partner ordered — not actual consumer demand. This information lag amplifies small retail fluctuations exponentially upstream. The four identified causes: demand signal processing, rationing game (hoarding during shortages), order batching, and price variation. Real-time POS data sharing via VMI (Vendor Managed Inventory) or CPFR (Collaborative Planning, Forecasting, and Replenishment) addresses the root cause by giving manufacturers direct visibility into sell-through. Walmart's VMI programs with P&G in the 1990s are the canonical example. Safety stock (option A) and pull replenishment (option D) reduce symptoms without fixing information asymmetry; extending order cycles (option B) can actually worsen batching-driven amplification."
+        "correct": 0,
+        "why": "Post-EBA, Bangladesh needs a new bilateral deal. GSP+ is not automatic — it requires ratifying 27 international conventions and meeting income tests. Without action, MFN tariffs (~12% on garments) apply after November 2029.",
+        "deepDive": "Bangladesh has enjoyed duty-free, quota-free EU access under EBA since 2001 — the cornerstone of its RMG export model. LDC graduation triggers a 3-year transitional period where EBA continues until November 2029; after that, without a bilateral arrangement, Bangladeshi garments face EU MFN tariffs of around 12% on apparel. Options: negotiate an EPA-style arrangement (complex, requires concessions on services, investment, and IP) or qualify for GSP+ (requires ratifying 27 international conventions and passing income-threshold tests). GSP+ is not automatic — Sri Lanka demonstrated it can be withdrawn for governance failures. The EU-India FTA concluded January 2026 makes urgency acute: Indian apparel now gains near-equivalent EU tariff access. Every year Bangladesh delays its post-LDC EU arrangement translates directly into eroding market share. This is arguably the single largest structural risk to Bangladesh's export economy over the next three years."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The Wannsee Conference (January 20, 1942) is often mischaracterised as the moment the Holocaust began. What was its actual documented purpose, per the surviving Wannsee Protocol?",
+        "subtopic": "literature",
+        "stem": "Samuel Beckett deliberately wrote 'Waiting for Godot' in a language other than his native English. Which language, and what was his stated reason?",
         "options": [
-          "To decide at the highest level whether to proceed with systematic mass murder of European Jews — a policy still debated among senior Nazis",
-          "To coordinate the bureaucratic and logistical implementation of the 'Final Solution' across Nazi ministries and SS structures already committed to genocide",
-          "To brief senior Nazi officials on the existence of the extermination programme for the first time",
-          "To align Germany and its Axis partners — Italy, Romania, and Hungary — on a shared Jewish policy for occupied eastern territories"
+          "German — to engage directly with the existentialist philosophy of Heidegger and Sartre",
+          "Latin — to strip the text of contemporary emotional associations and make it timeless",
+          "French — to write with disciplined impoverishment, free from the 'richness' English imposed on him",
+          "Italian — because Beckett was living in Rome and found Italian syntax better suited to the play's rhythm"
         ],
-        "correct": 1,
-        "why": "The genocide decision had already been made and killings were already underway; Wannsee was a coordination meeting to align Nazi ministries and SS on implementation logistics.",
-        "deepDive": "The Wannsee Conference, chaired by Reinhard Heydrich and attended by 15 senior officials including Adolf Eichmann (who took minutes), met January 20, 1942 in a Berlin villa. Mass murder was already underway — the Chelmno extermination camp had been operating since December 1941, and the Einsatzgruppen had shot over 500,000 Soviet Jews. The meeting's purpose was bureaucratic coordination: ensuring civilian ministries, the Reichsbahn (railway), occupation administrators, and SS killing units operated in alignment. The Wannsee Protocol (30 copies made; one survived in the German Foreign Office archives, discovered 1947) is among the clearest documentary evidence for deliberate, organised genocide. Common misconception: Wannsee as a 'decision point.' It was a logistics meeting for a decision already made at the top."
+        "correct": 2,
+        "why": "Beckett chose French because writing in a second language forced him away from stylistic embellishment toward bare, stripped prose — what he called 'impoverishment,' a deliberate aesthetic move away from the Joycean maximalism he felt enslaved him in English.",
+        "deepDive": "Samuel Beckett (1906–1989), a Dublin-born Protestant, was James Joyce's secretary in Paris and deeply shaped by — but consciously departing from — Joyce's linguistic maximalism. He began writing in French in the 1940s, feeling that his native English carried too much emotional and stylistic baggage. French forced what he called 'impoverishment' — bare, stripped, precise prose. 'En attendant Godot' was written in 1948–49 and premiered in Paris in January 1953; Beckett translated it into English himself. The play has no conventional plot: two men wait endlessly for a Godot who never arrives. Common misconception: Godot symbolises God — Beckett explicitly denied it. Theatre of the Absurd — Beckett, Ionesco, Pinter — used formal meaninglessness to reflect postwar existential disorientation. Beckett won the Nobel Prize in Literature in 1969."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Rovuma Basin, straddling northern Mozambique and southern Tanzania offshore, has emerged as one of the 21st century's most significant energy discoveries. What combination of factors makes it geopolitically significant beyond raw resource size?",
+        "subtopic": "arts",
+        "stem": "The Bauhaus school (Weimar, 1919) unified fine arts and industrial craft under a founding director. Who founded it, and in which year did the Nazis forcibly close it?",
         "options": [
-          "It contains the world's largest proven uranium deposits, intersecting African nuclear ambitions and non-proliferation concerns",
-          "Massive gas discoveries position Mozambique as a potential top-5 LNG exporter — intersecting European post-Russia diversification, Chinese investment, and an active Islamist insurgency that has already forced a force majeure",
-          "It straddles a disputed UNCLOS Article 76 continental shelf boundary between Mozambique and Tanzania, creating legal uncertainty over resource ownership",
-          "It hosts the only deep-water port in sub-Saharan Africa capable of berthing Q-flex LNG carriers, giving the region structural export dominance"
+          "Walter Gropius; 1933",
+          "Ludwig Mies van der Rohe; 1938",
+          "Paul Klee; 1935",
+          "László Moholy-Nagy; 1940"
         ],
-        "correct": 1,
-        "why": "Rovuma's 100+ trillion cubic feet of gas intersects European post-Russia diversification, Chinese BRI investment, and a jihadist insurgency that forced TotalEnergies to declare force majeure — a perfect case study in stranded energy.",
-        "deepDive": "The Rovuma Basin (Cabo Delgado, northern Mozambique) holds an estimated 100+ trillion cubic feet of natural gas. Two flagship projects: TotalEnergies' Mozambique LNG (onshore, suspended under force majeure since April 2021 after jihadist attacks on Mocímboa da Praia) and ENI/ExxonMobil's Coral FLNG (floating, first LNG cargo delivered 2022). At full build-out, Mozambique could export 40+ million tonnes of LNG per year, rivalling Qatar. European buyers — ENI, Shell, BP — signed long-term offtake agreements as post-Russia gas diversification. China's CNPC and CNOOC also hold equity. The jihadist insurgency (linked to Islamic State Central Africa Province) has killed 4,000+ and displaced over 1 million people, illustrating that resource wealth without security is largely unmonetisable — and making Mozambique a test case for the resource curse under asymmetric security conditions."
+        "correct": 0,
+        "why": "Walter Gropius founded the Bauhaus in April 1919. The Nazis closed it in 1933, condemning its internationalist modernism as 'Jewish-Bolshevist.' Mies van der Rohe was the third and final director.",
+        "deepDive": "The Bauhaus (German: 'house of building') was founded April 1919 in Weimar, Germany by Walter Gropius, who sought to dissolve the hierarchy between fine arts and industrial craft. Masters included Kandinsky, Paul Klee, László Moholy-Nagy, and Marcel Breuer. The school moved to Dessau in 1925 (conservative Weimar withdrew funding), then to Berlin in 1932. The Nazis shut it April–July 1933, condemning its internationalist modernist ethos as degenerate. Mies van der Rohe was its third and final director. The Bauhaus diaspora transformed American design: Gropius and Breuer taught at Harvard, Mies at Illinois Tech, Moholy-Nagy founded Chicago's New Bauhaus. The legacy is everywhere: functionalist architecture, sans-serif typography, flat-pack furniture, modern branding. Common misconception: Bauhaus was primarily an architecture school — it equally shaped graphic design, industrial products, textiles, and theatre."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "A disease has 1% prevalence in a population. A diagnostic test has 99% sensitivity and 99% specificity. A randomly selected person tests positive. What is the probability they actually have the disease?",
+        "subtopic": "music",
+        "stem": "Miles Davis's 'Kind of Blue' (1959) pioneered a jazz compositional approach replacing bebop's rapid chord changes with scales, giving improvisers more freedom. What is this approach called?",
         "options": [
-          "~99% — the test is 99% accurate in both directions, so a positive is almost certain to be correct",
-          "~50% — the false positive rate applied to the large healthy population generates as many false alarms as true positives",
-          "~9% — disease rarity means most positives are false even with a highly accurate test",
-          "~91% — Bayesian adjustment for both sensitivity and specificity yields a high positive predictive value"
+          "Serialism",
+          "Modal jazz",
+          "Free jazz",
+          "Third stream"
         ],
         "correct": 1,
-        "why": "In 10,000 people: 100 sick → 99 true positives; 9,900 healthy → 99 false positives. Total positives = 198; PPV = 99/198 = 50%.",
-        "deepDive": "This is the base rate fallacy — the most counterintuitive result in applied probability. In 10,000 people with 1% prevalence: 100 have the disease; 9,900 don't. With 99% sensitivity: 99 true positives, 1 missed. With 99% specificity: 9,801 true negatives, 99 false positives. Total positives = 198; true positives = 99. PPV = 99/198 = 50%. The lower the prevalence, the more false positives overwhelm true positives. This result, from Bayes' Theorem, has massive real-world implications: mass screening for rare diseases, COVID testing strategy, security screening, and drug testing. Policymakers who see '99% accurate' and assume a positive means infection have committed a base-rate error — a systematic bias documented by Kahneman and Tversky and central to evidence-based medical screening policy."
+        "why": "'Kind of Blue' pioneered modal jazz — improvising over modes (scales) rather than navigating rapid chord changes. Bill Evans's liner notes explained it to the public. This gave musicians far more expressive space.",
+        "deepDive": "Before 'Kind of Blue,' bebop demanded navigating dozens of chord changes per minute — technically extraordinary but increasingly cerebral. Miles Davis shifted toward modality: assign a mode (scale) to a section and improvise freely within it, rather than chasing chord changes. 'Kind of Blue' was recorded in two sessions in March–April 1959 with minimal rehearsal — musicians heard the sketches on session day, producing recordings that feel spontaneous and spacious. It has sold over 4 million copies in the US — the best-selling jazz record ever. Modal jazz opened the door to Coltrane's 'A Love Supreme' and Herbie Hancock's fusion explorations. Common misconception: modal jazz is not free jazz — Ornette Coleman's free jazz abandons harmonic structure entirely. Davis still worked within defined modes; the freedom was within a structure, not an absence of it. Bill Evans's liner notes remain one of the clearest explanations of the concept."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "The Sapir-Whorf hypothesis posits that language shapes thought. Which empirical finding provides the strongest controlled experimental support for a weak form of linguistic relativity?",
+        "subtopic": "religion",
+        "stem": "Of the four major Sunni schools of Islamic jurisprudence, which madhab dominates the Indian subcontinent — Bangladesh, Pakistan, and India — and who founded it?",
         "options": [
-          "The Hopi language lacks grammatical tense markers; Whorf claimed Hopi speakers therefore perceive time as cyclical rather than linear",
-          "Russian mandatorily distinguishes dark blue (синий) from light blue (голубой) as separate basic colour categories; Russian speakers discriminate these shades faster on perceptual tasks",
-          "Children acquire language before demonstrating abstract reasoning, suggesting language is a prerequisite for higher-order thought",
-          "Deaf communities without signed-language access develop spontaneous gestural pointing systems, indicating prelinguistic spatial cognition"
+          "Maliki; Malik ibn Anas",
+          "Shafi'i; Muhammad ibn Idris al-Shafi'i",
+          "Hanbali; Ahmad ibn Hanbal",
+          "Hanafi; Abu Hanifa al-Nu'man"
         ],
-        "correct": 1,
-        "why": "The Russian colour-term study (Winawer et al., PNAS 2007) provides controlled experimental evidence that linguistic category boundaries influence real-time perceptual discrimination — the clearest empirical support for weak linguistic relativity.",
-        "deepDive": "Linguistic relativity has two versions: strong (language determines thought — largely rejected) and weak (language influences certain cognitive tendencies — empirically supported). The Russian colour study by Winawer et al. (PNAS, 2007) is the cleanest evidence: Russian mandatorily distinguishes синий (dark blue) and голубой (light blue) as separate basic categories; English treats both as 'blue.' Russian speakers were significantly faster discriminating stimuli that fell across this linguistic boundary versus within-category shades. Crucially, the effect disappeared under verbal interference (repeating words aloud) — showing the influence is language-mediated, not purely perceptual. Option A (Hopi) was Whorf's original claim but has been widely contested; later linguistic analysis shows Hopi does encode temporal concepts. Option D is evidence for prelinguistic universals — the opposite of what Whorf claimed."
+        "correct": 3,
+        "why": "The Hanafi madhab, founded by Abu Hanifa (699–767 CE) in Kufa, Iraq, dominates the Indian subcontinent, Central Asia, and Turkey — the most widely followed Sunni school globally. Maliki dominates North/West Africa; Shafi'i Southeast Asia; Hanbali Saudi Arabia.",
+        "deepDive": "Abu Hanifa al-Nu'man ibn Thabit (699–767 CE) founded the Hanafi school in Kufa, Iraq. His distinguishing approach: more liberal use of ra'y (independent reasoning) and qiyas (analogical reasoning) than other schools, allowing legal adaptation to new situations. Spread via the Abbasid Caliphate, it was codified in the Ottoman Mecelle — the first civil code in the Islamic world. In the subcontinent, Mughal patronage institutionalised it; Shah Waliullah Dehlawi (18th c.) reinforced it. The Deobandi and Barelvi movements — which define South Asian Islamic practice including Bangladesh's religious culture — are both grounded in Hanafi jurisprudence, though they differ sharply on shrine veneration (Barelvi permits it; Deobandi opposes it as innovation). For Shayan: the Hanafi/Deobandi/Barelvi layering maps directly onto Bangladesh's religious-political fault lines."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "The mitochondrial theory of aging (Harman, 1972) proposes that accumulated mtDNA mutations drive cellular senescence. Which structural feature makes mitochondrial DNA uniquely vulnerable to mutation compared to nuclear DNA?",
+        "subtopic": "physical_science",
+        "stem": "The Mpemba effect, named after Tanzanian student Erasto Mpemba (1963), describes a scientifically contested observation. What does it claim?",
         "options": [
-          "mtDNA is single-stranded, lacking a complementary template for standard mismatch repair pathways",
-          "Mitochondria divide more rapidly than the nucleus, increasing replication-error rate per unit time relative to nuclear DNA",
-          "mtDNA is unprotected by histones and sits adjacent to the inner mitochondrial membrane — the primary site of reactive oxygen species production",
-          "mtDNA uses a variant genetic code that excludes nuclear DNA repair enzymes from acting on it"
+          "Saltwater boils at a lower temperature than freshwater under identical pressure conditions",
+          "Hot water can freeze faster than cold water under certain specific conditions",
+          "Superheated water converts spontaneously to steam without reaching 100°C",
+          "Ice melts faster in warmer climates because black-body radiation accelerates phase transitions"
         ],
-        "correct": 2,
-        "why": "mtDNA lacks histone shielding and lies physically adjacent to the electron transport chain, where reactive oxygen species are generated — maximising oxidative damage to nearby DNA.",
-        "deepDive": "Mitochondrial DNA is circular and double-stranded (option A is factually wrong). Unlike nuclear DNA, it has no histone packaging to physically shield it from chemical attack. It sits in the mitochondrial matrix immediately adjacent to the inner membrane where Complexes I–IV of the electron transport chain generate the cell's reactive oxygen species (superoxide, hydrogen peroxide, hydroxyl radical). ROS are highly reactive and oxidise nearby DNA; the most common lesion is 8-hydroxydeoxyguanosine (8-OHdG). mtDNA repair mechanisms are also less robust than nuclear repair pathways. Because each cell contains hundreds to thousands of mitochondria, mutations accumulate heteroplastically — a mixed wild-type/mutant population. When mutant mtDNA load exceeds ~60–80%, ATP production fails — the threshold model underlying age-related energy decline and diseases like MELAS and Leber's Hereditary Optic Neuropathy."
+        "correct": 1,
+        "why": "The Mpemba effect claims hot water can sometimes freeze faster than cold water. It remains contested — confirmed in some controlled conditions (large temperature differential, specific containers) but not universally reproducible.",
+        "deepDive": "In 1963, Tanzanian schoolboy Erasto Mpemba observed that hot milk mix froze faster than cold. His teacher dismissed him; years later physicist Denis Osborne replicated it and co-authored a paper in 1969. The effect remains contested: proposed mechanisms include hot water losing dissolved gases faster, partial evaporation reducing mass, convection currents accelerating heat loss, and greater tendency to supercool. A 2016 paper by Burridge and Linden confirmed the effect is real but context-dependent — appearing reliably only when temperature differentials are large. The story doubles as a lesson in scientific humility: a teenager's kitchen observation overturned textbook intuition. Common misconception: the effect is always reproducible — it isn't; it depends on container material, water purity, starting temperatures, and ambient conditions. The search for a single governing mechanism continues in physical chemistry literature."
       }
     ]
   }
