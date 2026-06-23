@@ -1,6 +1,6 @@
 {
   "streak": 5,
-  "last_session_date": "2026-06-22",
+  "last_session_date": "2026-06-23",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -431,7 +431,17 @@
     "The 'impossible trinity' (Mundell-Fleming trilemma) states that a country cannot",
     "Cricket's Duckworth-Lewis-Stern (DLS) method adjusts run targets in rain-interru",
     "The 'Streisand Effect' describes the paradox where an attempt to suppress or rem",
-    "Noam Chomsky's 'Universal Grammar' hypothesis makes which central claim about hu"
+    "Noam Chomsky's 'Universal Grammar' hypothesis makes which central claim about hu",
+    "In a CFS/CFS (LCL) ocean shipment, the ocean carrier's liability for cargo typically attaches and ends at which points?",
+    "The Middle Corridor (Trans-Caspian International Transport Route) links China to Europe bypassing Russia. In geographic sequence, which two bodies of water does cargo cross?",
+    "Under the York-Antwerp Rules, a cargo owner's General Average contribution is calculated proportionally based on:",
+    "The US Uyghur Forced Labor Prevention Act (UFLPA) creates which legal presumption for goods linked to Xinjiang?",
+    "The Baltic Dry Index (BDI) is a composite of time-charter rate assessments for which four vessel classes?",
+    "The Wakhan Corridor is a narrow strip of Afghan territory deliberately designed in 1895 as a buffer zone between which two powers?",
+    "Hitler's Anschluss of 1938 violated which specific article of the 1919 Treaty of Versailles that had explicitly prohibited a German-Austrian union?",
+    "When both glucose AND lactose are present in E. coli's environment, transcription from the lac operon is best described as:",
+    "G\u00f6del's First Incompleteness Theorem (1931) states that any consistent formal system capable of expressing basic arithmetic must contain statements that are:",
+    "The massacre near the end of Garcia Marquez's 'One Hundred Years of Solitude' was directly inspired by which real Colombian historical event?"
   ],
   "learn_history": [
     {
@@ -653,6 +663,11 @@
       "date": "2026-06-22",
       "topic": "The Garrison State: When Armies Run Republics \u2014 Pakistan, Bangladesh, and the Logic of Military Supremacy",
       "bucket": "sociopolitical"
+    },
+    {
+      "date": "2026-06-23",
+      "topic": "Demurrage and Detention: The Two Clocks That Cost Logistics Companies Billions",
+      "bucket": "industry_deep_dive"
     }
   ],
   "curriculum_progress": {
@@ -711,14 +726,14 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 10,
-      "last_seen": "2026-06-19",
+      "count": 11,
+      "last_seen": "2026-06-23",
       "difficulty": 4,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 10,
-      "last_seen": "2026-06-19",
+      "count": 11,
+      "last_seen": "2026-06-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -729,20 +744,20 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 10,
-      "last_seen": "2026-06-19",
+      "count": 11,
+      "last_seen": "2026-06-23",
       "difficulty": 4,
       "rolling_score": []
     },
     "compliance": {
-      "count": 10,
-      "last_seen": "2026-06-19",
+      "count": 11,
+      "last_seen": "2026-06-23",
       "difficulty": 4,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 10,
-      "last_seen": "2026-06-19",
+      "count": 11,
+      "last_seen": "2026-06-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -779,14 +794,14 @@
   },
   "gk_progress": {
     "history": {
-      "count": 16,
-      "last_seen": "2026-06-20",
+      "count": 17,
+      "last_seen": "2026-06-23",
       "difficulty": 4,
       "rolling_score": []
     },
     "geography": {
-      "count": 15,
-      "last_seen": "2026-06-20",
+      "count": 16,
+      "last_seen": "2026-06-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -797,20 +812,20 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 16,
-      "last_seen": "2026-06-20",
+      "count": 17,
+      "last_seen": "2026-06-23",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 16,
-      "last_seen": "2026-06-20",
+      "count": 17,
+      "last_seen": "2026-06-23",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 14,
-      "last_seen": "2026-06-21",
+      "count": 15,
+      "last_seen": "2026-06-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -865,159 +880,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-06-22",
+    "date": "2026-06-23",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "documentation",
-        "stem": "A 'claused' or 'unclean' bill of lading causes a bank to refuse payment under a documentary credit (LC). What condition on the B/L renders it claused?",
+        "subtopic": "multimodal",
+        "stem": "In a CFS/CFS (LCL) ocean shipment, the ocean carrier's liability for cargo typically attaches and ends at which points?",
         "options": [
-          "The vessel is flagged in a country not party to SOLAS",
-          "The carrier notes visible damage, shortage, or defective packaging of the goods on the face of the document",
-          "The shipper failed to provide a packing list within 24 hours of loading",
-          "The B/L was issued after the letter of credit expiry date"
+          "Origin shipper's warehouse to destination consignee's premises",
+          "Origin container freight station to destination container freight station",
+          "Origin container yard to destination container yard",
+          "Origin port gate to destination port gate"
         ],
         "correct": 1,
-        "why": "A claused B/L means the carrier noted a fault with cargo condition or quantity at the time of loading \u2014 banks refuse payment because the document no longer evidences clean receipt of goods.",
-        "deepDive": "A 'clean' B/L states the carrier received the goods 'in apparent good order and condition.' The moment a carrier adds a notation \u2014 'two cartons visibly crushed,' 'short-shipped 12 units,' 'drums leaking' \u2014 the document is 'claused' or 'dirty.' Under UCP 600 (the governing rules for letters of credit), banks are obligated to reject claused B/Ls because they cannot verify the goods conform to the contract. This matters enormously in trade finance: an exporter whose goods arrive damaged at the port may find they cannot draw down payment at all. Best practice is for shippers to ensure cargo is perfectly packed and declared before loading, since curing a claused B/L after the fact is commercially complex."
+        "why": "In LCL, goods are consolidated and deconsolidated at container freight stations; carrier liability runs CFS-to-CFS, not door-to-door or CY-to-CY.",
+        "deepDive": "In containerized trade, CY (container yard) and CFS (container freight station) denote the handover and liability points. CY moves involve a full container load; CFS moves involve consolidation of multiple shippers' cargo into one FCL \u2014 LCL. In a CFS/CFS move, an NVOCC or consolidator groups small shipments at the origin CFS, stuffs a single container, ships it, then strips the container at the destination CFS and delivers each consignee's lot. The ocean carrier's liability begins when goods enter the origin CFS and ends when they exit the destination CFS \u2014 not at the buyer's warehouse. Confusion about where carrier liability transfers leads to costly cargo-claim disputes, especially when damage occurs during deconsolidation handling by the CFS operator rather than during the ocean leg itself."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "customs",
-        "stem": "The WCO Harmonized System (HS) assigns every traded good a numerical code. At which digit level do most countries diverge into their own national tariff schedules?",
+        "subtopic": "trade_lanes",
+        "stem": "The Middle Corridor (Trans-Caspian International Transport Route) links China to Europe bypassing Russia. In geographic sequence, which two bodies of water does cargo cross?",
         "options": [
-          "2-digit (HS chapter)",
-          "4-digit (HS heading)",
-          "6-digit (HS subheading)",
-          "8-digit (national tariff line)"
+          "Caspian Sea, then Black Sea",
+          "Aral Sea, then Black Sea",
+          "Caspian Sea, then Mediterranean Sea",
+          "Black Sea, then Baltic Sea"
         ],
-        "correct": 2,
-        "why": "The HS is internationally standardised to 6 digits; countries extend to 8, 10, or more digits for their own statistical and duty-rate purposes beyond the 6-digit subheading.",
-        "deepDive": "The Harmonized System is the universal language of trade: 98% of globally traded goods are classified under it, covering 5,000+ commodity groups across 99 chapters. The first 2 digits identify the chapter (e.g., Chapter 61 = knitted apparel), 4 digits the heading, and 6 digits the subheading \u2014 all internationally standardised across 200+ countries. Beyond 6 digits, each country adds its own digits for national tariff lines and statistical tracking. This is where tariff rates, import licensing requirements, and anti-dumping duties are applied. Misclassification \u2014 even by one heading \u2014 can trigger misdeclaration penalties, delayed clearance, and duty underpayment fines. Classification rulings from customs authorities provide binding advance certainty."
+        "correct": 0,
+        "why": "Middle Corridor routes Kazakhstan \u2192 Caspian crossing (Aktau/Kuryk) \u2192 Azerbaijan/Georgia \u2192 Black Sea ferry or Turkey \u2192 EU.",
+        "deepDive": "The Trans-Caspian International Transport Route (TITR), branded the Middle Corridor, is the ~7,000km route linking China to Europe through Kazakhstan, across the Caspian Sea via Aktau or Kuryk port, into Azerbaijan and Georgia, then either via Black Sea ferry to Romania or overland through Turkey into the EU. It emerged as a serious alternative to the Russian-dominated Northern Corridor after 2022 sanctions made Russian transit commercially risky for many shippers. Transit times run 15\u201322 days \u2014 faster than sea, more expensive and volume-constrained. Kazakhstan, Azerbaijan, and Georgia have invested heavily in port and rail infrastructure to capture corridor growth. China's BRI investments underpin much of the route, including the Baku-Tbilisi-Kars rail link opened in 2017."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "vessels",
-        "stem": "A 'Panamax' container vessel is defined by the maximum dimensions that fit through which specific constraint, and what is the approximate beam limitation?",
+        "subtopic": "marine_insurance",
+        "stem": "Under the York-Antwerp Rules, a cargo owner's General Average contribution is calculated proportionally based on:",
         "options": [
-          "Original Panama Canal locks \u2014 approximately 32.3m beam, 294m LOA",
-          "The Strait of Malacca \u2014 approximately 20.5m draft limit",
-          "The Suez Canal \u2014 approximately 77.5m beam limit",
-          "The Kiel Canal \u2014 approximately 32.5m beam, 235m LOA"
+          "The gross weight of their cargo as a share of the ship's total displacement",
+          "The sound market value of their cargo at the port of destination",
+          "The insured value declared in their cargo insurance certificate",
+          "The freight earned by the carrier on their specific consignment"
         ],
-        "correct": 0,
-        "why": "Panamax is defined by the original Panama Canal lock dimensions: ~294m LOA, ~32.3m beam, ~12m draft \u2014 the constraint that shaped an entire generation of vessel design.",
-        "deepDive": "Before the expanded Panama Canal locks opened in 2016, Panamax (roughly 4,000\u20135,100 TEU) was the dominant container ship class on the Trans-Pacific. The expanded locks introduced Neo-Panamax (up to 366m LOA, 49m beam, ~14,000 TEU), rendering the old Panamax class suboptimal on many trades. Vessel size classes are anchored to infrastructure constraints: Suezmax (fits Suez Canal), Malaccamax (maximum size for Malacca Strait draft), Capesize (too large for both Panama and Suez, must round the Cape). These size boundaries directly drive alliance slot allocation, port berth investment, and feeder network design \u2014 Panamax vessels now find their niche on secondary trades and regional services that don't justify Neo-Panamax economics."
+        "correct": 1,
+        "why": "GA contributions are apportioned to the sound arrived values of cargo, ship, and freight at destination \u2014 not declared insurance values, weight, or freight paid.",
+        "deepDive": "General Average is one of the oldest principles in maritime law, traceable to the Rhodian Law of the sea (~800 BC). Under the York-Antwerp Rules (last revised 2016), if a ship's master voluntarily sacrifices part of the cargo or incurs extraordinary expenditure to save the voyage \u2014 jettisoning containers overboard in a storm, emergency tug hire \u2014 all parties (ship, cargo, freight) share the loss proportionally to their 'sound arrived value' at the port of destination. This means cargo owners whose goods arrived undamaged must still contribute financially. A GA adjuster (typically a Lloyd's average adjuster) calculates each party's share. Shippers with ICC-A cargo insurance can claim their GA contribution from their insurer \u2014 uninsured shippers pay out of pocket. Common misconception: GA contribution is based on sound market value at destination, not on the declared insurance value."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "port_ops",
-        "stem": "In container terminal benchmarking, 'demurrage' is a charge incurred when a charterer keeps a vessel beyond the agreed laytime. Who pays whom, and what triggers it?",
+        "subtopic": "compliance",
+        "stem": "The US Uyghur Forced Labor Prevention Act (UFLPA) creates which legal presumption for goods linked to Xinjiang?",
         "options": [
-          "The charterer pays the shipowner for vessel time used beyond the agreed laytime in the charterparty",
-          "The terminal operator pays the shipping line for crane delays causing excess berth time",
-          "The consignee pays the port authority for containers left past the free storage period",
-          "The port authority fines the vessel owner for exceeding the anchorage waiting limit"
+          "Goods are assumed compliant unless a third-party factory audit proves otherwise",
+          "Goods are rebuttably presumed to involve forced labor \u2014 the importer bears the burden of proof",
+          "Only goods produced by named entities on the UFLPA Entity List are subject to detention",
+          "CBP must obtain a federal court order before it can detain suspect shipments at the border"
         ],
-        "correct": 0,
-        "why": "Demurrage is a charterparty concept: the charterer pays the shipowner for every day (or part-day) the vessel is detained beyond laytime, compensating the owner for lost earning time.",
-        "deepDive": "Laytime is the agreed number of hours/days the charterer has for cargo operations (loading or discharging). Once laytime expires, demurrage runs \u2014 typically at a fixed daily rate stated in the charterparty. The reverse is despatch: if the charterer completes operations ahead of schedule, the shipowner pays despatch (usually half the demurrage rate). Demurrage disputes are one of the most litigated areas in maritime law, often hinging on whether laytime commenced correctly (NOR \u2014 Notice of Readiness), whether port congestion counts as 'time on demurrage,' and whether the charterer can claim exceptions. Note: the term 'demurrage' is sometimes loosely applied to container detention charges (shipper keeping a box too long), but technically these are distinct concepts."
+        "correct": 1,
+        "why": "UFLPA creates a rebuttable presumption: all Xinjiang-linked goods are presumed to involve forced labor; the importer must disprove this with clear and convincing evidence to secure entry.",
+        "deepDive": "The Uyghur Forced Labor Prevention Act (signed December 2021, effective June 2022) inverted the normal evidentiary burden in US customs law. Every good produced in whole or in part in the Xinjiang UYAR, or by any entity on the UFLPA Entity List, is presumed to have been made with forced labor \u2014 CBP will detain it unless the importer provides 'clear and convincing evidence' to the contrary. This is a high bar requiring full supply-chain traceability down to raw material inputs. The UFLPA Entity List names specific companies, but the rebuttable presumption extends beyond the list to all Xinjiang-origin goods. For logistics providers and shippers this makes two- and three-tier supply chain due diligence legally necessary, particularly for cotton, polysilicon, aluminium, tomatoes, and other Xinjiang-dominant commodities."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "liner_alliances",
-        "stem": "After the 2M Alliance between Maersk and MSC dissolved in early 2025, which new major cooperation structure did Maersk join, and how does MSC now operate?",
+        "subtopic": "industry_econ",
+        "stem": "The Baltic Dry Index (BDI) is a composite of time-charter rate assessments for which four vessel classes?",
         "options": [
-          "Maersk joined THE Alliance with Hapag-Lloyd; MSC partnered with CMA CGM in a new East-West JV",
-          "Maersk and CMA CGM merged their liner operations; MSC joined Ocean Alliance with Evergreen",
-          "All major alliances dissolved; the industry moved to bilateral slot-charter agreements only",
-          "Maersk formed the Gemini Cooperation with Hapag-Lloyd; MSC operates fully independently as the world's largest carrier"
+          "Capesize, Panamax, Supramax/Handymax, and Handysize bulk carriers",
+          "VLCC, Suezmax, Aframax, and MR product tankers",
+          "Neo-Panamax, Post-Panamax, Panamax, and Feeder container ships",
+          "Capesize, Suezmax, Panamax, and LR2 combination carriers"
         ],
-        "correct": 3,
-        "why": "Gemini Cooperation (Maersk + Hapag-Lloyd) launched in February 2025 as 2M dissolved; MSC \u2014 the world's largest carrier by capacity \u2014 chose to go it alone.",
-        "deepDive": "The 2M Alliance between Maersk and MSC ended after a decade, fundamentally reshaping liner alliance architecture. Maersk partnered with Hapag-Lloyd in the Gemini Cooperation, emphasising schedule reliability over pure scale. MSC, having surpassed Maersk as the world's largest carrier around 2022, calculated it had sufficient scale to operate independently \u2014 its huge fleet allows it to maintain frequency across all major trades without alliance partners. THE Alliance evolved into the Premier Alliance (ONE, Yang Ming, HMM). Ocean Alliance (CMA CGM, COSCO, Evergreen, OOCL) continued. This realignment matters for shippers: alliance membership determines which ships serve which ports, what blank sailings look like, and how slot-purchase agreements are negotiated."
+        "correct": 0,
+        "why": "The BDI covers four dry bulk classes \u2014 Capesize (~40% weight), Panamax (~30%), Supramax/Handymax (~15%), Handysize (~15%) \u2014 not tankers or container vessels.",
+        "deepDive": "The Baltic Exchange, based in London since 1744, publishes the BDI daily as a weighted composite of four dry bulk time-charter rate assessments. Rough weighting: Capesize (65,000\u2013400,000 DWT, iron ore and coal) at ~40%; Panamax (60,000\u201385,000 DWT, grain/coal/fertiliser) at ~30%; Supramax/Handymax (~50,000 DWT) at ~15%; Handysize (~28,000\u201340,000 DWT) at ~15%. Because dry bulk carries raw materials rather than finished goods, the BDI is widely cited as a leading indicator of global industrial activity \u2014 but it is extremely volatile, driven as much by fleet availability and port congestion as by actual cargo demand. The BDI hit an all-time high of 11,793 in May 2008 and crashed below 700 by December the same year \u2014 a 94% collapse in seven months \u2014 illustrating how supply-side factors can overwhelm demand signals."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "Thomas Hobbes's 'Leviathan' (1651) justified absolute sovereignty on the basis of which core claim about the state of nature?",
+        "subtopic": "geography",
+        "stem": "The Wakhan Corridor is a narrow strip of Afghan territory deliberately designed in 1895 as a buffer zone between which two powers?",
         "options": [
-          "Humans are naturally cooperative; governments exist to channel that cooperation productively",
-          "The state of nature is a war of all against all \u2014 rational individuals surrender rights to a sovereign in exchange for security",
-          "Sovereignty is divinely ordained; the monarch's authority is unchallengeable because it flows from God",
-          "Legitimate government requires ongoing popular consent that citizens may revoke at will"
+          "Russian Empire and Qing Dynasty",
+          "British India and Russian Empire",
+          "Ottoman Empire and Russian Empire",
+          "British India and Qing Dynasty"
         ],
         "correct": 1,
-        "why": "Hobbes argued that without a sovereign, life is 'solitary, poor, nasty, brutish, and short' \u2014 the rational response is an irrevocable social contract surrendering freedoms to a powerful central authority.",
-        "deepDive": "Leviathan is the foundational text of modern political theory. Hobbes, writing amid the English Civil War, used rational-choice logic centuries before game theory: in the state of nature, every person is an equal threat to every other, making preemptive aggression rational. The solution is a 'social contract' \u2014 not a literal agreement, but a rational delegation of power to a sovereign (monarch or assembly) with enough coercive force to enforce peace. Crucially, Hobbes's contract is irrevocable: you cannot withdraw consent when the sovereign acts inconveniently, because that would return you to the war of all against all. His framework underpins arguments for strong centralised states and is the theoretical ancestor of state-sovereignty doctrine in international relations."
+        "why": "The Wakhan Corridor was established by the Pamir Boundary Commission to prevent the British Indian and Russian Empires from sharing a direct common border \u2014 a key move in the Great Game.",
+        "deepDive": "The Wakhan Corridor is a 300km eastward finger of Afghan territory, roughly 15\u201365km wide, stretching between Tajikistan to the north and Pakistan (with a sliver touching China) to the south. It was defined by the 1895 Anglo-Russian Pamir Boundary Commission as the final Great Game settlement: Britain demanded a buffer so Russian expansion through Central Asia could not directly border British India. The corridor is home to Wakhi and Kyrgyz nomads and has been one of the world's most isolated inhabited regions for centuries. Today it is legally Afghan territory, though Taliban authority barely reaches it. Its eastern tip borders China's Xinjiang at the Wakhjir Pass, making it strategically sensitive in modern counterterrorism, BRI infrastructure discussions, and great-power rivalry positioning \u2014 three separate strategic logics converging on a nearly uninhabited mountain strip."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The 'impossible trinity' (Mundell-Fleming trilemma) states that a country cannot simultaneously maintain which three policy objectives?",
+        "subtopic": "history",
+        "stem": "Hitler's Anschluss of 1938 violated which specific article of the 1919 Treaty of Versailles that had explicitly prohibited a German-Austrian union?",
         "options": [
-          "Full employment, price stability, and a balanced current account",
-          "Free capital movement, a fixed exchange rate, and an independent monetary policy",
-          "Free trade, progressive taxation, and a balanced fiscal budget",
-          "Low sovereign debt, high GDP growth, and controlled consumer price inflation"
+          "Article 80",
+          "Article 231 \u2014 the 'War Guilt' clause",
+          "Article 48 \u2014 Presidential emergency powers",
+          "Article 10 of the League of Nations Covenant"
         ],
-        "correct": 1,
-        "why": "The trilemma: open capital account + fixed exchange rate forces the domestic interest rate to track the anchor currency's rate, eliminating independent monetary policy.",
-        "deepDive": "Robert Mundell and Marcus Fleming formalised this constraint in the 1960s. The logic: if capital moves freely across borders (leg 1) and you peg your exchange rate (leg 2), speculators will arbitrage any interest rate differential until your rate matches the anchor country's rate \u2014 you have surrendered monetary independence (leg 3). Real-world examples abound: Hong Kong maintains a USD peg + free capital (no independent rates); China maintains independence + de facto managed rate (limited capital mobility); the Eurozone has free capital + a shared currency (no national monetary policy). Bangladesh historically managed a managed float with partial capital controls, preserving some monetary space. The trilemma is why central banks in open economies with pegs have so little room to cut rates in a downturn."
+        "correct": 0,
+        "why": "Article 80 required Germany to respect Austrian independence as 'inalienable' without unanimous League of Nations Council consent \u2014 the specific Versailles provision Hitler violated in March 1938.",
+        "deepDive": "Article 80 of the Treaty of Versailles (1919) expressly forbade the political or economic union of Germany and Austria without unanimous consent of the League of Nations Council. The victorious powers feared that defeat had paradoxically set the stage for a stronger German state: stripping territory elsewhere while allowing a merge with German-speaking Austria. The Weimar Republic had openly desired Anschluss but was blocked. Hitler achieved it on 12\u201313 March 1938 when German troops marched into Austria, which was proclaimed part of the Reich in a rigged plebiscite showing 99.7% approval. The League of Nations \u2014 the US had never joined, and by 1938 the body was hollow \u2014 could not respond. Austria's absorption gave Hitler Viennese industry, gold reserves, and the strategic southern flank for the subsequent seizure of Czechoslovakia. Anschluss is a textbook case of revisionist power testing institutional red lines before breaking them."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "Cricket's Duckworth-Lewis-Stern (DLS) method adjusts run targets in rain-interrupted matches. What is the core 'resource' the formula models?",
+        "subtopic": "life_science",
+        "stem": "When both glucose AND lactose are present in E. coli's environment, transcription from the lac operon is best described as:",
         "options": [
-          "The number of wickets lost by the batting side at the moment of interruption",
-          "The run rate differential between the two teams at the point of interruption",
-          "A combined resource percentage derived from both overs remaining AND wickets in hand",
-          "The total balls remaining multiplied by the current partnership's run rate"
+          "Fully activated \u2014 allolactose removes the repressor and opens transcription",
+          "Moderately activated \u2014 CAP partially compensates for the presence of glucose",
+          "Largely repressed \u2014 high glucose suppresses cAMP, preventing CAP activation despite repressor removal",
+          "Completely silent \u2014 both the repressor and a separate anti-CAP factor block all transcription"
         ],
         "correct": 2,
-        "why": "DLS treats batting resources as a two-dimensional function of overs remaining and wickets in hand; a team's revised target scales to match equal percentage resources.",
-        "deepDive": "Frank Duckworth and Tony Lewis developed the method in the 1990s after the infamous 1992 World Cup semi-final where South Africa famously needed 21 runs from 1 ball under the then-prevailing rain rule. The insight is that a batting team has two resources: time (overs) and wickets. Losing 5 overs when 9 wickets are in hand is very different from losing 5 overs when 1 wicket is in hand. DLS publishes resource percentage tables mapping every combination of overs remaining and wickets lost. When play is interrupted, both teams' available resources are calculated and the target adjusted proportionally. Steven Stern updated the method (now 'DLS') using modern data; it remains contentious among fans but is mathematically sound and is the ICC's official method for all rain-affected limited-overs matches."
+        "why": "High glucose keeps cAMP low via adenylate cyclase inhibition; without high cAMP, CAP cannot bind and activate the operon \u2014 the bacterium ignores lactose while glucose is available.",
+        "deepDive": "The lac operon (Jacob and Monod, Nobel Prize 1965) uses two regulatory switches. Switch one is a repressor encoded by lacI: it blocks transcription unless allolactose \u2014 a lactose metabolite \u2014 binds and inactivates it. Switch two is catabolite activator protein (CAP): it only activates the operon when cAMP is high, and cAMP only rises when glucose is scarce. Glucose metabolism activates the PTS (phosphotransferase) system, which inhibits adenylate cyclase and keeps cAMP depressed. So even if lactose inactivates the repressor (clearing switch one), the operon runs at very low levels without CAP (switch two remains off). E. coli only fully manufactures lac enzymes when both conditions are met \u2014 glucose absent AND lactose present. This two-condition AND gate is elegant biological economics. The most common misconception: students learn only the repressor-based regulation and miss the CAP catabolite repression layer entirely."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "The 'Streisand Effect' describes the paradox where an attempt to suppress or remove information results in what outcome?",
+        "subtopic": "mathematics",
+        "stem": "G\u00f6del's First Incompleteness Theorem (1931) states that any consistent formal system capable of expressing basic arithmetic must contain statements that are:",
         "options": [
-          "The suppressed information spreads far more widely than it would have without the suppression attempt",
-          "A legal precedent is established that permanently protects the right to publish the suppressed material",
-          "The suppressing party is required to pay statutory damages to the original publisher",
-          "Algorithmic platforms automatically amplify any content that has been flagged for removal"
+          "False but provable within that system",
+          "True but unprovable within that system",
+          "Provable within the system yet inconsistent with classical logic",
+          "Decidable only by importing stronger axioms from an external system"
         ],
-        "correct": 0,
-        "why": "Named after Barbra Streisand's 2003 lawsuit to remove an aerial photo of her Malibu home \u2014 the suit drew 420,000 viewers to the photo within weeks; before the suit, it had been downloaded six times.",
-        "deepDive": "In 2003, photographer Kenneth Adelman photographed the California coastline for an erosion study; one image included Streisand's Malibu estate. Her $50M lawsuit to have the photo removed backfired spectacularly: media coverage caused the photo to be downloaded by hundreds of thousands within weeks. Internet activist Mike Masnick coined the term 'Streisand Effect' in 2005. The phenomenon has since been documented across corporate takedown attempts, government censorship orders, and privacy injunctions \u2014 each time, the legal or institutional effort to suppress information acts as a signal amplifier, drawing far more attention than the original content would have received. In the social media era, the effect is supercharged: a removal attempt trends within hours."
+        "correct": 1,
+        "why": "G\u00f6del proved any consistent and sufficiently powerful formal system is necessarily incomplete: there exist true statements that cannot be proven within that system.",
+        "deepDive": "G\u00f6del's 1931 paper shattered Hilbert's programme \u2014 the hope that all of mathematics could be axiomatised completely and consistently. The proof uses arithmetisation: G\u00f6del assigned a unique number (G\u00f6del number) to every symbol, formula, and proof, allowing mathematical statements to encode self-reference. The G\u00f6del sentence G encodes 'This statement is not provable within this system.' If G were provable, the system would be inconsistent (having proved a falsehood). If G is unprovable and true \u2014 as it is \u2014 the system is incomplete. The companion Second Incompleteness Theorem shows no consistent system can prove its own consistency. These results are frequently misused to argue 'there are things AI can never know' \u2014 but their precise scope is narrower: they constrain formal axiomatic systems specifically, not informal mathematical reasoning or all forms of computation."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "Noam Chomsky's 'Universal Grammar' hypothesis makes which central claim about human language acquisition?",
+        "subtopic": "literature",
+        "stem": "The massacre near the end of Garc\u00eda M\u00e1rquez's 'One Hundred Years of Solitude' was directly inspired by which real Colombian historical event?",
         "options": [
-          "Children acquire language entirely through behavioral reinforcement and imitation of adult speech patterns",
-          "The specific language a child learns fundamentally determines the concepts they are capable of thinking",
-          "Humans are born with an innate language faculty containing structural rules common to all human languages",
-          "There are approximately 6,500 structurally distinct human languages with no shared underlying features"
+          "The assassination of Jorge Eli\u00e9cer Gait\u00e1n in Bogot\u00e1 (1948)",
+          "The United Fruit Company massacre of striking banana workers in Ci\u00e9naga (1928)",
+          "The Thousand Days War between Liberals and Conservatives (1899-1902)",
+          "La Violencia civil conflict of the 1950s"
         ],
-        "correct": 2,
-        "why": "Chomsky argued the speed and universality of language acquisition \u2014 despite 'impoverished stimulus' \u2014 implies children are born pre-wired with an innate grammar device, not blank slates.",
-        "deepDive": "Chomsky's Universal Grammar (UG) theory, developed from the 1950s onward, was a direct challenge to behaviorist accounts of language learning (especially B.F. Skinner's stimulus-response model). The 'poverty of the stimulus' argument: children acquire complex grammatical rules far faster than input alone can explain, and they make rule-governed errors ('I goed' instead of 'I went') that their environment never modeled \u2014 suggesting an internal grammatical system. UG proposes that all human languages share deep structural principles (such as hierarchical phrase structure), and babies are born ready to latch onto the specific parameters of their native language. While Chomsky's specific formalisms remain debated, the core insight \u2014 that language is partly biological, not purely cultural \u2014 has profoundly influenced linguistics, cognitive science, and AI language modelling."
+        "correct": 1,
+        "why": "The 'banana company massacre' directly mirrors the 1928 Ci\u00e9naga massacre, when Colombian army troops fired on United Fruit Company workers \u2014 an event Garc\u00eda M\u00e1rquez's own father witnessed.",
+        "deepDive": "The 1928 Ci\u00e9naga massacre (Masacre de las Bananeras) occurred when Colombian army soldiers opened fire on striking United Fruit Company workers in Ci\u00e9naga, Magdalena. Official records acknowledged a handful of deaths; congressional testimony by Jorge Eli\u00e9cer Gait\u00e1n suggested thousands. Garc\u00eda M\u00e1rquez, whose father was present, inflated the fictional count to 3,000 as deliberate political hyperbole \u2014 and to capture how state violence and corporate power collaborate to erase collective trauma from official history. The UFC had built a parallel empire on Colombia's banana coast: its own hospitals, commissary stores, and private rail lines \u2014 the literal origin of the phrase 'banana republic.' 'One Hundred Years of Solitude,' published 1967, launched Magical Realism into global literary consciousness and earned Garc\u00eda M\u00e1rquez the 1982 Nobel Prize in Literature."
       }
     ]
   }
