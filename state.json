@@ -1,6 +1,6 @@
 {
   "streak": 6,
-  "last_session_date": "2026-06-24",
+  "last_session_date": "2026-06-25",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -451,7 +451,17 @@
     "Abstract Expressionism’s ‘action painting’ technique, most associated with Jackson Pollock, is most precisely characterised as:",
     "Olivier Messiaen’s compositional language drew systematically on two specific non-Western sources that were unusual even among 20th-century composers. Which combination is correct?",
     "Classical Shi’a theology held that political authority was suspended until the Hidden Imam’s return. Ayatollah Khomeini’s doctrine of Wilayat al-Faqih (Guardianship of the Jurist) represented a rupture from this tradition because:",
-    "Michael Schumacher won five consecutive Formula 1 World Championships from 2000 to 2004 with Ferrari. Who subsequently tied his record of seven career championships, and in what year did they clinch the record-equalling title?"
+    "Michael Schumacher won five consecutive Formula 1 World Championships from 2000 to 2004 with Ferrari. Who subsequently tied his record of seven career championships, and in what year did they clinch the record-equalling title?",
+    "Under CIF (Cost, Insurance and Freight), at which point does the seller's risk obligation transfer to the buyer?",
+    "A Straight Bill of Lading differs from an Order (Negotiable) Bill of Lading primarily because it is:",
+    "The Bunker Adjustment Factor (BAF) in ocean freight is a variable surcharge designed to compensate carriers for:",
+    "A shipment measures 200cm × 150cm × 100cm and actually weighs 200 kg. Using IATA's standard 1:6,000 cm³/kg volumetric divisor, what is the chargeable weight?",
+    "Rules of Origin under most Free Trade Agreements require 'substantial transformation.' Which statement correctly describes how this is typically determined?",
+    "Which 1999 film introduced 'bullet time' photography — freezing action while the camera appears to orbit the scene — to mainstream cinema?",
+    "The Impossible Trinity (Mundell-Fleming Trilemma) states a country cannot simultaneously maintain which three policies?",
+    "Linguist Charles Ferguson's concept of 'diglossia' (1959) describes a speech community using a High and Low language variety. Which pair is the canonical founding example?",
+    "Max Weber identified three 'ideal types' of legitimate political authority in Economy and Society (1922). Which set is correct?",
+    "Gabriel García Márquez's technique of presenting magical events as unremarkable facts within an otherwise realistic setting defines which literary mode?"
   ],
   "learn_history": [
     {
@@ -683,12 +693,17 @@
       "date": "2026-06-24",
       "topic": "The Mekong River Basin: China's Upstream Dams and Southeast Asia's Water Geopolitics",
       "bucket": "geography"
+    },
+    {
+      "date": "2026-06-25",
+      "topic": "The Dutch Disease: When a Commodity Boom Hollows Out Your Industry",
+      "bucket": "economics"
     }
   ],
   "curriculum_progress": {
     "incoterms": {
-      "count": 11,
-      "last_seen": "2026-06-21",
+      "count": 12,
+      "last_seen": "2026-06-25",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -699,8 +714,8 @@
       "rolling_score": []
     },
     "bill_of_lading": {
-      "count": 11,
-      "last_seen": "2026-06-21",
+      "count": 12,
+      "last_seen": "2026-06-25",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -723,8 +738,8 @@
       "rolling_score": []
     },
     "pricing": {
-      "count": 11,
-      "last_seen": "2026-06-21",
+      "count": 12,
+      "last_seen": "2026-06-25",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -735,8 +750,8 @@
       "rolling_score": []
     },
     "air_freight": {
-      "count": 11,
-      "last_seen": "2026-06-21",
+      "count": 12,
+      "last_seen": "2026-06-25",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -753,8 +768,8 @@
       "rolling_score": []
     },
     "ftas": {
-      "count": 11,
-      "last_seen": "2026-06-21",
+      "count": 12,
+      "last_seen": "2026-06-25",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -839,8 +854,8 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 15,
-      "last_seen": "2026-06-23",
+      "count": 16,
+      "last_seen": "2026-06-25",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -863,20 +878,20 @@
       "rolling_score": []
     },
     "political_theory": {
-      "count": 15,
-      "last_seen": "2026-06-22",
+      "count": 16,
+      "last_seen": "2026-06-25",
       "difficulty": 3,
       "rolling_score": []
     },
     "economics": {
-      "count": 15,
-      "last_seen": "2026-06-22",
+      "count": 16,
+      "last_seen": "2026-06-25",
       "difficulty": 3,
       "rolling_score": []
     },
     "linguistics": {
-      "count": 15,
-      "last_seen": "2026-06-22",
+      "count": 16,
+      "last_seen": "2026-06-25",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -887,167 +902,167 @@
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 15,
-      "last_seen": "2026-06-22",
+      "count": 16,
+      "last_seen": "2026-06-25",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-06-24",
+    "date": "2026-06-25",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "The passenger-to-freighter (P2F) conversion market adds cargo capacity without newbuild lead times. Which narrowbody aircraft platform dominates P2F conversions globally by number of STCs issued and aircraft converted?",
+        "subtopic": "incoterms",
+        "stem": "Under CIF (Cost, Insurance and Freight), at which point does the seller's risk obligation transfer to the buyer?",
         "options": [
-          "Boeing 737-800BCF — the most converted narrowbody platform, with STCs from multiple MRO providers",
-          "Airbus A321P2F — overtook the 737 in 2023 as operators preferred Airbus commonality",
-          "Boeing 757-200SF — chosen for its superior range-payload versus other narrowbodies",
-          "ATR 72-600F — preferred in Asia-Pacific and Africa for short-haul feeder operations"
+          "When goods are loaded aboard the vessel at the port of shipment",
+          "When the vessel arrives at the named destination port",
+          "When goods clear customs at the destination country",
+          "When the carrier issues the delivery order at the destination terminal"
         ],
         "correct": 0,
-        "why": "The 737-800BCF (Boeing Converted Freighter) leads P2F narrowbody conversions by STC count and aircraft numbers, driven by the 737-800's large installed base and deep MRO network.",
-        "deepDive": "Passenger-to-freighter conversions are cheaper and faster than newbuilds (18–24 months vs. 4–6 years) and efficient for retiring passenger aircraft into cargo service. The Boeing 737-800 dominates narrowbody P2F because it was the world’s best-selling single-aisle for two decades: a massive installed base means abundant feedstock aircraft. Multiple MRO providers — AerCap, HAECO, IAI Bedek, ST Engineering — hold STCs for the 737-800BCF variant, creating a competitive conversion market that drove down costs. The A321P2F (EFW/ST Engineering) is a strong and growing competitor — the A321’s larger volume and range appeal for e-commerce integrators — but had not overtaken the 737 in total conversion numbers as of early 2026. Widebody conversions (777F, A330F, 767F) serve different markets; among narrowbodies, 737-800 is the clear leader."
+        "why": "CIF transfers risk at origin when goods cross the ship's rail — the seller pays freight and insurance forward but bears no risk after loading.",
+        "deepDive": "CIF creates a deliberate anomaly: the seller contracts and pays for freight and marine insurance to the destination, yet risk transfers at origin when goods are loaded. If cargo is lost mid-voyage, the buyer bears the loss and must claim against insurance the seller arranged. This is why many buyers prefer CIP (Carriage and Insurance Paid To), which mandates Clause A all-risk cover, versus CIF's minimum Clause C named-perils only. Exporters favour CIF because the higher invoice value (freight included) is useful under Letters of Credit. The safest buyer position when control matters: negotiate FOB and arrange your own freight and insurance from origin port."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "In air cargo terminal operations, ‘import dwell time’ measures which specific interval — and why is minimising it the primary KPI carriers use to compete for belly-hold shipper loyalty?",
+        "subtopic": "bill_of_lading",
+        "stem": "A Straight Bill of Lading differs from an Order (Negotiable) Bill of Lading primarily because it is:",
         "options": [
-          "Aircraft touchdown to cargo available-for-pickup at the terminal — shorter dwell directly reduces shipper inventory-in-transit cost",
-          "Cargo departure from origin airport to arrival at destination terminal — measures total air transit time",
-          "Time from cargo booking to aircraft loading — measures ground-handling efficiency pre-departure",
-          "Airport gate-in to gate-out of the aircraft — measures aircraft turnaround, not cargo release speed"
+          "Non-negotiable and consigned directly to a named party only",
+          "Negotiable and transferable to third parties by endorsement",
+          "Issued exclusively for full-container-load containerised cargo",
+          "Required for all Letter of Credit documentary collections"
         ],
         "correct": 0,
-        "why": "Import dwell time measures wheels-down to cargo available-for-collection; minimising it reduces shipper inventory-in-transit cost and is the primary service differentiator for cargo carriers competing at major hubs.",
-        "deepDive": "Import dwell time in air cargo spans unloading, ULD breakdown, X-ray screening, customs documentary review, and transfer to the collection point. World-class terminals achieve 2–4 hours; congested hubs can exceed 24 hours. For time-sensitive cargo — pharmaceuticals, perishables, fashion fast cycle — every hour of dwell translates directly into inventory cost or spoilage risk. Airlines compete on dwell time because it is one of the few service attributes quantifiable in dollars per shipment. Emirates SkyCargo, Cathay Cargo, and Korean Air Cargo have invested in e-AWB adoption, automated ULD handling, and pre-clearance programmes to compress import dwell — and this is precisely the metric commercial teams use in shipper RFQ presentations. CASS settlement and airline cargo revenue management are separate but related topics in this ecosystem."
+        "why": "A Straight BL names a specific consignee and cannot be transferred — non-negotiable. Order BLs are documents of title transferable by endorsement.",
+        "deepDive": "The distinction is fundamental in trade finance. An Order BL (made out 'to order of shipper' or 'to order of bank') is a negotiable document of title — whoever holds the original can claim cargo, making it the bank's security under an LC. A Straight BL simply instructs the carrier to deliver to the named consignee, like a parcel label. Banks issuing LCs almost always require full sets of negotiable Order BLs (typically 3 originals): one surrendered to the carrier at destination, others held by the bank until payment. Losing all originals of an Order BL is serious — cargo cannot be released without a costly Letter of Indemnity. Sea waybills are non-negotiable by design and increasingly preferred between trusted trading partners where no title transfer is needed."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "Kuehne + Nagel’s 2021 acquisition of Apex Logistics International for approximately $1.5 billion primarily filled which specific capability gap?",
+        "subtopic": "pricing",
+        "stem": "The Bunker Adjustment Factor (BAF) in ocean freight is a variable surcharge designed to compensate carriers for:",
         "options": [
-          "Air freight volume in Asia-Pacific, particularly China-origin lanes where Apex was the leading NVOCC consolidator",
-          "Customs brokerage capacity in the US, where K+N had sub-scale licence coverage versus DSV and DHL",
-          "Ocean freight FCL volume on Transpacific eastbound lanes, where Apex held deep carrier contracts",
-          "Last-mile delivery in Southeast Asian markets, where Apex operated a regional parcel network"
+          "Currency exchange fluctuations on specific trade lanes",
+          "Fuel cost volatility between rate-filing date and shipment execution",
+          "Port congestion surcharges at major transshipment hubs",
+          "Slow-steaming carbon compliance costs on regulated routes"
         ],
-        "correct": 0,
-        "why": "Apex Logistics was one of the largest independent air freight forwarders in Asia-Pacific with dominant China-origin volume; the acquisition transformed K+N from a secondary air freight player into a top-three global air forwarder.",
-        "deepDive": "Kuehne + Nagel was already the world’s largest ocean freight forwarder by volume when it acquired Apex Logistics International in 2021 for ~$1.5B. Apex was primarily an air freight specialist — one of the largest independent air forwarders in Asia, with concentrated strength on China-origin lanes to the US and Europe. The acquisition transformed K+N into a top-three global air forwarder by volume virtually overnight. This followed the COVID pandemic’s air freight surge and the structural shift of high-value goods toward air. The deal set the template for subsequent consolidation: DSV-Schenker (2024-25), K+N’s own bolt-ons, and Flexport’s capital raises all followed the same logic — scale in both ocean and air is the price of playing at the top tier of global forwarding."
+        "correct": 1,
+        "why": "BAF is indexed to bunker price movements and applied on top of base ocean freight to cover fuel swings carriers cannot absorb in fixed contract rates.",
+        "deepDive": "Bunker fuel represents 40–60% of a containership's operating costs, so carriers cannot absorb price volatility within fixed rates. BAF (also called BAS or Bunker Surcharge) is recalculated quarterly or monthly against a reference index — typically Singapore 380cSt HFO or VLSFO post-IMO 2020. Post-Iran conflict in 2026, BAF on Asia-Europe routes surged dramatically. Long-haul routes like transpacific and Asia-Europe carry higher BAFs than short-sea routes. IMO 2020's 0.5% sulphur cap added a Low Sulphur Surcharge layer on top. Shippers negotiating annual service contracts should cap BAF escalation clauses or index them to a specific transparent benchmark — open-ended BAF exposure is the largest hidden cost in multiannual freight contracts when energy prices spike."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "In freight forwarding, the buy-rate vs sell-rate spread drives gross profit. Which scenario most accurately describes the operational risk when a forwarder’s sell-rate is locked but the buy-rate floats?",
+        "subtopic": "air_freight",
+        "stem": "A shipment measures 200cm × 150cm × 100cm and actually weighs 200 kg. Using IATA's standard 1:6,000 cm³/kg volumetric divisor, what is the chargeable weight?",
         "options": [
-          "If carrier spot rates rise above the forwarder’s committed sell-rate, the forwarder absorbs the entire margin squeeze — and can go negative on individual shipments",
-          "The forwarder can trigger a force majeure clause in the service contract, passing the cost to the shipper",
-          "The forwarder’s NAC with the carrier automatically caps the buy-rate at the original sell-rate level",
-          "The forwarder can source from alternative carriers at original rates because spot pricing is set by IATA tariff filings"
+          "200 kg — actual weight, as it equals the volumetric calculation",
+          "500 kg — volumetric weight exceeds actual weight and is therefore charged",
+          "350 kg — the midpoint average of actual and volumetric is standard",
+          "300 kg — IATA minimum chargeable weight for this shipment class"
         ],
-        "correct": 0,
-        "why": "A forwarder who has committed a sell-rate but holds no matching carrier contract is fully exposed when spot rates spike — each shipment can become a loss-maker, which is the classic squeeze that destroyed margins in 2021-22.",
-        "deepDive": "Freight forwarder model: buy capacity from carriers (buy-rate), sell to shippers (sell-rate); the spread is gross profit. The risk lives in duration mismatch — shippers want rate certainty (3–6 month NACs); carriers offer spot or short-term. When spot rates spike (as in 2020-22 during COVID congestion, and again in 2024-26 during the Red Sea/Hormuz crises), forwarders holding shipper commitments at lower sell-rates but without carrier contracts get squeezed. The 2021 spike destroyed margins for forwarders who had locked sell-rates without matching buy-rate cover — some went negative on entire trade lanes. The commercial skill is ‘back-to-back’ coverage: matching sell-rate validity with carrier commitments of equivalent duration. MQC (Minimum Quantity Commitments) to carriers are the tool that enables this: the carrier provides a contracted buy-rate in exchange for volume commitment, giving the forwarder the hedge needed to quote confidently."
+        "correct": 1,
+        "why": "Volume = 3,000,000 cm³ ÷ 6,000 = 500 kg volumetric. Since 500 kg exceeds actual 200 kg, the volumetric weight is charged.",
+        "deepDive": "Air freight charges the greater of actual weight vs volumetric (dimensional) weight. IATA's divisor is 6,000 cm³ per kilogram (or 366 in³/kg). Lightweight bulky cargo — foam packaging, assembled furniture, inflatable goods — almost always triggers volumetric charging. Dense cargo like metals and machinery charges on actual weight. This creates packaging incentives: shippers sometimes compress or nest goods to bring volumetric weight below actual, saving significantly at $5–8/kg spot rates. Some express airlines use a 5,000 divisor, making bulky goods even pricier. Always calculate both before booking — a shipment weighing 200 kg at the warehouse can arrive at the airline counter as a 500 kg invoice. The same volumetric logic applies in road freight with its own density standards."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "A ‘control tower’ in supply chain management refers to which operational capability — and why have global logistics companies invested heavily in building them post-COVID?",
+        "subtopic": "ftas",
+        "stem": "Rules of Origin under most Free Trade Agreements require 'substantial transformation.' Which statement correctly describes how this is typically determined?",
         "options": [
-          "A centralised visibility and decision-support platform aggregating real-time data across the supply chain — enabling proactive intervention before disruptions cascade",
-          "A physical warehouse facility designed for cross-docking at the centre of a regional logistics network",
-          "A regulatory compliance function that centrally manages customs filings across multiple jurisdictions",
-          "A carrier contract management system that automates rate-shopping across ocean, air, and land modes"
+          "Goods must be entirely produced in the FTA country with zero imported inputs",
+          "Manufacturing must change the HS tariff classification at the two-digit chapter level only",
+          "Processing must add commercial value as certified by a recognised chamber of commerce",
+          "Goods meet a change in tariff classification, regional value content threshold, or a specific process test as defined by the agreement"
         ],
-        "correct": 0,
-        "why": "A supply chain control tower is a visibility and decision-support hub ingesting data from multiple tiers and modes, enabling early detection of disruptions before they cascade — COVID proved its commercial value decisively.",
-        "deepDive": "A supply chain control tower aggregates data from suppliers, carriers, ports, customs, and warehouses into a single real-time view, then applies rules-based or AI-driven logic to flag anomalies and recommend responses. The analogy is air traffic control: you see the conflict forming and redirect before collision. COVID made the business case undeniable — companies with control towers identified port congestion, component shortages, and carrier capacity failures days before they hit their supply chains, while blind companies scrambled reactively. For a logistics conglomerate like MGH operating across 26 countries, a control tower replaces hundreds of local email threads with a single operational truth. Key capabilities: multimodal track-and-trace, exception management, predictive ETA, carrier performance scoring, inventory-in-transit visibility. The distinction from a 4PL: a 4PL manages outsourced supply chains as a service; a control tower is the technology platform powering that visibility, whether deployed by a 4PL, 3PL, or the shipper directly."
+        "correct": 3,
+        "why": "Substantial transformation is defined by each FTA using one or more tests: change in tariff classification (CTH), regional value content (RVC), or a specific manufacturing process requirement.",
+        "deepDive": "Rules of Origin are the gatekeepers of FTA preferential tariffs. Three main test types: (1) Change in Tariff Classification — goods shift HS heading or chapter through processing; (2) Regional Value Content — a minimum percentage (often 40–60%) of the good's value must originate in the FTA zone; (3) Specific Process Rule — a named manufacturing step must occur, e.g. weaving from yarn. Many FTAs combine tests by HS code. Bangladesh's garment exporters rely on the EU's GSP double-transformation rule: yarn must be knitted or woven AND cut-and-made in Bangladesh. Under RCEP, rules differ by HS code and country pair. Misclassifying origin exposes importers to retroactive duty recovery and significant penalties. Certificate of Origin is the documentary proof: Form D under ASEAN, EUR.1 under EU FTAs."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "The Pauli Exclusion Principle states no two identical fermions can share the same quantum state. Which macroscopic consequence most directly explains why solid matter does not collapse despite atoms being approximately 99.99% empty space?",
+        "subtopic": "pop_culture",
+        "stem": "Which 1999 film introduced 'bullet time' photography — freezing action while the camera appears to orbit the scene — to mainstream cinema?",
         "options": [
-          "Electron degeneracy pressure — the quantum mechanical resistance of electrons to being compressed into identical states",
-          "Electrostatic repulsion between electron clouds — adjacent atoms’ negatively charged shells repel each other",
-          "The strong nuclear force — which acts at short range to prevent atomic nuclei from merging",
-          "Thermal kinetic energy — atoms vibrate at room temperature, preventing static compression"
+          "Fight Club",
+          "The Matrix",
+          "Dark City",
+          "eXistenZ"
         ],
-        "correct": 0,
-        "why": "Electron degeneracy pressure — arising directly from the Pauli Exclusion Principle — is the quantum mechanical force that prevents electrons from being forced into the same state, producing the effective ‘hardness’ of matter.",
-        "deepDive": "The Pauli Exclusion Principle (Wolfgang Pauli, 1925) states that no two identical fermions (half-integer spin particles: electrons, protons, neutrons) can occupy the same quantum state. When you try to compress matter, electrons would be forced into identical states — but they cannot be. This generates electron degeneracy pressure, a quantum mechanical outward force independent of temperature or charge. In white dwarf stars, it is the only force preventing gravitational collapse; when the star’s mass exceeds the Chandrasekhar limit (~1.4 solar masses), electron degeneracy pressure fails and the star collapses to a neutron star, where neutron degeneracy pressure takes over. Electrostatic repulsion between electron clouds plays a role in chemistry but is not the fundamental reason solid matter resists compression. For everyday solids, your hand does not pass through a table not merely because of electrical repulsion, but because of quantum statistics — a genuinely counterintuitive result of the quantum mechanical nature of matter."
+        "correct": 1,
+        "why": "The Wachowskis' The Matrix (1999) popularised bullet time using an arc of triggered still cameras, winning the Academy Award for visual effects.",
+        "deepDive": "Bullet time in The Matrix used dozens of still cameras arranged in a 360-degree arc, triggered in rapid sequence around the action, with CGI interpolating the gaps. Effects supervisor John Gaeta's team won the 1999 Academy Award for visual effects. The technique had antecedents — Eadweard Muybridge's 1870s multi-camera motion studies and limited versions in music videos by Michel Gondry — but The Matrix applied it at blockbuster scale. Neo dodging bullets in frozen orbit defined the late-1990s aesthetic and permanently altered how action cinema handles impossible camera angles. The phrase entered general usage as shorthand for hyper-slowed perspectival observation. The Matrix's deeper impact extended to philosophy (simulation theory, red pill/blue pill discourse) and visual design, spawning countless imitations."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Abstract Expressionism’s ‘action painting’ technique, most associated with Jackson Pollock, is most precisely characterised as:",
+        "subtopic": "economics",
+        "stem": "The Impossible Trinity (Mundell-Fleming Trilemma) states a country cannot simultaneously maintain which three policies?",
         "options": [
-          "Drip painting — applying paint by pouring and dripping onto canvas laid flat on the floor, with the artist’s body movement embedded in the work",
-          "Impasto painting — applying thick, gestural paint strokes with a palette knife directly onto an upright canvas",
-          "Automatic drawing — using unconscious, stream-of-consciousness mark-making derived from Surrealist psychic automatism",
-          "Tachisme — the European parallel movement using spontaneous paint application to create gestural colour fields"
+          "Low inflation, full employment, and a balanced trade account",
+          "A fixed exchange rate, free capital mobility, and an independent monetary policy",
+          "GDP growth, a fiscal surplus, and a current account balance",
+          "Central bank independence, price stability, and universal financial inclusion"
         ],
-        "correct": 0,
-        "why": "Pollock’s action painting specifically means drip painting on a horizontal canvas — the entire body becomes the instrument, and the physical act of painting is embedded in the artwork.",
-        "deepDive": "Jackson Pollock’s drip technique — developed from ~1947 — involved placing large, unprimed canvases on the floor of his studio and moving around and over them, dripping, pouring, and flinging paint from sticks, trowels, and hardened brushes. The horizontal canvas was a radical departure: painting was no longer an act of facing a vertical surface but of moving through a field. Critic Harold Rosenberg coined ‘action painting’ in 1952 to describe the wider Abstract Expressionist tendency to make the act of painting itself the subject. Automatic drawing (from Surrealism’s psychic automatism) influenced Pollock’s early work but his mature style differs — it is highly controlled within apparent chaos. Tachisme was the parallel French gestural movement (Fautrier, Wols, Mathieu); the American and European streams developed independently. Abstract Expressionism also included colour field painters like Mark Rothko and Barnett Newman who were not action painters at all."
+        "correct": 1,
+        "why": "The trilemma: any two of fixed exchange rate, open capital account, and independent monetary policy are achievable together — never all three simultaneously.",
+        "deepDive": "Developed by Robert Mundell and Marcus Fleming in the 1960s, the Impossible Trinity is the cornerstone of international monetary economics. The logic: fix your exchange rate AND allow free capital flows, and interest rates must mirror the anchor currency's rates — otherwise arbitrage flows overwhelm the peg and you lose monetary independence. China's solution: capital controls (fix rate + monetary autonomy, sacrifice open capital). The Eurozone: surrender monetary policy to the ECB (fixed rate + open capital, sacrifice national autonomy). The 1997 Asian financial crisis, Argentina's 2001 collapse, and Turkey's 2018 lira crash all involved countries discovering this constraint violently. Bangladesh's ongoing dilemma: managed float, gradual capital account opening, and desire to set domestic rates for growth — the trilemma resurfaces at every policy cycle."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "Olivier Messiaen’s compositional language drew systematically on two specific non-Western sources that were unusual even among 20th-century composers. Which combination is correct?",
+        "subtopic": "linguistics",
+        "stem": "Linguist Charles Ferguson's concept of 'diglossia' (1959) describes a speech community using a High and Low language variety. Which pair is the canonical founding example?",
         "options": [
-          "Indian rhythmic theories from the Saṃgītaratnākāra of Śārṅgadeva, combined with ornithological transcriptions of birdsong accumulated across five decades of fieldwork",
-          "Japanese gamelan tuning systems adapted for the ondes Martenot, combined with Tibetan Buddhist chant structures",
-          "Arab maqam modal theory, combined with Hindu ragas as filtered through Ravi Shankar’s collaborations with Western musicians",
-          "African polyrhythm frameworks studied under Simha Arom, combined with Korean court music (jeongganbo notation)"
+          "British and American English used interchangeably by a bilingual professional",
+          "Modern Standard Arabic (MSA) for formal contexts and regional dialects for daily speech",
+          "Hindi and Urdu as separate official languages of neighbouring nations",
+          "Sign language and spoken language used simultaneously in inclusive classrooms"
         ],
-        "correct": 0,
-        "why": "Messiaen explicitly drew on Śārṅgadeva’s 13th-century Sanskrit rhythmic treatise (the Saṃgītaratnākāra) and on lifelong ornithological birdsong transcription — both documented in his Traité de rythme, de couleur, et d’ornithologie.",
-        "deepDive": "Olivier Messiaen (1908–1992) studied Śārṅgadeva’s 13th-century Sanskrit treatise Saṃgītaratnākāra, which catalogued 120 Hindu rhythmic modes (deçî-tālas). Messiaen incorporated these as non-retrogradable rhythms into his harmonic language — most famously in Quatuor pour la fin du temps (1941). His ornithological work began in the 1950s: he transcribed birdsong from field recordings and direct observation across France and around the world, eventually documenting over 700 species. The collections Catalogue d’oiseaux (1956–58) and Oiseaux exotiques (1955–56) are composed almost entirely from transcribed birdsong. His seven-volume Traité de rythme, de couleur, et d’ornithologie documents both systems methodically. Messiaen also used modes of limited transposition (his own theory), synaesthetic colour-music associations, and Catholic theology as compositional principles — but the Indian rhythms and birdsong were the two most distinctive non-Western technical foundations."
+        "correct": 1,
+        "why": "Classical Arabic fusha (H-variety for religion, education, formal writing) vs. colloquial dialects (Egyptian, Levantine, etc.) is Ferguson's founding example.",
+        "deepDive": "Ferguson's 1959 paper defined diglossia as the stable coexistence of a High variety — used in religion, education, formal writing, government — and a Low variety used at home and in casual interaction. MSA (fusha) is nobody's first language yet the formal written and broadcast standard across 22 Arab countries, while each has its own spoken dialect. Other examples: Switzerland (Standard German H / Schweizerdeutsch L), Haiti (French H / Haitian Creole L). Joshua Fishman later extended it to bilingual diglossia where H and L are entirely separate languages. Neither variety is linguistically inferior — they serve complementary functions. The concept matters practically: NLP systems for Arabic must handle both registers for search and content moderation, and policy debates continue about which variety to teach in schools."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "Classical Shi’a theology held that political authority was suspended until the Hidden Imam’s return. Ayatollah Khomeini’s doctrine of Wilayat al-Faqih (Guardianship of the Jurist) represented a rupture from this tradition because:",
+        "subtopic": "political_theory",
+        "stem": "Max Weber identified three 'ideal types' of legitimate political authority in Economy and Society (1922). Which set is correct?",
         "options": [
-          "Khomeini argued a qualified jurist could exercise full political sovereignty in the Hidden Imam’s absence — directly overturning the classical quietist position that worldly governance was provisional and illegitimate",
-          "Khomeini accepted the quietist position but insisted jurists must engage in politics to prevent oppression, without claiming sovereign authority",
-          "Wilayat al-Faqih had been the majority position in Twelver Shi’a jurisprudence since the 16th century — Khomeini was restating the consensus, not innovating",
-          "Khomeini’s innovation was procedural: he argued for popular election of the jurist-ruler rather than scholarly selection"
+          "Charismatic, bureaucratic, and democratic authority",
+          "Traditional, charismatic, and legal-rational authority",
+          "Divine right, popular sovereignty, and technocratic authority",
+          "Hereditary, elected, and appointed authority"
         ],
-        "correct": 0,
-        "why": "Classical Twelver Shi’a theology treated all worldly governance as provisional pending the Mahdi’s return; Khomeini’s Wilayat al-Faqih claimed full sovereign authority for the jurist — a radical departure opposed by senior clerics including Grand Ayatollah Sistani.",
-        "deepDive": "The occultation of the Twelfth Imam (al-Mahdi) began in 874 CE. For over a millennium, mainstream Shi’a jurisprudence held that full political authority resided with the Hidden Imam alone — worldly governments were tolerated necessities, not divinely sanctioned. The quietist tradition (represented today by Grand Ayatollah Ali al-Sistani) holds that jurists should guide and advise but not rule. Khomeini’s Wilayat al-Faqih, developed in lectures delivered in Najaf in 1970, argued that in the Imam’s absence a qualified jurist possessed the same authority as the Prophet and the Imams — including sovereign political authority. This was not a restatement of tradition but a rupture with it. Senior Grand Ayatollahs — Khoei, Golpaygani, Shariatmadari — opposed the doctrine. It was institutionalised as the foundation of the Islamic Republic of Iran in the 1979 constitution, making the Supreme Leader the political embodiment of the faqih. The doctrine remains contested within Shi’a jurisprudence globally."
+        "correct": 1,
+        "why": "Weber's typology: traditional authority (custom/heredity), charismatic authority (personal magnetism), and legal-rational authority (impersonal rules/bureaucracy).",
+        "deepDive": "Weber's Herrschaft typology is foundational to comparative politics. Traditional authority rests on immemorial custom — kings, tribal elders, patriarchs. Charismatic authority flows from a leader's perceived extraordinary qualities; Weber's crucial insight was that it is inherently unstable and must be routinised into institutions to survive the founder's death. Legal-rational authority — the hallmark of modernity — legitimises power through impersonal rules and offices: citizens obey the law, not the person. Weber saw bureaucracy as legal-rationalism's purest expression — efficient and predictable but prone to the iron cage of depersonalised rule. Bangladesh's post-independence politics oscillates between charismatic legitimacy (Mujib, Zia ur-Rahman, now Tarique) and the aspiration toward legal-rational anchoring the state keeps struggling to consolidate."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "Michael Schumacher won five consecutive Formula 1 World Championships from 2000 to 2004 with Ferrari. Who subsequently tied his record of seven career championships, and in what year did they clinch the record-equalling title?",
+        "subtopic": "literature",
+        "stem": "Gabriel García Márquez's technique of presenting magical events as unremarkable facts within an otherwise realistic setting defines which literary mode?",
         "options": [
-          "Lewis Hamilton with Mercedes in 2020",
-          "Sebastian Vettel with Red Bull in 2013, then Hamilton in 2019",
-          "Lewis Hamilton with Mercedes in 2019",
-          "Max Verstappen with Red Bull in 2023, surpassing Hamilton’s six"
+          "Surrealism",
+          "Magical realism",
+          "Gothic fiction",
+          "Absurdist literature"
         ],
-        "correct": 0,
-        "why": "Lewis Hamilton clinched his seventh World Championship with Mercedes in 2020 (at the Turkish Grand Prix), equalling Schumacher’s all-time record. Verstappen has won four consecutive titles (2021–2024) but has not yet matched seven.",
-        "deepDive": "Michael Schumacher won his seventh and final World Championship in 2004 — his fifth consecutive with Ferrari alongside designer Ross Brawn and team principal Jean Todt. The record stood until Lewis Hamilton matched it in 2020, clinching at the Turkish Grand Prix in a season shortened to 17 races by COVID. Hamilton had won six championships (2008 with McLaren; 2014, 2015, 2017, 2018, 2019 with Mercedes) before the seventh. Schumacher’s first two titles came with Benetton (1994, 1995); his next five with Ferrari (2000–2004). Both drivers are regarded as the two greatest in the sport’s history. Max Verstappen won four consecutive championships (2021, 2022, 2023, 2024) with Red Bull — four titles, not seven. Hamilton remains the sole holder of the joint record with Schumacher."
+        "correct": 1,
+        "why": "Magical realism embeds the fantastical in ordinary social reality without narrative surprise — characters don't find the magic strange, distinguishing it from surrealism's dream logic.",
+        "deepDive": "Magical realism crystallised as a Latin American literary mode through García Márquez's One Hundred Years of Solitude (1967), Isabel Allende, and Jorge Amado. The defining feature: characters inhabit a world where magic is woven into ordinary social fabric — when Remedios the Beauty ascends to heaven while folding laundry in Macondo, nobody is alarmed. The term was coined by German art critic Franz Roh in 1925 for post-expressionist painting, later applied to literature by Venezuelan Arturo Uslar Pietri. Salman Rushdie's Midnight's Children and Günter Grass's The Tin Drum exported the mode globally. Crucially, magical realism often carries political weight — allowing writers under authoritarian regimes to critique power obliquely. Contrast: surrealism relies on Freudian dream logic and deliberate disorientation; Gothic on supernatural dread and decay; absurdism on meaninglessness as philosophical premise."
       }
     ]
   }
