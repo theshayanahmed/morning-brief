@@ -1,6 +1,6 @@
 {
   "streak": 6,
-  "last_session_date": "2026-06-25",
+  "last_session_date": "2026-06-30",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -461,7 +461,27 @@
     "The Impossible Trinity (Mundell-Fleming Trilemma) states a country cannot simultaneously maintain which three policies?",
     "Linguist Charles Ferguson's concept of 'diglossia' (1959) describes a speech community using a High and Low language variety. Which pair is the canonical founding example?",
     "Max Weber identified three 'ideal types' of legitimate political authority in Economy and Society (1922). Which set is correct?",
-    "Gabriel García Márquez's technique of presenting magical events as unremarkable facts within an otherwise realistic setting defines which literary mode?"
+    "Gabriel García Márquez's technique of presenting magical events as unremarkable facts within an otherwise realistic setting defines which literary mode?",
+    "A Certificate of Origin under a Free Trade Agreement is presented to destination customs primarily to achieve what outcome — and who bears legal liability for a false declaration?",
+    "The WTO Customs Valuation Agreement establishes a six-method hierarchy for determining dutiable value. Which is the primary method, and under what precise condition may customs legally reject it?",
+    "The Panama Canal's 2016 expanded locks introduced the Neopanamax vessel class. Which set of specifications correctly defines Neopanamax — and approximately how many TEU can such a vessel carry?",
+    "In container terminal operations, net crane productivity (NCPH) differs critically from gross crane productivity (GCPH). Which statement correctly defines NCPH and explains why operators prefer it for performance benchmarking?",
+    "Which carrier pairing forms the Gemini Cooperation launched in February 2025 — and what is Gemini's stated strategic differentiator from previous alliance models?",
+    "Britain's 1905 Partition of Bengal was reversed at the 1911 Delhi Durbar. What was the most consequential unintended political consequence of the reversal for Indian Muslim political leadership?",
+    "The Sundarbans mangrove forest spans Bangladesh and India's West Bengal. Which combination of characteristics most accurately describes its ecological significance and primary existential threat?",
+    "DNA methylation is the most studied epigenetic mechanism — it produces heritable changes in gene expression without altering the DNA sequence. By what molecular mechanism does methylation suppress gene transcription?",
+    "A disease affects 1% of a population. A diagnostic test is 99% sensitive and 99% specific. A randomly selected person tests positive. What is the approximate probability they actually have the disease, and what principle explains this result?",
+    "Nuclear magnetic resonance (NMR) — the physics underlying MRI — exploits atomic nuclear magnetic properties. Why is hydrogen ideal for MRI, and what is the physical meaning of T1 and T2 relaxation times used to generate tissue contrast?",
+    "A Certificate of Origin under a Free Trade Agreement is presented to destination customs primarily to achieve what outcome — and who bears legal liability for a false declaration?",
+    "The WTO Customs Valuation Agreement establishes a six-method hierarchy for determining dutiable value. Which is the primary method, and under what precise condition may customs legally reject it?",
+    "The Panama Canal's 2016 expanded locks introduced the Neopanamax vessel class. Which set of specifications correctly defines Neopanamax — and approximately how many TEU can such a vessel carry?",
+    "In container terminal operations, net crane productivity (NCPH) differs critically from gross crane productivity (GCPH). Which statement correctly defines NCPH and explains why operators prefer it for performance benchmarking?",
+    "Which carrier pairing forms the Gemini Cooperation launched in February 2025 — and what is Gemini's stated strategic differentiator from previous alliance models?",
+    "Britain's 1905 Partition of Bengal was reversed at the 1911 Delhi Durbar. What was the most consequential unintended political consequence of the reversal for Indian Muslim political leadership?",
+    "The Sundarbans mangrove forest spans Bangladesh and India's West Bengal. Which combination of characteristics most accurately describes its ecological significance and primary existential threat?",
+    "DNA methylation is the most studied epigenetic mechanism — it produces heritable changes in gene expression without altering the DNA sequence. By what molecular mechanism does methylation suppress gene transcription?",
+    "A disease affects 1% of a population. A diagnostic test is 99% sensitive and 99% specific. A randomly selected person tests positive. What is the approximate probability they actually have the disease, and what principle explains this result?",
+    "Nuclear magnetic resonance (NMR) — the physics underlying MRI — exploits atomic nuclear magnetic properties. Why is hydrogen ideal for MRI, and what is the physical meaning of T1 and T2 relaxation times used to generate tissue contrast?"
   ],
   "learn_history": [
     {
@@ -698,6 +718,16 @@
       "date": "2026-06-25",
       "topic": "The Dutch Disease: When a Commodity Boom Hollows Out Your Industry",
       "bucket": "economics"
+    },
+    {
+      "date": "2026-06-30",
+      "topic": "Quantum Tunneling: The Physics Killing Moore's Law at 2nm and Below",
+      "bucket": "science_concept"
+    },
+    {
+      "date": "2026-06-30",
+      "topic": "Quantum Tunneling: The Physics Killing Moore's Law at 2nm and Below",
+      "bucket": "science_concept"
     }
   ],
   "curriculum_progress": {
@@ -708,8 +738,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 11,
-      "last_seen": "2026-06-22",
+      "count": 13,
+      "last_seen": "2026-06-30",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -720,20 +750,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 11,
-      "last_seen": "2026-06-22",
+      "count": 13,
+      "last_seen": "2026-06-30",
       "difficulty": 3,
       "rolling_score": []
     },
     "vessels": {
-      "count": 11,
-      "last_seen": "2026-06-22",
+      "count": 13,
+      "last_seen": "2026-06-30",
       "difficulty": 3,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 11,
-      "last_seen": "2026-06-22",
+      "count": 13,
+      "last_seen": "2026-06-30",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -744,8 +774,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 11,
-      "last_seen": "2026-06-22",
+      "count": 13,
+      "last_seen": "2026-06-30",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -824,32 +854,32 @@
   },
   "gk_progress": {
     "history": {
-      "count": 17,
-      "last_seen": "2026-06-23",
+      "count": 19,
+      "last_seen": "2026-06-30",
       "difficulty": 4,
       "rolling_score": []
     },
     "geography": {
-      "count": 16,
-      "last_seen": "2026-06-23",
+      "count": 18,
+      "last_seen": "2026-06-30",
       "difficulty": 4,
       "rolling_score": []
     },
     "physical_science": {
-      "count": 17,
-      "last_seen": "2026-06-24",
+      "count": 19,
+      "last_seen": "2026-06-30",
       "difficulty": 3,
       "rolling_score": []
     },
     "life_science": {
-      "count": 17,
-      "last_seen": "2026-06-23",
+      "count": 19,
+      "last_seen": "2026-06-30",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 17,
-      "last_seen": "2026-06-23",
+      "count": 19,
+      "last_seen": "2026-06-30",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -910,159 +940,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-06-25",
+    "date": "2026-06-30",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "incoterms",
-        "stem": "Under CIF (Cost, Insurance and Freight), at which point does the seller's risk obligation transfer to the buyer?",
+        "subtopic": "documentation",
+        "stem": "A Certificate of Origin under a Free Trade Agreement is presented to destination customs primarily to achieve what outcome — and who bears legal liability for a false declaration?",
         "options": [
-          "When goods are loaded aboard the vessel at the port of shipment",
-          "When the vessel arrives at the named destination port",
-          "When goods clear customs at the destination country",
-          "When the carrier issues the delivery order at the destination terminal"
+          "Enable the importer to bypass pre-shipment SPS inspection requirements",
+          "Prove cargo ownership and authorise release from port custody",
+          "Claim preferential tariff rates by certifying goods meet the FTA rules of origin, with the exporter legally liable for false declarations",
+          "Satisfy anti-dumping disclosure requirements by revealing the cost of production in the origin country"
         ],
-        "correct": 0,
-        "why": "CIF transfers risk at origin when goods cross the ship's rail — the seller pays freight and insurance forward but bears no risk after loading.",
-        "deepDive": "CIF creates a deliberate anomaly: the seller contracts and pays for freight and marine insurance to the destination, yet risk transfers at origin when goods are loaded. If cargo is lost mid-voyage, the buyer bears the loss and must claim against insurance the seller arranged. This is why many buyers prefer CIP (Carriage and Insurance Paid To), which mandates Clause A all-risk cover, versus CIF's minimum Clause C named-perils only. Exporters favour CIF because the higher invoice value (freight included) is useful under Letters of Credit. The safest buyer position when control matters: negotiate FOB and arrange your own freight and insurance from origin port."
+        "correct": 2,
+        "why": "A CO under an FTA certifies rules-of-origin compliance to unlock preferential duty rates; the exporter certifies and bears liability, not the importer.",
+        "deepDive": "A Certificate of Origin under an FTA (RCEP, CPTPP, ASEAN frameworks) declares that goods meet specific rules-of-origin requirements — typically a change in tariff classification, regional value content threshold, or a specific manufacturing process. Presenting a valid CO at destination customs lets the importer pay preferential duty rates instead of MFN rates. Critical legal point: it is the exporter or producer who certifies origin and bears full liability for false declarations, including retrospective duty payments, penalties, and potential blacklisting. Under RCEP, approved exporters may self-certify; under older bilateral agreements, only government-issued COs are accepted. Common misconception: a CO is not a packing list, not an SPS certificate, and not a commercial invoice — it addresses tariff classification and duty eligibility only. Customs authorities conduct post-clearance audits; a false CO audit can trigger retrospective MFN duty assessments on all qualifying shipments for the prior three years."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "bill_of_lading",
-        "stem": "A Straight Bill of Lading differs from an Order (Negotiable) Bill of Lading primarily because it is:",
+        "subtopic": "customs",
+        "stem": "The WTO Customs Valuation Agreement establishes a six-method hierarchy for determining dutiable value. Which is the primary method, and under what precise condition may customs legally reject it?",
         "options": [
-          "Non-negotiable and consigned directly to a named party only",
-          "Negotiable and transferable to third parties by endorsement",
-          "Issued exclusively for full-container-load containerised cargo",
-          "Required for all Letter of Credit documentary collections"
+          "Deductive value (resale price minus expenses) — rejected when the importer is also the manufacturer",
+          "Transaction value of identical goods — rejected when no identical goods were sold for export in the same period",
+          "Transaction value: the price actually paid or payable for the goods — rejected when buyer and seller are related parties and that relationship is shown to have influenced the price",
+          "Computed value (production cost plus profit) — rejected if the foreign producer refuses to supply cost records"
         ],
-        "correct": 0,
-        "why": "A Straight BL names a specific consignee and cannot be transferred — non-negotiable. Order BLs are documents of title transferable by endorsement.",
-        "deepDive": "The distinction is fundamental in trade finance. An Order BL (made out 'to order of shipper' or 'to order of bank') is a negotiable document of title — whoever holds the original can claim cargo, making it the bank's security under an LC. A Straight BL simply instructs the carrier to deliver to the named consignee, like a parcel label. Banks issuing LCs almost always require full sets of negotiable Order BLs (typically 3 originals): one surrendered to the carrier at destination, others held by the bank until payment. Losing all originals of an Order BL is serious — cargo cannot be released without a costly Letter of Indemnity. Sea waybills are non-negotiable by design and increasingly preferred between trusted trading partners where no title transfer is needed."
+        "correct": 2,
+        "why": "Transaction value (WTO CVA Article 1) is the primary method; mere buyer-seller relatedness is insufficient for rejection — customs must affirmatively prove the relationship influenced the declared price.",
+        "deepDive": "The WTO Customs Valuation Agreement (CVA) creates a mandatory six-method hierarchy: (1) transaction value of the goods; (2) transaction value of identical goods; (3) transaction value of similar goods; (4) deductive value; (5) computed value; (6) fallback. Transaction value must be tried first, and the burden of proof to reject it rests with customs. The critical nuance: buyer-seller relatedness alone does NOT disqualify the declared value — customs must prove the relationship actually influenced the price (e.g., artificially depressed to shift profits). Importers with related-party transactions should maintain transfer pricing documentation aligned with OECD guidelines to defend transaction value in audits. If transaction value is rejected, customs must move sequentially through the hierarchy, and the importer has a right to be consulted before a different value is applied."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "pricing",
-        "stem": "The Bunker Adjustment Factor (BAF) in ocean freight is a variable surcharge designed to compensate carriers for:",
+        "subtopic": "vessels",
+        "stem": "The Panama Canal's 2016 expanded locks introduced the Neopanamax vessel class. Which set of specifications correctly defines Neopanamax — and approximately how many TEU can such a vessel carry?",
         "options": [
-          "Currency exchange fluctuations on specific trade lanes",
-          "Fuel cost volatility between rate-filing date and shipment execution",
-          "Port congestion surcharges at major transshipment hubs",
-          "Slow-steaming carbon compliance costs on regulated routes"
+          "294m length x 32.3m beam x 12m draft, approximately 4,500 TEU — the original Panamax limit unchanged",
+          "366m length x 49m beam x 15.2m draft, approximately 12,000-14,000 TEU",
+          "400m length x 61m beam x 16m draft, approximately 24,000 TEU — the current ultra-large vessel category",
+          "320m length x 43m beam x 14m draft, approximately 8,000 TEU — mid-range post-Panamax"
         ],
         "correct": 1,
-        "why": "BAF is indexed to bunker price movements and applied on top of base ocean freight to cover fuel swings carriers cannot absorb in fixed contract rates.",
-        "deepDive": "Bunker fuel represents 40–60% of a containership's operating costs, so carriers cannot absorb price volatility within fixed rates. BAF (also called BAS or Bunker Surcharge) is recalculated quarterly or monthly against a reference index — typically Singapore 380cSt HFO or VLSFO post-IMO 2020. Post-Iran conflict in 2026, BAF on Asia-Europe routes surged dramatically. Long-haul routes like transpacific and Asia-Europe carry higher BAFs than short-sea routes. IMO 2020's 0.5% sulphur cap added a Low Sulphur Surcharge layer on top. Shippers negotiating annual service contracts should cap BAF escalation clauses or index them to a specific transparent benchmark — open-ended BAF exposure is the largest hidden cost in multiannual freight contracts when energy prices spike."
+        "why": "Neopanamax specs are 366m x 49m x 15.2m draft, enabling ships of ~12,000-14,000 TEU through the expanded locks; original Panamax was 294m x 32.3m capping at ~4,500 TEU.",
+        "deepDive": "The original Panama Canal locks (opened 1914) imposed a Panamax constraint of roughly 294m length x 32.3m beam x 12m draft — restricting containerships to about 4,500-5,000 TEU. The 2016 expanded locks changed this: Neopanamax vessels can now be 366m x 49m x 15.2m draft, carrying roughly 12,000-14,000 TEU through the canal. This opened the waterway to mainstream modern fleet sizes. Important distinction: ultra-large containerships (ULCVs) like the 24,000-TEU vessels operated by MSC, CMA CGM, and COSCO on Asia-Europe routes are still post-New-Panamax — their 60m+ beam exceeds even the expanded locks. They transit only via Suez Canal or Cape of Good Hope. The canal expansion directly enabled Maersk and Hapag-Lloyd to expand their Asia-US East Coast all-water services, cutting transit times versus transhipment-via-Suez options."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "air_freight",
-        "stem": "A shipment measures 200cm × 150cm × 100cm and actually weighs 200 kg. Using IATA's standard 1:6,000 cm³/kg volumetric divisor, what is the chargeable weight?",
+        "subtopic": "port_ops",
+        "stem": "In container terminal operations, net crane productivity (NCPH) differs critically from gross crane productivity (GCPH). Which statement correctly defines NCPH and explains why operators prefer it for performance benchmarking?",
         "options": [
-          "200 kg — actual weight, as it equals the volumetric calculation",
-          "500 kg — volumetric weight exceeds actual weight and is therefore charged",
-          "350 kg — the midpoint average of actual and volumetric is standard",
-          "300 kg — IATA minimum chargeable weight for this shipment class"
+          "NCPH counts only shore-to-ship moves and excludes repositioning lifts, giving a one-directional figure used for berth billing",
+          "NCPH measures crane moves per hour of productive working time only — excluding delays, breakdowns, hatch changes, and gang breaks — revealing the crane's true operational throughput capability",
+          "NCPH is calculated as total moves divided by total vessel port stay from arrival to departure, making it the standard for cross-port efficiency comparisons",
+          "NCPH includes all yard equipment alongside quay cranes and divides total moves by vessel call hours including anchorage time"
         ],
         "correct": 1,
-        "why": "Volume = 3,000,000 cm³ ÷ 6,000 = 500 kg volumetric. Since 500 kg exceeds actual 200 kg, the volumetric weight is charged.",
-        "deepDive": "Air freight charges the greater of actual weight vs volumetric (dimensional) weight. IATA's divisor is 6,000 cm³ per kilogram (or 366 in³/kg). Lightweight bulky cargo — foam packaging, assembled furniture, inflatable goods — almost always triggers volumetric charging. Dense cargo like metals and machinery charges on actual weight. This creates packaging incentives: shippers sometimes compress or nest goods to bring volumetric weight below actual, saving significantly at $5–8/kg spot rates. Some express airlines use a 5,000 divisor, making bulky goods even pricier. Always calculate both before booking — a shipment weighing 200 kg at the warehouse can arrive at the airline counter as a 500 kg invoice. The same volumetric logic applies in road freight with its own density standards."
+        "why": "Net crane productivity isolates the crane's working speed by stripping out non-productive time; gross productivity averages across the full berth window including delays and will always be lower.",
+        "deepDive": "Terminal productivity benchmarking is plagued by definitional inconsistency. Gross crane productivity (GCPH) divides total crane moves by the full elapsed time from first lift to last lift — including gang breaks, hatch openings, crane repositioning, vessel trim adjustments, and shift changes. Net crane productivity (NCPH) strips those non-productive intervals out, summing only minutes the crane was physically moving containers and dividing by that active working time. World-class terminal NCPH typically runs 30-35+ moves per hour (some automated terminals exceed 40); the same terminal's GCPH might be 22-28. Why it matters: vessel operators use NCPH to calculate realistic berth windows and protect against demurrage exposure. If a port quotes GCPH as its productivity figure during commercial negotiations, the actual vessel turnaround will be longer than expected. Always request both metrics when evaluating port competitiveness."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "ftas",
-        "stem": "Rules of Origin under most Free Trade Agreements require 'substantial transformation.' Which statement correctly describes how this is typically determined?",
+        "subtopic": "liner_alliances",
+        "stem": "Which carrier pairing forms the Gemini Cooperation launched in February 2025 — and what is Gemini's stated strategic differentiator from previous alliance models?",
         "options": [
-          "Goods must be entirely produced in the FTA country with zero imported inputs",
-          "Manufacturing must change the HS tariff classification at the two-digit chapter level only",
-          "Processing must add commercial value as certified by a recognised chamber of commerce",
-          "Goods meet a change in tariff classification, regional value content threshold, or a specific process test as defined by the agreement"
+          "Maersk and Hapag-Lloyd — Gemini's differentiator is 90%+ schedule reliability through a hub-and-spoke model, deliberately trading port coverage breadth for punctuality",
+          "MSC and CMA CGM — Gemini competes on lowest unit cost per TEU through mega-vessel deployment on all trades simultaneously",
+          "COSCO, OOCL, and Evergreen — Gemini emphasises total network scale and the largest combined TEU capacity on Asia-Europe routes",
+          "Yang Ming, HMM, and ONE — Gemini positions as a transpacific-only alliance competing directly with the Premier Alliance"
         ],
-        "correct": 3,
-        "why": "Substantial transformation is defined by each FTA using one or more tests: change in tariff classification (CTH), regional value content (RVC), or a specific manufacturing process requirement.",
-        "deepDive": "Rules of Origin are the gatekeepers of FTA preferential tariffs. Three main test types: (1) Change in Tariff Classification — goods shift HS heading or chapter through processing; (2) Regional Value Content — a minimum percentage (often 40–60%) of the good's value must originate in the FTA zone; (3) Specific Process Rule — a named manufacturing step must occur, e.g. weaving from yarn. Many FTAs combine tests by HS code. Bangladesh's garment exporters rely on the EU's GSP double-transformation rule: yarn must be knitted or woven AND cut-and-made in Bangladesh. Under RCEP, rules differ by HS code and country pair. Misclassifying origin exposes importers to retroactive duty recovery and significant penalties. Certificate of Origin is the documentary proof: Form D under ASEAN, EUR.1 under EU FTAs."
+        "correct": 0,
+        "why": "Gemini is Maersk + Hapag-Lloyd; its defining promise is 90%+ schedule reliability via hub-and-spoke — a deliberate departure from the industry norm of maximising port coverage at the cost of punctuality.",
+        "deepDive": "The Gemini Cooperation, launched February 2025 after Maersk's 2M partnership with MSC expired, pairs two carriers with contrasting strategic identities: Maersk (pursuing an end-to-end logistics integrator model) and Hapag-Lloyd (a pure liner operator). Gemini's defining commercial promise — 90%+ schedule reliability — targets the shipper segment most damaged by pandemic-era schedule chaos when on-time performance across the industry collapsed below 20%. Rather than calling at every major port directly, Gemini runs fewer mainline port calls at high frequency, relying on feeders for distribution — a hub-and-spoke architecture that narrows coverage but dramatically improves predictability. The rumoured (and denied) MSC interest in acquiring a Hapag-Lloyd stake highlights the strategic stakes: if MSC, which operates independently as the world's largest carrier, gained influence inside Gemini, Maersk's core partnership would be fundamentally disrupted."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "Which 1999 film introduced 'bullet time' photography — freezing action while the camera appears to orbit the scene — to mainstream cinema?",
+        "subtopic": "history",
+        "stem": "Britain's 1905 Partition of Bengal was reversed at the 1911 Delhi Durbar. What was the most consequential unintended political consequence of the reversal for Indian Muslim political leadership?",
         "options": [
-          "Fight Club",
-          "The Matrix",
-          "Dark City",
-          "eXistenZ"
+          "It prompted the formation of a unified Hindu-Muslim Indian National Congress independence front, delaying the Muslim League's founding by two decades",
+          "It convinced Muslim political leaders that Hindu majority pressure could override imperial decisions, validating the case for a separate Muslim political platform and strengthening the All-India Muslim League's founding rationale",
+          "It caused the permanent transfer of India's colonial capital from Calcutta to Bombay, removing Bengalis from the centre of administration",
+          "It triggered the Non-Cooperation Movement when Muslim leaders refused to participate in revised provincial government structures"
         ],
         "correct": 1,
-        "why": "The Wachowskis' The Matrix (1999) popularised bullet time using an arc of triggered still cameras, winning the Academy Award for visual effects.",
-        "deepDive": "Bullet time in The Matrix used dozens of still cameras arranged in a 360-degree arc, triggered in rapid sequence around the action, with CGI interpolating the gaps. Effects supervisor John Gaeta's team won the 1999 Academy Award for visual effects. The technique had antecedents — Eadweard Muybridge's 1870s multi-camera motion studies and limited versions in music videos by Michel Gondry — but The Matrix applied it at blockbuster scale. Neo dodging bullets in frozen orbit defined the late-1990s aesthetic and permanently altered how action cinema handles impossible camera angles. The phrase entered general usage as shorthand for hyper-slowed perspectival observation. The Matrix's deeper impact extended to philosophy (simulation theory, red pill/blue pill discourse) and visual design, spawning countless imitations."
+        "why": "The reversal proved that Hindu communal mobilisation could move the British Crown — convincing Muslim leaders that majority democracy in a Hindu-dominant India would override Muslim interests, validating the founding logic of the All-India Muslim League.",
+        "deepDive": "Britain's 1905 Partition of Bengal divided a vast province into a Hindu-majority west and Muslim-majority east. Muslim political leaders in the east welcomed the creation of a Muslim-majority province. The Swadeshi movement that followed was intense: Hindu nationalists used boycotts, mass protests, and cultural mobilisation to oppose partition. Britain reversed the decision entirely at the December 1911 Delhi Durbar, simultaneously announcing the transfer of India's capital from Calcutta to New Delhi. For Muslim political leaders, the sequence was formative: Hindu communal agitation had demonstrably moved imperial policy. This validated the founding logic of the All-India Muslim League (1906) — that Muslims needed a separate political organisation because majority democracy in a Hindu-dominant India would systematically marginalise Muslim interests. The 1905-1911 Bengal episode is foundational to the trajectory that led to the Lahore Resolution (1940) demanding a separate Muslim homeland."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The Impossible Trinity (Mundell-Fleming Trilemma) states a country cannot simultaneously maintain which three policies?",
+        "subtopic": "geography",
+        "stem": "The Sundarbans mangrove forest spans Bangladesh and India's West Bengal. Which combination of characteristics most accurately describes its ecological significance and primary existential threat?",
         "options": [
-          "Low inflation, full employment, and a balanced trade account",
-          "A fixed exchange rate, free capital mobility, and an independent monetary policy",
-          "GDP growth, a fiscal surplus, and a current account balance",
-          "Central bank independence, price stability, and universal financial inclusion"
+          "World's largest contiguous mangrove (~10,000 sq km); tidal saline delta of the Ganges-Brahmaputra-Meghna; the only salt-tolerant Bengal tiger habitat on earth; primary threat is sea-level rise eroding its near-zero elevation",
+          "World's most species-diverse mangrove with 72 species; freshwater delta of the Brahmaputra only; primary threat is upstream hydropower cutting freshwater inflow",
+          "Second-largest mangrove after the Amazon delta; fully protected with zero human habitation; primary threat is ocean acidification bleaching pneumatophore root systems",
+          "Spans three countries including Myanmar; home exclusively to Irrawaddy dolphins; primary threat is artisanal coastal fishing"
         ],
-        "correct": 1,
-        "why": "The trilemma: any two of fixed exchange rate, open capital account, and independent monetary policy are achievable together — never all three simultaneously.",
-        "deepDive": "Developed by Robert Mundell and Marcus Fleming in the 1960s, the Impossible Trinity is the cornerstone of international monetary economics. The logic: fix your exchange rate AND allow free capital flows, and interest rates must mirror the anchor currency's rates — otherwise arbitrage flows overwhelm the peg and you lose monetary independence. China's solution: capital controls (fix rate + monetary autonomy, sacrifice open capital). The Eurozone: surrender monetary policy to the ECB (fixed rate + open capital, sacrifice national autonomy). The 1997 Asian financial crisis, Argentina's 2001 collapse, and Turkey's 2018 lira crash all involved countries discovering this constraint violently. Bangladesh's ongoing dilemma: managed float, gradual capital account opening, and desire to set domestic rates for growth — the trilemma resurfaces at every policy cycle."
+        "correct": 0,
+        "why": "The Sundarbans (~10,000 sq km) is the world's largest contiguous mangrove, spanning Bangladesh-India only; the Bengal tiger here is uniquely salt-tolerant; sea-level rise at its 0.5-2m elevations is the primary existential threat.",
+        "deepDive": "The Sundarbans covers roughly 10,000 square kilometres at the mouth of the Ganges-Brahmaputra-Meghna delta — about 60% in Bangladesh and 40% in India's West Bengal, with both national sections as separate UNESCO World Heritage Sites. The ecosystem is tidal saltwater: twice-daily inundation creates brackish conditions in which Sundari (Heritiera fomes) dominates alongside approximately 35 other mangrove species. The Bengal tiger population — estimated 400-500 individuals — is the world's only tiger population adapted to saltwater swimming and saline coastal conditions; tigers here regularly swim between islands kilometres apart. The primary existential threat is sea-level rise: the forest sits at elevations of only 0.5-2m above sea level. IPCC projections suggest 17-28cm of rise by 2050 will submerge significant portions, with cyclone surge events becoming increasingly destructive. The mangrove belt is the natural coastal protection for approximately 4 million people in Bangladesh's Khulna division."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "Linguist Charles Ferguson's concept of 'diglossia' (1959) describes a speech community using a High and Low language variety. Which pair is the canonical founding example?",
+        "subtopic": "life_science",
+        "stem": "DNA methylation is the most studied epigenetic mechanism — it produces heritable changes in gene expression without altering the DNA sequence. By what molecular mechanism does methylation suppress gene transcription?",
         "options": [
-          "British and American English used interchangeably by a bilingual professional",
-          "Modern Standard Arabic (MSA) for formal contexts and regional dialects for daily speech",
-          "Hindi and Urdu as separate official languages of neighbouring nations",
-          "Sign language and spoken language used simultaneously in inclusive classrooms"
+          "Methylation cuts the phosphodiester backbone at restriction sites, permanently disabling genes across all daughter cells",
+          "Methyl groups added to cytosine bases at CpG sites recruit methyl-binding proteins and histone deacetylases, condensing chromatin into transcriptionally silent heterochromatin that physically blocks RNA polymerase access",
+          "Methylation increases nucleosome spacing, stretching DNA so tightly that transcription start sites become inaccessible from either strand",
+          "DNA methylation converts cytosine to uracil, which ribosomes read as a stop codon, prematurely terminating protein translation"
         ],
         "correct": 1,
-        "why": "Classical Arabic fusha (H-variety for religion, education, formal writing) vs. colloquial dialects (Egyptian, Levantine, etc.) is Ferguson's founding example.",
-        "deepDive": "Ferguson's 1959 paper defined diglossia as the stable coexistence of a High variety — used in religion, education, formal writing, government — and a Low variety used at home and in casual interaction. MSA (fusha) is nobody's first language yet the formal written and broadcast standard across 22 Arab countries, while each has its own spoken dialect. Other examples: Switzerland (Standard German H / Schweizerdeutsch L), Haiti (French H / Haitian Creole L). Joshua Fishman later extended it to bilingual diglossia where H and L are entirely separate languages. Neither variety is linguistically inferior — they serve complementary functions. The concept matters practically: NLP systems for Arabic must handle both registers for search and content moderation, and policy debates continue about which variety to teach in schools."
+        "why": "Methylation at CpG sites recruits MBD proteins like MeCP2 which recruit HDACs; histone deacetylation tightens DNA-histone binding, producing compact heterochromatin that excludes RNA polymerase from the promoter.",
+        "deepDive": "DNA methylation adds a methyl group to the 5-carbon of cytosine, typically at CpG dinucleotides. In mammals, 70-80% of CpG sites are methylated. Silencing operates through two complementary layers: (1) methyl groups physically obstruct transcription factor binding at promoter CpG islands; (2) methyl-CpG-binding domain proteins (MBDs, including MeCP2) recognise methylated cytosines and recruit co-repressor complexes including histone deacetylases (HDACs), which remove acetyl groups from histone tails, tightening DNA-histone binding and compacting chromatin into transcriptionally silent heterochromatin. Critically, DNA methylation is heritable: the enzyme DNMT1 ('maintenance methyltransferase') copies methylation patterns onto newly synthesised DNA strands during every cell division, so a silenced gene stays silenced across cell generations. Medical significance: cancer cells exhibit widespread hypomethylation of oncogenes (activating them) and hypermethylation of tumour suppressor promoters (silencing them)."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "Max Weber identified three 'ideal types' of legitimate political authority in Economy and Society (1922). Which set is correct?",
+        "subtopic": "mathematics",
+        "stem": "A disease affects 1% of a population. A diagnostic test is 99% sensitive and 99% specific. A randomly selected person tests positive. What is the approximate probability they actually have the disease, and what principle explains this result?",
         "options": [
-          "Charismatic, bureaucratic, and democratic authority",
-          "Traditional, charismatic, and legal-rational authority",
-          "Divine right, popular sovereignty, and technocratic authority",
-          "Hereditary, elected, and appointed authority"
+          "~99% — the test's high sensitivity means a positive is almost certainly a true positive",
+          "~50% — with 1% prevalence, false positives (1% of the 99% non-diseased) roughly equal true positives (99% of the 1% diseased), so about half of positive tests are genuine; this illustrates Bayes' Theorem and the base-rate fallacy",
+          "~10% — base rate suppresses the posterior probability to single digits regardless of test accuracy",
+          "~1% — the disease prevalence always dominates and testing cannot meaningfully update the prior probability"
         ],
         "correct": 1,
-        "why": "Weber's typology: traditional authority (custom/heredity), charismatic authority (personal magnetism), and legal-rational authority (impersonal rules/bureaucracy).",
-        "deepDive": "Weber's Herrschaft typology is foundational to comparative politics. Traditional authority rests on immemorial custom — kings, tribal elders, patriarchs. Charismatic authority flows from a leader's perceived extraordinary qualities; Weber's crucial insight was that it is inherently unstable and must be routinised into institutions to survive the founder's death. Legal-rational authority — the hallmark of modernity — legitimises power through impersonal rules and offices: citizens obey the law, not the person. Weber saw bureaucracy as legal-rationalism's purest expression — efficient and predictable but prone to the iron cage of depersonalised rule. Bangladesh's post-independence politics oscillates between charismatic legitimacy (Mujib, Zia ur-Rahman, now Tarique) and the aspiration toward legal-rational anchoring the state keeps struggling to consolidate."
+        "why": "P(disease|positive) = (0.99 x 0.01) / (0.99 x 0.01 + 0.01 x 0.99) = 0.0099/0.0198 = exactly 50%; false positives numerically equal true positives when base rate is low.",
+        "deepDive": "This is the base-rate fallacy, one of the most important and counterintuitive results in probability. Bayes' Theorem: P(D|+) = P(+|D) x P(D) / P(+). With 99% sensitivity and 99% specificity at 1% prevalence: P(+) = (0.99 x 0.01) + (0.01 x 0.99) = 0.0099 + 0.0099 = 0.0198. Therefore P(D|+) = 0.0099/0.0198 = exactly 50%. Concrete verification in a population of 10,000: 100 have the disease (99 test positive, 1 false negative); 9,900 do not (9,801 test negative, 99 false positive). Result: 99 true positives vs 99 false positives — exactly 50/50. This explains why mass screening for rare diseases requires extremely high specificity — a 99.9% specific test at 1% prevalence yields approximately 91% positive predictive value, dramatically better. Medical professionals, courts, and intelligence analysts routinely commit this fallacy when confronted with low-prevalence base rates."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Gabriel García Márquez's technique of presenting magical events as unremarkable facts within an otherwise realistic setting defines which literary mode?",
+        "subtopic": "physical_science",
+        "stem": "Nuclear magnetic resonance (NMR) — the physics underlying MRI — exploits atomic nuclear magnetic properties. Why is hydrogen ideal for MRI, and what is the physical meaning of T1 and T2 relaxation times used to generate tissue contrast?",
         "options": [
-          "Surrealism",
-          "Magical realism",
-          "Gothic fiction",
-          "Absurdist literature"
+          "Hydrogen has the highest electron count of any light atom creating large magnetic dipoles; T1 measures proton density and T2 measures electron cloud relaxation time",
+          "Hydrogen is the most abundant atom in biological tissue; T1 (longitudinal relaxation) measures how quickly protons realign with the main magnetic field after an RF pulse; T2 (transverse relaxation) measures how quickly precessing protons lose phase coherence — both differ by tissue type enabling contrast",
+          "Hydrogen nuclei have a half-integer nuclear charge of +0.5 making them uniquely susceptible to magnetic fields; T1 and T2 both measure the rate of proton-neutron energy exchange within the nucleus",
+          "Hydrogen is the only element whose nuclei emit both microwave and infrared radiation when excited; T1 measures infrared emission time and T2 measures microwave coherence time"
         ],
         "correct": 1,
-        "why": "Magical realism embeds the fantastical in ordinary social reality without narrative surprise — characters don't find the magic strange, distinguishing it from surrealism's dream logic.",
-        "deepDive": "Magical realism crystallised as a Latin American literary mode through García Márquez's One Hundred Years of Solitude (1967), Isabel Allende, and Jorge Amado. The defining feature: characters inhabit a world where magic is woven into ordinary social fabric — when Remedios the Beauty ascends to heaven while folding laundry in Macondo, nobody is alarmed. The term was coined by German art critic Franz Roh in 1925 for post-expressionist painting, later applied to literature by Venezuelan Arturo Uslar Pietri. Salman Rushdie's Midnight's Children and Günter Grass's The Tin Drum exported the mode globally. Crucially, magical realism often carries political weight — allowing writers under authoritarian regimes to critique power obliquely. Contrast: surrealism relies on Freudian dream logic and deliberate disorientation; Gothic on supernatural dread and decay; absurdism on meaninglessness as philosophical premise."
+        "why": "Hydrogen's abundance in water and fat makes it MRI's signal source; T1 (spin-lattice, longitudinal) and T2 (spin-spin, transverse) relaxation times differ between fat, water, muscle, and neural tissue, enabling exquisite soft-tissue contrast without ionising radiation.",
+        "deepDive": "MRI exploits nuclear magnetic resonance: atomic nuclei with odd numbers of protons or neutrons behave as tiny magnets due to their intrinsic quantum spin. Hydrogen-1 (one proton) is ideal because it is the most abundant nucleus in biological tissue (in water and fat), has the highest gyromagnetic ratio of any stable nucleus, and produces the strongest NMR signal. In a strong external magnetic field (1.5-7 Tesla clinically), hydrogen protons align and precess at the Larmor frequency (~63.9 MHz at 1.5T). A radiofrequency pulse at exactly this frequency tips protons out of alignment; when the pulse ends, they relax back. T1 (spin-lattice relaxation) measures how quickly the net magnetisation realigns with the main field — fat has short T1 (~250ms); pure water has long T1 (~2,500ms). T2 (spin-spin relaxation) measures how quickly phase coherence is lost due to local field inhomogeneities — different tissues have distinct T1/T2 signatures enabling soft-tissue discrimination."
       }
     ]
   }
