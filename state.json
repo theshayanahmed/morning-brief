@@ -1,6 +1,6 @@
 {
   "streak": 6,
-  "last_session_date": "2026-07-01",
+  "last_session_date": "2026-07-05",
   "questions_seen": [
     "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
     "A 'Neo-Panamax' container vessel is sized to:",
@@ -491,7 +491,17 @@
     "In Western tonal harmony, the Neapolitan chord (♭II6) is a chromatic harmony built on the flattened second scale degree in first inversion. From which musical tradition does it take its name?",
     "Akira Kurosawa's 1950 film Rashomon gave cinema a lasting narrative concept now widely known as the 'Rashomon effect.' Which definition best describes it?",
     "The four major Sunni schools of Islamic jurisprudence (madhabs) agree on core theology but hold divergent views on secondary legal questions. Which madhab is predominant in Bangladesh, Pakistan, Turkey, and across the former Ottoman Empire?",
-    "Nobel Laureate Rabindranath Tagore wrote the national anthems of exactly two countries currently in use. Which two countries' anthems did he write?"
+    "Nobel Laureate Rabindranath Tagore wrote the national anthems of exactly two countries currently in use. Which two countries' anthems did he write?",
+    "What most accurately distinguishes an 'integrator' (FedEx, UPS, DHL Express) fro",
+    "Ted Stevens Anchorage International (ANC) ranks among the world's top 5 cargo ai",
+    "MSC's acquisition of Bolloré Logistics' Africa business (rebranded Africa Global",
+    "A shipper holding a Named Account Contract (NAC) commits to 500 TEU/month for 12",
+    "In a 4-tier supply chain, a 5% swing in end-consumer demand amplifies to a 40% s",
+    "Gramsci argued bourgeois domination is maintained not just by coercive state pow",
+    "The Coase theorem holds that private bargaining produces efficient outcomes rega",
+    "Grimm's Law (1822) describes systematic consonant shifts distinguishing Proto-Ge",
+    "In Nolan's Inception (2010), the film plants a subtle visual tell distinguishing",
+    "The Berlin Conference (1884-85) formalised the Scramble for Africa. Which princi"
   ],
   "learn_history": [
     {
@@ -743,6 +753,11 @@
       "date": "2026-07-01",
       "topic": "Veto Players: The Political Science Theory That Explains Why Some Governments Reform Fast and Others Never Can",
       "bucket": "political_theory"
+    },
+    {
+      "date": "2026-07-05",
+      "topic": "High Bandwidth Memory: The Stacked-DRAM Bottleneck Driving Every AI Chip Headline",
+      "bucket": "semiconductor_foundations"
     }
   ],
   "curriculum_progress": {
@@ -837,40 +852,40 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 11,
-      "last_seen": "2026-06-24",
+      "count": 12,
+      "last_seen": "2026-07-05",
       "difficulty": 2,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 11,
-      "last_seen": "2026-06-24",
+      "count": 12,
+      "last_seen": "2026-07-05",
       "difficulty": 2,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 11,
-      "last_seen": "2026-06-24",
+      "count": 12,
+      "last_seen": "2026-07-05",
       "difficulty": 2,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 11,
-      "last_seen": "2026-06-24",
+      "count": 12,
+      "last_seen": "2026-07-05",
       "difficulty": 2,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 11,
-      "last_seen": "2026-06-24",
+      "count": 12,
+      "last_seen": "2026-07-05",
       "difficulty": 2,
       "rolling_score": []
     }
   },
   "gk_progress": {
     "history": {
-      "count": 19,
-      "last_seen": "2026-06-30",
+      "count": 20,
+      "last_seen": "2026-07-05",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -923,20 +938,20 @@
       "rolling_score": []
     },
     "political_theory": {
-      "count": 16,
-      "last_seen": "2026-06-25",
+      "count": 17,
+      "last_seen": "2026-07-05",
       "difficulty": 3,
       "rolling_score": []
     },
     "economics": {
-      "count": 16,
-      "last_seen": "2026-06-25",
+      "count": 17,
+      "last_seen": "2026-07-05",
       "difficulty": 3,
       "rolling_score": []
     },
     "linguistics": {
-      "count": 16,
-      "last_seen": "2026-06-25",
+      "count": 17,
+      "last_seen": "2026-07-05",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -947,167 +962,167 @@
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 16,
-      "last_seen": "2026-06-25",
+      "count": 17,
+      "last_seen": "2026-07-05",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-07-01",
+    "date": "2026-07-05",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "The China-Europe 'Middle Corridor' trans-Caspian rail route (Kazakhstan → Caspian Sea → Azerbaijan → Georgia → Turkey → EU) has grown sharply since 2022 as an alternative to Russian routing. Which single factor most constrains its capacity growth?",
+        "subtopic": "aircraft_carriers",
+        "stem": "What most accurately distinguishes an 'integrator' (FedEx, UPS, DHL Express) from a traditional combination carrier in air cargo?",
         "options": [
-          "Caspian Sea ferry bottleneck at Aktau and Baku ports, limiting monthly TEU throughput",
-          "Break-of-gauge at the EU-Turkey border requiring full bogie exchange",
-          "Russian diplomatic pressure on transit states to limit routing alternatives",
-          "China's preference for direct ASEAN maritime routes over overland rail"
+          "Integrators own the full door-to-door chain — aircraft, vehicles, IT, customs brokerage — controlling the express pipeline end-to-end; combination carriers rely on third-party handlers beyond the aircraft",
+          "Integrators exclusively carry parcels under 30 kg; combination carriers handle bulk freight only",
+          "Integrators operate solely under FAA Part 119; combination carriers operate under IATA rules exclusively",
+          "Integrators use only passenger belly space; combination carriers operate dedicated freighters only"
         ],
         "correct": 0,
-        "why": "There is no Caspian rail bridge; containers must ferry across, and Aktau/Baku ferry capacity is the physical bottleneck — roughly 10,000–15,000 TEU/month at peak.",
-        "deepDive": "The Middle Corridor (Trans-Caspian International Transport Route) emerged as the primary alternative after the 2022 Ukraine invasion made Russian routing commercially and politically untenable. The route: China → Kazakhstan → Caspian Sea ferry → Azerbaijan → Georgia → Turkey → Europe. The binding constraint is the Caspian crossing: no bridge or tunnel exists; containers are loaded onto ro-ro ferries at Aktau (Kazakhstan) or Turkmenbashi (Turkmenistan) and unloaded at Alat (Azerbaijan) or Baku. Ferry capacity is roughly 10,000–15,000 TEU/month at peak — a fraction of Asia-Europe ocean volumes of 3M+ TEU/month. Kazakhstan's Aktau Port expansion and Azerbaijan's Alat Free Trade Zone are the primary capacity investments, targeting completion around 2027. Common misconceptions: (1) break-of-gauge (1435mm EU vs 1520mm CIS standard) is real but managed operationally via bogie exchange at borders, not a volume-limiting constraint; (2) transit time is 25–32 days — longer than the Northern Corridor (18–22 days via Russia) but comparable to Suez (30+ days). The Middle Corridor handled ~113,000 TEU in all of 2023; it is scaling but remains a fraction of sea lane volumes."
+        "why": "The defining integrator trait is end-to-end ownership: own aircraft, own ground fleet, own IT, own customs — allowing guaranteed overnight service impossible with fragmented handler chains.",
+        "deepDive": "Integrators emerged from FedEx's 1971 hub-and-spoke model out of Memphis. The key innovation was vertical integration — owning every link in the chain so no handoff introduced uncertainty. FedEx today operates 700+ aircraft and 180,000+ vehicles. Compare with Emirates SkyCargo or Cathay Cargo (combination carriers): they sell belly and freighter capacity to forwarders, who arrange last-mile delivery with local agents. The integrator model requires massive capex but enables premium pricing; forwarder-dependent carriers are asset-lighter but cede margin. Amazon Air is an interesting hybrid — operating freighters for its own cargo, building integrator-style infrastructure but retaining e-commerce ownership of demand. The practical distinction for logistics executives: integrators set rates, control timing, and bear delivery risk end-to-end; combination carriers are origin-to-destination only, with no downstream accountability. This matters for SLA negotiations — a combination carrier's 'delivery time' is typically the airport-to-airport leg only."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "The India-Middle East-Europe Economic Corridor (IMEC), announced at the G20 New Delhi summit in September 2023, proposes a multimodal route to compete with China's BRI. Which description most accurately maps its two corridor segments?",
+        "subtopic": "airport_ops",
+        "stem": "Ted Stevens Anchorage International (ANC) ranks among the world's top 5 cargo airports by tonnage despite serving a city of 300,000. What makes it operationally indispensable on transpacific air freight routes?",
         "options": [
-          "India (rail) → Pakistan → Iran → Turkey → Greece",
-          "India (sea) → UAE → Saudi Arabia (rail) → Jordan → Israel (sea) → Greece/Italy",
-          "India (rail) → Bangladesh → Myanmar → China → EU via BRI nodes",
-          "India (sea) → Oman → Yemen → Saudi Arabia → Jordan (overland) → Cyprus"
+          "Its great-circle position places it within fuel range of both Northeast Asia and the US Pacific coast, making it the natural refueling pivot for transpacific freighters without detouring",
+          "Its free trade zone allows duty-free transshipment between Asia and North America without US customs clearance",
+          "It is the only FAA-approved facility outside the continental US cleared for 747-8F maximum structural payload landings",
+          "US-China bilateral air agreements require a mandatory ANC technical stop for wet-lease freighter operations"
         ],
-        "correct": 1,
-        "why": "IMEC's Eastern Corridor runs India by sea to UAE; its Northern Corridor runs from UAE by rail through Saudi Arabia, then Jordan to Israel's Haifa port, then by sea to European ports.",
-        "deepDive": "IMEC was signed at G20 New Delhi (September 2023) by the US, India, Saudi Arabia, UAE, Jordan, Israel, EU, Italy, France, and Germany — explicitly framed as a BRI counterweight. It has two legs: Eastern Corridor (India → Arabian Gulf by sea, Nhava Sheva/JNPT to Fujairah) and Northern Corridor (Arabian Gulf → Jordan/Israel → EU by rail and sea). Key enabler: the Abraham Accords (2020 UAE-Israel normalisation) made a Gulf-Israel rail link politically feasible. However, the October 7 2023 Hamas attack and Gaza war severely complicated matters — Saudi normalisation with Israel stalled, threatening the whole concept. As of 2025–26, Saudi railway components are under development, but the Israel-Jordan connection remains politically contentious. Beyond transport, IMEC also covers green energy pipelines, submarine data cables, and green hydrogen supply chains. Common misconception: IMEC is not a single infrastructure project — it's a memorandum of intent across multiple sovereign territories. Proponents argue it could cut India-EU transit time by 40% vs. Suez for some flows; skeptics note it replicates existing Suez capacity at enormous cost with significant geopolitical fragility."
+        "correct": 0,
+        "why": "Great-circle arcs from Tokyo/Seoul/Beijing to Chicago/New York pass over Alaska. ANC sits at the midpoint — freighters stage full payload, refuel, and continue without the penalty of a detouring stop.",
+        "deepDive": "Great-circle navigation makes Anchorage an unlikely logistics superpower. A 747F from Shanghai to Chicago tracks almost directly over the Aleutian chain, passing within minutes of ANC. The airport offers two long runways, 24-hour operations, no curfews, no slot constraints, and massive cold-chain infrastructure — handling over 3 million metric tonnes annually, more than Frankfurt or Singapore by some measures. FedEx, UPS, Korean Air Cargo, Lufthansa Cargo, and dozens of charter operators use it as a staging hub. Cold-chain capability is a genuine commercial differentiator: Alaskan seafood moves east at ambient-cold, while pharma and electronics move west with temperature monitoring. For freighter operations, ANC's lack of congestion and slot pressure distinguishes it from every comparable hub — HKG, NRT, and LAX all impose slot or curfew constraints. The airport's commercial success is entirely a function of geography: it would be a mid-sized domestic airport without the transpacific routing coincidence."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "Under the Institute Cargo Clauses (ICC) framework, Clauses A, B, and C offer tiered coverage. Which peril is specifically covered under ICC B but NOT under ICC C?",
+        "subtopic": "ma_consolidation",
+        "stem": "MSC's acquisition of Bolloré Logistics' Africa business (rebranded Africa Global Logistics, AGL) is the largest-ever logistics transaction in Africa. What was the primary strategic rationale, and why did it concern competitors?",
         "options": [
-          "Fire and explosion aboard the carrying vessel",
-          "Entry of seawater, lake, or river water into the container or hold",
-          "General average sacrifice and jettison",
-          "Stranding or grounding of the carrying vessel"
+          "MSC gained a shipping line + destination logistics platform across 46 African countries, integrating sea freight with inland trucking and customs — competitors feared MSC would preferentially route AGL cargo onto MSC vessels",
+          "The deal gave MSC operational control of 17 Bolloré port terminal concessions, controlling one-third of African container capacity",
+          "MSC used AGL to undercut Maersk's Africa rates by cross-subsidising ocean freight with logistics margin",
+          "Bolloré's francophone political network was bundled with the logistics business, giving MSC regulatory influence competitors couldn't replicate"
         ],
-        "correct": 1,
-        "why": "ICC B adds named perils to ICC C, including entry of seawater/lake/river water into the vessel, hold, conveyance, or container. Options A, C, and D are all covered under ICC C.",
-        "deepDive": "The Institute Cargo Clauses (A, B, C) were substantially revised in 2009 by the Joint Cargo Committee and are the dominant marine cargo insurance framework globally. ICC C (narrowest) covers only six categories: fire/explosion; stranding/grounding/sinking/capsizing of vessel; overturning/derailment of land transport; collision with external object; discharge at port of distress; general average sacrifice and jettison. ICC B adds: earthquake/volcanic eruption/lightning; washing overboard; entry of seawater, lake, or river water into vessel, hold, conveyance, container, or storage place; total loss of package dropped or lost overboard during loading/unloading. ICC A (broadest) covers all risks of physical loss or damage from any external cause, subject to specified exclusions. All three exclude: inherent vice, delay, willful misconduct, ordinary leakage, insolvency of carrier, war (covered under Institute War Clauses), and strikes (Institute Strikes Clauses). The most common practitioner error: assuming ICC A means 'truly all risks' — the exclusions are substantial. Notably, theft (non-violent pilferage) is covered under ICC A but not under ICC B or C. For RMG shipments from Bangladesh, international buyers typically require ICC A because multi-handler transit in monsoon conditions creates real seawater and theft exposure that ICC C and B won't cover."
+        "correct": 0,
+        "why": "Vertical integration — carrier plus destination logistics — was the core thesis. Kuehne+Nagel and DHL worried MSC could discriminate against third-party forwarders in markets where AGL controlled the last mile.",
+        "deepDive": "The MSC-Bolloré Logistics deal (€5.7B, closed 2023) was part of the 2020s wave of carrier vertical integration: MSC, Maersk, and CMA CGM all acquired freight forwarders and logistics platforms to capture a larger share of the cargo value chain beyond ocean freight. Bolloré Logistics was particularly attractive: operations in 46 countries, port handling, inland trucking, rail concessions, and deep customs relationships built over 60 years in francophone and Anglophone Africa. The renamed AGL operates as a semi-autonomous division within MSC Group. Regulatory concern centred on bundled market power: in markets where AGL controls port handling plus customs plus inland trucks, a shipper who needs MSC ocean capacity and AGL ground services effectively has no alternative provider. Maersk ran the same playbook via Damco and LF Logistics acquisitions; CMA CGM acquired CEVA Logistics. The trend reflects a structural bet that shipper relationships are won through integrated solutions, not transactional rate competition."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "Under US Export Administration Regulations (EAR), an 'EAR99' product classification means the item is not listed on the Commerce Control List and faces minimal export restriction. Which compliance obligation still fully applies to EAR99 items?",
+        "subtopic": "commercial_concepts",
+        "stem": "A shipper holding a Named Account Contract (NAC) commits to 500 TEU/month for 12 months at $2,000/FEU. By month 9, spot rates collapse to $900/FEU and the shipper diverts cargo to spot. Under standard NAC mechanics, what happens to the monthly shortfall?",
         "options": [
-          "They require a BIS export licence for any shipment valued above $2,500 to most countries",
-          "They cannot be exported to sanctioned countries or persons on OFAC's Specially Designated Nationals list",
-          "They are automatically subject to EU dual-use controls by treaty equivalence",
-          "They require an Electronic Export Information filing in AES for all international shipments regardless of value"
+          "The GRI clause automatically resets the NAC rate to within 15% of spot under FMC tariff rules",
+          "The shortfall carries forward as a credit applied to future months in the same contract period",
+          "The carrier can invoke Minimum Quantity Commitment shortfall charges — typically 10-25% of unshipped revenue — penalising the shipper for routing off-contract",
+          "Force majeure covers market-driven rate disparities, so no penalty applies if the shipper notifies the carrier 30 days in advance"
         ],
-        "correct": 1,
-        "why": "EAR99 status removes BIS licence requirements for most destinations but never exempts a shipment from OFAC sanctions screening or SDN list obligations.",
-        "deepDive": "The Export Administration Regulations (EAR), administered by the Bureau of Industry and Security (BIS, US Commerce Department), classify controlled items on the Commerce Control List (CCL) using Export Control Classification Numbers (ECCNs). Items not listed receive 'EAR99' — meaning no ECCN and minimal BIS restriction. However, EAR99 never exempts from: (1) OFAC sanctions — any person or entity from any country can be on the SDN list; (2) comprehensive country sanctions (Iran, Cuba, North Korea, Syria, Crimea/Russia/Belarus); (3) the BIS Entity List (requires licence for national security reasons); (4) Denied Persons and Debarred Lists; (5) end-use checks for WMD-related activities. The classic logistics compliance mistake is treating EAR99 as a 'free pass.' Post-2022 Russia sanctions dramatically extended EAR extraterritorial reach: even EAR99 items can require authorisation for Russia/Belarus under Foreign Direct Product Rule extensions. Applied Materials' $252M BIS fine (February 2026) — the second-largest in BIS history — involved equipment shipped via intermediaries to SMIC in China. The three red flags for EAR99 shipments: suspicious end-user descriptions; destination in a restricted country; end-use linked to WMD programs. Diversion risk via third-country intermediaries is the most common violation pattern."
+        "correct": 2,
+        "why": "MQC shortfall charges are the contractual mechanism that makes committed volume binding — designed specifically to deter cargo diversion to spot when contract rates exceed the market.",
+        "deepDive": "Named Account Contracts govern the bulk of large-shipper ocean freight, covering hundreds of millions of TEUs annually. Standard NAC elements: base rate, MQC, rate validity window, GRI caps, and shortfall clause. The shortfall mechanism works as follows: the carrier invoices the shipper for a percentage (typically 10-25%) of the revenue on the volume gap between committed and actual shipments. For a 300-TEU shortfall at $2,000/FEU, the carrier might charge $60,000-$150,000. In practice, enforcement depends on the relationship — a 10,000-TEU shipper typically renegotiates informally; a 500-TEU shipper faces the full clause. The US-specific overlay: NVOCCs must file NVOCCs Service Arrangements (NSAs) with the FMC, but FMC rules don't require rate matching to spot. The key strategic lesson: MQC shortfall liability should be modelled at contract signing as a scenario — not discovered mid-contract when spot collapses. In 2022-23, many shippers learned this the hard way when spot fell 80% while they held contracts at peak-year rates."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "Container carriers widely deploy 'blank sailings' — cancelling scheduled voyage slots — as a freight rate management tool. What is the primary economic mechanism through which blank sailings sustain rates during a demand downturn?",
+        "subtopic": "supply_chain_strategy",
+        "stem": "In a 4-tier supply chain, a 5% swing in end-consumer demand amplifies to a 40% swing at the supplier level — the bullwhip effect. Which intervention addresses the root cause rather than buffering its symptoms?",
         "options": [
-          "They allow carriers to reduce port fees, terminal handling charges, and berthing costs by consolidating port calls",
-          "They reduce effective market capacity, keeping the supply/demand balance even as cargo volumes fall",
-          "They satisfy IMO Carbon Intensity Indicator (CII) obligations by reducing total vessel steaming hours",
-          "They allow slot charters to be sold at premium to NVOCCs that are short on capacity"
+          "Holding 60 days of safety stock at every tier to absorb amplified variability",
+          "Consolidating orders into monthly batches to reduce the frequency of demand signals",
+          "Sharing real-time point-of-sale data across all tiers so every node responds to actual consumption rather than its downstream partner's orders",
+          "Switching from pull replenishment to push-based production planning with fixed production runs"
         ],
-        "correct": 1,
-        "why": "Blank sailings withdraw vessel capacity from the schedule, reducing effective supply even when cargo demand falls, which prevents freight rate collapse and sustains rate levels.",
-        "deepDive": "Container shipping has extremely high fixed costs (vessel capex, debt, crew, maintenance) and relatively low variable costs (primarily fuel). This normally creates intense pressure to sail at any rate above variable cost, which would destroy pricing in a downturn. The post-2016 consolidation wave changed the dynamics: the top 10 carriers now control ~85% of global capacity, making coordinated supply management feasible. Blank sailings (also called void sailings) remove a vessel's worth of TEU slots from the market for a given week on a trade lane. During COVID H1 2020, carriers deployed aggressive blank-sailing programs even as demand stayed resilient — contributing directly to the 2020–22 freight rate explosion. When demand fell in 2023, blank-sailing rates hit 25–30% of all scheduled departures on Asia-Europe. The mechanism: if effective market capacity falls 10–15% via blank sailings while demand falls 5–8%, spot rates stabilise or rise. Critics argue this is coordinated capacity restriction — tantamount to cartel behaviour. EU Competition Authority investigations have focused on liner alliances; the US FMC monitors but has limited enforcement tools. The legal distinction: carriers can share scheduling information (vessel slots) but not price information. Common misconception: blank sailings are reactive to low demand; in practice, carriers also blank sailings pre-emptively at Chinese New Year and when new vessel deliveries temporarily oversupply a trade lane."
+        "correct": 2,
+        "why": "The bullwhip is caused by information distortion — each tier orders based on orders received, not actual consumer demand. POS data sharing eliminates the distortion at source; safety stock and batching only reduce its downstream impact.",
+        "deepDive": "Hau Lee, Padmanabhan, and Whang named and quantified the bullwhip effect in their landmark 1997 Management Science paper, tracing it through P&G's diaper supply chain where a near-constant consumer demand produced wild swings at the raw materials level. The four root causes: demand signal processing (over-ordering to hedge uncertainty), order batching (infrequent lumpy orders), price fluctuations (forward buying during promotions), and shortage gaming (over-ordering when capacity is constrained). Structural solutions: real-time POS data sharing, vendor-managed inventory (VMI — P&G manages Walmart's diapers based on scan data), and collaborative forecasting (CPFR). Safety stock and faster logistics are symptomatic — they smooth the impact but leave the distortion engine running. Today every advanced supply chain platform (Kinaxis, o9, Blue Yonder) is essentially automated CPFR. For an MGH-style conglomerate running multi-tier logistics networks in Bangladesh, understanding the bullwhip matters because customers who experience a demand shock will over-order from you, creating a false signal that distorts your own capacity planning if you don't look through it."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "At the 1956 Melbourne Olympics, two entirely separate political boycotts occurred simultaneously over unrelated geopolitical crises happening that same autumn. Which pairing correctly matches the boycotting nations to their stated reason?",
+        "subtopic": "political_theory",
+        "stem": "Gramsci argued bourgeois domination is maintained not just by coercive state power but by 'hegemony' — winning active consent from the dominated. What did he mean by 'counter-hegemony'?",
         "options": [
-          "Egypt/Iraq → Soviet invasion of Hungary; Spain/Netherlands → Suez Crisis",
-          "Spain/Switzerland/Netherlands → Soviet invasion of Hungary; Egypt/Iraq/Lebanon → Suez Crisis",
-          "Soviet Union/Hungary → Suez Crisis; Israel/UK/France → Hungarian uprising",
-          "China → Hungary boycott; Cambodia/Sudan → Suez Crisis boycott"
+          "Organising a rapid military uprising before the state can mobilise its security apparatus",
+          "The subaltern class developing its own organic intellectuals, winning ideological consent in civil society, and building an alternative worldview before seizing state power",
+          "Using electoral politics to accumulate institutional power gradually until a parliamentary majority enables socialist legislation",
+          "Globalising labour movements to break the national frame in which ruling-class hegemony is exercised"
         ],
         "correct": 1,
-        "why": "Spain, Switzerland, and the Netherlands boycotted to protest the Soviet crushing of Hungary's uprising; Egypt, Iraq, and Lebanon withdrew to protest the Israeli/UK/French attack on Egypt (Suez Crisis).",
-        "deepDive": "The 1956 Melbourne Olympics (November–December 1956 — southern hemisphere summer) were uniquely scarred by two simultaneous geopolitical crises. The Suez Crisis (October–November 1956): Israel, the UK, and France attacked Egypt to retake the Suez Canal nationalised by Nasser; Egypt, Iraq, and Lebanon withdrew from Melbourne in protest/solidarity with Egypt. The Hungarian Revolution (October 1956): Soviet tanks crushed a popular uprising; Spain, Switzerland, and the Netherlands boycotted in moral protest against Soviet aggression. Additionally, Cambodia withdrew over the Taiwan/China IOC representation dispute. The Games also featured the famous 'Blood in the Water' water polo match — Hungary vs. USSR, played while Soviet troops occupied Budapest. Hungarian players beat the Soviets 4–0 in a brutal match; one Hungarian player reportedly bled from a head wound from a Soviet punch. The entire Hungarian Olympic team — 52 of 111 athletes — defected to the West rather than return. The 1956 dual boycott was the first major political use of the Olympics as diplomatic leverage, presaging 1976 (African boycott over apartheid), 1980 (65-nation US-led Moscow boycott), and 1984 (Soviet-led 14-nation LA counter-boycott). Common misconception: students confuse which side boycotted for which reason — the Suez side had victims of Western aggression protesting; the Hungary side had Western democracies protesting Soviet aggression."
+        "why": "Gramsci's 'war of position' — winning consent in schools, media, and culture — was the prerequisite for any 'war of maneuver.' Organic intellectuals from the subaltern class are the agents of this cultural shift.",
+        "deepDive": "Antonio Gramsci wrote most of his key ideas in the Prison Notebooks (1929-35) while imprisoned by Mussolini. His central insight was that Marx underestimated culture and ideology: ruling classes don't just dominate through force — they naturalise their worldview as 'common sense' through schools, churches, media, and civil associations. Counter-hegemony requires 'organic intellectuals' — thinkers who arise from and remain organically connected to a subordinate class, capable of articulating an alternative common sense. Gramsci's 'war of position' (building counter-hegemonic culture and institutions) must precede or accompany the 'war of maneuver' (direct confrontation with the state). The framework has been applied far beyond Marxism: neoliberalism achieved hegemony in the 1980s through a long ideological project (Hayek/Friedman ideas seeding think tanks, journalism schools, economics departments before Reagan/Thatcher policies); religious movements build civil-society presence before seeking state power; progressive social movements shift mainstream consent — marriage equality being a canonical recent case — before legislative victories follow. For a strategy executive, Gramscian analysis is useful for understanding why corporate narrative-building and reputational investment aren't soft — they're building the consent structures that make policy decisions sustainable."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "In Western tonal harmony, the Neapolitan chord (♭II6) is a chromatic harmony built on the flattened second scale degree in first inversion. From which musical tradition does it take its name?",
+        "subtopic": "economics",
+        "stem": "The Coase theorem holds that private bargaining produces efficient outcomes regardless of property rights assignment — as long as transaction costs are zero. Which condition most fundamentally blocks this theorem from solving diffuse environmental pollution?",
         "options": [
-          "The 18th-century Neapolitan school of Italian opera seria, associated with composers like Alessandro Scarlatti and Pergolesi",
-          "Baroque keyboard counterpoint pioneered by J.S. Bach in the Well-Tempered Clavier",
-          "Romantic-era German lieder — Schubert systematised it and is credited with coining the term",
-          "Renaissance sacred polyphony at the Vatican — Palestrina used it to resolve particularly tense dissonances"
+          "Governments systematically assign property rights to polluters rather than victims, making initial allocation non-neutral",
+          "Carbon markets create artificial property rights that do not reflect true social cost",
+          "Transaction costs for diffuse externalities — identifying all affected parties, overcoming free-rider problems, enforcing agreements — are prohibitively high in practice",
+          "The Coase theorem is definitionally restricted to two-party bargaining and cannot apply to multi-party externalities"
         ],
-        "correct": 0,
-        "why": "The chord is named after the Neapolitan school of 18th-century Italian opera (opera seria), where it became a characteristic harmonic device in emotionally heightened arias associated with composers working in Naples.",
-        "deepDive": "The Neapolitan chord (♭II or N6) is built by taking the second scale degree, flattening it by a semitone, and presenting the resulting major triad in first inversion (the third of the chord in the bass). In C major/minor, this yields a D♭ major chord with F in the bass: D♭–F–A♭. The name traces to the Neapolitan school — composers including Alessandro Scarlatti (1660–1725) and Giovanni Battista Pergolesi (1710–1736) working in Naples used it frequently in slow, emotionally heightened arias of opera seria, particularly in passages of pathos or lament. The chord spread into Viennese Classicism (Mozart, Beethoven's 'Moonlight' Sonata Op. 27 No. 2 and 'Pathétique' Op. 13) and became a Romantic-era signature in Schubert's lieder and Chopin's nocturnes. Common misconceptions: (1) many students attribute the term to Schubert, who used it prolifically but did not name it; (2) the 'Neapolitan sixth' name is purely geographic — the chord was not invented in Naples, but became associated with that operatic tradition; (3) students confuse it with 'modal mixture' — all Neapolitan chords involve chromatic alteration, but not all chromaticism is Neapolitan. Famous listening example: the brooding slow introduction of Beethoven's Op. 13 'Pathétique' Sonata contains a Neapolitan harmony that creates its theatrical emotional impact."
+        "correct": 2,
+        "why": "Coase himself framed the theorem as a thought experiment about what efficiency looks like without friction — his real argument was that transaction costs are the obstacle, not a caveat.",
+        "deepDive": "Ronald Coase's 1960 paper 'The Problem of Social Cost' (Journal of Law and Economics) is among the most-cited in all economics — and also among the most misread. The 'Coase theorem' (a term Coase never used) is typically summarised as: 'private bargaining solves externalities regardless of who holds property rights.' The real argument is more subtle: because markets have transaction costs and governments have transaction costs too, the efficient policy question is empirical — which institution handles the externality more cheaply? For small-scale, two-party externalities (a rancher's cattle trampling a farmer's crops), market bargaining may well be cheaper than court intervention. For diffuse pollution (10,000 emitters affecting 3 million people across state lines), transaction costs are essentially infinite. Coase's practical implication is the opposite of laissez-faire: because transaction costs are always positive, property rights assignment does matter, and government intervention can improve on market outcomes when externalities are diffuse. The Pigouvian tax (a per-unit tax equal to marginal external harm) remains the standard economics prescription for pollution — Coase didn't refute it, he contextualised when it's worth the cost of implementation."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Akira Kurosawa's 1950 film Rashomon gave cinema a lasting narrative concept now widely known as the 'Rashomon effect.' Which definition best describes it?",
+        "subtopic": "linguistics",
+        "stem": "Grimm's Law (1822) describes systematic consonant shifts distinguishing Proto-Germanic from Proto-Indo-European. Which of the following does Grimm's Law explicitly NOT cover?",
         "options": [
-          "A non-linear editing technique presenting scenes in reverse chronological order to create narrative tension",
-          "Multiple witnesses each giving contradictory, self-serving accounts of the same event, highlighting the subjectivity of memory",
-          "A camera technique circling 360° around the subject during key emotional confrontations",
-          "Overlapping parallel timelines shown simultaneously to represent a character's fragmented psychological state"
+          "PIE voiceless stops (p, t, k) shifting to Proto-Germanic fricatives (f, θ, h/x)",
+          "PIE voiced stops (b, d, g) devoicing to Proto-Germanic voiceless stops (p, t, k)",
+          "Long and short vowel quantity shifts in stressed syllables — lengthening and shortening across the Germanic branch",
+          "PIE voiced aspirated stops (bh, dh, gh) shifting to Proto-Germanic voiced fricatives or stops"
         ],
-        "correct": 1,
-        "why": "The Rashomon effect describes the phenomenon where multiple witnesses or narrators each recount the same event with mutually contradictory accounts, highlighting how memory is subjective and testimony unreliable.",
-        "deepDive": "Kurosawa's Rashomon (1950) adapts two short stories by Ryūnosuke Akutagawa — 'Rashomon' (the framing device) and 'In a Grove' (the core mystery). A samurai is found dead; four witnesses give irreconcilable accounts: the bandit Tajomaru, the samurai's wife, the samurai's ghost (via medium), and a woodcutter. No account is privileged; the film ends without resolving what 'really happened.' It won the Venice Golden Lion and the Academy Honorary Award (1952), introducing Japanese cinema to global audiences. The 'Rashomon effect' entered psychology, law, journalism, and philosophy as a term for how subjective memory and self-interest distort testimony — directly relevant to how courts evaluate conflicting witness accounts. Kurosawa's other landmark contributions: the troubadour-samurai archetype in Yojimbo (1961) became Sergio Leone's A Fistful of Dollars; Seven Samurai (1954) became the template for The Magnificent Seven and virtually every ensemble-heist film. Common misconception: students attribute the 'unreliable narrator' device to postmodern literature (Nabokov, Pynchon) — Kurosawa's film brought it to global mass consciousness a decade before postmodernism's peak, and the literary precedent traces to Robert Browning's 'The Ring and the Book' (1868) and earlier."
+        "correct": 2,
+        "why": "Grimm's Law is entirely about consonant shifts across three series. Vowel quantity changes in Germanic are a separate phenomenon — addressed by different rules and not part of Grimm's formulation.",
+        "deepDive": "Jacob Grimm (yes, the fairy tale collector) systematised the consonant correspondences between Sanskrit, Latin, Greek, and the Germanic languages in his Deutsche Grammatik (1822). The three shifts: (1) PIE voiceless stops → Proto-Germanic fricatives (Latin pater → English father; Latin tres → English three); (2) PIE voiced stops → PGmc voiceless stops (Latin duo → English two; Latin genus → English kin); (3) PIE voiced aspirates → PGmc voiced fricatives or stops (Sanskrit bhrātar → English brother). Verner's Law (1875) later explained Grimm's apparent exceptions by showing that spirants further shifted to voiced fricatives when the PIE stress accent fell on an adjacent syllable — a refinement demonstrating the underlying regularity more precisely. The key historical-linguistic insight that Grimm established: sound change is law-like and systematic, not random drift. This underpins the comparative method — the core methodology of historical linguistics. Common misconception: 'Grimm's Law' is not a general principle of language change but a specific, historically bounded consonant shift in a particular language family around 500-300 BCE."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "The four major Sunni schools of Islamic jurisprudence (madhabs) agree on core theology but hold divergent views on secondary legal questions. Which madhab is predominant in Bangladesh, Pakistan, Turkey, and across the former Ottoman Empire?",
+        "subtopic": "pop_culture",
+        "stem": "In Nolan's Inception (2010), the film plants a subtle visual tell distinguishing Cobb's dream world from reality throughout — deliberately separate from the spinning top totem. What is it?",
         "options": [
-          "Maliki",
-          "Shafi'i",
-          "Hanbali",
-          "Hanafi"
+          "Cobb's wedding ring appears only in dream sequences and is absent in every scene established as waking reality",
+          "The city skyline in dream sequences always contains at least one geometrically impossible building not present in reality",
+          "Cobb's gun is a different make in dreams versus reality — a production-design tell visible to careful viewers",
+          "The film score drops to near-silence in confirmed dream sequences, signalling their artificiality to attentive viewers"
         ],
-        "correct": 3,
-        "why": "Hanafi is the largest Sunni school by adherents, predominating in South Asia (Bangladesh, Pakistan, India), Turkey, Central Asia, and the former Ottoman territories — a legacy of the Ottoman Empire's adoption of Hanafi as state law.",
-        "deepDive": "The four Sunni madhabs were founded in the 8th–9th century CE and are each considered valid within Sunni orthodoxy. Hanafi (Abu Hanifa, d. 767 CE, Baghdad): South Asia (Bangladesh, Pakistan, India), Turkey, Central Asia, the Balkans, China's Muslim minorities. Known for extensive use of qiyas (analogical reasoning) and istihsan (juristic preference), making it relatively flexible in novel situations — hence its adoption by the expansionist Ottoman Empire, which needed adaptive legal tools. Maliki (Malik ibn Anas, d. 795 CE, Medina): North Africa, West Africa, parts of the Gulf (Kuwait, Qatar partially). Relies heavily on the practice (amal) of the people of Medina. Shafi'i (Muhammad ibn Idris al-Shafi'i, d. 820 CE): East Africa, Southeast Asia (Indonesia, Malaysia, Brunei), parts of the Levant. Al-Shafi'i systematised usul al-fiqh (principles of jurisprudence) in his Risala. Hanbali (Ahmad ibn Hanbal, d. 855 CE): Saudi Arabia (dominant), Qatar, parts of Syria. Most textualist school; basis for Wahhabism and Salafism. Common misconceptions: (1) most ordinary Muslims don't consciously follow a madhab — the distinction mainly matters for scholars and Islamic courts; (2) the schools differ on furu' (branches: prayer details, family law, contracts) not on usul al-aqida (core belief); (3) the Ottoman adoption of Hanafi law is why it persists as the background framework for Muslim personal law in Bangladesh, Pakistan, and other formerly Ottoman-adjacent territories."
+        "correct": 0,
+        "why": "In every dream sequence Cobb wears his wedding ring (Mal is alive); in every waking scene he does not. The final scene — no ring — signals he is awake independently of whether the top falls.",
+        "deepDive": "Christopher Nolan and production designer Guy Hendrix Dyas embedded the wedding ring as an intentional continuity tell. In Paris (dream), in the hotel Penrose staircase dream, in the snow fortress — Cobb is wearing the ring. In Los Angeles, at Miles' university, at the airport — no ring. The logic: in Cobb's dreams, Mal is alive, and in that version of reality he is still married; in waking reality he is a widower and doesn't wear the ring. The film thus has two independent ambiguity-resolution systems: the subjective totem (only the dreamer knows its exact feel — and Cobb's top was originally Mal's totem anyway, not his, undermining its validity as proof of reality) and the objective ring (visible to the audience, no interpretation required). Nolan has declined to confirm the ring reading explicitly — he prefers productive ambiguity — but it holds up to frame-by-frame analysis and has been verified by cinematographer Wally Pfister and multiple academic film analyses. The broader craft lesson: Nolan's design rewards active watching; he encodes resolution tools in the visual layer for viewers who want them while maintaining surface-level narrative ambiguity for those who don't."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Nobel Laureate Rabindranath Tagore wrote the national anthems of exactly two countries currently in use. Which two countries' anthems did he write?",
+        "subtopic": "history",
+        "stem": "The Berlin Conference (1884-85) formalised the Scramble for Africa. Which principle in the General Act of Berlin determined whether a European power's coastal territorial claim would be recognised by other signatories?",
         "options": [
-          "India and Bangladesh",
-          "India and Sri Lanka",
-          "Bangladesh and Myanmar",
-          "India and Nepal"
+          "The Hinterland Doctrine — any recognised coastal claim automatically extended inland to all adjacent unoccupied territory",
+          "The Bilateral Treaty Standard — each claim required a validated treaty with indigenous leaders witnessed by a neutral European observer",
+          "The Principle of Effective Occupation — the claimant must demonstrate actual physical presence and administrative control, not merely a map declaration",
+          "The Uti Possidetis Standard — colonial borders were fixed at the lines of existing missionary station territories"
         ],
-        "correct": 0,
-        "why": "Tagore wrote 'Jana Gana Mana' (India's national anthem, adopted 1950) and 'Amar Sonar Bangla' (Bangladesh's national anthem, adopted 1971). Sri Lanka's anthem was written by Ananda Samarakoon, a student of Tagore's, not Tagore himself.",
-        "deepDive": "Rabindranath Tagore (1861–1941) is the only person known to have written national anthems for two countries. 'Jana Gana Mana' was composed in Bengali in 1911 and adopted as India's national anthem in January 1950. 'Amar Sonar Bangla' (My Golden Bengal) was written in 1905 during the anti-Partition agitation against the British Partition of Bengal; it was chosen by the Mujibnagar government-in-exile during the 1971 Liberation War — a deliberate cultural identity assertion. Tagore won the Nobel Prize in Literature in 1913 — the first non-European Nobel laureate — for his self-translated English collection Gitanjali (Song Offerings). He founded Visva-Bharati University at Santiniketan (1921). The Sri Lanka misconception: Ananda Samarakoon (1911–1962) composed 'Sri Lanka Matha' in 1940 while studying at Tagore's Santiniketan — hence the confusion. Samarakoon was deeply influenced by Rabindra Sangeet (the genre of 2,000+ songs Tagore composed), but Tagore did not write the Sri Lankan anthem. Common misconception: many people believe Tagore was primarily a poet; he was simultaneously a novelist (Gora, The Home and the World), playwright, painter, educational philosopher, and the creator of an entire musical tradition (Rabindra Sangeet) that remains dominant in Bengali culture on both sides of the Bangladesh-India border."
+        "correct": 2,
+        "why": "Article 35 of the General Act required 'effective occupation' — actual administrative presence — for coastal claims to receive international recognition. This forced the physical rush to establish posts, garrisons, and administrations across the continent.",
+        "deepDive": "The Berlin Conference (hosted by Bismarck, attended by 14 states including the US as observer) is widely misrepresented as 'dividing Africa on a map.' It did not draw borders — it set the rules of the game. The key outputs: (1) free navigation principles on the Niger and Congo rivers; (2) recognition of Leopold II's personal Congo Free State — later the site of one of history's worst atrocities; (3) the effective occupation principle (Article 35) requiring demonstrable administrative presence for coastal claims. This principle was transformative: it turned paper claims into an arms race of physical occupation, triggering the rapid establishment of colonial posts, trading stations, and garrisons across sub-Saharan Africa between 1885 and 1900. Interior borders were not set at Berlin — they emerged from bilateral negotiations between European powers in the 1890s-1910s, producing the straight-line borders visible on modern maps. Common misconception: African rulers were not present at Berlin and had no agency in the proceedings; the 'bilateral treaty standard' (option B) describes what individual colonisers did informally, but it was not an Article 35 standard. Uti possidetis (option D) is a Latin American independence-era principle applied later to African decolonisation, not Berlin."
       }
     ]
   }
