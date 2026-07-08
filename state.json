@@ -1,17 +1,7 @@
 {
   "streak": 6,
-  "last_session_date": "2026-07-05",
+  "last_session_date": "2026-07-08",
   "questions_seen": [
-    "The first 6 digits of an HS (Harmonized System) code are standardised globally under the WCO. The digits beyond 6 typically represent:",
-    "A 'Neo-Panamax' container vessel is sized to:",
-    "In container shipping, 'demurrage' charges (as distinct from detention) apply specifically to:",
-    "Which two carriers form the 'Gemini Cooperation' alliance that began operating in February 2025 after the dissolution of 2M?",
-    "The Drewry World Container Index (WCI) and the Shanghai Containerized Freight Index (SCFI) differ in that:",
-    "The Strait of Hormuz — through which roughly a fifth of world oil trade passes — separates which two bodies of water?",
-    "Gabriel García Márquez's 'One Hundred Years of Solitude' (1967) is most closely associated with which literary movement?",
-    "The endosymbiotic theory holds that mitochondria originated as:",
-    "In mainstream Hindu cosmology, the Trimurti (the three principal deities representing creation, preservation, and dissolution) consists of:",
-    "Which composer is most associated with bridging the Classical and Romantic eras of Western art music, transforming the symphony as a form?",
     "Under Incoterms 2020, which Incoterm requires the seller to procure insurance covering 'all risks' (Institute Cargo Clauses A or equivalent) for the buyer's benefit?",
     "Which of the following best describes a 'Switch Bill of Lading' in international shipping?",
     "On a container freight invoice, the 'BAF' (Bunker Adjustment Factor) surcharge is intended to:",
@@ -501,7 +491,17 @@
     "The Coase theorem holds that private bargaining produces efficient outcomes rega",
     "Grimm's Law (1822) describes systematic consonant shifts distinguishing Proto-Ge",
     "In Nolan's Inception (2010), the film plants a subtle visual tell distinguishing",
-    "The Berlin Conference (1884-85) formalised the Scramble for Africa. Which princi"
+    "The Berlin Conference (1884-85) formalised the Scramble for Africa. Which princi",
+    "What obligation does a seller assume under CIF (Cost, Insurance and Freight) that they do NOT assume under CFR",
+    "A shipper consigns an ocean bill of lading 'To Order' and endorses it in blank before handing it to a bank",
+    "A Bunker Adjustment Factor (BAF) clause in an ocean freight contract is designed primarily to:",
+    "A shipment measures 120 cm x 80 cm x 75 cm and weighs 75 kg gross. Using IATA's volumetric conversion",
+    "Under RCEP's Change in Tariff Classification (CTC) rule, a finished woven garment (HS Chapter 62) assembled",
+    "The Strait of Hormuz, through which roughly 20% of globally traded oil passes, is bordered on its northern",
+    "Archimedes' Principle states the upward buoyant force on an object equals the weight of fluid displaced.",
+    "CRISPR-Cas9 achieves targeted gene editing through a two-component mechanism. What role does the guide RNA",
+    "Bayes' Theorem gives the posterior probability P(A|B) — the probability of A given that B has occurred.",
+    "Gabriel Garcia Marquez's narrative mode, magical realism, is best distinguished from fantasy fiction by:"
   ],
   "learn_history": [
     {
@@ -758,12 +758,17 @@
       "date": "2026-07-05",
       "topic": "High Bandwidth Memory: The Stacked-DRAM Bottleneck Driving Every AI Chip Headline",
       "bucket": "semiconductor_foundations"
+    },
+    {
+      "date": "2026-07-08",
+      "topic": "The Suez Crisis (1956): How a Canal Nationalization Ended British Imperial Reach and Rewired Global Trade",
+      "bucket": "history"
     }
   ],
   "curriculum_progress": {
     "incoterms": {
-      "count": 12,
-      "last_seen": "2026-06-25",
+      "count": 13,
+      "last_seen": "2026-07-08",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -774,8 +779,8 @@
       "rolling_score": []
     },
     "bill_of_lading": {
-      "count": 12,
-      "last_seen": "2026-06-25",
+      "count": 13,
+      "last_seen": "2026-07-08",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -798,8 +803,8 @@
       "rolling_score": []
     },
     "pricing": {
-      "count": 12,
-      "last_seen": "2026-06-25",
+      "count": 13,
+      "last_seen": "2026-07-08",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -810,8 +815,8 @@
       "rolling_score": []
     },
     "air_freight": {
-      "count": 12,
-      "last_seen": "2026-06-25",
+      "count": 13,
+      "last_seen": "2026-07-08",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -828,8 +833,8 @@
       "rolling_score": []
     },
     "ftas": {
-      "count": 12,
-      "last_seen": "2026-06-25",
+      "count": 13,
+      "last_seen": "2026-07-08",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -890,32 +895,32 @@
       "rolling_score": []
     },
     "geography": {
-      "count": 18,
-      "last_seen": "2026-06-30",
+      "count": 19,
+      "last_seen": "2026-07-08",
       "difficulty": 4,
       "rolling_score": []
     },
     "physical_science": {
-      "count": 19,
-      "last_seen": "2026-06-30",
+      "count": 20,
+      "last_seen": "2026-07-08",
       "difficulty": 3,
       "rolling_score": []
     },
     "life_science": {
-      "count": 19,
-      "last_seen": "2026-06-30",
+      "count": 20,
+      "last_seen": "2026-07-08",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 19,
-      "last_seen": "2026-06-30",
+      "count": 20,
+      "last_seen": "2026-07-08",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 17,
-      "last_seen": "2026-07-01",
+      "count": 18,
+      "last_seen": "2026-07-08",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -970,159 +975,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-07-05",
+    "date": "2026-07-08",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "What most accurately distinguishes an 'integrator' (FedEx, UPS, DHL Express) from a traditional combination carrier in air cargo?",
+        "subtopic": "incoterms",
+        "stem": "What obligation does a seller assume under CIF (Cost, Insurance and Freight) that they do NOT assume under CFR (Cost and Freight), all other terms being equal?",
         "options": [
-          "Integrators own the full door-to-door chain — aircraft, vehicles, IT, customs brokerage — controlling the express pipeline end-to-end; combination carriers rely on third-party handlers beyond the aircraft",
-          "Integrators exclusively carry parcels under 30 kg; combination carriers handle bulk freight only",
-          "Integrators operate solely under FAA Part 119; combination carriers operate under IATA rules exclusively",
-          "Integrators use only passenger belly space; combination carriers operate dedicated freighters only"
+          "Arranging and paying ocean freight to the named destination port",
+          "Procuring and paying for minimum marine cargo insurance during the ocean leg for the buyer's benefit",
+          "Completing export customs clearance formalities at the port of origin",
+          "Bearing all risk of cargo loss from the moment goods leave the factory gate"
         ],
-        "correct": 0,
-        "why": "The defining integrator trait is end-to-end ownership: own aircraft, own ground fleet, own IT, own customs — allowing guaranteed overnight service impossible with fragmented handler chains.",
-        "deepDive": "Integrators emerged from FedEx's 1971 hub-and-spoke model out of Memphis. The key innovation was vertical integration — owning every link in the chain so no handoff introduced uncertainty. FedEx today operates 700+ aircraft and 180,000+ vehicles. Compare with Emirates SkyCargo or Cathay Cargo (combination carriers): they sell belly and freighter capacity to forwarders, who arrange last-mile delivery with local agents. The integrator model requires massive capex but enables premium pricing; forwarder-dependent carriers are asset-lighter but cede margin. Amazon Air is an interesting hybrid — operating freighters for its own cargo, building integrator-style infrastructure but retaining e-commerce ownership of demand. The practical distinction for logistics executives: integrators set rates, control timing, and bear delivery risk end-to-end; combination carriers are origin-to-destination only, with no downstream accountability. This matters for SLA negotiations — a combination carrier's 'delivery time' is typically the airport-to-airport leg only."
+        "correct": 1,
+        "why": "CIF adds one obligation to CFR: the seller must procure minimum marine insurance (typically Institute Cargo Clauses C at 110% of invoice value) for the buyer's benefit. Risk transfer point is identical in both terms.",
+        "deepDive": "CFR and CIF are both C-group Incoterms — named port of destination, meaning the seller pays freight to the far port, but risk transfers to the buyer at the port of origin the moment goods are on board the vessel. The sole difference is the letter I. Under CIF, the seller must arrange insurance for the buyer's benefit, typically at Institute Cargo Clauses (C) minimum — coverage of roughly 110% of invoice value against major perils only. Sophisticated importers often prefer CFR and arrange their own superior cover (Clauses A, which covers all risks) because sellers buying minimum CIF cover are technically compliant but leave cargo exposed to many excluded perils. The risk-transfer point is identical in both terms — a common misconception is that CIF gives the buyer additional protection during transit. It does not; it merely shifts who pays for minimum cover. For Bangladesh RMG exporters: most EU and US buyers specify CIF or CFR; understanding the insurance gap is a negotiating point on high-value or high-volume shipments where Clauses C versus A exposure is material."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "Ted Stevens Anchorage International (ANC) ranks among the world's top 5 cargo airports by tonnage despite serving a city of 300,000. What makes it operationally indispensable on transpacific air freight routes?",
+        "subtopic": "bill_of_lading",
+        "stem": "A shipper consigns an ocean bill of lading 'To Order' and endorses it in blank before handing it to a bank under a Letter of Credit. What key legal property does this create?",
         "options": [
-          "Its great-circle position places it within fuel range of both Northeast Asia and the US Pacific coast, making it the natural refueling pivot for transpacific freighters without detouring",
-          "Its free trade zone allows duty-free transshipment between Asia and North America without US customs clearance",
-          "It is the only FAA-approved facility outside the continental US cleared for 747-8F maximum structural payload landings",
-          "US-China bilateral air agreements require a mandatory ANC technical stop for wet-lease freighter operations"
+          "The carrier must seek written consent from the named notify party before releasing cargo at destination",
+          "Title to the cargo can be transferred to a new holder simply by endorsing and physically delivering the original B/L",
+          "The shipper retains an irrevocable right to re-route the cargo up to the port-of-loading departure",
+          "The bank automatically acquires first-priority maritime lien over the cargo, ranking above unpaid freight charges"
         ],
-        "correct": 0,
-        "why": "Great-circle arcs from Tokyo/Seoul/Beijing to Chicago/New York pass over Alaska. ANC sits at the midpoint — freighters stage full payload, refuel, and continue without the penalty of a detouring stop.",
-        "deepDive": "Great-circle navigation makes Anchorage an unlikely logistics superpower. A 747F from Shanghai to Chicago tracks almost directly over the Aleutian chain, passing within minutes of ANC. The airport offers two long runways, 24-hour operations, no curfews, no slot constraints, and massive cold-chain infrastructure — handling over 3 million metric tonnes annually, more than Frankfurt or Singapore by some measures. FedEx, UPS, Korean Air Cargo, Lufthansa Cargo, and dozens of charter operators use it as a staging hub. Cold-chain capability is a genuine commercial differentiator: Alaskan seafood moves east at ambient-cold, while pharma and electronics move west with temperature monitoring. For freighter operations, ANC's lack of congestion and slot pressure distinguishes it from every comparable hub — HKG, NRT, and LAX all impose slot or curfew constraints. The airport's commercial success is entirely a function of geography: it would be a mid-sized domestic airport without the transpacific routing coincidence."
+        "correct": 1,
+        "why": "A blank-endorsed 'To Order' B/L is negotiable bearer paper — physical possession plus endorsement confers the right to take delivery, enabling the document to be pledged to a bank or sold mid-voyage.",
+        "deepDive": "The 'To Order' bill of lading is the cornerstone of documentary trade finance, enabling banks to hold cargo as collateral under Letters of Credit. When a B/L is drawn 'To Order' and the shipper endorses it in blank — just a signature, no named transferee — it effectively becomes bearer paper: whoever presents the original can claim the goods at destination. This allows commodity cargoes to be traded multiple times while at sea. Banks hold original B/Ls as security; the consignee cannot obtain cargo at Chittagong or any other port without surrendering the original. Key misconception: electronic bills of lading (eBLs) replicate this functionality through registries like Bolero, WAVE BL, or essDOCS — but carrier acceptance remains inconsistent and the legal framework varies by jurisdiction. The critical distinction for any logistics operation is between a straight (non-negotiable) B/L — consigned to a named party, not transferable — and a negotiable 'To Order' B/L. Using a straight B/L under an LC is a common documentary error that can trigger payment refusal by the issuing bank."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "MSC's acquisition of Bolloré Logistics' Africa business (rebranded Africa Global Logistics, AGL) is the largest-ever logistics transaction in Africa. What was the primary strategic rationale, and why did it concern competitors?",
+        "subtopic": "pricing",
+        "stem": "A Bunker Adjustment Factor (BAF) clause in an ocean freight contract is designed primarily to:",
         "options": [
-          "MSC gained a shipping line + destination logistics platform across 46 African countries, integrating sea freight with inland trucking and customs — competitors feared MSC would preferentially route AGL cargo onto MSC vessels",
-          "The deal gave MSC operational control of 17 Bolloré port terminal concessions, controlling one-third of African container capacity",
-          "MSC used AGL to undercut Maersk's Africa rates by cross-subsidising ocean freight with logistics margin",
-          "Bolloré's francophone political network was bundled with the logistics business, giving MSC regulatory influence competitors couldn't replicate"
+          "Allow the carrier to renegotiate the entire base freight rate if Brent crude stays above a threshold for 30 consecutive days",
+          "Pass fuel cost fluctuations through to shippers as a separate, floating charge outside the contracted base rate",
+          "Compensate the carrier for slow-steaming losses when vessels reduce speed below economical optimum to manage supply",
+          "Trigger automatic force majeure relief if bunker costs rise more than 20% quarter-on-quarter"
         ],
-        "correct": 0,
-        "why": "Vertical integration — carrier plus destination logistics — was the core thesis. Kuehne+Nagel and DHL worried MSC could discriminate against third-party forwarders in markets where AGL controlled the last mile.",
-        "deepDive": "The MSC-Bolloré Logistics deal (€5.7B, closed 2023) was part of the 2020s wave of carrier vertical integration: MSC, Maersk, and CMA CGM all acquired freight forwarders and logistics platforms to capture a larger share of the cargo value chain beyond ocean freight. Bolloré Logistics was particularly attractive: operations in 46 countries, port handling, inland trucking, rail concessions, and deep customs relationships built over 60 years in francophone and Anglophone Africa. The renamed AGL operates as a semi-autonomous division within MSC Group. Regulatory concern centred on bundled market power: in markets where AGL controls port handling plus customs plus inland trucks, a shipper who needs MSC ocean capacity and AGL ground services effectively has no alternative provider. Maersk ran the same playbook via Damco and LF Logistics acquisitions; CMA CGM acquired CEVA Logistics. The trend reflects a structural bet that shipper relationships are won through integrated solutions, not transactional rate competition."
+        "correct": 1,
+        "why": "BAF is a cost pass-through mechanism — carriers separately bill shippers for bunker price movements above the reference level used when the base freight was calculated, keeping base rate and fuel cost cleanly separated.",
+        "deepDive": "The Bunker Adjustment Factor emerged from the oil shocks of the 1970s as carriers needed a mechanism to recover fuel cost volatility without renegotiating long-term service contracts. Today BAF formulas are typically updated monthly or quarterly, pegged to published bunker price indices — Rotterdam VLSFO or Singapore IFO 380. The formula usually accounts for vessel fuel efficiency (tonnes consumed per TEU per voyage) multiplied by the price delta from a reference level at contract signing. Since IMO 2020's low-sulphur fuel mandate, many carriers now layer a separate Environmental Fuel Surcharge (EFS) or Bunker Recovery Charge (BRC) on top of BAF, reflecting the premium of VLSFO over HFO — adding complexity and opacity to shipper invoices. Shippers negotiating long-term contracts should seek to: (1) tie BAF to a published third-party index rather than carrier-calculated figures; (2) cap BAF exposure with a corridor or ceiling; (3) clarify whether EFS and BRC are subsumed within BAF or stacked separately. Uncapped BAF exposure can swing contract economics by $200-400 per TEU in a volatile year — highly material for high-volume freight buyers."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "A shipper holding a Named Account Contract (NAC) commits to 500 TEU/month for 12 months at $2,000/FEU. By month 9, spot rates collapse to $900/FEU and the shipper diverts cargo to spot. Under standard NAC mechanics, what happens to the monthly shortfall?",
+        "subtopic": "air_freight",
+        "stem": "A shipment measures 120 cm x 80 cm x 75 cm and weighs 75 kg gross. Using IATA's volumetric conversion factor of 6,000 cm3/kg, what is the correct chargeable weight?",
         "options": [
-          "The GRI clause automatically resets the NAC rate to within 15% of spot under FMC tariff rules",
-          "The shortfall carries forward as a credit applied to future months in the same contract period",
-          "The carrier can invoke Minimum Quantity Commitment shortfall charges — typically 10-25% of unshipped revenue — penalising the shipper for routing off-contract",
-          "Force majeure covers market-driven rate disparities, so no penalty applies if the shipper notifies the carrier 30 days in advance"
+          "75 kg",
+          "120 kg",
+          "240 kg",
+          "720 kg"
         ],
-        "correct": 2,
-        "why": "MQC shortfall charges are the contractual mechanism that makes committed volume binding — designed specifically to deter cargo diversion to spot when contract rates exceed the market.",
-        "deepDive": "Named Account Contracts govern the bulk of large-shipper ocean freight, covering hundreds of millions of TEUs annually. Standard NAC elements: base rate, MQC, rate validity window, GRI caps, and shortfall clause. The shortfall mechanism works as follows: the carrier invoices the shipper for a percentage (typically 10-25%) of the revenue on the volume gap between committed and actual shipments. For a 300-TEU shortfall at $2,000/FEU, the carrier might charge $60,000-$150,000. In practice, enforcement depends on the relationship — a 10,000-TEU shipper typically renegotiates informally; a 500-TEU shipper faces the full clause. The US-specific overlay: NVOCCs must file NVOCCs Service Arrangements (NSAs) with the FMC, but FMC rules don't require rate matching to spot. The key strategic lesson: MQC shortfall liability should be modelled at contract signing as a scenario — not discovered mid-contract when spot collapses. In 2022-23, many shippers learned this the hard way when spot fell 80% while they held contracts at peak-year rates."
+        "correct": 1,
+        "why": "Volume = 120 x 80 x 75 = 720,000 cm3. Volumetric weight = 720,000 / 6,000 = 120 kg. Since 120 kg exceeds 75 kg actual, the chargeable weight is 120 kg.",
+        "deepDive": "Air freight is charged on the higher of actual (gross) weight or volumetric (dimensional) weight, because aircraft hold capacity is limited by volume, not just mass. IATA's standard volumetric factor for air freight is 6,000 cm3 per kilogram — equivalent to 1 cubic metre = 166.67 kg volumetric weight. To calculate: multiply L x W x H in centimetres, divide by 6,000. A common error is mixing metres and centimetres — always work in centimetres throughout. The 6,000 factor applies to standard air freight; express couriers (FedEx, DHL, UPS) typically use 5,000 cm3/kg, yielding higher chargeable weights for bulky shipments. Ocean freight uses a different convention: 1 Revenue Tonne (RT) equals the higher of 1,000 kg or 1 CBM, making the crossover point very different. For Bangladesh RMG exports: tightly packed garments are relatively dense, so actual weight typically wins; but accessories, packaging materials, or samples in oversized cartons can easily flip to volumetric — an invoice audit should routinely check this, as overcharging on dimensional weight is a common discrepancy."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "In a 4-tier supply chain, a 5% swing in end-consumer demand amplifies to a 40% swing at the supplier level — the bullwhip effect. Which intervention addresses the root cause rather than buffering its symptoms?",
+        "subtopic": "ftas",
+        "stem": "Under RCEP's Change in Tariff Classification (CTC) rule, a finished woven garment (HS Chapter 62) assembled from imported non-originating fabric (HS Chapter 54) in Vietnam would:",
         "options": [
-          "Holding 60 days of safety stock at every tier to absorb amplified variability",
-          "Consolidating orders into monthly batches to reduce the frequency of demand signals",
-          "Sharing real-time point-of-sale data across all tiers so every node responds to actual consumption rather than its downstream partner's orders",
-          "Switching from pull replenishment to push-based production planning with fixed production runs"
+          "Fail to qualify because all fabric must originate within RCEP member states under a yarn-forward standard",
+          "Qualify as originating because the HS classification changes from Chapter 54 (fabric) to Chapter 62 (garment) — a sufficient transformation under CTC",
+          "Qualify only if the regional value content (RVC) of Vietnamese inputs exceeds 40% of FOB value",
+          "Require a product-specific waiver approved by RCEP's Joint Committee before preferential rates may apply"
         ],
-        "correct": 2,
-        "why": "The bullwhip is caused by information distortion — each tier orders based on orders received, not actual consumer demand. POS data sharing eliminates the distortion at source; safety stock and batching only reduce its downstream impact.",
-        "deepDive": "Hau Lee, Padmanabhan, and Whang named and quantified the bullwhip effect in their landmark 1997 Management Science paper, tracing it through P&G's diaper supply chain where a near-constant consumer demand produced wild swings at the raw materials level. The four root causes: demand signal processing (over-ordering to hedge uncertainty), order batching (infrequent lumpy orders), price fluctuations (forward buying during promotions), and shortage gaming (over-ordering when capacity is constrained). Structural solutions: real-time POS data sharing, vendor-managed inventory (VMI — P&G manages Walmart's diapers based on scan data), and collaborative forecasting (CPFR). Safety stock and faster logistics are symptomatic — they smooth the impact but leave the distortion engine running. Today every advanced supply chain platform (Kinaxis, o9, Blue Yonder) is essentially automated CPFR. For an MGH-style conglomerate running multi-tier logistics networks in Bangladesh, understanding the bullwhip matters because customers who experience a demand shock will over-order from you, creating a false signal that distorts your own capacity planning if you don't look through it."
+        "correct": 1,
+        "why": "CTC at the 2-digit chapter level (54 to 62) satisfies the RCEP rule for most apparel categories — the classification change demonstrates sufficient domestic transformation regardless of where the fabric originated.",
+        "deepDive": "RCEP (Regional Comprehensive Economic Partnership) covers 15 Asia-Pacific nations including China, Japan, South Korea, ASEAN, Australia, and New Zealand — approximately 30% of global GDP and trade. It uses three primary rules-of-origin methods: CTC (Change in Tariff Classification, typically at HS 2-digit chapter or 4-digit heading level), RVC (Regional Value Content, usually 40% of FOB), and SP (Specific Process for chemicals). For most apparel and textiles, CTC at the 2-digit chapter level is sufficient — fabric (Chapter 54) cut and sewn into a garment (Chapter 62) in an RCEP member counts as originating even if the fabric came from outside RCEP. This is materially more lenient than US yarn-forward rules under its bilateral trade agreements. Bangladesh is not yet an RCEP member — accession is in progress. Once in, Bangladesh's RMG sector could source fabric from China (an RCEP member) and export finished garments to Japan, Korea, and Australia duty-free under RCEP, transforming the sourcing economics for vertically integrated logistics and supply chain operations in the region."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "Gramsci argued bourgeois domination is maintained not just by coercive state power but by 'hegemony' — winning active consent from the dominated. What did he mean by 'counter-hegemony'?",
+        "subtopic": "geography",
+        "stem": "The Strait of Hormuz, through which roughly 20% of globally traded oil passes, is bordered on its northern and southern shores by which two territories?",
         "options": [
-          "Organising a rapid military uprising before the state can mobilise its security apparatus",
-          "The subaltern class developing its own organic intellectuals, winning ideological consent in civil society, and building an alternative worldview before seizing state power",
-          "Using electoral politics to accumulate institutional power gradually until a parliamentary majority enables socialist legislation",
-          "Globalising labour movements to break the national frame in which ruling-class hegemony is exercised"
+          "Saudi Arabia and Yemen",
+          "Iran to the north and Oman's Musandam Peninsula (plus UAE) to the south",
+          "Iraq and Kuwait",
+          "Qatar and Bahrain"
         ],
         "correct": 1,
-        "why": "Gramsci's 'war of position' — winning consent in schools, media, and culture — was the prerequisite for any 'war of maneuver.' Organic intellectuals from the subaltern class are the agents of this cultural shift.",
-        "deepDive": "Antonio Gramsci wrote most of his key ideas in the Prison Notebooks (1929-35) while imprisoned by Mussolini. His central insight was that Marx underestimated culture and ideology: ruling classes don't just dominate through force — they naturalise their worldview as 'common sense' through schools, churches, media, and civil associations. Counter-hegemony requires 'organic intellectuals' — thinkers who arise from and remain organically connected to a subordinate class, capable of articulating an alternative common sense. Gramsci's 'war of position' (building counter-hegemonic culture and institutions) must precede or accompany the 'war of maneuver' (direct confrontation with the state). The framework has been applied far beyond Marxism: neoliberalism achieved hegemony in the 1980s through a long ideological project (Hayek/Friedman ideas seeding think tanks, journalism schools, economics departments before Reagan/Thatcher policies); religious movements build civil-society presence before seeking state power; progressive social movements shift mainstream consent — marriage equality being a canonical recent case — before legislative victories follow. For a strategy executive, Gramscian analysis is useful for understanding why corporate narrative-building and reputational investment aren't soft — they're building the consent structures that make policy decisions sustainable."
+        "why": "Iran forms the entire northern shore; Oman's Musandam exclave — physically separated from the rest of Oman by UAE territory — forms the southern tip, with UAE waters fronting the broader southern approach.",
+        "deepDive": "The Strait of Hormuz narrows to roughly 33-60 km, with navigable shipping channels only about 3.2 km wide in each direction, separated by a buffer zone. Musandam is a geographic anomaly — a peninsula belonging to Oman but physically detached from mainland Oman by UAE territory; residents must cross the UAE to access the rest of Oman by land. About 20 million barrels of oil per day transited Hormuz in 2024, alongside LNG from Qatar (the world's largest LNG exporter) and container goods from UAE's Jebel Ali, the world's largest man-made harbour. Iran has threatened closure at least three times since 1979 and demonstrated in 2026 that it will act. The only partial alternative is Saudi Arabia's East-West Pipeline, capacity around 5 million b/d — leaving the vast majority of Gulf crude with no bypass option. For Bangladesh: Indian Ocean shipping lanes, of which Hormuz is the northern gateway, carry roughly 60-70% of Bangladesh's export cargo in transit through the wider region — disruptions ripple directly into Chittagong port scheduling and freight cost."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The Coase theorem holds that private bargaining produces efficient outcomes regardless of property rights assignment — as long as transaction costs are zero. Which condition most fundamentally blocks this theorem from solving diffuse environmental pollution?",
+        "subtopic": "physical_science",
+        "stem": "Archimedes' Principle states the upward buoyant force on an object equals the weight of fluid displaced. For a freely floating ship, the weight of seawater displaced equals:",
         "options": [
-          "Governments systematically assign property rights to polluters rather than victims, making initial allocation non-neutral",
-          "Carbon markets create artificial property rights that do not reflect true social cost",
-          "Transaction costs for diffuse externalities — identifying all affected parties, overcoming free-rider problems, enforcing agreements — are prohibitively high in practice",
-          "The Coase theorem is definitionally restricted to two-party bargaining and cannot apply to multi-party externalities"
+          "The total volume of the ship multiplied by seawater density",
+          "The volume of the submerged portion multiplied by seawater density — which exactly equals the ship's own weight",
+          "Exactly half the ship's weight, independent of its geometry",
+          "The ship's weight multiplied by the ratio of steel density to seawater density"
         ],
-        "correct": 2,
-        "why": "Coase himself framed the theorem as a thought experiment about what efficiency looks like without friction — his real argument was that transaction costs are the obstacle, not a caveat.",
-        "deepDive": "Ronald Coase's 1960 paper 'The Problem of Social Cost' (Journal of Law and Economics) is among the most-cited in all economics — and also among the most misread. The 'Coase theorem' (a term Coase never used) is typically summarised as: 'private bargaining solves externalities regardless of who holds property rights.' The real argument is more subtle: because markets have transaction costs and governments have transaction costs too, the efficient policy question is empirical — which institution handles the externality more cheaply? For small-scale, two-party externalities (a rancher's cattle trampling a farmer's crops), market bargaining may well be cheaper than court intervention. For diffuse pollution (10,000 emitters affecting 3 million people across state lines), transaction costs are essentially infinite. Coase's practical implication is the opposite of laissez-faire: because transaction costs are always positive, property rights assignment does matter, and government intervention can improve on market outcomes when externalities are diffuse. The Pigouvian tax (a per-unit tax equal to marginal external harm) remains the standard economics prescription for pollution — Coase didn't refute it, he contextualised when it's worth the cost of implementation."
+        "correct": 1,
+        "why": "A floating ship is in vertical equilibrium — buoyant force equals gravitational force. The ship sinks until the submerged-volume times seawater density times g equals the ship's own weight.",
+        "deepDive": "Archimedes' insight has a crucial depth. For a FULLY SUBMERGED object, displaced volume equals object volume (buoyant force = density_fluid x V_object x g). For a FLOATING object, only a fraction is submerged, and that fraction adjusts until displaced-water weight exactly equals object weight. This is why a hollow steel ship floats despite steel being about 8 times denser than water: the ship's average density (steel plus air interior) is less than water. As cargo is loaded, the ship sinks deeper until it displaces the additional weight added. The Plimsoll line — load-line marks on every commercial vessel's hull — specifies maximum legal immersion depth, varying by water type: salt water is denser than fresh, so a ship floats higher at sea than in a freshwater river. This is directly relevant to Bangladesh: vessels transiting from Chittagong (salt water) upriver to Narayanganj or Dhaka (fresh water) ride lower and must account for reduced buoyancy and shallower draught tolerances. The Plimsoll marks include six zones: TF (Tropical Fresh), F (Fresh), T (Tropical), S (Summer), W (Winter), WNA (Winter North Atlantic) — each specifying different maximum loaded draught for that water type and season."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "Grimm's Law (1822) describes systematic consonant shifts distinguishing Proto-Germanic from Proto-Indo-European. Which of the following does Grimm's Law explicitly NOT cover?",
+        "subtopic": "life_science",
+        "stem": "CRISPR-Cas9 achieves targeted gene editing through a two-component mechanism. What role does the guide RNA (gRNA) play?",
         "options": [
-          "PIE voiceless stops (p, t, k) shifting to Proto-Germanic fricatives (f, θ, h/x)",
-          "PIE voiced stops (b, d, g) devoicing to Proto-Germanic voiceless stops (p, t, k)",
-          "Long and short vowel quantity shifts in stressed syllables — lengthening and shortening across the Germanic branch",
-          "PIE voiced aspirated stops (bh, dh, gh) shifting to Proto-Germanic voiced fricatives or stops"
+          "The gRNA carries a corrective DNA sequence that replaces the faulty gene by direct insertion at the cut site",
+          "The gRNA provides the molecular address — base-pairing with the target DNA sequence to direct Cas9 precisely to the cut site",
+          "The gRNA activates the cell's endogenous repair enzymes without requiring the Cas9 protein to function",
+          "The gRNA methylates the promoter region of the target gene to permanently silence its expression"
         ],
-        "correct": 2,
-        "why": "Grimm's Law is entirely about consonant shifts across three series. Vowel quantity changes in Germanic are a separate phenomenon — addressed by different rules and not part of Grimm's formulation.",
-        "deepDive": "Jacob Grimm (yes, the fairy tale collector) systematised the consonant correspondences between Sanskrit, Latin, Greek, and the Germanic languages in his Deutsche Grammatik (1822). The three shifts: (1) PIE voiceless stops → Proto-Germanic fricatives (Latin pater → English father; Latin tres → English three); (2) PIE voiced stops → PGmc voiceless stops (Latin duo → English two; Latin genus → English kin); (3) PIE voiced aspirates → PGmc voiced fricatives or stops (Sanskrit bhrātar → English brother). Verner's Law (1875) later explained Grimm's apparent exceptions by showing that spirants further shifted to voiced fricatives when the PIE stress accent fell on an adjacent syllable — a refinement demonstrating the underlying regularity more precisely. The key historical-linguistic insight that Grimm established: sound change is law-like and systematic, not random drift. This underpins the comparative method — the core methodology of historical linguistics. Common misconception: 'Grimm's Law' is not a general principle of language change but a specific, historically bounded consonant shift in a particular language family around 500-300 BCE."
+        "correct": 1,
+        "why": "The gRNA's 20-nucleotide spacer sequence is complementary to the target DNA, acting as a molecular address label that positions the Cas9 nuclease precisely over the intended cut site.",
+        "deepDive": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) was discovered as a bacterial immune system — bacteria store snippets of past viral sequences between these repeats and use them to recognise and destroy returning viruses. Jennifer Doudna and Emmanuelle Charpentier (2020 Nobel Prize in Chemistry) adapted it into a programmable editing tool. The two-component system: (1) guide RNA — roughly 100 nucleotides, including a 20-nucleotide spacer matching the target sequence plus a scaffold structure that Cas9 grips; (2) Cas9 — an endonuclease that cuts both DNA strands when parked at the gRNA-specified site. Once the double-strand break occurs, the cell's repair machinery activates: NHEJ (Non-Homologous End Joining) is error-prone, typically disrupting the gene; HDR (Homology-Directed Repair), when a repair template is supplied, allows precise sequence substitutions. Approved medical applications include Casgevy for sickle-cell disease (2023) and hereditary blindness treatments. Key misconception: CRISPR is not perfectly precise — off-target cuts at similar sequences remain a real concern, driving research into next-generation tools like base editors (which change one DNA letter without a double-strand break) and prime editors (which enable more extensive rewriting with greater accuracy)."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "In Nolan's Inception (2010), the film plants a subtle visual tell distinguishing Cobb's dream world from reality throughout — deliberately separate from the spinning top totem. What is it?",
+        "subtopic": "mathematics",
+        "stem": "Bayes' Theorem gives the posterior probability P(A|B) — the probability of A given that B has occurred. Which formula correctly expresses it?",
         "options": [
-          "Cobb's wedding ring appears only in dream sequences and is absent in every scene established as waking reality",
-          "The city skyline in dream sequences always contains at least one geometrically impossible building not present in reality",
-          "Cobb's gun is a different make in dreams versus reality — a production-design tell visible to careful viewers",
-          "The film score drops to near-silence in confirmed dream sequences, signalling their artificiality to attentive viewers"
+          "P(A|B) = P(A) + P(B|A) minus P(B)",
+          "P(A|B) = P(A) times P(B)",
+          "P(A|B) = P(B|A) times P(A) divided by P(B)",
+          "P(A|B) = P(B|A) divided by [P(B|A) plus P(A)]"
         ],
-        "correct": 0,
-        "why": "In every dream sequence Cobb wears his wedding ring (Mal is alive); in every waking scene he does not. The final scene — no ring — signals he is awake independently of whether the top falls.",
-        "deepDive": "Christopher Nolan and production designer Guy Hendrix Dyas embedded the wedding ring as an intentional continuity tell. In Paris (dream), in the hotel Penrose staircase dream, in the snow fortress — Cobb is wearing the ring. In Los Angeles, at Miles' university, at the airport — no ring. The logic: in Cobb's dreams, Mal is alive, and in that version of reality he is still married; in waking reality he is a widower and doesn't wear the ring. The film thus has two independent ambiguity-resolution systems: the subjective totem (only the dreamer knows its exact feel — and Cobb's top was originally Mal's totem anyway, not his, undermining its validity as proof of reality) and the objective ring (visible to the audience, no interpretation required). Nolan has declined to confirm the ring reading explicitly — he prefers productive ambiguity — but it holds up to frame-by-frame analysis and has been verified by cinematographer Wally Pfister and multiple academic film analyses. The broader craft lesson: Nolan's design rewards active watching; he encodes resolution tools in the visual layer for viewers who want them while maintaining surface-level narrative ambiguity for those who don't."
+        "correct": 2,
+        "why": "P(A|B) = P(B|A) x P(A) / P(B). P(B|A) is the likelihood, P(A) is the prior, P(B) is the normalising constant, and P(A|B) is the updated posterior belief.",
+        "deepDive": "Bayes' Theorem, published posthumously in 1763 (Thomas Bayes, 1701-1761, published by his friend Richard Price), lay largely dormant until the 20th century when it became the foundation of probabilistic reasoning, spam filters, medical diagnostics, weather forecasting, and machine learning. The Bayesian loop: start with a prior belief P(A), observe evidence B, update to posterior P(A|B). The counterintuitive power is illustrated by the base-rate fallacy: a disease affects 1% of the population; a test is 99% accurate (1% false-positive rate). If you test positive, most people guess the probability of having the disease is 99% — the correct answer is about 50%. Bayes: P(disease|+) = [0.99 x 0.01] / [(0.99 x 0.01) + (0.01 x 0.99)] = approximately 0.5. The rare base rate (1%) dominates. This has direct policy relevance: mass screening low-risk populations with even very accurate tests floods clinics with false positives. For a commercial executive, Bayesian updating is the formal framework for what you do intuitively when you revise a market estimate on new data — starting from priors (historical win rate, base demand) and updating on evidence (this quarter's order signals, competitor moves). Modern AI language models are fundamentally Bayesian in their probabilistic architecture."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The Berlin Conference (1884-85) formalised the Scramble for Africa. Which principle in the General Act of Berlin determined whether a European power's coastal territorial claim would be recognised by other signatories?",
+        "subtopic": "literature",
+        "stem": "Gabriel Garcia Marquez's narrative mode, magical realism, is best distinguished from fantasy fiction by:",
         "options": [
-          "The Hinterland Doctrine — any recognised coastal claim automatically extended inland to all adjacent unoccupied territory",
-          "The Bilateral Treaty Standard — each claim required a validated treaty with indigenous leaders witnessed by a neutral European observer",
-          "The Principle of Effective Occupation — the claimant must demonstrate actual physical presence and administrative control, not merely a map declaration",
-          "The Uti Possidetis Standard — colonial borders were fixed at the lines of existing missionary station territories"
+          "Its exclusive sourcing of supernatural elements from Latin American indigenous mythology",
+          "Its presentation of extraordinary or miraculous events as unremarkable, matter-of-fact occurrences within a realistic social world — without authorial or character surprise",
+          "Its requirement that all supernatural events be explainable by the story's end as psychological delusion",
+          "Its stream-of-consciousness technique that abandons linear chronology to mirror subjective inner experience"
         ],
-        "correct": 2,
-        "why": "Article 35 of the General Act required 'effective occupation' — actual administrative presence — for coastal claims to receive international recognition. This forced the physical rush to establish posts, garrisons, and administrations across the continent.",
-        "deepDive": "The Berlin Conference (hosted by Bismarck, attended by 14 states including the US as observer) is widely misrepresented as 'dividing Africa on a map.' It did not draw borders — it set the rules of the game. The key outputs: (1) free navigation principles on the Niger and Congo rivers; (2) recognition of Leopold II's personal Congo Free State — later the site of one of history's worst atrocities; (3) the effective occupation principle (Article 35) requiring demonstrable administrative presence for coastal claims. This principle was transformative: it turned paper claims into an arms race of physical occupation, triggering the rapid establishment of colonial posts, trading stations, and garrisons across sub-Saharan Africa between 1885 and 1900. Interior borders were not set at Berlin — they emerged from bilateral negotiations between European powers in the 1890s-1910s, producing the straight-line borders visible on modern maps. Common misconception: African rulers were not present at Berlin and had no agency in the proceedings; the 'bilateral treaty standard' (option B) describes what individual colonisers did informally, but it was not an Article 35 standard. Uti possidetis (option D) is a Latin American independence-era principle applied later to African decolonisation, not Berlin."
+        "correct": 1,
+        "why": "Magical realism's defining feature is narrative tone, not content: the miraculous is reported with the same deadpan register as everyday events, unlike fantasy which builds separate rules and frames magic as extraordinary.",
+        "deepDive": "Garcia Marquez, the Colombian Nobel Laureate (1982), popularised magical realism globally in One Hundred Years of Solitude (1967), but the term itself was coined by German art critic Franz Roh in the 1920s to describe post-expressionist painting. The technique: events that would be supernatural in realist fiction — a woman ascending bodily to heaven while folding laundry, yellow flowers raining from the sky at a death — are narrated in the same deadpan, factual tone as mundane domestic details, without authorial pause or character astonishment. This mirrors oral storytelling traditions across Latin America, South Asia, and West Africa, where the boundary between the material and spiritual worlds is fluid rather than fixed. Magical realism differs structurally from fantasy (Tolkien builds separate physics; magic is remarkable and explained) and surrealism (which intentionally disorients and alienates the reader). Key works: Remedios the Beauty's ascension in Solitude, Salman Rushdie's Midnight's Children, Arundhati Roy's The God of Small Things, Laura Esquivel's Like Water for Chocolate. For a Bangladeshi reader: Rabindranath Tagore's folk tales and Manik Bandyopadhyay's mythic realism sit in the same tradition — the mode is not uniquely Latin American but a recurring feature of postcolonial literary imagination where the rational and spiritual coexist without contradiction."
       }
     ]
   }
