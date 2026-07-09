@@ -1,17 +1,7 @@
 {
   "streak": 6,
-  "last_session_date": "2026-07-08",
+  "last_session_date": "2026-07-09",
   "questions_seen": [
-    "Under Incoterms 2020, which Incoterm requires the seller to procure insurance covering 'all risks' (Institute Cargo Clauses A or equivalent) for the buyer's benefit?",
-    "Which of the following best describes a 'Switch Bill of Lading' in international shipping?",
-    "On a container freight invoice, the 'BAF' (Bunker Adjustment Factor) surcharge is intended to:",
-    "Under EU Everything But Arms (EBA), Bangladesh currently exports duty-free to the EU. After Bangladesh's LDC graduation in November 2026, EBA preferences are extended under what arrangement?",
-    "The IATA volumetric (dimensional) weight divisor used to compute chargeable weight for general air cargo is:",
-    "The Treaty of Westphalia (1648) is conventionally cited as the foundation of which concept in international relations?",
-    "Heisenberg's uncertainty principle states that:",
-    "Euler's identity — often called the 'most beautiful equation in mathematics' — is:",
-    "'Guernica' (1937), the large mural-sized painting depicting the bombing of a Basque town during the Spanish Civil War, was painted by:",
-    "The 'Sapir–Whorf hypothesis' in linguistics proposes that:",
     "A 'Capesize' bulk carrier gets its name because it:",
     "In container shipping, Terminal Handling Charges (THC) are set and invoiced by:",
     "The Gemini Cooperation, which launched in February 2025, consists of which two ocean carriers?",
@@ -501,7 +491,17 @@
     "Archimedes' Principle states the upward buoyant force on an object equals the weight of fluid displaced.",
     "CRISPR-Cas9 achieves targeted gene editing through a two-component mechanism. What role does the guide RNA",
     "Bayes' Theorem gives the posterior probability P(A|B) — the probability of A given that B has occurred.",
-    "Gabriel Garcia Marquez's narrative mode, magical realism, is best distinguished from fantasy fiction by:"
+    "Gabriel Garcia Marquez's narrative mode, magical realism, is best distinguished from fantasy fiction by:",
+    "The India-Middle East-Europe Economic Corridor (IMEC), announced at the G20 in September 2023, routes cargo between India and Europe via which intermediate geography?",
+    "A containership rerouting from the Suez Canal to the Cape of Good Hope to avoid the Red Sea adds approximately how many extra nautical miles to an Asia-to-Northern-Europe voyage?",
+    "In a General Average (GA) event under the York-Antwerp Rules, a captain jettisons 50 containers to save the ship and remaining cargo from imminent grounding. Which parties bear the resulting financial loss?",
+    "Under the US Uyghur Forced Labor Prevention Act (UFLPA, effective June 2022), what legal presumption applies to goods produced wholly or in part in China's Xinjiang Uyghur Autonomous Region?",
+    "The Baltic Dry Index (BDI), published daily by the Baltic Exchange in London, is a composite of freight rate assessments across which three dry bulk vessel size categories?",
+    "Japanese director Yasujiro Ozu (1903-1963) is famous for a distinctive low-angle shot filmed from approximately 3 feet off the ground. What is this technique called, and what cultural reference does it invoke?",
+    "J.S. Bach's 'The Well-Tempered Clavier' (1722 and 1742) was historically significant primarily because it demonstrated the viability of which tuning innovation for keyboard instruments?",
+    "The First Council of Nicaea (325 CE) resolved the Arian controversy by declaring Christ to be 'homoousios' with God the Father. What does 'homoousios' mean, and what did it refute?",
+    "In cricket's Duckworth-Lewis-Stern (DLS) method, what is the fundamental mathematical concept underpinning the rain-rule target recalculation?",
+    "Grimm's Law, formulated by Jacob Grimm in 1822, describes a systematic and regular shift of consonant sounds. Which language branch does it specifically characterise, and what type of change does it describe?"
   ],
   "learn_history": [
     {
@@ -763,6 +763,11 @@
       "date": "2026-07-08",
       "topic": "The Suez Crisis (1956): How a Canal Nationalization Ended British Imperial Reach and Rewired Global Trade",
       "bucket": "history"
+    },
+    {
+      "date": "2026-07-09",
+      "topic": "The Hajj Economy: Sacred Pilgrimage as One of the World's Most Compressed Logistics Operations",
+      "bucket": "religion"
     }
   ],
   "curriculum_progress": {
@@ -821,14 +826,14 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 12,
-      "last_seen": "2026-07-01",
+      "count": 13,
+      "last_seen": "2026-07-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 12,
-      "last_seen": "2026-07-01",
+      "count": 13,
+      "last_seen": "2026-07-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -839,20 +844,20 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 12,
-      "last_seen": "2026-07-01",
+      "count": 13,
+      "last_seen": "2026-07-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "compliance": {
-      "count": 12,
-      "last_seen": "2026-07-01",
+      "count": 13,
+      "last_seen": "2026-07-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 12,
-      "last_seen": "2026-07-01",
+      "count": 13,
+      "last_seen": "2026-07-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -925,20 +930,20 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 17,
-      "last_seen": "2026-07-01",
+      "count": 18,
+      "last_seen": "2026-07-09",
       "difficulty": 3,
       "rolling_score": []
     },
     "music": {
-      "count": 17,
-      "last_seen": "2026-07-01",
+      "count": 18,
+      "last_seen": "2026-07-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "religion": {
-      "count": 17,
-      "last_seen": "2026-07-01",
+      "count": 18,
+      "last_seen": "2026-07-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -955,14 +960,14 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 17,
-      "last_seen": "2026-07-05",
+      "count": 18,
+      "last_seen": "2026-07-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "sport": {
-      "count": 17,
-      "last_seen": "2026-07-01",
+      "count": 18,
+      "last_seen": "2026-07-09",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -975,159 +980,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "incoterms",
-        "stem": "What obligation does a seller assume under CIF (Cost, Insurance and Freight) that they do NOT assume under CFR (Cost and Freight), all other terms being equal?",
+        "subtopic": "multimodal",
+        "stem": "The India-Middle East-Europe Economic Corridor (IMEC), announced at the G20 in September 2023, routes cargo between India and Europe via which intermediate geography?",
         "options": [
-          "Arranging and paying ocean freight to the named destination port",
-          "Procuring and paying for minimum marine cargo insurance during the ocean leg for the buyer's benefit",
-          "Completing export customs clearance formalities at the port of origin",
-          "Bearing all risk of cargo loss from the moment goods leave the factory gate"
+          "Through Iran and the Persian Gulf to Turkey, bypassing the Suez Canal entirely",
+          "Sea from India to UAE/Saudi Arabia, then overland rail through Saudi Arabia-Jordan-Israel, then sea again to Greek or Italian ports",
+          "China-Europe rail via Kazakhstan, Russia, and the Northern Corridor under a BRI co-investment structure",
+          "Through Egypt via a new Nile-to-Mediterranean rail link designed to complement Suez Canal capacity"
         ],
         "correct": 1,
-        "why": "CIF adds one obligation to CFR: the seller must procure minimum marine insurance (typically Institute Cargo Clauses C at 110% of invoice value) for the buyer's benefit. Risk transfer point is identical in both terms.",
-        "deepDive": "CFR and CIF are both C-group Incoterms — named port of destination, meaning the seller pays freight to the far port, but risk transfers to the buyer at the port of origin the moment goods are on board the vessel. The sole difference is the letter I. Under CIF, the seller must arrange insurance for the buyer's benefit, typically at Institute Cargo Clauses (C) minimum — coverage of roughly 110% of invoice value against major perils only. Sophisticated importers often prefer CFR and arrange their own superior cover (Clauses A, which covers all risks) because sellers buying minimum CIF cover are technically compliant but leave cargo exposed to many excluded perils. The risk-transfer point is identical in both terms — a common misconception is that CIF gives the buyer additional protection during transit. It does not; it merely shifts who pays for minimum cover. For Bangladesh RMG exporters: most EU and US buyers specify CIF or CFR; understanding the insurance gap is a negotiating point on high-value or high-volume shipments where Clauses C versus A exposure is material."
+        "why": "IMEC routes India to UAE/Saudi Arabia by ship, then overland through the Arabian Peninsula via Jordan and Israel, then sea to Greece/Italy — a US-backed alternative to BRI that sidesteps Suez.",
+        "deepDive": "IMEC (India-Middle East-Europe Economic Corridor) was announced at G20 New Delhi in September 2023 as a US-backed infrastructure initiative signed by India, UAE, Saudi Arabia, Jordan, Israel, the EU, and the US. The route: India by sea to UAE or Saudi Arabia; overland rail through the Arabian Peninsula via Jordan and Israel; then ship again to Greece or Italy entering the EU market. IMEC is explicitly framed as a strategic counterweight to China's Belt and Road Initiative, giving India a direct Europe corridor bypassing both Pakistan (overland BRI) and the Suez Canal bottleneck. After the October 2023 Gaza war began, the Israel leg faced political complications, stalling implementation discussions through 2024-25. For freight professionals, IMEC represents a genuine intermodal bet: shorter dwell times and potentially faster transit than Suez routing if the political environment settles. The corridor also positions UAE's Jebel Ali as a critical transshipment hub between South Asia and European markets — highly relevant for MGH Group's regional positioning."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "bill_of_lading",
-        "stem": "A shipper consigns an ocean bill of lading 'To Order' and endorses it in blank before handing it to a bank under a Letter of Credit. What key legal property does this create?",
+        "subtopic": "trade_lanes",
+        "stem": "A containership rerouting from the Suez Canal to the Cape of Good Hope to avoid the Red Sea adds approximately how many extra nautical miles to an Asia-to-Northern-Europe voyage?",
         "options": [
-          "The carrier must seek written consent from the named notify party before releasing cargo at destination",
-          "Title to the cargo can be transferred to a new holder simply by endorsing and physically delivering the original B/L",
-          "The shipper retains an irrevocable right to re-route the cargo up to the port-of-loading departure",
-          "The bank automatically acquires first-priority maritime lien over the cargo, ranking above unpaid freight charges"
+          "1,500–2,000 nautical miles",
+          "3,000–4,000 nautical miles",
+          "6,000–7,000 nautical miles",
+          "10,000+ nautical miles"
         ],
-        "correct": 1,
-        "why": "A blank-endorsed 'To Order' B/L is negotiable bearer paper — physical possession plus endorsement confers the right to take delivery, enabling the document to be pledged to a bank or sold mid-voyage.",
-        "deepDive": "The 'To Order' bill of lading is the cornerstone of documentary trade finance, enabling banks to hold cargo as collateral under Letters of Credit. When a B/L is drawn 'To Order' and the shipper endorses it in blank — just a signature, no named transferee — it effectively becomes bearer paper: whoever presents the original can claim the goods at destination. This allows commodity cargoes to be traded multiple times while at sea. Banks hold original B/Ls as security; the consignee cannot obtain cargo at Chittagong or any other port without surrendering the original. Key misconception: electronic bills of lading (eBLs) replicate this functionality through registries like Bolero, WAVE BL, or essDOCS — but carrier acceptance remains inconsistent and the legal framework varies by jurisdiction. The critical distinction for any logistics operation is between a straight (non-negotiable) B/L — consigned to a named party, not transferable — and a negotiable 'To Order' B/L. Using a straight B/L under an LC is a common documentary error that can trigger payment refusal by the issuing bank."
+        "correct": 2,
+        "why": "Asia-N.Europe via Suez is ~10,500 nm; via Cape it is ~16,500-17,000 nm — approximately 6,000-7,000 extra nautical miles, adding roughly 10-14 additional steaming days.",
+        "deepDive": "The standard Suez route from Singapore to Rotterdam covers roughly 10,500 nautical miles. Rerouting around the Cape of Good Hope adds approximately 6,000-7,000 nm, bringing the total to 16,500-17,000 nm. At 18-20 knots service speed, that translates to 10-14 additional days of steaming. The economic knock-on effects are compounding: fuel consumption increases roughly 25-30%; charter hire extends for a longer duration; and the effective supply of container shipping capacity contracts — ships are 'absorbed' by the longer voyage and turn around less frequently, reducing the number of trips per vessel per year. This capacity withdrawal was the primary mechanism behind the 50-200% freight rate spikes seen in early 2024. Cape routing also favours operators with larger, more fuel-efficient Ultra-Large Container Vessels (ULCVs) since fuel is the dominant operating cost on such long routes. For Bangladesh's RMG exporters: the Chittagong-to-Rotterdam corridor is directly affected, and the cargo imbalance created by Cape diversion (fewer containers returning to Asia promptly) can also affect equipment availability and empty-container repositioning costs."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "pricing",
-        "stem": "A Bunker Adjustment Factor (BAF) clause in an ocean freight contract is designed primarily to:",
+        "subtopic": "marine_insurance",
+        "stem": "In a General Average (GA) event under the York-Antwerp Rules, a captain jettisons 50 containers to save the ship and remaining cargo from imminent grounding. Which parties bear the resulting financial loss?",
         "options": [
-          "Allow the carrier to renegotiate the entire base freight rate if Brent crude stays above a threshold for 30 consecutive days",
-          "Pass fuel cost fluctuations through to shippers as a separate, floating charge outside the contracted base rate",
-          "Compensate the carrier for slow-steaming losses when vessels reduce speed below economical optimum to manage supply",
-          "Trigger automatic force majeure relief if bunker costs rise more than 20% quarter-on-quarter"
+          "The shipowner alone, who is fully liable for any deliberate sacrifice made to preserve the vessel",
+          "Only the consignees whose cargo was physically jettisoned — each bears their own individual loss",
+          "All parties with a salved financial interest in the common maritime adventure — ship, cargo, and freight — contribute proportionally to the sacrifice based on the value each had saved",
+          "The marine insurer of the jettisoned cargo pays the full claim; owners of undamaged cargo have no financial obligation"
         ],
-        "correct": 1,
-        "why": "BAF is a cost pass-through mechanism — carriers separately bill shippers for bunker price movements above the reference level used when the base freight was calculated, keeping base rate and fuel cost cleanly separated.",
-        "deepDive": "The Bunker Adjustment Factor emerged from the oil shocks of the 1970s as carriers needed a mechanism to recover fuel cost volatility without renegotiating long-term service contracts. Today BAF formulas are typically updated monthly or quarterly, pegged to published bunker price indices — Rotterdam VLSFO or Singapore IFO 380. The formula usually accounts for vessel fuel efficiency (tonnes consumed per TEU per voyage) multiplied by the price delta from a reference level at contract signing. Since IMO 2020's low-sulphur fuel mandate, many carriers now layer a separate Environmental Fuel Surcharge (EFS) or Bunker Recovery Charge (BRC) on top of BAF, reflecting the premium of VLSFO over HFO — adding complexity and opacity to shipper invoices. Shippers negotiating long-term contracts should seek to: (1) tie BAF to a published third-party index rather than carrier-calculated figures; (2) cap BAF exposure with a corridor or ceiling; (3) clarify whether EFS and BRC are subsumed within BAF or stacked separately. Uncapped BAF exposure can swing contract economics by $200-400 per TEU in a volatile year — highly material for high-volume freight buyers."
+        "correct": 2,
+        "why": "GA requires all saved interests — ship, cargo, and freight — to share the intentional sacrifice proportionally. Consignees receiving undamaged cargo still contribute to the GA fund.",
+        "deepDive": "General Average is a principle of maritime law dating to at least the Rhodian Sea Law (c. 800 BCE): when a deliberate sacrifice is made to save the common maritime venture, all parties who benefited from that sacrifice share the loss in proportion to their salved value. Under the York-Antwerp Rules (latest revision: 2016, adopted by most modern voyage contracts), each cargo owner must contribute a GA fraction calculated as (their cargo's salved value) / (total salved property value) x total GA sacrifice amount. This means consignees receiving undamaged cargo may still owe a GA contribution to the shipowner before cargo is released at destination — a GA bond (and often a cash deposit of 15-25% of cargo value) is typically required. The GA adjustment is handled by a specialist GA Adjuster, often taking 2-5 years to resolve complex multi-cargo events. Practically: cargo insured under ICC Clause A (all risks) is protected against GA contributions by the insurer. Shippers holding only ICC Clause C cover — or no cover at all — face unprotected GA contributions that can be substantial. For Bangladesh exporters: most large RMG shipments involve high-volume LCL or FCL cargo, where a single GA event on a ULCV carrying 20,000 TEU can result in GA calls across hundreds of consignees simultaneously."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "air_freight",
-        "stem": "A shipment measures 120 cm x 80 cm x 75 cm and weighs 75 kg gross. Using IATA's volumetric conversion factor of 6,000 cm3/kg, what is the correct chargeable weight?",
+        "subtopic": "compliance",
+        "stem": "Under the US Uyghur Forced Labor Prevention Act (UFLPA, effective June 2022), what legal presumption applies to goods produced wholly or in part in China's Xinjiang Uyghur Autonomous Region?",
         "options": [
-          "75 kg",
-          "120 kg",
-          "240 kg",
-          "720 kg"
+          "Goods are presumed compliant with US import law unless the government produces direct evidence of forced labor in the specific supply chain",
+          "Goods are presumed made with forced labor and are prohibited from US import, unless the importer rebuts the presumption with clear and convincing evidence reviewed by CBP",
+          "Only goods produced by companies on the UFLPA Entity List face restrictions; all other Xinjiang-origin goods enter freely",
+          "CBP detains goods pending a joint US-China customs verification and releases them upon receiving a Chinese government certificate of origin"
         ],
         "correct": 1,
-        "why": "Volume = 120 x 80 x 75 = 720,000 cm3. Volumetric weight = 720,000 / 6,000 = 120 kg. Since 120 kg exceeds 75 kg actual, the chargeable weight is 120 kg.",
-        "deepDive": "Air freight is charged on the higher of actual (gross) weight or volumetric (dimensional) weight, because aircraft hold capacity is limited by volume, not just mass. IATA's standard volumetric factor for air freight is 6,000 cm3 per kilogram — equivalent to 1 cubic metre = 166.67 kg volumetric weight. To calculate: multiply L x W x H in centimetres, divide by 6,000. A common error is mixing metres and centimetres — always work in centimetres throughout. The 6,000 factor applies to standard air freight; express couriers (FedEx, DHL, UPS) typically use 5,000 cm3/kg, yielding higher chargeable weights for bulky shipments. Ocean freight uses a different convention: 1 Revenue Tonne (RT) equals the higher of 1,000 kg or 1 CBM, making the crossover point very different. For Bangladesh RMG exports: tightly packed garments are relatively dense, so actual weight typically wins; but accessories, packaging materials, or samples in oversized cartons can easily flip to volumetric — an invoice audit should routinely check this, as overcharging on dimensional weight is a common discrepancy."
+        "why": "UFLPA creates a rebuttable presumption: all Xinjiang-origin goods are banned as made with forced labor; the importer must overcome it with clear and convincing evidence reviewed by US Customs and Border Protection.",
+        "deepDive": "The UFLPA (signed June 21, 2022; effective September 21, 2022) creates a rebuttable presumption under 19 U.S.C. 1307 that any goods mined, produced, or manufactured wholly or in part in the Xinjiang Uyghur Autonomous Region — or by entities on the UFLPA Entity List — were made with forced labor and are therefore prohibited from US import. The presumption is extraordinarily difficult to rebut: the importer must provide 'clear and convincing evidence' (a very high legal standard) that the specific supply chain is forced-labor-free, reviewed by CBP with input from DHS, State, and USTR. CBP's enforcement has expanded well beyond textiles to solar polysilicon, aluminum, steel, electronics, and automotive parts. The Entity List (maintained by DHS) currently names hundreds of Chinese entities across agriculture, textiles, and technology. For logistics operators, UFLPA compliance requires deep supply chain tracing: a garment assembled in Vietnam using Xinjiang cotton yarn can still be detained at a US port. Due diligence tools now include satellite imagery of cotton fields and isotope testing of fibers to establish geographic origin. The practical compliance burden — supply chain mapping, affidavits, audit trails — falls on the importer of record, making UFLPA compliance a significant commercial and operational risk for any company sourcing from the broader China supply chain."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "ftas",
-        "stem": "Under RCEP's Change in Tariff Classification (CTC) rule, a finished woven garment (HS Chapter 62) assembled from imported non-originating fabric (HS Chapter 54) in Vietnam would:",
+        "subtopic": "industry_econ",
+        "stem": "The Baltic Dry Index (BDI), published daily by the Baltic Exchange in London, is a composite of freight rate assessments across which three dry bulk vessel size categories?",
         "options": [
-          "Fail to qualify because all fabric must originate within RCEP member states under a yarn-forward standard",
-          "Qualify as originating because the HS classification changes from Chapter 54 (fabric) to Chapter 62 (garment) — a sufficient transformation under CTC",
-          "Qualify only if the regional value content (RVC) of Vietnamese inputs exceeds 40% of FOB value",
-          "Require a product-specific waiver approved by RCEP's Joint Committee before preferential rates may apply"
+          "VLCC, Suezmax, and Aframax (these are tanker segments, not dry bulk)",
+          "Capesize, Panamax, and Supramax (dry bulk segments since the 2018 removal of Handysize)",
+          "Handysize, Handymax, and Panamax (the original 1985 three-component BDI)",
+          "Capesize, VLOC (Very Large Ore Carrier), and Newcastlemax"
         ],
         "correct": 1,
-        "why": "CTC at the 2-digit chapter level (54 to 62) satisfies the RCEP rule for most apparel categories — the classification change demonstrates sufficient domestic transformation regardless of where the fabric originated.",
-        "deepDive": "RCEP (Regional Comprehensive Economic Partnership) covers 15 Asia-Pacific nations including China, Japan, South Korea, ASEAN, Australia, and New Zealand — approximately 30% of global GDP and trade. It uses three primary rules-of-origin methods: CTC (Change in Tariff Classification, typically at HS 2-digit chapter or 4-digit heading level), RVC (Regional Value Content, usually 40% of FOB), and SP (Specific Process for chemicals). For most apparel and textiles, CTC at the 2-digit chapter level is sufficient — fabric (Chapter 54) cut and sewn into a garment (Chapter 62) in an RCEP member counts as originating even if the fabric came from outside RCEP. This is materially more lenient than US yarn-forward rules under its bilateral trade agreements. Bangladesh is not yet an RCEP member — accession is in progress. Once in, Bangladesh's RMG sector could source fabric from China (an RCEP member) and export finished garments to Japan, Korea, and Australia duty-free under RCEP, transforming the sourcing economics for vertically integrated logistics and supply chain operations in the region."
+        "why": "Since 2018, the BDI is calculated from three sub-indices: Capesize (BCI, 40% weight), Panamax (BPI, 30%), and Supramax (BSI, 30%). Handysize was removed from the composite that year.",
+        "deepDive": "The Baltic Dry Index, published continuously since 1985, is the most widely cited barometer of dry bulk shipping costs globally. Originally a four-component index including the Handysize segment (BHSI), the Baltic Exchange restructured the BDI in 2018 to three components: Capesize (roughly 40% weight), Panamax (30%), and Supramax (30%). Each component is derived from daily freight rate assessments on standard benchmark routes — for example, the C5 route (Western Australia to Qingdao, iron ore) for Capesize; P2 (Rotterdam to Skaw-Passero, grain) for Panamax; S1 (Canakkale to Port Kelang) for Supramax. The BDI functions as a leading economic indicator because dry bulk vessels carry the raw materials of industrial production: iron ore and coal (steel), grain (food), bauxite (aluminum), and fertilisers (agriculture). A rising BDI signals demand for these inputs — typically preceding manufacturing upticks by 2-4 months. The Capesize sub-index (BCI) is the most volatile, often swinging 10-20% in a week on Chinese iron ore import decisions. Key misconception: the BDI measures only voyage charter rates — not time charter rates, not container shipping, and not tanker markets (which have their own Baltic indices: BDTI for dirty tankers, BCTI for clean tankers)."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Strait of Hormuz, through which roughly 20% of globally traded oil passes, is bordered on its northern and southern shores by which two territories?",
+        "subtopic": "arts",
+        "stem": "Japanese director Yasujiro Ozu (1903-1963) is famous for a distinctive low-angle shot filmed from approximately 3 feet off the ground. What is this technique called, and what cultural reference does it invoke?",
         "options": [
-          "Saudi Arabia and Yemen",
-          "Iran to the north and Oman's Musandam Peninsula (plus UAE) to the south",
-          "Iraq and Kuwait",
-          "Qatar and Bahrain"
+          "The Dutch angle — a tilted camera used to convey psychological unease in Ozu's family dramas",
+          "The tatami shot (or tatami view) — camera placed at the eye level of a person seated on a traditional Japanese tatami mat",
+          "Deep focus — a technique in which both foreground and background remain in sharp focus simultaneously",
+          "The pillow shot — a cutaway to inanimate objects used between scenes to create emotional breathing room"
         ],
         "correct": 1,
-        "why": "Iran forms the entire northern shore; Oman's Musandam exclave — physically separated from the rest of Oman by UAE territory — forms the southern tip, with UAE waters fronting the broader southern approach.",
-        "deepDive": "The Strait of Hormuz narrows to roughly 33-60 km, with navigable shipping channels only about 3.2 km wide in each direction, separated by a buffer zone. Musandam is a geographic anomaly — a peninsula belonging to Oman but physically detached from mainland Oman by UAE territory; residents must cross the UAE to access the rest of Oman by land. About 20 million barrels of oil per day transited Hormuz in 2024, alongside LNG from Qatar (the world's largest LNG exporter) and container goods from UAE's Jebel Ali, the world's largest man-made harbour. Iran has threatened closure at least three times since 1979 and demonstrated in 2026 that it will act. The only partial alternative is Saudi Arabia's East-West Pipeline, capacity around 5 million b/d — leaving the vast majority of Gulf crude with no bypass option. For Bangladesh: Indian Ocean shipping lanes, of which Hormuz is the northern gateway, carry roughly 60-70% of Bangladesh's export cargo in transit through the wider region — disruptions ripple directly into Chittagong port scheduling and freight cost."
+        "why": "Ozu's camera sat at ~90cm — the eye level of someone seated on a tatami mat — creating the 'tatami shot' that gives his films their distinctive posture of domestic intimacy.",
+        "deepDive": "Yasujiro Ozu (1903-1963) is widely considered one of the greatest filmmakers in cinema history, though he remained largely unknown outside Japan until Wim Wenders' 1985 documentary 'Tokyo-Ga' introduced him to Western audiences. The tatami shot — camera at approximately 90cm (3 feet) off the ground — corresponds to the eye level of a person seated on a Japanese tatami mat. Ozu also famously avoided camera movement entirely (no pans, tilts, or tracking shots); cut against Hollywood continuity conventions (cutting on action in mismatched eyelines); and used 'pillow shots' — static cutaways to inanimate objects (teapots, corridors, chimneys, train wheels) between dialogue scenes to create emotional breathing room and rhythm. Film scholars argue his low angle induces a posture of humility in the viewer: observing Japanese domestic life from below, as a respectful guest sitting on the floor. His masterworks include 'Tokyo Story' (1953), often voted the greatest film ever made in critics' polls; 'Late Spring' (1949); and 'Good Morning' (1959). Despite making films for over 35 years, he rarely deviated from domestic drama (shomingeki) and was accused by some contemporaries of making the same film repeatedly — a charge he dismissed as equivalent to criticising a poet for only writing in their native language."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "Archimedes' Principle states the upward buoyant force on an object equals the weight of fluid displaced. For a freely floating ship, the weight of seawater displaced equals:",
+        "subtopic": "music",
+        "stem": "J.S. Bach's 'The Well-Tempered Clavier' (1722 and 1742) was historically significant primarily because it demonstrated the viability of which tuning innovation for keyboard instruments?",
         "options": [
-          "The total volume of the ship multiplied by seawater density",
-          "The volume of the submerged portion multiplied by seawater density — which exactly equals the ship's own weight",
-          "Exactly half the ship's weight, independent of its geometry",
-          "The ship's weight multiplied by the ratio of steel density to seawater density"
+          "Pythagorean tuning — stacking 12 perfect fifths to generate all chromatic pitches with pure 3:2 ratios throughout",
+          "Just intonation — using small-integer frequency ratios for all intervals to maximise consonance in any one key",
+          "Well temperament — a tuning that makes all 24 major and minor keys usable on a single keyboard without retuning, each retaining a slightly distinct character",
+          "Equal temperament — dividing the octave into 12 exactly equal semitones with an identical frequency ratio of 2^(1/12)"
         ],
-        "correct": 1,
-        "why": "A floating ship is in vertical equilibrium — buoyant force equals gravitational force. The ship sinks until the submerged-volume times seawater density times g equals the ship's own weight.",
-        "deepDive": "Archimedes' insight has a crucial depth. For a FULLY SUBMERGED object, displaced volume equals object volume (buoyant force = density_fluid x V_object x g). For a FLOATING object, only a fraction is submerged, and that fraction adjusts until displaced-water weight exactly equals object weight. This is why a hollow steel ship floats despite steel being about 8 times denser than water: the ship's average density (steel plus air interior) is less than water. As cargo is loaded, the ship sinks deeper until it displaces the additional weight added. The Plimsoll line — load-line marks on every commercial vessel's hull — specifies maximum legal immersion depth, varying by water type: salt water is denser than fresh, so a ship floats higher at sea than in a freshwater river. This is directly relevant to Bangladesh: vessels transiting from Chittagong (salt water) upriver to Narayanganj or Dhaka (fresh water) ride lower and must account for reduced buoyancy and shallower draught tolerances. The Plimsoll marks include six zones: TF (Tropical Fresh), F (Fresh), T (Tropical), S (Summer), W (Winter), WNA (Winter North Atlantic) — each specifying different maximum loaded draught for that water type and season."
+        "correct": 2,
+        "why": "Bach wrote 48 preludes and fugues — two per key across all 24 major and minor keys — to prove 'well temperament' made every key playable on a single tuned harpsichord or clavichord.",
+        "deepDive": "Before well and equal temperament, keyboard instruments were tuned in meantone or Pythagorean systems that produced pure, consonant fifths in common keys (C, G, D, F major) but catastrophically dissonant 'wolf intervals' in distant keys (G-sharp major, B-flat minor). Bach composed 48 preludes and fugues — two complete cycles of all 24 keys, one each in Books I (1722) and II (1742) — to demonstrate that a 'well-tempered' keyboard sounded acceptable and musically satisfying in every key simultaneously. 'Well temperament' is not identical to modern equal temperament: in well temperament, different keys retain subtly different characters, slightly unequal in their intervals, so C major sounds bright and confident while Eb minor sounds dark and melancholic. Beethoven and Schubert chose keys deliberately for these emotional colours. Equal temperament — where all 12 semitones are exactly equal (each a ratio of 2^(1/12) approximately 1.0595) — became the universal standard during the 19th century, eliminating distinct key colour entirely. Modern pianists play strict equal temperament; musicologists argue this deprives the Well-Tempered Clavier of the expressive key-contrast Bach designed into it. The WTC is considered the 'Old Testament of piano literature' (Hans von Bulow called it that, with Beethoven's sonatas as the New Testament) and remains the foundational study for all classical pianists."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "CRISPR-Cas9 achieves targeted gene editing through a two-component mechanism. What role does the guide RNA (gRNA) play?",
+        "subtopic": "religion",
+        "stem": "The First Council of Nicaea (325 CE) resolved the Arian controversy by declaring Christ to be 'homoousios' with God the Father. What does 'homoousios' mean, and what did it refute?",
         "options": [
-          "The gRNA carries a corrective DNA sequence that replaces the faulty gene by direct insertion at the cut site",
-          "The gRNA provides the molecular address — base-pairing with the target DNA sequence to direct Cas9 precisely to the cut site",
-          "The gRNA activates the cell's endogenous repair enzymes without requiring the Cas9 protein to function",
-          "The gRNA methylates the promoter region of the target gene to permanently silence its expression"
+          "Of similar but not identical substance to the Father — a compromise position the Council adopted to avoid splitting the Church",
+          "Of the same substance or essence as the Father — the orthodox position asserting Christ is co-eternal and co-equal, refuting Arius's claim that Christ was a created, subordinate being",
+          "Fully human and not divine in nature — affirming Christ's humanity as primary over his divine attributes",
+          "The first and highest created being — a semi-divine intermediary subordinate to God but superior to all else"
         ],
         "correct": 1,
-        "why": "The gRNA's 20-nucleotide spacer sequence is complementary to the target DNA, acting as a molecular address label that positions the Cas9 nuclease precisely over the intended cut site.",
-        "deepDive": "CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) was discovered as a bacterial immune system — bacteria store snippets of past viral sequences between these repeats and use them to recognise and destroy returning viruses. Jennifer Doudna and Emmanuelle Charpentier (2020 Nobel Prize in Chemistry) adapted it into a programmable editing tool. The two-component system: (1) guide RNA — roughly 100 nucleotides, including a 20-nucleotide spacer matching the target sequence plus a scaffold structure that Cas9 grips; (2) Cas9 — an endonuclease that cuts both DNA strands when parked at the gRNA-specified site. Once the double-strand break occurs, the cell's repair machinery activates: NHEJ (Non-Homologous End Joining) is error-prone, typically disrupting the gene; HDR (Homology-Directed Repair), when a repair template is supplied, allows precise sequence substitutions. Approved medical applications include Casgevy for sickle-cell disease (2023) and hereditary blindness treatments. Key misconception: CRISPR is not perfectly precise — off-target cuts at similar sequences remain a real concern, driving research into next-generation tools like base editors (which change one DNA letter without a double-strand break) and prime editors (which enable more extensive rewriting with greater accuracy)."
+        "why": "'Homoousios' (Greek: same substance/essence) is the Nicene formula asserting Christ is consubstantial with God — co-eternal, not created — directly refuting Arius's subordinationism.",
+        "deepDive": "The Arian controversy split the early Christian church over Christ's nature: Arius of Alexandria argued Christ was the first and greatest of God's creations — temporally subsequent to the Father (summarised in his phrase 'there was a time when he was not') — and therefore subordinate, not co-equal. Emperor Constantine, newly converted and desperate for a unified empire, convened the First Ecumenical Council at Nicaea in 325 CE to resolve the dispute politically and doctrinally. The council adopted 'homoousios' (same substance) over the Arian 'homoiousios' (similar substance) — a distinction of a single Greek letter iota, which gave English the phrase 'not one iota of difference.' The Nicene Creed (refined and expanded at the First Council of Constantinople in 381 CE) remains the foundational statement of mainstream Christianity, affirming Christ as 'God from God, Light from Light, true God from true God, begotten not made, of one being with the Father.' Arianism was formally declared heresy at Nicaea but survived for centuries among Germanic tribes: the Visigoths, Ostrogoths, Vandals, and Lombards were all converted to Arian Christianity by the missionary Ulfilas (who also created the Gothic alphabet to translate the Bible), and remained Arian until their kingdoms were absorbed into Nicene Catholic Europe between the 6th and 8th centuries."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "Bayes' Theorem gives the posterior probability P(A|B) — the probability of A given that B has occurred. Which formula correctly expresses it?",
+        "subtopic": "sport",
+        "stem": "In cricket's Duckworth-Lewis-Stern (DLS) method, what is the fundamental mathematical concept underpinning the rain-rule target recalculation?",
         "options": [
-          "P(A|B) = P(A) + P(B|A) minus P(B)",
-          "P(A|B) = P(A) times P(B)",
-          "P(A|B) = P(B|A) times P(A) divided by P(B)",
-          "P(A|B) = P(B|A) divided by [P(B|A) plus P(A)]"
+          "A linear projection of expected total runs based on the current run rate at the point of interruption, scaled to the overs remaining",
+          "A production function treating wickets in hand and overs remaining as two independent, simultaneously exhaustible resources, with a non-linear relationship between them and expected runs scored",
+          "A Monte Carlo simulation of millions of possible match continuations from the interruption point, averaged to set the par score",
+          "A historical database lookup of completed matches played under identical conditions — same venue, same overs remaining, same wickets lost"
         ],
-        "correct": 2,
-        "why": "P(A|B) = P(B|A) x P(A) / P(B). P(B|A) is the likelihood, P(A) is the prior, P(B) is the normalising constant, and P(A|B) is the updated posterior belief.",
-        "deepDive": "Bayes' Theorem, published posthumously in 1763 (Thomas Bayes, 1701-1761, published by his friend Richard Price), lay largely dormant until the 20th century when it became the foundation of probabilistic reasoning, spam filters, medical diagnostics, weather forecasting, and machine learning. The Bayesian loop: start with a prior belief P(A), observe evidence B, update to posterior P(A|B). The counterintuitive power is illustrated by the base-rate fallacy: a disease affects 1% of the population; a test is 99% accurate (1% false-positive rate). If you test positive, most people guess the probability of having the disease is 99% — the correct answer is about 50%. Bayes: P(disease|+) = [0.99 x 0.01] / [(0.99 x 0.01) + (0.01 x 0.99)] = approximately 0.5. The rare base rate (1%) dominates. This has direct policy relevance: mass screening low-risk populations with even very accurate tests floods clinics with false positives. For a commercial executive, Bayesian updating is the formal framework for what you do intuitively when you revise a market estimate on new data — starting from priors (historical win rate, base demand) and updating on evidence (this quarter's order signals, competitor moves). Modern AI language models are fundamentally Bayesian in their probabilistic architecture."
+        "correct": 1,
+        "why": "DLS models a team's remaining scoring potential as a joint function of two exhaustible resources — overs remaining and wickets in hand — with a non-linear production function fitted to historical match data.",
+        "deepDive": "Duckworth-Lewis (now DLS after Steven Stern's 2014 revision) solved a longstanding problem in limited-overs cricket: how to set a fair revised target when rain interrupts play. The key mathematical insight from statisticians Frank Duckworth and Tony Lewis: a batting team's potential to score runs depends on two resources simultaneously — overs remaining and wickets in hand — and these interact non-linearly. The DLS table assigns a 'resource percentage' (R%) to every combination of overs and wickets, derived from an exponential decay model fitted to thousands of historical matches. When overs are lost to rain, the method calculates the proportion of resources lost and adjusts the target or par score accordingly. Common misconception: DLS is not a simple run-rate extrapolation. A team with 9 wickets in hand losing 10 overs loses far less proportional resource than a team with 2 wickets in hand losing the same 10 overs — because wickets are a separate, non-fungible resource. The method is widely respected mathematically but frequently criticised as opaque: most players, commentators, and fans cannot perform the calculation and must take the official scorer's word for the number. Stern's 2014 revision corrected an underestimation of runs scored in the final overs of high-scoring T20 matches, which the original model had been calibrated on lower-scoring one-day internationals from the 1990s."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Gabriel Garcia Marquez's narrative mode, magical realism, is best distinguished from fantasy fiction by:",
+        "subtopic": "linguistics",
+        "stem": "Grimm's Law, formulated by Jacob Grimm in 1822, describes a systematic and regular shift of consonant sounds. Which language branch does it specifically characterise, and what type of change does it describe?",
         "options": [
-          "Its exclusive sourcing of supernatural elements from Latin American indigenous mythology",
-          "Its presentation of extraordinary or miraculous events as unremarkable, matter-of-fact occurrences within a realistic social world — without authorial or character surprise",
-          "Its requirement that all supernatural events be explainable by the story's end as psychological delusion",
-          "Its stream-of-consciousness technique that abandons linear chronology to mirror subjective inner experience"
+          "The Romance languages (Latin, French, Spanish, Italian) — describing the vowel shifts that separated Vulgar Latin from classical Latin",
+          "The Slavic languages (Russian, Polish, Czech) — describing the palatalisation of consonants before front vowels",
+          "The Germanic languages (English, German, Dutch, Norse) — describing a systematic shift of Proto-Indo-European stop consonants into fricatives and voiced stops",
+          "The Greek and Anatolian languages — describing the reduction of Proto-Indo-European aspirated stops into simple stops"
         ],
-        "correct": 1,
-        "why": "Magical realism's defining feature is narrative tone, not content: the miraculous is reported with the same deadpan register as everyday events, unlike fantasy which builds separate rules and frames magic as extraordinary.",
-        "deepDive": "Garcia Marquez, the Colombian Nobel Laureate (1982), popularised magical realism globally in One Hundred Years of Solitude (1967), but the term itself was coined by German art critic Franz Roh in the 1920s to describe post-expressionist painting. The technique: events that would be supernatural in realist fiction — a woman ascending bodily to heaven while folding laundry, yellow flowers raining from the sky at a death — are narrated in the same deadpan, factual tone as mundane domestic details, without authorial pause or character astonishment. This mirrors oral storytelling traditions across Latin America, South Asia, and West Africa, where the boundary between the material and spiritual worlds is fluid rather than fixed. Magical realism differs structurally from fantasy (Tolkien builds separate physics; magic is remarkable and explained) and surrealism (which intentionally disorients and alienates the reader). Key works: Remedios the Beauty's ascension in Solitude, Salman Rushdie's Midnight's Children, Arundhati Roy's The God of Small Things, Laura Esquivel's Like Water for Chocolate. For a Bangladeshi reader: Rabindranath Tagore's folk tales and Manik Bandyopadhyay's mythic realism sit in the same tradition — the mode is not uniquely Latin American but a recurring feature of postcolonial literary imagination where the rational and spiritual coexist without contradiction."
+        "correct": 2,
+        "why": "Grimm's Law describes the First Germanic Sound Shift: PIE voiceless stops (p, t, k) became fricatives (f, th, x/h) exclusively in the Germanic branch — explaining why cognates differ so systematically between English and Latin.",
+        "deepDive": "Grimm's Law (also called the First Germanic Sound Shift) describes three systematic consonant mutations that distinguish all Germanic languages from other Indo-European branches. The three shifts: (1) PIE voiced-aspirated stops (bh, dh, gh) became voiced fricatives or plain voiced stops in Germanic (b/v, d, g); (2) PIE voiced stops (b, d, g) became voiceless stops (p, t, k); (3) PIE voiceless stops (p, t, k) became fricatives (f, th as in 'thin', x/h). Illustrative examples: PIE *pods (foot) gives Latin 'pes/pedis' but Germanic 'fot' (English 'foot'); PIE *trey- (three) gives Latin 'tres' but Germanic 'thriz' (English 'three'); PIE *kerd (heart) gives Latin 'cor/cordis' but Germanic 'herto' (English 'heart'). Grimm's Law was one of the first demonstrations of the Neogrammarian principle: sound change is exceptionless and systematic — not random. Karl Verner's 1875 refinement (Verner's Law) elegantly explained apparent exceptions by linking them to PIE accent position. Together, Grimm's Law and Verner's Law are foundational to historical linguistics and demonstrate that languages change according to discoverable rules, making reconstruction of ancestral proto-languages (like PIE) scientifically possible — the same logic now applied in computational phylogenetics to trace language family trees."
       }
     ]
   }
