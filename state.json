@@ -1,17 +1,7 @@
 {
   "streak": 6,
-  "last_session_date": "2026-07-12",
+  "last_session_date": "2026-07-13",
   "questions_seen": [
-    "In container logistics, 'LCL' (Less than Container Load) shipments differ from 'FCL' (Full Container Load) in that:",
-    "The 'Far East–Indian Subcontinent' (FEIS) trade lane carries cargo between which origin cluster and which destination ports?",
-    "Under the Institute Cargo Clauses (ICC), which set of clauses provides the broadest 'all risks' coverage for cargo in transit?",
-    "OFAC's SDN (Specially Designated Nationals) list creates compliance exposure for a logistics company primarily because:",
-    "The Baltic Dry Index (BDI) measures which of the following?",
-    "The 'Ashes' cricket series is contested between which two nations, and takes its name from:",
-    "The TV drama 'The Wire' (2002–2008), widely considered one of the greatest television series ever made, was created by whom and is primarily set in which American city?",
-    "John Rawls's 'veil of ignorance' thought experiment, from 'A Theory of Justice' (1971), asks rational designers to choose a society's principles without knowing:",
-    "David Ricardo's law of comparative advantage, from 'Principles of Political Economy' (1817), holds that:",
-    "Which of the following is a valid Pythagorean triple — three positive integers (a, b, c) satisfying a² + b² = c²?",
     "Among large widebody dedicated freighters, which aircraft type is uniquely equipped with an upward-hinging nose section enabling straight-in loading of outsized cargo?",
     "Anchorage Ted Stevens International Airport (PANC) ranks consistently in the world's top five for cargo throughput despite serving a city of ~300,000 primarily because:",
     "The DSV–DB Schenker acquisition (~$14.8B, completed 2024-25) was significant for the freight forwarding industry primarily because it:",
@@ -501,7 +491,17 @@
     "The Coase Theorem holds that private bargaining will produce efficient resource allocation regardless of how property rights are initially assigned. What are the necessary conditions most commonly identified for this result to hold?",
     "Beyoncé's 2016 visual album 'Lemonade' sparked an industry-wide debate on streaming exclusivity. What was the distinctive release strategy that set it apart?",
     "The Congress of Vienna (1814–15) is considered the prototype of the modern 'concert of great powers' system. Which organizing principle most distinguished it from prior peace conferences and shaped European order for the following 40 years?",
-    "The 2018 Convention on the Legal Status of the Caspian Sea, signed by all five littoral states, resolved a decades-long dispute over whether the body was a 'sea' or 'lake.' What unusual hybrid legal classification did it introduce?"
+    "The 2018 Convention on the Legal Status of the Caspian Sea, signed by all five littoral states, resolved a decades-long dispute over whether the body was a 'sea' or 'lake.' What unusual hybrid legal classification did it introduce?",
+    "Under a Letter of Credit, which type of document discrepancy most commonly causes banks to reject an export document presentation?",
+    "The Harmonized System (HS) used globally for product tariff classification is maintained by which international body?",
+    "A ship rated 'Neopanamax' is designed to transit the expanded Panama Canal locks. What is the approximate maximum beam (width) allowed?",
+    "Which statement correctly describes 'BCH' (Berth Crane Hour) and world-class performance benchmarks in container terminals?",
+    "Which option correctly describes the global container shipping alliance structure as restructured in early 2025?",
+    "Which of the following is a correct consequence of Einstein's theory of special relativity?",
+    "CRISPR-Cas9 gene editing was adapted from the natural immune system of which type of organism?",
+    "The Riemann Hypothesis, one of the Millennium Prize Problems, makes a specific claim about the Riemann zeta function. What does it assert?",
+    "What literary device most defines magical realism, as exemplified by García Márquez in 'One Hundred Years of Solitude'?",
+    "What was the defining technical innovation that characterized the Impressionist painters of 19th-century France?"
   ],
   "learn_history": [
     {
@@ -773,6 +773,11 @@
       "date": "2026-07-12",
       "topic": "The Rentier State: How Oil Revenue Decouples Governments from Their Citizens",
       "bucket": "sociopolitical"
+    },
+    {
+      "date": "2026-07-13",
+      "topic": "The Bay of Bengal: Asia's Most Contested Sea Nobody Talks About",
+      "bucket": "geography"
     }
   ],
   "curriculum_progress": {
@@ -783,8 +788,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 13,
-      "last_seen": "2026-06-30",
+      "count": 14,
+      "last_seen": "2026-07-13",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -795,20 +800,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 13,
-      "last_seen": "2026-06-30",
+      "count": 14,
+      "last_seen": "2026-07-13",
       "difficulty": 3,
       "rolling_score": []
     },
     "vessels": {
-      "count": 13,
-      "last_seen": "2026-06-30",
+      "count": 14,
+      "last_seen": "2026-07-13",
       "difficulty": 3,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 13,
-      "last_seen": "2026-06-30",
+      "count": 14,
+      "last_seen": "2026-07-13",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -819,8 +824,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 13,
-      "last_seen": "2026-06-30",
+      "count": 14,
+      "last_seen": "2026-07-13",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -911,32 +916,32 @@
       "rolling_score": []
     },
     "physical_science": {
-      "count": 20,
-      "last_seen": "2026-07-08",
+      "count": 21,
+      "last_seen": "2026-07-13",
       "difficulty": 3,
       "rolling_score": []
     },
     "life_science": {
-      "count": 20,
-      "last_seen": "2026-07-08",
+      "count": 21,
+      "last_seen": "2026-07-13",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 20,
-      "last_seen": "2026-07-08",
+      "count": 21,
+      "last_seen": "2026-07-13",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 18,
-      "last_seen": "2026-07-08",
+      "count": 19,
+      "last_seen": "2026-07-13",
       "difficulty": 4,
       "rolling_score": []
     },
     "arts": {
-      "count": 18,
-      "last_seen": "2026-07-09",
+      "count": 19,
+      "last_seen": "2026-07-13",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -985,159 +990,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-07-12",
+    "date": "2026-07-13",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "In terms of maximum structural payload, which freighter outlifts the other and by approximately how much: the Boeing 747-8F or the Boeing 777F?",
+        "subtopic": "documentation",
+        "stem": "Under a Letter of Credit, which type of document discrepancy most commonly causes banks to reject an export document presentation?",
         "options": [
-          "Boeing 777F; by approximately 35 tonnes — its longer fuselage compensates for fewer decks",
-          "Boeing 747-8F; by approximately 5 tonnes — the two types are nearly matched in payload",
-          "Boeing 747-8F; by approximately 35 tonnes — its double-deck wide-body configuration carries significantly more",
-          "They are identical — Boeing rated both at approximately 102 tonnes maximum structural payload"
+          "Bill of Lading presented more than 21 days after the shipment date",
+          "Incorrect port of loading shown on the transport document",
+          "Invoice goods description not matching the LC terms exactly",
+          "Late shipment date relative to the LC expiry"
         ],
         "correct": 2,
-        "why": "The 747-8F's max structural payload is ~137.7 t vs the 777F's ~103.4 t — a ~34-tonne advantage from its main deck, upper deck, and larger bulk hold combined.",
-        "deepDive": "The 747-8F remains the world's largest commercial freighter by maximum structural payload at approximately 137.7 tonnes, versus the 777F's 103.4 tonnes — a ~34-tonne advantage. The 747-8F's main deck, upper deck, and bulk hold combine to roughly 858 cubic metres of volume. However, the 777F wins on point-to-point economics when payload demand doesn't fill the 747's belly: lower crew costs (two pilots), more fuel-efficient engines per tonne-km at 80–90% load factors, and a range of ~9,000 km versus the 747-8F's ~8,130 km. Airlines like Cargolux and Lufthansa Cargo operate both types strategically — 777Fs for high-frequency thinner routes, 747-8Fs for the densest lanes where filling the upper deck justifies the cost."
+        "why": "Goods description mismatches between the commercial invoice and the LC text are the single most frequent discrepancy under UCP 600.",
+        "deepDive": "Letters of Credit are governed by UCP 600 (ICC, 2007 revision). Article 18 requires the commercial invoice goods description to match the LC terms exactly — even minor phrasing differences ('shirts' vs. 'polo shirts') trigger rejection. Banks have five banking days to examine documents and must notify discrepancies within that window or lose the right to refuse. Common remedies: the applicant waives the discrepancy, or the presenter corrects and re-presents within the LC validity period. Common misconception: banks exercise judgment — they do not; any deviation is technically a discrepancy. Compliant presentations create irrevocable payment obligations; discrepant ones give the issuing bank grounds to refuse payment entirely."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "Anchorage Ted Stevens International (ANC) consistently ranks among the world's top 5 cargo airports by throughput tonnage despite having almost no significant local freight market. What makes it operationally indispensable on transpacific routes?",
+        "subtopic": "customs",
+        "stem": "The Harmonized System (HS) used globally for product tariff classification is maintained by which international body?",
         "options": [
-          "It operates the world's largest FedEx sort hub for overnight domestic US redistribution",
-          "Its location on the great-circle transpacific path allows freighters to refuel or swap crews with minimal route deviation",
-          "ANC has North America's longest commercial runway, enabling max-weight 747-8F operations year-round",
-          "Bilateral air services agreements allow foreign-flag freighters to carry US domestic cargo through ANC"
+          "UNCTAD",
+          "World Trade Organization (WTO)",
+          "International Chamber of Commerce (ICC)",
+          "World Customs Organization (WCO)"
         ],
-        "correct": 1,
-        "why": "ANC sits almost exactly on the shortest great-circle path between North Asian hubs (ICN, NRT, PVG) and US East Coast gateways, enabling tech stops that add minimal distance while allowing refuelling and crew swaps.",
-        "deepDive": "Anchorage sits at roughly 61°N, and the great-circle route from major North Asian cargo hubs to US East Coast gateways passes within a few hundred kilometres of ANC. A tech stop adds minimal deviation — often under 300 km — while allowing freighters to top up fuel (extending effective range beyond normal limits) or swap flight crews to comply with duty-time regulations. The airport operates 24/7 with no curfews, no significant slot constraints, dedicated cargo terminals, and bonded warehouse facilities. FedEx, UPS, Atlas Air, Polar Air and multiple Asian cargo carriers use ANC as a tech stop or mid-route crew change point, making its throughput almost entirely transiting freight rather than local origin-destination cargo."
+        "correct": 3,
+        "why": "The WCO (not the WTO) maintains and updates the HS nomenclature every 5 years; the current version is HS 2022.",
+        "deepDive": "The World Customs Organization (WCO), headquartered in Brussels, maintains the Harmonized System — a 6-digit product classification framework used by 212 members covering 98% of world trade. Updated every 5 years (HS 1988 through HS 2022), each revision adds codes for new product categories. Countries extend beyond 6 digits for domestic use: the US applies a 10-digit HTS; the EU uses an 8-digit Combined Nomenclature. The WTO uses HS codes in tariff binding schedules but does not maintain them — a frequent confusion. Correct classification determines duty rates, trade statistics, export license requirements, and sanctions compliance. Misclassification draws penalties and can void preferential duty rates under FTAs."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "DSV's acquisition of DB Schenker, completed in 2025 for approximately $14–15 billion, was the largest freight forwarding M&A deal in history. What was the primary commercial rationale from DSV's perspective?",
+        "subtopic": "vessels",
+        "stem": "A ship rated 'Neopanamax' is designed to transit the expanded Panama Canal locks. What is the approximate maximum beam (width) allowed?",
         "options": [
-          "To acquire Schenker's European rail network and become the leading Europe–China corridor rail operator",
-          "To add Schenker's #1 air freight tonnage ranking to a DSV air forwarding operation seen as weak",
-          "To gain scale in European contract logistics and road freight, narrowing the gap on Kuehne+Nagel's top-ranked ocean and air forwarding position",
-          "To acquire Schenker's automotive just-in-time supply chain business and matching ERP systems"
+          "32 metres (same as original Canal locks)",
+          "38 metres",
+          "49 metres",
+          "57 metres"
         ],
         "correct": 2,
-        "why": "DSV was strong in ocean/air forwarding but lacked scale in European contract logistics and road freight — Schenker's core strengths — and the combined entity now challenges Kuehne+Nagel on total forwarding volume.",
-        "deepDive": "The DSV-Schenker deal (approximately $14–15B, completed 2025) created the world's #2 freight forwarder by revenue behind Kuehne+Nagel. Schenker's primary value to DSV was its massive European contract logistics (3PL warehousing, value-added services) and road freight network — areas where DSV had limited capability despite being a dominant ocean and air forwarder. Schenker also added significant cross-border European rail forwarding capacity. The combined entity now challenges K+N on ocean forwarding TEU volume and DHL on European logistics scale. This continues the decade-long consolidation trend: fewer but larger forwarders can build proprietary digital visibility platforms, automate procurement, and offer shippers single-contract global coverage — advantages that compound with scale."
+        "why": "Neopanamax vessels can be up to ~49m beam (vs. 32.3m for original locks), roughly doubling the vessel capacity the Canal can handle.",
+        "deepDive": "The Panama Canal expansion (completed June 2016) added a third lock set — 427m long, 55m wide, 18.3m deep — roughly triple the original capacity. Neopanamax specifications (max 366m LOA × 49m beam × 15.2m draft) allow vessels of approximately 14,000–15,000 TEUs to transit, up from the original 4,400-TEU limit. This unlocked direct all-water service between Asia and the US East Coast. Panama charges per-TEU tolls; revenues reached $3.4bn in 2024. Key misconception: Ultra-Large Container Vessels (ULCVs) of 20,000+ TEUs — which now dominate Asia-Europe trades — cannot use either lock set, making them permanently Suez-or-Cape-dependent."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "In an ocean freight Minimum Quantity Commitment (MQC) contract, a shipper commits to 10,000 FEU annually but ships only 7,000 FEU by year-end. What is the standard commercial consequence under most MQC arrangements?",
+        "subtopic": "port_ops",
+        "stem": "Which statement correctly describes 'BCH' (Berth Crane Hour) and world-class performance benchmarks in container terminals?",
         "options": [
-          "The carrier refunds the shipper proportionally to the 30% shortfall",
-          "The shipper pays dead freight on the 3,000 unshipped FEU — typically the base rate minus the carrier's saved variable costs",
-          "The contract automatically rolls the shortfall volume into the following year",
-          "The shipper forfeits its contracted rate and must rebook remaining volume at prevailing spot rates"
+          "Boxes per crane hour; world-class terminals achieve 15–20 BCH",
+          "Berth congestion hours; under 2 hours wait is considered excellent",
+          "Break-bulk cargo per hatch hour; 50 tons/hour is world-class",
+          "Boxes per crane hour; world-class terminals consistently hit 30–35 BCH"
         ],
-        "correct": 1,
-        "why": "Dead freight penalises the shortfall: the shipper pays the net revenue loss — contracted base rate minus the variable costs the carrier avoided by not loading the missing boxes (typically 40–70% of base rate).",
-        "deepDive": "MQC (Minimum Quantity Commitment) contracts became standard in container shipping after post-COVID spot market volatility of 2021–2023 made carriers wary of unprotected capacity commitments. The shipper commits to a minimum TEU/FEU volume per quarter or year; the carrier reserves that capacity and typically grants a lower FAK or NAC rate. Dead freight — the shortfall penalty — is calculated as the contracted freight rate minus the variable cost savings the carrier avoids by not loading (roughly fuel per slot, port dues, handling). This net figure is typically 40–70% of base rate in practice. MQC contracts specify the calculation methodology, measurement period, and whether prior over-shipments earn credit. Post-peak (2023–2024), carriers became significantly more aggressive in enforcing shortfall provisions as spot rates normalised and contractual discipline became more valuable to them."
+        "correct": 3,
+        "why": "BCH (moves per crane hour) is the primary terminal productivity KPI; PSA Singapore and Tanjung Pelepas routinely hit 30–35+ BCH versus a global average of ~22–25.",
+        "deepDive": "Berth Crane Hour (BCH), or Moves Per Crane Hour (MPCH), counts container lifts a quay crane completes per operating hour. PSA Singapore's Pasir Panjang Terminal and Tanjung Pelepas (Malaysia) regularly hit 30–35+ BCH; the global average hovers around 22–25. Key performance drivers: twin-lift spreaders (handling two 20-footers simultaneously), optimized vessel stow plans shared well in advance, efficient yard-truck cycle times, and terminal operating system (TOS) algorithms. Common misconception: gross crane hours (covering the full berth window) versus net crane hours (actual lifts only) can differ significantly — reporting standards vary by operator, making direct benchmarking between terminals tricky."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "Hau Lee's seminal 1997 paper identified four structural causes of the bullwhip effect in supply chains. Which of the following is NOT one of them?",
+        "subtopic": "liner_alliances",
+        "stem": "Which option correctly describes the global container shipping alliance structure as restructured in early 2025?",
         "options": [
-          "Demand signal processing — each supply chain tier amplifies forecasts based on upstream order data rather than end-customer demand",
-          "Order batching — companies order periodically in large lots rather than continuously, magnifying small demand shifts into large upstream swings",
-          "Price fluctuation — forward buying during promotions and de-stocking after them create artificial demand waves",
-          "Transportation network congestion increasing transit time variability along the supply chain"
+          "Gemini (Maersk+Hapag-Lloyd); Ocean Alliance (CMA CGM+COSCO+Evergreen); Premier Alliance (ONE+Yang Ming+HMM); MSC independent",
+          "2M (Maersk+MSC); THE Alliance (Hapag+ONE+Yang Ming); Ocean Alliance (CMA CGM+COSCO+Evergreen)",
+          "Gemini (MSC+CMA CGM); Ocean Alliance (COSCO+Evergreen+Maersk); Premier Alliance (Hapag+ONE+Yang Ming)",
+          "All major carriers operate independently following dissolution of all three alliances in 2024"
         ],
-        "correct": 3,
-        "why": "Lee's four causes are demand signal processing, order batching, price fluctuation, and shortage gaming. Transportation variability worsens replenishment uncertainty but is a compounding factor, not one of the four structural drivers.",
-        "deepDive": "Hau Lee's 1997 HBR article 'The Bullwhip Effect in Supply Chains' (co-authored with V. Padmanabhan and Seungjin Whang) identified four root causes: (1) demand signal processing — each tier forecasts from upstream orders rather than end-customer POS data, amplifying noise; (2) order batching — periodic large-lot ordering creates lumpy demand even when end demand is smooth; (3) price fluctuation — promotional forward buying and subsequent de-stocking create artificial demand cycles; (4) shortage gaming — buyers over-order during supply crunches expecting allocation cuts. Transportation variability worsens the effect by lengthening lead times and increasing safety stock requirements, but it is not one of Lee's four structural causes. The practical remedies: share POS data upstream, move to continuous replenishment, stabilise pricing, and use allocation mechanisms that discourage gaming."
+        "correct": 0,
+        "why": "2M dissolved January 2025; Gemini launched February 2025; THE Alliance rebranded as Premier Alliance; MSC operates solo as the world's largest carrier by fleet.",
+        "deepDive": "The 2025 restructuring was the most significant in ocean shipping since 2017. Maersk and MSC dissolved their 2M partnership in January 2025; Maersk immediately launched the Gemini Cooperation with Hapag-Lloyd (February 2025), targeting above-90% schedule reliability versus an industry average of ~55%. MSC, now the world's largest carrier by fleet capacity, operates entirely independently. The old THE Alliance rebranded as the Premier Alliance (ONE, Yang Ming, HMM) after Hapag-Lloyd departed for Gemini. Ocean Alliance (CMA CGM, COSCO, Evergreen) renewed through 2032. Shippers now face three distinct network architectures plus one dominant independent — each with different port coverage, rotation frequency, and reliability profiles. Common misconception: alliances share revenue — they share only slot-space and port calls."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "John Rawls and Jürgen Habermas both developed theories of public reason and political legitimacy, but their approaches diverge fundamentally. What best captures the core difference?",
+        "subtopic": "physical_science",
+        "stem": "Which of the following is a correct consequence of Einstein's theory of special relativity?",
         "options": [
-          "Rawls restricts public reason to constitutional essentials; Habermas extends discourse ethics to all collective political decisions",
-          "Habermas grounds legitimacy in ideal speech conditions; Rawls grounds it in an overlapping consensus among holders of competing reasonable comprehensive doctrines",
-          "Rawls accepts religious arguments in public reason if a secular translation is provided; Habermas categorically excludes them",
-          "Habermas rejects the original position entirely, arguing historical social practice — not hypothetical choice — generates normative standards"
+          "Moving clocks run faster than stationary ones",
+          "Time passes at the same rate for all observers regardless of velocity",
+          "Gravitational fields warp spacetime in proportion to an object's velocity",
+          "An object's observed mass increases as it approaches the speed of light"
         ],
-        "correct": 1,
-        "why": "Habermas locates legitimacy in procedural discourse conditions (the ideal speech situation); Rawls locates it substantively in overlapping consensus — political agreement that doesn't require shared comprehensive doctrines.",
-        "deepDive": "The Rawls-Habermas exchange (they traded papers in the Journal of Philosophy in 1995) is one of the sharpest debates in modern political philosophy. Both accept that liberal democracies need a shared basis for political argument beyond any one religion or metaphysics. Rawls' 'public reason' limits citizens to justifications that all reasonable people could accept, producing an 'overlapping consensus' across different comprehensive doctrines on basic political terms. Habermas' 'discourse ethics' instead specifies procedural conditions: legitimate decisions emerge from communication where all affected parties can participate equally in undistorted dialogue. Rawls is substantive — he pre-loads the content of public reason; Habermas is procedural — he specifies only the conditions of valid discourse. Habermas criticised Rawls for making the original position too thick with liberal assumptions that beg the very questions being decided."
+        "correct": 3,
+        "why": "Special relativity predicts time dilation (moving clocks run slower), length contraction, and relativistic mass increase as objects approach c.",
+        "deepDive": "Einstein's 1905 paper on special relativity derived two postulates: physics laws are identical for all inertial observers, and light speed (c ≈ 3×10⁸ m/s) is constant regardless of source motion. Consequences include time dilation (moving clocks run slow — GPS satellites require relativistic corrections of ~38 microseconds/day or navigation fails), length contraction, and E=mc² (mass-energy equivalence). Relativistic mass increase means objects require exponentially more energy to accelerate as they approach c — hence no material object can reach light speed. Common misconception: these effects are purely theoretical. They are routinely measured in particle accelerators (CERN tracks protons at 99.9999991% c) and are embedded in GPS firmware. Option C describes general relativity (1915), not special relativity."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The Coase Theorem holds that private bargaining produces efficient resource allocation regardless of initial property rights assignment. What are the necessary conditions most commonly identified for this result to hold?",
+        "subtopic": "life_science",
+        "stem": "CRISPR-Cas9 gene editing was adapted from the natural immune system of which type of organism?",
         "options": [
-          "Zero transaction costs, clearly defined and enforceable property rights, and no significant wealth effects between parties",
-          "Perfect competition in all relevant markets and symmetric information among all bargaining parties",
-          "Property rights assigned to the highest-valuing party and government arbitration available as a backstop mechanism",
-          "Absence of externalities and the presence of at least three competing bidders for each contested resource"
+          "Eukaryotic immune T-cells",
+          "Bacteriophages (viruses that infect bacteria)",
+          "Bacteria and archaea, which use CRISPR arrays as adaptive immunity against viruses",
+          "Fungi with defensive RNA interference pathways"
         ],
-        "correct": 0,
-        "why": "Coase's insight requires zero (or negligible) transaction costs and well-defined property rights — the theorem's real power is its contrapositive: when those conditions fail, initial rights assignment matters for efficiency.",
-        "deepDive": "Ronald Coase introduced the insight in 'The Problem of Social Cost' (1960) that with zero transaction costs and clear property rights, parties bargain to an efficient outcome regardless of who initially holds the right. The theorem's deeper lesson is its own limits: because transaction costs (identifying parties, negotiating, monitoring compliance, enforcing agreements) are almost always significant in practice, the initial assignment of rights does matter for efficiency. This explains why externalities cause market failures and why institutions — liability rules, regulation, Pigouvian taxes — can improve on unassisted markets. Coase himself reportedly resented the 'Coase Theorem' label because his point was that zero transaction costs are imaginary and the practical insight is about designing real institutions for high-transaction-cost reality. The wealth-effect caveat: different rights assignments change who can afford to pay for the optimal outcome, so the identity of the efficient allocation can itself depend on the initial distribution."
+        "correct": 2,
+        "why": "CRISPR arrays were discovered in bacteria; Doudna and Charpentier won the 2020 Nobel Chemistry Prize for repurposing the bacterial Cas9 protein for programmable gene editing.",
+        "deepDive": "CRISPR arrays were identified in bacteria in 1987 by Yoshizumi Ishino, but their immune function was not understood until 2007. Jennifer Doudna and Emmanuelle Charpentier won the 2020 Nobel Chemistry Prize for engineering Cas9 with a programmable guide RNA. The mechanism: guide RNA binds matching DNA; Cas9 cuts both strands; cell repair either disables the gene (knockout) or inserts a new sequence (knock-in). Applications range from the first approved CRISPR medicine (sickle cell disease, 2023) to agricultural pest resistance. Common misconception: CRISPR is a single technology — it is a rapidly expanding family (Cas12, Cas13, base editors, prime editors) with different precision profiles and off-target risk levels."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "Beyoncé's 2016 visual album 'Lemonade' sparked an industry-wide debate on streaming exclusivity. What was the distinctive release strategy that set it apart from conventional album launches?",
+        "subtopic": "mathematics",
+        "stem": "The Riemann Hypothesis, one of the Millennium Prize Problems, makes a specific claim about the Riemann zeta function. What does it assert?",
         "options": [
-          "It was released as a Spotify exclusive for 72 hours before going to all platforms simultaneously",
-          "It debuted as a one-hour HBO film before any music was available digitally, then remained a Tidal exclusive for several weeks",
-          "It was released simultaneously on CD, vinyl, and download but permanently withheld from all streaming platforms",
-          "Beyoncé sold it exclusively through her own website on a pay-what-you-want model, bypassing all major distributors"
+          "All non-trivial zeros of the zeta function have real part equal to exactly 1/2",
+          "All zeros lie on the real (horizontal) axis of the complex plane",
+          "The zeta function has infinitely many zeros on the pure imaginary axis",
+          "Prime gaps follow a Gaussian distribution, provably"
         ],
-        "correct": 1,
-        "why": "Lemonade premiered on HBO on April 23, 2016, as a film before any audio release, then moved to Tidal exclusively — forcing the industry to articulate what platform exclusivity windows were actually worth.",
-        "deepDive": "Beyoncé's 'Lemonade' (April 23, 2016) set a precedent by debuting as a one-hour HBO special — blending music videos, poetry, and narrative film — before the audio was available on any streaming platform except Tidal, co-owned by Jay-Z. The exclusivity window created a major industry debate: labels and artists began modelling how platform-exclusive windows could drive subscription sign-ups before broader releases. The format influenced subsequent high-profile exclusives: Frank Ocean's 'Blonde' (Apple Music exclusive, August 2016), Kanye West's 'The Life of Pablo' (initially Tidal exclusive), and broader windowing discussions that continue today. The release also demonstrated that an album could be a multi-platform audio-visual event rather than simply a collection of songs — reshaping how major artists conceived of release campaigns and what platforms were willing to pay for exclusivity rights."
+        "correct": 0,
+        "why": "The hypothesis asserts all non-trivial zeros lie on the 'critical line' Re(s) = 1/2; over 10 trillion zeros have been verified there computationally, but no proof exists.",
+        "deepDive": "Bernhard Riemann posed the hypothesis in 1859 in a paper on prime number distribution. The Riemann zeta function ζ(s) = Σ(1/nˢ) for complex s has 'trivial' zeros at negative even integers and infinitely many 'non-trivial' zeros. The hypothesis asserts all non-trivial zeros lie on the critical line Re(s) = 1/2. Over 10 trillion zeros have been computationally verified — all on the critical line — yet no general proof exists. A proof would sharpen bounds on the prime counting function π(x) and resolve many related conjectures in analytic number theory. It is one of the seven Clay Millennium Problems, each carrying a $1M prize. Common misconception: computational verification constitutes proof — it corroborates but cannot cover infinitely many cases."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The Congress of Vienna (1814–15) is considered the prototype of the modern 'concert of great powers.' Which organizing principle most distinguished it from prior peace conferences and shaped European order for the following 40 years?",
+        "subtopic": "literature",
+        "stem": "What literary device most defines magical realism, as exemplified by García Márquez in 'One Hundred Years of Solitude'?",
         "options": [
-          "Collective security — signatories committed to military intervention against any state that attacked a congress member",
-          "Legitimism — the restoration of pre-Napoleonic dynastic rulers as the primary basis for redrawing European frontiers",
-          "The principle of unanimous consent — any territorial change required the agreement of all five great powers",
-          "Self-determination of peoples — frontiers were redrawn to align with linguistic and ethnic majorities where feasible"
+          "An unreliable narrator who cannot distinguish reality from fantasy",
+          "Supernatural events presented as ordinary fact within an otherwise realistic world",
+          "Stories set in alternate historical timelines where magic replaced technology",
+          "Characters who remain entirely unaware of magical elements around them"
         ],
         "correct": 1,
-        "why": "Metternich's 'legitimism' — restoring ancien régime dynasties as the organising principle for borders — was Vienna's foundational doctrine, rolling back revolutionary and Napoleonic changes in favour of hereditary order.",
-        "deepDive": "The Congress of Vienna (September 1814–June 1815) convened Austria (Metternich), Prussia (Hardenberg), Russia (Tsar Alexander I), Britain (Castlereagh/Wellington), and restored France (Talleyrand). Metternich's guiding principle of 'legitimism' held that pre-Napoleonic dynasties had a natural right to their thrones: Bourbons to France and Spain, Habsburgs to northern Italy, the House of Orange to the Netherlands. The resulting Concert of Europe proved remarkably durable — no general European war until the Crimea (1853) and no systemic breakdown until 1914. Self-determination (the principle that reshaped borders after 1918) was exactly what Vienna rejected as a Jacobin-revolutionary idea. The Congress also established a consultative norm among great powers — periodic congresses to manage disputes — representing the first institutionalised multilateral diplomacy system in European history."
+        "why": "Magical realism treats the supernatural as culturally embedded and narrated matter-of-factly — distinct from fantasy (separate world) or surrealism (dreamlike disruption).",
+        "deepDive": "Magical realism emerged from Latin American literature in the mid-20th century, pioneered by Alejo Carpentier and Miguel Ángel Asturias, then fully realized by García Márquez. Unlike fantasy (a secondary world with internal rules) or surrealism (dreamlike disruption of reality), magical realism treats the supernatural as culturally embedded — Remedios the Beauty ascending to heaven in Solitude is narrated with the same factual tone as a weather report. The mode reflects how oral tradition, indigenous cosmologies, and colonial history coexist in Latin American consciousness. The technique was later adopted by Salman Rushdie ('Midnight's Children'), Toni Morrison ('Beloved'), and Laura Esquivel ('Like Water for Chocolate'). Common misconception: magical realism is simply fantasy with a foreign setting."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The 2018 Aktau Convention resolved the longstanding dispute over whether the Caspian Sea is a 'sea' or a 'lake' under international law. What unusual hybrid legal classification did it introduce?",
+        "subtopic": "arts",
+        "stem": "What was the defining technical innovation that characterized the Impressionist painters of 19th-century France?",
         "options": [
-          "It was formally classified as an international sea under UNCLOS, granting each of the five littoral states a 200-nautical-mile exclusive economic zone",
-          "It was designated a sui generis body: seabed resources divided by equidistant median lines (as a sea) but surface waters treated as a shared lake open to all five states",
-          "It was declared a condominium — all five states share equal ownership of both seabed and surface resources with no exclusive national zones",
-          "Its northern portion was classified as a sea under Russian and Kazakhstani jurisdiction; its southern portion as a lake under Iranian sovereign control"
+          "Replacing oil paints with watercolors for more vivid outdoor plein-air scenes",
+          "Precise geometric perspective grids to achieve photorealistic spatial depth",
+          "Short, visible brushstrokes to capture transient light and atmospheric effects",
+          "Depicting mythological scenes through the lens of realistic portraiture techniques"
         ],
-        "correct": 1,
-        "why": "The Aktau Convention split the difference: seabed (oil, gas) divided by median lines; surface waters remain shared — critically barring non-littoral naval powers such as NATO from entering.",
-        "deepDive": "The Caspian's legal status mattered enormously because UNCLOS applies to 'seas' (granting 200nm EEZs) while international law for enclosed lakes defaults to bilateral/multilateral agreements. The five littoral states — Russia, Azerbaijan, Kazakhstan, Turkmenistan, Iran — agreed at Aktau in August 2018: seabed resources (offshore oil and gas fields including Shah Deniz, Kashagan, and Turkmen deposits) are divided by equidistant median lines, while surface waters are treated as a shared lake open to all five states' shipping and fishing. Crucially, the treaty explicitly bars military vessels of non-littoral states — preventing NATO navies from entering — preserving both Russian and Iranian strategic interests in the basin. The classification is called 'sui generis' (of its own kind) precisely because it does not map onto existing UNCLOS or lake-law categories, representing a pragmatic diplomatic invention tailored to the competing interests involved."
+        "correct": 2,
+        "why": "Impressionists used short, unmixed brushstrokes to capture the transient effects of light — mocked as 'unfinished' in 1874, now the most commercially valued art in history.",
+        "deepDive": "Impressionism emerged in 1860s–70s Paris when Monet, Renoir, Degas, Pissarro, and Morisot rejected the Académie des Beaux-Arts' polished finish and mythological subjects. They painted outdoors (en plein air), capturing rapidly changing light through short, unmixed brushstrokes — a visible texture the Academy dismissed as unfinished. The name came from an 1874 critic mocking Monet's 'Impression, Sunrise' (1872). Technically, they used optical mixing: pure pigments placed side by side, letting the viewer's eye blend colors rather than pre-mixing on a palette. Work derided in 1874 is now the most commercially valued in art history — Monet's 'Haystacks' series fetched over $100M at auction in 2019. Post-Impressionism (Cézanne, Van Gogh, Gauguin) followed directly."
       }
     ]
   }
