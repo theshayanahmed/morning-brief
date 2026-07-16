@@ -1,17 +1,7 @@
 {
   "streak": 6,
-  "last_session_date": "2026-07-15",
+  "last_session_date": "2026-07-16",
   "questions_seen": [
-    "A commercial invoice in international trade simultaneously serves as a demand for payment and which other primary legal function?",
-    "Under the Harmonized System (HS), which international body maintains the global HS nomenclature and issues formal updates every five years?",
-    "A VLCC (Very Large Crude Carrier) cannot transit the Suez Canal when fully laden. What approximate deadweight tonnage (DWT) range defines a VLCC?",
-    "Which metric best enables apples-to-apples productivity comparison between container ports of very different annual throughput sizes?",
-    "Following Hapag-Lloyd's exit to form the Gemini Cooperation with Maersk in January 2025, which carrier grouping rebranded as the 'Premier Alliance'?",
-    "Which 2023 animated film became the fastest to cross $1 billion globally, and dethroned Detective Pikachu as the highest-grossing video game adaptation of all time?",
-    "The Riemann Hypothesis \u2014 one of the seven Millennium Prize Problems \u2014 concerns the precise location of non-trivial zeros of which mathematical function?",
-    "Which philosopher introduced the 'original position' thought experiment, arguing rational agents behind a 'veil of ignorance' would choose principles protecting the least-advantaged members of society?",
-    "Ricardo's theory of comparative advantage implies mutual gains from trade remain possible even when one country has absolute productive superiority in which set of goods?",
-    "The Sykes-Picot Agreement, secretly signed on 16 May 1916 \u2014 exactly 110 years ago \u2014 divided which geographic territory into British and French spheres of influence?",
     "In container logistics, a 'CFS/CFS' movement means the cargo:",
     "The 'Middle Corridor' (Trans-Caspian International Transport Route) has gained strategic relevance since 2022 primarily because it:",
     "Under the York-Antwerp Rules governing General Average, a cargo owner's obligation to contribute arises only when the sacrifice or expenditure was:",
@@ -501,7 +491,17 @@
     "The Strait of Malacca \u2014 the world's busiest international shipping lane \u2014 connects which two bodies ",
     "Antonio Gramsci's concept of 'cultural hegemony', developed in his Prison Notebooks (1926\u20131937), arg",
     "The Prebisch-Singer Hypothesis (1950) predicts that, over the long run, the terms of trade of commod",
-    "The photoelectric effect \u2014 explained by Einstein in 1905 and the basis of his 1921 Nobel Prize \u2014 dem"
+    "The photoelectric effect \u2014 explained by Einstein in 1905 and the basis of his 1921 Nobel Prize \u2014 dem",
+    "Which dedicated widebody freighter does FedEx operate as its primary transoceanic hub-to-hub aircraft, replacing the older MD-11F fleet?",
+    "Anchorage (ANC) consistently ranks among the world's top air cargo hubs by freight tonnage despite having no major local population. What is the primary reason?",
+    "DSV's ~$15B acquisition of DB Schenker (2024-25) primarily elevated DSV to what competitive position in global freight forwarding?",
+    "A shipper signs an MQC (Minimum Quantity Commitment) contract for 200 boxes/month at $3,200/40ft. In month 6 they ship only 120 boxes. What is the typical consequence?",
+    "Which best describes the 'bullwhip effect' in supply chain management?",
+    "CRISPR-Cas9 evolved in bacteria as a natural defence against what threat?",
+    "What does Bayes' theorem fundamentally allow you to calculate?",
+    "Gabriel Garc\u00eda M\u00e1rquez's 'One Hundred Years of Solitude' is set in which fictional location?",
+    "Kazimir Malevich's 'Black Square' (1915), hung in the corner where icons traditionally hung in Russian homes, is a founding work of which movement?",
+    "What is a 'Picardy third' (tierce de Picardie) in Western music?"
   ],
   "learn_history": [
     {
@@ -788,6 +788,11 @@
       "date": "2026-07-15",
       "topic": "The Impossible Trinity: Why No Central Bank Can Have It All",
       "bucket": "economics"
+    },
+    {
+      "date": "2026-07-16",
+      "topic": "CoWoS Advanced Packaging: How TSMC Stacks Chips to Power the AI Era",
+      "bucket": "semiconductor_foundations"
     }
   ],
   "curriculum_progress": {
@@ -882,32 +887,32 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 13,
-      "last_seen": "2026-07-12",
+      "count": 14,
+      "last_seen": "2026-07-16",
       "difficulty": 2,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 13,
-      "last_seen": "2026-07-12",
+      "count": 14,
+      "last_seen": "2026-07-16",
       "difficulty": 2,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 13,
-      "last_seen": "2026-07-12",
+      "count": 14,
+      "last_seen": "2026-07-16",
       "difficulty": 2,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 13,
-      "last_seen": "2026-07-12",
+      "count": 14,
+      "last_seen": "2026-07-16",
       "difficulty": 2,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 13,
-      "last_seen": "2026-07-12",
+      "count": 14,
+      "last_seen": "2026-07-16",
       "difficulty": 2,
       "rolling_score": []
     }
@@ -932,32 +937,32 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 21,
-      "last_seen": "2026-07-13",
+      "count": 22,
+      "last_seen": "2026-07-16",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 21,
-      "last_seen": "2026-07-13",
+      "count": 22,
+      "last_seen": "2026-07-16",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 19,
-      "last_seen": "2026-07-13",
+      "count": 20,
+      "last_seen": "2026-07-16",
       "difficulty": 4,
       "rolling_score": []
     },
     "arts": {
-      "count": 19,
-      "last_seen": "2026-07-13",
+      "count": 20,
+      "last_seen": "2026-07-16",
       "difficulty": 3,
       "rolling_score": []
     },
     "music": {
-      "count": 19,
-      "last_seen": "2026-07-14",
+      "count": 20,
+      "last_seen": "2026-07-16",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1000,160 +1005,9 @@
   },
   "history": [],
   "today": {
-    "date": "2026-07-15",
+    "date": "2026-07-16",
     "current_q": 1,
     "answers": [],
-    "questions": [
-      {
-        "n": 1,
-        "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "Under a Multimodal Transport Document governed by the UNCTAD/ICC Rules, which liability regime applies when cargo is damaged but the specific transport leg on which the damage occurred cannot be identified?",
-        "options": [
-          "Network liability: the highest limit of any unimodal convention that could apply",
-          "The carrier is fully exempt when the damaged leg cannot be localised",
-          "A uniform liability limit built into the MTD itself applies regardless of the leg",
-          "The shipper absorbs the loss under the 'unknown stage' exclusion clause"
-        ],
-        "correct": 2,
-        "why": "When the damaged leg is unknown, network liability cannot apply \u2014 it requires localisation to a specific mode. The UNCTAD/ICC Rules instead fall back to a uniform limit (typically 8.33 SDR/kg) embedded in the MTD.",
-        "deepDive": "The Multimodal Transport Document emerged to cover door-to-door shipments across sea, rail, road and air under a single contract. The UNCTAD/ICC Rules (1992) use a 'modified network' approach: if you can pinpoint the leg \u2014 e.g., ocean \u2014 that mode's convention applies (Hague-Visby at sea, CMR by road, Montreal by air). When the leg is unknown, you fall back to the MTD's built-in uniform limit. This matters commercially because limits differ widely: Montreal allows 22 SDR/kg for air cargo; CMR allows 8.33 SDR/kg by road; Hague-Visby can be as low as 2 SDR/kg or 666.67 SDR per package. Choosing a multimodal vs. port-to-port bill of lading can dramatically change your recoverable amount. Common misconception: 'all-risks' cargo insurance covers what carrier liability doesn't \u2014 so shippers carry ICC (A) cover as a backstop precisely because carrier liability caps can be very low."
-      },
-      {
-        "n": 2,
-        "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "The Far East\u2013North Europe corridor is the world's highest-volume container trade lane. When the Suez Canal operates normally, which routing carries the dominant share of its capacity?",
-        "options": [
-          "Trans-Siberian rail bridge via Russia",
-          "Cape of Good Hope, southward around Africa",
-          "Suez Canal, through Egypt",
-          "Panama Canal with transshipment via Kingston"
-        ],
-        "correct": 2,
-        "why": "The Suez route saves roughly 9,000km and 10\u201314 days versus the Cape, making it the default for over 90% of Far East\u2013NE capacity when the canal is operational.",
-        "deepDive": "The Far East\u2013North Europe trade lane moves roughly 25\u201330 million TEUs annually and is the battleground for the mega-alliances. Suez cuts the Asia-Europe voyage from ~26,000km (Cape) to ~17,000km, saving $400\u2013600 per TEU in bunker costs and 10-14 transit days. When Suez is blocked or too risky \u2014 Ever Given in 2021, Houthi attacks in 2024-25 \u2014 carriers reroute around the Cape, adding 2\u20133 weeks and absorbing extra vessel capacity from the market, which tightens supply and pushes rates up across all trades simultaneously. The Trans-Siberian rail bridge carries a tiny fraction of volume and faced severe sanctions complications after 2022. Understanding the major lane bottlenecks \u2014 Suez, Hormuz, Malacca, Panama \u2014 is fundamental to rate forecasting and supply-chain risk. Disruptions at any one can cascade across seemingly unrelated markets within weeks."
-      },
-      {
-        "n": 3,
-        "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "Institute Cargo Clauses (A) provides the broadest 'all-risks' cargo cover. Which of the following is explicitly excluded from ICC (A) regardless of how the loss occurred?",
-        "options": [
-          "Theft of cargo from a sealed container while in transit",
-          "Damage arising from the inherent vice or nature of the cargo",
-          "General average contributions demanded by the shipowner",
-          "Jettison of cargo into the sea during a storm"
-        ],
-        "correct": 1,
-        "why": "Inherent vice \u2014 the cargo's own natural tendency to deteriorate \u2014 is excluded across all three ICC grades. Theft, GA contributions and jettison are all covered under ICC (A).",
-        "deepDive": "The Institute Cargo Clauses come in three grades: (A) all-risks, (B) and (C) named-perils. All three share the same core exclusion list regardless of grade: wilful misconduct of the assured, ordinary leakage and wear and tear, inherent vice or nature of the subject-matter, delay, insolvency of carriers, nuclear risks, and war/strikes (the latter covered by separate ICC War and ICC Strikes clauses). 'Inherent vice' means the cargo's own characteristics \u2014 bananas ripening, iron rusting in humid air, live animals dying of disease \u2014 not an external peril. The boundary between inherent vice (excluded) and bad stowage causing deterioration (covered) is frequently litigated. Common misconception: ICC (A) covers everything. It does not \u2014 'all-risks' means all external accidental risks, not all losses. Buyers often discover excluded inherent-vice losses only at claims time, so understanding the exclusion list before cargo moves is essential."
-      },
-      {
-        "n": 4,
-        "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "Under SOLAS Chapter VI (amended effective July 2016), who bears the legal obligation to provide a Verified Gross Mass (VGM) for a packed export container, and by when?",
-        "options": [
-          "The freight forwarder, at the time of booking confirmation",
-          "The vessel operator, upon receipt of the cargo at the terminal gate",
-          "The shipper named on the bill of lading, before the vessel's cargo loading cutoff",
-          "The terminal operator, after weighing the container at the facility"
-        ],
-        "correct": 2,
-        "why": "SOLAS places VGM responsibility solely on the shipper (the B/L party). It must be submitted to the master and terminal representative before the container can be loaded aboard the vessel.",
-        "deepDive": "The VGM rule came into global force on July 1, 2016, following high-profile accidents \u2014 including MSC Napoli in 2007 \u2014 partly attributed to underdeclared container weights that compromised vessel stability. Shippers may use Method 1 (weigh the packed, sealed container on calibrated certified scales) or Method 2 (sum all cargo and packaging item weights plus the container's tare weight, using certified equipment). The VGM must appear in a shipping document or electronic message from the shipper. Carriers can legally refuse to load a container without a compliant VGM, and Port State Control inspectors can detain vessels for improperly declared weights. Common misconception: freight forwarders often handle the submission process in practice, but legal liability for accuracy remains with the shipper named on the bill of lading. 'Verified' specifically means certified calibrated equipment \u2014 not a shipper's estimate."
-      },
-      {
-        "n": 5,
-        "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "After the 2023\u20132025 mega-alliance reshuffling, approximately what share of global container capacity did the top 3 carriers \u2014 MSC, Maersk, and CMA CGM \u2014 collectively control?",
-        "options": [
-          "Around 35%",
-          "Around 50%",
-          "Around 63\u201365%",
-          "Around 80%"
-        ],
-        "correct": 2,
-        "why": "MSC alone controls ~20%+ of global TEU capacity; together with Maersk (~14%) and CMA CGM (~12%), the top 3 account for roughly 63\u201365% of world fleet capacity.",
-        "deepDive": "Container shipping has undergone dramatic consolidation since Hanjin's 2016 bankruptcy shook global supply chains. From 20+ significant carriers in the early 2000s, fewer than 10 major players remain. MSC overtook Maersk as the world's largest carrier in early 2022 and has aggressively added capacity through secondhand purchases. The mega-alliance structure (2M dissolved 2025; new groupings reshuffled) allows vessel sharing while carriers formally compete on price \u2014 but at 63-65% concentration, the distinction is slippery in practice. Three carriers controlling the majority of global capacity can coordinate blank sailings with remarkable speed, effectively engineering supply tightness and rate spikes. The IMF and OECD flagged this dynamic in 2021 when blank-sailing decisions during post-COVID demand surges amplified rather than merely responded to supply-chain disruptions. Antitrust exemptions for shipping conferences persist under many national laws \u2014 a regulatory anomaly that periodically attracts scrutiny."
-      },
-      {
-        "n": 6,
-        "topic": "gk",
-        "subtopic": "history",
-        "stem": "The Battle of Plassey (1757) is considered the foundation of British rule in India primarily because it achieved what outcome for the East India Company?",
-        "options": [
-          "It defeated the Mughal Emperor in open battle, ending central Mughal authority",
-          "It secured Bengal's treasury and eventually its diwani revenue rights, funding all further EIC conquests",
-          "It forced France to cede all Indian trading posts under the subsequent Treaty of Paris",
-          "It unified the Nawabs of Bengal, Bihar and Orissa under a single British-controlled confederacy"
-        ],
-        "correct": 1,
-        "why": "Through Mir Jafar's pre-arranged treachery, Clive defeated Nawab Siraj ud-Daulah. The EIC gained diwani (revenue collection) rights over Bengal in 1765 \u2014 the financial engine that bankrolled all subsequent British expansion across the subcontinent.",
-        "deepDive": "Plassey on June 23, 1757 was less a military triumph than a corporate coup. Robert Clive's roughly 3,000 EIC troops faced Siraj ud-Daulah's 50,000-strong army \u2014 but the battle was decided in secret before a shot was fired. Mir Jafar, the Nawab's own commander-in-chief, had agreed with the EIC to stand his forces down in exchange for the Nawabship. Siraj's gunpowder was ruined by rain; his forces disintegrated within hours. The real prize came in 1765: the Mughal Emperor Shah Alam II granted the EIC diwani rights over Bengal, Bihar and Orissa \u2014 the right to collect taxes from tens of millions of people, worth \u00a33 million annually. Historian Nick Robins called this 'the first time in history that a company acquired the taxation rights of a sovereign territory.' Bengal's extracted wealth funded EIC conquests in Mysore, Maharashtra and beyond. Plassey is the origin story of corporate colonialism and the foundational event for understanding South Asian modernity."
-      },
-      {
-        "n": 7,
-        "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Strait of Malacca \u2014 the world's busiest international shipping lane \u2014 connects which two bodies of water?",
-        "options": [
-          "The Bay of Bengal and the Java Sea",
-          "The Andaman Sea and the South China Sea",
-          "The Indian Ocean and the Pacific Ocean directly",
-          "The Gulf of Thailand and the Banda Sea"
-        ],
-        "correct": 1,
-        "why": "The strait runs between peninsular Malaysia and Sumatra, linking the Andaman Sea (Indian Ocean side) to the South China Sea (Pacific side). Singapore sits at its southern mouth.",
-        "deepDive": "The Strait of Malacca is approximately 890km long and narrows to just 2.8km at its southern end near Singapore (the Phillips Channel). It handles roughly 25% of world trade by value and 40% of global seaborne trade \u2014 most Middle East oil heading to China, Japan and South Korea passes through it. At its shallowest and narrowest points, Very Large Crude Carriers cannot safely transit; they divert to the Lombok or Sunda Straits, adding 1,200\u20132,000km to voyage distance. Singapore's status as the world's second-busiest port is inseparable from its geography at the strait's mouth. Strategically, control of the Malacca Strait has defined regional power for centuries \u2014 from the Malacca Sultanate through Portuguese, Dutch, British and Japanese occupations to today's US-China naval rivalry. A credible threat to close it would immediately disrupt Asian energy security and global container schedules simultaneously."
-      },
-      {
-        "n": 8,
-        "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "Antonio Gramsci's concept of 'cultural hegemony', developed in his Prison Notebooks (1926\u20131937), argues that ruling-class dominance in modern capitalist societies is maintained primarily through:",
-        "options": [
-          "Direct military coercion and the state's monopoly on legitimate violence",
-          "Ownership and control of the means of material production",
-          "Cultural and ideological leadership that wins the genuine consent of the governed",
-          "Manipulation of electoral rules and systematic gerrymandering"
-        ],
-        "correct": 2,
-        "why": "Gramsci argued that bourgeois power rests on 'hegemony' \u2014 consent manufactured through civil society institutions (schools, media, churches) \u2014 not merely on coercion (the state's hard power).",
-        "deepDive": "Gramsci was imprisoned by Mussolini from 1926 to 1937 and wrote the Prison Notebooks to explain why the proletarian revolution Marx predicted had not materialized in advanced capitalist societies. His answer: ruling classes rule not just through the state's 'hard power' (police, army) but through 'civil society' \u2014 schools, churches, media, culture \u2014 that shape what people consider natural, normal and desirable. A factory worker who votes against their economic interest is not irrational; they have internalized a worldview that serves someone else's interests. Gramsci called this naturalized 'common sense' and argued it must be contested through a 'war of position' (gradual cultural contest) before any 'war of maneuver' (direct political challenge) can succeed. The framework remains central to media studies, post-colonial theory and political communication. It explains why authoritarian governments invest so heavily in education, state media and narrative control \u2014 manufactured consent is more durable than coercion alone. Common misconception: Gramsci rejected state coercion entirely. He did not \u2014 he argued hegemony works alongside it, making coercion a backstop rather than the primary mechanism."
-      },
-      {
-        "n": 9,
-        "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The Prebisch-Singer Hypothesis (1950) predicts that, over the long run, the terms of trade of commodity-exporting developing nations will:",
-        "options": [
-          "Improve as global industrialization sustains rising demand for raw materials",
-          "Remain stable because international price competition equalizes returns across sectors",
-          "Deteriorate relative to manufactured goods, structurally trapping commodity exporters",
-          "Fluctuate cyclically but converge to parity with industrialized nations over decades"
-        ],
-        "correct": 2,
-        "why": "Prebisch and Singer independently showed that primary commodity prices tend to fall relative to manufactures over time \u2014 productivity gains in the Global South are passed to Northern consumers rather than retained as wages.",
-        "deepDive": "Ra\u00fal Prebisch at ECLA and Hans Singer at the UN independently published findings in 1950 showing that terms of trade had deteriorated for commodity exporters relative to manufacturers across the long 19th and early 20th centuries. The mechanism: manufactured goods benefit from elastic demand and unionized labor that captures productivity gains as higher wages; commodities face inelastic demand and substitution risk, so productivity gains are passed on as lower prices to consumers in rich nations. This asymmetry became the intellectual foundation of dependency theory, the UNCTAD framework, and arguments for import-substitution industrialization. Bangladesh's post-LDC anxiety has a Prebisch-Singer dimension: as a garment exporter at the labor-intensive end of manufacturing, it risks commodity-like terms-of-trade dynamics unless it moves up the value chain into higher-margin, higher-tech products \u2014 exactly the diversification pressure the government's Five-Year Strategic Framework is designed to address. Common misconception: the hypothesis has been 'disproven' by commodity supercycles. Supercycles are temporary reversals within a long-run secular trend, not refutations of it."
-      },
-      {
-        "n": 10,
-        "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "The photoelectric effect \u2014 explained by Einstein in 1905 and the basis of his 1921 Nobel Prize \u2014 demonstrated which fundamental property of light?",
-        "options": [
-          "Light travels at a constant speed in a vacuum independent of the observer's motion",
-          "Light exhibits wave interference when passed through a double slit",
-          "Light is quantized into discrete energy packets called photons, not a continuous wave",
-          "Light can be polarized, confirming its transverse wave nature"
-        ],
-        "correct": 2,
-        "why": "Electrons are ejected only above a threshold frequency regardless of light intensity, proving that light delivers energy in fixed quanta (E = hf) \u2014 a founding result of quantum mechanics.",
-        "deepDive": "By 1900, classical wave theory predicted that sufficiently bright light should always eject electrons from a metal surface if the intensity was sufficient. Experiment disagreed completely: below a critical frequency, no electrons were emitted however bright the beam; above it, even very dim light ejected electrons instantly. Einstein's 1905 solution: light comes in discrete quanta (later named photons by Gilbert Lewis), each carrying energy E = hf where h is Planck's constant and f is frequency. A single photon below the threshold frequency lacks the energy to liberate one electron \u2014 no matter how many photons arrive. This was the first clean experimental evidence that energy is fundamentally quantized \u2014 the central departure from classical physics and the gateway to quantum mechanics. Einstein won the 1921 Nobel Prize for this result, not for special or general relativity (which the Nobel committee at the time considered too speculative). The photoelectric effect underpins modern technology: solar cells, digital camera CCD sensors, photomultiplier tubes, and photodetectors all exploit the quantum behaviour of photons."
-      }
-    ]
+    "questions": []
   }
 }
