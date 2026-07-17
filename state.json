@@ -1,17 +1,7 @@
 {
-  "streak": 6,
-  "last_session_date": "2026-07-16",
+  "streak": 7,
+  "last_session_date": "2026-07-17",
   "questions_seen": [
-    "In container logistics, a 'CFS/CFS' movement means the cargo:",
-    "The 'Middle Corridor' (Trans-Caspian International Transport Route) has gained strategic relevance since 2022 primarily because it:",
-    "Under the York-Antwerp Rules governing General Average, a cargo owner's obligation to contribute arises only when the sacrifice or expenditure was:",
-    "The UFLPA (Uyghur Forced Labour Prevention Act, 2022) creates a 'rebuttable presumption' for Xinjiang-origin goods. In practice, importers facing a USCBP hold must:",
-    "The Xeneta XSI (Xeneta Shipping Index) differs from spot indices like the SCFI or Drewry WCI primarily because it:",
-    "The Zagros Mountains (~1,500 km, northwest to southeast) form the natural boundary between the Iranian Plateau and which geographic region?",
-    "The Carnot efficiency formula (maximum efficiency = 1 \u2212 T_cold/T_hot) requires temperatures expressed in:",
-    "Satyajit Ray's Apu Trilogy (Pather Panchali, Aparajito, Apur Sansar, 1955-59) is primarily celebrated for which filmmaking quality?",
-    "The distinction between 'langue' and 'parole', foundational to structural linguistics, was introduced by which thinker and captures which difference?",
-    "The Duckworth-Lewis-Stern (DLS) method recalculates rain-affected limited-overs targets. Its core principle defines a batting team's remaining 'resources' as:",
     "Among widebody freighters, which aircraft type forms the backbone of FedEx's medium-to-long-range operations and is the numerical workhorse on FedEx's North American and transpacific routes?",
     "A 'road feeder service' (RFS) in air freight operates under the airline's Air Waybill. Its primary regulatory significance is that cargo moved by RFS:",
     "CMA CGM's acquisition of Bollor\u00e9 Africa Logistics (rebranded Africa Global Logistics, AGL) in 2022 represents which integration strategy?",
@@ -501,7 +491,17 @@
     "What does Bayes' theorem fundamentally allow you to calculate?",
     "Gabriel Garc\u00eda M\u00e1rquez's 'One Hundred Years of Solitude' is set in which fictional location?",
     "Kazimir Malevich's 'Black Square' (1915), hung in the corner where icons traditionally hung in Russian homes, is a founding work of which movement?",
-    "What is a 'Picardy third' (tierce de Picardie) in Western music?"
+    "What is a 'Picardy third' (tierce de Picardie) in Western music?",
+    "Under a CIF Incoterm, which party is obligated to contract and pay for marine cargo insurance on the international leg of the shipment?",
+    "The WTO Customs Valuation Agreement establishes a strict hierarchy of six methods. Which method must be applied first when determining the dutiable value of an import?",
+    "Ultra Large Container Vessels (ULCVs, or Megamax) are generally defined as exceeding which TEU capacity, distinguishing them from Neo-Panamax vessels?",
+    "At a container terminal, detention charges are correctly defined as fees incurred when:",
+    "The Gemini Cooperation alliance, which launched its full network in February 2025, is a vessel-sharing partnership between which two container carriers?",
+    "Which of the four major Sunni schools of Islamic jurisprudence (madhab) is predominant in South Asia, including Bangladesh, Pakistan, and India?",
+    "Grimm's Law (1822) describes a systematic consonant shift that distinguishes which branch of the Indo-European language family from its cognates?",
+    "Of the four Grand Slam tennis tournaments, which is played on red clay courts \u2014 producing the slowest surface and rewarding heavy topspin baseliners?",
+    "Which South Korean filmmaker wrote and directed 'Parasite' (2019), the first non-English-language film to win the Academy Award for Best Picture?",
+    "The Peace of Westphalia (1648) ended which major European conflicts, and is cited in IR theory as establishing what foundational norm of the modern state system?"
   ],
   "learn_history": [
     {
@@ -793,6 +793,11 @@
       "date": "2026-07-16",
       "topic": "CoWoS Advanced Packaging: How TSMC Stacks Chips to Power the AI Era",
       "bucket": "semiconductor_foundations"
+    },
+    {
+      "date": "2026-07-17",
+      "topic": "The Carnot Efficiency Ceiling: Why Physics Sets a Hard Limit on Every Engine",
+      "bucket": "science_concept"
     }
   ],
   "curriculum_progress": {
@@ -803,8 +808,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 14,
-      "last_seen": "2026-07-13",
+      "count": 15,
+      "last_seen": "2026-07-17",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -815,20 +820,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 14,
-      "last_seen": "2026-07-13",
+      "count": 15,
+      "last_seen": "2026-07-17",
       "difficulty": 3,
       "rolling_score": []
     },
     "vessels": {
-      "count": 14,
-      "last_seen": "2026-07-13",
+      "count": 15,
+      "last_seen": "2026-07-17",
       "difficulty": 3,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 14,
-      "last_seen": "2026-07-13",
+      "count": 15,
+      "last_seen": "2026-07-17",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -839,8 +844,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 14,
-      "last_seen": "2026-07-13",
+      "count": 15,
+      "last_seen": "2026-07-17",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -919,8 +924,8 @@
   },
   "gk_progress": {
     "history": {
-      "count": 22,
-      "last_seen": "2026-07-15",
+      "count": 23,
+      "last_seen": "2026-07-17",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -967,8 +972,8 @@
       "rolling_score": []
     },
     "religion": {
-      "count": 19,
-      "last_seen": "2026-07-14",
+      "count": 20,
+      "last_seen": "2026-07-17",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -985,29 +990,180 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 19,
-      "last_seen": "2026-07-14",
+      "count": 20,
+      "last_seen": "2026-07-17",
       "difficulty": 4,
       "rolling_score": []
     },
     "sport": {
-      "count": 19,
-      "last_seen": "2026-07-14",
+      "count": 20,
+      "last_seen": "2026-07-17",
       "difficulty": 3,
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 19,
-      "last_seen": "2026-07-14",
+      "count": 20,
+      "last_seen": "2026-07-17",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-07-16",
+    "date": "2026-07-17",
     "current_q": 1,
     "answers": [],
-    "questions": []
+    "questions": [
+      {
+        "n": 1,
+        "topic": "industry",
+        "subtopic": "documentation",
+        "stem": "Under a CIF Incoterm, which party is obligated to contract and pay for marine cargo insurance on the international leg of the shipment?",
+        "options": [
+          "The buyer \u2014 risk and cost both transfer to them at the origin port",
+          "The seller \u2014 CIF requires them to insure goods to the named destination port",
+          "The freight forwarder, as organiser of the transport chain",
+          "Either party by mutual agreement written into the sales contract"
+        ],
+        "correct": 1,
+        "why": "CIF (Cost, Insurance & Freight) places the insurance obligation on the seller to the named destination port, though risk transfers at the origin port of shipment.",
+        "deepDive": "Under CIF (Incoterms 2020), the seller must pay ocean freight and procure minimum marine cargo insurance \u2014 Institute Cargo Clauses C, or equivalent \u2014 for the buyer's benefit. The buyer is the policy beneficiary but the seller pays the premium. Critically, risk transfers from seller to buyer when goods cross the ship's rail at origin, creating a paradox: the buyer bears risk but the seller holds the policy. Smart buyers insist on CIP (Carriage and Insurance Paid To) instead, which mandates the broader ICC-A coverage. Sellers often prefer CIF because they control insurer selection, potentially choosing cheaper policies. For Bangladesh RMG shipments, most contracts use FOB, shifting all insurance and freight obligations to buyers entirely \u2014 knowing your Incoterm determines who calls the underwriter when a container is damaged or lost at sea."
+      },
+      {
+        "n": 2,
+        "topic": "industry",
+        "subtopic": "customs",
+        "stem": "The WTO Customs Valuation Agreement establishes a strict hierarchy of six methods. Which method must be applied first when determining the dutiable value of an import?",
+        "options": [
+          "Deductive value \u2014 based on the resale price in the importing country",
+          "Transaction value of identical goods from a comparable shipment",
+          "Transaction value \u2014 the actual price paid or payable for the imported goods",
+          "Computed value \u2014 built up from cost of production plus profit and overheads"
+        ],
+        "correct": 2,
+        "why": "Transaction value (Method 1) \u2014 the actual invoice price paid or payable \u2014 is the mandatory first method; others apply only if Method 1 cannot be used.",
+        "deepDive": "The WTO Agreement on Customs Valuation (ACV, 1994) replaced the Brussels Definition of Value and mandates a strict hierarchy: (1) Transaction value, (2) Transaction value of identical goods, (3) Transaction value of similar goods, (4) Deductive value, (5) Computed value, (6) Fall-back. Customs must start at Method 1 and move down only when a method cannot be applied. Method 1 is rejected when parties are related and the price may be influenced, or when the seller imposes conditions on the buyer. Bangladesh NBR customs audits routinely challenge under-invoiced garment accessories imported from China."
+      },
+      {
+        "n": 3,
+        "topic": "industry",
+        "subtopic": "vessels",
+        "stem": "Ultra Large Container Vessels (ULCVs, or Megamax) are generally defined as exceeding which TEU capacity, distinguishing them from Neo-Panamax vessels?",
+        "options": [
+          "Approximately 10,000 TEU",
+          "Approximately 14,500 TEU",
+          "Approximately 18,000 TEU",
+          "Approximately 24,000 TEU"
+        ],
+        "correct": 2,
+        "why": "ULCVs are generally classified above approximately 18,000 TEU; Neo-Panamax ships span roughly 10,000-18,000 TEU and can transit the Panama Canal's expanded locks.",
+        "deepDive": "Container ship size tiers: Feeder (under 3,000 TEU), Feeder-Max (3,000-5,100), Sub-Panamax (5,100-10,000), Neo-Panamax (10,000-14,500 TEU, fits expanded Panama Canal), Post-Panamax (10,000-18,000 TEU), ULCV/Megamax (18,000-24,000+ TEU). Current record holders: MSC Irina (24,346 TEU) and MSC Loreto (24,116 TEU). Three physical constraints govern deployment: beam, draught, and air draught. MGH's Bangladesh feeder operations deploy sub-4,000 TEU vessels transshipping at Colombo or Singapore onto main east-west ULCV strings."
+      },
+      {
+        "n": 4,
+        "topic": "industry",
+        "subtopic": "port_ops",
+        "stem": "At a container terminal, detention charges are correctly defined as fees incurred when:",
+        "options": [
+          "A full container sits on the terminal beyond free time after vessel discharge",
+          "A shipping line delays its vessel departure past the allotted berth window",
+          "A carrier's container is held by the merchant beyond free time after leaving the terminal gate",
+          "Customs withholds cargo pending document verification, blocking terminal exit"
+        ],
+        "correct": 2,
+        "why": "Detention means the carrier's equipment is held by the merchant beyond free time once the container has left the terminal \u2014 charged by the carrier, not the terminal.",
+        "deepDive": "Demurrage: container remains on terminal beyond free time. Detention: carrier's container held outside terminal by merchant past free time. Storage: levied by terminal separately. The FMC issued rules in 2022 requiring carriers to publish clear policies on when clocks start and stop. Shippers frequently confuse detention and demurrage, losing valid dispute claims by challenging the wrong charge category."
+      },
+      {
+        "n": 5,
+        "topic": "industry",
+        "subtopic": "liner_alliances",
+        "stem": "The Gemini Cooperation alliance, which launched its full network in February 2025, is a vessel-sharing partnership between which two container carriers?",
+        "options": [
+          "CMA CGM and COSCO",
+          "Maersk and MSC",
+          "Maersk and Hapag-Lloyd",
+          "ONE and HMM"
+        ],
+        "correct": 2,
+        "why": "Gemini Cooperation = Maersk + Hapag-Lloyd; both exited prior alliances (2M and THE Alliance respectively) to form Gemini in February 2025.",
+        "deepDive": "Gemini Cooperation (Maersk + Hapag-Lloyd) promises around 90% schedule reliability via hub-and-spoke. Premier Alliance: ONE + HMM + Yang Ming. Ocean Alliance: CMA CGM + COSCO + OOCL + Evergreen. MSC operates independently. For feeder-dependent markets like Chittagong \u2014 connecting via Colombo, Singapore, or Port Klang \u2014 alliance port rotation decisions directly affect feeder schedules and slot availability."
+      },
+      {
+        "n": 6,
+        "topic": "gk",
+        "subtopic": "religion",
+        "stem": "Which of the four major Sunni schools of Islamic jurisprudence (madhab) is predominant in South Asia, including Bangladesh, Pakistan, and India?",
+        "options": [
+          "Maliki \u2014 the dominant school in North and West Africa",
+          "Hanbali \u2014 predominant in Saudi Arabia and the Gulf states",
+          "Hanafi \u2014 the largest Sunni school, prevalent across South Asia, Central Asia, and Turkey",
+          "Shafi'i \u2014 predominant in East Africa, Yemen, and Southeast Asia"
+        ],
+        "correct": 2,
+        "why": "The Hanafi school is the largest Sunni madhab globally, dominant across South Asia, Central Asia, the Levant, and Turkey \u2014 spread largely via Ottoman administration.",
+        "deepDive": "Four Sunni schools: Hanafi (Abu Hanifa, d. 767), Maliki (Malik ibn Anas, d. 795), Shafi'i (al-Shafi'i, d. 820), Hanbali (Ahmad ibn Hanbal, d. 855). Hanafi emphasises rational analogy (qiyas) and juristic preference (istihsan). Geographic spread: Hanafi \u2014 Turkey, Central Asia, South Asia; Maliki \u2014 North/West Africa; Shafi'i \u2014 East Africa, Yemen, Southeast Asia; Hanbali \u2014 Saudi Arabia/Gulf. In Bangladesh, over 90% of Muslims follow Hanafi, visible in Islamic banking products and inheritance law structures."
+      },
+      {
+        "n": 7,
+        "topic": "gk",
+        "subtopic": "linguistics",
+        "stem": "Grimm's Law (1822) describes a systematic consonant shift that distinguishes which branch of the Indo-European language family from its cognates?",
+        "options": [
+          "Slavic languages \u2014 explaining Russian's distinctive consonant clusters",
+          "Italic languages \u2014 explaining Latin's divergence from Ancient Greek",
+          "Germanic languages \u2014 explaining why English 'father' corresponds to Latin 'pater'",
+          "Indo-Iranian languages \u2014 explaining Sanskrit's relationship to Avestan"
+        ],
+        "correct": 2,
+        "why": "Grimm's Law describes the consonant mutations that define Proto-Germanic \u2014 and all Germanic languages including English \u2014 relative to other Indo-European branches.",
+        "deepDive": "Grimm's Law (Jacob Grimm, 1822): three systematic shifts from PIE to Proto-Germanic. (1) Voiced aspirated stops to voiced fricatives; (2) Voiced stops to voiceless stops; (3) Voiceless stops to fricatives. Explains: Latin pater = English father; Latin canis = English hound; Latin tres = English three. Verner's Law (1875) explained apparent exceptions via original PIE stress. Together they established language change is rule-governed \u2014 the foundation of comparative linguistics."
+      },
+      {
+        "n": 8,
+        "topic": "gk",
+        "subtopic": "sport",
+        "stem": "Of the four Grand Slam tennis tournaments, which is played on red clay courts \u2014 producing the slowest surface and rewarding heavy topspin baseliners?",
+        "options": [
+          "Wimbledon \u2014 the grass-court Grand Slam held in London each June-July",
+          "The Australian Open \u2014 played on Plexicushion hard courts in Melbourne each January",
+          "Roland Garros (French Open) \u2014 played on red clay courts in Paris each May-June",
+          "The US Open \u2014 played on DecoTurf hard courts in New York each August-September"
+        ],
+        "correct": 2,
+        "why": "Roland Garros (French Open) in Paris is the only Grand Slam on clay. Slow, high-bouncing clay rewards heavy topspin players \u2014 Nadal won it 14 times between 2005 and 2024.",
+        "deepDive": "Roland Garros uses red clay (crushed brick) \u2014 slow, high-bouncing, physically gruelling. Clay leaves visible ball marks after each bounce, making challenges more transparent. Nadal's 14 French Open titles (2005-2024) are the most dominant single-Grand-Slam record in professional tennis. Many top players skip clay entirely to protect fitness for grass and hard-court majors, creating a uniquely specialist French Open field."
+      },
+      {
+        "n": 9,
+        "topic": "gk",
+        "subtopic": "pop_culture",
+        "stem": "Which South Korean filmmaker wrote and directed 'Parasite' (2019), the first non-English-language film to win the Academy Award for Best Picture?",
+        "options": [
+          "Park Chan-wook \u2014 director of 'Oldboy' (2003) and 'The Handmaiden' (2016)",
+          "Kim Ki-duk \u2014 director of 'Spring, Summer, Fall, Winter... and Spring' (2003)",
+          "Bong Joon-ho \u2014 also director of 'Snowpiercer' (2013) and 'Memories of Murder' (2003)",
+          "Lee Chang-dong \u2014 director of 'Burning' (2018) and 'Poetry' (2010)"
+        ],
+        "correct": 2,
+        "why": "Bong Joon-ho directed Parasite; at the 2020 Oscars it won Best Picture, Best Director, Best Original Screenplay, and Best International Feature \u2014 a quadruple historic first.",
+        "deepDive": "Parasite (2019) \u2014 first non-English film to win Best Picture at the Oscars (92nd Academy Awards, Feb 2020). Bong Joon-ho also won Best Director, Best Original Screenplay, Best International Feature. His filmography consistently uses genre to dissect class politics. Parasite accelerated the Korean Wave (Hallyu) globally. South Korea's KOFIC (Korean Film Council) subsidises auteur cinema \u2014 a model cited in state cultural investment policy discussions worldwide."
+      },
+      {
+        "n": 10,
+        "topic": "gk",
+        "subtopic": "history",
+        "stem": "The Peace of Westphalia (1648) ended which major European conflicts, and is cited in IR theory as establishing what foundational norm of the modern state system?",
+        "options": [
+          "It ended the Napoleonic Wars and established free navigation on European rivers between sovereign states",
+          "It ended the Thirty Years' War and Eighty Years' War, establishing the principle of state sovereignty and non-interference in internal affairs",
+          "It ended the Hundred Years' War and created the first permanent diplomatic missions between European kingdoms",
+          "It ended the Wars of Religion and established a formal balance-of-power collective security arrangement"
+        ],
+        "correct": 1,
+        "why": "Westphalia (1648) ended the Thirty Years' War and Eighty Years' War, enshrining territorial sovereignty and non-interference \u2014 the foundational Westphalian system of modern international relations.",
+        "deepDive": "Peace of Westphalia = Treaties of Osnabruck + Munster (1648). Ended the Thirty Years' War (1618-1648, killed ~1/3 of German population) and Eighty Years' War (Spain-Netherlands). Key innovations: sovereign equality regardless of religion; cuius regio eius religio with minority protections; reduced Pope's and Holy Roman Emperor's transnational authority. 'Westphalian sovereignty' in IR = exclusive territorial jurisdiction + non-interference \u2014 invoked by China and Russia, challenged by R2P advocates."
+      }
+    ]
   }
 }
