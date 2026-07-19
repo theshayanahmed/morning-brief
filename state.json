@@ -1,17 +1,7 @@
 {
   "streak": 8,
-  "last_session_date": "2026-07-18",
+  "last_session_date": "2026-07-19",
   "questions_seen": [
-    "Under Incoterms 2020, DDP (Delivered Duty Paid) places maximum cost and risk on the seller. Why is DDP practically impractical for non-EU sellers exporting to EU buyers?",
-    "Under the Hague-Visby Rules (1924, amended 1968 Visby Protocol), what is the carrier's maximum liability cap, and how do cargo owners practically address losses above this limit?",
-    "A shipper accepts a FAK spot rate with 10-day validity. On day 8, before loading, the carrier announces a General Rate Increase (GRI) effective the following day. What governs the applicable rate?",
-    "A pharma shipper uses 4 kg of dry ice per carton as coolant on an air shipment Dhaka–Frankfurt. Under IATA DGR, which combination of requirements applies?",
-    "RCEP (in force 2022) covers 15 Asia-Pacific nations. Bangladesh is not a member while Vietnam and Cambodia are. What direct competitive trade disadvantage does this create for Bangladeshi RMG exporters?",
-    "Who drew the Punjab and Bengal borders at Partition in August 1947, working from outdated maps in under five weeks, having never previously visited India — and left before independence was declared?",
-    "A disease has 1% prevalence. A diagnostic test has 99% sensitivity and 99% specificity. A randomly selected person tests positive. What is the approximate probability they actually have the disease?",
-    "Antonio Gramsci's concept of 'cultural hegemony' (Prison Notebooks, 1929-35) holds that dominant classes maintain power primarily through:",
-    "The original Phillips Curve (1958) proposed a stable inverse trade-off between unemployment and inflation. What empirical development in the 1970s shattered this framework?",
-    "The Wakhan Corridor — a narrow strip of Afghan territory ~350 km long, 15-65 km wide — was created by 19th-century Great Game boundary agreements specifically to prevent direct territorial contact between which two powers?",
     "Under a switch Bill of Lading arrangement, which party typically surrenders the first set of original B/Ls and receives the newly issued set?",
     "Under WTO Trade Facilitation Agreement Article 3, advance rulings are mandatorily required on which combination of customs determinations at minimum?",
     "A Capesize bulk carrier is so named because it cannot transit which waterways, forcing it to sail around the world's southern capes?",
@@ -501,7 +491,17 @@
     "In the electromagnetic spectrum, which type of radiation has the shortest wavelength and therefore the highest energy per photon?",
     "Which philosopher argued in 'Leviathan' (1651) that life in the 'state of nature' is 'solitary, poor, nasty, brutish, and short,' justifying absolute sovereign authority?",
     "David Ricardo's theory of comparative advantage holds that countries should specialize in goods where they have the lowest what, relative to trading partners?",
-    "Which 1967 novel by Gabriel García Márquez follows seven generations of the Buendía family in the fictional town of Macondo and is the defining work of magical realism?"
+    "Which 1967 novel by Gabriel García Márquez follows seven generations of the Buendía family in the fictional town of Macondo and is the defining work of magical realism?",
+    "In multimodal transport covered by a single through bill of lading, which term describes where liability and the applicable legal regime shift from one mode of transport to another?",
+    "Since Houthi-driven Suez diversions began, the Asia-Europe lane largely routes via the Cape of Good Hope. Approximately how far is Shanghai to Rotterdam via the Cape route?",
+    "Under Institute Cargo Clauses (A) — the broadest marine cargo cover — which peril is explicitly EXCLUDED despite the policy's 'all risks' description?",
+    "The IMO 2020 sulphur regulation, in force since January 1 2020, reduced the global cap on sulphur in marine fuel outside Emission Control Areas from 3.5% m/m to what level?",
+    "During demand downturns, major container carriers consistently deploy blank sailings and slow-steaming to defend rate floors rather than cutting prices to fill capacity. Which economic concept best explains this behavior?",
+    "The Hayflick Limit is the maximum number of times a normal human somatic cell divides before entering permanent cell-cycle arrest. Approximately how many divisions does this limit allow?",
+    "As the Fibonacci sequence (1, 1, 2, 3, 5, 8, 13...) grows, the ratio of consecutive terms converges to a specific mathematical constant. What is that constant?",
+    "Seurat's 1884-86 'La Grande Jatte' pioneered placing tiny dots of pure unmixed color side-by-side for the eye to blend optically. What is this technique called?",
+    "Western equal temperament divides the octave into 12 equal semitones, accepting slight impurity in every interval. What critical problem did this solve that just intonation could not?",
+    "The 1884-85 Berlin Conference formalized European partition of Africa. Which key legal principle required colonial powers to actually occupy and administer territory to gain international recognition?"
   ],
   "learn_history": [
     {
@@ -803,6 +803,11 @@
       "date": "2026-07-18",
       "topic": "The Tanker War (1984-1988): When the Persian Gulf Became a Live-Fire Zone for Commercial Shipping",
       "bucket": "history"
+    },
+    {
+      "date": "2026-07-19",
+      "topic": "The Malacca Dilemma: How a 550-Mile Strait Holds Asia's Grand Strategy Hostage",
+      "bucket": "geography"
     }
   ],
   "curriculum_progress": {
@@ -861,14 +866,14 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 14,
-      "last_seen": "2026-07-15",
+      "count": 15,
+      "last_seen": "2026-07-19",
       "difficulty": 4,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 14,
-      "last_seen": "2026-07-15",
+      "count": 15,
+      "last_seen": "2026-07-19",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -879,20 +884,20 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 14,
-      "last_seen": "2026-07-15",
+      "count": 15,
+      "last_seen": "2026-07-19",
       "difficulty": 4,
       "rolling_score": []
     },
     "compliance": {
-      "count": 14,
-      "last_seen": "2026-07-15",
+      "count": 15,
+      "last_seen": "2026-07-19",
       "difficulty": 4,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 14,
-      "last_seen": "2026-07-15",
+      "count": 15,
+      "last_seen": "2026-07-19",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -929,8 +934,8 @@
   },
   "gk_progress": {
     "history": {
-      "count": 23,
-      "last_seen": "2026-07-17",
+      "count": 24,
+      "last_seen": "2026-07-19",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -947,14 +952,14 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 22,
-      "last_seen": "2026-07-16",
+      "count": 23,
+      "last_seen": "2026-07-19",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 22,
-      "last_seen": "2026-07-16",
+      "count": 23,
+      "last_seen": "2026-07-19",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -965,14 +970,14 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 20,
-      "last_seen": "2026-07-16",
+      "count": 21,
+      "last_seen": "2026-07-19",
       "difficulty": 3,
       "rolling_score": []
     },
     "music": {
-      "count": 20,
-      "last_seen": "2026-07-16",
+      "count": 21,
+      "last_seen": "2026-07-19",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1015,159 +1020,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-07-18",
+    "date": "2026-07-19",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
-        "topic": "industry",
-        "subtopic": "incoterms",
-        "stem": "Under Incoterms 2020, at which precise point does risk transfer from seller to buyer under FOB (Free On Board)?",
+        "topic": "domain",
+        "subtopic": "multimodal",
+        "stem": "In multimodal transport covered by a single through bill of lading, which term describes where liability and the applicable legal regime shift from one mode of transport to another?",
         "options": [
-          "When goods are placed on board the vessel at the named port of shipment",
-          "When the vessel departs the origin port",
-          "When goods arrive at the destination port",
-          "When the bill of lading is issued to the shipper"
+          "Free Carrier (FCA) point",
+          "Transshipment terminal",
+          "Interface point",
+          "Container freight station (CFS)"
         ],
-        "correct": 0,
-        "why": "Under FOB Incoterms 2020, risk passes the moment goods are 'on board' the vessel — not when the ship sails or when the B/L is issued.",
-        "deepDive": "FOB is one of the most misunderstood Incoterms in practice. Risk passes when goods are 'on board' the named vessel — if a crane drops cargo onto the deck before it's secured, the question of 'on board' status determines who bears the loss. The ICC specifically recommends against FOB for containerized cargo — since goods are handed to the carrier at an inland terminal long before loading — and recommends FCA (Free Carrier) instead. Under FCA, risk passes when goods are handed to the named carrier. Despite this, FOB remains the default in most Asian RMG procurement contracts. Sellers and buyers often confuse FOB with FAS (Free Alongside Ship), where risk passes when goods are placed alongside (not on) the vessel. Getting this wrong can invalidate insurance coverage at the critical handover moment and create costly cargo-claims disputes."
+        "correct": 2,
+        "why": "An 'interface point' marks where one transport mode hands cargo to another — and where the applicable liability convention (e.g., Hague-Visby to CMR) may change under a multimodal bill of lading.",
+        "deepDive": "Multimodal transport under a single BL simplifies the shipper's world — one document, one claim, one freight invoice — but beneath it lies a legal patchwork. Ocean carriage is governed by Hague-Visby or Hamburg Rules; road by CMR; rail by CIM/COTIF; air by Montreal Convention. Interface points mark where one regime ends and another may begin. Many multimodal operators use a 'network liability' approach — applying whichever convention governs the leg where loss occurred — or adopt uniform liability clauses to reduce dispute risk. For freight buyers, the key insight is that while one BL is issued, risk exposure can shift multiple times mid-journey. Understanding interface points is essential for buying the right cargo insurance: open covers must be checked for multimodal applicability, especially on inland legs where coverage gaps are most common and least expected."
       },
       {
         "n": 2,
-        "topic": "industry",
-        "subtopic": "bill_of_lading",
-        "stem": "Which type of bill of lading can be transferred to a third party by endorsement, enabling the holder to claim cargo at the destination port?",
+        "topic": "domain",
+        "subtopic": "trade_lanes",
+        "stem": "Since Houthi-driven Suez diversions began, the Asia-Europe lane largely routes via the Cape of Good Hope. Approximately how far is Shanghai to Rotterdam via the Cape route?",
         "options": [
-          "Sea Waybill (non-negotiable)",
-          "Straight (consignee) B/L",
-          "Order (negotiable) B/L",
-          "Express Release B/L"
+          "9,500 nautical miles",
+          "15,600 nautical miles",
+          "12,450 nautical miles",
+          "22,000 nautical miles"
         ],
-        "correct": 2,
-        "why": "An 'order' or negotiable B/L can be endorsed and transferred, giving the holder document of title — essential for letter of credit (LC) financing where the bank holds the B/L as collateral.",
-        "deepDive": "The negotiable bill of lading is the only one of the three major transport documents that functions simultaneously as a receipt, evidence of the carriage contract, AND a document of title. In a letter of credit transaction, the issuing bank holds the original B/L: if the importer defaults, the bank can redirect the goods. Sea waybills name a fixed consignee who can take delivery without presenting the original — faster and cheaper, but incompatible with LC financing. Express release B/Ls allow cargo release without presenting originals, useful for trusted counterparties on short voyages. Three originals are typically issued; possession of any one confers title. The rise of electronic B/Ls (BOLERO, essDOCS, WaveBL) addresses the absurdity of paper originals sometimes arriving after the ship — but adoption has been slow due to legal recognition gaps across jurisdictions."
+        "correct": 1,
+        "why": "Shanghai to Rotterdam via Cape of Good Hope is approximately 15,600 nm — versus ~12,450 nm via Suez — adding ~3,150 nm and 10-14 sailing days, the primary driver of the Asia-Europe effective-capacity crunch.",
+        "deepDive": "The Asia-Europe trade lane is the world's highest-volume long-haul shipping corridor, moving roughly 25 million TEUs annually. Pre-crisis Suez routing covered ~12,450 nm; the Cape diversion adds ~3,150 nm and 10-14 extra days at 16-knot service speed. This effectively removed 10-15% of global container capacity — ships in transit rather than loading or discharging. Combined with limited Suez Canal throughput, it explains why Asia-Europe spot rates surged 400%+ from pre-crisis levels. The diversion also burned more fuel, inflated CO2 per TEU, and compressed gains from slow-steaming programs. For shippers, practical implications include wider transit windows, less reliable ETAs, and greater inventory buffer requirements. The detour redistributed transshipment demand toward Indian Ocean hubs — Colombo, Port Louis, and Jebel Ali all gained throughput share as carriers redesigned port-pair rotations."
       },
       {
         "n": 3,
-        "topic": "industry",
-        "subtopic": "pricing",
-        "stem": "What is the primary commercial purpose of a Bunker Adjustment Factor (BAF) in ocean carrier tariff structures?",
+        "topic": "domain",
+        "subtopic": "marine_insurance",
+        "stem": "Under Institute Cargo Clauses (A) — the broadest marine cargo cover — which peril is explicitly EXCLUDED despite the policy's 'all risks' description?",
         "options": [
-          "Compensate carriers for currency exchange losses on USD-denominated freight invoices",
-          "Recover variable marine fuel costs that fluctuate independently of base freight rates",
-          "Offset peak-season terminal congestion and berth waiting time costs",
-          "Cover port dues, pilotage, and tug fees at the origin port"
+          "Theft and non-delivery at port",
+          "General average contribution",
+          "Inherent vice or nature of the subject matter",
+          "Fire or explosion on board"
         ],
-        "correct": 1,
-        "why": "BAF isolates marine fuel cost recovery from base freight rates — bunker is a carrier's largest single variable operating expense and too volatile to embed in fixed base rates.",
-        "deepDive": "Bunker fuel can account for 50-60% of a carrier's variable voyage costs. Rather than repricing base rates with every oil swing, carriers charge a separate BAF/EBS so shippers can model total landed cost more accurately. IMO 2020's sulfur cap forced carriers to shift from high-sulfur fuel oil (HSFO) to low-sulfur variants (VLSFO) or install scrubbers, dramatically changing the BAF calculus. The 2022 Ukraine war and 2026 Hormuz re-closure both triggered emergency BAF rounds. Practically: always compare TOTAL contract cost (base + BAF + PSS + THC + documentation fees) not just base rate, and negotiate BAF cap provisions in annual contracts. Some shippers prefer 'all-in' rates to eliminate surprise surcharge exposure — though carriers price the optionality into the all-in rate."
+        "correct": 2,
+        "why": "ICC(A) excludes inherent vice — loss caused by the cargo's own properties such as self-heating coal or sweating textiles — because no fortuitous external peril caused it; it is a foreseeable characteristic of the goods themselves.",
+        "deepDive": "Institute Cargo Clauses (A) is the widest standard marine cargo form — it covers all risks of physical loss or damage from any external cause. But 'all risks' is a commercial term, not a guarantee of unlimited cover. Key exclusions include: willful misconduct of the assured; ordinary leakage, wear and tear; inherent vice (the cargo's own defect or nature); delay; insolvency of carriers; and nuclear risks. War and strikes are excluded under separate clauses but available as add-ons. Inherent vice is the most commercially significant exclusion: it covers losses arising from the nature of the goods — bananas ripening prematurely, iron ore spontaneously combusting, humidity-sensitive electronics corroding in transit. Underwriters argue these are not fortuitous events and therefore uninsurable under the traditional indemnity principle. Shippers of temperature-sensitive or chemically reactive cargoes must verify that their specific inherent risk is either covered by endorsement or managed operationally through packaging and monitoring."
       },
       {
         "n": 4,
-        "topic": "industry",
-        "subtopic": "air_freight",
-        "stem": "In air freight operations, what does 'charter party' refer to in practice?",
+        "topic": "domain",
+        "subtopic": "compliance",
+        "stem": "The IMO 2020 sulphur regulation, in force since January 1 2020, reduced the global cap on sulphur in marine fuel outside Emission Control Areas from 3.5% m/m to what level?",
         "options": [
-          "A government permit allowing a cargo aircraft to overfly restricted or sovereign airspace",
-          "A contract where a shipper leases an entire aircraft or specific payload at a fixed price",
-          "A multi-carrier code-sharing arrangement for air cargo capacity between alliance members",
-          "The customs pre-clearance document required for perishable or hazardous air shipments"
+          "1.0% m/m",
+          "0.5% m/m",
+          "0.1% m/m",
+          "2.0% m/m"
         ],
         "correct": 1,
-        "why": "A charter party in air freight is a contract to hire an entire aircraft (or fixed payload) for a voyage, giving the charterer full capacity control at a negotiated lump-sum price.",
-        "deepDive": "Air charter differs from scheduled (liner) air freight the same way ocean chartering differs from liner shipping. A full charter party gives the charterer exclusive aircraft use — common for outsized cargo, humanitarian relief surges, pharma cold-chain emergencies, and peak-season overflow. A 'block-space agreement' (BSA) is a partial equivalent: a forwarder commits to fixed tonnage on scheduled services regardless of fill. Charter rates track the spot aircraft market; BSA rates are more stable. During COVID (2020-21), passenger aircraft belly-cargo rates collapsed then exploded, driving the 'preighter' market — widebody passenger jets stripped and converted to cargo-only operations. Key distinction from ocean: air waybills are non-negotiable by definition, unlike ocean B/Ls, so air freight is structurally incompatible with traditional documentary credit financing."
+        "why": "IMO 2020 cut the global sulphur cap from 3.5% to 0.5% m/m — a 7× reduction — forcing carriers to switch to VLSFO, install exhaust scrubbers, or adopt LNG propulsion.",
+        "deepDive": "IMO 2020 reduced the global marine fuel sulphur limit from 3.5% m/m to 0.5% m/m, driven by public health and environmental concerns: SOx emissions cause acid rain, respiratory disease near port cities, and ocean acidification. Inside Emission Control Areas (North Sea, Baltic, US and Canada coasts), the limit remains 0.1%. Compliance pathways included: Very Low Sulphur Fuel Oil (VLSFO) — the most widely adopted, though it introduced new viscosity, stability, and compatibility challenges; LNG propulsion — near-zero sulphur and reduced NOx, but requiring specialized bunkering infrastructure; and exhaust gas cleaning systems (scrubbers) — allowing continued use of cheap High Sulphur Fuel Oil by washing SOx from exhaust. For commercial shipping teams, the critical downstream concept is the Bunker Adjustment Factor (BAF): the mechanism by which carriers pass fuel cost volatility to shippers through freight invoices. Reading BAF clauses in service contracts — how the spread is calculated, which index it references, who bears residual risk — is now a core commercial skill in freight procurement."
       },
       {
         "n": 5,
-        "topic": "industry",
-        "subtopic": "ftas",
-        "stem": "In free trade agreement (FTA) contexts, what does the 'substantial transformation' test determine?",
+        "topic": "domain",
+        "subtopic": "industry_econ",
+        "stem": "During demand downturns, major container carriers consistently deploy blank sailings and slow-steaming to defend rate floors rather than cutting prices to fill capacity. Which economic concept best explains this behavior?",
         "options": [
-          "Whether goods have undergone sufficient processing in the FTA zone to qualify for preferential tariff rates",
-          "Whether a shipment met the direct-transit requirement between FTA member ports",
-          "Whether the declared customs value reflects the actual transaction price paid",
-          "Whether a product falls within anti-dumping margin thresholds set by the importing country"
+          "Perfectly competitive market pricing",
+          "Oligopolistic capacity discipline",
+          "Predatory pricing strategy",
+          "Price elasticity of supply"
         ],
-        "correct": 0,
-        "why": "'Substantial transformation' is the core rules-of-origin test — goods must be sufficiently processed within the FTA territory to 'originate' there and access preferential duty rates.",
-        "deepDive": "Rules of origin (RoO) prevent countries from routing goods through FTA members to access preferential rates without genuine local production. Three main tests exist: (1) Change in Tariff Classification (CTC) — HS code must change at a specified level after processing; (2) Value Content (VC) — minimum percentage of product value must be added within the territory; (3) Specific Process — a named manufacturing step must occur. For Bangladesh's RMG sector, the EU's 'double transformation' rule under GSP/EBA is existential: yarn must become fabric, fabric must become garment, all within the originating territory. As Bangladesh graduates from LDC status, it will lose EBA duty-free access and face more demanding GSP+ rules of origin — a major compliance and sourcing challenge that RMG exporters are already navigating."
+        "correct": 1,
+        "why": "The top nine carriers control roughly 85% of global capacity, forming a tight oligopoly where supply withdrawal through blank sailings is rational — fixed costs are so high that idling capacity preserves more value than competing on price.",
+        "deepDive": "Container liner shipping is one of the most concentrated oligopolies in global logistics: the top nine carriers control roughly 85% of capacity, mostly through three vessel-sharing alliances. In a perfectly competitive market, excess capacity drives prices toward marginal cost. Instead, carriers collectively blank sailings to defend rate floors — economically rational because in capital-intensive industries with high fixed costs (a 24,000 TEU vessel costs ~$200M), cutting rates generates less revenue than idling capacity. The alliance system enables coordinated capacity management without explicit price-fixing, which would be illegal under competition law. The result for shippers: freight rates are sticky downward — slow to fall even when capacity outstrips demand — and spiky upward — fast to rise when demand returns. This dynamic explains why blank sailing announcements are the most important near-term supply signal to monitor in freight procurement cycles, and why waiting for rate relief to track capacity-surplus announcements in real time is a systematic mistake in commercial planning."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "Which Central Asian country is 'doubly landlocked' — surrounded entirely by other landlocked countries — making it one of only two such nations in the world?",
+        "subtopic": "life_science",
+        "stem": "The Hayflick Limit is the maximum number of times a normal human somatic cell divides before entering permanent cell-cycle arrest. Approximately how many divisions does this limit allow?",
         "options": [
-          "Kazakhstan",
-          "Tajikistan",
-          "Uzbekistan",
-          "Kyrgyzstan"
+          "10 to 20 divisions",
+          "50 to 70 divisions",
+          "100 to 120 divisions",
+          "200 to 250 divisions"
         ],
-        "correct": 2,
-        "why": "Uzbekistan and Liechtenstein are the world's only two doubly landlocked countries — each surrounded exclusively by other landlocked states, requiring at least two border crossings to reach any sea.",
-        "deepDive": "Only two countries in the world are doubly landlocked: Uzbekistan (Central Asia) and Liechtenstein (Western Europe, surrounded by Switzerland and Austria). Uzbekistan must cross at least two borders to reach any coast — the Caspian Sea, accessible through Turkmenistan or Kazakhstan, is itself a landlocked lake. This geography made it a key Silk Road node and makes it strategically vital on today's Trans-Caspian International Transport Route (TITR, the 'Middle Corridor') — China's alternative to the Russia-dependent Northern Corridor. UNCTAD research shows landlocked developing countries face systematically higher trade costs: landlocked status adds ~50% to shipping costs and weeks to delivery times. Uzbekistan's 35m+ population, gold, uranium, and cotton exports make its transit bottlenecks a regional trade constraint — and a reason the country is pursuing aggressive railway and road investment."
+        "correct": 1,
+        "why": "Leonard Hayflick discovered in 1961 that normal diploid somatic cells divide approximately 50-70 times before telomere shortening triggers irreversible senescence — a foundational mechanism of biological aging.",
+        "deepDive": "Leonard Hayflick overturned decades of cell biology dogma in 1961 by demonstrating that normal human diploid cells — not cancer cells — divide a finite number of times, approximately 50-70, before permanently ceasing division in a state called cellular senescence. The mechanism is telomere shortening: protective nucleoprotein caps at chromosome ends lose 50-100 base pairs per division. When telomeres become critically short, DNA damage response pathways permanently halt the cell cycle. Cancer cells and stem cells bypass this limit by activating telomerase, an enzyme that rebuilds telomere length — explaining their immortal proliferative capacity. Senescent cells accumulate in tissues over decades, secreting inflammatory cytokines and matrix metalloproteinases known as the Senescence-Associated Secretory Phenotype (SASP), contributing to chronic inflammation and age-related disease. Modern longevity research targets both ends: telomerase activation to extend replicative lifespan of healthy cells, and senolytic drugs to selectively clear senescent cells. The Hayflick Limit is foundational to understanding why aging is partly a cellular arithmetic problem with a hard biological ceiling."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "In the electromagnetic spectrum, which type of radiation has the shortest wavelength and therefore the highest energy per photon?",
+        "subtopic": "mathematics",
+        "stem": "As the Fibonacci sequence (1, 1, 2, 3, 5, 8, 13...) grows, the ratio of consecutive terms converges to a specific mathematical constant. What is that constant?",
         "options": [
-          "Ultraviolet (UV) radiation",
-          "X-rays",
-          "Gamma rays",
-          "Microwaves"
+          "Pi (π ≈ 3.14159)",
+          "Euler's number (e ≈ 2.71828)",
+          "The Golden Ratio (φ ≈ 1.61803)",
+          "The square root of 2 (√2 ≈ 1.41421)"
         ],
         "correct": 2,
-        "why": "Gamma rays have the shortest wavelengths (<0.01 nm) and highest frequencies, giving them the highest photon energy via E=hf — produced by nuclear reactions, not electron transitions.",
-        "deepDive": "The electromagnetic spectrum spans radio waves (km-scale wavelengths, lowest energy) to gamma rays (sub-picometer, highest energy). The relationship E=hf (h=Planck's constant, f=frequency) means higher frequency = shorter wavelength = more energetic photons. Gamma rays originate from nuclear reactions — radioactive decay, fission, supernovae — and are deeply penetrating, requiring lead or concrete shielding. X-rays (0.01-10nm) are produced by electron transitions and are next most energetic. UV light sits just beyond visible violet (~10-400nm) and causes DNA damage. The practical relevance for semiconductors: ASML's EUV lithography uses 13.5nm extreme ultraviolet light (technically soft X-ray range) to etch features below 5nm. Wavelength directly determines minimum resolvable feature size — which is why each new lithography generation requires shorter-wavelength light and why EUV machines cost $350M+ each."
+        "why": "As n→∞, F(n+1)/F(n) converges to the Golden Ratio φ = (1+√5)/2 ≈ 1.61803 — the positive root of x² = x + 1 — linking a simple integer sequence to classical geometry.",
+        "deepDive": "The Fibonacci sequence, described by Leonardo of Pisa in 1202 (drawing on earlier Indian mathematics by Virahanka and Hemachandra), generates a ratio converging to φ = (1+√5)/2 ≈ 1.61803 — the Golden Ratio. Mathematically, φ is the positive root of x² = x + 1, and it is uniquely 'hard to approximate' by rational fractions — making it the most irrational of irrational numbers. This property explains its prevalence in biology: plants that arrange leaves at φ × 360° ≈ 137.5° intervals minimize leaf overlap and maximize sunlight capture, a problem evolution has repeatedly solved. The Fibonacci spiral also appears in sunflower seed arrangement, pine cone scales, and nautilus shell geometry. In architecture and art, φ is associated with aesthetic proportion — the Parthenon, Le Corbusier's Modulor — though empirical evidence that humans inherently prefer golden-ratio proportions is surprisingly weak. The rigorous takeaway: φ is a mathematical invariant that emerges wherever self-similar growth simultaneously balances addition and ratio, making it less a mystical constant and more a signature of efficient recursive systems."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "Which philosopher argued in 'Leviathan' (1651) that life in the 'state of nature' is 'solitary, poor, nasty, brutish, and short,' justifying absolute sovereign authority?",
+        "subtopic": "arts",
+        "stem": "Seurat's 1884-86 'La Grande Jatte' pioneered placing tiny dots of pure unmixed color side-by-side for the eye to blend optically. What is this technique called?",
         "options": [
-          "John Locke",
-          "Jean-Jacques Rousseau",
-          "Thomas Hobbes",
-          "Immanuel Kant"
+          "Impasto",
+          "Chiaroscuro",
+          "Pointillism (Divisionism)",
+          "Sfumato"
         ],
         "correct": 2,
-        "why": "Thomas Hobbes's Leviathan (1651) posited a bleak pre-social condition requiring citizens to surrender freedom to an absolute sovereign — contrasted with Locke's limited government and Rousseau's 'noble savage.'",
-        "deepDive": "Hobbes, Locke, and Rousseau are the three pillars of social contract theory, yet reached starkly different conclusions. Hobbes (1651) argued natural life was a 'war of all against all,' requiring citizens to transfer most freedoms to a sovereign for security. Locke (1689) saw the state of nature as peaceful but unstable, requiring only limited government to protect life, liberty, and property — the philosophical ancestor of the US Declaration of Independence. Rousseau (1762) argued humans are naturally good and civilization corrupts; society should express the 'general will.' These distinctions remain operationally relevant: arguments for strong central authority vs. constitutional limits trace to Hobbes vs. Locke. International Relations realism (Waltz, Mearsheimer) is explicitly neo-Hobbesian, treating the international system as a state of nature with no sovereign above states — which is precisely why Hormuz crises recur with no enforceable resolution."
+        "why": "Pointillism — or Divisionism/Chromoluminarism as Seurat termed it — placed pure-color dots to exploit optical mixing, inspired by Chevreul's simultaneous contrast theory and Ogden Rood's color science.",
+        "deepDive": "Georges Seurat's 'La Grande Jatte' (1884-86) launched a movement he called Chromoluminarism, now widely known as Pointillism or Divisionism, and it was scientifically grounded. Seurat studied Ogden Rood's Modern Chromatics and Michel Chevreul's color wheel, learning that adjacent complementary colors create optical vibration at viewing distance. Rather than mixing red and yellow pigments on the palette (subtractive mixing, producing dull orange), he placed red and yellow dots adjacent on canvas for the eye to blend additively — theoretically producing more luminous color. In practice, Pointillist paintings often appear quieter and more static than Impressionism; the method was laborious and resistant to spontaneous gesture. Seurat died at 31 in 1891, but his technique influenced Van Gogh's later stipple brushwork, Matisse, and the Fauves. Divisionism also anticipates modern digital display technology: LCD screens create all perceived colors through RGB pixel mixing of red, green, and blue light at sub-millimeter scale — the identical optical principle, engineered rather than painted."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "David Ricardo's theory of comparative advantage holds that countries should specialize in goods where they have the lowest what, relative to trading partners?",
+        "subtopic": "music",
+        "stem": "Western equal temperament divides the octave into 12 equal semitones, accepting slight impurity in every interval. What critical problem did this solve that just intonation could not?",
         "options": [
-          "Absolute cost of production per unit",
-          "Opportunity cost relative to trading partners",
-          "Labor intensity per unit of output",
-          "Trade deficit exposure in that sector"
+          "It eliminated the need for a bass clef in orchestral scores",
+          "It allowed keyboard instruments to play in all 12 keys without retuning",
+          "It standardized concert pitch universally at A4 = 440 Hz",
+          "It eliminated harmonic dissonance between perfect fifths and octaves"
         ],
         "correct": 1,
-        "why": "Comparative advantage is about relative opportunity cost — specialize where you give up the least to produce — even if another country is absolutely more efficient at everything.",
-        "deepDive": "Ricardo's 1817 insight is economics' most counterintuitive proof. His England/Portugal example showed that even if Portugal could produce both cloth and wine more cheaply in absolute terms, both nations gain by each specializing in the good it produces at lower relative (opportunity) cost and trading. This underpins the entire WTO/GATT liberalization framework. However, three major challenges have emerged: (1) New Trade Theory (Krugman): economies of scale and first-mover advantage can create comparative advantage artificially — no country has a 'natural' advantage in semiconductors, it was built through investment; (2) Strategic Trade Theory: governments can shift comparative advantage through R&D subsidies (CHIPS Act, Chinese semiconductor programs); (3) Dani Rodrik's premature deindustrialization thesis: developing nations forced to open markets lose manufacturing jobs before services can absorb workers. Bangladesh's RMG concentration is a textbook comparative advantage story — and a cautionary tale about mono-sector dependency when global demand softens."
+        "why": "In just intonation, stacking 12 pure fifths overshoots the octave by a 'Pythagorean comma', making key changes wildly out of tune. Equal temperament distributes this error evenly across all 12 keys, making all of them equally — if slightly impurely — usable.",
+        "deepDive": "Before equal temperament became standard (roughly the 18th century), keyboard instruments used just intonation or meantone temperament — producing mathematically pure intervals (3:2 fifths, 5:4 major thirds) but only in a limited set of keys. The problem: stacking 12 pure fifths does not return you to the starting octave; you overshoot by the Pythagorean comma (approximately 23.5 cents). A harpsichord perfectly tuned in C major would sound badly out of tune in F# major, confining composers to a narrow range of home keys. Equal temperament solves this by making all 12 semitones exactly 2^(1/12) times the previous note, distributing the error evenly. Every interval is slightly wrong by pure mathematics, but consistently wrong in all 12 keys. Bach's Well-Tempered Clavier (1722) demonstrated that all 24 major and minor keys were now musically viable, unlocking modulation, complex harmonic language, and eventually the full Romantic orchestral vocabulary — Beethoven's dramatic key changes, Wagner's chromaticism, and the tonal freedom of jazz harmony all depend on this elegant mathematical compromise."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Which 1967 novel by Gabriel García Márquez follows seven generations of the Buendía family in the fictional town of Macondo and is the defining work of magical realism?",
+        "subtopic": "history",
+        "stem": "The 1884-85 Berlin Conference formalized European partition of Africa. Which key legal principle required colonial powers to actually occupy and administer territory to gain international recognition?",
         "options": [
-          "Love in the Time of Cholera",
-          "The Autumn of the Patriarch",
-          "One Hundred Years of Solitude",
-          "In Evil Hour"
+          "The Doctrine of Discovery",
+          "The Monroe Doctrine extension",
+          "The Principle of Effective Occupation",
+          "The Treaty of Westphalia corollary"
         ],
         "correct": 2,
-        "why": "'One Hundred Years of Solitude' (1967) crystallized magical realism as a global literary movement and sold 50M+ copies — García Márquez won the Nobel Prize in Literature in 1982 largely on its strength.",
-        "deepDive": "Published in 1967, 'Cien Años de Soledad' sold more than 50 million copies and has been translated into 46+ languages. It crystallized 'magical realism' — a narrative mode where fantastical events are presented with the same matter-of-fact tone as mundane ones. García Márquez said Macondo is partly a metaphor for Colombia, partly for all of Latin America: the novel mirrors cycles of political violence, foreign exploitation (the banana company unmistakably United Fruit), civil war, and cultural amnesia. The opening line — 'Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice' — introduces the non-linear time structure that defines the novel. Magical realism also includes Salman Rushdie (Midnight's Children), Toni Morrison (Beloved), and Isabel Allende (The House of the Spirits). A Netflix adaptation in 2024 renewed global interest."
+        "why": "The Principle of Effective Occupation required demonstrable physical control — administrative presence, treaties with local rulers, ability to maintain order — before European powers could claim African territory, dramatically accelerating the Scramble for Africa.",
+        "deepDive": "The Berlin Conference (November 1884 – February 1885) gathered 14 European powers plus the United States to codify rules for colonial acquisition in Africa. The Berlin Act's key legal innovation was the Principle of Effective Occupation: any signatory claiming African territory had to demonstrate actual physical control — administrative infrastructure, treaties with local chiefs, capacity to uphold freedom of trade and navigation. Mere discovery or historical allegiance was insufficient. This principle dramatically accelerated the Scramble for Africa: within 20 years, nearly the entire continent was partitioned among European powers, with only Ethiopia — which defeated Italy at the Battle of Adwa in 1896 — and Liberia maintaining independence. The conference also recognized Leopold II of Belgium's personal claim over the Congo Free State, which became one of history's most brutal colonial regimes, killing an estimated 10 million Congolese through forced labor and mass atrocity. The partition lines drawn by European rulers with no reference to ethnic, linguistic, or historical boundaries remain largely unchanged today and underlie many of Africa's post-independence conflicts and governance challenges."
       }
     ]
   }
