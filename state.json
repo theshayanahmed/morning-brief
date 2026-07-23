@@ -1,17 +1,7 @@
 {
   "streak": 8,
-  "last_session_date": "2026-07-22",
+  "last_session_date": "2026-07-23",
   "questions_seen": [
-    "Which airline operates the world's largest dedicated all-cargo fleet, exceeding 680 company-owned freighters as of 2025?",
-    "In standard IATA-benchmarked cargo operations, the typical window from cargo handover to origin terminal through to aircraft departure cut-off for general freight is approximately:",
-    "DSV's ~€14.3B acquisition of DB Schenker (completed 2024) — the largest logistics M&A transaction in history — was sold by which parent organisation?",
-    "A shipper books an all-in ocean rate from Shanghai to Los Angeles. Which charge is most commonly billed separately at destination — despite the all-in label — generating shipper-carrier disputes?",
-    "The China-plus-one sourcing strategy is primarily designed to reduce which measurable supply chain risk exposure?",
-    "The 1648 Peace of Westphalia ended the Thirty Years' War. Which foundational principle of modern international relations is it most credited with establishing?",
-    "The Strait of Malacca narrows to approximately 1.7 nautical miles at Phillip Channel near Singapore. What is the main practical consequence of this for very large crude carriers (VLCCs)?",
-    "John Rawls' veil of ignorance in A Theory of Justice (1971) asks people to design society without knowing their place in it. What principle does this thought experiment primarily generate?",
-    "The Gini coefficient measures income inequality on a scale from 0 to 1. Which statement is correct?",
-    "The Second Law of Thermodynamics states entropy in a closed system never spontaneously decreases. Which everyday observation most directly illustrates this principle?",
     "Under Incoterms 2020 CIF, at which precise moment does risk of loss or damage transfer from seller to buyer?",
     "A bill of lading issued 'to order of the shipper' is negotiable. Who can legally transfer title to the goods by endorsing this document?",
     "A carrier quotes an 'all-in' ocean freight rate. Which charge is typically included in an all-in rate but billed separately under a base ocean freight rate?",
@@ -501,7 +491,17 @@
     "The Doppler effect causes a star moving away from Earth to appear shifted toward which region of the electromagnetic spectrum?",
     "Gabriel Garcia Marquez's novel 'One Hundred Years of Solitude' is set in which fictional town?",
     "David Ricardo's theory of comparative advantage holds that countries should specialise in producing goods where they have:",
-    "The Berlin Conference of 1884-85, convened by Bismarck, established the 'Principle of Effective Occupation,' which required European powers to do what before claiming African territory?"
+    "The Berlin Conference of 1884-85, convened by Bismarck, established the 'Principle of Effective Occupation,' which required European powers to do what before claiming African territory?",
+    "Under Incoterms 2020, which rule is ONLY valid for sea and inland waterway transport — and",
+    "A freight forwarder issues 'Switch Bills of Lading' by surrendering the original bill set ",
+    "A 'Bunker Adjustment Factor' (BAF) surcharge on an ocean freight invoice compensates the c",
+    "In air freight, 'chargeable weight' is the greater of actual gross weight and dimensional ",
+    "The CPTPP (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) entered ",
+    "Apoptosis ('programmed cell death') differs from necrosis in one defining physiological re",
+    "In the Monty Hall Problem, switching your initial door choice after the host reveals a goa",
+    "Velázquez’s 'Las Meninas' (1656) is considered a landmark in Western painting primarily be",
+    "Twelve-tone serialism, developed by Arnold Schoenberg around 1921, requires composers to:",
+    "In linguistic typology, a language where grammatical relationships are expressed primarily"
   ],
   "learn_history": [
     {
@@ -818,12 +818,17 @@
       "date": "2026-07-22",
       "topic": "The Carry Trade: How Interest Rate Gaps Move Billions — and Why the Unwind Is Always Violent",
       "bucket": "economics"
+    },
+    {
+      "date": "2026-07-23",
+      "topic": "The Civilizational State: How China, Russia, and India Are Rewriting the Westphalian Rulebook",
+      "bucket": "sociopolitical"
     }
   ],
   "curriculum_progress": {
     "incoterms": {
-      "count": 15,
-      "last_seen": "2026-07-18",
+      "count": 16,
+      "last_seen": "2026-07-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -834,8 +839,8 @@
       "rolling_score": []
     },
     "bill_of_lading": {
-      "count": 15,
-      "last_seen": "2026-07-18",
+      "count": 16,
+      "last_seen": "2026-07-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -858,8 +863,8 @@
       "rolling_score": []
     },
     "pricing": {
-      "count": 15,
-      "last_seen": "2026-07-18",
+      "count": 16,
+      "last_seen": "2026-07-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -870,8 +875,8 @@
       "rolling_score": []
     },
     "air_freight": {
-      "count": 15,
-      "last_seen": "2026-07-18",
+      "count": 16,
+      "last_seen": "2026-07-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -888,8 +893,8 @@
       "rolling_score": []
     },
     "ftas": {
-      "count": 15,
-      "last_seen": "2026-07-18",
+      "count": 16,
+      "last_seen": "2026-07-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -962,14 +967,14 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 23,
-      "last_seen": "2026-07-19",
+      "count": 24,
+      "last_seen": "2026-07-23",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 23,
-      "last_seen": "2026-07-19",
+      "count": 24,
+      "last_seen": "2026-07-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -980,14 +985,14 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 21,
-      "last_seen": "2026-07-19",
+      "count": 22,
+      "last_seen": "2026-07-23",
       "difficulty": 3,
       "rolling_score": []
     },
     "music": {
-      "count": 21,
-      "last_seen": "2026-07-19",
+      "count": 22,
+      "last_seen": "2026-07-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1010,8 +1015,8 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 21,
-      "last_seen": "2026-07-21",
+      "count": 22,
+      "last_seen": "2026-07-23",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1030,159 +1035,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-07-22",
+    "date": "2026-07-23",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "documentation",
-        "stem": "A Straight Bill of Lading differs from a negotiable (Order) Bill of Lading primarily in that:",
+        "subtopic": "incoterms",
+        "stem": "Under Incoterms 2020, which rule is ONLY valid for sea and inland waterway transport — and cannot be used for multimodal or containerised shipments?",
         "options": [
-          "It can be transferred to a third party by endorsement and delivery",
-          "It requires a Letter of Credit as a mandatory precondition for issuance",
-          "Cargo can only be released to the named consignee — it cannot be transferred by endorsement",
-          "It must be surrendered at the port of loading before cargo is accepted aboard"
+          "FCA (Free Carrier)",
+          "CIF (Cost, Insurance and Freight)",
+          "DAP (Delivered at Place)",
+          "DDP (Delivered Duty Paid)"
         ],
-        "correct": 2,
-        "why": "A straight B/L is non-negotiable: only the named consignee can claim cargo. Negotiable (order) B/Ls can be endorsed to third parties and used as collateral against letters of credit.",
-        "deepDive": "The distinction between negotiable and non-negotiable bills of lading underpins trade finance. A negotiable (order) B/L can be endorsed and passed along like a bearer instrument — a bank holds it as collateral against a letter of credit, and cargo title passes with the document. A straight (non-negotiable) B/L names a specific consignee and cannot be transferred; cargo is released directly to that party on identity verification at destination. In practice, straight B/Ls are used for intercompany transfers or trusted buyers where no bank financing is involved. Most L/C-backed trades require a full negotiable set. Key confusion: three original copies can all be issued as straight B/Ls — all non-negotiable despite being labelled 'original.'"
+        "correct": 1,
+        "why": "CIF, like FOB, CFR, and FAS, applies only to sea/inland waterway; containerised cargo should use the multimodal equivalent FCA or CIP instead.",
+        "deepDive": "Incoterms 2020 divides its 11 rules into two groups. The sea-only rules — FAS, FOB, CFR, CIF — date to break-bulk cargo era when risk transferred at the port railing. In containerised shipping, sellers hand cargo to a carrier’s terminal well before loading, making FOB’s risk transfer point legally ambiguous. The correct fix is FCA (Free Carrier) to a named port, which transfers risk on handover to the carrier. CIF and CIP look similar — both include insurance — but CIF is sea-only with minimum cover (Institute Cargo Clauses C), while CIP is multimodal and mandates all-risk cover (ICC-A). Letter-of-credit transactions still routinely specify FOB or CIF for containers, creating disputes when damage occurs pre-loading."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "customs",
-        "stem": "Under most customs regimes, 'Inward Processing Relief' (IPR) primarily allows importers to:",
+        "subtopic": "bill_of_lading",
+        "stem": "A freight forwarder issues 'Switch Bills of Lading' by surrendering the original bill set and having the carrier issue new documents. Their primary commercial purpose is:",
         "options": [
-          "Reduce the declared customs value by a fixed percentage before duty calculation",
-          "Defer duty payment for up to 180 days without financial penalty",
-          "Suspend import duties on raw material inputs that will be re-exported after processing",
-          "Claim a full duty drawback only after finished goods have been sold domestically"
+          "Replace a damaged original BoL without reissuing under a new voyage number",
+          "Conceal the original supplier and cargo origin from the end buyer",
+          "Enable the cargo owner to change destination port after vessel loading",
+          "Substitute for a sea waybill when destination ports require original documents"
         ],
-        "correct": 2,
-        "why": "IPR suspends duty on imported inputs incorporated into re-exported goods — eliminating the cash-flow drag of paying upfront and then claiming drawback for export manufacturers.",
-        "deepDive": "Inward Processing Relief is a customs facilitation tool used in the EU, UK, and many South Asian markets to make export manufacturing competitive. Without IPR, a garment factory importing fabric would pay import duties upfront, recovering them via drawback only after export — a cash-flow drag of weeks or months. IPR suspends duties at import, provided the processor commits to re-exporting finished goods within a set period (typically 6–24 months). Bangladesh operates an equivalent bonded warehouse scheme for its RMG sector — duty-free import of inputs specifically for export production. The risk is diversion: if processed goods are sold domestically, full duties plus penalties apply. Customs authorities audit transformation ratios and export documentation to prevent abuse."
+        "correct": 1,
+        "why": "Switch BoLs allow trading houses to replace shipper and origin details, protecting commercial relationships and supplier margins from buyer visibility.",
+        "deepDive": "Switch Bills of Lading are issued when the original bill set is surrendered to the carrier or its agent, who cancels it and issues a fresh set with different shipper, consignee, or port-of-loading details. They are legitimate when they accurately describe goods and the actual voyage; they become fraudulent if they misrepresent origin to circumvent tariffs or sanctions. The US-China trade war drove a surge in switch BoL requests as traders attempted to relabel Chinese-origin goods as Vietnamese or Malaysian. Modern customs enforcement now cross-references AIS vessel-tracking data with declared port of origin, making origin fraud increasingly detectable. Freight forwarders who issue false switch BoLs face criminal liability under cargo fraud statutes in most jurisdictions."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "vessels",
-        "stem": "A vessel's 'Deadweight Tonnage' (DWT) measures which of the following?",
+        "subtopic": "pricing",
+        "stem": "A 'Bunker Adjustment Factor' (BAF) surcharge on an ocean freight invoice compensates the carrier for fluctuations in which specific cost?",
         "options": [
-          "The structural weight of the empty hull and permanent equipment only",
-          "The maximum combined weight of cargo, fuel, ballast water, crew, and stores a vessel can carry",
-          "The total enclosed volume of all cargo spaces measured in cubic metres",
-          "The number of 20-foot equivalent units a vessel can accommodate when fully loaded"
+          "Port congestion charges and terminal handling fees at the origin port",
+          "Fuel (bunker oil) price volatility, charged independently of the base freight rate",
+          "Currency exchange losses on non-USD invoice settlements",
+          "Vessel crew costs when routes are diverted around conflict zones"
         ],
         "correct": 1,
-        "why": "DWT is total carrying capacity — cargo plus bunkers, water, crew, and stores — not the ship's own structural weight, which is its lightship displacement.",
-        "deepDive": "Deadweight tonnage (DWT) is the primary commercial metric in bulk, tanker, and general cargo shipping. It represents the difference between a vessel's loaded displacement and its lightship displacement (empty hull weight) — the total payload capacity including cargo, fuel, ballast, fresh water, crew, and stores. A 300,000 DWT VLCC carries approximately 2 million barrels of crude oil. DWT is often confused with Gross Tonnage (GT), which measures enclosed volume used for port dues and canal transit fees — not weight at all. TEU capacity on container ships is also distinct: a 20,000 TEU vessel may have a DWT of 180,000 because containers vary widely in fill weight. Chartering hire rates are often expressed per DWT per month or day."
+        "why": "BAF (also called Fuel Surcharge or FAF) passes bunker fuel cost volatility from carriers to shippers, indexed separately from the contracted base rate.",
+        "deepDive": "Bunker fuel — primarily Very Low Sulphur Fuel Oil (VLSFO) since IMO 2020’s 0.5% sulphur cap — typically represents 30-40% of a vessel’s voyage cost, making it the most volatile P&L line item for carriers. BAF is calculated using fuel price indices (S&P Global Platts, ICIS) at reference ports (Singapore, Rotterdam, Houston) and applied as a per-TEU or per-FEU add-on to the base rate. Different carriers use different indices and reference ports, making direct BAF comparison opaque. Xeneta and Freightos now publish BAF benchmarks. In commercial negotiations, shippers increasingly insist on linking BAF to a published index rather than accepting carrier-set figures — reducing information asymmetry and enabling direct cost modelling."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "port_ops",
-        "stem": "In container port operations, 'berth productivity' is typically expressed as:",
+        "subtopic": "air_freight",
+        "stem": "In air freight, 'chargeable weight' is the greater of actual gross weight and dimensional weight. What is IATA's standard volumetric divisor for general cargo?",
         "options": [
-          "Total TEUs handled per port per calendar year",
-          "Container dwell time measured from terminal gate-in to vessel departure",
-          "The ratio of import to export volumes processed at a terminal",
-          "Gross crane moves per hour, averaged across all gantry cranes working a vessel at berth"
+          "1,000 cm³ per kilogram (the sea freight standard)",
+          "6,000 cm³ per kilogram",
+          "5,000 cm³ per kilogram (express courier standard)",
+          "166 cubic inches per pound"
         ],
-        "correct": 3,
-        "why": "Berth productivity = gross crane moves per hour (GMH) — the standard KPI for how efficiently a terminal services a vessel, directly driving vessel schedule reliability.",
-        "deepDive": "Berth productivity, expressed as gross crane moves per hour (GMH), is the primary operational KPI for container terminals. It counts all container lifts by all cranes on a vessel from berth arrival to departure. World-class terminals (Tanjung Pelepas, Busan, Singapore PSA) achieve 30–35+ GMH. Lower-performing ports average 15–22 GMH. The metric drives carrier scheduling: ports build time into sailing schedules based on expected GMH and box counts. Low berth productivity extends port stays, ripples delays across the network, and burns bunkers at anchor. Terminals also track yard productivity (crane moves per hour in the stack) and gate moves per hour — all combining into overall throughput capacity and determining whether a port can handle next-generation mega-vessels."
+        "correct": 1,
+        "why": "IATA’s standard air volumetric factor is 6,000 cm³/kg, meaning large but light shipments pay for the cabin space they occupy, not just their mass.",
+        "deepDive": "The 6,000 cm³/kg factor reflects aircraft economics: a wide-body freighter like the 777F has a maximum structural payload of ~103 tonnes but a volumetric capacity of ~660 m³ — on most cargo types, volume fills before weight does. For sneakers or flat-pack furniture, the air cavity consumed per kilogram is the binding constraint. Express carriers (DHL, FedEx, UPS) often apply 5,000 cm³/kg for their lanes, making dimensional weight more punishing. Shippers can reduce chargeable weight by minimising void fill, choosing smaller box sizes, and using compression bags for soft goods. In direct air cargo contracts, the negotiated dimensional factor is itself a lever — securing 6,500 instead of 5,000 can cut freight cost 20-30% on voluminous shipments."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "liner_alliances",
-        "stem": "The Gemini Cooperation between Maersk and Hapag-Lloyd, launched February 2025, is most notable for:",
+        "subtopic": "ftas",
+        "stem": "The CPTPP (Comprehensive and Progressive Agreement for Trans-Pacific Partnership) entered into force in 2018 with 11 member states. Which major economy is notably absent?",
         "options": [
-          "Operating the world's largest vessel fleet on Asia-Europe trades by total TEU capacity",
-          "Pioneering a carbon-neutral fleet commitment ahead of all other alliance operators",
-          "Merging both carriers' booking and tracking IT systems into a single customer platform",
-          "Prioritising schedule reliability over load-factor optimisation via a hub-and-spoke network design"
+          "Japan",
+          "Canada",
+          "Vietnam",
+          "United States"
         ],
         "correct": 3,
-        "why": "Gemini deliberately sacrifices load fill to achieve 90%+ schedule reliability via hub-and-spoke — a strategic departure from the traditional fill-first liner approach.",
-        "deepDive": "The Gemini Cooperation, formed between Maersk and Hapag-Lloyd in February 2025, represents a deliberate shift away from capacity-maximization. Instead of filling large vessels before departure, Gemini uses a hub-and-spoke structure: dedicated feeders carry cargo to ocean hubs, where mainline vessels depart on fixed schedules even if partially loaded. The carriers publicly targeted 90%+ schedule reliability, versus the industry average of 50–60% during the Red Sea disruption period. This model trades lower per-box profitability for premium positioning among shippers who pay for reliability — time-sensitive cargo like fashion, electronics, and automotive parts. It mirrors the FedEx hub-and-spoke logic applied to ocean shipping, prioritising network discipline over opportunistic loading."
+        "why": "The US withdrew from the original TPP in January 2017 under Trump and has never rejoined CPTPP, despite the pact covering ~13% of global GDP.",
+        "deepDive": "The US dropped out of TPP on Trump’s third day in office (January 23, 2017), citing job losses and sovereignty concerns. The remaining 11 nations retained 80% of the text but suspended 22 provisions the US had insisted on — including investor-state dispute settlement clauses and stronger IP protections. The CPTPP now covers ~13% of global GDP. The UK joined in 2023 as the first non-Asia-Pacific member. China applied to join in 2021; its accession is politically fraught because Taiwan also applied, and several members have reservations about China’s state-subsidy regime. For Bangladesh, CPTPP is critical post-LDC graduation: preferential access to Japan, Canada, Australia, and the UK via a single agreement would partially offset the loss of LDC duty-free preferences after November 2026."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Strait of Malacca, one of the world's busiest maritime chokepoints, separates the Malay Peninsula from which Indonesian island?",
+        "subtopic": "life_science",
+        "stem": "Apoptosis ('programmed cell death') differs from necrosis in one defining physiological respect:",
         "options": [
-          "Borneo (Kalimantan)",
-          "Java",
-          "Sulawesi",
-          "Sumatra"
+          "Apoptosis requires viral or bacterial invasion to initiate the process",
+          "Apoptosis proceeds in an ordered sequence that does not trigger surrounding inflammation",
+          "Apoptosis occurs exclusively in cancer and immune cells, not healthy tissue",
+          "Apoptosis results from loss of blood supply (ischaemia) to the affected region"
         ],
-        "correct": 3,
-        "why": "Sumatra is Indonesia's westernmost major island; its northwestern coast and the Malay Peninsula together form the narrow, critical Malacca Strait.",
-        "deepDive": "The Strait of Malacca, roughly 550 miles long and as narrow as 1.5 miles at its southern end, is the world's most critical maritime chokepoint. Between 90,000 and 100,000 vessels transit annually, carrying approximately 25% of global trade including around 16 million barrels of crude oil per day — much headed from the Persian Gulf to China, Japan, and South Korea. The strait separates Peninsular Malaysia and Thailand from Sumatra, Indonesia's westernmost major island. At its southern end, the Phillip Channel off Singapore is the deepest navigable passage, explaining Singapore's emergence as the world's second-largest transshipment hub. China's strategic anxiety about this chokepoint — the 'Malacca Dilemma' — drives Belt and Road investments in alternative pipelines and port infrastructure from Myanmar to Pakistan."
+        "correct": 1,
+        "why": "Apoptosis is a clean, caspase-driven self-dismantling that packages cellular contents into membrane-wrapped bodies — phagocytosed without releasing inflammatory signals.",
+        "deepDive": "Apoptosis is executed by caspase enzymes activated in a cascade: initiator caspases (8, 9) activate executioner caspases (3, 6, 7), which dismantle structural proteins, cleave DNA at specific sites, and package contents into apoptotic bodies. These are rapidly phagocytosed by macrophages or neighbouring cells — no inflammatory contents escape. Necrosis ruptures the plasma membrane and releases lysosomal enzymes and damage-associated molecular patterns (DAMPs) that trigger local inflammation. Apoptosis is essential in embryonic development (sculpting fingers, pruning excess neurons), immune tolerance (deleting autoreactive T-cells), and tumour suppression. Cancer cells frequently evade apoptosis by overexpressing Bcl-2 family proteins. Most chemotherapy and targeted cancer therapies work by restoring or mimicking the apoptotic signal in rapidly dividing tumour cells."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "The Doppler effect causes a star moving away from Earth to appear shifted toward which region of the electromagnetic spectrum?",
+        "subtopic": "mathematics",
+        "stem": "In the Monty Hall Problem, switching your initial door choice after the host reveals a goat improves your winning odds from 1/3 to 2/3. The mathematical reason is:",
         "options": [
-          "Blue end — shorter, higher-frequency wavelengths",
-          "Red end — longer, lower-frequency wavelengths",
-          "Gamma-ray region beyond the visible spectrum",
-          "Ultraviolet region just above the visible spectrum"
+          "All three doors become equally probable once one goat is revealed, so a coin-flip logic applies",
+          "The host’s deliberate, non-random choice concentrates the unchosen probability on the remaining door",
+          "The problem violates the independence axiom of standard probability theory",
+          "Switching only improves odds if the host reveals the door randomly rather than deliberately"
         ],
         "correct": 1,
-        "why": "A receding source stretches its emitted waves, lowering frequency and increasing wavelength — pushing light toward the red end of the spectrum ('redshift').",
-        "deepDive": "The Doppler effect applies to all waves — sound, light, and all electromagnetic radiation. When a source moves away, emitted waves are stretched, lowering their frequency. For light, lower frequency means longer wavelength, shifting toward the red end — hence 'redshift.' Edwin Hubble used redshift measurements of distant galaxies in 1929 to discover that nearly all galaxies are receding, with recession velocity proportional to distance — the basis for Hubble's Law and the expanding-universe model. Conversely, an approaching source is 'blueshifted.' The cosmic microwave background — relic radiation from the Big Bang — is itself a deeply redshifted signal, originally emitted as high-energy gamma radiation but now detected as low-frequency microwaves, a direct record of the universe at 380,000 years old."
+        "why": "The host’s non-random action (always revealing a goat, never the car) is informative: your door stays at 1/3, and the remaining door absorbs the full 2/3.",
+        "deepDive": "The Monty Hall Problem became famous after Marilyn vos Savant correctly solved it in Parade magazine in 1990, triggering thousands of protest letters from maths professors — who were wrong. The key insight: the host’s action is not random. Your initial choice had 1/3 probability; the host’s deliberate revelation does not change that. The remaining door absorbs the full 2/3. A useful intuition pump: imagine 1,000 doors. You pick one (1/1,000 chance). The host opens 998 goat doors. Obviously you switch. The two-door framing collapses this probability space and triggers a false 50-50 intuition. The problem illustrates base-rate neglect and systematic failure on conditional probability — a bias documented in medical diagnosis, legal reasoning, and business decision-making under uncertainty."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Gabriel Garcia Marquez's novel 'One Hundred Years of Solitude' is set in which fictional town?",
+        "subtopic": "arts",
+        "stem": "Velázquez’s 'Las Meninas' (1656) is considered a landmark in Western painting primarily because:",
         "options": [
-          "Cartagena",
-          "Aracataca",
-          "Bogota",
-          "Macondo"
+          "It was the first Western oil painting to use mathematically accurate linear perspective",
+          "It depicted the Spanish royal family informally — a documentary approach new to court portraiture",
+          "Its layered spatial structure — mirror, canvas, doorway, gaze — collapses the boundary between viewer, subject, and painter",
+          "It introduced the chiaroscuro technique of dramatic light-dark contrast to Spanish art"
         ],
-        "correct": 3,
-        "why": "Macondo is Garcia Marquez's invented fictional town — loosely inspired by his real birthplace of Aracataca in northern Colombia.",
-        "deepDive": "Published in 1967 and awarded the Nobel Prize in Literature in 1982, One Hundred Years of Solitude traces seven generations of the Buendia family in Macondo — a fictional Caribbean coastal town Garcia Marquez invented, loosely inspired by his real birthplace of Aracataca. He pioneered 'magical realism': supernatural events narrated with matter-of-fact tone alongside ordinary ones — a woman ascends to heaven while hanging laundry; an insomnia plague erases an entire town's memories. Macondo functions as a metaphor for Colombia and the postcolonial cycle of violence and amnesia. The novel's final revelation — that all described events were pre-written in Sanskrit by Melquiades — makes it a meditation on fate's inevitability. Fifty million copies sold; it remains the most translated Spanish-language novel after Don Quixote."
+        "correct": 2,
+        "why": "Las Meninas places the viewer in the royal subjects’ position while Velázquez watches back, creating an unresolvable loop about who is painting whom.",
+        "deepDive": "Las Meninas is set in Velázquez’s studio in the Alcázar Palace. The Infanta Margarita occupies the foreground; Velázquez stands at a large canvas on the left; a small back-wall mirror reflects King Philip IV and Queen Mariana — presumably standing in the viewer’s position. This collapses three relationships: Velázquez paints the royals, the royals face us, we therefore become the royals. Michel Foucault opened The Order of Things (1966) with a 16-page analysis of Las Meninas as the founding moment of the modern episteme — a new mode of representing representation itself. Velázquez did not invent chiaroscuro (Caravaggio predated him) nor linear perspective (15th-century invention). Its innovation is purely meta-representational: it makes the act of seeing the painting’s true subject, not the figures painted."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "David Ricardo's theory of comparative advantage holds that countries should specialise in producing goods where they have:",
+        "subtopic": "music",
+        "stem": "Twelve-tone serialism, developed by Arnold Schoenberg around 1921, requires composers to:",
         "options": [
-          "The lowest absolute cost of production relative to all trading partners",
-          "The lowest opportunity cost relative to other goods they could produce domestically",
-          "The highest total output per unit of labour employed",
-          "Natural resource endowments unavailable to trading partners"
+          "Cycle through all twelve chromatic pitches before any note is repeated",
+          "Eliminate key signatures and time signatures from the score entirely",
+          "Give each instrument a unique, non-overlapping twelve-tone row simultaneously",
+          "Derive all harmony from the natural overtone series of each pitch played"
         ],
-        "correct": 1,
-        "why": "Comparative advantage is about relative opportunity cost, not absolute efficiency — even a universally less efficient producer gains from specialising in its relatively least-costly good.",
-        "deepDive": "Comparative advantage, formulated by David Ricardo in 1817, is perhaps the most counterintuitive insight in economics. Even if Country A is more efficient at producing everything than Country B, both gain from trade if each specialises where its relative efficiency advantage is greatest. The key metric is opportunity cost — what you give up to produce one unit of something else. Ricardo's example: England and Portugal, where Portugal was better at both cloth and wine, but England's relative disadvantage was smallest in cloth. Both gained by specialising and trading. This logic underlies the WTO and mainstream pro-trade economics. Critics note it assumes full employment and ignores power asymmetries — the strategic tension Bangladesh faces trying to move RMG exports up the value chain into higher-margin goods."
+        "correct": 0,
+        "why": "The tone row — a specific ordering of all 12 chromatic pitches — must be completed before any pitch recurs, abolishing tonal hierarchy.",
+        "deepDive": "Schoenberg developed twelve-tone technique around 1921, formalising his earlier atonal experimentation. A tone row is a specific ordering of all 12 chromatic pitches (no repeats). Composers deploy this row in four transformations: Original (P), Retrograde (R, reversed), Inversion (I, intervals flipped), and Retrograde Inversion (RI). Each can start on any of the 12 pitches, yielding 48 possible row forms per piece. Webern used the method with extreme economy — his Symphony Op. 21 lasts 10 minutes and feels like a miniature. Berg kept melodic lyricism (Violin Concerto). The technique dominated post-war European composition (Boulez, Stockhausen, Nono) but its institutional dominance in conservatories alienated audiences, deepening the 20th-century split between art music and popular music. Schoenberg predicted tonality would return — and in minimalism and neo-romanticism, it did."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The Berlin Conference of 1884-85, convened by Bismarck, established the 'Principle of Effective Occupation,' which required European powers to do what before claiming African territory?",
+        "subtopic": "linguistics",
+        "stem": "In linguistic typology, a language where grammatical relationships are expressed primarily through word order rather than inflectional endings is classified as:",
         "options": [
-          "Defeat a ruling African chief or king in open battle before asserting sovereignty",
-          "Obtain written consent from the indigenous population of the claimed territory",
-          "Build permanent transport infrastructure within a fixed period after any claim",
-          "Notify other European signatory powers and demonstrate actual administration of the claimed area"
+          "Agglutinative (e.g., Turkish, Swahili)",
+          "Fusional / inflectional (e.g., Latin, Russian)",
+          "Analytic / isolating (e.g., Mandarin, Modern English)",
+          "Polysynthetic (e.g., Inuktitut, Mohawk)"
         ],
-        "correct": 3,
-        "why": "Effective occupation required notifying other European powers AND demonstrating real administrative presence — replacing discovery doctrine with a rule that paradoxically accelerated the Scramble for Africa.",
-        "deepDive": "The Berlin Conference (November 1884 to February 1885) was convened by Bismarck to manage competing European claims on Africa without triggering war. Fourteen European nations attended; no African state or ruler was present or consulted. The core output was the Principle of Effective Occupation: a European power claiming African territory had to notify other signatories AND demonstrate actual administration — not merely plant a flag. This paradoxically accelerated the Scramble for Africa, as powers rushed to occupy before rivals could. By 1914, only Ethiopia and Liberia remained uncolonized. The conference also created the Congo Free State — Leopold II's personal domain, site of mass atrocities estimated at 10 million deaths. Most of today's African borders were drawn here, cutting across ethnic and linguistic territories with no reference to African social geography."
+        "correct": 2,
+        "why": "Analytic languages like Modern English and Mandarin rely on word order and particles; Latin-style fusional endings or Turkish agglutination are absent.",
+        "deepDive": "Linguistic typology classifies languages by how they encode grammatical meaning. Analytic languages (Modern English, Mandarin, Vietnamese) use word order and free particles: ‘dog bites man’ vs ‘man bites dog’ differ only in order. Fusional languages (Latin, Russian, Arabic) merge multiple meanings into single endings: Latin canem (accusative singular) encodes case, number, and gender simultaneously. Agglutinative languages (Turkish, Finnish, Swahili) stack discrete, single-meaning morphemes: Turkish ev-ler-im-de means ‘in my houses’ — one morpheme per meaning. Polysynthetic languages (Inuktitut, Mohawk) incorporate whole clauses into one word. Typology matters for NLP: tokenisers built for space-separated English break down on agglutinative or polysynthetic languages, contributing to lower AI model performance on Turkish or Indigenous languages relative to English. No language fits a type perfectly — English has fusional vestiges in irregular verbs and pronouns."
       }
     ]
   }
