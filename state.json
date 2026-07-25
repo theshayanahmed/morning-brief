@@ -1,17 +1,7 @@
 {
-  "streak": 8,
-  "last_session_date": "2026-07-24",
+  "streak": 9,
+  "last_session_date": "2026-07-25",
   "questions_seen": [
-    "A Certificate of Origin (CoO) in international trade is issued by which authority and serves which primary legal purpose?",
-    "When a customs authority rejects transaction value for suspected under-valuation, what is the next method in the WTO Customs Valuation Agreement hierarchy?",
-    "A Panamax bulk carrier is sized principally around which limiting constraint?",
-    "In container port operations, a 'berth window' refers to which specific concept?",
-    "After departing 2M in January 2025, MSC now operates the world's largest container fleet primarily as which of the following?",
-    "The literary technique of 'stream of consciousness,' as used in James Joyce's Ulysses (1922) and Virginia Woolf's Mrs Dalloway (1925), is best characterised as which of the following?",
-    "In Islamic jurisprudence, 'ijma' ranks third in the classical usul al-fiqh (sources of law) hierarchy. Which statement most accurately defines it?",
-    "The term 'parasocial relationship,' first coined by Horton and Wohl in 1956, describes which specific dynamic between audiences and media figures?",
-    "Which combination of factors best explains why the Gangetic Plain supports one of the world's highest agricultural population densities?",
-    "Why does deep ocean water appear blue even on overcast days when no blue sky is visible overhead?",
     "A Bangladesh-origin RMG shipment moves road to Chittagong, sea to Singapore, then air to Tokyo. Which document governs the Singapore-to-Tokyo air leg?",
     "When Houthi attacks closed the Red Sea-Suez route in 2024-25, which alternative became the dominant Asia-Europe container diversion, adding roughly 10-14 extra sailing days?",
     "Under the Institute Cargo Clauses, which clause provides the broadest coverage — all risks of physical loss subject only to enumerated exclusions?",
@@ -501,7 +491,17 @@
     "In Hannah Arendt's political philosophy, the term 'banality of evil' refers to which phenomenon?",
     "In Olympic wrestling, the Greco-Roman style differs from freestyle by which defining rule?",
     "The phenomenon of 'parasocial relationships' — where audiences feel a one-sided emotional bond with media figures — was first formally described in a landmark 1956 paper by which researchers?",
-    "The 1648 Peace of Westphalia is often cited as the foundational moment of the modern state system. Which specific principle did it most concretely establish?"
+    "The 1648 Peace of Westphalia is often cited as the foundational moment of the modern state system. Which specific principle did it most concretely establish?",
+    "An integrator (FedEx, UPS, DHL Express) differs from a traditional cargo airline (Lufthansa Cargo, Cathay Cargo) in which defining commercial feature?",
+    "Frankfurt Airport (FRA) operates under a strict night curfew. What is the primary practical consequence for independent freighter operators choosing between FRA and Leipzig-Halle (LEJ)?",
+    "DSV's acquisition of DB Schenker (~$15B, finalized 2024-25) created the world's second-largest freight forwarder. Which strategic rationale best explains the premium paid?",
+    "A shipper commits to an MQC (Minimum Quantity Commitment) of 500 TEU/month with a carrier. In month 3, only 380 TEU ships. What is the standard commercial consequence?",
+    "The 'bullwhip effect' in supply chains describes which phenomenon?",
+    "The Ganges-Brahmaputra-Meghna (GBM) system drains into the Bay of Bengal. Approximately what percentage of the GBM delta's land surface does Bangladesh occupy?",
+    "Kirchhoff's Law of thermal radiation states that a surface's emissivity equals its absorptivity at thermal equilibrium. Why do spacecraft engineers wrap satellites in gold foil (multi-layer insulation)?",
+    "In Borges' 'The Library of Babel' (1941), the library contains every possible book of fixed length using a 25-character alphabet. Which 20th-century scientific concept does this most directly prefigure?",
+    "The 'Triffin Dilemma' (1960) identified a structural contradiction in the Bretton Woods system. What was the core tension Robert Triffin diagnosed?",
+    "CRISPR-Cas9 gene editing directs the Cas9 nuclease to a specific genomic location for a double-strand break. What determines the cut site's specificity?"
   ],
   "learn_history": [
     {
@@ -828,6 +828,11 @@
       "date": "2026-07-24",
       "topic": "BAF, EFS, and Peak Season Surcharges: How Carriers Turn Geopolitical Chaos Into Revenue",
       "bucket": "industry_deep_dive"
+    },
+    {
+      "date": "2026-07-25",
+      "topic": "High-Bandwidth Memory (HBM): The Stacked DRAM Architecture Enabling the AI Accelerator Era",
+      "bucket": "semiconductor_foundations"
     }
   ],
   "curriculum_progress": {
@@ -922,32 +927,32 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 15,
-      "last_seen": "2026-07-21",
+      "count": 16,
+      "last_seen": "2026-07-25",
       "difficulty": 2,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 15,
-      "last_seen": "2026-07-21",
+      "count": 16,
+      "last_seen": "2026-07-25",
       "difficulty": 2,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 15,
-      "last_seen": "2026-07-21",
+      "count": 16,
+      "last_seen": "2026-07-25",
       "difficulty": 2,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 15,
-      "last_seen": "2026-07-21",
+      "count": 16,
+      "last_seen": "2026-07-25",
       "difficulty": 2,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 15,
-      "last_seen": "2026-07-21",
+      "count": 16,
+      "last_seen": "2026-07-25",
       "difficulty": 2,
       "rolling_score": []
     }
@@ -960,20 +965,20 @@
       "rolling_score": []
     },
     "geography": {
-      "count": 23,
-      "last_seen": "2026-07-22",
+      "count": 24,
+      "last_seen": "2026-07-25",
       "difficulty": 4,
       "rolling_score": []
     },
     "physical_science": {
-      "count": 24,
-      "last_seen": "2026-07-22",
+      "count": 25,
+      "last_seen": "2026-07-25",
       "difficulty": 3,
       "rolling_score": []
     },
     "life_science": {
-      "count": 24,
-      "last_seen": "2026-07-23",
+      "count": 25,
+      "last_seen": "2026-07-25",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -984,8 +989,8 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 22,
-      "last_seen": "2026-07-22",
+      "count": 23,
+      "last_seen": "2026-07-25",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1014,8 +1019,8 @@
       "rolling_score": []
     },
     "economics": {
-      "count": 21,
-      "last_seen": "2026-07-22",
+      "count": 22,
+      "last_seen": "2026-07-25",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -1040,159 +1045,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-07-24",
+    "date": "2026-07-25",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "In intermodal transport, an 'inland clearance depot' (ICD) or 'dry port' serves which primary function?",
+        "subtopic": "aircraft_carriers",
+        "stem": "An integrator (FedEx, UPS, DHL Express) differs from a traditional cargo airline (Lufthansa Cargo, Cathay Cargo) in which defining commercial feature?",
         "options": [
-          "A bonded warehouse where goods are stored duty-free indefinitely",
-          "A facility inland from seaports where containers are consolidated, stuffed, stripped, and cleared by customs",
-          "A dedicated rail terminal exclusively for domestic freight movement",
-          "An air cargo hub that receives transhipped ocean containers for onward distribution"
+          "Integrators own the full journey end-to-end including ground delivery, billing as a single door-to-door rate with time guarantees",
+          "Integrators only carry belly cargo on passenger aircraft and never operate dedicated freighters",
+          "Traditional airlines handle dangerous goods; integrators are prohibited from carrying DG under IATA rules",
+          "Integrators operate exclusively on domestic routes under their respective national CAB authority"
         ],
-        "correct": 1,
-        "why": "ICDs extend seaport customs and logistics functions inland, enabling customs clearance, consolidation, and container stuffing away from congested coastal ports.",
-        "deepDive": "Inland Clearance Depots (ICDs), also called dry ports, replicate seaport customs and logistics functions in landlocked or inland locations. They allow importers and exporters to clear customs, consolidate LCL cargo, stuff or de-stuff containers, and access bonded storage without visiting the main seaport. In Bangladesh, Dhaka’s Kamalapur ICD is critical to the RMG supply chain — garment shipments are stuffed there, trucked to Chattogram, and loaded onto feeder vessels for Colombo or Port Klang transshipment. ICDs cut main-port congestion and give inland shippers access to global trade lanes. Misconception: ICD clearance eliminates later customs checks — in practice cargo can still be inspected at the load port. For multimodal moves, ICD documents (shipping bill, packing list, arrival notice) must align precisely with the master BL issued at the ocean port."
+        "correct": 0,
+        "why": "Integrators control pickup, sorting hubs, freighter aircraft, customs brokerage, and final-mile delivery — quoting one door-to-door price with guaranteed transit times.",
+        "deepDive": "Integrators — FedEx, UPS, DHL Express — pioneered hub-and-spoke air express in the 1970s-80s. Unlike traditional carriers that sell airport-to-airport capacity, integrators control the full chain."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "The Asia–North Europe trade lane via Cape of Good Hope (bypassing Suez) adds approximately how many extra sailing days compared to the Suez Canal route?",
+        "subtopic": "airport_ops",
+        "stem": "Frankfurt Airport (FRA) operates under a strict night curfew. What is the primary practical consequence for independent freighter operators choosing between FRA and Leipzig-Halle (LEJ)?",
         "options": [
-          "3–5 days",
-          "7–9 days",
-          "10–14 days",
-          "18–22 days"
+          "All cargo-only freighter operations at FRA are fully exempt from the night curfew, allowing 24/7 operations",
+          "FRA's night ban (~23:00-05:00 LT) forces time-critical night operations to Leipzig-Halle, which operates 24 hours and was chosen by DHL as its European express hub precisely for that reason",
+          "Only DHL and UPS hold FRA night-flight exemptions; independent charter operators face the full curfew",
+          "The curfew restricts takeoffs only; unlimited freighter arrivals are permitted through the night"
         ],
-        "correct": 2,
-        "why": "The Cape route adds roughly 3,500 extra nautical miles and 10–14 additional sailing days per voyage, burning 400–600 MT more bunker fuel and shrinking effective fleet capacity.",
-        "deepDive": "The Suez Canal shortens the Asia–Europe voyage by approximately 7,000 kilometres compared to rounding Africa. When conflict or blockage forces Cape diversion — as during the 2024–2025 Houthi campaign and again in the 2026 Iran conflict — carriers face 10–14 additional sailing days and significantly higher fuel consumption at normal cruising speed. Fleet effective capacity shrinks because the same vessels are deployed longer per rotation without physical scrapping. The 2024–2025 Red Sea crisis demonstrated this vividly: spot rates to Europe tripled within months as effective capacity shrank. Sustained diversions require blank sailings or additional vessel deployments to maintain service frequency, making them a structural cost increase. Misconception: Cape diversions are always temporary — in a prolonged conflict, carriers bake the detour into vessel rotation schedules and rate levels permanently."
+        "correct": 1,
+        "why": "FRA's night ban applies broadly; DHL chose Leipzig because LEJ has no night curfew, enabling the 02:00-04:00 peak sort window that express operations require.",
+        "deepDive": "Frankfurt handles ~2.5M tonnes of cargo/year but the night-flight ban forces express operators to Leipzig. Similar constraints affect LHR, AMS, SYD, and NRT."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "Under the Institute War Clauses (Cargo), which of the following perils is typically EXCLUDED from the base marine cargo policy and requires a separate war risk endorsement?",
+        "subtopic": "ma_consolidation",
+        "stem": "DSV's acquisition of DB Schenker (~$15B, finalized 2024-25) created the world's second-largest freight forwarder. Which strategic rationale best explains the premium paid?",
         "options": [
-          "General average contributions arising from a maritime accident",
-          "Collision damage to cargo during transhipment",
-          "Loss arising from capture, seizure, or confiscation by a belligerent power",
-          "Damage from heavy weather or rough seas during the ocean voyage"
+          "Schenker's German rail freight contracts gave DSV monopoly control over European rail intermodal",
+          "The acquisition doubled DSV's air and ocean volumes, unlocking carrier contract leverage and network density impossible to build organically within a reasonable horizon",
+          "Schenker's defense logistics contracts could not be accessed by non-German entities under security regulations",
+          "The deal was primarily a technology acquisition targeting Schenker's proprietary transport management system"
         ],
-        "correct": 2,
-        "why": "War risks — capture, seizure, mines, torpedoes — are excluded from standard Institute Cargo Clauses (A/B/C) via the War Exclusion Clause and require a separate war risk premium.",
-        "deepDive": "Standard marine cargo insurance under Institute Cargo Clauses (A, B, or C) excludes war risks via the War Exclusion Clause. To cover loss from war, civil strife, piracy, capture, seizure, mines, or weapons of war, shippers must purchase a separate war risk endorsement under the Institute War Clauses (Cargo). War risk premiums are set by Lloyd’s War Risks Rating Committee and spike dramatically during active conflicts. During the 2023–2025 Red Sea crisis, war risk premiums for Bab al-Mandab transits jumped from ~0.01% to 0.5–1.0% of vessel insured value per transit. The Joint War Committee (JWC) maintains a Listed Areas register — transiting a listed zone triggers automatic war risk premium increases. In 2026, JWC has re-designated the Red Sea and Persian Gulf as high-risk zones. Misconception: all-risks ICC-A cover includes war risks — it never does without the explicit war risk add-on."
+        "correct": 1,
+        "why": "Freight forwarding is a scale game: volume commitments yield lower buy-rates; DSV acquired network density and volume that would take 15+ years to build organically.",
+        "deepDive": "Post-Schenker rankings: K+N (#1), DSV/Schenker (#2), DHL Global Forwarding (#3). The compounding flywheel: volume → better carrier rates → competitive sell-rates → more volume."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "The Cargo Tracking Note (CTN) — required on imports into West African countries including Côte d’Ivoire and Cameroon — is best described as:",
+        "subtopic": "commercial_concepts",
+        "stem": "A shipper commits to an MQC (Minimum Quantity Commitment) of 500 TEU/month with a carrier. In month 3, only 380 TEU ships. What is the standard commercial consequence?",
         "options": [
-          "A customs valuation certificate confirming the dutiable value of goods",
-          "A pre-shipment inspection certificate proving cargo quality meets destination standards",
-          "A government-mandated registration document tracking cargo from origin to destination",
-          "A certificate of origin required to claim preferential tariff rates under an FTA"
+          "The carrier can unilaterally cancel the service contract for material breach",
+          "The shipper owes a shortfall penalty — typically a per-TEU charge on the 120 unshipped TEU — as contractually specified",
+          "The carrier must refund the difference between the contracted rate and the prevailing spot rate for the 380 TEU actually shipped",
+          "MQC shortfall clauses are standard boilerplate with no practical enforcement mechanism"
         ],
-        "correct": 2,
-        "why": "CTNs are destination-country administrative mandates that pre-register cargo details (HS code, value, BL number) to enable import risk-profiling before vessel arrival.",
-        "deepDive": "The Cargo Tracking Note is a compliance requirement imposed by several West and Central African countries to monitor import flows, combat trade fraud, and protect duty revenue. Shippers register cargo details (HS code, value, weight, vessel, BL number) on an authorized portal before shipment, generating a CTN number that customs authorities use to pre-clear and risk-profile cargo. Unlike a pre-shipment inspection (PSI), which checks quality and quantity, the CTN is purely an administrative tracking tool. Failure to obtain a CTN can result in delays, fines, or cargo confiscation at destination. For logistics companies with West African trade lanes, CTN compliance adds 3–7 days to documentation lead times. Common mistake: shippers confuse CTN with BIVAC or SGS inspection certificates — they are parallel requirements, not substitutes for each other."
+        "correct": 1,
+        "why": "MQC shortfall penalties are contractually binding; the shipper pays a per-TEU charge on uncommitted quantity (often $150-$500/TEU).",
+        "deepDive": "MQCs are central to ocean freight service contracts. Carriers price below spot for volume certainty; shortfall penalties ($150-$500/TEU) compensate for the lost revenue benefit."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "In container shipping, the concept of 'slow steaming' (reducing vessel speed from ~24 to ~18 knots) primarily achieved which economic objective for carriers post-2009?",
+        "subtopic": "supply_chain_strategy",
+        "stem": "The 'bullwhip effect' in supply chains describes which phenomenon?",
         "options": [
-          "Reducing port turnaround time by arriving consistently at off-peak hours",
-          "Cutting fuel consumption to lower unit costs and absorbing excess capacity during demand downturns",
-          "Complying with SOLAS safety regulations on structural hull stress at high speeds",
-          "Extending vessel service life by reducing engine wear and slowing depreciation"
+          "The tendency of AI-driven warehouse systems to over-order inventory when demand-sensing algorithms detect a weak positive signal",
+          "Small fluctuations in end-consumer demand amplifying into progressively larger order swings as they propagate upstream toward raw material suppliers",
+          "Fuel price spikes at the spot market propagating through freight surcharges to final consumer prices within 48 hours",
+          "The seasonal pattern where Asian factory output peaks in Q2-Q3, creating a predictable surge in transpacific freight rates"
         ],
         "correct": 1,
-        "why": "Slow steaming cuts bunker consumption roughly 50–70% (fuel is ~40% of voyage cost) and absorbs idle capacity by lengthening voyage times — the twin objectives post-2008 oversupply.",
-        "deepDive": "Slow steaming emerged after the 2008 financial crisis when trade volumes collapsed and a wave of newbuild orders (contracted during 2005–2008) delivered into a market with far too much capacity. Reducing speed from ~24 knots to 18–20 knots — or ‘super slow steaming’ at 12–15 knots — cuts a large container vessel’s fuel consumption from ~350 MT/day to ~100 MT/day, a 70%+ saving. The practice also absorbs capacity: slower ships take longer per rotation, effectively removing vessel-equivalents from the active fleet without scrapping. After rates recovered in 2021, carriers reverted toward faster speeds. Post-2024, the Cape of Good Hope diversion achieved the same capacity-absorption effect as slow steaming once did, but at full speed. Misconception: slow steaming always saves money — when fuel prices are low and demand is high, it sacrifices revenue from higher loadings and frequency, making it net-negative."
+        "why": "The bullwhip effect is demand uncertainty magnifying at each upstream node as every tier independently buffers inventory, generating oscillating over- and under-ordering cycles.",
+        "deepDive": "Formalised by Hau Lee (1997). Four causes: demand signal processing errors, order batching, price fluctuations, shortage gaming. COVID semiconductor shortage was a textbook case."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "The Sufi devotional practice of 'sama' — involving music, poetry, and often whirling movement — is most closely associated with which order?",
+        "subtopic": "geography",
+        "stem": "The Ganges-Brahmaputra-Meghna (GBM) system drains into the Bay of Bengal. Approximately what percentage of the GBM delta's land surface does Bangladesh occupy?",
         "options": [
-          "Naqshbandiyya",
-          "Mevlevi",
-          "Qadiriyya",
-          "Tijaniyya"
+          "roughly 25%, with the majority in India's West Bengal and Assam",
+          "roughly 80%, with the remainder in India's West Bengal",
+          "roughly 50%, split almost evenly with Indian territory",
+          "roughly 30%, as most of the delta mouth lies in the Indian Sundarbans"
         ],
         "correct": 1,
-        "why": "The Mevlevi Order, rooted in Rumi’s poetry, institutionalized sama as a structured spiritual practice; their whirling sema ceremony is its most recognizable form.",
-        "deepDive": "The Mevlevi Order was established in 13th-century Konya, Anatolia (modern Turkey), by followers of the poet-mystic Jalal ad-Din Rumi (1207–1273). Rumi’s Masnavi is among the most influential texts in Islamic mystical thought. The order’s distinctive practice is the sema ceremony, in which dervishes in white robes enter a slow-to-fast spinning meditation representing the soul’s journey toward and return from the divine. Sama rests on the idea that music and movement can quiet the ego and open the heart — a position orthodox Islamic scholars have often contested, as instrumental music occupies ambiguous status in classical jurisprudence. The Naqshbandiyya explicitly prohibits music in their dhikr. The Tijaniyya, founded in 18th-century Morocco, is widespread across West Africa but does not use instrumental music. UNESCO inscribed the Mevlevi sema ceremony as Intangible Cultural Heritage in 2008. Misconception: all Sufi orders use music — only some traditions permit it."
+        "why": "Bangladesh occupies ~80% of the GBM delta — explaining why over 60% of Bangladesh lies within three metres of sea level.",
+        "deepDive": "GBM drains ~1.75 million km². Bangladesh sits almost entirely within the delta; the Sundarbans mangrove forest straddles the Bangladesh-India border. A 1m sea-level rise would inundate ~10% of Bangladesh."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "In Hannah Arendt's political philosophy, the term 'banality of evil' refers to which phenomenon?",
+        "subtopic": "physical_science",
+        "stem": "Kirchhoff's Law of thermal radiation states that a surface's emissivity equals its absorptivity at thermal equilibrium. Why do spacecraft engineers wrap satellites in gold foil (multi-layer insulation)?",
         "options": [
-          "The inherent tendency of totalitarian regimes toward spectacular theatrical violence",
-          "The capacity of ordinary, thoughtless individuals to commit atrocities by following orders without moral reflection",
-          "The way evil becomes normalized through media desensitization in mass consumer societies",
-          "Arendt’s argument that evil is banal because it produces only destruction, never creation"
+          "Gold's high emissivity in the infrared rapidly radiates waste heat from electronics into deep space",
+          "Gold's high reflectivity in visible light makes the satellite easier to track optically from ground stations",
+          "Polished gold has very low emissivity (~0.03) — and by Kirchhoff's Law, equally low absorptivity — minimising both solar heat gain and internal heat loss to deep space",
+          "Gold insulates against cosmic radiation, which would degrade conventional aluminium foil in the radiation belts"
         ],
-        "correct": 1,
-        "why": "Arendt coined the phrase at Adolf Eichmann’s 1961 trial — his bureaucratic ordinariness horrified her more than monstrosity would have; evil emerged from the absence of thought.",
-        "deepDive": "Hannah Arendt coined the phrase in her 1963 book Eichmann in Jerusalem: A Report on the Banality of Evil, covering the trial of the Nazi SS officer who administered the logistics of the Holocaust. Arendt was struck not by a demon but by a thoughtless, career-minded bureaucrat who claimed he was only following orders. Her core claim: mass evil does not require evil motives — only the abdication of moral thinking and the failure to question what one executes. This sparked enormous controversy; many felt she was diminishing perpetrators’ culpability. Arendt distinguished her concept from Kant’s ‘radical evil’ — for Kant, evil was a positive force; for Arendt, it emerged from a chilling absence of thought. The phrase remains central to debates about institutional obedience, whistleblowing, and bureaucratic ethics. Misconception: Arendt was excusing Eichmann — she argued he deserved death precisely because he forfeited his humanity through moral disengagement."
+        "correct": 2,
+        "why": "Gold emissivity ~0.03 means it absorbs very little solar radiation and emits very little internal heat — by Kirchhoff's Law, emissivity = absorptivity at any given wavelength.",
+        "deepDive": "MLI blankets use gold/silver-coated polymer films. JWST's gold mirror reflects >99% IR. Black anodised aluminium (emissivity ~0.85) is used where heat dumping is needed. Classic spacecraft thermal control."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "In Olympic wrestling, the Greco-Roman style differs from freestyle by which defining rule?",
+        "subtopic": "literature",
+        "stem": "In Borges' 'The Library of Babel' (1941), the library contains every possible book of fixed length using a 25-character alphabet. Which 20th-century scientific concept does this most directly prefigure?",
         "options": [
-          "Competitors must remain standing at all times; no ground wrestling is permitted",
-          "Holds below the waist and use of legs to execute holds or trips are prohibited",
-          "Matches last five two-minute rounds, unlike freestyle’s three rounds",
-          "Only competitors above 74kg may enter Greco-Roman events at the Olympic level"
+          "Gödel's incompleteness theorem — that no formal system can prove all true statements within itself",
+          "Shannon's information entropy — most possible character strings are random noise; meaningful information is infinitesimally rare in the full combinatorial space",
+          "Turing's halting problem — that no algorithm can determine in general whether an arbitrary program terminates",
+          "Heisenberg's uncertainty principle — that the act of searching the library disturbs the arrangement of the books observed"
         ],
         "correct": 1,
-        "why": "Greco-Roman bans lower-body holds and leg attacks, forcing all scoring through upper-body throws and holds — creating an entirely different tactical game from freestyle.",
-        "deepDive": "Greco-Roman wrestling has been contested at every modern Olympics since 1896. Its defining constraint: competitors cannot attack below the waist, cannot use their own legs to trip or sweep, and cannot use the opponent’s legs as a lever. This creates a dramatically different game from freestyle, where leg attacks (single-leg, double-leg takedowns) dominate offensively. In Greco-Roman, matches are decided almost entirely by upper-body throws — the gut wrench, the suplex, the arm throw. The absence of leg attacks also changes defense: you cannot sprawl out of a takedown the way you can in freestyle. Scoring: a takedown scores 2 points; a throw of grand amplitude (opponent airborne and landing on back) scores 5 points; exposing an opponent’s back for two seconds scores 2 additional points. Misconception: Greco-Roman means no ground wrestling — in fact, ground work is central; you just cannot use legs to get there or hold there."
+        "why": "The Library's ~10^1,834,097 books are dominated by meaningless noise — exactly Shannon's (1948) insight that entropy measures how rare meaningful information is in the combinatorial space.",
+        "deepDive": "Borges (1941) predates Shannon (1948) by 7 years. The connection was noted by Hofstadter in 'Gödel, Escher, Bach' (1979). LLMs are implicitly compressing the meaningful region of Borges' Library."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "The phenomenon of 'parasocial relationships' — where audiences feel a one-sided emotional bond with media figures — was first formally described in a landmark 1956 paper by which researchers?",
+        "subtopic": "economics",
+        "stem": "The 'Triffin Dilemma' (1960) identified a structural contradiction in the Bretton Woods system. What was the core tension Robert Triffin diagnosed?",
         "options": [
-          "Stanley Milgram and Philip Zimbardo",
-          "Donald Horton and Richard Wohl",
-          "Marshall McLuhan and Walter Ong",
-          "Erving Goffman and Harold Garfinkel"
+          "Fixed exchange rates would generate speculative attacks as countries exhausted gold reserves defending their pegs",
+          "The reserve currency issuer must run current account deficits to supply global liquidity, but accumulated dollar balances abroad eventually undermine confidence in the currency's gold convertibility",
+          "The IMF's weighted voting structure gave the US effective veto power, blocking creation of a neutral synthetic reserve asset",
+          "Dollar-printing to finance the Vietnam War would trigger hyperinflation that gold convertibility could not contain"
         ],
         "correct": 1,
-        "why": "Horton and Wohl’s 1956 paper 'Mass Communication and Para-Social Interaction' coined the term and described the illusion of intimate face-to-face relationship with media performers.",
-        "deepDive": "In 1956, sociologists Donald Horton and Richard Wohl published Mass Communication and Para-Social Interaction in the journal Psychiatry. Writing in the early television era, they observed that audiences developed the feeling of knowing TV personalities — talk show hosts, news anchors, variety performers — as intimates, despite never meeting them. They called this a para-social interaction: the audience member responds as if in a genuine social relationship, even though it is asymmetric by design. They were not pathologizing the phenomenon; they noted it extends normal social bonding functions. In the creator economy era, parasocial bonds have intensified dramatically — YouTube creators, podcasters, and streamers use first-name address, behind-the-scenes content, and live Q&A to cultivate bonds that feel genuinely reciprocal. Research now links strong parasocial bonds to fan purchasing behavior and cult-of-personality political phenomena. Misconception: parasocial relationships are inherently unhealthy — Horton and Wohl argued they only become pathological when substituted for real relationships."
+        "why": "Triffin: US must run deficits to supply global dollar liquidity; accumulated foreign dollar balances eventually exceed US gold reserves, making the $35/oz gold peg unsustainable — Nixon closed the window August 1971.",
+        "deepDive": "Triffin testified to Congress in 1960. Bretton Woods collapsed exactly as predicted. Today's version: US structural deficits supply dollar reserves globally, but domestic politics demand deficit reduction — the dilemma persists."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The 1648 Peace of Westphalia is often cited as the foundational moment of the modern state system. Which specific principle did it most concretely establish?",
+        "subtopic": "life_science",
+        "stem": "CRISPR-Cas9 gene editing directs the Cas9 nuclease to a specific genomic location for a double-strand break. What determines the cut site's specificity?",
         "options": [
-          "The right of all peoples to self-determination and democratic representation",
-          "Cuius regio, eius religio — the ruler determines the religion of their territory",
-          "The principle of sovereign non-interference: states should not intervene in other states’ internal affairs",
-          "The establishment of a permanent international arbitration court to resolve inter-state disputes"
+          "The molecular weight and isoelectric point of the Cas9 protein variant selected, which vary by organism",
+          "A ~20-nucleotide guide RNA spacer that pairs with the target DNA strand by Watson-Crick complementarity, plus a required adjacent PAM sequence (NGG for SpCas9) on the non-target strand",
+          "The pH and ionic environment of the nucleus, which triggers Cas9 conformational activation only in specific cell types",
+          "Cas9 cuts double-stranded DNA non-specifically; the guide RNA only determines where DNA repair pathways are subsequently activated"
         ],
-        "correct": 2,
-        "why": "Westphalia canonized territorial sovereignty and the norm that external powers — including the Pope and Holy Roman Emperor — had no legitimate claim over another state’s internal arrangements.",
-        "deepDive": "The Peace of Westphalia comprised two 1648 treaties ending the Thirty Years’ War and the Eighty Years’ War. Its most durable contribution was solidifying the concept of the sovereign territorial state: defined borders, supreme internal authority, and the norm that external powers had no legitimate claim to intervene in another state’s religious or political arrangements. This was revolutionary: the Holy Roman Emperor and the Pope had both claimed authority over other rulers’ subjects. Option B (cuius regio, eius religio) actually predates Westphalia — it came from the 1555 Peace of Augsburg; Westphalia softened it by extending minority religious rights. Option A (self-determination) is a 20th-century Wilsonian concept. Option D: no permanent court was created; the Permanent Court of Arbitration came in 1899. Westphalian sovereignty today is invoked by China and Russia to resist humanitarian intervention — and by critics who argue it shields authoritarian regimes from accountability."
+        "correct": 1,
+        "why": "gRNA ~20 nt spacer base-pairs with the target strand; Cas9 also requires a PAM sequence (NGG for SpCas9) immediately downstream — both together define the cut site.",
+        "deepDive": "Doudna & Charpentier won the 2020 Nobel. NHEJ = error-prone knockouts; HDR = precise corrections. Off-target edits are the key therapeutic challenge; base editors reduce double-strand break risks."
       }
     ]
   }
