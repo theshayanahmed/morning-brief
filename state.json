@@ -1,17 +1,7 @@
 {
-  "streak": 9,
-  "last_session_date": "2026-07-25",
+  "streak": 10,
+  "last_session_date": "2026-07-26",
   "questions_seen": [
-    "A Bangladesh-origin RMG shipment moves road to Chittagong, sea to Singapore, then air to Tokyo. Which document governs the Singapore-to-Tokyo air leg?",
-    "When Houthi attacks closed the Red Sea-Suez route in 2024-25, which alternative became the dominant Asia-Europe container diversion, adding roughly 10-14 extra sailing days?",
-    "Under the Institute Cargo Clauses, which clause provides the broadest coverage — all risks of physical loss subject only to enumerated exclusions?",
-    "IMO DCS and EU MRV both require vessel fuel consumption reporting annually. What is the primary difference in geographic scope between the two regimes?",
-    "Ultra-large container vessels (24,000+ TEU) offer lower slot costs per TEU than mid-size vessels ONLY when which condition holds?",
-    "Gödel's First Incompleteness Theorem (1931) proves which of the following about sufficiently powerful formal mathematical systems?",
-    "The 1648 Peace of Westphalia is cited as the birth of the modern state system. Which core principle did it enshrine in European political order?",
-    "In Rawls' 'A Theory of Justice,' the 'veil of ignorance' is a hypothetical device intended to derive which of the following?",
-    "In the Mundell-Fleming model, a small open economy with a FIXED exchange rate and perfect capital mobility finds fiscal policy is ineffective. The core mechanism is:",
-    "CRISPR-Cas9 cuts both strands of a target DNA sequence. What does the cell do IMMEDIATELY after the double-strand break, determining the edit outcome?",
     "FedEx, UPS, and DHL Express are classified as 'integrators' rather than conventional cargo airlines. Which capability specifically defines the integrator model?",
     "Anchorage (ANC) handles minimal passenger traffic yet ranks among the world's top 10 cargo airports by tonnage. What is the primary driver of its strategic role?",
     "The DSV–DB Schenker deal (~$15B, 2024-25) would create the world's largest freight forwarder. What structural logic primarily drives forwarder-on-forwarder mega-mergers?",
@@ -501,7 +491,17 @@
     "Kirchhoff's Law of thermal radiation states that a surface's emissivity equals its absorptivity at thermal equilibrium. Why do spacecraft engineers wrap satellites in gold foil (multi-layer insulation)?",
     "In Borges' 'The Library of Babel' (1941), the library contains every possible book of fixed length using a 25-character alphabet. Which 20th-century scientific concept does this most directly prefigure?",
     "The 'Triffin Dilemma' (1960) identified a structural contradiction in the Bretton Woods system. What was the core tension Robert Triffin diagnosed?",
-    "CRISPR-Cas9 gene editing directs the Cas9 nuclease to a specific genomic location for a double-strand break. What determines the cut site's specificity?"
+    "CRISPR-Cas9 gene editing directs the Cas9 nuclease to a specific genomic location for a double-strand break. What determines the cut site's specificity?",
+    "Under UCP 600, a Letter of Credit calls for a “full set of 3/3 original bills of lading.” The shipper presents all three originals to the negotiating bank. What risk does this create that would NOT exist had a non-negotiable sea waybill been specified instead?",
+    "Customs reclassifies an importer’s garments from HS Chapter 62 (woven) to Chapter 61 (knitted), triggering a higher duty rate. Under the WTO Customs Valuation Agreement, does this reclassification automatically alter the customs value declared by the importer?",
+    "A VLCC (Very Large Crude Carrier, ~2 million barrels capacity) cannot transit the Suez Canal fully laden — its draft exceeds the canal’s ~20.1m maximum when loaded. What is the standard operational implication for a laden Persian Gulf-to-Rotterdam voyage?",
+    "A container terminal reports gross crane productivity (GCPH) of 32 moves per hour but net crane productivity (NCPH) of 21 moves per hour. What accounts for the gap — and why do carriers and port benchmarkers prefer NCPH over GCPH?",
+    "The Gemini Cooperation (Maersk + Hapag-Lloyd, launched February 2025) targets 90%+ schedule reliability — far above the 50-60% industry average. What structural operating choice most directly enables this claim?",
+    "Grigori Perelman declined both the Fields Medal (2006) and the Clay Millennium $1M Prize for proving the Poincaré Conjecture. What does the conjecture assert — and why did the 3-dimensional case resist proof for nearly 100 years while analogues in higher dimensions were settled decades earlier?",
+    "Vermeer’s “Girl with a Pearl Earring” (c.1665) is classified as a “tronie” rather than a portrait. What specifically distinguishes a tronie from a commissioned portrait in 17th-century Dutch painting practice?",
+    "Olivier Messiaen’s “modes of limited transposition” have a specific defining structural property. What is it — and which earlier composer independently discovered the most famous example under a different name?",
+    "Saussure’s langue/parole distinction and Chomsky’s competence/performance pair are often described as analogues. They map closely onto each other — but differ in one fundamental theoretical dimension. What is that key difference?",
+    "The Amritsar Massacre of April 13, 1919 — Brigadier-General Dyer ordering sustained fire on an unarmed crowd at Jallianwala Bagh, killing at least 379 officially (credible estimates up to 1,000) — had a specific catalytic political consequence for Indian nationalism. What was its most direct effect?"
   ],
   "learn_history": [
     {
@@ -833,6 +833,11 @@
       "date": "2026-07-25",
       "topic": "High-Bandwidth Memory (HBM): The Stacked DRAM Architecture Enabling the AI Accelerator Era",
       "bucket": "semiconductor_foundations"
+    },
+    {
+      "date": "2026-07-26",
+      "topic": "Sufism & the Subcontinent: How Wandering Saints Made Islam South Asia's Faith",
+      "bucket": "religion"
     }
   ],
   "curriculum_progress": {
@@ -843,9 +848,9 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 16,
-      "last_seen": "2026-07-22",
-      "difficulty": 3,
+      "count": 17,
+      "last_seen": "2026-07-26",
+      "difficulty": 4,
       "rolling_score": []
     },
     "bill_of_lading": {
@@ -855,21 +860,21 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 16,
-      "last_seen": "2026-07-22",
-      "difficulty": 3,
+      "count": 17,
+      "last_seen": "2026-07-26",
+      "difficulty": 4,
       "rolling_score": []
     },
     "vessels": {
-      "count": 16,
-      "last_seen": "2026-07-22",
-      "difficulty": 3,
+      "count": 17,
+      "last_seen": "2026-07-26",
+      "difficulty": 4,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 16,
-      "last_seen": "2026-07-22",
-      "difficulty": 3,
+      "count": 17,
+      "last_seen": "2026-07-26",
+      "difficulty": 4,
       "rolling_score": []
     },
     "pricing": {
@@ -879,9 +884,9 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 16,
-      "last_seen": "2026-07-22",
-      "difficulty": 3,
+      "count": 17,
+      "last_seen": "2026-07-26",
+      "difficulty": 4,
       "rolling_score": []
     },
     "air_freight": {
@@ -959,8 +964,8 @@
   },
   "gk_progress": {
     "history": {
-      "count": 26,
-      "last_seen": "2026-07-24",
+      "count": 27,
+      "last_seen": "2026-07-26",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -983,8 +988,8 @@
       "rolling_score": []
     },
     "mathematics": {
-      "count": 24,
-      "last_seen": "2026-07-23",
+      "count": 25,
+      "last_seen": "2026-07-26",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -995,14 +1000,14 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 22,
-      "last_seen": "2026-07-23",
-      "difficulty": 3,
+      "count": 23,
+      "last_seen": "2026-07-26",
+      "difficulty": 4,
       "rolling_score": []
     },
     "music": {
-      "count": 22,
-      "last_seen": "2026-07-23",
+      "count": 23,
+      "last_seen": "2026-07-26",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1025,8 +1030,8 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 22,
-      "last_seen": "2026-07-23",
+      "count": 23,
+      "last_seen": "2026-07-26",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1045,159 +1050,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-07-25",
+    "date": "2026-07-26",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "An integrator (FedEx, UPS, DHL Express) differs from a traditional cargo airline (Lufthansa Cargo, Cathay Cargo) in which defining commercial feature?",
+        "subtopic": "documentation",
+        "stem": "Under UCP 600, a Letter of Credit calls for a “full set of 3/3 original bills of lading.” The shipper presents all three originals to the negotiating bank. What risk does this create that would NOT exist had a non-negotiable sea waybill been specified instead?",
         "options": [
-          "Integrators own the full journey end-to-end including ground delivery, billing as a single door-to-door rate with time guarantees",
-          "Integrators only carry belly cargo on passenger aircraft and never operate dedicated freighters",
-          "Traditional airlines handle dangerous goods; integrators are prohibited from carrying DG under IATA rules",
-          "Integrators operate exclusively on domestic routes under their respective national CAB authority"
+          "Any single original B/L can be surrendered at the destination port to release cargo, so an unauthorised holder obtaining just one original could collect the goods before the bank is repaid",
+          "The bank faces exchange-rate risk because original B/Ls denominated in a foreign currency may depreciate before the LC is settled",
+          "The carrier can refuse delivery at the destination even if the bank holds all three originals, as B/Ls lack legal recognition outside the country of issue",
+          "The issuing bank risks the buyer re-pledging the full B/L set as collateral to a second bank without the first bank’s knowledge"
         ],
         "correct": 0,
-        "why": "Integrators control pickup, sorting hubs, freighter aircraft, customs brokerage, and final-mile delivery — quoting one door-to-door price with guaranteed transit times.",
-        "deepDive": "Integrators — FedEx, UPS, DHL Express — pioneered hub-and-spoke air express in the 1970s-80s. Unlike traditional carriers that sell airport-to-airport capacity, integrators control the full chain."
+        "why": "A negotiable B/L is a document of title: any single original suffices to claim cargo at the destination. A sea waybill is non-negotiable and names a specific consignee — delivery requires identity verification, not document surrender, eliminating the fraud risk.",
+        "deepDive": "Under UCP 600 Article 20, a “full set” means all originals issued. The security vulnerability: if one original B/L is stolen or diverted, a fraudulent holder can claim the cargo before the bank is repaid. This is why trade finance structures involving LC payment and goods-in-transit financing rely on the bank holding the full set of originals — one original must not reach the buyer until the bank is paid. Sea waybills (expressly non-negotiable) eliminate this risk entirely by linking delivery to the named consignee’s identity only; no document surrender is required. Low-value intra-company shipments and trusted buyer relationships increasingly use sea waybills. The UCP 600 Article 20(a) also requires the on-board notation, clean condition, and port of loading/discharge to be specified on the face of the B/L for it to satisfy documentary credit requirements."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "Frankfurt Airport (FRA) operates under a strict night curfew. What is the primary practical consequence for independent freighter operators choosing between FRA and Leipzig-Halle (LEJ)?",
+        "subtopic": "customs",
+        "stem": "Customs reclassifies an importer’s garments from HS Chapter 62 (woven) to Chapter 61 (knitted), triggering a higher duty rate. Under the WTO Customs Valuation Agreement, does this reclassification automatically alter the customs value declared by the importer?",
         "options": [
-          "All cargo-only freighter operations at FRA are fully exempt from the night curfew, allowing 24/7 operations",
-          "FRA's night ban (~23:00-05:00 LT) forces time-critical night operations to Leipzig-Halle, which operates 24 hours and was chosen by DHL as its European express hub precisely for that reason",
-          "Only DHL and UPS hold FRA night-flight exemptions; independent charter operators face the full curfew",
-          "The curfew restricts takeoffs only; unlimited freighter arrivals are permitted through the night"
+          "No — customs value (the transaction price paid between buyer and seller) is legally independent of tariff classification; reclassification changes only which duty rate is applied to that same declared value",
+          "Yes — reclassification triggers mandatory re-evaluation under all six WTO valuation methods, starting from Method 1",
+          "Yes — once reclassified, customs must use deductive value (Method 4) as the default, since transaction value is tied to the original classification",
+          "No — reclassification applies only to future shipments; the current entry retains its originally declared value and duty rate pending any appeal"
         ],
-        "correct": 1,
-        "why": "FRA's night ban applies broadly; DHL chose Leipzig because LEJ has no night curfew, enabling the 02:00-04:00 peak sort window that express operations require.",
-        "deepDive": "Frankfurt handles ~2.5M tonnes of cargo/year but the night-flight ban forces express operators to Leipzig. Similar constraints affect LHR, AMS, SYD, and NRT."
+        "correct": 0,
+        "why": "Customs value and tariff classification are separate legal determinations under the WTO regime. Reclassification addresses which tariff heading applies and therefore which rate — but the WTO CVA transaction value (what the importer actually paid) remains the base unless independently challenged.",
+        "deepDive": "The WTO Customs Valuation Agreement (implementing GATT Article VII) separates two independent determinations: (1) what is the customs value of these goods? and (2) what tariff heading do they fall under? Reclassification addresses question 2 only. Transaction value — the price actually paid or payable, adjusted per CVA Articles 8-9 — does not change just because the heading changes. Customs authorities can and do challenge both independently: a separate transfer-pricing or undervaluation audit runs parallel to any classification dispute. Importers need to understand they can appeal each separately and that winning a classification dispute does not automatically resolve a valuation challenge, or vice versa. Practically: reclassification from Ch. 62 to Ch. 61 on EU imports can shift duty rates by several percentage points and potentially trigger different rules of origin requirements under preferential trade arrangements."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "DSV's acquisition of DB Schenker (~$15B, finalized 2024-25) created the world's second-largest freight forwarder. Which strategic rationale best explains the premium paid?",
+        "subtopic": "vessels",
+        "stem": "A VLCC (Very Large Crude Carrier, ~2 million barrels capacity) cannot transit the Suez Canal fully laden — its draft exceeds the canal’s ~20.1m maximum when loaded. What is the standard operational implication for a laden Persian Gulf-to-Rotterdam voyage?",
         "options": [
-          "Schenker's German rail freight contracts gave DSV monopoly control over European rail intermodal",
-          "The acquisition doubled DSV's air and ocean volumes, unlocking carrier contract leverage and network density impossible to build organically within a reasonable horizon",
-          "Schenker's defense logistics contracts could not be accessed by non-German entities under security regulations",
-          "The deal was primarily a technology acquisition targeting Schenker's proprietary transport management system"
+          "The VLCC loads in the Gulf, transits Suez in ballast, re-loads crude in the Red Sea, then sails to Rotterdam",
+          "The VLCC must route laden via the Cape of Good Hope, adding roughly 6,000-7,000 nautical miles vs a Suez routing; Suez is used only for the empty ballast return leg",
+          "VLCCs can transit Suez laden if tanks are partially filled to reduce draft below 20.1m, trading cargo volume for canal access",
+          "VLCC operators secure special deep-draft permits from the Suez Canal Authority allowing laden transit subject to 60-day advance booking and a premium toll"
         ],
         "correct": 1,
-        "why": "Freight forwarding is a scale game: volume commitments yield lower buy-rates; DSV acquired network density and volume that would take 15+ years to build organically.",
-        "deepDive": "Post-Schenker rankings: K+N (#1), DSV/Schenker (#2), DHL Global Forwarding (#3). The compounding flywheel: volume → better carrier rates → competitive sell-rates → more volume."
+        "why": "Suezmax (~130,000-200,000 DWT) is the largest tanker that can transit the Suez Canal fully laden — the name is the clue. VLCCs (~280,000-320,000 DWT) are too deep-drafted. Persian Gulf crude to Europe goes Cape laden; the empty ballast return uses Suez.",
+        "deepDive": "A VLCC’s laden draft of ~20-22 metres exceeds the Suez Canal’s depth limit of approximately 20.1m, making laden transit impossible. A Suezmax was explicitly sized to fit. The Cape of Good Hope route adds roughly 3,500 nm on the laden Gulf-to-Rotterdam leg versus a Suez routing — about 8-10 extra days at 15 knots. However, VLCC economies of scale (cost per barrel) often offset the extra distance compared to smaller Suezmax vessels. The arbitrage between VLCC Cape economics and Suezmax Suez economics is the core fixture market calculation on the AG-to-Europe (AG/Med, AG/UKCont) route. During periods of very high Suez Canal transit fees, VLCCs become more competitive on a cost-per-barrel basis even on routes where Suezmax could theoretically call. The ballast return via Suez saves fuel and time for the empty voyage, when draft is not an issue."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "A shipper commits to an MQC (Minimum Quantity Commitment) of 500 TEU/month with a carrier. In month 3, only 380 TEU ships. What is the standard commercial consequence?",
+        "subtopic": "port_ops",
+        "stem": "A container terminal reports gross crane productivity (GCPH) of 32 moves per hour but net crane productivity (NCPH) of 21 moves per hour. What accounts for the gap — and why do carriers and port benchmarkers prefer NCPH over GCPH?",
         "options": [
-          "The carrier can unilaterally cancel the service contract for material breach",
-          "The shipper owes a shortfall penalty — typically a per-TEU charge on the 120 unshipped TEU — as contractually specified",
-          "The carrier must refund the difference between the contracted rate and the prevailing spot rate for the 380 TEU actually shipped",
-          "MQC shortfall clauses are standard boilerplate with no practical enforcement mechanism"
+          "GCPH divides total moves by all time the crane is assigned to the vessel, including idle periods, hatch-cover handling, gang changes, and equipment breaks; NCPH divides moves only by actual productive lifting time — carriers prefer NCPH because it predicts real berth time consumed per box moved",
+          "GCPH counts both ship-to-shore and yard crane moves combined; NCPH counts only ship-to-shore lifts at the vessel face",
+          "GCPH reflects the crane’s theoretical rated maximum speed from the manufacturer; NCPH is the contractual ceiling permitted under port labour agreements",
+          "NCPH excludes moves in which damage or misdirected containers required re-handling; GCPH counts all lifts regardless of outcome"
         ],
-        "correct": 1,
-        "why": "MQC shortfall penalties are contractually binding; the shipper pays a per-TEU charge on uncommitted quantity (often $150-$500/TEU).",
-        "deepDive": "MQCs are central to ocean freight service contracts. Carriers price below spot for volume certainty; shortfall penalties ($150-$500/TEU) compensate for the lost revenue benefit."
+        "correct": 0,
+        "why": "The GCPH-NCPH gap of ~11 moves/hour reflects crane idle time: hatch cover shifts, vessel trimming, gang changes, equipment pauses. NCPH strips out non-productive time, giving an honest measure of actual throughput during working crane hours — the number that determines how long a vessel sits at berth.",
+        "deepDive": "Container terminal productivity benchmarking uses two main crane move metrics. GCPH = total crane moves ÷ total hours crane is deployed at the vessel (including idle). NCPH = total crane moves ÷ net productive crane hours (idle time excluded). World-class terminals target NCPH of 28-32+ moves/hour; the global average is 18-22. The gap matters commercially: a vessel’s berth occupancy = total boxes to load/discharge ÷ NCPH × number of cranes working. A terminal advertising 35 GCPH but delivering 18 NCPH will detain a vessel far longer than one advertising 28 GCPH with 26 NCPH. Shipping alliances are increasingly incorporating terminal productivity guarantees in their service agreements, expressed in NCPH. Port-of-call selection decisions in alliance route design now explicitly benchmark NCPH as a key constraint, alongside water depth and berth availability."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "The 'bullwhip effect' in supply chains describes which phenomenon?",
+        "subtopic": "liner_alliances",
+        "stem": "The Gemini Cooperation (Maersk + Hapag-Lloyd, launched February 2025) targets 90%+ schedule reliability — far above the 50-60% industry average. What structural operating choice most directly enables this claim?",
         "options": [
-          "The tendency of AI-driven warehouse systems to over-order inventory when demand-sensing algorithms detect a weak positive signal",
-          "Small fluctuations in end-consumer demand amplifying into progressively larger order swings as they propagate upstream toward raw material suppliers",
-          "Fuel price spikes at the spot market propagating through freight surcharges to final consumer prices within 48 hours",
-          "The seasonal pattern where Asian factory output peaks in Q2-Q3, creating a predictable surge in transpacific freight rates"
+          "Gemini operates entirely with fully owned vessels, eliminating slot-charter arrangements from third-party carriers that introduce cascade delay risk",
+          "Gemini uses a hub-and-spoke model with fewer dedicated mainliner strings fed by regional feeder spokes, reducing multi-operator handoff points that cause cascade delays to ripple across the network",
+          "Gemini vessels are capped below 14,000 TEU to guarantee fast port turnarounds that larger ULCVs cannot achieve at congested terminals",
+          "The European Commission mandated a 90% reliability floor as a binding condition of Gemini’s block exemption from competition law"
         ],
         "correct": 1,
-        "why": "The bullwhip effect is demand uncertainty magnifying at each upstream node as every tier independently buffers inventory, generating oscillating over- and under-ordering cycles.",
-        "deepDive": "Formalised by Hau Lee (1997). Four causes: demand signal processing errors, order batching, price fluctuations, shortage gaming. COVID semiconductor shortage was a textbook case."
+        "why": "Gemini explicitly simplified its loop structure compared to THE Alliance’s sprawling VSA network. Fewer joint-service strings with dedicated vessels per string means fewer multi-operator handoff points — each handoff is a cascade failure vector. Fewer vectors = higher reliability.",
+        "deepDive": "Most large shipping alliances since 2M have operated broad VSA networks with many carriers sharing slots on complex multi-partner strings. Each additional operator in a string is a cascade risk: if one carrier’s vessel delays, it cascades to every partner’s slot on that string. Gemini’s architectural response was to reduce the number of mainliner loops to a smaller core network, modelled loosely on airline hub-and-spoke logic: dedicated mainliner vessels on major port pairs, with feeder services handling secondary ports. This means some ports lose direct mainliner calls and now require a feeder leg — adding cost and transit time for shippers there. The trade-off: shippers at mainliner ports gain significantly better schedule reliability (Gemini reported >90% in its first months), while shippers at feeder ports accept more connections. For time-sensitive cargo and supply chain planning, the reliability premium is real commercial value that Gemini’s two carriers — the world’s largest and fourth-largest — are using to differentiate on quality rather than pure rate."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Ganges-Brahmaputra-Meghna (GBM) system drains into the Bay of Bengal. Approximately what percentage of the GBM delta's land surface does Bangladesh occupy?",
+        "subtopic": "mathematics",
+        "stem": "Grigori Perelman declined both the Fields Medal (2006) and the Clay Millennium $1M Prize for proving the Poincaré Conjecture. What does the conjecture assert — and why did the 3-dimensional case resist proof for nearly 100 years while analogues in higher dimensions were settled decades earlier?",
         "options": [
-          "roughly 25%, with the majority in India's West Bengal and Assam",
-          "roughly 80%, with the remainder in India's West Bengal",
-          "roughly 50%, split almost evenly with Indian territory",
-          "roughly 30%, as most of the delta mouth lies in the Indian Sundarbans"
+          "Every simply connected, closed 3-manifold is homeomorphic to the 3-sphere (S³). Higher-dimensional cases (≥5) yielded to the Whitney trick and h-cobordism theorem, but 3D lacks the topological “room” for these manoeuvres — making Perelman’s Ricci flow with surgery the necessary breakthrough",
+          "Every compact Riemannian manifold with positive sectional curvature is diffeomorphic to a standard sphere; the 3D case failed because Hamilton’s Ricci flow program was not developed before 1982",
+          "Every prime closed 3-manifold admits one of Thurston’s eight geometric structures; Perelman proved the full Geometrization Conjecture with Poincaré as a special case",
+          "Any simply connected closed 4-manifold with trivial intersection form is homeomorphic to S⁴; the 3D analogue stalled due to the absence of a smooth invariant to distinguish candidate manifolds"
         ],
-        "correct": 1,
-        "why": "Bangladesh occupies ~80% of the GBM delta — explaining why over 60% of Bangladesh lies within three metres of sea level.",
-        "deepDive": "GBM drains ~1.75 million km². Bangladesh sits almost entirely within the delta; the Sundarbans mangrove forest straddles the Bangladesh-India border. A 1m sea-level rise would inundate ~10% of Bangladesh."
+        "correct": 0,
+        "why": "Poincaré (1904): is every simply connected, closed 3-manifold homeomorphic to S³? Smale proved the ≥5 generalisation in 1961 using h-cobordism (Fields Medal 1966); Freedman proved the 4D topological case in 1982 (Fields Medal 1986). 3D needed Perelman’s Ricci flow with surgery (2002-03).",
+        "deepDive": "Henri Poincaré posed the conjecture in 1904. In dimensions 5 and above, Stephen Smale proved it in 1961 using the h-cobordism theorem — which exploits the fact that in high dimensions you have enough room to isotope handles past one another (the Whitney trick). In 4D, Michael Freedman proved the topological version in 1982, but the smooth version (smooth Poincaré conjecture in 4D) remains open. In 3D, the difficulty is fundamental: there is not enough room to apply Whitney-style manoeuvres. Grigori Perelman, building on Richard Hamilton’s 1982 Ricci flow program, posted three extraordinary papers to arXiv in 2002-03. Ricci flow deforms a manifold’s metric to smooth geometric bumps; where singularities (like necks pinching off) form, Perelman invented “surgery” to remove them and continue the flow. Three independent mathematical teams (Cao-Zhu, Kleiner-Lott, Morgan-Tian) fully verified his proof by 2006. Perelman declined the Fields Medal and the Clay prize, reportedly viewing the mathematical community’s handling of credit as unsatisfactory. The Poincaré Conjecture remains the only Millennium Prize Problem solved — out of seven."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "Kirchhoff's Law of thermal radiation states that a surface's emissivity equals its absorptivity at thermal equilibrium. Why do spacecraft engineers wrap satellites in gold foil (multi-layer insulation)?",
+        "subtopic": "arts",
+        "stem": "Vermeer’s “Girl with a Pearl Earring” (c.1665) is classified as a “tronie” rather than a portrait. What specifically distinguishes a tronie from a commissioned portrait in 17th-century Dutch painting practice?",
         "options": [
-          "Gold's high emissivity in the infrared rapidly radiates waste heat from electronics into deep space",
-          "Gold's high reflectivity in visible light makes the satellite easier to track optically from ground stations",
-          "Polished gold has very low emissivity (~0.03) — and by Kirchhoff's Law, equally low absorptivity — minimising both solar heat gain and internal heat loss to deep space",
-          "Gold insulates against cosmic radiation, which would degrade conventional aluminium foil in the radiation belts"
+          "A tronie is a character or expression study — depicting a type, exotic costume, or face rather than a specific named sitter — produced speculatively for the open art market rather than for a named patron’s commission",
+          "Tronies were submitted by guild apprentices as journeyman qualification pieces before they could be granted master status by the guild",
+          "A tronie depicted only mythological or allegorical subjects; commissioned portraits showed identifiable contemporary individuals",
+          "The term “tronie” applies specifically to paintings where the subject turns away from or glances back at the viewer, referencing the Dutch word for a face caught mid-turn"
         ],
-        "correct": 2,
-        "why": "Gold emissivity ~0.03 means it absorbs very little solar radiation and emits very little internal heat — by Kirchhoff's Law, emissivity = absorptivity at any given wavelength.",
-        "deepDive": "MLI blankets use gold/silver-coated polymer films. JWST's gold mirror reflects >99% IR. Black anodised aluminium (emissivity ~0.85) is used where heat dumping is needed. Classic spacecraft thermal control."
+        "correct": 0,
+        "why": "Tronie (Dutch for “face/expression”) was a genre of speculative character study. Girl with a Pearl Earring depicts an unidentified subject in an exotic turban and large pearl earring — a fantasy costume, not a real Dutch patron — almost certainly made for the open Delft art market.",
+        "deepDive": "17th-century Dutch Golden Age painting served both patron-commission markets and a robust open art market where works were sold speculatively at fairs and through dealers. Tronies — character heads exploring expression, exotic costume, or dramatic lighting — were open-market speculative pieces. Rembrandt produced dozens of tronies (including many self-portraits used as character studies); Hals and Vermeer did too. The exotic turban in “Girl with a Pearl Earring” immediately signals this: it is not a Dutch fashion item but a fantasy prop suggesting an Eastern or Turkish character type. The sitter is unidentified. Tracy Chevalier’s 1999 bestselling novel invented the backstory of Vermeer’s maid — appealing fiction with no historical basis. The large pearl earring is likely a glass drop earring rather than a real pearl, per recent infrared reflectography and X-ray analysis. The painting’s soft black background, direct gaze, and three-quarter turn are hallmarks of the tronie genre as practised in Delft and Haarlem workshops."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "In Borges' 'The Library of Babel' (1941), the library contains every possible book of fixed length using a 25-character alphabet. Which 20th-century scientific concept does this most directly prefigure?",
+        "subtopic": "music",
+        "stem": "Olivier Messiaen’s “modes of limited transposition” have a specific defining structural property. What is it — and which earlier composer independently discovered the most famous example under a different name?",
         "options": [
-          "Gödel's incompleteness theorem — that no formal system can prove all true statements within itself",
-          "Shannon's information entropy — most possible character strings are random noise; meaningful information is infinitesimally rare in the full combinatorial space",
-          "Turing's halting problem — that no algorithm can determine in general whether an arbitrary program terminates",
-          "Heisenberg's uncertainty principle — that the act of searching the library disturbs the arrangement of the books observed"
+          "Modes of limited transposition reproduce their exact pitch-class set after fewer than 12 chromatic transpositions, due to internal symmetrical repetition. Mode 1 is the whole-tone scale (only 2 unique transpositions); Mode 2 is the octatonic/diminished scale (only 3 unique transpositions) — Rimsky-Korsakov documented and used the octatonic scale in his harmony treatise decades before Messiaen formalised the full system",
+          "The modes draw on non-Western pitch intervals combining Indian raga scales with Japanese pentatonic modes; Debussy independently described similar scales as “synthetic scales” in his conservatoire lecture notes",
+          "The modes use microtonal intervals smaller than a semitone, producing scales that cannot be fully notated on a standard staff — Busoni theorised analogous microtonal systems in his 1907 “Sketch of a New Aesthetic of Music”",
+          "The modes have a fixed and identical number of pitch classes per octave regardless of the starting transposition level; Schoenberg’s twelve-tone row shares this property by construction"
         ],
-        "correct": 1,
-        "why": "The Library's ~10^1,834,097 books are dominated by meaningless noise — exactly Shannon's (1948) insight that entropy measures how rare meaningful information is in the combinatorial space.",
-        "deepDive": "Borges (1941) predates Shannon (1948) by 7 years. The connection was noted by Hofstadter in 'Gödel, Escher, Bach' (1979). LLMs are implicitly compressing the meaningful region of Borges' Library."
+        "correct": 0,
+        "why": "A mode of limited transposition has internal symmetry causing its pitch set to repeat before completing all 12 chromatic transpositions. Rimsky-Korsakov used Mode 2 (the octatonic/tone-semitone scale) extensively in works like Sadko and Kashchey, and codified it in his 1884 harmony textbook — decades before Messiaen.",
+        "deepDive": "Messiaen identified 7 modes of limited transposition in his “Technique de mon langage musical” (1944). Mode 1 = whole-tone scale: divides the octave into 6 equal tones, producing only 2 distinct transpositions (on C or on C♯) before the pitch set repeats. Mode 2 = octatonic/diminished scale: alternating tones and semitones, only 3 distinct transpositions. The structural reason: internal symmetry means transposing by the interval of the internal repeating unit returns the original pitch collection. Rimsky-Korsakov used Mode 2 as a harmonic signature for supernatural and magical scenes — Bartok, Stravinsky (Firebird, Rite of Spring), and later Coltrane’s “Giant Steps” changes exploit octatonic relationships. The floating, tonality-evading quality of these modes — the fact they don’t “settle” into a traditional key — is exactly why Messiaen used them to evoke the transcendent and eternal: no tonic to pull toward, no harmonic gravity to ground the music in the temporal world."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The 'Triffin Dilemma' (1960) identified a structural contradiction in the Bretton Woods system. What was the core tension Robert Triffin diagnosed?",
+        "subtopic": "linguistics",
+        "stem": "Saussure’s langue/parole distinction and Chomsky’s competence/performance pair are often described as analogues. They map closely onto each other — but differ in one fundamental theoretical dimension. What is that key difference?",
         "options": [
-          "Fixed exchange rates would generate speculative attacks as countries exhausted gold reserves defending their pegs",
-          "The reserve currency issuer must run current account deficits to supply global liquidity, but accumulated dollar balances abroad eventually undermine confidence in the currency's gold convertibility",
-          "The IMF's weighted voting structure gave the US effective veto power, blocking creation of a neutral synthetic reserve asset",
-          "Dollar-printing to finance the Vietnam War would trigger hyperinflation that gold convertibility could not contain"
+          "Saussure’s langue is a collective, social system shared by the speech community as a whole; Chomsky’s competence is an individual cognitive state located in each speaker’s mind. The shift from social fact to mental representation is the crucial theoretical break between the two frameworks",
+          "Saussure’s parole encompasses both speech and writing; Chomsky’s performance is restricted to phonologically realised spoken utterances and excludes written language",
+          "Langue describes synchronic language structure at a fixed historical moment; parole describes diachronic language change — the same distinction Chomsky later recast as universal vs acquired grammar",
+          "Chomsky’s competence explicitly includes pragmatic and discourse rules that Saussure’s langue excludes, making competence the strictly broader theoretical category"
         ],
-        "correct": 1,
-        "why": "Triffin: US must run deficits to supply global dollar liquidity; accumulated foreign dollar balances eventually exceed US gold reserves, making the $35/oz gold peg unsustainable — Nixon closed the window August 1971.",
-        "deepDive": "Triffin testified to Congress in 1960. Bretton Woods collapsed exactly as predicted. Today's version: US structural deficits supply dollar reserves globally, but domestic politics demand deficit reduction — the dilemma persists."
+        "correct": 0,
+        "why": "Saussure’s langue is a social institution — shared by the community, owned by no individual. Chomsky’s competence is explicitly a mental/cognitive state in each individual speaker’s head. The shift from social intersubjectivity to individual cognition is the paradigm change.",
+        "deepDive": "Saussure’s Cours de linguistique générale (1916, reconstructed posthumously) defined langue as the social contract of language: the shared system of signs, values, and distinctions that exists supra-individually across the speech community. No single speaker possesses it alone; it is constituted collectively. Parole is the individual, contingent, concrete speech act — the execution. Chomsky’s Syntactic Structures (1957) and Aspects of the Theory of Syntax (1965) accepted a similar distinction but relocated competence entirely in the individual speaker’s internal grammar — a mental/biological state. This led to Chomsky’s nativist Universal Grammar claim: competence is partly innate, part of our species’ biological endowment for language. Saussure’s langue makes no cognitive or neural reality claim whatsoever — it is a purely structural, relational system of differences. The divergence matters enormously: Saussurean structuralism led to semiotics, literary theory, and anthropological structuralism (Lévi-Strauss). Chomskyean competence led to cognitive science, generative syntax, and — contentiously — biolinguistics and neurolinguistics."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "CRISPR-Cas9 gene editing directs the Cas9 nuclease to a specific genomic location for a double-strand break. What determines the cut site's specificity?",
+        "subtopic": "history",
+        "stem": "The Amritsar Massacre of April 13, 1919 — Brigadier-General Dyer ordering sustained fire on an unarmed crowd at Jallianwala Bagh, killing at least 379 officially (credible estimates up to 1,000) — had a specific catalytic political consequence for Indian nationalism. What was its most direct effect?",
         "options": [
-          "The molecular weight and isoelectric point of the Cas9 protein variant selected, which vary by organism",
-          "A ~20-nucleotide guide RNA spacer that pairs with the target DNA strand by Watson-Crick complementarity, plus a required adjacent PAM sequence (NGG for SpCas9) on the non-target strand",
-          "The pH and ionic environment of the nucleus, which triggers Cas9 conformational activation only in specific cell types",
-          "Cas9 cuts double-stranded DNA non-specifically; the guide RNA only determines where DNA repair pathways are subsequently activated"
+          "It triggered Gandhi’s first mass Non-Cooperation Movement (1920-22), transforming the Indian National Congress from a petition-filing elite body into a mass civil disobedience movement engaging millions of ordinary Indians for the first time",
+          "The INC immediately declared Purna Swaraj (complete independence) in 1919 as a direct response to the massacre",
+          "The massacre directly produced the Lahore Resolution of 1920, which for the first time formally demanded a separate Muslim homeland",
+          "The British government established the Simon Commission in 1919 specifically to investigate colonial violence and offer constitutional concessions to avert a wider uprising"
         ],
-        "correct": 1,
-        "why": "gRNA ~20 nt spacer base-pairs with the target strand; Cas9 also requires a PAM sequence (NGG for SpCas9) immediately downstream — both together define the cut site.",
-        "deepDive": "Doudna & Charpentier won the 2020 Nobel. NHEJ = error-prone knockouts; HDR = precise corrections. Off-target edits are the key therapeutic challenge; base editors reduce double-strand break risks."
+        "correct": 0,
+        "why": "Amritsar radicalised Gandhi, who until 1919 had cooperated with British war efforts. Convinced that moral persuasion was futile, he launched the Non-Cooperation Movement in 1920 — the first time the INC adopted mass civil disobedience, enrolling millions of Indians previously uninvolved in politics.",
+        "deepDive": "Jallianwala Bagh marked the decisive break in Gandhi’s relationship with the British Empire. Before 1919, Gandhi had recruited Indians for British war efforts in South Africa and India, and had attempted cooperation within the colonial framework. After Amritsar, he concluded the system was irredeemably immoral. The Non-Cooperation Movement (1920-22) was the first genuinely mass political mobilisation in Indian history: Indians returned colonial honours, lawyers boycotted courts, students left government schools, and millions who had never previously engaged in politics were enrolled. Rabindranath Tagore returned his knighthood in protest. The movement was suspended in February 1922 after the Chauri Chaura incident, in which a crowd burned a police station killing 22 policemen — Gandhi called off the movement because he insisted non-violence was non-negotiable. The massacre’s political legacy also includes the British morning-post fund raising £26,000 for Dyer’s defence, which deepened Indian disillusionment with metropolitan British moral authority far beyond what the massacre itself had done. The Simon Commission was a 1928 inquiry into constitutional progress — unrelated to 1919."
       }
     ]
   }
