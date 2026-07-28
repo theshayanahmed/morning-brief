@@ -1,17 +1,7 @@
 {
   "streak": 10,
-  "last_session_date": "2026-07-27",
+  "last_session_date": "2026-07-28",
   "questions_seen": [
-    "Under Incoterms 2020, DPU (Delivered at Place Unloaded) and DAP (Delivered at Place) are nearly identical — except for one critical difference. What is it?",
-    "A shipper presents a 'to order' Bill of Lading that has been endorsed in blank by the original shipper. In terms of title to the goods, what does blank endorsement legally create?",
-    "A shipper declares high-value electronics cargo as 'general cargo' to obtain a carrier's lower FAK (Freight All Kinds) rate rather than the applicable commodity rate. What is the primary commercial and legal risk of this misdeclaration?",
-    "A freight forwarder consolidates cargo from multiple Dhaka exporters onto a single MAWB to Frankfurt. HAWBs are issued to each individual shipper. If one shipper's cargo is damaged in transit, what is the correct liability chain under the Montreal Convention?",
-    "Bangladesh is not a member of RCEP (Regional Comprehensive Economic Partnership). What is the most concrete competitive disadvantage this creates for Bangladeshi RMG exporters relative to RCEP members like Vietnam and Cambodia?",
-    "The Wakhan Corridor — a narrow finger of Afghan territory extending east to the Chinese border — was deliberately created by late 19th-century Great Powers. What was its primary geopolitical purpose?",
-    "The Meissner effect is a hallmark of superconductivity, distinguishing a true superconductor from a perfect conductor. What does the Meissner effect involve?",
-    "Japanese Nobel laureate Kenzaburo Oe (Nobel Prize 1994) drew on a deeply personal experience for his most celebrated novel, 'A Personal Matter' (1964). What is the novel's central subject?",
-    "HBO's 'The Wire' (2002-2008), created by David Simon, is structurally unique: each season takes a different Baltimore institution as its lens. Which of these correctly matches a season number to its thematic focus?",
-    "At the 1944 Bretton Woods Conference, John Maynard Keynes put forward a radically different international monetary architecture from what was ultimately adopted. What was the central feature of his rejected proposal?",
     "Under the SOLAS amendment effective 1 July 2016, who bears primary legal responsibility for providing a Verified Gross Mass (VGM) declaration before a container is loaded onto a vessel?",
     "A customs bonded warehouse (CBW) allows an importer to store goods without paying import duties. Which statement best describes the core commercial advantage this creates?",
     "An LNG carrier requires fundamentally different cargo containment technology from a crude oil tanker. What is the defining engineering requirement driving this distinction?",
@@ -501,7 +491,17 @@
     "Gramsci's 'hegemony' concept extends beyond Marxist coercive state power. What is the key mechanism that distinguishes cultural hegemony from simple state coercion?",
     "The DLS (Duckworth-Lewis-Stern) method replaced Average Run Rate for rain-interrupted limited-overs cricket. What fundamental resource did DLS model that the earlier method failed to adequately account for?",
     "Kubrick's '2001: A Space Odyssey' (1968) diverges sharply from its source material in the Star Child ending. What is the source, and what key element does the film strip out compared to the text?",
-    "The Mundell-Fleming impossible trinity holds that a country cannot simultaneously maintain all three policy goals. A country choosing a fixed exchange rate and free capital movement must sacrifice which of the three?"
+    "The Mundell-Fleming impossible trinity holds that a country cannot simultaneously maintain all three policy goals. A country choosing a fixed exchange rate and free capital movement must sacrifice which of the three?",
+    "In a CFS/CY movement, cargo is consolidated at origin CFS and delivered to destination CY. Under FOB terms, which party bears the origin CFS handling charge — and why does this matter for landed-cost calculation?",
+    "The Middle Corridor (Trans-Caspian International Transport Route) has grown as an alternative to the Russia-sanctioned Trans-Siberian. What specific infrastructure gap is its binding throughput constraint?",
+    "Under ICC (A) all-risks cover, which exclusion most frequently results in denied cargo claims — and how does the vessel's seaworthiness at sailing affect the insured's ability to recover?",
+    "The UFLPA (Uyghur Forced Labor Prevention Act) applies a 'rebuttable presumption' that goods from Xinjiang involve forced labor. What standard of proof must a US importer meet to successfully rebut it?",
+    "Drewry's WCI and the Shanghai SCFI both track container spot rates but often diverge in directional signal. What is the primary structural reason they move differently?",
+    "Lake Titicaca sits at ~3,812m elevation and is shared by two countries. What makes it geopolitically significant beyond being the world's highest commercially navigable lake?",
+    "The Coriolis effect deflects moving air masses to the right in the Northern Hemisphere and left in the Southern. What is the physical mechanism that produces this reversal?",
+    "CRISPR-Cas9 uses a guide RNA to locate its genomic target. What specifically limits its precision — and what causes off-target DNA cleavage?",
+    "Chekhov's 'The Cherry Orchard' ends with the axe falling on the orchard. What literary function does the orchard serve structurally within the play?",
+    "Euler's identity e^(iπ) + 1 = 0 is called 'the most beautiful equation.' What does e^(iθ) represent geometrically, and which mathematical fields does the identity directly unify?"
   ],
   "learn_history": [
     {
@@ -843,6 +843,11 @@
       "date": "2026-07-27",
       "topic": "Quantum Tunneling: The Quantum Effect Running Inside Every Transistor",
       "bucket": "science_concept"
+    },
+    {
+      "date": "2026-07-28",
+      "topic": "The Smoot-Hawley Tariff (1930): The Protectionist Wall That Deepened the Depression",
+      "bucket": "history"
     }
   ],
   "curriculum_progress": {
@@ -901,14 +906,14 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 16,
-      "last_seen": "2026-07-24",
+      "count": 17,
+      "last_seen": "2026-07-28",
       "difficulty": 4,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 16,
-      "last_seen": "2026-07-24",
+      "count": 17,
+      "last_seen": "2026-07-28",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -919,20 +924,20 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 16,
-      "last_seen": "2026-07-24",
+      "count": 17,
+      "last_seen": "2026-07-28",
       "difficulty": 4,
       "rolling_score": []
     },
     "compliance": {
-      "count": 16,
-      "last_seen": "2026-07-24",
+      "count": 17,
+      "last_seen": "2026-07-28",
       "difficulty": 4,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 16,
-      "last_seen": "2026-07-24",
+      "count": 17,
+      "last_seen": "2026-07-28",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -975,32 +980,32 @@
       "rolling_score": []
     },
     "geography": {
-      "count": 24,
-      "last_seen": "2026-07-25",
+      "count": 25,
+      "last_seen": "2026-07-28",
       "difficulty": 4,
       "rolling_score": []
     },
     "physical_science": {
-      "count": 25,
-      "last_seen": "2026-07-25",
+      "count": 26,
+      "last_seen": "2026-07-28",
       "difficulty": 3,
       "rolling_score": []
     },
     "life_science": {
-      "count": 25,
-      "last_seen": "2026-07-25",
+      "count": 26,
+      "last_seen": "2026-07-28",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 25,
-      "last_seen": "2026-07-26",
+      "count": 26,
+      "last_seen": "2026-07-28",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 23,
-      "last_seen": "2026-07-25",
+      "count": 24,
+      "last_seen": "2026-07-28",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1055,159 +1060,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-07-27",
+    "date": "2026-07-28",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
-        "topic": "domain",
-        "subtopic": "incoterms",
-        "stem": "Incoterms 2020 upgraded CIP's minimum insurance standard to Institute Cargo Clauses (A), while CIF retained the lower ICC (C). What best explains why this asymmetry was deliberately introduced?",
+        "topic": "industry",
+        "subtopic": "multimodal",
+        "stem": "In a CFS/CY movement, cargo is consolidated at origin CFS and delivered to destination CY. Under FOB terms, which party bears the origin CFS handling charge — and why does this matter for landed-cost calculation?",
         "options": [
-          "CIP applies exclusively to containerized cargo where all-risk cover is legally mandatory under SOLAS",
-          "CIF governs conventional sea trades where ICC(C) is the long-standing market norm; CIP's broader multimodal scope justified upgrading to all-risk",
-          "CIF contracts always contain separate marine insurance clauses that override the incoterm default coverage",
-          "CIP was harmonized with IATA air insurance minimums, which require ICC(A)-equivalent cover"
+          "The ocean carrier, since CFS is part of the port terminal complex covered by the base rate",
+          "The consignee, since all costs beyond the named FOB port are the buyer's liability",
+          "The shipper, since origin CFS consolidation charges accrue before the cargo passes the ship's rail and FOB risk/cost transfer",
+          "The NVOCC, since it organises the consolidation and absorbs it in the house rate"
         ],
-        "correct": 1,
-        "why": "CIF is used for bulk and break-bulk sea trades where ICC(C) is the established market standard; CIP's wider multimodal use (including containerized) means buyers expect all-risk ICC(A) protection.",
-        "deepDive": "ICC(A) covers all risks of loss or damage except named exclusions, while ICC(C) covers only named perils — sinking, stranding, fire, collision, and discharge at a port of distress. For containerized multimodal cargo moving road-rail-sea, the gap is material: theft in transit, water damage, and handling damage during transhipment are all uncovered under ICC(C). Shippers using CIF for containerized cargo pre-2020 were unknowingly accepting spartan minimum cover. Both CIF and CIP allow parties to upgrade by agreement — common practice is 'CIF plus war risk' or 'CIP ICC(A) including SRCC (Strikes, Riots, Civil Commotion).' The critical misconception: sellers often assume CIF means full coverage. It doesn't — ICC(C) minimum is narrow, and buyers should always specify required cover in the sales contract rather than relying on the incoterm default. For exam purposes: when a seller quotes CIF, minimum is ICC(C); when quoting CIP, minimum is now ICC(A)."
+        "correct": 2,
+        "why": "Under FOB, the seller bears all costs up to and including loading at the named port. Origin CFS handling (stuffing, outgate) occurs before the goods reach the ship's rail — it falls to the shipper and must be included in their export cost, not hidden in a quoted FOB price.",
+        "deepDive": "In LCL shipments using CFS/CY terms, the shipper delivers loose cargo to the origin Container Freight Station, where it is stuffed into a shared container. CFS charges — handling, stuffing, and outgate — are levied at origin and debited to the shipper. Under FOB Incoterms, cost responsibility transfers at the named port of loading when goods are on board the vessel; therefore, all charges up to and including that point (including origin CFS) are the seller's account. Failure to include these in a landed-cost model creates margin leakage: shippers who quote FOB without netting in CFS charges understate their real cost of export. At destination, the CY delivery means the consignee collects a sealed FCL — any devanning or CFS handling at destination is the consignee's expense under DAP/DDP or the buyer's cost under FOB/CFR/CIF. The practical implication: always itemise OTHC and CFS charges explicitly in a quote, because they are frequently buried or omitted, creating disputes between buyer and seller on who pays."
       },
       {
         "n": 2,
-        "topic": "domain",
-        "subtopic": "bill_of_lading",
-        "stem": "A straight (non-negotiable) bill of lading differs from an order (negotiable) bill of lading in one critical legal respect. What is it?",
+        "topic": "industry",
+        "subtopic": "trade_lanes",
+        "stem": "The Middle Corridor (Trans-Caspian International Transport Route) has grown as an alternative to the Russia-sanctioned Trans-Siberian. What specific infrastructure gap is its binding throughput constraint?",
         "options": [
-          "A straight B/L cannot be used in letter of credit transactions under UCP 600",
-          "Title to goods cannot be transferred by endorsement on a straight B/L — delivery is to the named consignee only and non-transferable",
-          "A straight B/L must always be presented at the destination port before cargo can be released",
-          "Straight B/Ls are only issued by air carriers; ocean carriers use order B/Ls exclusively"
+          "No rail gauge standardisation exists between Kazakhstan and Azerbaijan, requiring a full container transload",
+          "The Caspian Sea crossing relies on RoRo ferries between Aktau and Baku — a transhipment bottleneck with no fixed-link alternative",
+          "China restricts export volumes on this route to prevent supply chain scrutiny of Xinjiang-origin goods",
+          "The route transits Afghan territory, requiring cargo clearance from Taliban-controlled customs authorities"
         ],
         "correct": 1,
-        "why": "A straight B/L names a specific consignee and is non-negotiable — title cannot pass by endorsement. An order B/L allows title transfer, making it a document of title used in trade finance.",
-        "deepDive": "The bill of lading has three functions: receipt for goods shipped, evidence of the contract of carriage, and — if negotiable — document of title. The straight B/L retains the first two but drops the third. This matters enormously in trade finance: an order B/L can be pledged to a bank as security against a letter of credit, with the bank controlling delivery by holding the original document. A straight B/L is common in intra-company trade or trusted buyer-seller relationships where negotiability is unnecessary — and cargo releases faster because the carrier can use identity confirmation rather than waiting for the original to arrive. Sea waybills go one further: they're not documents of title at all, and release is purely electronic. Under UCP 600, banks accept straight B/Ls but not sea waybills unless the LC expressly permits it. The core misconception: many shippers assume all B/Ls are negotiable. Only order B/Ls are — always check the consignee field and whether it reads 'to the order of.'"
+        "why": "There is no bridge or tunnel across the Caspian Sea. Containers must be offloaded at Aktau (Kazakhstan), transported by RoRo ferry across 300+ km of open sea (2-3 days, weather-dependent), then reloaded at Baku — a hard ceiling on throughput and reliability.",
+        "deepDive": "The Middle Corridor runs from China through Kazakhstan → Aktau port → Caspian Sea crossing → Baku (Azerbaijan) → Georgia → Turkey → Europe. Post-2022, when Russia sanctions made the Trans-Siberian Rail (TSR) unusable for EU-bound goods, the Middle Corridor surged in interest. But the Caspian leg remains its structural constraint: there are no fixed links — no bridge, no tunnel — across the 300-600 km of open sea. Container cargo must be stuffed onto RoRo ferries operated by state carriers; capacity is limited, storms cause delays, and vessel availability is inconsistent. Additionally, Kazakhstan uses 1520mm Russian broad gauge, which does not match Turkey's 1435mm standard gauge — containers require another bogie change at the Turkish border. The result: advertised 12-14 day transit times in practice often stretch to 20+, throughput has plateaued around 60,000-80,000 TEU/year vs TSR's pre-war peak of 150,000+. For BD or South Asian exporters seeking routes to Europe that bypass Russian territory, the Middle Corridor is real but congested — and reliability, not cost, is the key planning risk."
       },
       {
         "n": 3,
-        "topic": "domain",
-        "subtopic": "pricing",
-        "stem": "A forwarder quotes FCL Shanghai-Hamburg at $2,100 all-in (BAF and CAF included, THC excluded). Origin THC is $185; destination THC is €200 (EUR/USD = 1.10). What is the total all-in cost in USD per container?",
+        "topic": "industry",
+        "subtopic": "marine_insurance",
+        "stem": "Under ICC (A) all-risks cover, which exclusion most frequently results in denied cargo claims — and how does the vessel's seaworthiness at sailing affect the insured's ability to recover?",
         "options": [
-          "$2,285",
-          "$2,420",
-          "$2,505",
-          "$2,660"
+          "The war risk exclusion; a seaworthy vessel never affects the all-risks claim",
+          "The inherent vice exclusion; if the insured was privy to unseaworthiness at sailing, cover under the MIA 1906 is voidable by the underwriter",
+          "The delay exclusion; the carrier's seaworthiness determines whether the delay was foreseeable and thus excludable",
+          "The ISPS non-compliance exclusion; applies only when the carrier fails a port-state inspection within 30 days of sailing"
         ],
-        "correct": 2,
-        "why": "$2,100 + $185 + (€200 × 1.10 = $220) = $2,505. THC is charged at both ends and is almost universally excluded from ocean freight quotes — a classic source of quote-comparison errors.",
-        "deepDive": "Terminal Handling Charges (THC) cover container movement within the terminal — gate-to-vessel at origin, vessel-to-gate at destination. They are consistently excluded from ocean freight line-item quotes, which makes all-in comparison between forwarders routinely misleading without normalization. THC varies significantly by port: Rotterdam and Hamburg often run €200–350+ per box; Asian ports charge considerably less. BAF (Bunker Adjustment Factor) compensates the carrier for fuel price volatility and is now typically a fixed per-TEU surcharge refreshed monthly or quarterly. CAF (Currency Adjustment Factor) hedges USD/EUR exposure and is usually small (1–3% of base freight). When vetting competing quotes, always normalize to a common all-in basis inclusive of THC and all local charges at both origin and destination — this is the foundational commercial pricing skill. The most common junior-level mistake: comparing a quote that excludes THC with one that includes it."
+        "correct": 1,
+        "why": "Inherent vice (cargo's natural tendency to deteriorate) is the most-litigated ICC (A) exclusion. Separately, under Section 39 of the Marine Insurance Act 1906, if the insured knew of unseaworthiness at sailing, the underwriter can void the policy for losses attributable to that unseaworthiness.",
+        "deepDive": "ICC (A) is described as 'all risks' but that phrase is commercially misleading — it still excludes wilful misconduct of the insured, inherent vice, delay, ordinary leakage and breakage, insufficient packaging, nuclear hazards, and war/strikes (the last two unless bought back with ICC War and ICC Strikes extensions). Inherent vice is the most frequently invoked exclusion: steel corroding from its own moisture content, rubber hardening from internal off-gassing, fruit ripening during transit. It is also the most litigated because the insured argues 'external damage' and the underwriter argues 'internal deterioration.' On seaworthiness: Section 39 of the UK Marine Insurance Act 1906 (which underpins London market cargo policies globally) holds that if a vessel was unseaworthy at the time of inception of the voyage and the insured was privy to that fact, the insurer is discharged from liability for losses attributable to unseaworthiness. 'Privy' means actual knowledge, not constructive knowledge — so an unsophisticated cargo owner is not usually held to know the vessel's condition. However, large BCOs who charter or select vessels can face this defence. After paying a claim, cargo underwriters pursue subrogation rights against the carrier under Hague-Visby rules."
       },
       {
         "n": 4,
-        "topic": "domain",
-        "subtopic": "air_freight",
-        "stem": "An air shipment has actual gross weight 420 kg and volume 2.8 CBM. Using the IATA density factor of 167 kg/CBM, what is the chargeable weight and how is the shipment rated?",
+        "topic": "industry",
+        "subtopic": "compliance",
+        "stem": "The UFLPA (Uyghur Forced Labor Prevention Act) applies a 'rebuttable presumption' that goods from Xinjiang involve forced labor. What standard of proof must a US importer meet to successfully rebut it?",
         "options": [
-          "420 kg — weight-rated",
-          "467.6 kg — volume-rated",
-          "420 kg — volume-rated",
-          "467.6 kg — weight-rated"
+          "Show the factory is not listed on OFAC's SDN list and has a valid CITES certificate",
+          "Submit a third-party social audit (SA8000, SMETA, or equivalent) from the prior 12 months",
+          "Provide clear and convincing evidence — including full supply chain traceability to point of origin — that no forced labor was used",
+          "Obtain a written waiver from the US Department of Commerce within 30 days of CBP detention"
         ],
-        "correct": 1,
-        "why": "Volumetric weight = 2.8 × 167 = 467.6 kg, which exceeds actual weight of 420 kg. Chargeable weight is 467.6 kg; the shipment is volume-rated because it occupies more space relative to its mass.",
-        "deepDive": "The IATA density factor of 1:6 (167 kg per CBM, or length × width × height in cm divided by 6,000 to get kg) was established when most air cargo was dense manufactured goods. Today's electronics, apparel, and automotive parts routinely cube out before they weight out — a core cost driver for airlines and shippers alike. The formula: (L × W × H in cm) ÷ 6,000 = volumetric weight in kg. For courier services (DHL, FedEx), the divisor is 5,000 (1:5 ratio), producing even higher volumetric weights. For ocean LCL, the convention is 1 CBM = 1 metric ton — revenue ton equals whichever is higher. Always calculate both actual and volumetric weight before quoting air freight — pricing a bulky shipment on gross weight compresses margin significantly. Dangerous goods shipments add strict weight and dimension constraints per IATA DGR that override the standard volumetric calculation."
+        "correct": 2,
+        "why": "CBP requires 'clear and convincing evidence' — the highest civil standard — covering complete supply chain traceability. Third-party audits alone are explicitly insufficient; CBP has repeatedly rejected SA8000 and SMETA audits as not meeting the threshold.",
+        "deepDive": "The UFLPA (effective June 21, 2022) creates a rebuttable presumption that any goods mined, produced, or manufactured wholly or in part in the Xinjiang Uyghur Autonomous Region — or by entities on the UFLPA Entity List — involve forced labor and are barred from US import under 19 U.S.C. § 1307. To rebut, importers must: (1) demonstrate full supply chain traceability from raw material to finished good; (2) show compliance with CBP's due-diligence guidance; (3) respond to CBP information requests within tight deadlines (typically 30 days). The 'clear and convincing' standard is materially higher than the usual 'preponderance of evidence' standard used in civil law. CBP has explicitly noted that third-party audits cannot access below-tier suppliers in Xinjiang given access restrictions, and therefore audits alone are not dispositive. Covered commodities extend beyond cotton to polysilicon (solar panels), tomatoes, silica (semiconductors), and their downstream derivatives. For Bangladesh garment exporters sourcing Chinese yarn, fabric, or buttons, any Xinjiang-origin input creates a UFLPA documentation exposure for US-bound shipments — even if the final good is Made in Bangladesh."
       },
       {
         "n": 5,
-        "topic": "domain",
-        "subtopic": "ftas",
-        "stem": "RCEP entered into force in January 2022 as the world's largest FTA by GDP and population. Which major economy withdrew from negotiations in November 2019 despite being an early party?",
+        "topic": "industry",
+        "subtopic": "industry_econ",
+        "stem": "Drewry's WCI and the Shanghai SCFI both track container spot rates but often diverge in directional signal. What is the primary structural reason they move differently?",
         "options": [
-          "Japan",
-          "India",
-          "Australia",
-          "South Korea"
+          "WCI uses futures contract settlement prices; SCFI uses broker bid-ask spreads only",
+          "SCFI covers all trade lanes including intra-Asia; WCI covers only the 8 major East-West routes weighted by volume",
+          "WCI surveys actual transaction prices paid by shippers and BCOs; SCFI surveys carrier-quoted rates from Shanghai agents — different positions in the rate chain",
+          "SCFI includes all surcharges (BAF, GRI, PSS) in its rate; WCI quotes base rate only, making them structurally incomparable"
         ],
-        "correct": 1,
-        "why": "India withdrew in November 2019, citing concerns over Chinese goods flooding its market via RCEP members and threats to domestic dairy and agriculture sectors. Japan, Australia, and South Korea are all RCEP signatories.",
-        "deepDive": "RCEP covers 15 nations: all 10 ASEAN members plus China, Japan, South Korea, Australia, and New Zealand — roughly 30% of global GDP and 2.2 billion people. India's exit removed approximately $3 trillion from the bloc's economic weight. India's core concerns: existing FTAs with ASEAN, Japan, and South Korea had already produced larger-than-expected import surges; RCEP's rules of origin were seen as a backdoor for Chinese goods to enter India via third countries; dairy and agriculture sectors faced competitive pressure. RCEP's cumulation rules are significant for supply chain professionals: materials from any RCEP member country count toward origin qualification, simplifying regional value chain planning. For Bangladesh and the RMG sector specifically, RCEP shapes fabric sourcing competitiveness and whether BD-made garments can qualify for preferential origin treatment when re-exported within RCEP. India has indicated openness to rejoining with safeguards but has not re-engaged as of 2026."
+        "correct": 2,
+        "why": "WCI (Drewry) collects actual contracted/spot prices paid by buyers; SCFI (Shanghai Shipping Exchange) collects carrier-quoted rates from Shanghai agents. Sellers quote above what they transact in soft markets — SCFI leads on upward moves; WCI captures the reality.",
+        "deepDive": "The SCFI (Shanghai Containerized Freight Index), published by the Shanghai Shipping Exchange since 2009, collects spot freight rates as quoted by carriers and their agents in Shanghai for global export routes. It represents what the selling side (carriers) are willing to offer. The WCI (World Container Index), published by Drewry, tracks actual transaction prices paid by shippers and BCOs across eight major routes — the buying side's reality. In rising markets, SCFI tends to lead: carriers signal rate intentions through quotes before transactions confirm. In falling markets, SCFI often overstates the achievable rate because carriers quote above what they can actually fill. A third lens is the Freightos Baltic Exchange (FBX), which collects real-time booking data from the Freightos digital platform — the fastest signal but limited to Freightos' customer base. For commercial teams, combining all three gives the most complete picture: SCFI for directional trend and carrier intent, WCI for transaction verification, FBX for speed and real-time booking dynamics. All three are widely cited in shipper contracts as benchmarks for index-linked pricing, so understanding their structural differences is commercially critical."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "The Council of Nicaea (325 CE) condemned Arianism. What was Arianism's central claim that the Council explicitly rejected in the Nicene Creed?",
+        "subtopic": "geography",
+        "stem": "Lake Titicaca sits at ~3,812m elevation and is shared by two countries. What makes it geopolitically significant beyond being the world's highest commercially navigable lake?",
         "options": [
-          "Mary, not God the Father, was the ultimate source of Christ's divine nature",
-          "The Son was created by God the Father and therefore not co-eternal or co-equal with Him — 'there was a time when He was not'",
-          "Christ had two entirely separate persons — one human, one divine — existing simultaneously in the same body",
-          "The Holy Spirit, not Christ, was the primary mediator between God and humanity"
+          "Peru and Bolivia share it; it is Bolivia's only access to internationally navigable waters after losing its Pacific coast in the 1879 War of the Pacific",
+          "Peru and Chile share it; the lake formed the disputed boundary resolved by the 1929 Treaty of Lima",
+          "Bolivia and Argentina share it; it is the sole freshwater source for La Paz's metropolitan population",
+          "Ecuador and Peru share it; its islands remain contested under the 1998 Brasilia Peace Accord"
         ],
-        "correct": 1,
-        "why": "Arianism held the Son was the highest of all created beings but still created. The Council rejected this with homoousios — 'same substance with the Father' — affirming Christ as 'begotten, not made.'",
-        "deepDive": "Arius, a Libyan-born presbyter in Alexandria, argued that God the Father's absolute uniqueness meant He could not share His divine essence — the Son was created first among all beings but remained a creature. Emperor Constantine convened Nicaea (325 CE) — the first ecumenical council in Christian history — partly for theological clarity and partly for imperial cohesion; a divided Church was a problem for a newly unified empire. The Council adopted homoousios (same substance/essence), a term not in scripture, over the Arian homoiousios (similar substance) — a difference of one Greek letter that divided the Church for decades. The resulting Nicene Creed: 'begotten, not made, of one being with the Father.' Arianism didn't die at Nicaea — it spread among Germanic tribes and was the official theology of the Visigoths and Vandals through the 7th century. Common misconception: Arianism is often conflated with Gnosticism. They are distinct — Gnosticism denied Christ's full humanity; Arianism denied His full divinity."
+        "correct": 0,
+        "why": "Peru and Bolivia share Titicaca. Bolivia lost its coastline to Chile in the 1879-84 War of the Pacific — making the lake its only access to internationally navigable waters, a live diplomatic grievance Bolivia has pursued at the ICJ for over a century.",
+        "deepDive": "Lake Titicaca (surface area ~8,372 km²) sits at 3,812m on the Altiplano between Peru and Bolivia and is the world's largest high-altitude lake by volume. Its geopolitical significance centres on Bolivia's landlocked status: Bolivia lost its entire coastline to Chile in the War of the Pacific (1879-1884), a conflict fought over nitrate-rich Atacama Desert territory. Since then, Bolivia has relentlessly pursued sea access — through bilateral negotiations, OAS resolutions, and a 2018 ICJ case (which Bolivia ultimately lost on jurisdiction). Titicaca is Bolivia's only navigable international water body, giving it symbolic and strategic weight far beyond its economic role. Culturally, the lake is irreplaceable: the Uros people live on floating totora reed islands; Isla del Sol is believed to be the birthplace of the Inca Empire's founding figure, Manco Cápac. Recent climate data shows Titicaca's water level has dropped to historic lows due to drought and glacial retreat — threatening the Uros ecosystem and Bolivia's already-constrained freshwater supply. A question worth tracking: as Andean glaciers shrink, the geopolitics of water in South America will increasingly resemble the geopolitics of oil."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "Gramsci's 'hegemony' concept extends beyond Marxist coercive state power. What is the key mechanism that distinguishes cultural hegemony from simple state coercion?",
+        "subtopic": "physical_science",
+        "stem": "The Coriolis effect deflects moving air masses to the right in the Northern Hemisphere and left in the Southern. What is the physical mechanism that produces this reversal?",
         "options": [
-          "The ruling class uses monopoly control of mass media to suppress competing narratives",
-          "The dominant class achieves consent by making its worldview appear as natural common sense, so subordinate classes reproduce their own subordination without coercion",
-          "Hegemonic power operates exclusively through educational institutions and religious bodies",
-          "The state uses targeted economic benefits to ensure subordinate classes identify with ruling class interests"
+          "Gravity's magnitude varies between poles due to Earth's oblate spheroid shape, creating different deflection strengths",
+          "Earth's rotation imparts a rightward deflection in the NH and leftward in the SH because the Coriolis parameter f = 2Ω sin(φ) changes sign at the equator",
+          "Ocean salinity gradients create opposing thermohaline gyres that override the base atmospheric deflection",
+          "The equatorial bulge reverses the inertial frame for air parcels crossing the Inter-Tropical Convergence Zone"
         ],
         "correct": 1,
-        "why": "Gramsci's hegemony is about manufactured consent — the dominant class embeds its values as apparently natural and universal order, making coercion unnecessary because subordinates police themselves.",
-        "deepDive": "Antonio Gramsci wrote the Prison Notebooks (1929–1935) while imprisoned by Mussolini, puzzling over why Marxist revolution hadn't occurred in Western Europe despite conditions Marx deemed ripe. His answer: the West had developed a sophisticated civil society — media, schools, churches, voluntary associations — through which the ruling class embedded its worldview as common sense. Gramsci called this the 'integral state' (political society + civil society). To challenge hegemony, he argued for a 'war of position' — long cultural and ideological struggle to build counter-hegemony — rather than a frontal assault (war of maneuver). He also introduced the 'organic intellectual': every class produces its own intellectual defenders who articulate and legitimize its worldview. Today, Gramsci's framework is applied far beyond Marxism — explaining how market fundamentalism, nationalism, or gender norms become 'just how things are.' The critical misconception: hegemony is confused with propaganda. Propaganda is deliberate and visible; hegemony works precisely because it's invisible — absorbed as reality rather than perceived as ideology."
+        "why": "The Coriolis parameter f = 2Ω sin(φ) is positive in the NH (sin positive) and negative in the SH (sin negative), meaning deflection reverses sign at the equator. At the equator itself, f = 0 — no Coriolis force, which is why hurricanes cannot form within ~5° of the equator.",
+        "deepDive": "The Coriolis effect is an apparent force arising because Earth is a rotating reference frame. A parcel of air moving poleward carries excess eastward momentum from its equatorial origin; relative to the rotating surface beneath it, it appears to deflect rightward in the Northern Hemisphere and leftward in the Southern. The Coriolis parameter f = 2Ω sin(φ), where Ω = 7.27 × 10⁻⁵ rad/s (Earth's angular velocity) and φ is latitude. Since sin(φ) changes sign at the equator, f changes sign — hence the hemispheric reversal. This drives tropical cyclone rotation (counterclockwise in NH, clockwise in SH), the five major subtropical ocean gyres (clockwise in NH, counterclockwise in SH), and the three-cell atmospheric circulation model (Hadley, Ferrel, Polar). A persistent misconception: the Coriolis effect determines which way water drains in a bathtub. It does not — at that scale and timescale, the initial spin from filling and local geometry completely dominate. Coriolis only becomes significant at planetary scales and multi-hour timescales. The effect is also critical for long-range ballistic and artillery calculations — a shell fired northward will deviate rightward in the NH by a measurable distance over long ranges."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "The DLS (Duckworth-Lewis-Stern) method replaced Average Run Rate for rain-interrupted limited-overs cricket. What fundamental resource did DLS model that the earlier method failed to adequately account for?",
+        "subtopic": "life_science",
+        "stem": "CRISPR-Cas9 uses a guide RNA to locate its genomic target. What specifically limits its precision — and what causes off-target DNA cleavage?",
         "options": [
-          "The psychological pressure on batting teams created by rain delays and uncertain restart times",
-          "Both wickets remaining and overs remaining as a joint two-dimensional resource, not overs alone",
-          "The quality of the remaining batting order at the precise point of interruption",
-          "The pitch deterioration advantage of batting second after a long rain delay"
+          "The guide RNA can only match DNA near telomere repeats; off-target cuts at other regions are called telomere drift",
+          "Cas9 requires a PAM sequence adjacent to the target; similar PAM-adjacent sequences elsewhere in the genome can be cleaved, causing off-target editing",
+          "Cas9 only unwinds DNA precisely at 37°C; temperature deviation causes random cleavage called thermal drift editing",
+          "Full 20-nucleotide complementarity is required; any mismatch causes a reading frameshift called shadow editing at the nearest exon"
         ],
         "correct": 1,
-        "why": "DLS models overs and wickets jointly. A team losing 10 overs with 9 wickets in hand loses proportionally far less than a team losing 10 overs with 2 wickets left — a distinction the Average Run Rate method ignored entirely.",
-        "deepDive": "The Average Run Rate method simply proportionally reduced the target based on overs lost — notoriously unfair when a strong team lost overs from the tail end of their innings (past their big-hitting phase) while the target was set using the opposition's full 50 overs including the high-scoring final phase. Frank Duckworth and Tony Lewis, statisticians with no cricket background, built the D/L method in the 1990s using an exponential decay model of run-scoring resources from a large ODI database. Steve Stern updated it to DLS in 2014 to reflect T20-era aggressive batting, which the original model underestimated. The DLS resource table assigns a percentage to every combination of overs remaining and wickets lost. DLS remains controversial — it can produce counterintuitive par scores in extreme edge cases — but is mathematically far more defensible than predecessors. The common misconception: DLS 'gives' runs to the chasing team. Actually it resets the target based on comparative resources available to each team — a fairness calculation, not a bonus."
+        "why": "SpCas9 requires a PAM (typically 5'-NGG-3') immediately downstream of the target. The human genome contains millions of NGG sequences, and the guide RNA tolerates several mismatches while still directing cleavage — producing off-target double-strand breaks elsewhere.",
+        "deepDive": "CRISPR-Cas9 (from Streptococcus pyogenes — 'SpCas9') works in two steps: a ~20-nucleotide guide RNA (gRNA) base-pairs with its complementary target DNA sequence, and the Cas9 protein makes a double-strand break (DSB) 3 bp upstream of the PAM (Protospacer Adjacent Motif, 5'-NGG-3' for SpCas9). The precision problem has two sources: (1) PAM ubiquity — NGG appears roughly every 8-12 bp across the human genome; (2) mismatch tolerance — Cas9 can cleave with up to 3-5 mismatches between the gRNA and target, especially in the PAM-distal region (positions 1-10 of the 20-nt spacer). Off-target DSBs can cause insertions/deletions (indels), large deletions, chromosomal translocations, or activation of oncogenes. Mitigation strategies include: high-fidelity Cas9 variants (eSpCas9, HiFi Cas9, HypaCas9) with engineered reduced nonspecific DNA contacts; truncated gRNAs (17-18 nt) that reduce off-target while maintaining on-target activity; nickase Cas9 paired gRNAs (paired nicks require two simultaneous off-target events); base editors and prime editors that avoid DSBs entirely; and computational off-target prediction followed by empirical profiling via GUIDE-seq or CIRCLE-seq. The FDA now requires comprehensive off-target characterisation for all CRISPR therapeutic candidates."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "Kubrick's '2001: A Space Odyssey' (1968) diverges sharply from its source material in the Star Child ending. What is the source, and what key element does the film strip out compared to the text?",
+        "subtopic": "literature",
+        "stem": "Chekhov's 'The Cherry Orchard' ends with the axe falling on the orchard. What literary function does the orchard serve structurally within the play?",
         "options": [
-          "Isaac Asimov's 'The Sentinel' — the film removes Asimov's explanation of alien motivations for placing the monolith",
-          "Arthur C. Clarke's '2001: A Space Odyssey' novel — the film deliberately strips Clarke's explicit account of Bowman's transformation, leaving it entirely unexplained and visually abstract",
-          "Arthur C. Clarke's 'Childhood's End' — Kubrick replaced the Overlords with the Monolith as humanity's catalyst",
-          "Frederik Pohl's 'Gateway' — the film omits the neural upload mechanism that explains the Star Child's creation"
+          "A McGuffin — it drives the plot but carries no symbolic weight beyond its sale price",
+          "A synecdoche — the orchard concretely stands in for the entire fading aristocratic order being cleared away by the new commercial class",
+          "A red herring — Chekhov deliberately creates the expectation the orchard will be saved to subvert audience expectations",
+          "An unreliable narrator device — the orchard's fate is intentionally left unresolved in the play's final dialogue"
         ],
         "correct": 1,
-        "why": "The novel (written concurrently with the screenplay, not before it) explains Bowman's transformation into a Star Child explicitly; Kubrick deliberately stripped all explanation, making the ending pure visual metaphor.",
-        "deepDive": "2001 has an unusual production history: Kubrick and Clarke developed the screenplay and novel simultaneously starting from Clarke's 1948 short story 'The Sentinel,' so the film is not an adaptation of a prior work — both were created in parallel. Clarke's novel is explicit: Bowman passes through the star gate, arrives in a hotel room constructed from human TV signals, ages rapidly, dies, and is reborn as the Star Child — a new cosmic being who returns to Earth. Kubrick stripped every explanation, preferring visual metaphor and intentional ambiguity. HAL 9000's behavior is similar in both versions: HAL kills the crew because his orders to deceive them about the mission conflict irreconcilably with his core directive to process information accurately — an early fictional treatment of AI alignment failure. The common misread: the Star Child 'destroys' Earth in the final shot. Clarke's own interpretation is that the Star Child detonates a nuclear weapons satellite in orbit, clearing the path for humanity's next phase rather than ending it. Kubrick publicly refused to explain the ending, saying viewers were free to construct their own meaning."
+        "why": "The cherry orchard is a synecdoche: it is a specific, tangible object — trees, blossoms, a family estate — that carries the full weight of the Russian gentry class, their incapacity to adapt, and their historical displacement by commercial capitalism.",
+        "deepDive": "Anton Chekhov's final play (1904) centres on Madame Ranevskaya's inability to commercialise her ancestral estate to pay debts, even as the merchant Lopakhin — son of her family's former serfs — offers a clear practical solution (subdivide and let to summer residents). At the final curtain, the estate is sold, the family departs, and the sound of axes begins. The orchard operates as synecdoche on multiple levels: literally, it is the estate; historically, it represents the Russian gentry class made economically obsolete by the 1861 Emancipation of the Serfs and the rise of commercial capitalism; thematically, it embodies paralysis in the face of inevitable change. Lopakhin buying the orchard — a former serf purchasing the estate where his ancestors were owned — is the play's historical pivot point. Chekhov called it a comedy; Stanislavski staged it as tragedy; the tension between those readings is the work's enduring power. Separately, 'Chekhov's Gun' — the playwright's own rule that every element introduced in Act I must be used by Act III — is one of the foundational principles of dramatic economy, widely used across theatre, film, and narrative writing today."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The Mundell-Fleming impossible trinity holds that a country cannot simultaneously maintain all three policy goals. A country choosing a fixed exchange rate and free capital movement must sacrifice which of the three?",
+        "subtopic": "mathematics",
+        "stem": "Euler's identity e^(iπ) + 1 = 0 is called 'the most beautiful equation.' What does e^(iθ) represent geometrically, and which mathematical fields does the identity directly unify?",
         "options": [
-          "Current account surplus",
-          "Independent monetary policy",
-          "Low inflation",
-          "Fiscal balance"
+          "A point on a hyperbola; it unifies number theory and set theory",
+          "A point on the unit circle in the complex plane; it unifies exponential functions, trigonometry, and complex numbers via e^(iθ) = cos θ + i sin θ",
+          "The eigenvalue of a rotation matrix; it unifies differential equations and topology",
+          "The generating function for circular permutations; it unifies abstract algebra and combinatorics"
         ],
         "correct": 1,
-        "why": "With a fixed rate and free capital flows, the central bank must deploy interest rates to defend the peg — surrendering the ability to set rates for domestic economic objectives.",
-        "deepDive": "The Mundell-Fleming trilemma, developed by Robert Mundell and Marcus Fleming in the 1960s, is one of international macroeconomics' most empirically robust relationships. The three goals: (1) fixed exchange rate; (2) free capital movement; (3) independent monetary policy — pick any two. The mechanism: if capital flows freely and the exchange rate is fixed, any deviation of the domestic rate from global rates triggers capital inflows or outflows that force the central bank to intervene until rates re-align, eliminating monetary independence. Countries resolve it differently: the Eurozone chose fixed rate (common currency) plus free capital, sacrificing individual monetary policy; China chose fixed rate plus monetary autonomy by restricting capital flows; the US chose free capital plus monetary independence by floating the exchange rate. Singapore operates a managed float — a pragmatic middle-of-the-trilemma solution. For Bangladesh, the managed BDT exchange rate and persistent inflation illustrate the trilemma live: defending the peg constrains Bangladesh Bank's ability to cut rates for growth — monetary policy is partly hostage to the exchange rate target. Common misconception: people think the trilemma means 'you can't have any of the three.' Wrong — you can have any two; you just can't have all three simultaneously."
+        "why": "Euler's formula e^(iθ) = cos θ + i sin θ represents a point on the unit circle at angle θ in the complex plane. At θ = π, the point lands at (−1, 0), giving e^(iπ) = −1 and hence e^(iπ) + 1 = 0, unifying exponentials, trigonometry, and complex analysis.",
+        "deepDive": "Euler's formula (1748) is proven via Taylor series: expand e^x = 1 + x + x²/2! + x³/3! + …, substitute x = iθ, and use i² = −1, i³ = −i, i⁴ = 1 to separate real and imaginary parts — the real part gives cos θ (its Taylor series) and the imaginary part gives i sin θ. Geometrically, e^(iθ) traces the unit circle in the complex plane as θ varies from 0 to 2π. At θ = π, the point lands at (−1, 0i), giving e^(iπ) = −1, and therefore e^(iπ) + 1 = 0. The identity is 'beautiful' because it connects five fundamental constants: e (base of natural logarithm, ~2.718), i (imaginary unit, √−1), π (ratio of circumference to diameter, ~3.14159), 1 (multiplicative identity), and 0 (additive identity) — in a single equation using only the operations of addition, multiplication, and exponentiation. Applications are profound: Fourier transforms (signal processing, data compression, MRI imaging) rest entirely on Euler's formula; quantum mechanical wave functions use e^(iθ) to encode phase; AC electrical engineering uses complex impedance built on this foundation. Richard Feynman called it 'the most remarkable formula in mathematics' — high praise from someone who had reason to know."
       }
     ]
   }
