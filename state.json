@@ -1,17 +1,7 @@
 {
   "streak": 10,
-  "last_session_date": "2026-07-28",
+  "last_session_date": "2026-07-29",
   "questions_seen": [
-    "Under the SOLAS amendment effective 1 July 2016, who bears primary legal responsibility for providing a Verified Gross Mass (VGM) declaration before a container is loaded onto a vessel?",
-    "A customs bonded warehouse (CBW) allows an importer to store goods without paying import duties. Which statement best describes the core commercial advantage this creates?",
-    "An LNG carrier requires fundamentally different cargo containment technology from a crude oil tanker. What is the defining engineering requirement driving this distinction?",
-    "In container shipping, 'free time' at the port refers to which specific period, and why is careful tracking of it critical for importers?",
-    "The Ocean Alliance (CMA CGM, COSCO Shipping Lines, OOCL, and Evergreen) was extended through which year, and what is the core commercial logic of the vessel-sharing arrangements (VSAs) that underpin it?",
-    "DNA methylation at CpG sites typically silences gene expression without altering the DNA sequence itself. Why does this challenge classical Mendelian genetics?",
-    "The Banach-Tarski paradox (1924) appears to show a solid ball can be decomposed and reassembled into two identical balls. Why does this not violate physical conservation of volume?",
-    "Hannah Arendt's concept of the 'banality of evil', derived from her report on the Eichmann trial (Jerusalem, 1961), most directly challenges which prior understanding of evil?",
-    "Goodhart's Law states: 'When a measure becomes a target, it ceases to be a good measure.' Which scenario most precisely illustrates the core mechanism the law describes?",
-    "Johannes Vermeer's mastery of natural light in Dutch Golden Age interior painting is most distinctively characterised by which compositional approach?",
     "In multimodal transport, a 'through bill of lading' differs from a conventional ocean B/L primarily because it:",
     "The Transpacific Eastbound (TPEB) trade lane is strategically dominant in global container shipping primarily because:",
     "The Institute Cargo Clauses (A), (B), and (C) differ most significantly in terms of:",
@@ -501,7 +491,17 @@
     "The Coriolis effect deflects moving air masses to the right in the Northern Hemisphere and left in the Southern. What is the physical mechanism that produces this reversal?",
     "CRISPR-Cas9 uses a guide RNA to locate its genomic target. What specifically limits its precision — and what causes off-target DNA cleavage?",
     "Chekhov's 'The Cherry Orchard' ends with the axe falling on the orchard. What literary function does the orchard serve structurally within the play?",
-    "Euler's identity e^(iπ) + 1 = 0 is called 'the most beautiful equation.' What does e^(iθ) represent geometrically, and which mathematical fields does the identity directly unify?"
+    "Euler's identity e^(iπ) + 1 = 0 is called 'the most beautiful equation.' What does e^(iθ) represent geometrically, and which mathematical fields does the identity directly unify?",
+    "A cargo airline quotes a 'belly cargo' rate on a scheduled widebody passenger flight. Which statement best describes belly cargo's structural pricing advantage over dedicated freighters?",
+    "At a major air cargo hub, a shipment of blood plasma arrives and needs transfer to a connecting flight in 45 minutes. What creates the highest risk of shipment loss in this scenario?",
+    "Maersk bought Senator International and CEVA Logistics; CMA CGM acquired Colis Prive and an Air France Cargo stake; DSV absorbed Panalpina, Agility, and DB Schenker. All three share the same strategic thesis. What is it?",
+    "A freight forwarder quotes a shipper a fixed all-in FCL rate Shanghai to Hamburg including all surcharges. Three weeks later the carrier announces a new Emergency Fuel Surcharge of $200/FEU. Who bears this cost?",
+    "The China-plus-one sourcing strategy has a structural ceiling. Which characteristic of China's manufacturing base is hardest to replicate in Vietnam, Bangladesh, or India within a 5-year horizon?",
+    "Which early 20th-century movement produced works using chance operations, readymades, and deliberate anti-aesthetic gestures as a critique of the rational culture it blamed for World War I?",
+    "Medieval composers called the interval spanning exactly three whole tones — C to F-sharp, for example — diabolus in musica and discouraged it in sacred counterpoint. What is the musical reason?",
+    "The Sapir-Whorf hypothesis has a strong and a weak version. Which statement accurately captures the weak version, and which empirical finding best supports it?",
+    "In limited-overs cricket, the Duckworth-Lewis-Stern method sets a revised target when play is interrupted. What two-dimensional resource does it measure, and why does this matter?",
+    "Horton and Wohl coined 'parasocial relationship' in 1956 to describe a new kind of emotional bond. What specific feature of early television prompted them to develop the concept?"
   ],
   "learn_history": [
     {
@@ -848,6 +848,11 @@
       "date": "2026-07-28",
       "topic": "The Smoot-Hawley Tariff (1930): The Protectionist Wall That Deepened the Depression",
       "bucket": "history"
+    },
+    {
+      "date": "2026-07-29",
+      "topic": "The Black Sea: Russia's Inland Moat, NATO's Eastern Flank, and the World's Most Disrupted Grain Corridor",
+      "bucket": "geography"
     }
   ],
   "curriculum_progress": {
@@ -942,32 +947,32 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 16,
-      "last_seen": "2026-07-25",
+      "count": 17,
+      "last_seen": "2026-07-29",
       "difficulty": 2,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 16,
-      "last_seen": "2026-07-25",
+      "count": 17,
+      "last_seen": "2026-07-29",
       "difficulty": 2,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 16,
-      "last_seen": "2026-07-25",
+      "count": 17,
+      "last_seen": "2026-07-29",
       "difficulty": 2,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 16,
-      "last_seen": "2026-07-25",
+      "count": 17,
+      "last_seen": "2026-07-29",
       "difficulty": 2,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 16,
-      "last_seen": "2026-07-25",
+      "count": 17,
+      "last_seen": "2026-07-29",
       "difficulty": 2,
       "rolling_score": []
     }
@@ -1010,14 +1015,14 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 23,
-      "last_seen": "2026-07-26",
+      "count": 24,
+      "last_seen": "2026-07-29",
       "difficulty": 4,
       "rolling_score": []
     },
     "music": {
-      "count": 23,
-      "last_seen": "2026-07-26",
+      "count": 24,
+      "last_seen": "2026-07-29",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1040,179 +1045,179 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 23,
-      "last_seen": "2026-07-26",
+      "count": 24,
+      "last_seen": "2026-07-29",
       "difficulty": 4,
       "rolling_score": []
     },
     "sport": {
-      "count": 23,
-      "last_seen": "2026-07-27",
+      "count": 24,
+      "last_seen": "2026-07-29",
       "difficulty": 3,
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 23,
-      "last_seen": "2026-07-27",
+      "count": 24,
+      "last_seen": "2026-07-29",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "In a CFS/CY movement, cargo is consolidated at origin CFS and delivered to destination CY. Under FOB terms, which party bears the origin CFS handling charge — and why does this matter for landed-cost calculation?",
+        "subtopic": "aircraft_carriers",
+        "stem": "A cargo airline quotes a 'belly cargo' rate on a scheduled widebody passenger flight. Which statement best describes belly cargo's structural pricing advantage over dedicated freighters?",
         "options": [
-          "The ocean carrier, since CFS is part of the port terminal complex covered by the base rate",
-          "The consignee, since all costs beyond the named FOB port are the buyer's liability",
-          "The shipper, since origin CFS consolidation charges accrue before the cargo passes the ship's rail and FOB risk/cost transfer",
-          "The NVOCC, since it organises the consolidation and absorbs it in the house rate"
+          "Belly cargo earns zero marginal revenue for airlines since passenger fares already cover all operating costs",
+          "Belly cargo has near-zero marginal cost for the carrier, enabling lower rates — but capacity disappears when passenger loads grow",
+          "Dedicated freighters offer lower unit costs than belly cargo because they have higher volumetric utilisation",
+          "Belly cargo rates are regulated by IATA tariff schedules, unlike freighter spot rates"
         ],
-        "correct": 2,
-        "why": "Under FOB, the seller bears all costs up to and including loading at the named port. Origin CFS handling (stuffing, outgate) occurs before the goods reach the ship's rail — it falls to the shipper and must be included in their export cost, not hidden in a quoted FOB price.",
-        "deepDive": "In LCL shipments using CFS/CY terms, the shipper delivers loose cargo to the origin Container Freight Station, where it is stuffed into a shared container. CFS charges — handling, stuffing, and outgate — are levied at origin and debited to the shipper. Under FOB Incoterms, cost responsibility transfers at the named port of loading when goods are on board the vessel; therefore, all charges up to and including that point (including origin CFS) are the seller's account. Failure to include these in a landed-cost model creates margin leakage: shippers who quote FOB without netting in CFS charges understate their real cost of export. At destination, the CY delivery means the consignee collects a sealed FCL — any devanning or CFS handling at destination is the consignee's expense under DAP/DDP or the buyer's cost under FOB/CFR/CIF. The practical implication: always itemise OTHC and CFS charges explicitly in a quote, because they are frequently buried or omitted, creating disputes between buyer and seller on who pays."
+        "correct": 1,
+        "why": "Belly capacity's fuel, crew, and slot are sunk costs of the passenger flight. The airline's marginal cost to carry belly cargo is near zero, which structurally suppresses rates versus freighters. Tradeoff: capacity vanishes when passenger loads take priority.",
+        "deepDive": "Belly cargo accounts for roughly 50% of global air freight capacity. Because fuel, crew, and airport slots are fixed costs of the passenger flight, the airline's marginal cost to carry belly cargo is near zero — structurally suppressing belly rates versus dedicated freighters. The tradeoff: passenger load always takes priority; belly space evaporates when cabins fill. During COVID, grounded passenger flights eliminated belly capacity globally, sending air freight rates to record highs — the market's dependency on subsidised belly capacity briefly visible in price data. For time-critical or pharmaceutical cargo, forwarders pay freighter premiums for guaranteed space. Key pure-freighter operators: Cargolux, Atlas Air, AirBridgeCargo, Challenge Air."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "The Middle Corridor (Trans-Caspian International Transport Route) has grown as an alternative to the Russia-sanctioned Trans-Siberian. What specific infrastructure gap is its binding throughput constraint?",
+        "subtopic": "airport_ops",
+        "stem": "At a major air cargo hub, a shipment of blood plasma arrives and needs transfer to a connecting flight in 45 minutes. What creates the highest risk of shipment loss in this scenario?",
         "options": [
-          "No rail gauge standardisation exists between Kazakhstan and Azerbaijan, requiring a full container transload",
-          "The Caspian Sea crossing relies on RoRo ferries between Aktau and Baku — a transhipment bottleneck with no fixed-link alternative",
-          "China restricts export volumes on this route to prevent supply chain scrutiny of Xinjiang-origin goods",
-          "The route transits Afghan territory, requiring cargo clearance from Taliban-controlled customs authorities"
+          "Customs dwell time: blood plasma requires mandatory 48-hour sanitary inspection before onward movement",
+          "Maintaining unbroken cold chain (2–8 degrees C) during the brief but vulnerable landside transfer between aircraft",
+          "ICAO dangerous goods reclassification for biological materials exceeding 100ml per container",
+          "Minimum connection time rules that prohibit pharmaceutical transfers under 60 minutes at hub airports"
         ],
         "correct": 1,
-        "why": "There is no bridge or tunnel across the Caspian Sea. Containers must be offloaded at Aktau (Kazakhstan), transported by RoRo ferry across 300+ km of open sea (2-3 days, weather-dependent), then reloaded at Baku — a hard ceiling on throughput and reliability.",
-        "deepDive": "The Middle Corridor runs from China through Kazakhstan → Aktau port → Caspian Sea crossing → Baku (Azerbaijan) → Georgia → Turkey → Europe. Post-2022, when Russia sanctions made the Trans-Siberian Rail (TSR) unusable for EU-bound goods, the Middle Corridor surged in interest. But the Caspian leg remains its structural constraint: there are no fixed links — no bridge, no tunnel — across the 300-600 km of open sea. Container cargo must be stuffed onto RoRo ferries operated by state carriers; capacity is limited, storms cause delays, and vessel availability is inconsistent. Additionally, Kazakhstan uses 1520mm Russian broad gauge, which does not match Turkey's 1435mm standard gauge — containers require another bogie change at the Turkish border. The result: advertised 12-14 day transit times in practice often stretch to 20+, throughput has plateaued around 60,000-80,000 TEU/year vs TSR's pre-war peak of 150,000+. For BD or South Asian exporters seeking routes to Europe that bypass Russian territory, the Middle Corridor is real but congested — and reliability, not cost, is the key planning risk."
+        "why": "Cold chain integrity during the landside transfer is the critical risk. Blood plasma degrades rapidly outside 2-8C. Even 15 minutes on a hot apron can invalidate the shipment — not customs or ICAO paperwork, which are managed in advance.",
+        "deepDive": "Airport cargo handling for temperature-sensitive goods runs under IATA's Temperature Control Regulations (TCR). GDP (Good Distribution Practice) regulations in the EU and equivalent standards globally require that temperature excursion records accompany every pharmaceutical shipment; a single spike can trigger rejection at destination even if the product looks fine. Cool tunnels — temperature-controlled airside corridors — exist at major hubs like Frankfurt, Amsterdam Schiphol, and Dubai specifically to protect the vulnerable transfer moment. Premium handling fees are charged. For forwarders, selecting a GDP-certified hub airline is product liability management: a cargo claim on spoiled blood plasma can exceed $1M per shipment."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "Under ICC (A) all-risks cover, which exclusion most frequently results in denied cargo claims — and how does the vessel's seaworthiness at sailing affect the insured's ability to recover?",
+        "subtopic": "ma_consolidation",
+        "stem": "Maersk bought Senator International and CEVA Logistics; CMA CGM acquired Colis Prive and an Air France Cargo stake; DSV absorbed Panalpina, Agility, and DB Schenker. All three share the same strategic thesis. What is it?",
         "options": [
-          "The war risk exclusion; a seaworthy vessel never affects the all-risks claim",
-          "The inherent vice exclusion; if the insured was privy to unseaworthiness at sailing, cover under the MIA 1906 is voidable by the underwriter",
-          "The delay exclusion; the carrier's seaworthiness determines whether the delay was foreseeable and thus excludable",
-          "The ISPS non-compliance exclusion; applies only when the carrier fails a port-state inspection within 30 days of sailing"
+          "Horizontal consolidation to reduce overcapacity and support rate floors on contested trade lanes",
+          "Pivot from ocean carrier to end-to-end logistics integrator, capturing margin across modes and geographies",
+          "Conglomerate diversification to insulate carriers from ocean freight cyclicality via unrelated revenues",
+          "Acquiring NVOCCs to avoid antitrust scrutiny of alliance rate coordination"
         ],
         "correct": 1,
-        "why": "Inherent vice (cargo's natural tendency to deteriorate) is the most-litigated ICC (A) exclusion. Separately, under Section 39 of the Marine Insurance Act 1906, if the insured knew of unseaworthiness at sailing, the underwriter can void the policy for losses attributable to that unseaworthiness.",
-        "deepDive": "ICC (A) is described as 'all risks' but that phrase is commercially misleading — it still excludes wilful misconduct of the insured, inherent vice, delay, ordinary leakage and breakage, insufficient packaging, nuclear hazards, and war/strikes (the last two unless bought back with ICC War and ICC Strikes extensions). Inherent vice is the most frequently invoked exclusion: steel corroding from its own moisture content, rubber hardening from internal off-gassing, fruit ripening during transit. It is also the most litigated because the insured argues 'external damage' and the underwriter argues 'internal deterioration.' On seaworthiness: Section 39 of the UK Marine Insurance Act 1906 (which underpins London market cargo policies globally) holds that if a vessel was unseaworthy at the time of inception of the voyage and the insured was privy to that fact, the insurer is discharged from liability for losses attributable to unseaworthiness. 'Privy' means actual knowledge, not constructive knowledge — so an unsophisticated cargo owner is not usually held to know the vessel's condition. However, large BCOs who charter or select vessels can face this defence. After paying a claim, cargo underwriters pursue subrogation rights against the carrier under Hague-Visby rules."
+        "why": "The shared thesis is logistics integration — owning the full customer supply chain across air, ocean, land, and customs rather than just a slot on a ship. This converts carriers from commodity rate-takers into sticky, higher-margin supply chain managers.",
+        "deepDive": "The logistics integrator thesis emerged after carriers learned from COVID that real margin lay not in ocean slots — capital-intensive and price-volatile — but in owning the customer relationship end-to-end. Maersk's strategy was most explicit: a full pivot to logistics and services via acquisitions of Senator, Pilot, and Visible SCM. CMA CGM went the same direction while maintaining fleet expansion. DSV stayed asset-light but scale-oriented. The risk: freight forwarding is a different business — sales culture, IT systems, yield management — that carriers often underestimate. The bet is that data and scale can substitute for the decades-built commercial relationships traditional forwarders depend on."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "The UFLPA (Uyghur Forced Labor Prevention Act) applies a 'rebuttable presumption' that goods from Xinjiang involve forced labor. What standard of proof must a US importer meet to successfully rebut it?",
+        "subtopic": "commercial_concepts",
+        "stem": "A freight forwarder quotes a shipper a fixed all-in FCL rate Shanghai to Hamburg including all surcharges. Three weeks later the carrier announces a new Emergency Fuel Surcharge of $200/FEU. Who bears this cost?",
         "options": [
-          "Show the factory is not listed on OFAC's SDN list and has a valid CITES certificate",
-          "Submit a third-party social audit (SA8000, SMETA, or equivalent) from the prior 12 months",
-          "Provide clear and convincing evidence — including full supply chain traceability to point of origin — that no forced labor was used",
-          "Obtain a written waiver from the US Department of Commerce within 30 days of CBP detention"
+          "The shipper automatically — carriers can pass through any new surcharge regardless of the forwarder's quote",
+          "The forwarder — a fixed all-in quote without an explicit EBS passthrough clause makes the forwarder absorb it from margin",
+          "The carrier waives new surcharges for pre-booked shipments as standard commercial practice",
+          "It is split 50/50 by FIATA arbitration rules when no explicit clause exists"
         ],
-        "correct": 2,
-        "why": "CBP requires 'clear and convincing evidence' — the highest civil standard — covering complete supply chain traceability. Third-party audits alone are explicitly insufficient; CBP has repeatedly rejected SA8000 and SMETA audits as not meeting the threshold.",
-        "deepDive": "The UFLPA (effective June 21, 2022) creates a rebuttable presumption that any goods mined, produced, or manufactured wholly or in part in the Xinjiang Uyghur Autonomous Region — or by entities on the UFLPA Entity List — involve forced labor and are barred from US import under 19 U.S.C. § 1307. To rebut, importers must: (1) demonstrate full supply chain traceability from raw material to finished good; (2) show compliance with CBP's due-diligence guidance; (3) respond to CBP information requests within tight deadlines (typically 30 days). The 'clear and convincing' standard is materially higher than the usual 'preponderance of evidence' standard used in civil law. CBP has explicitly noted that third-party audits cannot access below-tier suppliers in Xinjiang given access restrictions, and therefore audits alone are not dispositive. Covered commodities extend beyond cotton to polysilicon (solar panels), tomatoes, silica (semiconductors), and their downstream derivatives. For Bangladesh garment exporters sourcing Chinese yarn, fabric, or buttons, any Xinjiang-origin input creates a UFLPA documentation exposure for US-bound shipments — even if the final good is Made in Bangladesh."
+        "correct": 1,
+        "why": "A fixed all-in quote is a promise to the shipper. Without an explicit surcharge passthrough clause, the forwarder owns the liability. A common and costly P&L trap — especially when Hormuz or Red Sea events trigger mass carrier surcharges across all active quotations simultaneously.",
+        "deepDive": "Surcharge passthrough risk is one of the most common commercial disputes in freight forwarding. Without contract language — 'rates exclude surcharges announced after quotation date' — a forwarder quoting fixed all-in absorbs any new carrier charge. For a forwarder managing 1,000 active boxes, a $200/FEU EBS means $200,000 in unexpected cost. Best practice: quote freight and surcharges separately, or include explicit carve-outs for fuel, security, and peak charges. High-volume shippers negotiate master surcharge matrices pre-agreeing how new charges flow, avoiding the ambiguity entirely. During Hormuz or Red Sea events, this issue surfaces industry-wide simultaneously, affecting every active quotation in the market."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "Drewry's WCI and the Shanghai SCFI both track container spot rates but often diverge in directional signal. What is the primary structural reason they move differently?",
+        "subtopic": "supply_chain_strategy",
+        "stem": "The China-plus-one sourcing strategy has a structural ceiling. Which characteristic of China's manufacturing base is hardest to replicate in Vietnam, Bangladesh, or India within a 5-year horizon?",
         "options": [
-          "WCI uses futures contract settlement prices; SCFI uses broker bid-ask spreads only",
-          "SCFI covers all trade lanes including intra-Asia; WCI covers only the 8 major East-West routes weighted by volume",
-          "WCI surveys actual transaction prices paid by shippers and BCOs; SCFI surveys carrier-quoted rates from Shanghai agents — different positions in the rate chain",
-          "SCFI includes all surcharges (BAF, GRI, PSS) in its rate; WCI quotes base rate only, making them structurally incomparable"
+          "Lower labour costs — Vietnamese and Bangladeshi minimum wages exceed Chinese coastal province rates",
+          "China's ecosystem depth: dense supplier clusters, mid-tier component makers, and specialised tooling shops absent in single-country alternatives",
+          "Deep-water port infrastructure: China's main export ports are larger than any in Southeast Asia",
+          "China's domestic consumer market, which subsidises export production through internal demand"
         ],
-        "correct": 2,
-        "why": "WCI (Drewry) collects actual contracted/spot prices paid by buyers; SCFI (Shanghai Shipping Exchange) collects carrier-quoted rates from Shanghai agents. Sellers quote above what they transact in soft markets — SCFI leads on upward moves; WCI captures the reality.",
-        "deepDive": "The SCFI (Shanghai Containerized Freight Index), published by the Shanghai Shipping Exchange since 2009, collects spot freight rates as quoted by carriers and their agents in Shanghai for global export routes. It represents what the selling side (carriers) are willing to offer. The WCI (World Container Index), published by Drewry, tracks actual transaction prices paid by shippers and BCOs across eight major routes — the buying side's reality. In rising markets, SCFI tends to lead: carriers signal rate intentions through quotes before transactions confirm. In falling markets, SCFI often overstates the achievable rate because carriers quote above what they can actually fill. A third lens is the Freightos Baltic Exchange (FBX), which collects real-time booking data from the Freightos digital platform — the fastest signal but limited to Freightos' customer base. For commercial teams, combining all three gives the most complete picture: SCFI for directional trend and carrier intent, WCI for transaction verification, FBX for speed and real-time booking dynamics. All three are widely cited in shipper contracts as benchmarks for index-linked pricing, so understanding their structural differences is commercially critical."
+        "correct": 1,
+        "why": "Ecosystem depth — co-location of tier-1 through tier-3 suppliers and tooling shops in clusters like Shenzhen — is a decade-scale accumulation. Vietnam or Bangladesh can match China on apparel but not on complex electronics requiring hundreds of nearby sub-suppliers.",
+        "deepDive": "China's manufacturing edge rests on agglomeration economies — industrial clusters where tier-1 through tier-3 suppliers, tooling shops, and skilled workers co-locate. In Shenzhen, a factory manager can source PCBs, metal stampings, plastics, and connectors within 30 minutes. That depth does not exist in Vietnam, Bangladesh, or India today. Apple found it could not replicate Zhengzhou without rebuilding 3,000 supplier relationships simultaneously. Vietnam succeeded with Samsung because Samsung built its own supply chain — a single-company dependency, not an ecosystem. For MGH, China-plus-one is real commercial opportunity: it drives sourcing toward South Asia and grows Chattogram throughput — but the structural ceiling limits which categories can shift."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "Lake Titicaca sits at ~3,812m elevation and is shared by two countries. What makes it geopolitically significant beyond being the world's highest commercially navigable lake?",
+        "subtopic": "arts",
+        "stem": "Which early 20th-century movement produced works using chance operations, readymades, and deliberate anti-aesthetic gestures as a critique of the rational culture it blamed for World War I?",
         "options": [
-          "Peru and Bolivia share it; it is Bolivia's only access to internationally navigable waters after losing its Pacific coast in the 1879 War of the Pacific",
-          "Peru and Chile share it; the lake formed the disputed boundary resolved by the 1929 Treaty of Lima",
-          "Bolivia and Argentina share it; it is the sole freshwater source for La Paz's metropolitan population",
-          "Ecuador and Peru share it; its islands remain contested under the 1998 Brasilia Peace Accord"
+          "Surrealism",
+          "Dada",
+          "Constructivism",
+          "Fauvism"
         ],
-        "correct": 0,
-        "why": "Peru and Bolivia share Titicaca. Bolivia lost its coastline to Chile in the 1879-84 War of the Pacific — making the lake its only access to internationally navigable waters, a live diplomatic grievance Bolivia has pursued at the ICJ for over a century.",
-        "deepDive": "Lake Titicaca (surface area ~8,372 km²) sits at 3,812m on the Altiplano between Peru and Bolivia and is the world's largest high-altitude lake by volume. Its geopolitical significance centres on Bolivia's landlocked status: Bolivia lost its entire coastline to Chile in the War of the Pacific (1879-1884), a conflict fought over nitrate-rich Atacama Desert territory. Since then, Bolivia has relentlessly pursued sea access — through bilateral negotiations, OAS resolutions, and a 2018 ICJ case (which Bolivia ultimately lost on jurisdiction). Titicaca is Bolivia's only navigable international water body, giving it symbolic and strategic weight far beyond its economic role. Culturally, the lake is irreplaceable: the Uros people live on floating totora reed islands; Isla del Sol is believed to be the birthplace of the Inca Empire's founding figure, Manco Cápac. Recent climate data shows Titicaca's water level has dropped to historic lows due to drought and glacial retreat — threatening the Uros ecosystem and Bolivia's already-constrained freshwater supply. A question worth tracking: as Andean glaciers shrink, the geopolitics of water in South America will increasingly resemble the geopolitics of oil."
+        "correct": 1,
+        "why": "Dada (1916, Zurich) was explicitly anti-art — its practitioners used nonsense poetry, found objects, and chance procedures to reject the rational civilisation they blamed for WWI. Surrealism grew from it but sought systematic exploration of the unconscious rather than pure negation.",
+        "deepDive": "Dada emerged in 1916 in neutral Zurich, founded by Hugo Ball and Tristan Tzara. Its name was chosen for its meaninglessness. Key works: Marcel Duchamp's Fountain (a urinal submitted as fine art), Hannah Hoch's photomontages cutting up Weimar mass media. Dada did not want better art — it wanted to abolish the category, because the same bourgeois rational culture that made serious art had also made Verdun and the Somme. John Cage later extended Dada's chance operations into music. Conceptual art, performance art, and Situationism all trace back to Dada's core argument: art's most honest response to catastrophe is absurdity and negation."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "The Coriolis effect deflects moving air masses to the right in the Northern Hemisphere and left in the Southern. What is the physical mechanism that produces this reversal?",
+        "subtopic": "music",
+        "stem": "Medieval composers called the interval spanning exactly three whole tones — C to F-sharp, for example — diabolus in musica and discouraged it in sacred counterpoint. What is the musical reason?",
         "options": [
-          "Gravity's magnitude varies between poles due to Earth's oblate spheroid shape, creating different deflection strengths",
-          "Earth's rotation imparts a rightward deflection in the NH and leftward in the SH because the Coriolis parameter f = 2Ω sin(φ) changes sign at the equator",
-          "Ocean salinity gradients create opposing thermohaline gyres that override the base atmospheric deflection",
-          "The equatorial bulge reverses the inertial frame for air parcels crossing the Inter-Tropical Convergence Zone"
+          "It is impossible to sing accurately without a keyboard reference, causing choral intonation problems",
+          "Its equal division of the octave creates no tonal resolution pull, disrupting the modal stability required for sacred music",
+          "It was associated with pagan pentatonic scales specifically excluded from Gregorian modes",
+          "Pope Gregory IX issued a formal condemnation of the interval in 1234 CE"
         ],
         "correct": 1,
-        "why": "The Coriolis parameter f = 2Ω sin(φ) is positive in the NH (sin positive) and negative in the SH (sin negative), meaning deflection reverses sign at the equator. At the equator itself, f = 0 — no Coriolis force, which is why hurricanes cannot form within ~5° of the equator.",
-        "deepDive": "The Coriolis effect is an apparent force arising because Earth is a rotating reference frame. A parcel of air moving poleward carries excess eastward momentum from its equatorial origin; relative to the rotating surface beneath it, it appears to deflect rightward in the Northern Hemisphere and leftward in the Southern. The Coriolis parameter f = 2Ω sin(φ), where Ω = 7.27 × 10⁻⁵ rad/s (Earth's angular velocity) and φ is latitude. Since sin(φ) changes sign at the equator, f changes sign — hence the hemispheric reversal. This drives tropical cyclone rotation (counterclockwise in NH, clockwise in SH), the five major subtropical ocean gyres (clockwise in NH, counterclockwise in SH), and the three-cell atmospheric circulation model (Hadley, Ferrel, Polar). A persistent misconception: the Coriolis effect determines which way water drains in a bathtub. It does not — at that scale and timescale, the initial spin from filling and local geometry completely dominate. Coriolis only becomes significant at planetary scales and multi-hour timescales. The effect is also critical for long-range ballistic and artillery calculations — a shell fired northward will deviate rightward in the NH by a measurable distance over long ranges."
+        "why": "The tritone spans exactly 6 of 12 semitones — the only interval that divides the octave in half. This symmetry means it has no natural resolution direction, making it harmonically unstable. Medieval modal theory mapped resolution to divine order; the tritone's ambiguity was theologically as well as musically disturbing.",
+        "deepDive": "The tritone's symmetry means it has no resolution gravity. Unlike a perfect fifth, which pulls strongly toward the tonic, the tritone floats ambiguously. Medieval modal theory read harmonic resolution as a mirror of divine order; the tritone was sonic chaos. The prohibition was informal practice, not a single papal decree — a common misconception. In modern harmony, this instability becomes its power: the dominant seventh chord (G7) contains a tritone between B and F that drives the entire Western tension-release engine. Every jazz standard and blues progression exploits this. Jimi Hendrix's Purple Haze opens on a tritone — the most famous diabolus in musica in rock history."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "CRISPR-Cas9 uses a guide RNA to locate its genomic target. What specifically limits its precision — and what causes off-target DNA cleavage?",
+        "subtopic": "linguistics",
+        "stem": "The Sapir-Whorf hypothesis has a strong and a weak version. Which statement accurately captures the weak version, and which empirical finding best supports it?",
         "options": [
-          "The guide RNA can only match DNA near telomere repeats; off-target cuts at other regions are called telomere drift",
-          "Cas9 requires a PAM sequence adjacent to the target; similar PAM-adjacent sequences elsewhere in the genome can be cleaved, causing off-target editing",
-          "Cas9 only unwinds DNA precisely at 37°C; temperature deviation causes random cleavage called thermal drift editing",
-          "Full 20-nucleotide complementarity is required; any mismatch causes a reading frameshift called shadow editing at the nearest exon"
+          "Language fully determines thought: speakers of languages without a word for a concept cannot perceive that concept",
+          "Language subtly influences perception — speakers with separate words for light and dark blue discriminate those shades faster than languages with one word",
+          "All languages are cognitively equivalent; any thought in one can be expressed in all others with equal ease",
+          "Thought is entirely pre-linguistic; language only labels concepts already fully formed in the mind"
         ],
         "correct": 1,
-        "why": "SpCas9 requires a PAM (typically 5'-NGG-3') immediately downstream of the target. The human genome contains millions of NGG sequences, and the guide RNA tolerates several mismatches while still directing cleavage — producing off-target double-strand breaks elsewhere.",
-        "deepDive": "CRISPR-Cas9 (from Streptococcus pyogenes — 'SpCas9') works in two steps: a ~20-nucleotide guide RNA (gRNA) base-pairs with its complementary target DNA sequence, and the Cas9 protein makes a double-strand break (DSB) 3 bp upstream of the PAM (Protospacer Adjacent Motif, 5'-NGG-3' for SpCas9). The precision problem has two sources: (1) PAM ubiquity — NGG appears roughly every 8-12 bp across the human genome; (2) mismatch tolerance — Cas9 can cleave with up to 3-5 mismatches between the gRNA and target, especially in the PAM-distal region (positions 1-10 of the 20-nt spacer). Off-target DSBs can cause insertions/deletions (indels), large deletions, chromosomal translocations, or activation of oncogenes. Mitigation strategies include: high-fidelity Cas9 variants (eSpCas9, HiFi Cas9, HypaCas9) with engineered reduced nonspecific DNA contacts; truncated gRNAs (17-18 nt) that reduce off-target while maintaining on-target activity; nickase Cas9 paired gRNAs (paired nicks require two simultaneous off-target events); base editors and prime editors that avoid DSBs entirely; and computational off-target prediction followed by empirical profiling via GUIDE-seq or CIRCLE-seq. The FDA now requires comprehensive off-target characterisation for all CRISPR therapeutic candidates."
+        "why": "The weak version holds that language shapes, not determines, cognition. Key support: Russian speakers, who have distinct words for light and dark blue, discriminate blue shades faster than English speakers. The strong version — you cannot think what you cannot say — has no credible empirical support.",
+        "deepDive": "Sapir and Whorf proposed in the 1930s-40s that language structures thought. The strong version is largely discredited: people routinely think concepts they lack words for, as evident in language acquisition and translation. The weak version remains active research. Russian and Greek speakers with dedicated colour terms show faster perceptual discrimination. Lera Boroditsky showed that speakers of absolute-direction languages develop exceptional navigational ability. Piraha speakers, despite lacking number words above two, can perform basic numeric tasks. Consensus: language is a groove, not a cage — it shapes habitual cognitive pathways without sealing them off."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Chekhov's 'The Cherry Orchard' ends with the axe falling on the orchard. What literary function does the orchard serve structurally within the play?",
+        "subtopic": "sport",
+        "stem": "In limited-overs cricket, the Duckworth-Lewis-Stern method sets a revised target when play is interrupted. What two-dimensional resource does it measure, and why does this matter?",
         "options": [
-          "A McGuffin — it drives the plot but carries no symbolic weight beyond its sale price",
-          "A synecdoche — the orchard concretely stands in for the entire fading aristocratic order being cleared away by the new commercial class",
-          "A red herring — Chekhov deliberately creates the expectation the orchard will be saved to subvert audience expectations",
-          "An unreliable narrator device — the orchard's fate is intentionally left unresolved in the play's final dialogue"
+          "DLS counts fielding errors and assigns penalty runs proportional to defensive mistakes before the interruption",
+          "DLS models batting resources as a joint function of overs remaining AND wickets in hand, so the revised target reflects what team one's total was worth given both teams' equivalent resource curves",
+          "DLS measures time lost in minutes and applies a linear run-rate deduction equal to time lost times the current run rate",
+          "DLS resets both teams to equal overs at the interruption point and discards all pre-interruption scores"
         ],
         "correct": 1,
-        "why": "The cherry orchard is a synecdoche: it is a specific, tangible object — trees, blossoms, a family estate — that carries the full weight of the Russian gentry class, their incapacity to adapt, and their historical displacement by commercial capitalism.",
-        "deepDive": "Anton Chekhov's final play (1904) centres on Madame Ranevskaya's inability to commercialise her ancestral estate to pay debts, even as the merchant Lopakhin — son of her family's former serfs — offers a clear practical solution (subdivide and let to summer residents). At the final curtain, the estate is sold, the family departs, and the sound of axes begins. The orchard operates as synecdoche on multiple levels: literally, it is the estate; historically, it represents the Russian gentry class made economically obsolete by the 1861 Emancipation of the Serfs and the rise of commercial capitalism; thematically, it embodies paralysis in the face of inevitable change. Lopakhin buying the orchard — a former serf purchasing the estate where his ancestors were owned — is the play's historical pivot point. Chekhov called it a comedy; Stanislavski staged it as tragedy; the tension between those readings is the work's enduring power. Separately, 'Chekhov's Gun' — the playwright's own rule that every element introduced in Act I must be used by Act III — is one of the foundational principles of dramatic economy, widely used across theatre, film, and narrative writing today."
+        "why": "DLS's key insight: a team 5 wickets down with 20 overs left has fewer resources than a team with all wickets intact and 20 overs. Measuring both dimensions produces a fair par score that previous methods — which only counted overs lost — famously failed to deliver.",
+        "deepDive": "DLS was introduced to ODI cricket in 1997 and updated with Steven Stern's refinements in 2014. Previous rain rules only counted overs lost, producing absurd results — most infamously the 1992 World Cup semi-final where South Africa needed 22 from 1 ball under the Most Productive Overs method. DLS defines a team's resource as a two-dimensional function of overs remaining and wickets in hand, calibrated empirically from thousands of innings. A team starting a 25-over chase with all wickets intact has more resource than one already 5 down — the par score adjusts accordingly. The method is ICC-mandated worldwide. Critics find it opaque; the underlying tables are not public, which fuels controversy on close calls."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "Euler's identity e^(iπ) + 1 = 0 is called 'the most beautiful equation.' What does e^(iθ) represent geometrically, and which mathematical fields does the identity directly unify?",
+        "subtopic": "pop_culture",
+        "stem": "Horton and Wohl coined 'parasocial relationship' in 1956 to describe a new kind of emotional bond. What specific feature of early television prompted them to develop the concept?",
         "options": [
-          "A point on a hyperbola; it unifies number theory and set theory",
-          "A point on the unit circle in the complex plane; it unifies exponential functions, trigonometry, and complex numbers via e^(iθ) = cos θ + i sin θ",
-          "The eigenvalue of a rotation matrix; it unifies differential equations and topology",
-          "The generating function for circular permutations; it unifies abstract algebra and combinatorics"
+          "Viewers wrote fan letters as if to personal friends, mistaking scripted drama for documentary reality",
+          "Television hosts addressed cameras in first-person — looking directly at viewers, using 'you' — mimicking face-to-face intimacy and generating one-sided bonds that felt reciprocal to viewers",
+          "Advertisers deliberately engineered false familiarity between viewers and celebrity endorsers to drive purchase behaviour",
+          "Children watching cartoons over 3 hours daily showed diminished peer social skills, preferring animated characters to classmates"
         ],
         "correct": 1,
-        "why": "Euler's formula e^(iθ) = cos θ + i sin θ represents a point on the unit circle at angle θ in the complex plane. At θ = π, the point lands at (−1, 0), giving e^(iπ) = −1 and hence e^(iπ) + 1 = 0, unifying exponentials, trigonometry, and complex analysis.",
-        "deepDive": "Euler's formula (1748) is proven via Taylor series: expand e^x = 1 + x + x²/2! + x³/3! + …, substitute x = iθ, and use i² = −1, i³ = −i, i⁴ = 1 to separate real and imaginary parts — the real part gives cos θ (its Taylor series) and the imaginary part gives i sin θ. Geometrically, e^(iθ) traces the unit circle in the complex plane as θ varies from 0 to 2π. At θ = π, the point lands at (−1, 0i), giving e^(iπ) = −1, and therefore e^(iπ) + 1 = 0. The identity is 'beautiful' because it connects five fundamental constants: e (base of natural logarithm, ~2.718), i (imaginary unit, √−1), π (ratio of circumference to diameter, ~3.14159), 1 (multiplicative identity), and 0 (additive identity) — in a single equation using only the operations of addition, multiplication, and exponentiation. Applications are profound: Fourier transforms (signal processing, data compression, MRI imaging) rest entirely on Euler's formula; quantum mechanical wave functions use e^(iθ) to encode phase; AC electrical engineering uses complex impedance built on this foundation. Richard Feynman called it 'the most remarkable formula in mathematics' — high praise from someone who had reason to know."
+        "why": "Horton and Wohl's insight was about television's direct-address style — the camera simulates eye contact. Talk show hosts speaking at viewers using 'you' triggered the same neural intimacy cues as real face-to-face conversation, creating one-sided bonds that felt genuinely social.",
+        "deepDive": "Horton and Wohl published Mass Communication and Para-Social Interaction in Psychiatry (1956). Their observation: when a TV host looked into the camera and said 'Well folks, you know what I always say...' they were using the same gaze cues and direct address humans use in face-to-face interaction. The viewer's brain responded as if to a real social encounter, even though no reciprocation was possible. Decades later, this explains YouTube and TikTok creator loyalty: a creator filming themselves in their bedroom, speaking casually, looking directly into the camera lens, triggers identical parasocial activation. Post-COVID research found intensified parasocial bonds filling social voids — making this 1956 insight structurally central to the modern attention economy."
       }
     ]
   }
