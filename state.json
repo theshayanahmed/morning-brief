@@ -1,17 +1,7 @@
 {
   "streak": 10,
-  "last_session_date": "2026-07-29",
+  "last_session_date": "2026-07-30",
   "questions_seen": [
-    "In multimodal transport, a 'through bill of lading' differs from a conventional ocean B/L primarily because it:",
-    "The Transpacific Eastbound (TPEB) trade lane is strategically dominant in global container shipping primarily because:",
-    "The Institute Cargo Clauses (A), (B), and (C) differ most significantly in terms of:",
-    "Under SOLAS 2016 Verified Gross Mass rules, when a shipper misdeclares the weight of a packed container, primary legal liability falls on:",
-    "The 'rate-volume paradox' in container shipping describes the tendency for ocean freight rates to:",
-    "Polyphony — multiple independent melodic lines sounding simultaneously — achieved its definitive form in Western art music during which period?",
-    "The concept of 'Barzakh' in Islamic theology refers to:",
-    "The strong form of the Sapir-Whorf hypothesis, called linguistic determinism, claims that:",
-    "In cricket, the Duckworth-Lewis-Stern (DLS) method is used to:",
-    "The Bechdel test, applied to films and other media, specifically requires that a work:",
     "In air cargo, which aircraft variant dominates long-haul intercontinental freighter operations due to its payload, nose-loading capability, and range?",
     "In a cargo airport, the 'landside' zone refers specifically to the area:",
     "The 2016 Hanjin Shipping bankruptcy is the canonical M&A consolidation case study in container shipping primarily because it showed:",
@@ -501,7 +491,17 @@
     "Medieval composers called the interval spanning exactly three whole tones — C to F-sharp, for example — diabolus in musica and discouraged it in sacred counterpoint. What is the musical reason?",
     "The Sapir-Whorf hypothesis has a strong and a weak version. Which statement accurately captures the weak version, and which empirical finding best supports it?",
     "In limited-overs cricket, the Duckworth-Lewis-Stern method sets a revised target when play is interrupted. What two-dimensional resource does it measure, and why does this matter?",
-    "Horton and Wohl coined 'parasocial relationship' in 1956 to describe a new kind of emotional bond. What specific feature of early television prompted them to develop the concept?"
+    "Horton and Wohl coined 'parasocial relationship' in 1956 to describe a new kind of emotional bond. What specific feature of early television prompted them to develop the concept?",
+    "A documentary credit requires 'a full set of original bills of lading.' The carrier issued 3 originals. Under UCP 600 Article 20, how many originals must the beneficiary present to achieve a complying presentation?",
+    "An importer buys garments from a Bangladesh manufacturer via a Hong Kong intermediary. The manufacturer's invoice is $5/unit; the intermediary marks up to $8/unit. Under US Customs 'first sale' valuation (19 CFR 152), what is the dutiable value per unit?",
+    "A 'classic' Panamax vessel is sized to transit the original Panama Canal locks built in 1914. Which combination of dimensions approximately defines the Panamax limit?",
+    "A container vessel arrives at Chittagong Port's outer anchorage but cannot berth due to congestion. Under a standard voyage charter party with 'port charterparty' terms, when does laytime begin?",
+    "The EU allowed its Block Exemption Regulation (BER) for liner shipping consortia to expire in April 2024 without renewal. What was the European Commission's primary stated reason?",
+    "The secret Sykes-Picot Agreement of 1916 divided the Arab provinces of the collapsing Ottoman Empire between Britain and France. Which modern outcome is most directly traced to this agreement?",
+    "Hanafi Islamic jurisprudence uniquely distinguishes 'fard' from 'wajib' — a distinction the other three Sunni schools do not make. Which statement correctly describes this difference?",
+    "Isaiah Berlin's 1958 essay distinguished 'negative liberty' from 'positive liberty.' Which philosopher argued that both miss a third concept — freedom as 'non-domination' — because a person can be unfree even with no actual interference, so long as another holds arbitrary power over them?",
+    "The 'Dutch Disease' describes how a commodity export boom hollows out a country's manufacturing sector. Which mechanism is the PRIMARY driver of this deindustrialisation?",
+    "Magical realism integrates supernatural events into an otherwise realistic narrative. What is the technique's defining characteristic that distinguishes it from fantasy or surrealism?"
   ],
   "learn_history": [
     {
@@ -853,6 +853,11 @@
       "date": "2026-07-29",
       "topic": "The Black Sea: Russia's Inland Moat, NATO's Eastern Flank, and the World's Most Disrupted Grain Corridor",
       "bucket": "geography"
+    },
+    {
+      "date": "2026-07-30",
+      "topic": "The Impossible Trinity: Why No Central Bank Can Simultaneously Fix Its Exchange Rate, Welcome Capital Freely, and Run Independent Monetary Policy",
+      "bucket": "economics"
     }
   ],
   "curriculum_progress": {
@@ -863,8 +868,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 17,
-      "last_seen": "2026-07-26",
+      "count": 18,
+      "last_seen": "2026-07-30",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -875,20 +880,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 17,
-      "last_seen": "2026-07-26",
+      "count": 18,
+      "last_seen": "2026-07-30",
       "difficulty": 4,
       "rolling_score": []
     },
     "vessels": {
-      "count": 17,
-      "last_seen": "2026-07-26",
+      "count": 18,
+      "last_seen": "2026-07-30",
       "difficulty": 4,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 17,
-      "last_seen": "2026-07-26",
+      "count": 18,
+      "last_seen": "2026-07-30",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -899,8 +904,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 17,
-      "last_seen": "2026-07-26",
+      "count": 18,
+      "last_seen": "2026-07-30",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -979,8 +984,8 @@
   },
   "gk_progress": {
     "history": {
-      "count": 27,
-      "last_seen": "2026-07-26",
+      "count": 28,
+      "last_seen": "2026-07-30",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1009,8 +1014,8 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 24,
-      "last_seen": "2026-07-28",
+      "count": 25,
+      "last_seen": "2026-07-30",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1027,20 +1032,20 @@
       "rolling_score": []
     },
     "religion": {
-      "count": 23,
-      "last_seen": "2026-07-27",
+      "count": 24,
+      "last_seen": "2026-07-30",
       "difficulty": 4,
       "rolling_score": []
     },
     "political_theory": {
-      "count": 23,
-      "last_seen": "2026-07-27",
+      "count": 24,
+      "last_seen": "2026-07-30",
       "difficulty": 3,
       "rolling_score": []
     },
     "economics": {
-      "count": 23,
-      "last_seen": "2026-07-27",
+      "count": 24,
+      "last_seen": "2026-07-30",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -1065,159 +1070,149 @@
   },
   "history": [],
   "today": {
-    "date": "2026-07-29",
+    "date": "2026-07-30",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "A cargo airline quotes a 'belly cargo' rate on a scheduled widebody passenger flight. Which statement best describes belly cargo's structural pricing advantage over dedicated freighters?",
+        "subtopic": "documentation",
+        "stem": "A documentary credit requires 'a full set of original bills of lading.' The carrier issued 3 originals. Under UCP 600 Article 20, how many originals must the beneficiary present to achieve a complying presentation?",
         "options": [
-          "Belly cargo earns zero marginal revenue for airlines since passenger fares already cover all operating costs",
-          "Belly cargo has near-zero marginal cost for the carrier, enabling lower rates — but capacity disappears when passenger loads grow",
-          "Dedicated freighters offer lower unit costs than belly cargo because they have higher volumetric utilisation",
-          "Belly cargo rates are regulated by IATA tariff schedules, unlike freighter spot rates"
+          "One original — the bank holds it as security and issues copies to the consignee",
+          "Any two originals — the shipper may retain the third as payment security",
+          "All three originals — 'full set' means every original issued by the carrier",
+          "The number is at the beneficiary's discretion provided a written explanation is given"
         ],
-        "correct": 1,
-        "why": "Belly capacity's fuel, crew, and slot are sunk costs of the passenger flight. The airline's marginal cost to carry belly cargo is near zero, which structurally suppresses rates versus freighters. Tradeoff: capacity vanishes when passenger loads take priority.",
-        "deepDive": "Belly cargo accounts for roughly 50% of global air freight capacity. Because fuel, crew, and airport slots are fixed costs of the passenger flight, the airline's marginal cost to carry belly cargo is near zero — structurally suppressing belly rates versus dedicated freighters. The tradeoff: passenger load always takes priority; belly space evaporates when cabins fill. During COVID, grounded passenger flights eliminated belly capacity globally, sending air freight rates to record highs — the market's dependency on subsidised belly capacity briefly visible in price data. For time-critical or pharmaceutical cargo, forwarders pay freighter premiums for guaranteed space. Key pure-freighter operators: Cargolux, Atlas Air, AirBridgeCargo, Challenge Air."
+        "correct": 2,
+        "why": "UCP 600 Article 20(a)(iv) defines 'full set' as all originals issued by the carrier."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "At a major air cargo hub, a shipment of blood plasma arrives and needs transfer to a connecting flight in 45 minutes. What creates the highest risk of shipment loss in this scenario?",
+        "subtopic": "customs",
+        "stem": "An importer buys garments from a Bangladesh manufacturer via a Hong Kong intermediary. The manufacturer's invoice is $5/unit; the intermediary marks up to $8/unit. Under US Customs 'first sale' valuation (19 CFR 152), what is the dutiable value per unit?",
         "options": [
-          "Customs dwell time: blood plasma requires mandatory 48-hour sanitary inspection before onward movement",
-          "Maintaining unbroken cold chain (2–8 degrees C) during the brief but vulnerable landside transfer between aircraft",
-          "ICAO dangerous goods reclassification for biological materials exceeding 100ml per container",
-          "Minimum connection time rules that prohibit pharmaceutical transfers under 60 minutes at hub airports"
+          "$8 — the final transaction price is always the dutiable value",
+          "$5 — the first arm's-length commercial transaction price qualifies",
+          "$6.50 — US Customs averages the two prices",
+          "$3 — only the manufacturer's production cost is used"
         ],
         "correct": 1,
-        "why": "Cold chain integrity during the landside transfer is the critical risk. Blood plasma degrades rapidly outside 2-8C. Even 15 minutes on a hot apron can invalidate the shipment — not customs or ICAO paperwork, which are managed in advance.",
-        "deepDive": "Airport cargo handling for temperature-sensitive goods runs under IATA's Temperature Control Regulations (TCR). GDP (Good Distribution Practice) regulations in the EU and equivalent standards globally require that temperature excursion records accompany every pharmaceutical shipment; a single spike can trigger rejection at destination even if the product looks fine. Cool tunnels — temperature-controlled airside corridors — exist at major hubs like Frankfurt, Amsterdam Schiphol, and Dubai specifically to protect the vulnerable transfer moment. Premium handling fees are charged. For forwarders, selecting a GDP-certified hub airline is product liability management: a cargo claim on spoiled blood plasma can exceed $1M per shipment."
+        "why": "First sale valuation uses the earliest arm's-length price — $5 — as the dutiable value."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "Maersk bought Senator International and CEVA Logistics; CMA CGM acquired Colis Prive and an Air France Cargo stake; DSV absorbed Panalpina, Agility, and DB Schenker. All three share the same strategic thesis. What is it?",
+        "subtopic": "vessels",
+        "stem": "A 'classic' Panamax vessel is sized to transit the original Panama Canal locks built in 1914. Which combination of dimensions approximately defines the Panamax limit?",
         "options": [
-          "Horizontal consolidation to reduce overcapacity and support rate floors on contested trade lanes",
-          "Pivot from ocean carrier to end-to-end logistics integrator, capturing margin across modes and geographies",
-          "Conglomerate diversification to insulate carriers from ocean freight cyclicality via unrelated revenues",
-          "Acquiring NVOCCs to avoid antitrust scrutiny of alliance rate coordination"
+          "366m LOA, 49m beam, 15.2m draft",
+          "294m LOA, 32.3m beam, 12m draft",
+          "400m LOA, 61m beam, 16m draft",
+          "220m LOA, 25m beam, 9m draft"
         ],
         "correct": 1,
-        "why": "The shared thesis is logistics integration — owning the full customer supply chain across air, ocean, land, and customs rather than just a slot on a ship. This converts carriers from commodity rate-takers into sticky, higher-margin supply chain managers.",
-        "deepDive": "The logistics integrator thesis emerged after carriers learned from COVID that real margin lay not in ocean slots — capital-intensive and price-volatile — but in owning the customer relationship end-to-end. Maersk's strategy was most explicit: a full pivot to logistics and services via acquisitions of Senator, Pilot, and Visible SCM. CMA CGM went the same direction while maintaining fleet expansion. DSV stayed asset-light but scale-oriented. The risk: freight forwarding is a different business — sales culture, IT systems, yield management — that carriers often underestimate. The bet is that data and scale can substitute for the decades-built commercial relationships traditional forwarders depend on."
+        "why": "Classic Panamax: ~294m LOA, 32.3m beam, 12m draft."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "A freight forwarder quotes a shipper a fixed all-in FCL rate Shanghai to Hamburg including all surcharges. Three weeks later the carrier announces a new Emergency Fuel Surcharge of $200/FEU. Who bears this cost?",
+        "subtopic": "port_ops",
+        "stem": "A container vessel arrives at Chittagong Port's outer anchorage but cannot berth due to congestion. Under a standard voyage charter party with 'port charterparty' terms, when does laytime begin?",
         "options": [
-          "The shipper automatically — carriers can pass through any new surcharge regardless of the forwarder's quote",
-          "The forwarder — a fixed all-in quote without an explicit EBS passthrough clause makes the forwarder absorb it from margin",
-          "The carrier waives new surcharges for pre-booked shipments as standard commercial practice",
-          "It is split 50/50 by FIATA arbitration rules when no explicit clause exists"
+          "When the vessel enters territorial waters",
+          "When the pilot boards",
+          "When master tenders NOR at the usual waiting anchorage",
+          "When vessel comes alongside berth"
         ],
-        "correct": 1,
-        "why": "A fixed all-in quote is a promise to the shipper. Without an explicit surcharge passthrough clause, the forwarder owns the liability. A common and costly P&L trap — especially when Hormuz or Red Sea events trigger mass carrier surcharges across all active quotations simultaneously.",
-        "deepDive": "Surcharge passthrough risk is one of the most common commercial disputes in freight forwarding. Without contract language — 'rates exclude surcharges announced after quotation date' — a forwarder quoting fixed all-in absorbs any new carrier charge. For a forwarder managing 1,000 active boxes, a $200/FEU EBS means $200,000 in unexpected cost. Best practice: quote freight and surcharges separately, or include explicit carve-outs for fuel, security, and peak charges. High-volume shippers negotiate master surcharge matrices pre-agreeing how new charges flow, avoiding the ambiguity entirely. During Hormuz or Red Sea events, this issue surfaces industry-wide simultaneously, affecting every active quotation in the market."
+        "correct": 2,
+        "why": "Under port charterparty, NOR at the usual waiting place starts laytime."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "The China-plus-one sourcing strategy has a structural ceiling. Which characteristic of China's manufacturing base is hardest to replicate in Vietnam, Bangladesh, or India within a 5-year horizon?",
+        "subtopic": "liner_alliances",
+        "stem": "The EU allowed its Block Exemption Regulation (BER) for liner shipping consortia to expire in April 2024 without renewal. What was the European Commission's primary stated reason?",
         "options": [
-          "Lower labour costs — Vietnamese and Bangladeshi minimum wages exceed Chinese coastal province rates",
-          "China's ecosystem depth: dense supplier clusters, mid-tier component makers, and specialised tooling shops absent in single-country alternatives",
-          "Deep-water port infrastructure: China's main export ports are larger than any in Southeast Asia",
-          "China's domestic consumer market, which subsidises export production through internal demand"
+          "Carriers operated outside approved geographic scope",
+          "WTO commitments made the exemption redundant",
+          "Alliance capacity coordination harmed shippers during COVID rate spikes",
+          "Carriers refused carbon emissions requirements"
         ],
-        "correct": 1,
-        "why": "Ecosystem depth — co-location of tier-1 through tier-3 suppliers and tooling shops in clusters like Shenzhen — is a decade-scale accumulation. Vietnam or Bangladesh can match China on apparel but not on complex electronics requiring hundreds of nearby sub-suppliers.",
-        "deepDive": "China's manufacturing edge rests on agglomeration economies — industrial clusters where tier-1 through tier-3 suppliers, tooling shops, and skilled workers co-locate. In Shenzhen, a factory manager can source PCBs, metal stampings, plastics, and connectors within 30 minutes. That depth does not exist in Vietnam, Bangladesh, or India today. Apple found it could not replicate Zhengzhou without rebuilding 3,000 supplier relationships simultaneously. Vietnam succeeded with Samsung because Samsung built its own supply chain — a single-company dependency, not an ecosystem. For MGH, China-plus-one is real commercial opportunity: it drives sourcing toward South Asia and grows Chattogram throughput — but the structural ceiling limits which categories can shift."
+        "correct": 2,
+        "why": "EC found alliance capacity coordination harmed shippers, especially during 2020-22."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Which early 20th-century movement produced works using chance operations, readymades, and deliberate anti-aesthetic gestures as a critique of the rational culture it blamed for World War I?",
+        "subtopic": "history",
+        "stem": "The secret Sykes-Picot Agreement of 1916 divided the Arab provinces of the collapsing Ottoman Empire between Britain and France. Which modern outcome is most directly traced to this agreement?",
         "options": [
-          "Surrealism",
-          "Dada",
-          "Constructivism",
-          "Fauvism"
+          "1947 partition of India",
+          "Borders of modern Iraq, Syria, Lebanon, Jordan",
+          "League of Nations African mandates",
+          "The Balfour Declaration"
         ],
         "correct": 1,
-        "why": "Dada (1916, Zurich) was explicitly anti-art — its practitioners used nonsense poetry, found objects, and chance procedures to reject the rational civilisation they blamed for WWI. Surrealism grew from it but sought systematic exploration of the unconscious rather than pure negation.",
-        "deepDive": "Dada emerged in 1916 in neutral Zurich, founded by Hugo Ball and Tristan Tzara. Its name was chosen for its meaninglessness. Key works: Marcel Duchamp's Fountain (a urinal submitted as fine art), Hannah Hoch's photomontages cutting up Weimar mass media. Dada did not want better art — it wanted to abolish the category, because the same bourgeois rational culture that made serious art had also made Verdun and the Somme. John Cage later extended Dada's chance operations into music. Conceptual art, performance art, and Situationism all trace back to Dada's core argument: art's most honest response to catastrophe is absurdity and negation."
+        "why": "Sykes-Picot created the territorial template for modern Iraq, Syria, Lebanon, Jordan."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "Medieval composers called the interval spanning exactly three whole tones — C to F-sharp, for example — diabolus in musica and discouraged it in sacred counterpoint. What is the musical reason?",
+        "subtopic": "religion",
+        "stem": "Hanafi Islamic jurisprudence uniquely distinguishes 'fard' from 'wajib' — a distinction the other three Sunni schools do not make. Which statement correctly describes this difference?",
         "options": [
-          "It is impossible to sing accurately without a keyboard reference, causing choral intonation problems",
-          "Its equal division of the octave creates no tonal resolution pull, disrupting the modal stability required for sacred music",
-          "It was associated with pagan pentatonic scales specifically excluded from Gregorian modes",
-          "Pope Gregory IX issued a formal condemnation of the interval in 1234 CE"
+          "Fard is collective; wajib is individual",
+          "Fard by definitive evidence; wajib by probable evidence; denial of fard is kufr",
+          "Fard for prayer; wajib for financial obligations",
+          "Fard for men; wajib for all Muslims"
         ],
         "correct": 1,
-        "why": "The tritone spans exactly 6 of 12 semitones — the only interval that divides the octave in half. This symmetry means it has no natural resolution direction, making it harmonically unstable. Medieval modal theory mapped resolution to divine order; the tritone's ambiguity was theologically as well as musically disturbing.",
-        "deepDive": "The tritone's symmetry means it has no resolution gravity. Unlike a perfect fifth, which pulls strongly toward the tonic, the tritone floats ambiguously. Medieval modal theory read harmonic resolution as a mirror of divine order; the tritone was sonic chaos. The prohibition was informal practice, not a single papal decree — a common misconception. In modern harmony, this instability becomes its power: the dominant seventh chord (G7) contains a tritone between B and F that drives the entire Western tension-release engine. Every jazz standard and blues progression exploits this. Jimi Hendrix's Purple Haze opens on a tritone — the most famous diabolus in musica in rock history."
+        "why": "Hanafi fiqh: fard by qat'i evidence (denial=kufr); wajib by zanni evidence."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "The Sapir-Whorf hypothesis has a strong and a weak version. Which statement accurately captures the weak version, and which empirical finding best supports it?",
+        "subtopic": "political_theory",
+        "stem": "Isaiah Berlin's 1958 essay distinguished 'negative liberty' from 'positive liberty.' Which philosopher argued that both miss a third concept — freedom as 'non-domination' — because a person can be unfree even with no actual interference, so long as another holds arbitrary power over them?",
         "options": [
-          "Language fully determines thought: speakers of languages without a word for a concept cannot perceive that concept",
-          "Language subtly influences perception — speakers with separate words for light and dark blue discriminate those shades faster than languages with one word",
-          "All languages are cognitively equivalent; any thought in one can be expressed in all others with equal ease",
-          "Thought is entirely pre-linguistic; language only labels concepts already fully formed in the mind"
+          "John Rawls",
+          "Robert Nozick",
+          "Philip Pettit",
+          "Charles Taylor"
         ],
-        "correct": 1,
-        "why": "The weak version holds that language shapes, not determines, cognition. Key support: Russian speakers, who have distinct words for light and dark blue, discriminate blue shades faster than English speakers. The strong version — you cannot think what you cannot say — has no credible empirical support.",
-        "deepDive": "Sapir and Whorf proposed in the 1930s-40s that language structures thought. The strong version is largely discredited: people routinely think concepts they lack words for, as evident in language acquisition and translation. The weak version remains active research. Russian and Greek speakers with dedicated colour terms show faster perceptual discrimination. Lera Boroditsky showed that speakers of absolute-direction languages develop exceptional navigational ability. Piraha speakers, despite lacking number words above two, can perform basic numeric tasks. Consensus: language is a groove, not a cage — it shapes habitual cognitive pathways without sealing them off."
+        "correct": 2,
+        "why": "Pettit's Republicanism (1997) introduced non-domination as the basis of freedom."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "In limited-overs cricket, the Duckworth-Lewis-Stern method sets a revised target when play is interrupted. What two-dimensional resource does it measure, and why does this matter?",
+        "subtopic": "economics",
+        "stem": "The 'Dutch Disease' describes how a commodity export boom hollows out a country's manufacturing sector. Which mechanism is the PRIMARY driver of this deindustrialisation?",
         "options": [
-          "DLS counts fielding errors and assigns penalty runs proportional to defensive mistakes before the interruption",
-          "DLS models batting resources as a joint function of overs remaining AND wickets in hand, so the revised target reflects what team one's total was worth given both teams' equivalent resource curves",
-          "DLS measures time lost in minutes and applies a linear run-rate deduction equal to time lost times the current run rate",
-          "DLS resets both teams to equal overs at the interruption point and discards all pre-interruption scores"
+          "Government corruption",
+          "Real exchange rate appreciation",
+          "Worker migration to resource sector",
+          "Import tariffs"
         ],
         "correct": 1,
-        "why": "DLS's key insight: a team 5 wickets down with 20 overs left has fewer resources than a team with all wickets intact and 20 overs. Measuring both dimensions produces a fair par score that previous methods — which only counted overs lost — famously failed to deliver.",
-        "deepDive": "DLS was introduced to ODI cricket in 1997 and updated with Steven Stern's refinements in 2014. Previous rain rules only counted overs lost, producing absurd results — most infamously the 1992 World Cup semi-final where South Africa needed 22 from 1 ball under the Most Productive Overs method. DLS defines a team's resource as a two-dimensional function of overs remaining and wickets in hand, calibrated empirically from thousands of innings. A team starting a 25-over chase with all wickets intact has more resource than one already 5 down — the par score adjusts accordingly. The method is ICC-mandated worldwide. Critics find it opaque; the underlying tables are not public, which fuels controversy on close calls."
+        "why": "Primary Dutch Disease mechanism: real exchange rate appreciation from resource revenues."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "Horton and Wohl coined 'parasocial relationship' in 1956 to describe a new kind of emotional bond. What specific feature of early television prompted them to develop the concept?",
+        "subtopic": "literature",
+        "stem": "Magical realism integrates supernatural events into an otherwise realistic narrative. What is the technique's defining characteristic that distinguishes it from fantasy or surrealism?",
         "options": [
-          "Viewers wrote fan letters as if to personal friends, mistaking scripted drama for documentary reality",
-          "Television hosts addressed cameras in first-person — looking directly at viewers, using 'you' — mimicking face-to-face intimacy and generating one-sided bonds that felt reciprocal to viewers",
-          "Advertisers deliberately engineered false familiarity between viewers and celebrity endorsers to drive purchase behaviour",
-          "Children watching cartoons over 3 hours daily showed diminished peer social skills, preferring animated characters to classmates"
+          "Author signals via italics/voice shift",
+          "Matter-of-fact tone; no character registers surprise",
+          "Magic encodes indigenous mythology",
+          "Magic as metaphor for historical trauma"
         ],
         "correct": 1,
-        "why": "Horton and Wohl's insight was about television's direct-address style — the camera simulates eye contact. Talk show hosts speaking at viewers using 'you' triggered the same neural intimacy cues as real face-to-face conversation, creating one-sided bonds that felt genuinely social.",
-        "deepDive": "Horton and Wohl published Mass Communication and Para-Social Interaction in Psychiatry (1956). Their observation: when a TV host looked into the camera and said 'Well folks, you know what I always say...' they were using the same gaze cues and direct address humans use in face-to-face interaction. The viewer's brain responded as if to a real social encounter, even though no reciprocation was possible. Decades later, this explains YouTube and TikTok creator loyalty: a creator filming themselves in their bedroom, speaking casually, looking directly into the camera lens, triggers identical parasocial activation. Post-COVID research found intensified parasocial bonds filling social voids — making this 1956 insight structurally central to the modern attention economy."
+        "why": "Magical realism: supernatural treated as matter-of-fact, no narrative surprise."
       }
     ]
   }
