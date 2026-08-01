@@ -364,38 +364,43 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  date: "2026-07-31",
-  dateLabel: "Friday · 31 July 2026",
-  editionLabel: "Edition · Friday 31 July",
-  headline: "Fed holds as 3 hawks dissent; Hormuz Day 152 traps 6,000 seafarers; Bangladesh Bank cuts 50bp; TSMC raises capex ceiling and AI spending race accelerates.",
+  date: "2026-08-01",
+  dateLabel: "Saturday · 01 August 2026",
+  editionLabel: "Edition · Saturday 01 August",
+  headline: "August GRIs hit transpacific today; Islami Bank posts Tk 1,028cr Q2 loss; EU energy inflation tops 11%; Claude Opus 5 ships.",
   sections: [
     {
       title: "Macro · Geopolitics · Politics",
       items: [
         {
-          lead: "Fed holds at 3.50–3.75% for fifth consecutive meeting; three regional hawks dissent.",
-          body: "Hammack (Cleveland), Kashkari (Minneapolis), and Logan (Dallas) voted to hike 25bp at the July 29 FOMC — the most dissents in years. Chair Warsh rejected the word 'pause,' calling it 'a rigorous review.' Markets now price 1–2 hikes by year-end as Iran-driven energy costs keep inflation above 2% for a fifth straight year.",
+          lead: "Hormuz Day 153+: WTI above $110; eurozone energy inflation crosses 11%, GDP forecast cut to 0.8%.",
+          body: "EC Spring Forecast slashes eurozone 2026 growth to 0.8% (from 1.4%) as Iran's Strait closure — 20% of world oil — keeps energy costs surging. Near-zero probability of Hormuz normalisation before Q4. EU energy-intensive industries under acute margin pressure; recession risk rising in a severe-scenario model.",
+          src: { name: "Euronews / EC", url: "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/economic-forecasts/spring-2026-economic-forecast-slowdown-growth-energy-shock-drives-inflation_en" }
+        },
+        {
+          lead: "Fed's July 29 hold (9–3) locks September as the next live rate decision.",
+          body: "Three hawks — Hammack, Kashkari, Logan — dissented for hikes: the most dissents in a decade. Markets now price a September cut-vs-hike binary as the binding decision. Chair Warsh refused the word 'pause.' Persistent above-target inflation driven by energy costs remains the Fed's binding constraint.",
           src: { name: "CNBC / Fed", url: "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html" }
         },
         {
-          lead: "US issues new Iran sanctions: 10 entities, 8 more tankers designated (Jul 29).",
-          body: "Treasury targeted entities 'monetizing the Strait of Hormuz' after Iran struck three commercial vessels that bypassed its preapproved corridor. The June 17 ceasefire deal has effectively collapsed; US military has struck 80+ Iran targets since the conflict resumed in July.",
-          src: { name: "US News / Reuters", url: "https://www.usnews.com/news/top-news/articles/2026-07-29/us-issues-new-iran-related-sanctions-targeting-tankers-treasury" }
+          lead: "US explicitly pledges to block India replicating China's economic rise; deepens Pakistan military partnership.",
+          body: "Trump administration has told Pakistan military leadership Washington will resist Indian economic dominance in the Indo-Pacific — a sharp reversal from Biden-era Quad solidarity. New Delhi is recalibrating its non-aligned posture as US–Pakistan defence-tech transfers accelerate and Islamabad gains strategic headroom.",
+          src: { name: "Modern Diplomacy / Raksha Anirveda", url: "https://moderndiplomacy.eu/2026/05/27/india-and-pakistan-geopolitics-how-competing-narratives-shape-south-asias-global-role/" }
         },
         {
-          lead: "Ukraine air ceasefire stalls; Rubio-Lavrov Manila talks collapse in 35 minutes.",
-          body: "Kyiv and Washington have tabled an air-attack ceasefire proposal; Kremlin calls it 'premature.' Zelensky-Trump NATO summit in Ankara produced a UK jamming-tech pledge and Senate sanctions vote — but no negotiating framework for ground or air.",
-          src: { name: "Moscow Times / CBC", url: "https://www.themoscowtimes.com/2026/07/26/kremlin-says-too-early-to-comment-on-reported-us-ukraine-air-ceasefire-talks-a93342" }
+          lead: "US July 24 tariff round: 80+ countries hit; Taiwan at 10%, semiconductor carve-outs remain limited.",
+          body: "Latest tariff salvo confirmed persistent US tariff architecture after the 90-day review. Taiwan's 10% reflects strategic value; semiconductor and data-centre equipment — one-third of global trade growth — not fully exempted. Supply-chain restructuring investment is accelerating across Vietnam, Malaysia, and Mexico.",
+          src: { name: "Taiwan Plus / Taipei Times", url: "https://www.taipeitimes.com/News/editorials/archives/2026/07/27/2003861427" }
         },
         {
-          lead: "EU-US 15% tariff framework live since July 1 — autos drop from 27.5% to 15%.",
-          body: "European Parliament ratified in May after Trump threatened 25% escalation by July 4. EU goods capped at 15%; US industrials enter EU at zero. Major relief for transatlantic lanes, but 15% is still higher than pre-2025 MFN for most categories.",
-          src: { name: "RTE / CNBC", url: "https://www.cnbc.com/2026/05/20/eu-us-trade-deal-trump-autos.html" }
-        },
-        {
-          lead: "China H1 GDP: 4.7% growth; foreign trade up 16.9% YoY to 25.47 trillion yuan.",
-          body: "High-tech manufacturing +13.3%; Q2 decelerated to 4.3% from Q1's 5.0%. Structural export surplus widening as Beijing routes around US tariffs via third-country hubs. IMF projects global growth at 3.0% for 2026 — energy importers and AI-laggard economies diverging sharply downward.",
+          lead: "China Q2 GDP: 4.3% — deceleration from Q1's 5.0%; export surplus widening via third-country routing.",
+          body: "H1 at 4.7%, high-tech manufacturing +13.3%. Beijing routing exports through Vietnam, Malaysia, and Mexico to sidestep US tariff barriers. IMF holds global growth at 3.0% for 2026; energy-importing economies diverging sharply downward as Hormuz costs cascade through industrial inputs.",
           src: { name: "CGTN / IMF", url: "https://news.cgtn.com/news/2026-07-15/China-s-economy-grows-4-7-in-first-half-of-2026-1ONgqNSZZqE/share_amp.html" }
+        },
+        {
+          lead: "US captures Venezuelan President Maduro — most significant Western Hemisphere unilateral action in decades.",
+          body: "Trump's renewed Americas prioritisation achieved its marquee outcome. Maduro's capture reshapes OPEC+ dynamics, Chinese energy positioning in Latin America, and US leverage over Venezuela's proven reserves — the world's largest. Regional responses cautious; Venezuela crude supply chain disruption anticipated in coming weeks.",
+          src: { name: "Wellington / WEF", url: "https://www.wellington.com/en/insights/geopolitics-in-2026-risks-and-opportunities-were-watching" }
         }
       ]
     },
@@ -403,24 +408,24 @@ const TODAY = {
       title: "Bangladesh & Subcontinent",
       items: [
         {
-          lead: "Bangladesh Bank cuts repo rate 50bp to 9.50% — effective August 2.",
-          body: "MPC decision July 30, chaired by Governor Md Mostaqur Rahman. SLF drops from 11.50% to 11.00%. First reduction after years of contractionary tightening; signals inflation cooling toward 9.4% creates headroom to support private credit and growth.",
-          src: { name: "Daily Star / BSS", url: "https://www.thedailystar.net/business/banking/news/bb-cuts-policy-rate-95-after-2-years-4236481" }
+          lead: "Islami Bank Bangladesh: Tk 1,028cr Q2 loss — investment income slump, NPIs rising sharply.",
+          body: "April–June quarterly results published today show the country's largest Shariah-compliant bank deep in the red. Investment income collapsed; provisioning surged on non-performing investments. Comes as BB's rate cut (effective August 2) is meant to ease credit — but sector NPL overhang near 40% means transmission will be slow.",
+          src: { name: "Daily Star", url: "https://www.thedailystar.net/business/banking" }
         },
         {
-          lead: "BB issues sweeping revised export trade circular (July 30) — valid through July 2027.",
-          body: "16-part document consolidates all FX export instructions. New: e-document pilots under LCs and documentary collections via approved trade corridors; SOFR-based pricing for Export Development Fund (EDF) loans; Supply Chain Finance regulatory framework introduced.",
-          src: { name: "TBS News", url: "https://www.tbsnews.net/economy/banking/bb-updates-export-trade-rules-expands-digital-trade-financing-framework-1502431" }
+          lead: "NCP convoy stone-pelted twice in Sylhet's Golapganj — windows smashed, no casualties.",
+          body: "National Citizen Party leaders attacked while mobilising in Golapganj upazila — second such stone-pelting incident against NCP since the February elections. NCP (Nahid Islam, 8 seats) is pushing into BNP strongholds; the attacks suggest organised street-level resistance. Interior Ministry has not commented.",
+          src: { name: "Daily Star", url: "https://www.thedailystar.net/news/bangladesh" }
         },
         {
-          lead: "S&P revises Bangladesh outlook to 'Negative' — banking sector and energy costs cited.",
-          body: "State bank NPLs at ~40%; 10% US tariff pressure on RMG; Iran-war fuel surge pushing truck rates from Tk 38k to Tk 50k. S&P projects GDP growth averaging 4.5% over 3 years, well below historical pace. Rating itself held; outlook is the forward warning.",
-          src: { name: "TBS News / Daily Star", url: "https://www.tbsnews.net/economy/sp-revises-bangladesh-outlook-negative-banking-sector-fiscal-risks-1499791" }
+          lead: "Dengue emergency: 3 dead, 463 hospitalised in 24 hours — sharpest August spike since 2019.",
+          body: "National health data as of 8am August 1. Dhaka and Chittagong hospitals under acute strain; ICU capacity critical at three major public facilities. Monsoon pooling in peri-urban construction zones is the primary vector hotspot. Health Directorate activated district-level emergency protocol nationwide.",
+          src: { name: "Daily Star", url: "https://www.thedailystar.net/news/bangladesh" }
         },
         {
-          lead: "BB raises local textile cash incentive to 5% for FY27; 43 sectors covered.",
-          body: "FY2026-27 export incentive package expands sectoral support. Local textile manufacturers specifically targeted as yarn import costs and transport expenses erode competitiveness against regional peers in Vietnam and Cambodia under current tariff environment.",
-          src: { name: "BSS News", url: "https://www.bssnews.net/business/404848" }
+          lead: "Bangla QR adoption stalling: MDR floor makes QR unprofitable despite BB's July 1 mandate.",
+          body: "Industry insiders say the minimum Merchant Discount Rate for Bangla QR transactions is discouraging adoption of the interoperable payment platform, even after BB made it mandatory from July 1. Merchants prefer cash or card where interchange economics work better. Fintech operators are lobbying for MDR structure revision before the October BB review.",
+          src: { name: "Daily Star", url: "https://www.thedailystar.net/business" }
         }
       ]
     },
@@ -428,29 +433,29 @@ const TODAY = {
       title: "Trade & Freight",
       items: [
         {
-          lead: "Hormuz Day 152: 6,000 seafarers stranded on 400 vessels; IMO evacuation plan paused.",
-          body: "UN OHCHR reports some shipowners abandoned crews without food, water, electricity, or salary. PortWatch: 10 transits/day vs 88 pre-crisis baseline. IMO DG Dominguez: 'innocent people not trained for combat.' No timeline for evacuation resumption.",
-          src: { name: "UN News / Marine Insight", url: "https://news.un.org/en/story/2026/07/1168004" }
+          lead: "August 1 transpacific GRIs go live: $2,000–$3,000/FEU across major carriers today.",
+          body: "Largest single calendar rate event since peak season began. Carriers implementing GRIs despite continued spot rate declines: WCI fell 3% to $4,255/FEU as of July 30. SHA–LA at $5,739; SHA–NY at $7,578. China-to-US volume down 13% YoY — carriers using price discipline to defend the contract–spot rate spread.",
+          src: { name: "Loadstar / gCaptain", url: "https://theloadstar.com/rates-still-in-decline-but-optimistic-carriers-look-for-an-august-spike/" }
         },
         {
-          lead: "Drewry WCI: $4,374/40ft — second consecutive weekly decline (week of Jul 23).",
-          body: "Asia-Europe and Transpacific led the fall as added capacity meets easing demand. Post-tariff-deadline US front-loading fading. Rates remain 61% above prior-year; carriers announcing Emergency Fuel Surcharges effective August to offset Hormuz-related bunker costs.",
-          src: { name: "Drewry / IndexBox", url: "https://www.indexbox.io/blog/drewry-world-container-index-rises-9-to-us4530-as-peak-season-drives-rates/" }
+          lead: "Selected carriers trialing Suez Canal returns after 18 months of Cape-default routing.",
+          body: "Some major lines announcing limited trial Suez voyages — not a wholesale return. Security assessments required voyage-by-voyage; Yemen ceasefire remains fragile and Houthi targeting doctrine is unchanged. Cape of Good Hope remains the institutional default; Suez trial adds optionality for urgent or premium services only.",
+          src: { name: "Marine Insight / Zencargo", url: "https://www.marineinsight.com/suez-canal-2026-will-global-shipping-return-to-the-red-sea/" }
         },
         {
-          lead: "Spot rates still punishing: SHA-LA $6,482/FEU (+253%); SHA-NY $7,904/FEU (+101%).",
-          body: "Shippers who missed NAC windows in Q1 absorbing compounding surcharge stacks: GRI + BAF + LSS + EFS + war risk + PSS. US East Coast capacity tighter than West Coast. Carriers selective on allocation as transatlantic demand stays firm post EU-US deal.",
-          src: { name: "YQN / JM Rodgers", url: "https://www.jmrodgers.com/july-2026-freight-market-update/" }
+          lead: "GRI + Hormuz EFS stack creates tightest spot margin squeeze of 2026 for shippers.",
+          body: "August 1 GRIs land on top of Emergency Fuel Surcharges carriers levied in July to offset Hormuz-driven bunker costs. Full spot surcharge stack: GRI + EFS + BAF + LSS + PSS simultaneously. Contract holders with NAC protections are partially shielded; pure spot shippers absorbing compound cost with no relief mechanism.",
+          src: { name: "Freightos / Loadstar", url: "https://freightslogistics.com/august-2026-ocean-freight-rates-are-falling/" }
         },
         {
-          lead: "ONE exits OCEAN Alliance transpacific loops CP1–CP4; Premier Alliance slot reshuffle underway.",
-          body: "Final CP loop sailed July 6 in Shanghai. ONE joining Premier (HMM + Yang Ming) concentrates that alliance on Asia-US. CMA CGM/COSCO/OOCL/Evergreen must absorb or redeploy capacity — likely to shift transshipment hub feeder allocations via Colombo and Singapore.",
+          lead: "Air freight yields rising: Hormuz diversion demand boosting belly capacity on Asia–Gulf–Europe lanes.",
+          body: "Time-sensitive cargo shifting to air as ocean routing uncertainty persists. Belly capacity tight on Asia–Europe and Asia–Gulf routes as fewer widebody passenger aircraft operate Iran-adjacent airspace. Drewry Air Freight Index July 2026 data publishing this week; Bangladesh garment air freight yields rising for first time in six months.",
+          src: { name: "Drewry", url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/airfreight-index" }
+        },
+        {
+          lead: "ONE fully in Premier Alliance (HMM + Yang Ming) — Asia-US feeder hub allocations reshuffling.",
+          body: "ONE's transition to Premier Alliance is complete after last OCEAN Alliance transpacific CP loop sailed July 6. Colombo and Singapore transshipment hub slot allocations are being renegotiated. Feeder operators in the Bay of Bengal are adjusting capacity and schedules; South Asian exporters should confirm mainline vessel assignments with their forwarders.",
           src: { name: "Container News", url: "https://container-news.com/shipping-alliances-carriers-and-msc-continue-to-control-over-82-of-market/" }
-        },
-        {
-          lead: "Suez Canal drone strike at Damietta threatens new Red Sea front.",
-          body: "Drone hit gas vessels near Egypt's Damietta port — potential Houthi spillover from Iran-Hormuz conflict. Canal itself remains operational but attack signals resumed risk on the northern Red Sea approach. Cape of Good Hope remains default routing for most major carriers.",
-          src: { name: "Future Forwarding", url: "https://www.futureforwarding.com/middle-east-shipping-update-red-sea-suez-canal-and-strait-of-hormuz-2/" }
         }
       ]
     },
@@ -458,197 +463,192 @@ const TODAY = {
       title: "Semis & AI",
       items: [
         {
-          lead: "TSMC raises 2026 CapEx to $60–64B (from $52–56B); revenue growth upgraded to 40%+.",
-          body: "Q2 2026 beat every metric. Company also announced $100B additional Arizona fab commitment — likely 4 more fabs. N3/N2 demand driven by Nvidia AI accelerators underpins long-cycle conviction. Stock sold off anyway on 'beat-and-sell' dynamic as capex overshoot alarmed investors.",
-          src: { name: "Yahoo Finance / Kalkine", url: "https://finance.yahoo.com/markets/article/tsmc-raises-capex-and-revenue-forecast-highlighting-growing-ai-chip-demand-113101950.html" }
-        },
-        {
-          lead: "Chip selloff deepens: SMH ETF -9.5% month-on-month; Nvidia -2.2% in a single session.",
-          body: "Philly Semiconductor Index in longest losing streak of 2026. Catalysts: China foundry progress alarming markets on competitive moat erosion; AI capex sustainability questions after cloud hyperscaler Q2 guidance; TSMC's higher spend signals demand pull but unnerves on profitability timeline.",
-          src: { name: "Bloomberg / ABC News", url: "https://www.bloomberg.com/news/articles/2026-07-28/korean-stocks-sink-as-chipmakers-plung-on-deepening-ai-fatigue" }
-        },
-        {
-          lead: "AMD–Anthropic: 2GW MI450 deal + AMD invests up to $5B equity in Anthropic (Jul 22).",
-          body: "First GW of Helios rack-scale compute deploys H1 2027. Circular structure: AMD buys Anthropic equity; Anthropic commits to tens of billions in AMD chip purchases. Adds AMD alongside Google, AWS, Broadcom, SpaceX as Anthropic infrastructure partners — first major frontier lab bet against Nvidia dominance.",
-          src: { name: "AMD IR / CNBC", url: "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus" }
-        },
-        {
-          lead: "OpenAI GPT-5.6 (Sol/Terra/Luna): first frontier model requiring US government clearance per customer.",
-          body: "Customer-by-customer review before public deployment — AI export-control architecture now embedding at the model layer, analogous to semiconductor EAR compliance. Signals Washington treating frontier AI deployment as a national security matter requiring same rigor as chip export controls.",
+          lead: "Anthropic ships Claude Opus 5 — most capable frontier model yet; AMD compute deal provides backstory.",
+          body: "Closing out July, Anthropic released Opus 5, its reasoning-heavy flagship. Follows Claude Sonnet 5 and the AMD 2GW MI450 deal (July 22). Opus 5 targets agentic and scientific workloads. First frontier-class model where Anthropic has a non-Nvidia compute pathway planned at scale — making ROCm software quality a live question for inference economics.",
           src: { name: "ThursdAI / LLM Stats", url: "https://thursdai.news/releases/2026-07" }
         },
         {
-          lead: "AI Safety Index: leading labs weakening pause commitments as competition intensifies.",
-          body: "Future of Life Institute's latest assessment finds developers have removed or diluted earlier commitments to halt development when systems approach danger thresholds. Safety architecture fraying just as models cross qualitative capability boundaries — oversight gap widening in real time.",
-          src: { name: "FLI / ThursdAI", url: "https://thursdai.news/releases/2026-07" }
+          lead: "Semiconductor revenues break $1T in 2026 — AI chips are 0.2% of units but ~50% of revenue.",
+          body: "Historic industry milestone. AI chip structural bifurcation is stark: commodity DRAM and NAND squeezed on price while HBM and AI logic ICs generate outsized margin. Computing and data storage segment alone growing 41% YoY to $500B+. Industry's 26% 2026 growth rate outpaces every prior cycle except the 1999 bubble.",
+          src: { name: "Barchart / Deloitte", url: "https://www.barchart.com/story/news/37057875/ai-drives-semiconductor-revenues-past-1-trillion-for-the-first-time-in-2026" }
         },
         {
-          lead: "Open-weights frontier: Kimi K3 at 2.8T params (Moonshot); Thinking Machines Inkling at 975B.",
-          body: "Largest open-weights release yet. Meta's Muse Spark 1.1 also ships with a paid developer API. Open-closed frontier gap compressing: enterprise AI buyers now face genuinely competitive open alternatives to GPT-5 and Claude, complicating vendor lock-in decisions and licensing strategy.",
-          src: { name: "LLM Stats / ThursdAI", url: "https://llm-stats.com/llm-updates" }
+          lead: "TSMC developing EMIB-like advanced packaging to challenge Intel's multi-die interconnect dominance.",
+          body: "Internally codenamed 'EMIB Like,' TSMC is partnering with Taiwan's Kinsus Interconnect Technology on a chip packaging rival to Intel's EMIB. Signals the competitive axis in semiconductors moving from process-node shrinks (already at 2nm) to advanced packaging integration — enabling the chiplet architectures powering next-gen AI accelerators.",
+          src: { name: "Benzinga / Seeking Alpha", url: "https://www.benzinga.com/markets/tech/26/07/60829355/tsmc-is-reportedly-developing-advanced-chip-packaging-tech-to-challenge-intels-dominance" }
+        },
+        {
+          lead: "Chiplet architectures ending the monolithic GPU era as AI workload diversity fragments compute needs.",
+          body: "The single monolithic GPU as AI's default compute platform is structurally ending. Diverse AI workloads — inference, training, fine-tuning, retrieval — need different compute, memory, and I/O ratios. AMD MI450 Helios rack-scale and Nvidia NVLink domain are competing chiplet bets. Mix-and-match from different process nodes is becoming the engineering default.",
+          src: { name: "Deloitte / Edge AI Vision", url: "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/semiconductor-industry-outlook.html" }
+        },
+        {
+          lead: "Google Gemini 3.6 Flash now free-tier default; DeepMind + Boston Dynamics Spot integration goes live.",
+          body: "Gemini 3.6 Flash (July 21) is Google's free-tier default equivalent of ChatGPT — cheaper, faster. Separately, Boston Dynamics integrated Gemini Robotics-ER 1.6 into the Spot robot dog and Orbit AI visual inspection platform. Concrete AI-in-physical-world deployment at industrial scale; the AI race is extending beyond software into robotics infrastructure.",
+          src: { name: "ThursdAI / Boston Dynamics", url: "https://thursdai.news/releases/2026-07" }
         }
       ]
     }
   ],
   lesson: {
-    title: "Feeder Networks: How Hub-and-Spoke Maritime Routing Connects Emerging Markets to Global Trade",
+    title: "The Rentier State Paradox: Why Petrodollar Abundance Produces Institutional Fragility",
     paragraphs: [
-      "Most of the world's export cargo never travels door-to-port on a single mainline vessel. Instead it moves in two legs: a feeder — a smaller ship of 300–2,000 TEU — collects containers from secondary ports like Chittagong, Karachi, or Colombo and carries them to a regional transshipment hub (Singapore, Colombo, Tanjung Pelepas, Port Klang, Salalah, Jebel Ali). A mainline ultra-large vessel (10,000–24,000 TEU) then takes the consolidated load across the ocean trade lane. This hub-and-spoke architecture lets carriers fill megaships on trunk routes while still economically serving markets that cannot generate enough volume for a direct mainline call.",
-      "Feeder services have their own rate structure, operators, and risk profile. Regional carriers — X-Press Feeders, SITC, RCL, and national operators — run short-haul routes on weekly or bi-weekly frequency with their own demurrage and detention clocks. The critical operational risk: missing the feeder cut-off at Chittagong by even a few hours cascades into missing the mainline ETD at Colombo, typically adding 7–10 days to transit. This gap — feeder cut-off versus mainline departure — is one of the most common shipper pain points in South Asia, where feeder frequency is lower than North Asia and buffer time is slim. Alliance reshuffles on the mainline alter which hub handles which volume, which in turn determines which feeder operators win slots — so mainline strategy and feeder economics are inseparable.",
-      "For Bangladesh specifically, Chittagong's feeder connectivity to Colombo and Singapore is the single biggest determinant of export lead-time reliability. The 2025 formation of Gemini (Maersk + Hapag-Lloyd) and the reconfiguration of Premier Alliance (ONE + HMM + Yang Ming) shifted transshipment hub preferences across Asia, creating uncertainty in feeder slot allocation at South Asian ports. ONE's July 2026 exit from OCEAN Alliance transpacific loops (CP1–CP4) adds another layer. When mainline alliances restructure, freight leaders in feeder-dependent markets like Bangladesh need to track hub-routing changes in real time — because a carrier's decision about which hub to serve ultimately reprices your customer's supply chain."
+      "Countries blessed with abundant natural resource revenues often develop weaker institutions, more authoritarian governance, and more volatile economies than resource-poor neighbors. This counterintuitive outcome — the Resource Curse in its most concentrated form — operates through the rentier state mechanism. A rentier state derives the bulk of its revenue from external rents (oil royalties, pipeline fees) rather than from taxing its own population. This breaks the foundational social contract: no taxation without representation runs both ways. When citizens do not fund the state, the state owes them no accountability. Rulers buy loyalty through patronage and welfare transfers rather than building competent, responsive institutions. The result is a state structurally insulated from the productive economy — and dangerously exposed when rents collapse.",
+      "The Gulf provides the clearest laboratory. Saudi Arabia, Kuwait, Qatar, and the UAE built post-WWII prosperity almost entirely on hydrocarbon rents. Iran is a degraded variant — rentier revenues funding a revolutionary state that has persisted far longer than its economic fundamentals should allow. Venezuela under Chávez and Maduro replicated the pattern catastrophically: when oil income collapsed, everything the state funded collapsed with it. Nigeria sits on one of Africa's largest reserves yet faces constant fiscal crisis. Gulf states now racing to diversify — Saudi Vision 2030, UAE Economy 2031, Qatar NDS 2030 — are explicitly trying to escape the rentier trap before demographic pressures and the energy transition force the issue from outside. These are not PR exercises; they are existential structural reforms.",
+      "The Hormuz crisis is partly a function of Iranian rentier desperation. A regime with near-zero non-oil tax revenue, a collapsing industrial base, and mounting legitimacy deficit uses the strait as its last high-value strategic lever. Understanding the rentier dynamic also explains why trade flows in the Gulf track oil price cycles far more than GDP fundamentals, why infrastructure investment is episodic and patronage-driven, and why port and logistics concessions in the region are intensely political. For MGH Group, Gulf commercial relationships carry sovereign risk profiles that look very different from what their GDP headline numbers suggest."
     ],
-    why: "MGH Group's Bangladesh operations are directly feeder-dependent. Chittagong connects to the global network via Colombo and Singapore feeders; any capacity crunch, operator withdrawal, or alliance reshuffle that shifts hub preference directly reprices Bangladesh's logistics economics and delivery windows. This is live commercial intelligence, not background knowledge."
+    why: "The Gulf is your commercial backyard. Knowing why Saudi Vision 2030 is existential — not branding — tells you where freight flows, infrastructure spend, and industrial investment are actually going over the next decade. Rentier logic also explains Iran's Hormuz gambit in strategic, not ideological, terms: it is a regime monetising its last leverage asset."
   },
   questions: [
     {
       n: 1,
       topic: "industry",
-      subtopic: "incoterms",
-      stem: "Under Incoterms 2020, a seller ships goods on CIP terms to Rotterdam. What is the minimum insurance coverage the seller is contractually obligated to provide — and how does this differ from CIF under the same edition?",
+      subtopic: "multimodal",
+      stem: "A single transport document covering all carriage modes under which a Multimodal Transport Operator (MTO) accepts door-to-door liability is formally called what?",
       options: [
-        "CIP requires Institute Cargo Clauses (C) minimum, same as CIF",
-        "CIP requires Institute Cargo Clauses (A) all-risks; CIF still only requires ICC (C) minimum",
-        "Both CIP and CIF require ICC (A) under Incoterms 2020",
-        "CIP has no minimum — insurance is optional; the seller need only offer to arrange coverage"
+        "Sea Waybill — covers ocean leg only, non-negotiable",
+        "Multimodal Bill of Lading (MBL) — single MTO liability across all modes",
+        "CMR Consignment Note — covers road and rail segments only",
+        "House Airway Bill — covers air and connecting road legs"
       ],
       correct: 1,
-      why: "Incoterms 2020 upgraded CIP from ICC(C) to ICC(A) — the all-risks standard. CIF deliberately retained ICC(C) as its minimum, reflecting commodity trade norms where buyers typically arrange own cover.",
-      deepDive: "The 2020 revision introduced a deliberate split: CIP (used for containerised, air, and multimodal) now mandates Institute Cargo Clauses (A) — the broadest all-risks cover excluding war, strikes, and SRCC unless added. CIF (restricted to sea/inland waterway, typically bulk commodities) retains the ICC(C) minimum, which covers only named perils: fire, explosion, stranding, sinking, collision, and general average. The practical stakes are high: a buyer trading on CIP terms in 2020 has genuinely broad cargo protection baked in; a CIF buyer should supplement independently. Many traders — especially those quoting from legacy databases or using 2010 contracts — still assume ICC(C) applies to CIP, leaving buyers underinsured without realising it. The change was deliberately made for CIP because containerised shipments are handled more times, face more handling risk, and involve higher-value goods than the bulk commodities where CIF is standard."
+      why: "An MBL designates a single MTO who assumes liability door-to-door across all transport modes under one instrument — the core feature distinguishing it from unimodal documents.",
+      deepDive: "Multimodal bills of lading emerged from the 1980 UN Convention on Multimodal Transport of Goods — a convention that never entered force but whose concepts the market adopted commercially. The key legal advantage: if cargo is damaged at an unknown point in a complex journey, the MTO is liable at the highest applicable convention limit rather than the shipper having to prove which leg caused the damage. In practice, many shipping line house bills function as de facto MBLs but may silently exclude certain modes or cap liability at Hague-Visby. Always read the transport document scope clause before dispatching high-value multimodal cargo. Bangladesh's growing intermodal infrastructure — the Chittagong-Dhaka inland container depot rail corridor — makes MBL literacy increasingly essential for South Asian exporters managing multi-leg supply chains."
     },
     {
       n: 2,
       topic: "industry",
-      subtopic: "bill_of_lading",
-      stem: "A switch bill of lading is issued to achieve what specific commercial purpose — and what is the primary legal risk it creates if executed improperly?",
+      subtopic: "trade_lanes",
+      stem: "After the 2024–2025 Red Sea crisis began, most Asia-Europe container carriers adopted which default alternative routing that added roughly 12–14 sailing days per round trip?",
       options: [
-        "To substitute a new discharge port after sailing, creating shipper liability for vessel deviation",
-        "To hide the original cargo origin or first shipper from the end buyer, while maintaining negotiability — creating double-title risk if the original BL set is not surrendered first",
-        "To confirm telex release, eliminating the need to present original BLs at destination",
-        "To document mid-voyage transhipment onto a second vessel, replacing two BLs with a single through document"
+        "Suez Canal with naval escort protocol",
+        "Panama Canal westbound transpacific re-routing",
+        "Cape of Good Hope around southern Africa",
+        "Arctic Northern Sea Route via Russia"
       ],
-      correct: 1,
-      why: "Switch BLs are issued in triangular trades to conceal origin or shipper identity. If the original BL set is not surrendered before the switch, two valid title documents exist for the same cargo — enabling fraud.",
-      deepDive: "A switch bill of lading replaces the original BL with a new one showing a different shipper, port of loading, or both — common in Hong Kong/Singapore middleman trades where a trader buys from a Bangladesh factory and resells to a European buyer without disclosing the source. The carrier issues the switched BL against surrender of the original set. The critical risk: if originals are not fully recovered before switching, both sets are technically valid instruments of title — meaning two parties could each present a 'valid' BL at destination. This is a documented fraud vector. Reputable carriers require written letters of indemnity and sometimes bank guarantees before processing switches. Singapore, UK, and US courts have ruled improperly issued switch BLs as fraudulent instruments. For a freight forwarder handling both legs, rigorous tracking of original BL status and written confirmation of surrender before instructing the carrier is not optional."
+      correct: 2,
+      why: "Cape of Good Hope routing bypasses the Houthi-controlled Bab-el-Mandeb and adds roughly 7,500 nautical miles, effectively removing 30–40% of effective global container capacity through longer voyage times.",
+      deepDive: "Cape of Good Hope rerouting was the defining supply chain event of 2024–2025. Adding 7,500 nautical miles and 12–14 days per voyage required 30–40% more vessels to maintain the same service frequency — equivalent to hundreds of new large containerships appearing overnight. Bunker costs per voyage rose by $1–2M per ship. Schedule reliability collapsed to 30–40% on Asia-Europe lanes. European port congestion spiked as vessels bunched on arrival. Carriers levied surcharges stacked five-to-seven deep. Key Cape route waypoints: Colombo feeder hub, around Durban, Cape Agulhas (the true southernmost tip of Africa, often confused with Cape of Good Hope), Walvis Bay in Namibia, then north to Algeciras or Tanger Med. Understanding this geography is now baseline freight operations knowledge for any South Asian exporter targeting European buyers."
     },
     {
       n: 3,
       topic: "industry",
-      subtopic: "pricing",
-      stem: "The Low Sulphur Surcharge (LSS) — also branded as EFF or IMO 2020 surcharge — became a standard line item in carrier tariffs from January 2020. What regulatory trigger made it unavoidable?",
+      subtopic: "marine_insurance",
+      stem: "Under Institute Cargo Clauses, which specific risk is covered by ICC (A) but is explicitly excluded under both ICC (B) and ICC (C)?",
       options: [
-        "IMO's 2016 Ballast Water Management Convention requiring scrubber installation across the global fleet",
-        "MARPOL Annex VI's IMO 2020 global sulphur cap, cutting maximum fuel sulphur from 3.5% to 0.5% outside Emission Control Areas",
-        "EU Emissions Trading System requiring carriers to purchase carbon allowances for voyages calling EU ports",
-        "MARPOL Tier III NOₓ standards mandating SCR catalyst fitment on all newbuilds after 2016"
+        "Stranding or grounding of the carrying vessel",
+        "Entry of sea or lake water into the hold or container",
+        "Theft and pilferage of the insured cargo",
+        "General average sacrifice contribution"
       ],
-      correct: 1,
-      why: "IMO 2020 cut max sulphur from 3.5% to 0.5% globally. Compliance via VLSFO costs ~$200–350/tonne above HSFO; carriers passed this through as LSS/EFF. The EU ETS layer arrived later, from 2024.",
-      deepDive: "MARPOL Annex VI's global sulphur cap took effect January 1, 2020 — the most commercially disruptive maritime environmental regulation in decades. Carriers had three paths: switch to Very Low Sulphur Fuel Oil (VLSFO, ≤0.5%), install open-loop or closed-loop scrubbers to keep burning High Sulphur Fuel Oil (HSFO), or run LNG vessels. VLSFO ran $200–350/tonne above HSFO in the first two years, a cost carriers passed through as LSS. Understanding the mechanics helps in contract negotiation: when crude oil and refining margins compress the HSFO-VLSFO spread, LSS should theoretically fall — but carriers historically reduce surcharges more slowly than they raise them. The EU ETS added a carbon cost layer from 2024, requiring carriers to surrender emissions allowances for EU voyages (growing to 100% of EU port calls by 2026) — a separate line item that compounds total freight cost. Tracking both surcharge components is now standard freight-cost modelling."
+      correct: 2,
+      why: "ICC (A) is all-risk with named exclusions; ICC (B) and (C) are named-perils policies and both explicitly exclude theft and pilferage — a critical gap for cargo moving through high-risk port environments.",
+      deepDive: "Institute Cargo Clauses were drafted by the Institute of London Underwriters (now part of the London Market Group) and last substantively revised in 2009. The tiered structure reflects a perils-vs-all-risk philosophy: ICC (C) covers only catastrophic vessel perils — fire, explosion, stranding, sinking, collision, jettison; ICC (B) extends to physical and weathering damage including earthquake, washing overboard, and water entry; ICC (A) inverts to all-risk with specific named exclusions. The theft exclusion from (B) and (C) has real-world impact in South Asian and West African ports where cargo pilferage rates are elevated. Key exclusions even under ICC (A): inherent vice, delay, willful misconduct of the assured, and nuclear risk. Cyber coverage is now frequently added back via Lloyd's Market Association bespoke endorsements. Always confirm the applicable clause set before quoting cargo insurance on high-risk routings."
     },
     {
       n: 4,
       topic: "industry",
-      subtopic: "air_freight",
-      stem: "A shipment of automotive trim weighs 480 kg gross and measures 120 cm × 80 cm × 100 cm. Using IATA's volumetric divisor of 6,000 cm³ per kg, what is the chargeable weight billed to the shipper?",
+      subtopic: "compliance",
+      stem: "The IMDG Code classifies standalone lithium-ion battery cells shipped loose — not installed in or with equipment — under which hazard class?",
       options: [
-        "480 kg — actual gross weight, because it exceeds volumetric weight",
-        "160 kg — volumetric weight only applies since the cargo is light relative to its size",
-        "480 kg — IATA always uses gross weight for industrial cargo regardless of dimensions",
-        "640 kg — chargeable weight is the sum of actual and volumetric"
+        "Class 3 — Flammable Liquids",
+        "Class 4.1 — Flammable Solids",
+        "Class 8 — Corrosive Substances",
+        "Class 9 — Miscellaneous Dangerous Goods"
       ],
-      correct: 0,
-      why: "Volumetric = (120 × 80 × 100) ÷ 6,000 = 160 kg. Actual = 480 kg. Chargeable = whichever is greater = 480 kg (actual).",
-      deepDive: "IATA's chargeable weight rule ensures airlines are compensated whether a shipment is dense-and-heavy or light-and-bulky. Volumetric weight = (L × W × H in cm) ÷ 6,000. If volumetric exceeds actual, volumetric is charged — if actual exceeds volumetric, actual is charged. Here: 120 × 80 × 100 = 960,000 cm³ ÷ 6,000 = 160 kg volumetric vs 480 kg actual — actual wins. Express courier operators (FedEx, DHL) often use 5,000 as the divisor for parcels, yielding higher chargeable weight on the same carton. For consolidators, the break-even density (where actual = volumetric) is 166.7 kg/m³ at the IATA standard divisor — goods below this density are volumetrically rated. Light, high-volume goods like garments, empty bottles, and foam packaging often volumetrically rate significantly above their physical weight, making air consolidation economics very sensitive to cube utilization. Skilled forwarders use cargo mix to ensure dense freight subsidizes volume freight within an ULD."
+      correct: 3,
+      why: "Loose lithium-ion cells (UN3480) and lithium metal cells (UN3090) are IMDG Class 9 — Miscellaneous Dangerous Goods — a catch-all for transport hazards not fitting other classes.",
+      deepDive: "Lithium battery transport regulation is one of the fastest-evolving dangerous goods compliance areas since a 2014 fire on a Boeing 747 freighter was traced to a battery shipment. Loose cells (UN3480 lithium-ion, UN3090 lithium metal) are Class 9; batteries in or with equipment (UN3481, UN3091) receive packaging relaxations. ICAO prohibited loose lithium-ion batteries on cargo aircraft from 2016 — a major constraint on consumer electronics air freight. Key operational requirements: state-of-charge (SoC) must be capped at 30% for air; specific vessel stowage codes apply at sea; fire-resistant container liners are increasingly required. Bangladesh EPZs servicing mobile phone component assembly face this compliance requirement daily — misdeclaration penalties are severe, and customs seizures at Singapore and Colombo transshipment hubs are a documented risk for improperly documented electronics cargo."
     },
     {
       n: 5,
       topic: "industry",
-      subtopic: "ftas",
-      stem: "Bangladesh graduated from Least Developed Country (LDC) status in 2026. Which trade preference is most immediately threatened by this reclassification — and why?",
+      subtopic: "industry_econ",
+      stem: "During a freight market trough, a carrier locks in a fixed-rate 'evergreen contract' with no BAF indexation and no adjustment clause. Which party bears the commodity price risk if market rates subsequently spike?",
       options: [
-        "SAFTA MFN tariff rates among SAARC members, which are LDC-conditional",
-        "EU's Everything But Arms (EBA) scheme, which grants duty/quota-free access exclusively to LDCs and will be withdrawn after a transitional grace period",
-        "RCEP preferential rules of origin for electronics exports from Bangladesh",
-        "US GSP benefits, which Bangladesh had continuously received since 1974"
+        "The shipper bears it via quarterly mark-to-market reconciliation",
+        "The carrier bears it — locked into below-market pricing as rates rise",
+        "Both parties share it equally via a built-in profit-sharing clause",
+        "A P&I Club absorbs the variance through cargo liability coverage"
       ],
       correct: 1,
-      why: "EBA is explicitly LDC-only. Graduation triggers a transitional period (typically 3 years) before duty-free access lapses, exposing Bangladesh RMG to the standard 12% EU MFN tariff. Bangladesh was suspended from US GSP since 2013; RCEP membership is not held.",
-      deepDive: "The EU's Everything But Arms initiative (2001) allows LDCs to export virtually all goods duty-free and quota-free. For Bangladesh, this underpins its RMG competitiveness — garments face 0% EBA duty vs. the standard 12% MFN rate for non-LDC exporters. Upon graduation, EU rules provide a 3-year transition before EBA access lapses. Post-transition, Bangladesh must either qualify for GSP+ (requiring ratification and implementation of 27 international conventions on human rights, labour, environment, and good governance) or compete at 12% MFN — a potentially existential margin squeeze for the RMG sector. For comparison, Vietnam already operates at MFN rates in many markets and has compensated via productivity gains and FTA coverage that Bangladesh lacks. For logistics operators serving Bangladesh, this changes the fundamental cost equation for European buyers and affects sourcing decisions and pricing power across the supply chain."
+      why: "A fixed-rate evergreen contract with no adjustment clause locks the carrier into below-market revenue if spot rates rise — the shipper captures the full upside of rate recovery.",
+      deepDive: "Ocean freight pricing cycles swing violently. A 14,000 TEU containership costs roughly $100M to build and $50,000 per day to operate at sea; at trough rates of $300–500 per box, revenue barely covers variable costs. That cycle drove the mega-mergers of 2016–2023 (Hapag/Hamburg Süd, CMA/APL, MSC/Bolloré) as carriers sought scale to survive price wars. Carriers learned to prefer short contract tenors with BAF-indexed terms precisely to avoid being trapped in trough-priced contracts through a recovery. The commercial playbook: during a trough, shippers push for long fixed contracts; during peaks, carriers push for spot or short tenors. Understanding this incentive structure — and how Named Account Contracts (NACs) interact with spot rates and surcharges — is foundational for any commercial freight buyer managing multi-million-dollar shipping budgets."
     },
     {
       n: 6,
       topic: "gk",
-      subtopic: "arts",
-      stem: "Which Bauhaus master created the 'Vorkurs' — the foundational preliminary course that became the template for foundation-year curricula at art and design schools worldwide?",
+      subtopic: "geography",
+      stem: "The Strait of Malacca — through which roughly 25% of global seaborne trade passes — connects which two bodies of water?",
       options: [
-        "László Moholy-Nagy",
-        "Paul Klee",
-        "Johannes Itten",
-        "Wassily Kandinsky"
+        "Indian Ocean and South China Sea",
+        "Bay of Bengal and Java Sea",
+        "Andaman Sea and Celebes Sea",
+        "Arabian Sea and Pacific Ocean"
       ],
-      correct: 2,
-      why: "Johannes Itten developed the original Vorkurs at Bauhaus Weimar (1919–1923) — a six-month introduction to materials, form, colour, and rhythm that Moholy-Nagy later reformed with an industrial focus.",
-      deepDive: "The Bauhaus, founded by Walter Gropius in Weimar in 1919, revolutionised art education by collapsing the boundary between craft and fine art. Johannes Itten's Vorkurs (preliminary course) was the gateway — all students spent six months studying form, colour theory (Itten's colour wheel remains standard), material properties, and rhythm before specialising. Itten's mystical approach, influenced by Mazdaznan ascetic philosophy, clashed with Gropius's industrial pragmatism, leading to Itten's departure in 1923. László Moholy-Nagy replaced him, steering the course toward industrial materials and photography. Paul Klee ran form theory workshops; Kandinsky taught colour theory alongside Itten. The Vorkurs structure — a generalist foundation year before discipline specialisation — spread worldwide via Bauhaus emigres fleeing Nazism: Moholy-Nagy founded the New Bauhaus in Chicago in 1937. Foundation year courses remain standard globally. The Bauhaus buildings in Dessau are UNESCO World Heritage Sites; the school's approach remains the invisible architecture of how designers are trained."
+      correct: 0,
+      why: "The Strait of Malacca runs between the Malay Peninsula and Sumatra, linking the Indian Ocean to the South China Sea — the primary sea lane chokepoint for Asia-Pacific trade.",
+      deepDive: "The Strait of Malacca is the world's second-busiest shipping lane, with roughly 90,000 vessels transiting annually. At its narrowest — the Phillips Channel near Singapore — the strait is only 2.8 km wide, creating both a chokepoint and a significant collision-risk zone. Singapore's entire strategic identity as a port city-state is a direct geographic function of its position at the strait's southern exit. The lane simultaneously carries China-India, China-Middle East, and China-Europe trade arteries. Any disruption — piracy, naval confrontation, or ecological blockage — would be immediately systemic for global supply chains. All major naval powers maintain active Malacca positioning strategies. Bangladesh's Bay of Bengal position feeds into this strait via the Colombo and Singapore transshipment hubs; the Cape routing alternative after the Red Sea crisis demonstrated exactly how much maritime geography shapes cost and transit time."
     },
     {
       n: 7,
       topic: "gk",
-      subtopic: "music",
-      stem: "Miles Davis's 'Kind of Blue' (1959) is the best-selling jazz album of all time. What was the core compositional innovation that defined its modal jazz approach over bebop?",
+      subtopic: "physical_science",
+      stem: "Carnot's theorem establishes the maximum thermodynamic efficiency of a heat engine. This ceiling is determined solely by what factor?",
       options: [
-        "Replacing complex chord progressions with static modes, giving soloists a wide melodic palette per section rather than chasing harmonic changes",
-        "Abandoning the piano so soloists could improvise without harmonic reference",
-        "Using a 12-tone row as the structural basis for improvisation rather than blues changes",
-        "Compressing blues changes from 12 bars to 8 bars to enable faster tempo variation"
+        "The type and thermodynamic properties of the working fluid",
+        "The absolute temperatures of the hot source and cold sink only",
+        "The engine's rotational speed and mechanical design precision",
+        "The calorific value and combustion rate of the fuel used"
       ],
-      correct: 0,
-      why: "Modal jazz replaced rapid chord changes (bebop's signature) with slow-moving modal centers — a scale-based tonal plateau — letting soloists develop melodic ideas rather than navigate harmony bar by bar.",
-      deepDive: "Bebop, pioneered by Charlie Parker and Dizzy Gillespie in the 1940s, featured dizzyingly fast harmonic movement — tunes like 'Cherokee' changed chords every beat, demanding virtuosic navigation. Modal jazz, theorized by George Russell's 1953 'Lydian Chromatic Concept' and realized by Davis on 'Kind of Blue,' replaced this with modes (Dorian, Mixolydian) that might persist for 8 or 16 bars. 'So What' opens the album with two-chord structure: D Dorian for 16 bars, E♭ Dorian for 8, back to D Dorian for 8. John Coltrane (tenor sax), Cannonball Adderley (alto sax), and Bill Evans (piano) were key collaborators. Evans wrote the famous liner notes describing the Zen-like approach. The album was recorded in two sessions with minimal rehearsal — Davis sketched the modes that morning. 'Kind of Blue' remains commercially extraordinary: an experimental artistic pivot that became mass-market success, still selling hundreds of thousands of copies annually."
+      correct: 1,
+      why: "Carnot efficiency = 1 − (T_cold / T_hot). Only the absolute temperatures of source and sink determine the theoretical ceiling — not the working fluid, engine design, or fuel.",
+      deepDive: "Sadi Carnot published his 'Réflexions sur la puissance motrice du feu' in 1824 — before the first law of thermodynamics was formally stated — a remarkable intellectual achievement derived purely by reasoning about reversible cycles. Real engines fall well short: a modern steam turbine achieves around 45% vs a theoretical 60% Carnot limit for its temperature range; a marine diesel engine runs at 45–55% thermal efficiency, exceptional by internal combustion standards. Why this matters practically: data center cooling design, semiconductor fab energy planning, and ship engine selection all depend on understanding where fundamental limits lie versus where engineering losses accumulate. The Carnot limit also explains why nuclear reactors, operating at higher steam temperatures, can achieve higher efficiency than fossil plants at equivalent power output. Every percent of efficiency recovered in a large ship engine translates directly to bunker cost reduction."
     },
     {
       n: 8,
       topic: "gk",
-      subtopic: "linguistics",
-      stem: "Grimm's Law describes a systematic consonant shift distinguishing Proto-Germanic languages from other Indo-European branches. Which of the following best illustrates this shift?",
+      subtopic: "life_science",
+      stem: "Horizontal gene transfer — movement of genetic material between organisms other than parent-to-offspring — is most prevalent in which domain of life?",
       options: [
-        "Latin 'pater' → English 'father' — voiceless stop /p/ shifting to voiceless fricative /f/ in Proto-Germanic",
-        "Greek 'logos' → English 'logic' — a vowel-lengthening process via Latin borrowing",
-        "Sanskrit 'deva' → English 'deity' — loanword transmission via Latin without a consonant shift",
-        "French 'roi' → English 'royal' — Norman French influence on Middle English vocabulary"
+        "Mammals and other vertebrates",
+        "Flowering plants (angiosperms)",
+        "Bacteria and Archaea (prokaryotes)",
+        "Insects and arthropods"
       ],
-      correct: 0,
-      why: "p → f is Grimm's Law in action. Proto-Indo-European voiceless stops (*p, *t, *k) became voiceless fricatives (f, θ, h) in Proto-Germanic. Latin kept /p/ in 'pater'; Germanic shifted to /f/ in 'father.'",
-      deepDive: "Jacob Grimm (of Brothers Grimm fame) formalised this consonant shift in 1822, establishing historical linguistics as a rigorous science. Proto-Indo-European voiceless stops shifted in Proto-Germanic: *p → f, *t → θ (th), *k → h. Hence Latin 'pater' → English 'father'; Latin 'tres' → English 'three'; Latin 'centum' → English 'hundred.' A second shift (voiced stops becoming voiceless or fricatives) also operates: *d → t, *g → k. Verner's Law (1875) refined Grimm's by explaining the apparent exceptions: stress placement in PIE determined whether the shift produced a voiceless fricative or a voiced one. These laws demonstrated that language change is systematic and predictable — not random drift — enabling linguists to reconstruct Proto-Indo-European roots never written down, simply by comparing daughter languages. It is the linguistic equivalent of evolutionary phylogenetics: the same logic that reconstructs common ancestors from genetic variation. Grimm's Law applies to native Germanic vocabulary; borrowed Latin/Greek words (like 'pater' used as a term in English) bypass the shift entirely."
+      correct: 2,
+      why: "Prokaryotes routinely exchange genes via conjugation, transformation, and transduction — the primary mechanism driving antibiotic resistance across species boundaries in hospital and agricultural environments.",
+      deepDive: "Horizontal gene transfer (HGT) explains why antibiotic resistance spreads with alarming speed: a resistance gene evolving in a soil bacterium can jump via plasmid conjugation to a hospital pathogen within months. Three main HGT mechanisms: conjugation (direct cell-to-cell contact, plasmid transfer), transformation (bacteria absorbing environmental DNA), and transduction (bacteriophage-mediated transfer). HGT blurs the classical tree-of-life concept — bacteria share genes across what eukaryotes would treat as separate species. Roughly 20–30% of E. coli genes arrived via HGT. Pharmaceutical implications are enormous: antibiotic production and resistance surveillance are a growing industrial concern in Bangladesh, which hosts a substantial generic pharma manufacturing sector. Understanding HGT also matters for biosafety classification in pharmaceutical cold-chain logistics — a segment where MGH's subcontinent operations increasingly intersect."
     },
     {
       n: 9,
       topic: "gk",
-      subtopic: "sport",
-      stem: "The Duckworth-Lewis-Stern (DLS) method recalculates targets in rain-interrupted limited-overs cricket. The method models a batting team's innings as a combination of exactly two 'resources.' What are they?",
+      subtopic: "mathematics",
+      stem: "The empirical rule for a normal (Gaussian) distribution states that approximately what percentage of values fall within two standard deviations of the mean?",
       options: [
-        "Runs scored and overs remaining",
-        "Wickets in hand and overs remaining",
-        "Current run rate and wickets fallen",
-        "Partnership count and balls faced"
+        "68%",
+        "90%",
+        "95%",
+        "99.7%"
       ],
-      correct: 1,
-      why: "DLS models a team's resources as a function of overs remaining and wickets in hand — the two parameters that determine how many runs can realistically be scored. Rain reduces overs; lost wickets constrain scoring freedom.",
-      deepDive: "Introduced in 1997 (by statisticians Frank Duckworth and Tony Lewis) and refined by Steven Stern in 2014, DLS replaced prior rain rules that produced absurd targets. The method models a two-dimensional resource surface across overs remaining (0–50) and wickets in hand (0–10), fitted to historical scoring data. A team with 10 wickets and 25 overs has substantially more resources than a team with 5 wickets and 25 overs — because intact wickets enable positive-risk batting. When rain interrupts, the target is recalculated based on the proportion of total resources each team receives relative to an uninterrupted innings. The table is maintained as proprietary by Stern and updated periodically. DLS is used by the ICC in all international and major domestic limited-overs matches. Critics point to its weaknesses in very short-format games (under 20 overs) and unusual scoring contexts (high-scoring T20 finales), where the model assumptions weaken — but no alternative has demonstrated superior performance across the full range of match types."
+      correct: 2,
+      why: "The 68-95-99.7 rule: 68% within 1 SD, 95% within 2 SD, 99.7% within 3 SD — the foundational reference for statistical inference and risk modelling.",
+      deepDive: "The normal distribution's empirical rule underlies most classical statistical inference. The Central Limit Theorem explains its ubiquity: the mean of sufficiently large samples from almost any distribution approaches normality. In freight and trade finance, normal distribution assumptions appear in freight rate volatility models, berth throughput capacity planning, and credit portfolio loss estimation. Critical caveat: financial crises, container rate spikes, and extreme weather events follow fat-tailed distributions — log-normal or power-law — where the 95% rule dramatically underestimates tail risk. The 2024–2025 container rate spike was a statistical 6-sigma event under normal distribution assumptions, yet it happened. Lesson: always interrogate your distributional assumptions in commercial modelling. Value-at-Risk models using normal distributions systemically underestimate worst-case outcomes — a lesson learned repeatedly in shipping, banking, and reinsurance after every major market dislocation."
     },
     {
       n: 10,
       topic: "gk",
-      subtopic: "pop_culture",
-      stem: "Which 1999 film's production team pioneered the 'bullet time' visual effect — a frozen or ultra-slow-motion sequence created by firing an arc of still cameras in rapid sequence around a stationary subject?",
+      subtopic: "political_theory",
+      stem: "John Rawls's 'veil of ignorance' thought experiment asks participants designing a just society to make decisions without knowing which aspect of their own situation?",
       options: [
-        "The Matrix",
-        "Fight Club",
-        "Dark City",
-        "eXistenZ"
+        "The laws and constitutional framework already in place",
+        "Their position in society — wealth, class, talents, race, and gender",
+        "The outcome of the most recent democratic elections",
+        "The historical precedents of the legal system they will live under"
       ],
-      correct: 0,
-      why: "'The Matrix' (Wachowskis, 1999) made bullet time iconic and culturally definitive — 120 cameras in a ring firing in sequence, creating the rotating slow-motion effect. The technique had precursors, but this film branded and mass-distributed it.",
-      deepDive: "The bullet time effect was developed by visual effects supervisor John Gaeta under the Wachowskis. While similar multi-camera techniques appeared earlier — Eadweard Muybridge's 1870s motion studies, Tim Macmillan's experimental 'time-slice' photography — 'The Matrix' industrialised and branded the concept. 120 cameras placed in a precise arc fired in calibrated sequence; assembling the images creates a rotating view of a frozen subject. Trinity's kick, Neo dodging bullets, and the rooftop fight were the set pieces that made it a cultural phenomenon. Warner Bros. trademarked 'bullet time'; Gaeta's own term was 'flow-motion.' The effect spawned near-universal imitation in 2000s action films and video games (Max Payne's 'bullet time' mechanic was explicit homage). Culturally, the film's visual language reinforced its thematic content: a world where physics can be bent encodes itself in an effect that literally bends the physics of cinema. It remains the most copied single visual innovation of its decade."
+      correct: 1,
+      why: "Behind the veil of ignorance, rational actors do not know their socioeconomic position, so they choose principles protecting the worst-off — yielding Rawls's equal liberties principle and the difference principle.",
+      deepDive: "John Rawls published 'A Theory of Justice' in 1971, reviving liberal political philosophy against both utilitarian and libertarian critiques. The veil of ignorance makes social contract reasoning impartial: if you do not know whether you will be born wealthy or poor, majority or minority, healthy or disabled, you rationally choose institutions that protect the least advantaged. This yields two principles: (1) equal basic liberties for all, and (2) the Difference Principle — inequalities are only justified if they benefit the least-advantaged members of society. Rawlsian logic underlies progressive taxation, labour rights frameworks, and LDC trade preferences like the EU's Everything But Arms scheme and GSP+. Bangladesh's RMG export sector benefits directly from trade architecture shaped by Rawlsian political philosophy — understanding its philosophical roots explains why these preferences have proven politically durable across ideologically different Western administrations for decades."
     }
   ]
 };
