@@ -364,291 +364,343 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  date: "2026-08-01",
-  dateLabel: "Saturday · 01 August 2026",
-  editionLabel: "Edition · Saturday 01 August",
-  headline: "August GRIs hit transpacific today; Islami Bank posts Tk 1,028cr Q2 loss; EU energy inflation tops 11%; Claude Opus 5 ships.",
-  sections: [
+  "date": "2026-08-02",
+  "dateLabel": "Sunday · 02 August 2026",
+  "editionLabel": "Edition · Sunday 02 August",
+  "headline": "Bangladesh Bank cuts for the first time in six years; Hormuz dark since July 7 as Iran attacks resume; global chip revenue crosses $1 trillion.",
+  "sections": [
     {
-      title: "Macro · Geopolitics · Politics",
-      items: [
+      "title": "Macro · Geopolitics · Politics",
+      "items": [
         {
-          lead: "Hormuz Day 153+: WTI above $110; eurozone energy inflation crosses 11%, GDP forecast cut to 0.8%.",
-          body: "EC Spring Forecast slashes eurozone 2026 growth to 0.8% (from 1.4%) as Iran's Strait closure — 20% of world oil — keeps energy costs surging. Near-zero probability of Hormuz normalisation before Q4. EU energy-intensive industries under acute margin pressure; recession risk rising in a severe-scenario model.",
-          src: { name: "Euronews / EC", url: "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/economic-forecasts/spring-2026-economic-forecast-slowdown-growth-energy-shock-drives-inflation_en" }
+          "lead": "Hormuz dark since July 7 — Iran struck three commercial vessels post-MoU breach.",
+          "body": "No 10,000+ DWT ship has transited since July 7 after Iran nullified the June ceasefire. Brent pricing in a $10–15 premium; tanker detours extending voyage times; oil supply risk building into Q3.",
+          "src": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting"
+          }
         },
         {
-          lead: "Fed's July 29 hold (9–3) locks September as the next live rate decision.",
-          body: "Three hawks — Hammack, Kashkari, Logan — dissented for hikes: the most dissents in a decade. Markets now price a September cut-vs-hike binary as the binding decision. Chair Warsh refused the word 'pause.' Persistent above-target inflation driven by energy costs remains the Fed's binding constraint.",
-          src: { name: "CNBC / Fed", url: "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html" }
+          "lead": "Houthis expand theater — strike Saudi Aramco in Jizan and Yanbu.",
+          "body": "IRGC-aligned forces attacked Saudi energy infrastructure beyond Bab el-Mandeb. War-risk premiums, rerouting decisions, and tanker insurance repricing now actively under review across the industry.",
+          "src": {
+            "name": "Deccan Herald",
+            "url": "https://www.deccanherald.com/world/houthis-vow-military-surprises-in-red-sea-amid-disruption-to-global-trade-2916504"
+          }
         },
         {
-          lead: "US explicitly pledges to block India replicating China's economic rise; deepens Pakistan military partnership.",
-          body: "Trump administration has told Pakistan military leadership Washington will resist Indian economic dominance in the Indo-Pacific — a sharp reversal from Biden-era Quad solidarity. New Delhi is recalibrating its non-aligned posture as US–Pakistan defence-tech transfers accelerate and Islamabad gains strategic headroom.",
-          src: { name: "Modern Diplomacy / Raksha Anirveda", url: "https://moderndiplomacy.eu/2026/05/27/india-and-pakistan-geopolitics-how-competing-narratives-shape-south-asias-global-role/" }
+          "lead": "US adds 12.5% forced-labour Section 301 tariff on China, effective July 24.",
+          "body": "New levy raises cumulative China tariff burden by 2.5 percentage points. SCOTUS separately struck down IEEPA-based emergency tariffs — forcing the administration to seek Section 232 or 301 hooks for key levies.",
+          "src": {
+            "name": "Baker Botts",
+            "url": "https://ourtake.bakerbotts.com/post/102n7tq/trump-tariff-tracker-july-2-2026"
+          }
         },
         {
-          lead: "US July 24 tariff round: 80+ countries hit; Taiwan at 10%, semiconductor carve-outs remain limited.",
-          body: "Latest tariff salvo confirmed persistent US tariff architecture after the 90-day review. Taiwan's 10% reflects strategic value; semiconductor and data-centre equipment — one-third of global trade growth — not fully exempted. Supply-chain restructuring investment is accelerating across Vietnam, Malaysia, and Mexico.",
-          src: { name: "Taiwan Plus / Taipei Times", url: "https://www.taipeitimes.com/News/editorials/archives/2026/07/27/2003861427" }
+          "lead": "Fed July 29 hold — three hawks dissented, September cut-vs-hike binary live.",
+          "body": "Three dissenters (Hammack, Kashkari, Logan) pushed for hikes — most dissents in a decade. Chair Warsh refused to use the word ‘pause.’ Energy-driven above-target inflation remains the binding constraint.",
+          "src": {
+            "name": "CNBC / Fed",
+            "url": "https://www.cnbc.com/2026/07/29/fed-rate-decision-july-2026.html"
+          }
         },
         {
-          lead: "China Q2 GDP: 4.3% — deceleration from Q1's 5.0%; export surplus widening via third-country routing.",
-          body: "H1 at 4.7%, high-tech manufacturing +13.3%. Beijing routing exports through Vietnam, Malaysia, and Mexico to sidestep US tariff barriers. IMF holds global growth at 3.0% for 2026; energy-importing economies diverging sharply downward as Hormuz costs cascade through industrial inputs.",
-          src: { name: "CGTN / IMF", url: "https://news.cgtn.com/news/2026-07-15/China-s-economy-grows-4-7-in-first-half-of-2026-1ONgqNSZZqE/share_amp.html" }
+          "lead": "India-Pakistan deterrence holds; third-country dynamics multiplying.",
+          "body": "Pakistan embroiled in Taliban frontier conflict while warming ties with Dhaka. India tracking Bangladesh–Pakistan rapprochement plus unresolved Hasina asylum row. LOC quiet but nuclear deterrence — not goodwill — is the stabiliser.",
+          "src": {
+            "name": "Crisis24",
+            "url": "https://www.crisis24.com/articles/india-border-insecurity-geopolitical-tensions-and-evolving-terror-threat-likely-to-increase-security-concerns"
+          }
         },
         {
-          lead: "US captures Venezuelan President Maduro — most significant Western Hemisphere unilateral action in decades.",
-          body: "Trump's renewed Americas prioritisation achieved its marquee outcome. Maduro's capture reshapes OPEC+ dynamics, Chinese energy positioning in Latin America, and US leverage over Venezuela's proven reserves — the world's largest. Regional responses cautious; Venezuela crude supply chain disruption anticipated in coming weeks.",
-          src: { name: "Wellington / WEF", url: "https://www.wellington.com/en/insights/geopolitics-in-2026-risks-and-opportunities-were-watching" }
+          "lead": "Eurozone caught in tariff-energy double squeeze; Q3 forecasts cut.",
+          "body": "Italy and the broader bloc face US tariff barriers, subdued intra-European demand, and elevated energy costs simultaneously. Recession risk rising in the severe-scenario model.",
+          "src": {
+            "name": "uCapital",
+            "url": "https://ucapital.com/article/economy/6a6a1f80a1b6de25180f3937/geopolitics-markets-august-2026-outlook"
+          }
         }
       ]
     },
     {
-      title: "Bangladesh & Subcontinent",
-      items: [
+      "title": "Bangladesh · Subcontinent",
+      "items": [
         {
-          lead: "Islami Bank Bangladesh: Tk 1,028cr Q2 loss — investment income slump, NPIs rising sharply.",
-          body: "April–June quarterly results published today show the country's largest Shariah-compliant bank deep in the red. Investment income collapsed; provisioning surged on non-performing investments. Comes as BB's rate cut (effective August 2) is meant to ease credit — but sector NPL overhang near 40% means transmission will be slow.",
-          src: { name: "Daily Star", url: "https://www.thedailystar.net/business/banking" }
+          "lead": "Bangladesh Bank cuts 50bp to 9.5% — first easing in six years, effective today.",
+          "body": "SLF drops to 11.0%; SDF held at 7.5%. Inflation at 9.16% in June, down from 9.42% in May. BB judged the disinflation path robust enough to start unlocking credit; real-sector transmission will take 2–3 quarters.",
+          "src": {
+            "name": "The Daily Star",
+            "url": "https://www.thedailystar.net/business/banking/news/bb-cuts-policy-rate-95-after-2-years-4236481"
+          }
         },
         {
-          lead: "NCP convoy stone-pelted twice in Sylhet's Golapganj — windows smashed, no casualties.",
-          body: "National Citizen Party leaders attacked while mobilising in Golapganj upazila — second such stone-pelting incident against NCP since the February elections. NCP (Nahid Islam, 8 seats) is pushing into BNP strongholds; the attacks suggest organised street-level resistance. Interior Ministry has not commented.",
-          src: { name: "Daily Star", url: "https://www.thedailystar.net/news/bangladesh" }
+          "lead": "57th BGB-BSF talks conclude in Delhi: push-ins, border killings, smuggling top agenda.",
+          "body": "Both forces agreed to enhanced coordinated patrols and real-time information sharing. The talks — first DG-level meeting since February’s government change — ended without headline breakthroughs but re-established the bilateral security channel.",
+          "src": {
+            "name": "The Daily Star",
+            "url": "https://www.thedailystar.net/news/cross-border/news/border-deaths-smuggling-top-agenda-bgb-bsf-talks-conclude-delhi-4197071"
+          }
         },
         {
-          lead: "Dengue emergency: 3 dead, 463 hospitalised in 24 hours — sharpest August spike since 2019.",
-          body: "National health data as of 8am August 1. Dhaka and Chittagong hospitals under acute strain; ICU capacity critical at three major public facilities. Monsoon pooling in peri-urban construction zones is the primary vector hotspot. Health Directorate activated district-level emergency protocol nationwide.",
-          src: { name: "Daily Star", url: "https://www.thedailystar.net/news/bangladesh" }
-        },
-        {
-          lead: "Bangla QR adoption stalling: MDR floor makes QR unprofitable despite BB's July 1 mandate.",
-          body: "Industry insiders say the minimum Merchant Discount Rate for Bangla QR transactions is discouraging adoption of the interoperable payment platform, even after BB made it mandatory from July 1. Merchants prefer cash or card where interchange economics work better. Fintech operators are lobbying for MDR structure revision before the October BB review.",
-          src: { name: "Daily Star", url: "https://www.thedailystar.net/business" }
+          "lead": "NBR moves to year-round quarterly tax filing from FY2026-27.",
+          "body": "National Board of Revenue introducing quarterly return submissions as part of a broader revenue reform package targeting a 9.2% tax-to-GDP ratio. Wealth and inheritance taxes also under active consideration for FY27.",
+          "src": {
+            "name": "The Daily Star",
+            "url": "https://www.thedailystar.net/business/economy/news/nbr-introduce-quarterly-tax-filing-4140406"
+          }
         }
       ]
     },
     {
-      title: "Trade & Freight",
-      items: [
+      "title": "Trade · Freight",
+      "items": [
         {
-          lead: "August 1 transpacific GRIs go live: $2,000–$3,000/FEU across major carriers today.",
-          body: "Largest single calendar rate event since peak season began. Carriers implementing GRIs despite continued spot rate declines: WCI fell 3% to $4,255/FEU as of July 30. SHA–LA at $5,739; SHA–NY at $7,578. China-to-US volume down 13% YoY — carriers using price discipline to defend the contract–spot rate spread.",
-          src: { name: "Loadstar / gCaptain", url: "https://theloadstar.com/rates-still-in-decline-but-optimistic-carriers-look-for-an-august-spike/" }
+          "lead": "Drewry WCI down 3% to $4,255/40ft on July 30 — Asia-Europe and transpacific lead declines.",
+          "body": "Structural cause: 7M+ TEUs added 2024–2026 creates 10%+ surplus on E-W lanes. Market at inflection point — carriers testing how hard they can push GRIs before shippers balk.",
+          "src": {
+            "name": "Drewry",
+            "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+          }
         },
         {
-          lead: "Selected carriers trialing Suez Canal returns after 18 months of Cape-default routing.",
-          body: "Some major lines announcing limited trial Suez voyages — not a wholesale return. Security assessments required voyage-by-voyage; Yemen ceasefire remains fragile and Houthi targeting doctrine is unchanged. Cape of Good Hope remains the institutional default; Suez trial adds optionality for urgent or premium services only.",
-          src: { name: "Marine Insight / Zencargo", url: "https://www.marineinsight.com/suez-canal-2026-will-global-shipping-return-to-the-red-sea/" }
+          "lead": "August 1 GRIs: SCFI transpacific jumps 12.5% WoW on $2,000–$3,000/40ft hikes.",
+          "body": "Carriers fired the GRIs on schedule. Whether they hold depends on sustained cargo volume in August — peak season is cooling, making holdability uncertain. FAK resets Aug 15: $7,800 Asia-N.Europe, $6,700 Asia-Med.",
+          "src": {
+            "name": "gCaptain",
+            "url": "https://gcaptain.com/carrier-discounts-push-container-spot-rates-lower-ahead-of-august-gris/"
+          }
         },
         {
-          lead: "GRI + Hormuz EFS stack creates tightest spot margin squeeze of 2026 for shippers.",
-          body: "August 1 GRIs land on top of Emergency Fuel Surcharges carriers levied in July to offset Hormuz-driven bunker costs. Full spot surcharge stack: GRI + EFS + BAF + LSS + PSS simultaneously. Contract holders with NAC protections are partially shielded; pure spot shippers absorbing compound cost with no relief mechanism.",
-          src: { name: "Freightos / Loadstar", url: "https://freightslogistics.com/august-2026-ocean-freight-rates-are-falling/" }
+          "lead": "Hormuz: zero large tankers transiting since July 7 — energy freight premium building.",
+          "body": "No commercial vessels above 10,000 DWT using the southern route with AIS on since Iranian attacks resumed. Cape rerouting lengthening energy supply chains; oil freight rates elevated.",
+          "src": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting"
+          }
         },
         {
-          lead: "Air freight yields rising: Hormuz diversion demand boosting belly capacity on Asia–Gulf–Europe lanes.",
-          body: "Time-sensitive cargo shifting to air as ocean routing uncertainty persists. Belly capacity tight on Asia–Europe and Asia–Gulf routes as fewer widebody passenger aircraft operate Iran-adjacent airspace. Drewry Air Freight Index July 2026 data publishing this week; Bangladesh garment air freight yields rising for first time in six months.",
-          src: { name: "Drewry", url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/airfreight-index" }
+          "lead": "China–US bookings running 30% below 2024 baseline — structural, not seasonal.",
+          "body": "Tariff uncertainty continues to deter importers. Shippers are diversifying sourcing to Vietnam/Bangladesh and shortening forward booking windows — a durable volume shift, not a cyclical dip.",
+          "src": {
+            "name": "The Loadstar",
+            "url": "https://theloadstar.com/rates-still-in-decline-but-optimistic-carriers-look-for-an-august-spike/"
+          }
         },
         {
-          lead: "ONE fully in Premier Alliance (HMM + Yang Ming) — Asia-US feeder hub allocations reshuffling.",
-          body: "ONE's transition to Premier Alliance is complete after last OCEAN Alliance transpacific CP loop sailed July 6. Colombo and Singapore transshipment hub slot allocations are being renegotiated. Feeder operators in the Bay of Bengal are adjusting capacity and schedules; South Asian exporters should confirm mainline vessel assignments with their forwarders.",
-          src: { name: "Container News", url: "https://container-news.com/shipping-alliances-carriers-and-msc-continue-to-control-over-82-of-market/" }
+          "lead": "Houthis expand beyond Bab el-Mandeb to strike Saudi Aramco infrastructure.",
+          "body": "Yanbu and Jizan energy facilities targeted. War-risk premium repricing underway; carriers reviewing whether current Cape diversions adequately price the widened threat zone.",
+          "src": {
+            "name": "Deccan Herald",
+            "url": "https://www.deccanherald.com/world/houthis-vow-military-surprises-in-red-sea-amid-disruption-to-global-trade-2916504"
+          }
         }
       ]
     },
     {
-      title: "Semis & AI",
-      items: [
+      "title": "Semis · AI",
+      "items": [
         {
-          lead: "Anthropic ships Claude Opus 5 — most capable frontier model yet; AMD compute deal provides backstory.",
-          body: "Closing out July, Anthropic released Opus 5, its reasoning-heavy flagship. Follows Claude Sonnet 5 and the AMD 2GW MI450 deal (July 22). Opus 5 targets agentic and scientific workloads. First frontier-class model where Anthropic has a non-Nvidia compute pathway planned at scale — making ROCm software quality a live question for inference economics.",
-          src: { name: "ThursdAI / LLM Stats", url: "https://thursdai.news/releases/2026-07" }
+          "lead": "Global semiconductor revenues to clear $1 trillion in 2026 — a historic first.",
+          "body": "AI-driven memory and logic IC surge crosses the threshold; May 2026 hit $120.6B (104% YoY), the 15th consecutive monthly record. Broadcom AI revenue guiding to 200%+ YoY growth.",
+          "src": {
+            "name": "Barchart",
+            "url": "https://www.barchart.com/story/news/37057875/ai-drives-semiconductor-revenues-past-1-trillion-for-the-first-time-in-2026"
+          }
         },
         {
-          lead: "Semiconductor revenues break $1T in 2026 — AI chips are 0.2% of units but ~50% of revenue.",
-          body: "Historic industry milestone. AI chip structural bifurcation is stark: commodity DRAM and NAND squeezed on price while HBM and AI logic ICs generate outsized margin. Computing and data storage segment alone growing 41% YoY to $500B+. Industry's 26% 2026 growth rate outpaces every prior cycle except the 1999 bubble.",
-          src: { name: "Barchart / Deloitte", url: "https://www.barchart.com/story/news/37057875/ai-drives-semiconductor-revenues-past-1-trillion-for-the-first-time-in-2026" }
+          "lead": "NVIDIA Vera Rubin enters high-volume shipment in Q3 2026.",
+          "body": "TSMC 3nm production confirmed; NVIDIA now >20% of TSMC revenue. Foxconn, Quanta, and Wistron ramping deployments — first Vera Rubin AI supercomputers shipping to hyperscaler customers now.",
+          "src": {
+            "name": "TrendForce",
+            "url": "https://www.trendforce.com/news/2026/06/01/news-vera-rubin-buildout-nvidia-reportedly-pushes-tsmc-above-20-revenue-share-power-and-cooling-suppliers-benefit/"
+          }
         },
         {
-          lead: "TSMC developing EMIB-like advanced packaging to challenge Intel's multi-die interconnect dominance.",
-          body: "Internally codenamed 'EMIB Like,' TSMC is partnering with Taiwan's Kinsus Interconnect Technology on a chip packaging rival to Intel's EMIB. Signals the competitive axis in semiconductors moving from process-node shrinks (already at 2nm) to advanced packaging integration — enabling the chiplet architectures powering next-gen AI accelerators.",
-          src: { name: "Benzinga / Seeking Alpha", url: "https://www.benzinga.com/markets/tech/26/07/60829355/tsmc-is-reportedly-developing-advanced-chip-packaging-tech-to-challenge-intels-dominance" }
+          "lead": "Claude Opus 5 (July 24) leads all leaderboards; DeepSeek V4-Flash resets price-performance.",
+          "body": "Anthropic’s Opus 5 tops Artificial Analysis Intelligence Index (61) and Agentic Index (55.3). DeepSeek V4-Flash (July 31 official release) beats V4-Pro on 9 agent benchmarks at $0.14/$0.28 per 1M tokens.",
+          "src": {
+            "name": "Artificial Analysis / Caixin",
+            "url": "https://www.caixinglobal.com/2026-08-01/deepseek-releases-official-v4-flash-model-as-chinas-ai-race-intensifies-102470292.html"
+          }
         },
         {
-          lead: "Chiplet architectures ending the monolithic GPU era as AI workload diversity fragments compute needs.",
-          body: "The single monolithic GPU as AI's default compute platform is structurally ending. Diverse AI workloads — inference, training, fine-tuning, retrieval — need different compute, memory, and I/O ratios. AMD MI450 Helios rack-scale and Nvidia NVLink domain are competing chiplet bets. Mix-and-match from different process nodes is becoming the engineering default.",
-          src: { name: "Deloitte / Edge AI Vision", url: "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-telecom-outlooks/semiconductor-industry-outlook.html" }
+          "lead": "Hyperscalers commit $700B capex in 2026 — 77% YoY surge.",
+          "body": "AWS, Google, Microsoft, Meta combining for $700B; TSMC adds $100B to Arizona campus (total $265B US investment). CoWoS advanced packaging capacity +60% by year-end.",
+          "src": {
+            "name": "Intellectia AI",
+            "url": "https://intellectia.ai/blog/ai-investment-supercycle-2026"
+          }
         },
         {
-          lead: "Google Gemini 3.6 Flash now free-tier default; DeepMind + Boston Dynamics Spot integration goes live.",
-          body: "Gemini 3.6 Flash (July 21) is Google's free-tier default equivalent of ChatGPT — cheaper, faster. Separately, Boston Dynamics integrated Gemini Robotics-ER 1.6 into the Spot robot dog and Orbit AI visual inspection platform. Concrete AI-in-physical-world deployment at industrial scale; the AI race is extending beyond software into robotics infrastructure.",
-          src: { name: "ThursdAI / Boston Dynamics", url: "https://thursdai.news/releases/2026-07" }
+          "lead": "Chip supply chokepoints: 40-week lead times; 30–50% of 2026 DC capacity slips to 2028.",
+          "body": "Three bottlenecks: GPU allocation, TSMC CoWoS packaging, and ASML EUV monopoly. Power grid connections (3–7 year waits) mean the building is no longer the constraint — the grid connection is.",
+          "src": {
+            "name": "Manufacturing Dive",
+            "url": "https://www.manufacturingdive.com/news/opinion-omdia-ai-semiconductor-chip-scarcity/817172/"
+          }
         }
       ]
     }
   ],
-  lesson: {
-    title: "The Rentier State Paradox: Why Petrodollar Abundance Produces Institutional Fragility",
-    paragraphs: [
-      "Countries blessed with abundant natural resource revenues often develop weaker institutions, more authoritarian governance, and more volatile economies than resource-poor neighbors. This counterintuitive outcome — the Resource Curse in its most concentrated form — operates through the rentier state mechanism. A rentier state derives the bulk of its revenue from external rents (oil royalties, pipeline fees) rather than from taxing its own population. This breaks the foundational social contract: no taxation without representation runs both ways. When citizens do not fund the state, the state owes them no accountability. Rulers buy loyalty through patronage and welfare transfers rather than building competent, responsive institutions. The result is a state structurally insulated from the productive economy — and dangerously exposed when rents collapse.",
-      "The Gulf provides the clearest laboratory. Saudi Arabia, Kuwait, Qatar, and the UAE built post-WWII prosperity almost entirely on hydrocarbon rents. Iran is a degraded variant — rentier revenues funding a revolutionary state that has persisted far longer than its economic fundamentals should allow. Venezuela under Chávez and Maduro replicated the pattern catastrophically: when oil income collapsed, everything the state funded collapsed with it. Nigeria sits on one of Africa's largest reserves yet faces constant fiscal crisis. Gulf states now racing to diversify — Saudi Vision 2030, UAE Economy 2031, Qatar NDS 2030 — are explicitly trying to escape the rentier trap before demographic pressures and the energy transition force the issue from outside. These are not PR exercises; they are existential structural reforms.",
-      "The Hormuz crisis is partly a function of Iranian rentier desperation. A regime with near-zero non-oil tax revenue, a collapsing industrial base, and mounting legitimacy deficit uses the strait as its last high-value strategic lever. Understanding the rentier dynamic also explains why trade flows in the Gulf track oil price cycles far more than GDP fundamentals, why infrastructure investment is episodic and patronage-driven, and why port and logistics concessions in the region are intensely political. For MGH Group, Gulf commercial relationships carry sovereign risk profiles that look very different from what their GDP headline numbers suggest."
+  "lesson": {
+    "title": "Competitive Authoritarianism: How Incumbents Win Without Banning Elections",
+    "paragraphs": [
+      "Competitive authoritarianism, theorized by Steven Levitsky and Lucan Way in their landmark 2002 paper, describes hybrid regimes that preserve democratic institutions on paper while systematically tilting the playing field. Elections are held. Parliaments sit. Courts convene. But incumbents weaponize state resources, media access, and the legal system to disadvantage the opposition before polling day — making the race nominally open but operationally rigged. Unlike full authoritarianism, where outcomes are predetermined, competitive authoritarianism allows genuine competition: opposition forces can win, and sometimes do. That instability is the regime’s defining feature.",
+      "The skewing happens across four arenas. Electorally: gerrymandering, voter-roll manipulation, and harassment of campaign events. Legislatively: buyouts of opposition MPs and gutting of parliamentary oversight. Judicially: court-packing, selective prosecution of critics, and delayed bail as a political tool. In media: ownership consolidation under friendly conglomerates and license revocation threats. The regime’s signature technique is ‘plausibly deniable coercion’ — violations visible enough to intimidate but ambiguous enough to evade clear international censure. Hungary under Orbán, Venezuela post-Chávez, Nicaragua under Ortega, and Bangladesh’s post-2014 arc are canonical cases.",
+      "Most democratic collapse in the 21st century comes not from coups but from this gradual pattern — institutions decay slowly, then crack suddenly when the leader misjudges the moment. Successor governments inherit the wreckage: packed courts, aligned civil services, and politicized revenue authorities that take years to depack. Levitsky and Way’s empirical finding is sobering: genuine democratic consolidation after a competitive-authoritarian tenure typically requires two to three full electoral cycles — if it occurs at all."
     ],
-    why: "The Gulf is your commercial backyard. Knowing why Saudi Vision 2030 is existential — not branding — tells you where freight flows, infrastructure spend, and industrial investment are actually going over the next decade. Rentier logic also explains Iran's Hormuz gambit in strategic, not ideological, terms: it is a regime monetising its last leverage asset."
+    "why": "Competitive authoritarianism is the dominant regime type in today’s developing world. Understanding its mechanics explains why political transitions so often disappoint reformers, and why institutional rebuilding is a decade-long project — not a single election."
   },
-  questions: [
+  "questions": [
     {
-      n: 1,
-      topic: "industry",
-      subtopic: "multimodal",
-      stem: "A single transport document covering all carriage modes under which a Multimodal Transport Operator (MTO) accepts door-to-door liability is formally called what?",
-      options: [
-        "Sea Waybill — covers ocean leg only, non-negotiable",
-        "Multimodal Bill of Lading (MBL) — single MTO liability across all modes",
-        "CMR Consignment Note — covers road and rail segments only",
-        "House Airway Bill — covers air and connecting road legs"
+      "n": 1,
+      "topic": "industry",
+      "subtopic": "aircraft_carriers",
+      "stem": "Which freighter variant’s nose-cargo door — absent on the B777F and A330F — enables straight roll-on/roll-off loading of oversize items such as helicopters and industrial turbines?",
+      "options": [
+        "Airbus A330-200F",
+        "Boeing 747-400F",
+        "McDonnell Douglas MD-11F",
+        "Airbus A300-600RF"
       ],
-      correct: 1,
-      why: "An MBL designates a single MTO who assumes liability door-to-door across all transport modes under one instrument — the core feature distinguishing it from unimodal documents.",
-      deepDive: "Multimodal bills of lading emerged from the 1980 UN Convention on Multimodal Transport of Goods — a convention that never entered force but whose concepts the market adopted commercially. The key legal advantage: if cargo is damaged at an unknown point in a complex journey, the MTO is liable at the highest applicable convention limit rather than the shipper having to prove which leg caused the damage. In practice, many shipping line house bills function as de facto MBLs but may silently exclude certain modes or cap liability at Hague-Visby. Always read the transport document scope clause before dispatching high-value multimodal cargo. Bangladesh's growing intermodal infrastructure — the Chittagong-Dhaka inland container depot rail corridor — makes MBL literacy increasingly essential for South Asian exporters managing multi-leg supply chains."
+      "correct": 1,
+      "why": "The 747-400F nose door hinges upward, creating a straight ramp into the main deck — the only major widebody freighter in common commercial service with this capability.",
+      "deepDive": "Boeing’s 747 nose-loading configuration dates to the original 747-200F of the early 1970s, designed for military outsize cargo. The nose door makes the 747F the default choice for breakbulk air freight — helicopters, jet engines, industrial turbines, and oversized machinery — where roll-on loading eliminates cranes and slings. The B777F, despite superior fuel efficiency and range, loads only through a side main-deck door, limiting usable height for certain cargo profiles. The MD-11F is similarly side-load only. Carriers like Lufthansa Cargo and Cargolux retain B747-8Fs specifically for this capability even after Boeing’s 747 production ended in 2022. Common misconception: ‘any wide main-deck door’ equals nose-loading capability — the geometry of straight-rail roll-on access from the tarmac is what distinguishes the 747."
     },
     {
-      n: 2,
-      topic: "industry",
-      subtopic: "trade_lanes",
-      stem: "After the 2024–2025 Red Sea crisis began, most Asia-Europe container carriers adopted which default alternative routing that added roughly 12–14 sailing days per round trip?",
-      options: [
-        "Suez Canal with naval escort protocol",
-        "Panama Canal westbound transpacific re-routing",
-        "Cape of Good Hope around southern Africa",
-        "Arctic Northern Sea Route via Russia"
+      "n": 2,
+      "topic": "industry",
+      "subtopic": "airport_ops",
+      "stem": "A cargo airline takes on a wet lease from another carrier. ACMI — the four components covered by the lessor — stands for what?",
+      "options": [
+        "Aircraft, Crew, Maintenance, Insurance",
+        "Aircraft, Cargo, Manifest, Infrastructure",
+        "Airframe, Communication, Maintenance, Insurance",
+        "Aircraft, Crew, Management, Infrastructure"
       ],
-      correct: 2,
-      why: "Cape of Good Hope routing bypasses the Houthi-controlled Bab-el-Mandeb and adds roughly 7,500 nautical miles, effectively removing 30–40% of effective global container capacity through longer voyage times.",
-      deepDive: "Cape of Good Hope rerouting was the defining supply chain event of 2024–2025. Adding 7,500 nautical miles and 12–14 days per voyage required 30–40% more vessels to maintain the same service frequency — equivalent to hundreds of new large containerships appearing overnight. Bunker costs per voyage rose by $1–2M per ship. Schedule reliability collapsed to 30–40% on Asia-Europe lanes. European port congestion spiked as vessels bunched on arrival. Carriers levied surcharges stacked five-to-seven deep. Key Cape route waypoints: Colombo feeder hub, around Durban, Cape Agulhas (the true southernmost tip of Africa, often confused with Cape of Good Hope), Walvis Bay in Namibia, then north to Algeciras or Tanger Med. Understanding this geography is now baseline freight operations knowledge for any South Asian exporter targeting European buyers."
+      "correct": 0,
+      "why": "Under ACMI, the lessor provides the aircraft, crew, maintenance, and insurance; the lessee pays for fuel, ground handling, landing fees, and cargo — the lessor retains operational and AOC control.",
+      "deepDive": "ACMI leasing is the dominant flexible-capacity mechanism in air freight, allowing cargo carriers to add capacity seasonally or for charters without acquiring aircraft. The lessor’s crew operates under the lessor’s Air Operator Certificate (AOC), which matters critically for liability, insurance validity, and regulatory compliance. The lessee handles commercial decisions: cargo selection, routing, and customer contracts. ACMI is distinct from a dry lease (aircraft only, lessee operates under its own AOC) and a full-service wet lease (lessor handles ground ops too). During COVID-era belly-freight collapse, ACMI rates for B747Fs spiked three to four times. Common misconception: the wet lessee sets crew schedules — it does not; the lessor’s crew follows its own rest-and-duty regulations regardless of lessee commercial needs."
     },
     {
-      n: 3,
-      topic: "industry",
-      subtopic: "marine_insurance",
-      stem: "Under Institute Cargo Clauses, which specific risk is covered by ICC (A) but is explicitly excluded under both ICC (B) and ICC (C)?",
-      options: [
-        "Stranding or grounding of the carrying vessel",
-        "Entry of sea or lake water into the hold or container",
-        "Theft and pilferage of the insured cargo",
-        "General average sacrifice contribution"
+      "n": 3,
+      "topic": "industry",
+      "subtopic": "ma_consolidation",
+      "stem": "DSV’s 2021 acquisition of Agility’s GIL division added which capability most critical to DSV’s strategic positioning — and not available in its existing commercial freight network?",
+      "options": [
+        "Agility’s bonded warehouse network across Shenzhen and Hong Kong",
+        "Agility’s project logistics and government/military supply chain capabilities",
+        "Agility’s Bosphorus intermodal ferry operations",
+        "Agility’s airfreight gateway hub in Kuwait with oil-major contracts"
       ],
-      correct: 2,
-      why: "ICC (A) is all-risk with named exclusions; ICC (B) and (C) are named-perils policies and both explicitly exclude theft and pilferage — a critical gap for cargo moving through high-risk port environments.",
-      deepDive: "Institute Cargo Clauses were drafted by the Institute of London Underwriters (now part of the London Market Group) and last substantively revised in 2009. The tiered structure reflects a perils-vs-all-risk philosophy: ICC (C) covers only catastrophic vessel perils — fire, explosion, stranding, sinking, collision, jettison; ICC (B) extends to physical and weathering damage including earthquake, washing overboard, and water entry; ICC (A) inverts to all-risk with specific named exclusions. The theft exclusion from (B) and (C) has real-world impact in South Asian and West African ports where cargo pilferage rates are elevated. Key exclusions even under ICC (A): inherent vice, delay, willful misconduct of the assured, and nuclear risk. Cyber coverage is now frequently added back via Lloyd's Market Association bespoke endorsements. Always confirm the applicable clause set before quoting cargo insurance on high-risk routings."
+      "correct": 1,
+      "why": "GIL brought DSV into project logistics and government/military supply chains — capabilities built on US/NATO military operations and energy-sector projects — propelling DSV past DB Schenker to the #2 global forwarder position.",
+      "deepDive": "Agility’s Global Integrated Logistics (GIL) division was built largely on US and NATO military supply chain work — particularly Iraq and Afghanistan operations — and on energy-sector project logistics. When DSV acquired it for approximately $4.2B enterprise value, it was purchasing specialized capabilities: military base supply, petroleum logistics, and complex project moves in markets (Middle East, Africa) where DSV was structurally weak. M&A logic in freight forwarding is typically about network coverage and capability gaps, not just revenue multiples. The acquisition pushed DSV to the #2 global position by revenue and transformed its geographic and vertical footprint in a single transaction. Common misconception: the deal was purely about volume — the government-contracting capability and geographic adjacency were arguably worth more than the revenue multiple implied."
     },
     {
-      n: 4,
-      topic: "industry",
-      subtopic: "compliance",
-      stem: "The IMDG Code classifies standalone lithium-ion battery cells shipped loose — not installed in or with equipment — under which hazard class?",
-      options: [
-        "Class 3 — Flammable Liquids",
-        "Class 4.1 — Flammable Solids",
-        "Class 8 — Corrosive Substances",
-        "Class 9 — Miscellaneous Dangerous Goods"
+      "n": 4,
+      "topic": "industry",
+      "subtopic": "commercial_concepts",
+      "stem": "A shipper holds a fixed-rate service contract with a carrier. Three weeks before shipment, the carrier announces a General Rate Increase (GRI). Under a standard service contract, which party bears the GRI cost?",
+      "options": [
+        "The shipper — GRIs override all contract rates under carrier tariff rules",
+        "The carrier — a signed service contract fixes the rate for the contract period",
+        "The shipper — but only if the GRI exceeds 20% of the contracted base rate",
+        "Both parties split it under the standard GRI-sharing clause"
       ],
-      correct: 3,
-      why: "Loose lithium-ion cells (UN3480) and lithium metal cells (UN3090) are IMDG Class 9 — Miscellaneous Dangerous Goods — a catch-all for transport hazards not fitting other classes.",
-      deepDive: "Lithium battery transport regulation is one of the fastest-evolving dangerous goods compliance areas since a 2014 fire on a Boeing 747 freighter was traced to a battery shipment. Loose cells (UN3480 lithium-ion, UN3090 lithium metal) are Class 9; batteries in or with equipment (UN3481, UN3091) receive packaging relaxations. ICAO prohibited loose lithium-ion batteries on cargo aircraft from 2016 — a major constraint on consumer electronics air freight. Key operational requirements: state-of-charge (SoC) must be capped at 30% for air; specific vessel stowage codes apply at sea; fire-resistant container liners are increasingly required. Bangladesh EPZs servicing mobile phone component assembly face this compliance requirement daily — misdeclaration penalties are severe, and customs seizures at Singapore and Colombo transshipment hubs are a documented risk for improperly documented electronics cargo."
+      "correct": 1,
+      "why": "A properly structured service contract protects the shipper from GRIs during the contract term. Carriers cannot unilaterally override contract rates with a GRI unless the contract explicitly includes a pass-through clause.",
+      "deepDive": "Service contracts (SCs) in container shipping are bilateral agreements between shipper/forwarder and carrier, typically filed with the FMC for US trades. The fixed rate is the shipper’s protection against market volatility — the carrier accepts rate risk in exchange for a volume commitment. GRIs are announced for spot/FAK market cargo and generally do not apply to shippers with properly structured SCs. The exception is contracts with an indexed adjustment clause or explicit BAF/CAF pass-through. In practice, carriers sometimes pressure shippers to renegotiate during hot markets; shippers with strong contracts can refuse. Common misconception: ‘the carrier always wins on surcharges’ — not true if the SC is properly worded, a volume commitment is honored, and the contract lacks a GRI pass-through clause."
     },
     {
-      n: 5,
-      topic: "industry",
-      subtopic: "industry_econ",
-      stem: "During a freight market trough, a carrier locks in a fixed-rate 'evergreen contract' with no BAF indexation and no adjustment clause. Which party bears the commodity price risk if market rates subsequently spike?",
-      options: [
-        "The shipper bears it via quarterly mark-to-market reconciliation",
-        "The carrier bears it — locked into below-market pricing as rates rise",
-        "Both parties share it equally via a built-in profit-sharing clause",
-        "A P&I Club absorbs the variance through cargo liability coverage"
+      "n": 5,
+      "topic": "industry",
+      "subtopic": "supply_chain_strategy",
+      "stem": "China+1 diversification strategies have driven massive FDI into Vietnam and Bangladesh since 2020. Which bottleneck most consistently caps how fast these countries can absorb relocated production?",
+      "options": [
+        "Currency instability making export pricing unreliable for buyers",
+        "Insufficient port draft depth for ultra-large container vessels",
+        "Power infrastructure gaps and unreliable electricity supply",
+        "Absence of bilateral free trade agreements with the EU"
       ],
-      correct: 1,
-      why: "A fixed-rate evergreen contract with no adjustment clause locks the carrier into below-market revenue if spot rates rise — the shipper captures the full upside of rate recovery.",
-      deepDive: "Ocean freight pricing cycles swing violently. A 14,000 TEU containership costs roughly $100M to build and $50,000 per day to operate at sea; at trough rates of $300–500 per box, revenue barely covers variable costs. That cycle drove the mega-mergers of 2016–2023 (Hapag/Hamburg Süd, CMA/APL, MSC/Bolloré) as carriers sought scale to survive price wars. Carriers learned to prefer short contract tenors with BAF-indexed terms precisely to avoid being trapped in trough-priced contracts through a recovery. The commercial playbook: during a trough, shippers push for long fixed contracts; during peaks, carriers push for spot or short tenors. Understanding this incentive structure — and how Named Account Contracts (NACs) interact with spot rates and surcharges — is foundational for any commercial freight buyer managing multi-million-dollar shipping budgets."
+      "correct": 2,
+      "why": "Vietnam’s industrial zones consistently cite electricity supply as the binding constraint in business surveys; Bangladesh’s RMG factories run on diesel captive generators during load-shedding, adding 3–8 cents/kWh to production cost.",
+      "deepDive": "The China+1 strategy generated massive FDI into Vietnam, Bangladesh, Indonesia, India, and Mexico from 2018 onward. Vietnam’s electricity grid is the #1 cited bottleneck: the national utility EVN manages chronic shortfalls during dry season when hydro output drops, forcing industrial zones to invest heavily in backup power. Bangladesh’s RMG factories similarly depend on diesel captive power during load-shedding. Infrastructure mismatch also covers water treatment, waste disposal, and road-to-port connectivity — but power is the single most cited barrier in FDI surveys. Common misconception: ‘Chittagong port depth is Bangladesh’s key bottleneck’ — transshipment via Singapore and Colombo feeders manages the port adequately; it is inland power supply that caps new factory absorption."
     },
     {
-      n: 6,
-      topic: "gk",
-      subtopic: "geography",
-      stem: "The Strait of Malacca — through which roughly 25% of global seaborne trade passes — connects which two bodies of water?",
-      options: [
-        "Indian Ocean and South China Sea",
-        "Bay of Bengal and Java Sea",
-        "Andaman Sea and Celebes Sea",
-        "Arabian Sea and Pacific Ocean"
+      "n": 6,
+      "topic": "gk",
+      "subtopic": "religion",
+      "stem": "Which Islamic theological school — flourishing under Abbasid patronage in 9th-century Baghdad — held that the Quran was the ‘created word of God’ rather than eternal and uncreated, applying Greek rational philosophy to reconcile faith and reason?",
+      "options": [
+        "Hanbali",
+        "Ashʼari",
+        "Muʻtazila",
+        "Maturidi"
       ],
-      correct: 0,
-      why: "The Strait of Malacca runs between the Malay Peninsula and Sumatra, linking the Indian Ocean to the South China Sea — the primary sea lane chokepoint for Asia-Pacific trade.",
-      deepDive: "The Strait of Malacca is the world's second-busiest shipping lane, with roughly 90,000 vessels transiting annually. At its narrowest — the Phillips Channel near Singapore — the strait is only 2.8 km wide, creating both a chokepoint and a significant collision-risk zone. Singapore's entire strategic identity as a port city-state is a direct geographic function of its position at the strait's southern exit. The lane simultaneously carries China-India, China-Middle East, and China-Europe trade arteries. Any disruption — piracy, naval confrontation, or ecological blockage — would be immediately systemic for global supply chains. All major naval powers maintain active Malacca positioning strategies. Bangladesh's Bay of Bengal position feeds into this strait via the Colombo and Singapore transshipment hubs; the Cape routing alternative after the Red Sea crisis demonstrated exactly how much maritime geography shapes cost and transit time."
+      "correct": 2,
+      "why": "Muʻtazilites held the Quran was created (not eternal) — a position that made it subject to rational interpretation. Caliph al-Maʼmun imposed this as state doctrine in 833 CE before it was reversed under al-Mutawakkil.",
+      "deepDive": "The Muʻtazila (‘those who withdraw’) emerged in 8th-century Basra and flourished under Abbasid patronage, representing the most systematic attempt to synthesize Greek rationalist philosophy with Islamic theology. Their five principles: divine unity (tawhid), divine justice (adl), the promise and threat, the intermediate position, and commanding the good. The ‘created Quran’ doctrine was their most politically explosive claim: an eternal uncreated Quran would constitute a second eternal entity alongside God, compromising divine unity. Caliph al-Maʼmun imposed Muʻtazilism via the Mihna (inquisition) in 833 CE; scholars who refused were imprisoned or flogged. Reversed under al-Mutawakkil (848 CE). The Muʻtazila’s rational legacy survived primarily in Shiʻa Islam. Common misconception: Muʻtazilism is glossed as ‘Islamic rationalism’ implying secularism — it was deeply theological, not secular."
     },
     {
-      n: 7,
-      topic: "gk",
-      subtopic: "physical_science",
-      stem: "Carnot's theorem establishes the maximum thermodynamic efficiency of a heat engine. This ceiling is determined solely by what factor?",
-      options: [
-        "The type and thermodynamic properties of the working fluid",
-        "The absolute temperatures of the hot source and cold sink only",
-        "The engine's rotational speed and mechanical design precision",
-        "The calorific value and combustion rate of the fuel used"
+      "n": 7,
+      "topic": "gk",
+      "subtopic": "economics",
+      "stem": "The Lucas Critique (1976) fundamentally challenged Keynesian macroeconomic policy modelling. What is Robert Lucas’s core argument?",
+      "options": [
+        "Fiscal multipliers are always less than one in open economies, making fiscal policy ineffective",
+        "Policy interventions change agents’ expectations, rendering historical econometric relationships invalid for future policy forecasting",
+        "Central banks cannot simultaneously control interest rates and money supply",
+        "Inflation is always and everywhere a monetary phenomenon determined by the quantity of money"
       ],
-      correct: 1,
-      why: "Carnot efficiency = 1 − (T_cold / T_hot). Only the absolute temperatures of source and sink determine the theoretical ceiling — not the working fluid, engine design, or fuel.",
-      deepDive: "Sadi Carnot published his 'Réflexions sur la puissance motrice du feu' in 1824 — before the first law of thermodynamics was formally stated — a remarkable intellectual achievement derived purely by reasoning about reversible cycles. Real engines fall well short: a modern steam turbine achieves around 45% vs a theoretical 60% Carnot limit for its temperature range; a marine diesel engine runs at 45–55% thermal efficiency, exceptional by internal combustion standards. Why this matters practically: data center cooling design, semiconductor fab energy planning, and ship engine selection all depend on understanding where fundamental limits lie versus where engineering losses accumulate. The Carnot limit also explains why nuclear reactors, operating at higher steam temperatures, can achieve higher efficiency than fossil plants at equivalent power output. Every percent of efficiency recovered in a large ship engine translates directly to bunker cost reduction."
+      "correct": 1,
+      "why": "When policymakers use a historical-data model to design policy, rational agents update their behaviour in response — invalidating the model’s parameters and making its predictions unreliable.",
+      "deepDive": "Robert Lucas’s 1976 paper ‘Econometric Policy Evaluation: A Critique’ is among the most cited in economics. The core insight: econometric relationships estimated from historical data reflect behaviour under past policy regimes. When a new policy is announced, rational agents update their expectations and alter behaviour — so the old relationship breaks down. The canonical example: the Phillips Curve appeared stable until policymakers tried to exploit it, whereupon 1970s stagflation destroyed the relationship. The critique laid groundwork for DSGE models that explicitly model expectations formation and contributed to the rise of explicit inflation targeting by central banks — anchoring expectations rather than reacting to past data. Common misconception: the critique means ‘models are useless’ — it actually means models must incorporate how rational agents form expectations to be valid for policy analysis."
     },
     {
-      n: 8,
-      topic: "gk",
-      subtopic: "life_science",
-      stem: "Horizontal gene transfer — movement of genetic material between organisms other than parent-to-offspring — is most prevalent in which domain of life?",
-      options: [
-        "Mammals and other vertebrates",
-        "Flowering plants (angiosperms)",
-        "Bacteria and Archaea (prokaryotes)",
-        "Insects and arthropods"
+      "n": 8,
+      "topic": "gk",
+      "subtopic": "history",
+      "stem": "The 1916 Sykes-Picot Agreement secretly divided the post-Ottoman Levant between Britain and France. Which territory — promised independence by Britain to Sharif Hussein in 1915 — most acutely exposed the contradictory nature of Britain’s wartime commitments?",
+      "options": [
+        "Egypt and the Nile Delta",
+        "Greater Syria — encompassing modern Syria, Lebanon, and Palestine",
+        "Anatolia and the Bosphorus straits",
+        "The Arabian Peninsula south of Mecca"
       ],
-      correct: 2,
-      why: "Prokaryotes routinely exchange genes via conjugation, transformation, and transduction — the primary mechanism driving antibiotic resistance across species boundaries in hospital and agricultural environments.",
-      deepDive: "Horizontal gene transfer (HGT) explains why antibiotic resistance spreads with alarming speed: a resistance gene evolving in a soil bacterium can jump via plasmid conjugation to a hospital pathogen within months. Three main HGT mechanisms: conjugation (direct cell-to-cell contact, plasmid transfer), transformation (bacteria absorbing environmental DNA), and transduction (bacteriophage-mediated transfer). HGT blurs the classical tree-of-life concept — bacteria share genes across what eukaryotes would treat as separate species. Roughly 20–30% of E. coli genes arrived via HGT. Pharmaceutical implications are enormous: antibiotic production and resistance surveillance are a growing industrial concern in Bangladesh, which hosts a substantial generic pharma manufacturing sector. Understanding HGT also matters for biosafety classification in pharmaceutical cold-chain logistics — a segment where MGH's subcontinent operations increasingly intersect."
+      "correct": 1,
+      "why": "Britain promised Arab independence over Greater Syria to Sharif Hussein (Husain-McMahon letters, 1915), then privately gave France control of the same territory via Sykes-Picot — a contradiction exposed in 1917 when the Bolsheviks published the secret text.",
+      "deepDive": "The 1916 Sykes-Picot Agreement divided anticipated post-Ottoman territory: France would control what became Syria and Lebanon; Britain would control Iraq, Jordan, and Palestine. Just a year earlier, Britain had encouraged the Arab Revolt by promising Sharif Hussein independence over Greater Syria. When the Bolsheviks published the secret text in 1917, it exposed British duplicity to Arab nationalists and seeded decades of mistrust. The Balfour Declaration (also 1917) added a third competing commitment — a Jewish homeland in Palestine — over the same territory. The resulting borders, particularly the straight desert lines of Iraq, Jordan, and Syria, remain the structural foundation of today’s regional conflicts. Common misconception: ‘Sykes-Picot alone created the modern Middle East’s problems’ oversimplifies — it is the artificially multi-national composition imposed within those borders that generates ongoing conflict."
     },
     {
-      n: 9,
-      topic: "gk",
-      subtopic: "mathematics",
-      stem: "The empirical rule for a normal (Gaussian) distribution states that approximately what percentage of values fall within two standard deviations of the mean?",
-      options: [
-        "68%",
-        "90%",
-        "95%",
-        "99.7%"
+      "n": 9,
+      "topic": "gk",
+      "subtopic": "literature",
+      "stem": "Dante’s Divine Comedy is written in terza rima — an interlocking verse form he invented. What is its rhyme scheme?",
+      "options": [
+        "ABA BCB CDC — interlocking chain where each tercet’s middle line becomes the rhyme of the next",
+        "AAB BBB CCB — Petrarchan sestet variant extended across cantos",
+        "ABB ACC ADD — tail-rhyme scheme with a repeating final line",
+        "ABC ABC ABC — repeated identical tercets throughout"
       ],
-      correct: 2,
-      why: "The 68-95-99.7 rule: 68% within 1 SD, 95% within 2 SD, 99.7% within 3 SD — the foundational reference for statistical inference and risk modelling.",
-      deepDive: "The normal distribution's empirical rule underlies most classical statistical inference. The Central Limit Theorem explains its ubiquity: the mean of sufficiently large samples from almost any distribution approaches normality. In freight and trade finance, normal distribution assumptions appear in freight rate volatility models, berth throughput capacity planning, and credit portfolio loss estimation. Critical caveat: financial crises, container rate spikes, and extreme weather events follow fat-tailed distributions — log-normal or power-law — where the 95% rule dramatically underestimates tail risk. The 2024–2025 container rate spike was a statistical 6-sigma event under normal distribution assumptions, yet it happened. Lesson: always interrogate your distributional assumptions in commercial modelling. Value-at-Risk models using normal distributions systemically underestimate worst-case outcomes — a lesson learned repeatedly in shipping, banking, and reinsurance after every major market dislocation."
+      "correct": 0,
+      "why": "Terza rima’s ABA BCB CDC chain links each tercet to the next through the middle rhyme — a continuous forward pull Dante may have intended to mirror the Christian Trinity and the soul’s onward journey.",
+      "deepDive": "Terza rima (‘third rhyme’) was invented by Dante for the Divine Comedy (c. 1308–1321). The interlocking scheme — where the middle line of each tercet supplies the rhyme for the first and third lines of the next — creates a continuous chain that never resolves until the final canto’s closing triplet. The Comedy spans 14,233 lines across 100 cantos, making the sustained rhyme a remarkable technical achievement in Italian. The form was later adopted by Boccaccio, Petrarch, Chaucer, Byron (‘The Prophecy of Dante’), Shelley (‘Ode to the West Wind’), and T.S. Eliot (‘Little Gidding’). The scheme proves more natural in Italian, which has a higher proportion of rhymable endings, than in English. Common misconception: terza rima is often confused with regular tercets — the defining feature is the interlocking ‘escape’ of the middle rhyme into the subsequent stanza."
     },
     {
-      n: 10,
-      topic: "gk",
-      subtopic: "political_theory",
-      stem: "John Rawls's 'veil of ignorance' thought experiment asks participants designing a just society to make decisions without knowing which aspect of their own situation?",
-      options: [
-        "The laws and constitutional framework already in place",
-        "Their position in society — wealth, class, talents, race, and gender",
-        "The outcome of the most recent democratic elections",
-        "The historical precedents of the legal system they will live under"
+      "n": 10,
+      "topic": "gk",
+      "subtopic": "arts",
+      "stem": "Which 19th-century French artist is credited as the founding figure of Realism, deliberately painting peasants and labourers at monumental scale to challenge academic painting’s emphasis on mythological and historical subjects?",
+      "options": [
+        "Honoré Daumier",
+        "Jean-François Millet",
+        "Gustave Courbet",
+        "Édouard Manet"
       ],
-      correct: 1,
-      why: "Behind the veil of ignorance, rational actors do not know their socioeconomic position, so they choose principles protecting the worst-off — yielding Rawls's equal liberties principle and the difference principle.",
-      deepDive: "John Rawls published 'A Theory of Justice' in 1971, reviving liberal political philosophy against both utilitarian and libertarian critiques. The veil of ignorance makes social contract reasoning impartial: if you do not know whether you will be born wealthy or poor, majority or minority, healthy or disabled, you rationally choose institutions that protect the least advantaged. This yields two principles: (1) equal basic liberties for all, and (2) the Difference Principle — inequalities are only justified if they benefit the least-advantaged members of society. Rawlsian logic underlies progressive taxation, labour rights frameworks, and LDC trade preferences like the EU's Everything But Arms scheme and GSP+. Bangladesh's RMG export sector benefits directly from trade architecture shaped by Rawlsian political philosophy — understanding its philosophical roots explains why these preferences have proven politically durable across ideologically different Western administrations for decades."
+      "correct": 2,
+      "why": "Courbet’s self-declared ‘Realist Manifesto’ (1855) stated art must represent only visible, tangible reality. His ‘Stone Breakers’ and ‘Burial at Ornans’ depicted working-class subjects at history-painting scale — deliberately scandalising the Paris Salon.",
+      "deepDive": "Gustave Courbet (1819–1877) rejected the idealized mythological and historical subjects of academic painting. His core provocation: ‘Show me an angel and I’ll paint one.’ His ‘Stone Breakers’ (1849) and ‘A Burial at Ornans’ (1850) caused scandal by depicting ordinary working people at the scale reserved for religious scenes and heroic history — an implicit claim of working-class dignity. Courbet’s politics matched his aesthetics: a committed socialist, he participated in the Paris Commune of 1871 and was blamed for ordering the destruction of the Vendôme Column. He was imprisoned, fined, and fled to Switzerland. Daumier and Millet were contemporaries with Realist tendencies — Millet is often confused with Courbet — but Courbet explicitly theorized and named the movement. Common misconception: Realism means photographic accuracy — it was equally a political statement about whose stories merit monumental depiction."
     }
   ]
 };

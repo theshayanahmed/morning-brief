@@ -1,17 +1,7 @@
 {
   "streak": 10,
-  "last_session_date": "2026-08-01",
+  "last_session_date": "2026-08-02",
   "questions_seen": [
-    "Under ISPM 15, all solid wood packaging material (pallets, crates, dunnage) in international trade must be treated and marked. Which combination correctly identifies the approved treatment methods and the required mark?",
-    "An anti-dumping duty (ADD) is levied in addition to standard customs tariffs. Which statement correctly describes how ADD rates are determined and applied?",
-    "A Supramax bulk carrier (50,000-60,000 DWT) offers a distinctive operational advantage over larger Capesize vessels that makes it dominant in regional bulk markets. What is this key capability?",
-    "Container terminals use either Rail-Mounted Gantry cranes (RMG) or Rubber-Tyred Gantry cranes (RTG) for container yard stacking. What is the primary operational tradeoff between the two?",
-    "The Premier Alliance (ONE, HMM, Yang Ming) was formed after Hapag-Lloyd departed THE Alliance to join Gemini Cooperation. What is its primary competitive disadvantage compared to the other two alliance groupings?",
-    "Arnold Schoenberg's twelve-tone method (Zwölftontechnik), developed c.1921-23, reorganises Western harmonic language around a tone row. What is the defining structural rule of the tone row that eliminates tonal hierarchy?",
-    "Zoroastrianism, founded by Zarathustra in ancient Iran (c.1000-600 BCE), influenced later Abrahamic faiths. Which theological concept is most directly attributed to Zoroastrian influence on Jewish apocalyptic literature during the Babylonian exile?",
-    "The Great Vowel Shift (c.1400-1700) is the primary reason English spelling is so notoriously non-phonemic. What did this systematic sound change involve, and why did written English fail to follow it?",
-    "The internet culture term 'Eternal September' originated from a specific event in September 1993. What was that event, and what broader concept does the term describe?",
-    "Prion diseases (transmissible spongiform encephalopathies), including Creutzfeldt-Jakob disease and bovine spongiform encephalopathy, challenge a foundational axiom of classical microbiology. What makes the prion infectious agent uniquely disturbing?",
     "A freight forwarder consigns an LCL shipment under a CFS/CY movement. Which statement correctly describes the physical and documentary flow?",
     "The Trans-Caspian International Transport Route (TITR), also called the Middle Corridor, links China to Europe while bypassing both Russia and Iran. Which sequence of countries and transit modes is correct?",
     "Under the York-Antwerp Rules, a master deliberately jettisons 200 containers in heavy weather to prevent the vessel from capsizing. The ship and all remaining cargo arrive safely. Under General Average, which statement is most accurate?",
@@ -501,7 +491,17 @@
     "Carnot's theorem establishes the maximum thermodynamic efficiency of a heat engine. This ceiling is determined solely by what factor?",
     "Horizontal gene transfer — movement of genetic material between organisms other than parent-to-offspring — is most prevalent in which domain of life?",
     "The empirical rule for a normal (Gaussian) distribution states that approximately what percentage of values fall within two standard deviations of the mean?",
-    "John Rawls's 'veil of ignorance' thought experiment asks participants designing a just society to make decisions without knowing which aspect of their own situation?"
+    "John Rawls's 'veil of ignorance' thought experiment asks participants designing a just society to make decisions without knowing which aspect of their own situation?",
+    "Which freighter variant’s nose-cargo door — absent on the B777F and A330F — enables straight roll-on/roll-off loading of oversize items such as helicopters and industrial turbines?",
+    "A cargo airline takes on a wet lease from another carrier. ACMI — the four components covered by the lessor — stands for what?",
+    "DSV’s 2021 acquisition of Agility’s GIL division added which capability most critical to DSV’s strategic positioning — and not available in its existing commercial freight network?",
+    "A shipper holds a fixed-rate service contract with a carrier. Three weeks before shipment, the carrier announces a General Rate Increase (GRI). Under a standard service contract, which party bears the GRI cost?",
+    "China+1 diversification strategies have driven massive FDI into Vietnam and Bangladesh since 2020. Which bottleneck most consistently caps how fast these countries can absorb relocated production?",
+    "Which Islamic theological school — flourishing under Abbasid patronage in 9th-century Baghdad — held that the Quran was the ‘created word of God’ rather than eternal and uncreated, applying Greek rational philosophy to reconcile faith and reason?",
+    "The Lucas Critique (1976) fundamentally challenged Keynesian macroeconomic policy modelling. What is Robert Lucas’s core argument?",
+    "The 1916 Sykes-Picot Agreement secretly divided the post-Ottoman Levant between Britain and France. Which territory — promised independence by Britain to Sharif Hussein in 1915 — most acutely exposed the contradictory nature of Britain’s wartime commitments?",
+    "Dante’s Divine Comedy is written in terza rima — an interlocking verse form he invented. What is its rhyme scheme?",
+    "Which 19th-century French artist is credited as the founding figure of Realism, deliberately painting peasants and labourers at monumental scale to challenge academic painting’s emphasis on mythological and historical subjects?"
   ],
   "learn_history": [
     {
@@ -868,6 +868,11 @@
       "date": "2026-08-01",
       "topic": "The Rentier State Paradox: Why Petrodollar Abundance Produces Institutional Fragility",
       "bucket": "sociopolitical"
+    },
+    {
+      "date": "2026-08-02",
+      "topic": "Competitive Authoritarianism: How Incumbents Win Without Banning Elections",
+      "bucket": "political_theory"
     }
   ],
   "curriculum_progress": {
@@ -962,40 +967,40 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 17,
-      "last_seen": "2026-07-29",
+      "count": 18,
+      "last_seen": "2026-08-02",
       "difficulty": 2,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 17,
-      "last_seen": "2026-07-29",
+      "count": 18,
+      "last_seen": "2026-08-02",
       "difficulty": 2,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 17,
-      "last_seen": "2026-07-29",
+      "count": 18,
+      "last_seen": "2026-08-02",
       "difficulty": 2,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 17,
-      "last_seen": "2026-07-29",
+      "count": 18,
+      "last_seen": "2026-08-02",
       "difficulty": 2,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 17,
-      "last_seen": "2026-07-29",
+      "count": 18,
+      "last_seen": "2026-08-02",
       "difficulty": 2,
       "rolling_score": []
     }
   },
   "gk_progress": {
     "history": {
-      "count": 28,
-      "last_seen": "2026-07-30",
+      "count": 29,
+      "last_seen": "2026-08-02",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1024,14 +1029,14 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 25,
-      "last_seen": "2026-07-30",
+      "count": 26,
+      "last_seen": "2026-08-02",
       "difficulty": 4,
       "rolling_score": []
     },
     "arts": {
-      "count": 25,
-      "last_seen": "2026-07-31",
+      "count": 26,
+      "last_seen": "2026-08-02",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1042,8 +1047,8 @@
       "rolling_score": []
     },
     "religion": {
-      "count": 24,
-      "last_seen": "2026-07-30",
+      "count": 25,
+      "last_seen": "2026-08-02",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1054,8 +1059,8 @@
       "rolling_score": []
     },
     "economics": {
-      "count": 24,
-      "last_seen": "2026-07-30",
+      "count": 25,
+      "last_seen": "2026-08-02",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -1080,159 +1085,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-08-01",
+    "date": "2026-08-02",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "A single transport document covering all carriage modes under which a Multimodal Transport Operator (MTO) accepts door-to-door liability is formally called what?",
+        "subtopic": "aircraft_carriers",
+        "stem": "Which freighter variant’s nose-cargo door — absent on the B777F and A330F — enables straight roll-on/roll-off loading of oversize items such as helicopters and industrial turbines?",
         "options": [
-          "Sea Waybill — covers ocean leg only, non-negotiable",
-          "Multimodal Bill of Lading (MBL) — single MTO liability across all modes",
-          "CMR Consignment Note — covers road and rail segments only",
-          "House Airway Bill — covers air and connecting road legs"
+          "Airbus A330-200F",
+          "Boeing 747-400F",
+          "McDonnell Douglas MD-11F",
+          "Airbus A300-600RF"
         ],
         "correct": 1,
-        "why": "An MBL designates a single MTO who assumes liability door-to-door across all transport modes under one instrument — the core feature distinguishing it from unimodal documents.",
-        "deepDive": "Multimodal bills of lading emerged from the 1980 UN Convention on Multimodal Transport of Goods — a convention that never entered force but whose concepts the market adopted commercially. The key legal advantage: if cargo is damaged at an unknown point in a complex journey, the MTO is liable at the highest applicable convention limit rather than the shipper having to prove which leg caused the damage. In practice, many shipping line house bills function as de facto MBLs but may silently exclude certain modes or cap liability at Hague-Visby. Always read the transport document scope clause before dispatching high-value multimodal cargo. Bangladesh's growing intermodal infrastructure — the Chittagong-Dhaka inland container depot rail corridor — makes MBL literacy increasingly essential for South Asian exporters managing multi-leg supply chains."
+        "why": "The 747-400F nose door hinges upward, creating a straight ramp into the main deck — the only major widebody freighter in common commercial service with this capability.",
+        "deepDive": "Boeing’s 747 nose-loading configuration dates to the original 747-200F of the early 1970s, designed for military outsize cargo. The nose door makes the 747F the default choice for breakbulk air freight — helicopters, jet engines, industrial turbines, and oversized machinery — where roll-on loading eliminates cranes and slings. The B777F, despite superior fuel efficiency and range, loads only through a side main-deck door, limiting usable height for certain cargo profiles. The MD-11F is similarly side-load only. Carriers like Lufthansa Cargo and Cargolux retain B747-8Fs specifically for this capability even after Boeing’s 747 production ended in 2022. Common misconception: ‘any wide main-deck door’ equals nose-loading capability — the geometry of straight-rail roll-on access from the tarmac is what distinguishes the 747."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "After the 2024–2025 Red Sea crisis began, most Asia-Europe container carriers adopted which default alternative routing that added roughly 12–14 sailing days per round trip?",
+        "subtopic": "airport_ops",
+        "stem": "A cargo airline takes on a wet lease from another carrier. ACMI — the four components covered by the lessor — stands for what?",
         "options": [
-          "Suez Canal with naval escort protocol",
-          "Panama Canal westbound transpacific re-routing",
-          "Cape of Good Hope around southern Africa",
-          "Arctic Northern Sea Route via Russia"
+          "Aircraft, Crew, Maintenance, Insurance",
+          "Aircraft, Cargo, Manifest, Infrastructure",
+          "Airframe, Communication, Maintenance, Insurance",
+          "Aircraft, Crew, Management, Infrastructure"
         ],
-        "correct": 2,
-        "why": "Cape of Good Hope routing bypasses the Houthi-controlled Bab-el-Mandeb and adds roughly 7,500 nautical miles, effectively removing 30–40% of effective global container capacity through longer voyage times.",
-        "deepDive": "Cape of Good Hope rerouting was the defining supply chain event of 2024–2025. Adding 7,500 nautical miles and 12–14 days per voyage required 30–40% more vessels to maintain the same service frequency — equivalent to hundreds of new large containerships appearing overnight. Bunker costs per voyage rose by $1–2M per ship. Schedule reliability collapsed to 30–40% on Asia-Europe lanes. European port congestion spiked as vessels bunched on arrival. Carriers levied surcharges stacked five-to-seven deep. Key Cape route waypoints: Colombo feeder hub, around Durban, Cape Agulhas (the true southernmost tip of Africa, often confused with Cape of Good Hope), Walvis Bay in Namibia, then north to Algeciras or Tanger Med. Understanding this geography is now baseline freight operations knowledge for any South Asian exporter targeting European buyers."
+        "correct": 0,
+        "why": "Under ACMI, the lessor provides the aircraft, crew, maintenance, and insurance; the lessee pays for fuel, ground handling, landing fees, and cargo — the lessor retains operational and AOC control.",
+        "deepDive": "ACMI leasing is the dominant flexible-capacity mechanism in air freight, allowing cargo carriers to add capacity seasonally or for charters without acquiring aircraft. The lessor’s crew operates under the lessor’s Air Operator Certificate (AOC), which matters critically for liability, insurance validity, and regulatory compliance. The lessee handles commercial decisions: cargo selection, routing, and customer contracts. ACMI is distinct from a dry lease (aircraft only, lessee operates under its own AOC) and a full-service wet lease (lessor handles ground ops too). During COVID-era belly-freight collapse, ACMI rates for B747Fs spiked three to four times. Common misconception: the wet lessee sets crew schedules — it does not; the lessor’s crew follows its own rest-and-duty regulations regardless of lessee commercial needs."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "Under Institute Cargo Clauses, which specific risk is covered by ICC (A) but is explicitly excluded under both ICC (B) and ICC (C)?",
+        "subtopic": "ma_consolidation",
+        "stem": "DSV’s 2021 acquisition of Agility’s GIL division added which capability most critical to DSV’s strategic positioning — and not available in its existing commercial freight network?",
         "options": [
-          "Stranding or grounding of the carrying vessel",
-          "Entry of sea or lake water into the hold or container",
-          "Theft and pilferage of the insured cargo",
-          "General average sacrifice contribution"
+          "Agility’s bonded warehouse network across Shenzhen and Hong Kong",
+          "Agility’s project logistics and government/military supply chain capabilities",
+          "Agility’s Bosphorus intermodal ferry operations",
+          "Agility’s airfreight gateway hub in Kuwait with oil-major contracts"
         ],
-        "correct": 2,
-        "why": "ICC (A) is all-risk with named exclusions; ICC (B) and (C) are named-perils policies and both explicitly exclude theft and pilferage — a critical gap for cargo moving through high-risk port environments.",
-        "deepDive": "Institute Cargo Clauses were drafted by the Institute of London Underwriters (now part of the London Market Group) and last substantively revised in 2009. The tiered structure reflects a perils-vs-all-risk philosophy: ICC (C) covers only catastrophic vessel perils — fire, explosion, stranding, sinking, collision, jettison; ICC (B) extends to physical and weathering damage including earthquake, washing overboard, and water entry; ICC (A) inverts to all-risk with specific named exclusions. The theft exclusion from (B) and (C) has real-world impact in South Asian and West African ports where cargo pilferage rates are elevated. Key exclusions even under ICC (A): inherent vice, delay, willful misconduct of the assured, and nuclear risk. Cyber coverage is now frequently added back via Lloyd's Market Association bespoke endorsements."
+        "correct": 1,
+        "why": "GIL brought DSV into project logistics and government/military supply chains — capabilities built on US/NATO military operations and energy-sector projects — propelling DSV past DB Schenker to the #2 global forwarder position.",
+        "deepDive": "Agility’s Global Integrated Logistics (GIL) division was built largely on US and NATO military supply chain work — particularly Iraq and Afghanistan operations — and on energy-sector project logistics. When DSV acquired it for approximately $4.2B enterprise value, it was purchasing specialized capabilities: military base supply, petroleum logistics, and complex project moves in markets (Middle East, Africa) where DSV was structurally weak. M&A logic in freight forwarding is typically about network coverage and capability gaps, not just revenue multiples. The acquisition pushed DSV to the #2 global position by revenue and transformed its geographic and vertical footprint in a single transaction. Common misconception: the deal was purely about volume — the government-contracting capability and geographic adjacency were arguably worth more than the revenue multiple implied."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "The IMDG Code classifies standalone lithium-ion battery cells shipped loose — not installed in or with equipment — under which hazard class?",
+        "subtopic": "commercial_concepts",
+        "stem": "A shipper holds a fixed-rate service contract with a carrier. Three weeks before shipment, the carrier announces a General Rate Increase (GRI). Under a standard service contract, which party bears the GRI cost?",
         "options": [
-          "Class 3 — Flammable Liquids",
-          "Class 4.1 — Flammable Solids",
-          "Class 8 — Corrosive Substances",
-          "Class 9 — Miscellaneous Dangerous Goods"
+          "The shipper — GRIs override all contract rates under carrier tariff rules",
+          "The carrier — a signed service contract fixes the rate for the contract period",
+          "The shipper — but only if the GRI exceeds 20% of the contracted base rate",
+          "Both parties split it under the standard GRI-sharing clause"
         ],
-        "correct": 3,
-        "why": "Loose lithium-ion cells (UN3480) and lithium metal cells (UN3090) are IMDG Class 9 — Miscellaneous Dangerous Goods — a catch-all for transport hazards not fitting other classes.",
-        "deepDive": "Lithium battery transport regulation is one of the fastest-evolving dangerous goods compliance areas since a 2014 fire on a Boeing 747 freighter was traced to a battery shipment. Loose cells (UN3480 lithium-ion, UN3090 lithium metal) are Class 9; batteries in or with equipment (UN3481, UN3091) receive packaging relaxations. ICAO prohibited loose lithium-ion batteries on cargo aircraft from 2016 — a major constraint on consumer electronics air freight. Key operational requirements: state-of-charge (SoC) must be capped at 30% for air; specific vessel stowage codes apply at sea; fire-resistant container liners are increasingly required. Bangladesh EPZs servicing mobile phone component assembly face this compliance requirement daily — misdeclaration penalties are severe, and customs seizures at Singapore and Colombo transshipment hubs are a documented risk for improperly documented electronics cargo."
+        "correct": 1,
+        "why": "A properly structured service contract protects the shipper from GRIs during the contract term. Carriers cannot unilaterally override contract rates with a GRI unless the contract explicitly includes a pass-through clause.",
+        "deepDive": "Service contracts (SCs) in container shipping are bilateral agreements between shipper/forwarder and carrier, typically filed with the FMC for US trades. The fixed rate is the shipper’s protection against market volatility — the carrier accepts rate risk in exchange for a volume commitment. GRIs are announced for spot/FAK market cargo and generally do not apply to shippers with properly structured SCs. The exception is contracts with an indexed adjustment clause or explicit BAF/CAF pass-through. In practice, carriers sometimes pressure shippers to renegotiate during hot markets; shippers with strong contracts can refuse. Common misconception: ‘the carrier always wins on surcharges’ — not true if the SC is properly worded, a volume commitment is honored, and the contract lacks a GRI pass-through clause."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "During a freight market trough, a carrier locks in a fixed-rate 'evergreen contract' with no BAF indexation and no adjustment clause. Which party bears the commodity price risk if market rates subsequently spike?",
+        "subtopic": "supply_chain_strategy",
+        "stem": "China+1 diversification strategies have driven massive FDI into Vietnam and Bangladesh since 2020. Which bottleneck most consistently caps how fast these countries can absorb relocated production?",
         "options": [
-          "The shipper bears it via quarterly mark-to-market reconciliation",
-          "The carrier bears it — locked into below-market pricing as rates rise",
-          "Both parties share it equally via a built-in profit-sharing clause",
-          "A P&I Club absorbs the variance through cargo liability coverage"
+          "Currency instability making export pricing unreliable for buyers",
+          "Insufficient port draft depth for ultra-large container vessels",
+          "Power infrastructure gaps and unreliable electricity supply",
+          "Absence of bilateral free trade agreements with the EU"
         ],
-        "correct": 1,
-        "why": "A fixed-rate evergreen contract with no adjustment clause locks the carrier into below-market revenue if spot rates rise — the shipper captures the full upside of rate recovery.",
-        "deepDive": "Ocean freight pricing cycles swing violently. A 14,000 TEU containership costs roughly $100M to build and $50,000 per day to operate at sea; at trough rates of $300–500 per box, revenue barely covers variable costs. That cycle drove the mega-mergers of 2016–2023 (Hapag/Hamburg Süd, CMA/APL, MSC/Bolloré) as carriers sought scale to survive price wars. Carriers learned to prefer short contract tenors with BAF-indexed terms precisely to avoid being trapped in trough-priced contracts through a recovery. The commercial playbook: during a trough, shippers push for long fixed contracts; during peaks, carriers push for spot or short tenors. Understanding this incentive structure — and how Named Account Contracts (NACs) interact with spot rates and surcharges — is foundational for any commercial freight buyer managing multi-million-dollar shipping budgets."
+        "correct": 2,
+        "why": "Vietnam’s industrial zones consistently cite electricity supply as the binding constraint in business surveys; Bangladesh’s RMG factories run on diesel captive generators during load-shedding, adding 3–8 cents/kWh to production cost.",
+        "deepDive": "The China+1 strategy generated massive FDI into Vietnam, Bangladesh, Indonesia, India, and Mexico from 2018 onward. Vietnam’s electricity grid is the #1 cited bottleneck: the national utility EVN manages chronic shortfalls during dry season when hydro output drops, forcing industrial zones to invest heavily in backup power. Bangladesh’s RMG factories similarly depend on diesel captive power during load-shedding. Infrastructure mismatch also covers water treatment, waste disposal, and road-to-port connectivity — but power is the single most cited barrier in FDI surveys. Common misconception: ‘Chittagong port depth is Bangladesh’s key bottleneck’ — transshipment via Singapore and Colombo feeders manages the port adequately; it is inland power supply that caps new factory absorption."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Strait of Malacca — through which roughly 25% of global seaborne trade passes — connects which two bodies of water?",
+        "subtopic": "religion",
+        "stem": "Which Islamic theological school — flourishing under Abbasid patronage in 9th-century Baghdad — held that the Quran was the ‘created word of God’ rather than eternal and uncreated, applying Greek rational philosophy to reconcile faith and reason?",
         "options": [
-          "Indian Ocean and South China Sea",
-          "Bay of Bengal and Java Sea",
-          "Andaman Sea and Celebes Sea",
-          "Arabian Sea and Pacific Ocean"
+          "Hanbali",
+          "Ashʼari",
+          "Muʻtazila",
+          "Maturidi"
         ],
-        "correct": 0,
-        "why": "The Strait of Malacca runs between the Malay Peninsula and Sumatra, linking the Indian Ocean to the South China Sea — the primary sea lane chokepoint for Asia-Pacific trade.",
-        "deepDive": "The Strait of Malacca is the world's second-busiest shipping lane, with roughly 90,000 vessels transiting annually. At its narrowest — the Phillips Channel near Singapore — the strait is only 2.8 km wide. Singapore's strategic identity as a port city-state is a direct geographic function of its position at the strait's southern exit. The lane simultaneously carries China-India, China-Middle East, and China-Europe trade arteries. Any disruption — piracy, naval confrontation, or ecological blockage — would be immediately systemic for global supply chains. All major naval powers maintain active Malacca positioning strategies. Bangladesh's Bay of Bengal position feeds into this strait via the Colombo and Singapore transshipment hubs."
+        "correct": 2,
+        "why": "Muʻtazilites held the Quran was created (not eternal) — a position that made it subject to rational interpretation. Caliph al-Maʼmun imposed this as state doctrine in 833 CE before it was reversed under al-Mutawakkil.",
+        "deepDive": "The Muʻtazila (‘those who withdraw’) emerged in 8th-century Basra and flourished under Abbasid patronage, representing the most systematic attempt to synthesize Greek rationalist philosophy with Islamic theology. Their five principles: divine unity (tawhid), divine justice (adl), the promise and threat, the intermediate position, and commanding the good. The ‘created Quran’ doctrine was their most politically explosive claim: an eternal uncreated Quran would constitute a second eternal entity alongside God, compromising divine unity. Caliph al-Maʼmun imposed Muʻtazilism via the Mihna (inquisition) in 833 CE; scholars who refused were imprisoned or flogged. Reversed under al-Mutawakkil (848 CE). The Muʻtazila’s rational legacy survived primarily in Shiʻa Islam. Common misconception: Muʻtazilism is glossed as ‘Islamic rationalism’ implying secularism — it was deeply theological, not secular."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "Carnot's theorem establishes the maximum thermodynamic efficiency of a heat engine. This ceiling is determined solely by what factor?",
+        "subtopic": "economics",
+        "stem": "The Lucas Critique (1976) fundamentally challenged Keynesian macroeconomic policy modelling. What is Robert Lucas’s core argument?",
         "options": [
-          "The type and thermodynamic properties of the working fluid",
-          "The absolute temperatures of the hot source and cold sink only",
-          "The engine's rotational speed and mechanical design precision",
-          "The calorific value and combustion rate of the fuel used"
+          "Fiscal multipliers are always less than one in open economies, making fiscal policy ineffective",
+          "Policy interventions change agents’ expectations, rendering historical econometric relationships invalid for future policy forecasting",
+          "Central banks cannot simultaneously control interest rates and money supply",
+          "Inflation is always and everywhere a monetary phenomenon determined by the quantity of money"
         ],
         "correct": 1,
-        "why": "Carnot efficiency = 1 − (T_cold / T_hot). Only the absolute temperatures of source and sink determine the theoretical ceiling — not the working fluid, engine design, or fuel.",
-        "deepDive": "Sadi Carnot published his 'Réflexions sur la puissance motrice du feu' in 1824 — before the first law of thermodynamics was formally stated — a remarkable intellectual achievement derived purely by reasoning about reversible cycles. Real engines fall well short: a modern steam turbine achieves around 45% vs a theoretical 60% Carnot limit for its temperature range; a marine diesel engine runs at 45–55% thermal efficiency. The Carnot limit also explains why nuclear reactors, operating at higher steam temperatures, can achieve higher efficiency than fossil plants at equivalent power output. Every percent of efficiency recovered in a large ship engine translates directly to bunker cost reduction — a core lever in shipping margin management."
+        "why": "When policymakers use a historical-data model to design policy, rational agents update their behaviour in response — invalidating the model’s parameters and making its predictions unreliable.",
+        "deepDive": "Robert Lucas’s 1976 paper ‘Econometric Policy Evaluation: A Critique’ is among the most cited in economics. The core insight: econometric relationships estimated from historical data reflect behaviour under past policy regimes. When a new policy is announced, rational agents update their expectations and alter behaviour — so the old relationship breaks down. The canonical example: the Phillips Curve appeared stable until policymakers tried to exploit it, whereupon 1970s stagflation destroyed the relationship. The critique laid groundwork for DSGE models that explicitly model expectations formation and contributed to the rise of explicit inflation targeting by central banks — anchoring expectations rather than reacting to past data. Common misconception: the critique means ‘models are useless’ — it actually means models must incorporate how rational agents form expectations to be valid for policy analysis."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "Horizontal gene transfer — movement of genetic material between organisms other than parent-to-offspring — is most prevalent in which domain of life?",
+        "subtopic": "history",
+        "stem": "The 1916 Sykes-Picot Agreement secretly divided the post-Ottoman Levant between Britain and France. Which territory — promised independence by Britain to Sharif Hussein in 1915 — most acutely exposed the contradictory nature of Britain’s wartime commitments?",
         "options": [
-          "Mammals and other vertebrates",
-          "Flowering plants (angiosperms)",
-          "Bacteria and Archaea (prokaryotes)",
-          "Insects and arthropods"
+          "Egypt and the Nile Delta",
+          "Greater Syria — encompassing modern Syria, Lebanon, and Palestine",
+          "Anatolia and the Bosphorus straits",
+          "The Arabian Peninsula south of Mecca"
         ],
-        "correct": 2,
-        "why": "Prokaryotes routinely exchange genes via conjugation, transformation, and transduction — the primary mechanism driving antibiotic resistance across species boundaries in hospital and agricultural environments.",
-        "deepDive": "Horizontal gene transfer (HGT) explains why antibiotic resistance spreads with alarming speed: a resistance gene evolving in a soil bacterium can jump via plasmid conjugation to a hospital pathogen within months. Three main HGT mechanisms: conjugation (direct cell-to-cell contact, plasmid transfer), transformation (bacteria absorbing environmental DNA), and transduction (bacteriophage-mediated transfer). Roughly 20–30% of E. coli genes arrived via HGT. Pharmaceutical implications are enormous: antibiotic production and resistance surveillance are a growing industrial concern in Bangladesh, which hosts a substantial generic pharma manufacturing sector. Understanding HGT also matters for biosafety classification in pharmaceutical cold-chain logistics."
+        "correct": 1,
+        "why": "Britain promised Arab independence over Greater Syria to Sharif Hussein (Husain-McMahon letters, 1915), then privately gave France control of the same territory via Sykes-Picot — a contradiction exposed in 1917 when the Bolsheviks published the secret text.",
+        "deepDive": "The 1916 Sykes-Picot Agreement divided anticipated post-Ottoman territory: France would control what became Syria and Lebanon; Britain would control Iraq, Jordan, and Palestine. Just a year earlier, Britain had encouraged the Arab Revolt by promising Sharif Hussein independence over Greater Syria. When the Bolsheviks published the secret text in 1917, it exposed British duplicity to Arab nationalists and seeded decades of mistrust. The Balfour Declaration (also 1917) added a third competing commitment — a Jewish homeland in Palestine — over the same territory. The resulting borders, particularly the straight desert lines of Iraq, Jordan, and Syria, remain the structural foundation of today’s regional conflicts. Common misconception: ‘Sykes-Picot alone created the modern Middle East’s problems’ oversimplifies — it is the artificially multi-national composition imposed within those borders that generates ongoing conflict."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "The empirical rule for a normal (Gaussian) distribution states that approximately what percentage of values fall within two standard deviations of the mean?",
+        "subtopic": "literature",
+        "stem": "Dante’s Divine Comedy is written in terza rima — an interlocking verse form he invented. What is its rhyme scheme?",
         "options": [
-          "68%",
-          "90%",
-          "95%",
-          "99.7%"
+          "ABA BCB CDC — interlocking chain where each tercet’s middle line becomes the rhyme of the next",
+          "AAB BBB CCB — Petrarchan sestet variant extended across cantos",
+          "ABB ACC ADD — tail-rhyme scheme with a repeating final line",
+          "ABC ABC ABC — repeated identical tercets throughout"
         ],
-        "correct": 2,
-        "why": "The 68-95-99.7 rule: 68% within 1 SD, 95% within 2 SD, 99.7% within 3 SD — the foundational reference for statistical inference and risk modelling.",
-        "deepDive": "The normal distribution's empirical rule underlies most classical statistical inference. The Central Limit Theorem explains its ubiquity: the mean of sufficiently large samples from almost any distribution approaches normality. Critical caveat: financial crises, container rate spikes, and extreme weather events follow fat-tailed distributions — log-normal or power-law — where the 95% rule dramatically underestimates tail risk. The 2024–2025 container rate spike was a statistical 6-sigma event under normal distribution assumptions, yet it happened. Value-at-Risk models using normal distributions systemically underestimate worst-case outcomes — a lesson learned repeatedly in shipping, banking, and reinsurance after every major market dislocation."
+        "correct": 0,
+        "why": "Terza rima’s ABA BCB CDC chain links each tercet to the next through the middle rhyme — a continuous forward pull Dante may have intended to mirror the Christian Trinity and the soul’s onward journey.",
+        "deepDive": "Terza rima (‘third rhyme’) was invented by Dante for the Divine Comedy (c. 1308–1321). The interlocking scheme — where the middle line of each tercet supplies the rhyme for the first and third lines of the next — creates a continuous chain that never resolves until the final canto’s closing triplet. The Comedy spans 14,233 lines across 100 cantos, making the sustained rhyme a remarkable technical achievement in Italian. The form was later adopted by Boccaccio, Petrarch, Chaucer, Byron (‘The Prophecy of Dante’), Shelley (‘Ode to the West Wind’), and T.S. Eliot (‘Little Gidding’). The scheme proves more natural in Italian, which has a higher proportion of rhymable endings, than in English. Common misconception: terza rima is often confused with regular tercets — the defining feature is the interlocking ‘escape’ of the middle rhyme into the subsequent stanza."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "John Rawls's 'veil of ignorance' thought experiment asks participants designing a just society to make decisions without knowing which aspect of their own situation?",
+        "subtopic": "arts",
+        "stem": "Which 19th-century French artist is credited as the founding figure of Realism, deliberately painting peasants and labourers at monumental scale to challenge academic painting’s emphasis on mythological and historical subjects?",
         "options": [
-          "The laws and constitutional framework already in place",
-          "Their position in society — wealth, class, talents, race, and gender",
-          "The outcome of the most recent democratic elections",
-          "The historical precedents of the legal system they will live under"
+          "Honoré Daumier",
+          "Jean-François Millet",
+          "Gustave Courbet",
+          "Édouard Manet"
         ],
-        "correct": 1,
-        "why": "Behind the veil of ignorance, rational actors do not know their socioeconomic position, so they choose principles protecting the worst-off — yielding Rawls's equal liberties principle and the difference principle.",
-        "deepDive": "John Rawls published 'A Theory of Justice' in 1971, reviving liberal political philosophy against both utilitarian and libertarian critiques. The veil of ignorance makes social contract reasoning impartial: if you do not know whether you will be born wealthy or poor, majority or minority, healthy or disabled, you rationally choose institutions that protect the least advantaged. This yields two principles: (1) equal basic liberties for all, and (2) the Difference Principle — inequalities are only justified if they benefit the least-advantaged members of society. Rawlsian logic underlies progressive taxation, labour rights frameworks, and LDC trade preferences like the EU's Everything But Arms scheme and GSP+. Bangladesh's RMG export sector benefits directly from trade architecture shaped by Rawlsian political philosophy."
+        "correct": 2,
+        "why": "Courbet’s self-declared ‘Realist Manifesto’ (1855) stated art must represent only visible, tangible reality. His ‘Stone Breakers’ and ‘Burial at Ornans’ depicted working-class subjects at history-painting scale — deliberately scandalising the Paris Salon.",
+        "deepDive": "Gustave Courbet (1819–1877) rejected the idealized mythological and historical subjects of academic painting. His core provocation: ‘Show me an angel and I’ll paint one.’ His ‘Stone Breakers’ (1849) and ‘A Burial at Ornans’ (1850) caused scandal by depicting ordinary working people at the scale reserved for religious scenes and heroic history — an implicit claim of working-class dignity. Courbet’s politics matched his aesthetics: a committed socialist, he participated in the Paris Commune of 1871 and was blamed for ordering the destruction of the Vendôme Column. He was imprisoned, fined, and fled to Switzerland. Daumier and Millet were contemporaries with Realist tendencies — Millet is often confused with Courbet — but Courbet explicitly theorized and named the movement. Common misconception: Realism means photographic accuracy — it was equally a political statement about whose stories merit monumental depiction."
       }
     ]
   }
