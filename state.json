@@ -1,17 +1,7 @@
 {
   "streak": 10,
-  "last_session_date": "2026-08-02",
+  "last_session_date": "2026-08-03",
   "questions_seen": [
-    "A freight forwarder consigns an LCL shipment under a CFS/CY movement. Which statement correctly describes the physical and documentary flow?",
-    "The Trans-Caspian International Transport Route (TITR), also called the Middle Corridor, links China to Europe while bypassing both Russia and Iran. Which sequence of countries and transit modes is correct?",
-    "Under the York-Antwerp Rules, a master deliberately jettisons 200 containers in heavy weather to prevent the vessel from capsizing. The ship and all remaining cargo arrive safely. Under General Average, which statement is most accurate?",
-    "The US Uyghur Forced Labor Prevention Act (UFLPA, 2022) creates a rebuttable presumption that goods from Xinjiang are produced with forced labour. What does this mean in practice for an importer?",
-    "In 2024-25, the container shipping orderbook-to-fleet ratio ran at approximately 22-25%, reflecting a post-COVID newbuild ordering surge. Assuming 2-3 year delivery timelines and moderate demand growth, what is the most likely directional impact on spot freight rates?",
-    "The 1884-85 Berlin Conference partitioned Africa among European powers and established effective occupation as the basis for territorial claims. Which statesman convened the conference, and what specifically did effective occupation require?",
-    "The Wakhan Corridor — a narrow strip of Afghan territory approximately 350km long, as narrow as 15km — was deliberately shaped during the Great Game to prevent direct border contact between which two empires, and what country does its eastern tip border today?",
-    "Maxwell's Demon appeared to violate the Second Law of Thermodynamics by sorting fast and slow molecules without expending energy. Which 20th-century insight definitively resolved the paradox?",
-    "Yasunari Kawabata, Japan's first Nobel Laureate in Literature (1968), described his aesthetic vision using the concept mono no aware. Which characterisation best captures the term and how it operates in his fiction?",
-    "The Banach-Tarski paradox proves that a solid ball can be decomposed into a finite number of pieces and reassembled into two balls of the same size as the original. Which axiom of set theory is the indispensable foundation for this result?",
     "A CATOBAR carrier launches aircraft using steam or electromagnetic catapults. What operationally distinguishes it from a STOBAR carrier that uses a ski-jump ramp?",
     "An airport is classified Level 3 under IATA's Worldwide Airport Slot Guidelines (WASG). What does this mean and who governs how slots are allocated?",
     "Between 2016 and 2018, a wave of container shipping mergers dramatically concentrated the industry. Which cluster of deals was most structurally transformative?",
@@ -501,7 +491,17 @@
     "The Lucas Critique (1976) fundamentally challenged Keynesian macroeconomic policy modelling. What is Robert Lucas’s core argument?",
     "The 1916 Sykes-Picot Agreement secretly divided the post-Ottoman Levant between Britain and France. Which territory — promised independence by Britain to Sharif Hussein in 1915 — most acutely exposed the contradictory nature of Britain’s wartime commitments?",
     "Dante’s Divine Comedy is written in terza rima — an interlocking verse form he invented. What is its rhyme scheme?",
-    "Which 19th-century French artist is credited as the founding figure of Realism, deliberately painting peasants and labourers at monumental scale to challenge academic painting’s emphasis on mythological and historical subjects?"
+    "Which 19th-century French artist is credited as the founding figure of Realism, deliberately painting peasants and labourers at monumental scale to challenge academic painting’s emphasis on mythological and historical subjects?",
+    "Which financial instrument provides an irrevocable bank guarantee that an exporter receives payment upon presenting compliant shipping documents to a nominated bank?",
+    "The Harmonized System (HS) code — used globally for customs classification of goods — is administered and updated every five years by which body?",
+    "What is the approximate maximum TEU capacity of a traditional Panamax vessel, defined by the original Panama Canal lock dimensions prior to the 2016 expansion?",
+    "In container logistics, 'demurrage' and 'detention' are distinct charges. Which statement correctly defines demurrage?",
+    "Following the 2024-25 alliance restructuring, which three alliances dominated global container shipping entering 2026?",
+    "Which composer is called the 'Father of the Symphony' and standardized the four-movement form — fast/slow/minuet/fast — across 104 symphonies?",
+    "What term describes a language-contact phenomenon where a language replaces most of its vocabulary with words from a prestige language while retaining its own grammatical structure?",
+    "In which Olympic Games did the women's marathon debut as an official event, ending decades of exclusion from distance running?",
+    "Which 1999 film popularized the 'red pill' as a metaphor for choosing uncomfortable truth over reassuring illusion — now ubiquitous in political and philosophical discourse?",
+    "Theda Skocpol's 'States and Social Revolutions' (1979) rejected voluntarist theories by arguing revolutions emerge primarily from which structural cause?"
   ],
   "learn_history": [
     {
@@ -873,6 +873,11 @@
       "date": "2026-08-02",
       "topic": "Competitive Authoritarianism: How Incumbents Win Without Banning Elections",
       "bucket": "political_theory"
+    },
+    {
+      "date": "2026-08-03",
+      "topic": "CoWoS: The Packaging Bottleneck Running Every AI Accelerator",
+      "bucket": "semiconductor_foundations"
     }
   ],
   "curriculum_progress": {
@@ -883,8 +888,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 18,
-      "last_seen": "2026-07-30",
+      "count": 19,
+      "last_seen": "2026-08-03",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -895,20 +900,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 18,
-      "last_seen": "2026-07-30",
+      "count": 19,
+      "last_seen": "2026-08-03",
       "difficulty": 4,
       "rolling_score": []
     },
     "vessels": {
-      "count": 18,
-      "last_seen": "2026-07-30",
+      "count": 19,
+      "last_seen": "2026-08-03",
       "difficulty": 4,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 18,
-      "last_seen": "2026-07-30",
+      "count": 19,
+      "last_seen": "2026-08-03",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -919,8 +924,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 18,
-      "last_seen": "2026-07-30",
+      "count": 19,
+      "last_seen": "2026-08-03",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1041,8 +1046,8 @@
       "rolling_score": []
     },
     "music": {
-      "count": 25,
-      "last_seen": "2026-07-31",
+      "count": 26,
+      "last_seen": "2026-08-03",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -1053,8 +1058,8 @@
       "rolling_score": []
     },
     "political_theory": {
-      "count": 25,
-      "last_seen": "2026-08-01",
+      "count": 26,
+      "last_seen": "2026-08-03",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -1065,179 +1070,179 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 25,
-      "last_seen": "2026-07-31",
+      "count": 26,
+      "last_seen": "2026-08-03",
       "difficulty": 4,
       "rolling_score": []
     },
     "sport": {
-      "count": 25,
-      "last_seen": "2026-07-31",
+      "count": 26,
+      "last_seen": "2026-08-03",
       "difficulty": 3,
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 25,
-      "last_seen": "2026-07-31",
+      "count": 26,
+      "last_seen": "2026-08-03",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-08-02",
+    "date": "2026-08-03",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "Which freighter variant’s nose-cargo door — absent on the B777F and A330F — enables straight roll-on/roll-off loading of oversize items such as helicopters and industrial turbines?",
+        "subtopic": "documentation",
+        "stem": "Which financial instrument provides an irrevocable bank guarantee that an exporter receives payment upon presenting compliant shipping documents to a nominated bank?",
         "options": [
-          "Airbus A330-200F",
-          "Boeing 747-400F",
-          "McDonnell Douglas MD-11F",
-          "Airbus A300-600RF"
+          "Documentary Collection (D/P or D/A)",
+          "Letter of Credit (LC)",
+          "Bank Guarantee (BG)",
+          "Open Account with Credit Insurance"
         ],
         "correct": 1,
-        "why": "The 747-400F nose door hinges upward, creating a straight ramp into the main deck — the only major widebody freighter in common commercial service with this capability.",
-        "deepDive": "Boeing’s 747 nose-loading configuration dates to the original 747-200F of the early 1970s, designed for military outsize cargo. The nose door makes the 747F the default choice for breakbulk air freight — helicopters, jet engines, industrial turbines, and oversized machinery — where roll-on loading eliminates cranes and slings. The B777F, despite superior fuel efficiency and range, loads only through a side main-deck door, limiting usable height for certain cargo profiles. The MD-11F is similarly side-load only. Carriers like Lufthansa Cargo and Cargolux retain B747-8Fs specifically for this capability even after Boeing’s 747 production ended in 2022. Common misconception: ‘any wide main-deck door’ equals nose-loading capability — the geometry of straight-rail roll-on access from the tarmac is what distinguishes the 747."
+        "why": "A Letter of Credit is the bank's conditional, irrevocable payment commitment — triggered by compliant document presentation, not buyer goodwill.",
+        "deepDive": "A Letter of Credit (LC) is issued by the importer's bank and advises the exporter via a local advising or confirming bank. The exporter ships, presents a compliant document set — commercial invoice, B/L, packing list, certificate of origin — and gets paid. If the confirming bank adds its own guarantee, even issuing-bank default is covered. Documentary Collection is cheaper but riskier: banks only transmit documents and do not guarantee payment. Open Account exposes exporters fully to buyer default. The UCP 600 (ICC's Uniform Customs and Practice for Documentary Credits) governs LC practice globally; a single non-compliant field can constitute a 'discrepancy' and allow payment refusal. Approximately one-third of all LCs are rejected on first presentation."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "A cargo airline takes on a wet lease from another carrier. ACMI — the four components covered by the lessor — stands for what?",
+        "subtopic": "customs",
+        "stem": "The Harmonized System (HS) code — used globally for customs classification of goods — is administered and updated every five years by which body?",
         "options": [
-          "Aircraft, Crew, Maintenance, Insurance",
-          "Aircraft, Cargo, Manifest, Infrastructure",
-          "Airframe, Communication, Maintenance, Insurance",
-          "Aircraft, Crew, Management, Infrastructure"
+          "WTO (World Trade Organization)",
+          "WCO (World Customs Organization)",
+          "UNCTAD",
+          "IMO (International Maritime Organization)"
         ],
-        "correct": 0,
-        "why": "Under ACMI, the lessor provides the aircraft, crew, maintenance, and insurance; the lessee pays for fuel, ground handling, landing fees, and cargo — the lessor retains operational and AOC control.",
-        "deepDive": "ACMI leasing is the dominant flexible-capacity mechanism in air freight, allowing cargo carriers to add capacity seasonally or for charters without acquiring aircraft. The lessor’s crew operates under the lessor’s Air Operator Certificate (AOC), which matters critically for liability, insurance validity, and regulatory compliance. The lessee handles commercial decisions: cargo selection, routing, and customer contracts. ACMI is distinct from a dry lease (aircraft only, lessee operates under its own AOC) and a full-service wet lease (lessor handles ground ops too). During COVID-era belly-freight collapse, ACMI rates for B747Fs spiked three to four times. Common misconception: the wet lessee sets crew schedules — it does not; the lessor’s crew follows its own rest-and-duty regulations regardless of lessee commercial needs."
+        "correct": 1,
+        "why": "The WCO owns the Harmonized System — 97 chapters covering ~98% of world trade — and revises it on a five-year cycle to reflect new products and technologies.",
+        "deepDive": "The Harmonized System is a 6-digit coding framework: first 2 digits are the Chapter (e.g., Ch. 85 = electrical machinery), next 2 the Heading, last 2 the Subheading. Countries can add up to 4 more digits for national tariff lines (creating 8-10 digit codes). The 2022 HS revision added new headings for e-cigarettes, drones, and smartphones. Misclassification carries consequences — wrong duties, seizures, and potential fraud liability. Importers can obtain advance binding rulings from customs authorities before shipment. Common misconception: many traders think the 6-digit HS is globally uniform in duty treatment — only the classification structure is harmonized; the actual tariff rate each country applies is its own sovereign policy and varies enormously."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "DSV’s 2021 acquisition of Agility’s GIL division added which capability most critical to DSV’s strategic positioning — and not available in its existing commercial freight network?",
+        "subtopic": "vessels",
+        "stem": "What is the approximate maximum TEU capacity of a traditional Panamax vessel, defined by the original Panama Canal lock dimensions prior to the 2016 expansion?",
         "options": [
-          "Agility’s bonded warehouse network across Shenzhen and Hong Kong",
-          "Agility’s project logistics and government/military supply chain capabilities",
-          "Agility’s Bosphorus intermodal ferry operations",
-          "Agility’s airfreight gateway hub in Kuwait with oil-major contracts"
+          "~5,000 TEUs",
+          "~8,500 TEUs",
+          "~14,000 TEUs",
+          "~18,000 TEUs"
         ],
-        "correct": 1,
-        "why": "GIL brought DSV into project logistics and government/military supply chains — capabilities built on US/NATO military operations and energy-sector projects — propelling DSV past DB Schenker to the #2 global forwarder position.",
-        "deepDive": "Agility’s Global Integrated Logistics (GIL) division was built largely on US and NATO military supply chain work — particularly Iraq and Afghanistan operations — and on energy-sector project logistics. When DSV acquired it for approximately $4.2B enterprise value, it was purchasing specialized capabilities: military base supply, petroleum logistics, and complex project moves in markets (Middle East, Africa) where DSV was structurally weak. M&A logic in freight forwarding is typically about network coverage and capability gaps, not just revenue multiples. The acquisition pushed DSV to the #2 global position by revenue and transformed its geographic and vertical footprint in a single transaction. Common misconception: the deal was purely about volume — the government-contracting capability and geographic adjacency were arguably worth more than the revenue multiple implied."
+        "correct": 0,
+        "why": "Original Panamax locks (106 ft wide) capped vessels at ~5,000 TEUs; the 2016 expansion created the Neo-Panamax class allowing up to ~14,000 TEUs.",
+        "deepDive": "The Panama Canal's 1914 locks set max beam at 32.3m (106 ft) and length 294.1m — capping vessels at ~5,000 TEUs. The 2016 third-lock expansion (beam 49m) enabled Neo-Panamax/New Panamax ships of ~14,000 TEUs. Modern vessel classes: Feeder (<1,000 TEU), Handysize (1–3k), Sub-Panamax (3–5k), Panamax (5–6k), Post-Panamax (6–10k), New Panamax (10–14k), ULCS (18,000–24,000 TEUs). MSC's Irina (24,346 TEUs) is currently the world's largest. Ultra-large vessels dominate Asia-Europe trade where canal transit is irrelevant. Common misconception: 'Post-Panamax' and 'Neo-Panamax' are often used interchangeably, but Neo-Panamax specifically fits the new third set of locks; Post-Panamax is a broader category of any vessel exceeding original lock dimensions."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "A shipper holds a fixed-rate service contract with a carrier. Three weeks before shipment, the carrier announces a General Rate Increase (GRI). Under a standard service contract, which party bears the GRI cost?",
+        "subtopic": "port_ops",
+        "stem": "In container logistics, 'demurrage' and 'detention' are distinct charges. Which statement correctly defines demurrage?",
         "options": [
-          "The shipper — GRIs override all contract rates under carrier tariff rules",
-          "The carrier — a signed service contract fixes the rate for the contract period",
-          "The shipper — but only if the GRI exceeds 20% of the contracted base rate",
-          "Both parties split it under the standard GRI-sharing clause"
+          "Charge for keeping a container at the shipper's warehouse beyond free time",
+          "Carrier's charge for a container remaining inside the terminal beyond the allotted free days",
+          "Penalty for a vessel departing berth late",
+          "Customs fee for delayed inspection clearance of imported goods"
         ],
         "correct": 1,
-        "why": "A properly structured service contract protects the shipper from GRIs during the contract term. Carriers cannot unilaterally override contract rates with a GRI unless the contract explicitly includes a pass-through clause.",
-        "deepDive": "Service contracts (SCs) in container shipping are bilateral agreements between shipper/forwarder and carrier, typically filed with the FMC for US trades. The fixed rate is the shipper’s protection against market volatility — the carrier accepts rate risk in exchange for a volume commitment. GRIs are announced for spot/FAK market cargo and generally do not apply to shippers with properly structured SCs. The exception is contracts with an indexed adjustment clause or explicit BAF/CAF pass-through. In practice, carriers sometimes pressure shippers to renegotiate during hot markets; shippers with strong contracts can refuse. Common misconception: ‘the carrier always wins on surcharges’ — not true if the SC is properly worded, a volume commitment is honored, and the contract lacks a GRI pass-through clause."
+        "why": "Demurrage = container at terminal (port-side) beyond carrier's free days. Detention = container outside the terminal (at customer premises) beyond free days.",
+        "deepDive": "Demurrage accrues when a full import container sits in the terminal beyond the carrier's free time (typically 3–5 days). The terminal also charges port storage separately — these are not the same as carrier demurrage. Detention accrues when an empty container is taken outside the terminal and not returned within free days. The US FMC's 2024 Demurrage and Detention Interpretive Rule requires carriers to publish clear D&D rules and provides grounds for shippers to dispute unreasonable charges. During the 2021-22 US West Coast port crisis, demurrage bills reached catastrophic levels — shippers owed millions for containers they physically could not access due to yard congestion beyond their control, sparking regulatory intervention. Common misconception: many practitioners use 'demurrage' as a catch-all for both charges, which matters enormously in contract disputes."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "China+1 diversification strategies have driven massive FDI into Vietnam and Bangladesh since 2020. Which bottleneck most consistently caps how fast these countries can absorb relocated production?",
+        "subtopic": "liner_alliances",
+        "stem": "Following the 2024-25 alliance restructuring, which three alliances dominated global container shipping entering 2026?",
         "options": [
-          "Currency instability making export pricing unreliable for buyers",
-          "Insufficient port draft depth for ultra-large container vessels",
-          "Power infrastructure gaps and unreliable electricity supply",
-          "Absence of bilateral free trade agreements with the EU"
+          "Gemini Cooperation, Ocean Alliance, Premier Alliance",
+          "2M, Ocean Alliance, THE Alliance",
+          "Maersk Direct, COSCO-Evergreen, MSC Solo",
+          "Gemini, THE Alliance, CMA CGM Direct"
         ],
-        "correct": 2,
-        "why": "Vietnam’s industrial zones consistently cite electricity supply as the binding constraint in business surveys; Bangladesh’s RMG factories run on diesel captive generators during load-shedding, adding 3–8 cents/kWh to production cost.",
-        "deepDive": "The China+1 strategy generated massive FDI into Vietnam, Bangladesh, Indonesia, India, and Mexico from 2018 onward. Vietnam’s electricity grid is the #1 cited bottleneck: the national utility EVN manages chronic shortfalls during dry season when hydro output drops, forcing industrial zones to invest heavily in backup power. Bangladesh’s RMG factories similarly depend on diesel captive power during load-shedding. Infrastructure mismatch also covers water treatment, waste disposal, and road-to-port connectivity — but power is the single most cited barrier in FDI surveys. Common misconception: ‘Chittagong port depth is Bangladesh’s key bottleneck’ — transshipment via Singapore and Colombo feeders manages the port adequately; it is inland power supply that caps new factory absorption."
+        "correct": 0,
+        "why": "The reshuffle produced Gemini (Maersk + Hapag-Lloyd), Ocean Alliance (CMA CGM + COSCO + Evergreen + OOCL), and Premier Alliance (ONE + HMM + Yang Ming).",
+        "deepDive": "The 2024-25 reshuffle was the biggest liner alliance restructuring since 2017. Maersk exited 2M and formed Gemini Cooperation with Hapag-Lloyd, targeting 95%+ schedule reliability. MSC — now the world's largest carrier at ~6M TEU fleet — operates independently. Ocean Alliance renewed through 2032 retaining its four original members. THE Alliance dissolved; its non-Hapag members (ONE, HMM, Yang Ming) formed Premier Alliance. MSC's independence changed the competitive dynamic: it can offer shippers a fully controlled product without alliance slot constraints. Alliances operate via vessel-sharing agreements — members swap slots on each other's services without combining ownership. EU antitrust exemptions for liner alliances came under intense scrutiny from 2024; the current framework's renewal is contested by shippers arguing it enables rate coordination."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "Which Islamic theological school — flourishing under Abbasid patronage in 9th-century Baghdad — held that the Quran was the ‘created word of God’ rather than eternal and uncreated, applying Greek rational philosophy to reconcile faith and reason?",
+        "subtopic": "music",
+        "stem": "Which composer is called the 'Father of the Symphony' and standardized the four-movement form — fast/slow/minuet/fast — across 104 symphonies?",
         "options": [
-          "Hanbali",
-          "Ashʼari",
-          "Muʻtazila",
-          "Maturidi"
+          "Wolfgang Amadeus Mozart",
+          "Franz Schubert",
+          "Joseph Haydn",
+          "Christoph Willibald Gluck"
         ],
         "correct": 2,
-        "why": "Muʻtazilites held the Quran was created (not eternal) — a position that made it subject to rational interpretation. Caliph al-Maʼmun imposed this as state doctrine in 833 CE before it was reversed under al-Mutawakkil.",
-        "deepDive": "The Muʻtazila (‘those who withdraw’) emerged in 8th-century Basra and flourished under Abbasid patronage, representing the most systematic attempt to synthesize Greek rationalist philosophy with Islamic theology. Their five principles: divine unity (tawhid), divine justice (adl), the promise and threat, the intermediate position, and commanding the good. The ‘created Quran’ doctrine was their most politically explosive claim: an eternal uncreated Quran would constitute a second eternal entity alongside God, compromising divine unity. Caliph al-Maʼmun imposed Muʻtazilism via the Mihna (inquisition) in 833 CE; scholars who refused were imprisoned or flogged. Reversed under al-Mutawakkil (848 CE). The Muʻtazila’s rational legacy survived primarily in Shiʻa Islam. Common misconception: Muʻtazilism is glossed as ‘Islamic rationalism’ implying secularism — it was deeply theological, not secular."
+        "why": "Haydn wrote 104 symphonies over 40 years at the Esterházy court, establishing the four-movement template that Beethoven and successors inherited.",
+        "deepDive": "Joseph Haydn (1732–1809) spent most of his career at the Esterházy court, where a captive orchestra gave him unparalleled freedom to experiment. His early works were three-movement; he gradually developed the canonical structure: sonata-allegro (fast), slow movement (andante), minuet-and-trio, rondo or sonata finale. His 'London Symphonies' (Nos. 93–104, composed for 1791 and 1794 English tours) represent the classical symphony at its apex — No. 94 'Surprise' has a famous fortissimo chord designed to wake sleeping audiences. Mozart was a great symphonist but worked largely within Haydn's framework. Beethoven then broke conventions: he transformed the minuet into a scherzo, expanded development sections, and added a full choral finale in his 9th. Common misconception: Mozart is often assumed to have 'invented' the symphony simply because he is the more famous name."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The Lucas Critique (1976) fundamentally challenged Keynesian macroeconomic policy modelling. What is Robert Lucas’s core argument?",
+        "subtopic": "linguistics",
+        "stem": "What term describes a language-contact phenomenon where a language replaces most of its vocabulary with words from a prestige language while retaining its own grammatical structure?",
         "options": [
-          "Fiscal multipliers are always less than one in open economies, making fiscal policy ineffective",
-          "Policy interventions change agents’ expectations, rendering historical econometric relationships invalid for future policy forecasting",
-          "Central banks cannot simultaneously control interest rates and money supply",
-          "Inflation is always and everywhere a monetary phenomenon determined by the quantity of money"
+          "Code-switching",
+          "Relexification",
+          "Diglossia",
+          "Creolization"
         ],
         "correct": 1,
-        "why": "When policymakers use a historical-data model to design policy, rational agents update their behaviour in response — invalidating the model’s parameters and making its predictions unreliable.",
-        "deepDive": "Robert Lucas’s 1976 paper ‘Econometric Policy Evaluation: A Critique’ is among the most cited in economics. The core insight: econometric relationships estimated from historical data reflect behaviour under past policy regimes. When a new policy is announced, rational agents update their expectations and alter behaviour — so the old relationship breaks down. The canonical example: the Phillips Curve appeared stable until policymakers tried to exploit it, whereupon 1970s stagflation destroyed the relationship. The critique laid groundwork for DSGE models that explicitly model expectations formation and contributed to the rise of explicit inflation targeting by central banks — anchoring expectations rather than reacting to past data. Common misconception: the critique means ‘models are useless’ — it actually means models must incorporate how rational agents form expectations to be valid for policy analysis."
+        "why": "Relexification is the wholesale replacement of lexicon while preserving morphosyntax — distinct from borrowing (which fills gaps) and creolization (full structural mixing).",
+        "deepDive": "Relexification sits at the extreme end of the language-contact spectrum. Code-switching: bilinguals alternate mid-sentence. Diglossia: two varieties serve different social functions in the same community. Relexification: the original language's grammar — morphology, syntax, phonology — survives, but content words are systematically replaced. Examples: Ma'a (Tanzania) with Cushitic grammar but Bantu vocabulary; Michif (Canada) blending Cree verbs and French nouns. Controversial: Claire Lefebvre's influential hypothesis argues Haitian Creole is relexified Fongbe, a West African language. In South Asia, 19th-century literary reform drove partial relexification — Bengali absorbed heavy Sanskrit tatsama vocabulary into formal registers, displacing Prakritic vernacular words. Common misconception: confusing relexification with ordinary loanwords; loanwords fill lexical gaps for new concepts, while relexification systematically replaces existing native terms."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "The 1916 Sykes-Picot Agreement secretly divided the post-Ottoman Levant between Britain and France. Which territory — promised independence by Britain to Sharif Hussein in 1915 — most acutely exposed the contradictory nature of Britain’s wartime commitments?",
+        "subtopic": "sport",
+        "stem": "In which Olympic Games did the women's marathon debut as an official event, ending decades of exclusion from distance running?",
         "options": [
-          "Egypt and the Nile Delta",
-          "Greater Syria — encompassing modern Syria, Lebanon, and Palestine",
-          "Anatolia and the Bosphorus straits",
-          "The Arabian Peninsula south of Mecca"
+          "1972 Munich",
+          "1984 Los Angeles",
+          "1988 Seoul",
+          "1996 Atlanta"
         ],
         "correct": 1,
-        "why": "Britain promised Arab independence over Greater Syria to Sharif Hussein (Husain-McMahon letters, 1915), then privately gave France control of the same territory via Sykes-Picot — a contradiction exposed in 1917 when the Bolsheviks published the secret text.",
-        "deepDive": "The 1916 Sykes-Picot Agreement divided anticipated post-Ottoman territory: France would control what became Syria and Lebanon; Britain would control Iraq, Jordan, and Palestine. Just a year earlier, Britain had encouraged the Arab Revolt by promising Sharif Hussein independence over Greater Syria. When the Bolsheviks published the secret text in 1917, it exposed British duplicity to Arab nationalists and seeded decades of mistrust. The Balfour Declaration (also 1917) added a third competing commitment — a Jewish homeland in Palestine — over the same territory. The resulting borders, particularly the straight desert lines of Iraq, Jordan, and Syria, remain the structural foundation of today’s regional conflicts. Common misconception: ‘Sykes-Picot alone created the modern Middle East’s problems’ oversimplifies — it is the artificially multi-national composition imposed within those borders that generates ongoing conflict."
+        "why": "Women's marathon debuted at the 1984 Los Angeles Olympics; Joan Benoit (USA) won the inaugural gold in 2:24:52.",
+        "deepDive": "Women were excluded from marathon running on spurious physiological grounds well into the 1970s. A turning point: at the 1967 Boston Marathon, Kathrine Switzer entered as 'K.V. Switzer' and race director Jock Semple physically tried to remove her mid-race. The AAU opened road races to women in 1972. The IOC added the women's marathon to the 1984 LA Games; Joan Benoit's time would have won the men's race at several earlier Olympics. The gender gap has since narrowed sharply: the women's world record (Ruth Chepngetich, 2024, 2:09:56) is now only ~10 minutes behind the men's (Kelvin Kiptum, 2:00:35). Common misconception: many assume women competed in long-distance track events far earlier — women's 1,500m joined the Olympics only in 1972, and women's 5,000m and 10,000m in 1984 and 1988 respectively."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Dante’s Divine Comedy is written in terza rima — an interlocking verse form he invented. What is its rhyme scheme?",
+        "subtopic": "pop_culture",
+        "stem": "Which 1999 film popularized the 'red pill' as a metaphor for choosing uncomfortable truth over reassuring illusion — now ubiquitous in political and philosophical discourse?",
         "options": [
-          "ABA BCB CDC — interlocking chain where each tercet’s middle line becomes the rhyme of the next",
-          "AAB BBB CCB — Petrarchan sestet variant extended across cantos",
-          "ABB ACC ADD — tail-rhyme scheme with a repeating final line",
-          "ABC ABC ABC — repeated identical tercets throughout"
+          "Dark City",
+          "The Matrix",
+          "eXistenZ",
+          "The Thirteenth Floor"
         ],
-        "correct": 0,
-        "why": "Terza rima’s ABA BCB CDC chain links each tercet to the next through the middle rhyme — a continuous forward pull Dante may have intended to mirror the Christian Trinity and the soul’s onward journey.",
-        "deepDive": "Terza rima (‘third rhyme’) was invented by Dante for the Divine Comedy (c. 1308–1321). The interlocking scheme — where the middle line of each tercet supplies the rhyme for the first and third lines of the next — creates a continuous chain that never resolves until the final canto’s closing triplet. The Comedy spans 14,233 lines across 100 cantos, making the sustained rhyme a remarkable technical achievement in Italian. The form was later adopted by Boccaccio, Petrarch, Chaucer, Byron (‘The Prophecy of Dante’), Shelley (‘Ode to the West Wind’), and T.S. Eliot (‘Little Gidding’). The scheme proves more natural in Italian, which has a higher proportion of rhymable endings, than in English. Common misconception: terza rima is often confused with regular tercets — the defining feature is the interlocking ‘escape’ of the middle rhyme into the subsequent stanza."
+        "correct": 1,
+        "why": "The Wachowskis' The Matrix (1999) introduced the red-pill/blue-pill binary, drawing on Baudrillard's Simulacra and Simulation — now one of cinema's most referenced metaphors.",
+        "deepDive": "The Matrix drew on Descartes' evil demon, Plato's Allegory of the Cave, and Jean Baudrillard's 'Simulacra and Simulation' — a copy of which appears in Neo's apartment. Baudrillard later dismissed the film as a simplification of his work. The red pill became culturally dominant immediately and has been co-opted across ideological spectrums — libertarians, men's rights communities, conspiracy theorists. The Wachowskis — both trans women — have expressed discomfort at these co-optations; Lilly Wachowski confirmed in 2020 the film was always a trans allegory. The film spawned The Animatrix (2003), two 2003 sequels, and Resurrections (2021). Its philosophical core — whether simulated experience is distinguishable from genuine reality — now overlaps with live debates about AI consciousness and large-language-model cognition."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Which 19th-century French artist is credited as the founding figure of Realism, deliberately painting peasants and labourers at monumental scale to challenge academic painting’s emphasis on mythological and historical subjects?",
+        "subtopic": "political_theory",
+        "stem": "Theda Skocpol's 'States and Social Revolutions' (1979) rejected voluntarist theories by arguing revolutions emerge primarily from which structural cause?",
         "options": [
-          "Honoré Daumier",
-          "Jean-François Millet",
-          "Gustave Courbet",
-          "Édouard Manet"
+          "Rising class consciousness among the proletariat",
+          "Ideological mobilization by revolutionary vanguard parties",
+          "International military pressure combined with agrarian revolt breaking state capacity",
+          "Economic collapse driven by trade disruption and hyperinflation"
         ],
         "correct": 2,
-        "why": "Courbet’s self-declared ‘Realist Manifesto’ (1855) stated art must represent only visible, tangible reality. His ‘Stone Breakers’ and ‘Burial at Ornans’ depicted working-class subjects at history-painting scale — deliberately scandalising the Paris Salon.",
-        "deepDive": "Gustave Courbet (1819–1877) rejected the idealized mythological and historical subjects of academic painting. His core provocation: ‘Show me an angel and I’ll paint one.’ His ‘Stone Breakers’ (1849) and ‘A Burial at Ornans’ (1850) caused scandal by depicting ordinary working people at the scale reserved for religious scenes and heroic history — an implicit claim of working-class dignity. Courbet’s politics matched his aesthetics: a committed socialist, he participated in the Paris Commune of 1871 and was blamed for ordering the destruction of the Vendôme Column. He was imprisoned, fined, and fled to Switzerland. Daumier and Millet were contemporaries with Realist tendencies — Millet is often confused with Courbet — but Courbet explicitly theorized and named the movement. Common misconception: Realism means photographic accuracy — it was equally a political statement about whose stories merit monumental depiction."
+        "why": "Skocpol argued state crises — not intentional mobilization — cause revolutions: international military competition exhausts states while agrarian conflict blocks rural resource extraction.",
+        "deepDive": "Skocpol's comparison of France (1787), Russia (1917), and China (1911) built a 'non-voluntarist' structural theory. Against Marx: class struggle is insufficient — ruling classes can suppress it absent prior state breakdown. Against Lenin: vanguard parties don't cause revolutions; they exploit crises already underway. The two-part structural mechanism: (1) international military competition strains state resources, undermining authority; (2) agrarian class structures prevent states from extracting rural resources needed to recover. This creates the vacuum that revolutionary movements fill. Her framework helps explain the 1979 Iranian Revolution — the Shah's state faced both superpower isolation and a broad domestic coalition breakdown Skocpol later analyzed. Common misconception: students confuse Skocpol with Marxist structuralism; she explicitly rejects both Marxist determinism and rational-choice models. Key reading: 'States and Social Revolutions' (1979); 'Protecting Soldiers and Mothers' (1992)."
       }
     ]
   }
