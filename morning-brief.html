@@ -364,52 +364,60 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  "date": "2026-08-03",
-  "dateLabel": "Monday · 03 August 2026",
-  "editionLabel": "Edition · Monday 03 August",
-  "headline": "BB's first rate cut in six years; TSMC commits $100bn more to Arizona; WCI falls for a third straight week.",
+  "date": "2026-08-04",
+  "dateLabel": "Tuesday · 04 August 2026",
+  "editionLabel": "Edition · Tuesday 04 August",
+  "headline": "Bangladesh inks Korea CEPA today; Fed holds amid recession signals; AMD puts $5B behind Anthropic as freight rates keep sliding.",
   "sections": [
     {
       "title": "Macro · Geopolitics · Politics",
       "items": [
         {
-          "lead": "US 301 tariff escalation",
-          "body": "Washington's new 12.5% Section 301 levy on Chinese goods (effective July 24) pushes the blended US tariff on China to ~33%. No negotiated off-ramp in sight as both sides dig in.",
+          "lead": "US recession watch: June payrolls +57K, Fed holds.",
+          "body": "June added only 57K jobs (unemployment 4.2%) — the weakest since 2020. Moody's warns the August print could confirm recession. Warsh's Fed holds at 3.5–3.75% but markets now price a hike, not a cut, by Q4.",
+          "src": {
+            "name": "Al Jazeera / BLS",
+            "url": "https://www.aljazeera.com/economy/2026/7/29/us-fed-holds-interest-rates-steady-citing-elevated-inflation"
+          }
+        },
+        {
+          "lead": "New 12.5% Section 301 tariff on Chinese goods hits.",
+          "body": "Effective July 24, USTR's forced-labor levy pushes the blended US tariff on Chinese imports to ~33% and effective average tariff rate to 18.6% — the highest since the Depression. No negotiation track open.",
           "src": {
             "name": "Tax Foundation",
             "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
           }
         },
         {
-          "lead": "Hormuz squeeze hits European LNG",
-          "body": "Quasi-closure of the Strait of Hormuz is throttling Qatari LNG exports; Italy (33%), Poland (25%), and Belgium (16%) are most exposed, driving Europe toward US and Russian supply."
-        },
-        {
-          "lead": "Fed path holds at 3.4%",
-          "body": "Two 25bp cuts expected (Sept + Dec) bring the policy rate to 3.4% by Q4. PCE inflation easing from 2.8% to 2.7%; wage growth still outpacing prices by ~1% as payrolls slow.",
+          "lead": "Iran ceasefire enters 60-day nuclear negotiation window.",
+          "body": "The US-brokered Hormuz accord holds but tougher issues — Iran's nuclear programme, missile arsenal — start formal talks this week. Brent near $72 but supply stability is partly inventory drawdown, not production recovery.",
           "src": {
-            "name": "Federal Reserve",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm"
+            "name": "CNBC / CSIS",
+            "url": "https://www.csis.org/analysis/iran-conflict-sending-oil-prices-soaring-what-happens-next"
           }
         },
         {
-          "lead": "Google DeepMind in trouble",
-          "body": "Senior researchers departing, Gemini 3.5 Pro months delayed, cash flow turned negative — creating a widening competitive window for OpenAI and Anthropic in enterprise AI.",
+          "lead": "EU-China trade war broadens beyond EVs.",
+          "body": "Brussels is extending scrutiny from electric vehicles to wind turbine components, solar panels, and mature-node semiconductors — fragmenting trade along technology lines ahead of further European Commission action.",
           "src": {
-            "name": "Fortune",
-            "url": "https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures-raise-doubts-about-ability-to-win-the-ai-race-shazeer-jumper-eye-on-ai/"
+            "name": "Lazard",
+            "url": "https://www.lazard.com/research-insights/top-geopolitical-trends-in-2026/"
           }
         },
         {
-          "lead": "EU–China tensions broaden",
-          "body": "European industrial scrutiny expands beyond EVs to wind turbine components, solar panels, and mature-node chips — fragmenting trade along technology lines ahead of further Brussels action."
+          "lead": "Tariff tax: $900 per US household, trade deficit unmoved.",
+          "body": "Tax Foundation mid-year update confirms average US household pays $900 more in 2026 from the tariff package. The goods trade deficit has not materially narrowed — economic cost with no mercantilist dividend.",
+          "src": {
+            "name": "Tax Foundation",
+            "url": "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/"
+          }
         },
         {
-          "lead": "US economy: solid but slowing",
-          "body": "GDP tracking 2.2% for 2026; AI investment provides a structural tailwind, but payroll growth is fading and tariff-driven supply chain reshuffling adds cost without adding output.",
+          "lead": "Geopolitical trade fragmentation accelerating in 2026.",
+          "body": "McKinsey's 2026 global trade geometry update documents widening corridor divergence across minerals, energy, and chips. State-directed industrial policy is now the global baseline — allied and rival supply chains are structurally separating.",
           "src": {
-            "name": "CBO",
-            "url": "https://www.cbo.gov/publication/62105"
+            "name": "McKinsey MGI",
+            "url": "https://www.mckinsey.com/mgi/our-research/geopolitics-and-the-geometry-of-global-trade-2026-update"
           }
         }
       ]
@@ -418,27 +426,35 @@ const TODAY = {
       "title": "Bangladesh · Subcontinent",
       "items": [
         {
-          "lead": "BB cuts rates — first time in six years",
-          "body": "Bangladesh Bank reduced the repo rate 50bps to 9.5% (July 30, effective Aug 2). The MPC's 13th meeting targeted sluggish private credit — SLF drops to 11%; SDF unchanged at 7.5%.",
+          "lead": "BD–Korea CEPA signed today in Dhaka.",
+          "body": "Commerce Minister Muktadir confirmed the signing on August 4. RMG and most Bangladeshi goods gain duty-free access to the Korean market. Bangladesh's second full bilateral trade agreement — and its most commercially significant pre-LDC-graduation win.",
           "src": {
-            "name": "Daily Star",
-            "url": "https://www.thedailystar.net/business/banking/news/bb-cuts-policy-rate-95-after-2-years-4236481"
-          }
-        },
-        {
-          "lead": "BD–South Korea CEPA signs tomorrow",
-          "body": "Commerce Ministry confirmed signing in Dhaka on August 4. Garments get duty-free access to Seoul; the deal becomes Bangladesh's second full bilateral trade agreement ever.",
-          "src": {
-            "name": "Daily Star",
+            "name": "Daily Star / BSS",
             "url": "https://www.thedailystar.net/business/economy/news/cepa-south-korea-be-signed-tuesday-4236641"
           }
         },
         {
-          "lead": "DP World gets court green light for Chattogram NCT",
-          "body": "Court cleared the long-contested NCT lease to DP World. Bangladesh Navy's Chittagong Dry Dock continues as interim operator; handover now expected before December.",
+          "lead": "FY27 export target: $63.4B with 15% growth ambition.",
+          "body": "Government set the target last week: goods $55.2B, services $8.2B, RMG alone $44.5B. Industry is sceptical — gas supply constraints and US tariff uncertainty are the ceiling, not demand.",
           "src": {
-            "name": "The Loadstar",
-            "url": "https://theloadstar.com/court-greenlights-dp-world-lease-of-chittagongs-nct-terminal/"
+            "name": "UNB / TBS",
+            "url": "https://unb.com.bd/category/Business/bangladesh-sets-634b-export-target-for-fy27-eyes-15pc-growth/191599"
+          }
+        },
+        {
+          "lead": "BGMEA names military-aligned Secretary General.",
+          "body": "Major General (Retd.) Md. Shahedul Islam took the BGMEA Secretary General role August 1. Six new factory members admitted August 2. The institutional shift toward military-adjacent leadership in the garment lobby is worth tracking.",
+          "src": {
+            "name": "BGMEA",
+            "url": "https://www.bgmea.com.bd/"
+          }
+        },
+        {
+          "lead": "India-Pakistan: Indus Waters Treaty suspension persists.",
+          "body": "India's post-Kashmir suspension of the treaty remains in effect despite the US-brokered ceasefire holding since May. Pakistan warned over the weekend that water coercion risks reigniting military tensions — the diplomatic channel is narrowing.",
+          "src": {
+            "name": "CFR / UNSW",
+            "url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-between-india-and-pakistan"
           }
         }
       ]
@@ -447,35 +463,43 @@ const TODAY = {
       "title": "Trade · Freight · Logistics",
       "items": [
         {
-          "lead": "WCI falls for third consecutive week",
-          "body": "Drewry's composite World Container Index at $4,255/FEU. Asia-Europe leads the slide: Shanghai-Genoa -6% ($5,630), Shanghai-Rotterdam -3% ($4,677).",
+          "lead": "Drewry WCI falls 3% to $4,255/FEU — third straight weekly decline.",
+          "body": "July 30 reading shows Asia-Europe and transpacific both easing. Carriers deployed 8 blank sailings last week (up from 7) — disciplined but insufficient to arrest the slide. Spot rates still 30%+ above pre-2024 lows.",
           "src": {
-            "name": "Container News",
+            "name": "Drewry / Container News",
             "url": "https://container-news.com/drewry-world-container-index-falls-for-third-consecutive-week/"
           }
         },
         {
-          "lead": "August GRIs failing to hold",
-          "body": "Carriers attempted $2-3k/40ft GRIs on transpacific; broker discounts are undercutting them immediately. Peak-season demand too weak to enforce increases against structural overcapacity.",
+          "lead": "Shanghai–Rotterdam -3% to $4,677; Genoa -6% to $5,630.",
+          "body": "Asia-Europe front-loading cycle unwinding. Mediterranean weakness — Genoa down 6% — suggests import demand is softening faster than northern European ports. Buyers retain full leverage on this corridor.",
           "src": {
-            "name": "gCaptain",
-            "url": "https://gcaptain.com/carrier-discounts-push-container-spot-rates-lower-ahead-of-august-gris/"
+            "name": "Drewry WCI",
+            "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
           }
         },
         {
-          "lead": "Transpacific spot: buyers hold leverage",
-          "body": "Shanghai-LA $5,739/FEU (-2%); Shanghai-NY $7,578 (flat). SCFI forward pricing points to continued weakness next week on both North European and Mediterranean routes."
-        },
-        {
-          "lead": "Bunker surcharges layered on",
-          "body": "Multiple carriers adding emergency fuel surcharges of $65–$165/container citing Middle East bunker cost spikes — partially offsetting spot rate softness on select shipper pairs."
-        },
-        {
-          "lead": "Overcapacity: the dominant 2026 theme",
-          "body": "Blank sailings remain active but structurally insufficient — vessel supply outstrips demand across nearly every major lane, cementing the buyer's market for the remainder of the year.",
+          "lead": "SCFI transpacific surges 12.5% WoW on carrier GRI push.",
+          "body": "Carriers attempting August General Rate Increases on Asia-US West Coast. Broker discounts immediately undercut the hike. Market consensus: GRIs only hold if August cargo volumes surprise to the upside — weak consumer data makes that unlikely.",
           "src": {
-            "name": "Xeneta",
-            "url": "https://www.xeneta.com/news/us-china-trade-truce-will-not-revive-weakening-ocean-container-shipping-market-with-freight-rates-still-expected-to-fall-in-2026"
+            "name": "gCaptain / Loadstar",
+            "url": "https://gcaptain.com/container-shipping-rates-jump-16-as-carriers-push-opportunistic-increases/"
+          }
+        },
+        {
+          "lead": "EFS of $65–$165/container layered on Middle East routes.",
+          "body": "Several major carriers applying Emergency Fuel Surcharges from August citing Hormuz-adjacent bunker price spikes. Bangladesh-origin RMG to Europe is directly exposed — adds $2–4/garment in freight cost at scale.",
+          "src": {
+            "name": "Global Trade Mag",
+            "url": "https://www.globaltrademag.com/container-freight-rates-slip-again-as-carriers-cut-prices-ahead-of-august-rate-hikes/"
+          }
+        },
+        {
+          "lead": "MSC standalone vs Ocean Alliance reshapes capacity competition.",
+          "body": "MSC's 730+ vessel fleet now operates fully independent of alliances. Ocean Alliance extended to 2032. MSC betting direct-call routing flexibility beats alliance slot-swapping on utilisation. The outcome will define Asia-Europe and transpacific structures for the decade.",
+          "src": {
+            "name": "Logistics Viewpoints",
+            "url": "https://logisticsviewpoints.com/2026/04/27/shipping-alliances-are-reshaping-global-supply-chain-capacity/"
           }
         }
       ]
@@ -484,203 +508,215 @@ const TODAY = {
       "title": "Semiconductors · AI",
       "items": [
         {
-          "lead": "TSMC commits $100bn more to Arizona",
-          "body": "Four additional 2nm fabs planned; total US commitment reaches $265bn. CoWoS advanced packaging growing >80% CAGR through 2028 — packaging now as strategically critical as the logic fab.",
+          "lead": "AMD bets $5B equity on Anthropic; 2GW compute deal signed.",
+          "body": "July 22 deal: Anthropic deploys AMD MI450/Helios accelerators up to 2GW; AMD takes equity stake up to $5B tied to deployment milestones. First gigawatt H1 2027. AMD needs Claude workloads to validate ROCm. Anthropic gains NVIDIA independence.",
           "src": {
-            "name": "Tom's Hardware",
-            "url": "https://www.tomshardware.com/tech-industry/tsmc-commits-another-100-billion-to-arizona-for-at-least-four-more-2nm-fabs"
+            "name": "CNBC / TechTimes",
+            "url": "https://www.cnbc.com/2026/07/22/amd-anthropic-ai-chip-investment.html"
           }
         },
         {
-          "lead": "Micron prints record quarter",
-          "body": "Q3 FY26 revenue $41.5bn (+345% YoY), beating consensus by 17.6%. HBM4 in high-volume production — global semiconductor sales at $120.6bn/month, a 15th consecutive monthly record.",
+          "lead": "Claude Opus 5 leads benchmarks; OpenAI slashes Luna 80%.",
+          "body": "Anthropic's Opus 5 (released July 24, Intelligence Index 61, $5/$25 per million tokens) leads frontier rankings. OpenAI responded July 30: GPT-5.6 Luna cut to $0.20/$1.20 — mid-tier frontier AI pricing is now essentially free at scale.",
+          "src": {
+            "name": "LLM Stats / FelloAI",
+            "url": "https://llm-stats.com/llm-updates"
+          }
+        },
+        {
+          "lead": "TSMC raises capex to $60–64B; full-year growth now >40%.",
+          "body": "Record Q2 earnings. CEO C.C. Wei: 'AI demand signal from CSPs remains extremely robust.' NVIDIA H200 lead times still measured in months despite near-max utilisation. 3nm/4nm capacity booked deep into 2027.",
+          "src": {
+            "name": "Bloomberg / TechTimes",
+            "url": "https://www.techtimes.com/articles/320696/20260716/tsmc-posts-record-quarter-ai-chip-demand-pushes-full-year-growth-outlook-past-40.htm"
+          }
+        },
+        {
+          "lead": "Global chip sales $120.6B in May — 15th consecutive record.",
+          "body": "104.1% YoY growth driven by AI accelerators and HBM4. Commodity DRAM and NAND still soft — Micron's HBM sold out quarters ahead at premium pricing, masking the ordinary memory cycle's weakness for most analysts.",
           "src": {
             "name": "247 Wall St",
             "url": "https://247wallst.com/investing/2026/08/01/3-semiconductor-stocks-to-buy-before-ai-demand-explodes-in-august/"
           }
         },
         {
-          "lead": "Inference pricing in freefall",
-          "body": "Claude Opus 5 (July 24): near-Fable-5 performance at $5/$25 per million tokens. OpenAI slashes GPT-5.6 Luna 80% to $0.20/$1.20 — price/performance ratio inflecting on a near-weekly basis.",
-          "src": {
-            "name": "LLM Stats",
-            "url": "https://llm-stats.com/llm-updates"
-          }
-        },
-        {
-          "lead": "Vera Rubin ships; Broadcom guides +200%",
-          "body": "NVIDIA Vera Rubin (Blackwell successor) begins H2 2026 shipments. Broadcom guides AI semiconductor revenue +200%+ YoY this quarter — capex cycle runway extending toward 2029-30."
-        },
-        {
-          "lead": "DeepMind gap widens for rivals",
-          "body": "Google cash flow negative, senior AI talent departing, Gemini 3.5 Pro delayed by months — enterprise AI market share increasingly up for grabs as OpenAI and Anthropic consolidate.",
+          "lead": "DeepMind Gemini 3.5 Pro delayed; Google's competitive window shrinks.",
+          "body": "Staff morale issues are compounding roadmap slippage at Google DeepMind. OpenAI's frontier lead widens. DeepSeek V4-Flash charges $0.14/M input tokens — squeezing mid-tier from below while Anthropic and OpenAI race at the top.",
           "src": {
             "name": "Axios",
             "url": "https://www.axios.com/2026/07/23/googles-deep-mind-ai-model-race"
+          }
+        },
+        {
+          "lead": "Chip sector down 23% — correction spreading to equipment and memory.",
+          "body": "Rolling correction started in high-valuation AI chip stocks and is spreading to memory manufacturers and equipment providers. Structural HBM demand intact. Most analysts see recovery by late 2026/early 2027 as AI capex converts to silicon purchases.",
+          "src": {
+            "name": "Intellectia",
+            "url": "https://intellectia.ai/blog/chip-stocks-buy-dip-august-2026"
           }
         }
       ]
     }
   ],
   "lesson": {
-    "title": "CoWoS: The Packaging Bottleneck Running Every AI Accelerator",
+    "title": "The Coriolis Effect: Why Earth's Spin Curves Every Trade Wind, Ocean Current, and Container Ship Route",
     "paragraphs": [
-      "CoWoS — Chip-on-Wafer-on-Substrate — is TSMC's flagship advanced packaging technology, and right now it is arguably the single most strategically important manufacturing process in semiconductors. It bonds multiple chiplets (a GPU compute die and stacked HBM memory modules) onto a dense silicon interposer before mounting the whole assembly on an organic substrate. The silicon interposer is the key innovation: it carries thousands of micro-bumps spaced mere micrometers apart, enabling memory bandwidth of 3–4 terabytes per second between compute and memory — bandwidth that no printed circuit board trace can come close to delivering.",
-      "The process runs in three steps. Chips are bonded face-down onto the interposer (the 'Chip-on-Wafer' step). The chiplet-interposer assembly is then bonded onto the substrate (the 'on-Substrate' step). Finally, the full package is electrically tested. Crucially, the silicon interposer is patterned using TSMC's own lithography tools, meaning CoWoS competes for the same fab capacity as leading-edge logic chips. This is precisely why CoWoS — not transistor density — became AI's binding supply constraint in 2023-24: every H100, H200, and B200 requires CoWoS packaging, and TSMC simply could not build interposers fast enough to clear the backlog.",
-      "TSMC's announcement of >80% CAGR in CoWoS capacity through 2028 is one of the most consequential supply-chain commitments of the decade. For logistics: CoWoS substrates and interposers are high-value, temperature-sensitive cargo — a growing premium niche for air freight as AI capex scales. For strategists: advanced packaging is becoming the next geopolitical battleground in chip sovereignty, with the US, Japan, and EU funding back-end packaging fabs alongside logic fabs. Common misconception: semiconductor competitiveness is often assumed to be only about transistor node (2nm vs. 3nm) — packaging is equally decisive, and China cannot easily replicate CoWoS because it requires the very leading-edge lithography that export controls are designed to deny."
+      "Earth rotates eastward at roughly 1,670 km/h at the equator but nearly zero at the poles. Any object moving freely across this surface — air, water, or a ship — appears to curve because the ground beneath it rotates at a different speed. This is the Coriolis effect: not a real force but an apparent deflection arising from a rotating reference frame. In the Northern Hemisphere objects deflect right; in the Southern, left. French engineer Gustave-Gaspard de Coriolis formalised the mathematics in 1835, though sailors exploited the resulting wind patterns for centuries before the physics was understood.",
+      "The effect is the engine behind planetary wind belts and ocean gyres. Trade winds — the steady easterlies Columbus rode to the Americas — form because equatorial air rises, moves poleward, and curves. The five major subtropical ocean gyres (North and South Atlantic, North and South Pacific, Indian Ocean) are Coriolis-driven loops: clockwise in the north, counterclockwise in the south. These gyres define the world's most efficient shipping corridors. The North Pacific Gyre underlies the great-circle routes that push transpacific containerships north of Hawaii. The Gulf Stream shaves nearly two days off North Atlantic crossings when properly leveraged.",
+      "For logistics executives, the lesson is that physics is infrastructure. Coriolis explains why Singapore is irreplaceable — equatorial calms meet Indian Ocean gyre exits at the Malacca Strait. It explains why Chittagong faces acute cyclone risk — clockwise North Indian Ocean circulation focuses storm tracks toward the Bay of Bengal's northern vertex. And it explains why the Northern Sea Route becomes commercially meaningful only as Arctic ice retreats: high-latitude routing escapes gyre drag entirely, cutting Asia-Europe distance by ~40%. Climate change is not merely a decarbonisation policy challenge — it is rewriting the physics layer of global trade, shifting gyre boundaries and monsoon cycles in ways that will redraw competitive port geographies within a generation."
     ],
-    "why": "As AI capex scales, the binding constraint shifts from transistor density to packaging. Understanding CoWoS explains TSMC's Arizona strategy, HBM supply dynamics, and why advanced packaging is becoming a geopolitical frontier — not just a manufacturing footnote for chip nerds."
+    "why": "The wind and current patterns shaped by Coriolis are the oldest infrastructure in global trade. Understanding them reveals why certain chokepoints are structurally irreplaceable and why climate-driven changes to ocean circulation will redraw competitive port geographies over the next generation — not as policy, but as physics."
   },
   "questions": [
     {
       "n": 1,
       "topic": "industry",
-      "subtopic": "documentation",
-      "stem": "Which financial instrument provides an irrevocable bank guarantee that an exporter receives payment upon presenting compliant shipping documents to a nominated bank?",
+      "subtopic": "incoterms",
+      "stem": "Under DAP (Delivered at Place) Incoterms 2020, which party bears the cost and risk of unloading goods at the named destination?",
       "options": [
-        "Documentary Collection (D/P or D/A)",
-        "Letter of Credit (LC)",
-        "Bank Guarantee (BG)",
-        "Open Account with Credit Insurance"
+        "Seller — delivery is complete only once goods are unloaded",
+        "Buyer — unloading is explicitly the buyer's responsibility under DAP",
+        "The freight forwarder nominated by the seller",
+        "Shared equally between seller and buyer under DAP rules"
       ],
       "correct": 1,
-      "why": "A Letter of Credit is the bank's conditional, irrevocable payment commitment — triggered by compliant document presentation, not buyer goodwill.",
-      "deepDive": "A Letter of Credit (LC) is issued by the importer's bank and advises the exporter via a local advising or confirming bank. The exporter ships, presents a compliant document set — commercial invoice, B/L, packing list, certificate of origin — and gets paid. If the confirming bank adds its own guarantee, even issuing-bank default is covered. Documentary Collection is cheaper but riskier: banks only transmit documents and do not guarantee payment. Open Account exposes exporters fully to buyer default. The UCP 600 (ICC's Uniform Customs and Practice for Documentary Credits) governs LC practice globally; a single non-compliant field can constitute a 'discrepancy' and allow payment refusal. Approximately one-third of all LCs are rejected on first presentation."
+      "why": "Under DAP the seller delivers goods to the named place ready for unloading — but the actual unloading cost and risk transfers to the buyer at that point.",
+      "deepDive": "DAP (Delivered at Place) replaced DDU in Incoterms 2010. The seller arranges and pays for carriage to the named destination and bears all transport risk until goods are placed at the buyer's disposal ready for unloading — but stops there. Unloading costs, import duties, and customs clearance all fall on the buyer. This is why exporters prefer DAP when they want to control freight costs but not navigate foreign customs. Contrast DDP (Delivered Duty Paid), where the seller takes on everything including import duties — maximum seller obligation. A common exporter error: accidentally including unloading cost estimates inside the freight quote under DAP, creating a double-billing dispute at delivery. If the named destination is a port terminal, DAP overlaps practically with CFR — the distinction matters for inland delivery points where unloading costs are non-trivial."
     },
     {
       "n": 2,
       "topic": "industry",
-      "subtopic": "customs",
-      "stem": "The Harmonized System (HS) code — used globally for customs classification of goods — is administered and updated every five years by which body?",
+      "subtopic": "bill_of_lading",
+      "stem": "Which type of Bill of Lading is issued before goods are physically loaded onto the vessel, acknowledging only that the carrier has received the cargo at the port?",
       "options": [
-        "WTO (World Trade Organization)",
-        "WCO (World Customs Organization)",
-        "UNCTAD",
-        "IMO (International Maritime Organization)"
+        "Shipped (On Board) Bill of Lading",
+        "Received-for-Shipment Bill of Lading",
+        "Straight Bill of Lading",
+        "Claused (Dirty) Bill of Lading"
       ],
       "correct": 1,
-      "why": "The WCO owns the Harmonized System — 97 chapters covering ~98% of world trade — and revises it on a five-year cycle to reflect new products and technologies.",
-      "deepDive": "The Harmonized System is a 6-digit coding framework: first 2 digits are the Chapter (e.g., Ch. 85 = electrical machinery), next 2 the Heading, last 2 the Subheading. Countries can add up to 4 more digits for national tariff lines (creating 8-10 digit codes). The 2022 HS revision added new headings for e-cigarettes, drones, and smartphones. Misclassification carries consequences — wrong duties, seizures, and potential fraud liability. Importers can obtain advance binding rulings from customs authorities before shipment. Common misconception: many traders think the 6-digit HS is globally uniform in duty treatment — only the classification structure is harmonized; the actual tariff rate each country applies is its own sovereign policy and varies enormously."
+      "why": "A Received-for-Shipment B/L confirms cargo is in the carrier's custody at port — not yet loaded. A Shipped B/L confirms actual loading on a named vessel.",
+      "deepDive": "The distinction is critical under Letters of Credit. UCP 600 Article 20 requires 'shipped on board' evidence — a Received-for-Shipment B/L fails LC terms unless stamped with an on-board notation showing vessel name and loading date. This discrepancy is one of the most common causes of LC rejection on first presentation. In practice, many Asian exporters receive a Received-for-Shipment B/L first, then obtain the on-board stamp within 24-48 hours of vessel departure. A Straight B/L names a specific consignee and is non-negotiable — used for controlled shipments between related parties or high-trust buyers. A Claused (Dirty) B/L carries carrier remarks about cargo condition — banks almost always reject these under LC terms. A clean, on-board, negotiable B/L to order is the gold standard for trade finance."
     },
     {
       "n": 3,
       "topic": "industry",
-      "subtopic": "vessels",
-      "stem": "What is the approximate maximum TEU capacity of a traditional Panamax vessel, defined by the original Panama Canal lock dimensions prior to the 2016 expansion?",
+      "subtopic": "pricing",
+      "stem": "The BAF (Bunker Adjustment Factor) in container shipping is typically indexed against which benchmark to recover marine fuel cost volatility?",
       "options": [
-        "~5,000 TEUs",
-        "~8,500 TEUs",
-        "~14,000 TEUs",
-        "~18,000 TEUs"
+        "Henry Hub natural gas spot price",
+        "VLSFO bunker spot price in key hubs such as Singapore or Rotterdam",
+        "The vessel's contracted long-term fuel delivery price",
+        "Brent crude futures one quarter forward"
       ],
-      "correct": 0,
-      "why": "Original Panamax locks (106 ft wide) capped vessels at ~5,000 TEUs; the 2016 expansion created the Neo-Panamax class allowing up to ~14,000 TEUs.",
-      "deepDive": "The Panama Canal's 1914 locks set max beam at 32.3m (106 ft) and length 294.1m — capping vessels at ~5,000 TEUs. The 2016 third-lock expansion (beam 49m) enabled Neo-Panamax/New Panamax ships of ~14,000 TEUs. Modern vessel classes: Feeder (<1,000 TEU), Handysize (1–3k), Sub-Panamax (3–5k), Panamax (5–6k), Post-Panamax (6–10k), New Panamax (10–14k), ULCS (18,000–24,000 TEUs). MSC's Irina (24,346 TEUs) is currently the world's largest. Ultra-large vessels dominate Asia-Europe trade where canal transit is irrelevant. Common misconception: 'Post-Panamax' and 'Neo-Panamax' are often used interchangeably, but Neo-Panamax specifically fits the new third set of locks; Post-Panamax is a broader category of any vessel exceeding original lock dimensions."
+      "correct": 1,
+      "why": "BAF is indexed to actual marine fuel (VLSFO or HFO) prices at major bunkering ports — not crude oil — because refinery margins and sulphur specifications make marine fuel pricing diverge from crude.",
+      "deepDive": "The Bunker Adjustment Factor emerged after the 1970s oil shocks made fixed freight rates untenable. VLSFO (0.5% sulphur) became the dominant marine fuel post-IMO 2020; most BAF formulas now reference Singapore (world's largest bunkering port by volume) or Rotterdam spot VLSFO prices. BAF is typically recalculated quarterly on long-term contracts and monthly or ad hoc on spot shipments. The Emergency Fuel Surcharge (EFS) is a faster-moving variant applied when sudden bunker spikes outpace BAF revision cycles — as carriers have deployed in August 2026 citing Middle East tensions. A common shipper mistake: negotiating headline freight rates without scrutinising the BAF formula — a low base rate can be overwhelmed by an uncapped BAF in a volatile market. Shippers should always negotiate a BAF cap or bunker price collar in long-term contracts."
     },
     {
       "n": 4,
       "topic": "industry",
-      "subtopic": "port_ops",
-      "stem": "In container logistics, 'demurrage' and 'detention' are distinct charges. Which statement correctly defines demurrage?",
+      "subtopic": "air_freight",
+      "stem": "In international air cargo, 'chargeable weight' is the higher of actual gross weight and volumetric (dimensional) weight. What is the IATA standard volumetric divisor?",
       "options": [
-        "Charge for keeping a container at the shipper's warehouse beyond free time",
-        "Carrier's charge for a container remaining inside the terminal beyond the allotted free days",
-        "Penalty for a vessel departing berth late",
-        "Customs fee for delayed inspection clearance of imported goods"
+        "5,000 cm³ per kg",
+        "6,000 cm³ per kg",
+        "166 cubic inches per lb",
+        "4,000 cm³ per kg"
       ],
       "correct": 1,
-      "why": "Demurrage = container at terminal (port-side) beyond carrier's free days. Detention = container outside the terminal (at customer premises) beyond free days.",
-      "deepDive": "Demurrage accrues when a full import container sits in the terminal beyond the carrier's free time (typically 3–5 days). The terminal also charges port storage separately — these are not the same as carrier demurrage. Detention accrues when an empty container is taken outside the terminal and not returned within free days. The US FMC's 2024 Demurrage and Detention Interpretive Rule requires carriers to publish clear D&D rules and provides grounds for shippers to dispute unreasonable charges. During the 2021-22 US West Coast port crisis, demurrage bills reached catastrophic levels — shippers owed millions for containers they physically could not access due to yard congestion beyond their control, sparking regulatory intervention. Common misconception: many practitioners use 'demurrage' as a catch-all for both charges, which matters enormously in contract disputes."
+      "why": "IATA's international air freight standard is 6,000 cm³ per kg — multiply L×W×H in cm, divide by 6,000, result is volumetric weight in kg.",
+      "deepDive": "Volumetric (dimensional) weight compensates carriers for low-density cargo that fills belly space without generating weight revenue. Under IATA's 6,000 divisor: a box 60cm × 50cm × 40cm = 120,000 cm³ ÷ 6,000 = 20 kg volumetric weight — if actual weight is 10 kg, you pay for 20 kg. Express couriers (DHL, FedEx, UPS) commonly use a 5,000 divisor, making them 20% more expensive for bulky light shipments. Air freight rates use break rates: charges per kg typically decrease at thresholds like +45kg, +100kg, +300kg. A Bangladesh exporter shipping foam garment packaging to Europe must account for chargeable weight being 2-4x actual weight — fundamentally changing the freight economics versus ocean. Common misconception: many shippers only consider actual weight when comparing air vs ocean landed cost, missing that volumetric weight is often the driver for soft-goods and packaging."
     },
     {
       "n": 5,
       "topic": "industry",
-      "subtopic": "liner_alliances",
-      "stem": "Following the 2024-25 alliance restructuring, which three alliances dominated global container shipping entering 2026?",
+      "subtopic": "ftas",
+      "stem": "Under FTA Rules of Origin, which set of tests is most widely used to establish that a product has undergone 'substantial transformation' in the exporting country?",
       "options": [
-        "Gemini Cooperation, Ocean Alliance, Premier Alliance",
-        "2M, Ocean Alliance, THE Alliance",
-        "Maersk Direct, COSCO-Evergreen, MSC Solo",
-        "Gemini, THE Alliance, CMA CGM Direct"
+        "Wholly-obtained criterion — all raw materials must be locally sourced",
+        "Change in Tariff Classification, Regional Value Content threshold, or Specific Process requirement",
+        "De minimis rule — at least 10% of components must originate locally",
+        "Final-assembly rule — assembly in the exporting country always confers origin"
       ],
-      "correct": 0,
-      "why": "The reshuffle produced Gemini (Maersk + Hapag-Lloyd), Ocean Alliance (CMA CGM + COSCO + Evergreen + OOCL), and Premier Alliance (ONE + HMM + Yang Ming).",
-      "deepDive": "The 2024-25 reshuffle was the biggest liner alliance restructuring since 2017. Maersk exited 2M and formed Gemini Cooperation with Hapag-Lloyd, targeting 95%+ schedule reliability. MSC — now the world's largest carrier at ~6M TEU fleet — operates independently. Ocean Alliance renewed through 2032 retaining its four original members. THE Alliance dissolved; its non-Hapag members (ONE, HMM, Yang Ming) formed Premier Alliance. MSC's independence changed the competitive dynamic: it can offer shippers a fully controlled product without alliance slot constraints. Alliances operate via vessel-sharing agreements — members swap slots on each other's services without combining ownership. EU antitrust exemptions for liner alliances came under intense scrutiny from 2024; the current framework's renewal is contested by shippers arguing it enables rate coordination."
+      "correct": 1,
+      "why": "Substantial transformation under most FTAs is tested via CTC (tariff heading change), RVC (value-added percentage), or SP (specific manufacturing process) — often in combination.",
+      "deepDive": "Rules of Origin prevent trade deflection — stopping non-partner goods from being re-routed through an FTA country to gain preferential tariff access. The three principal tests: CTC requires the exported product to fall under a different HS chapter or heading than its non-originating inputs; RVC demands a minimum percentage (typically 35-60%) of value was added within FTA territory; SP requires a specific process (e.g., 'must be woven from yarns' for textiles). Bangladesh garments currently qualify for EU GSP under the 'double transformation' test (yarn → fabric → garment). The Bangladesh-Korea CEPA signed today will have its own RoO schedule — the precise CTC rules for RMG will determine whether garments made with Chinese or Indian yarn qualify for duty-free Korean access. This detail, buried in treaty annexes, will define how much of the CEPA's headline benefit actually flows through. Common misconception: 'Made in Bangladesh' labelling has no legal relationship to RoO compliance — they are entirely separate regimes."
     },
     {
       "n": 6,
       "topic": "gk",
-      "subtopic": "music",
-      "stem": "Which composer is called the 'Father of the Symphony' and standardized the four-movement form — fast/slow/minuet/fast — across 104 symphonies?",
+      "subtopic": "geography",
+      "stem": "Which of the five major subtropical ocean gyres accumulates the Great Pacific Garbage Patch in its slow-moving centre?",
       "options": [
-        "Wolfgang Amadeus Mozart",
-        "Franz Schubert",
-        "Joseph Haydn",
-        "Christoph Willibald Gluck"
+        "South Pacific Subtropical Gyre",
+        "North Pacific Subtropical Gyre",
+        "Indian Ocean Gyre",
+        "North Atlantic Subtropical Gyre"
       ],
-      "correct": 2,
-      "why": "Haydn wrote 104 symphonies over 40 years at the Esterházy court, establishing the four-movement template that Beethoven and successors inherited.",
-      "deepDive": "Joseph Haydn (1732–1809) spent most of his career at the Esterházy court, where a captive orchestra gave him unparalleled freedom to experiment. His early works were three-movement; he gradually developed the canonical structure: sonata-allegro (fast), slow movement (andante), minuet-and-trio, rondo or sonata finale. His 'London Symphonies' (Nos. 93–104, composed for 1791 and 1794 English tours) represent the classical symphony at its apex — No. 94 'Surprise' has a famous fortissimo chord designed to wake sleeping audiences. Mozart was a great symphonist but worked largely within Haydn's framework. Beethoven then broke conventions: he transformed the minuet into a scherzo, expanded development sections, and added a full choral finale in his 9th. Common misconception: Mozart is often assumed to have 'invented' the symphony simply because he is the more famous name."
+      "correct": 1,
+      "why": "The North Pacific Subtropical Gyre's clockwise rotation in the Northern Hemisphere traps floating debris in its low-energy centre — the Great Pacific Garbage Patch.",
+      "deepDive": "The North Pacific Subtropical Gyre circulates clockwise (Northern Hemisphere Coriolis deflection), bounded by the Kuroshio Current (west), North Pacific Current (north), California Current (east), and North Equatorial Current (south). Its slow, convergent centre accumulates debris from Asian and North American coastlines — the Great Pacific Garbage Patch (GPGP), roughly twice the area of Texas in spread but 99% microplastics nearly invisible to satellites. It is not the floating island of visible rubbish popularly imagined. The five major gyres: North Atlantic and North Pacific rotate clockwise; South Atlantic, South Pacific, and Indian Ocean rotate counterclockwise (Southern Hemisphere). For shipping strategy: vessels sailing with gyre-driven currents shave meaningful days off passages — the North Pacific High determines the optimal transpacific great-circle track, pushing containerships north of Hawaii in both directions. Common misconception: many assume ocean debris concentrates at coastlines; convergence zones concentrate it offshore."
     },
     {
       "n": 7,
       "topic": "gk",
-      "subtopic": "linguistics",
-      "stem": "What term describes a language-contact phenomenon where a language replaces most of its vocabulary with words from a prestige language while retaining its own grammatical structure?",
+      "subtopic": "physical_science",
+      "stem": "Light shining on a metal ejects electrons only if the light's frequency exceeds a threshold — regardless of intensity. Which theory correctly explains this photoelectric effect?",
       "options": [
-        "Code-switching",
-        "Relexification",
-        "Diglossia",
-        "Creolization"
+        "Classical wave theory — higher-amplitude waves always eject electrons given enough time",
+        "Einstein's photon theory — light consists of discrete quanta with energy E=hf",
+        "Compton scattering — photons transfer momentum to free electrons at any frequency",
+        "Blackbody radiation described by the Rayleigh-Jeans law"
       ],
       "correct": 1,
-      "why": "Relexification is the wholesale replacement of lexicon while preserving morphosyntax — distinct from borrowing (which fills gaps) and creolization (full structural mixing).",
-      "deepDive": "Relexification sits at the extreme end of the language-contact spectrum. Code-switching: bilinguals alternate mid-sentence. Diglossia: two varieties serve different social functions in the same community. Relexification: the original language's grammar — morphology, syntax, phonology — survives, but content words are systematically replaced. Examples: Ma'a (Tanzania) with Cushitic grammar but Bantu vocabulary; Michif (Canada) blending Cree verbs and French nouns. Controversial: Claire Lefebvre's influential hypothesis argues Haitian Creole is relexified Fongbe, a West African language. In South Asia, 19th-century literary reform drove partial relexification — Bengali absorbed heavy Sanskrit tatsama vocabulary into formal registers, displacing Prakritic vernacular words. Common misconception: confusing relexification with ordinary loanwords; loanwords fill lexical gaps for new concepts, while relexification systematically replaces existing native terms."
+      "why": "Einstein's 1905 paper explained that light arrives as discrete photons with energy E=hf; below the threshold frequency no single photon has enough energy to eject an electron, regardless of beam intensity.",
+      "deepDive": "Classical wave theory predicted that increasing light intensity should always eventually eject electrons — experiment showed this was wrong. Einstein's photoelectric effect paper (earning him the 1921 Nobel Prize, not the relativity papers) explained: photons carry energy E=hf (h=Planck's constant, f=frequency). If hf falls below the metal's work function (binding energy), no ejection occurs — intensity only determines the number of photons arriving, not each photon's energy. Above threshold, excess photon energy becomes the ejected electron's kinetic energy. This demolished classical electromagnetism's claim to completeness and laid the foundation for quantum mechanics. The photoelectric effect is now ubiquitous technology: solar panels, CCD camera sensors, photomultiplier tubes, and photovoltaic cells all operate on this principle. Common misconception: many people assume Einstein's Nobel Prize was for special or general relativity — it was specifically for the photoelectric effect, which was more immediately verifiable and revolutionary for its time."
     },
     {
       "n": 8,
       "topic": "gk",
-      "subtopic": "sport",
-      "stem": "In which Olympic Games did the women's marathon debut as an official event, ending decades of exclusion from distance running?",
+      "subtopic": "life_science",
+      "stem": "Which molecular mechanism allows retroviruses such as HIV to permanently integrate their genetic material into a host cell's chromosomal DNA?",
       "options": [
-        "1972 Munich",
-        "1984 Los Angeles",
-        "1988 Seoul",
-        "1996 Atlanta"
+        "Transcription — copying the viral DNA blueprint into mRNA",
+        "Reverse transcription — converting viral RNA into DNA via reverse transcriptase for genome insertion",
+        "RNA interference — silencing viral genes via small interfering RNA",
+        "Translation — ribosomes synthesise viral proteins from mRNA"
       ],
       "correct": 1,
-      "why": "Women's marathon debuted at the 1984 Los Angeles Olympics; Joan Benoit (USA) won the inaugural gold in 2:24:52.",
-      "deepDive": "Women were excluded from marathon running on spurious physiological grounds well into the 1970s. A turning point: at the 1967 Boston Marathon, Kathrine Switzer entered as 'K.V. Switzer' and race director Jock Semple physically tried to remove her mid-race. The AAU opened road races to women in 1972. The IOC added the women's marathon to the 1984 LA Games; Joan Benoit's time would have won the men's race at several earlier Olympics. The gender gap has since narrowed sharply: the women's world record (Ruth Chepngetich, 2024, 2:09:56) is now only ~10 minutes behind the men's (Kelvin Kiptum, 2:00:35). Common misconception: many assume women competed in long-distance track events far earlier — women's 1,500m joined the Olympics only in 1972, and women's 5,000m and 10,000m in 1984 and 1988 respectively."
+      "why": "Retroviruses carry RNA and the enzyme reverse transcriptase, which copies viral RNA into double-stranded DNA. That DNA integrates into the host chromosome as a provirus — potentially permanent.",
+      "deepDive": "The Central Dogma of molecular biology states information flows DNA → RNA → protein. Retroviruses violate this: they carry an RNA genome plus reverse transcriptase (RT), which synthesises double-stranded DNA from the viral RNA template. This viral DNA then integrates into the host chromosome — becoming a provirus that can lie dormant for years or immediately produce new viral RNA. HIV's RT is error-prone (no proofreading), generating the rapid mutation rate that makes vaccines difficult. Antiretroviral drugs like AZT (zidovudine) work by blocking RT. The discovery of reverse transcriptase by Howard Temin and David Baltimore earned the 1975 Nobel Prize and overturned the assumed unidirectionality of genetic information flow. In biotechnology, RT is now harnessed to create cDNA libraries from mRNA for cloning and gene expression analysis. Common misconception: 'retro' refers to backward information flow (RNA → DNA), not backward evolutionary development — retroviruses are highly evolved pathogens."
     },
     {
       "n": 9,
       "topic": "gk",
-      "subtopic": "pop_culture",
-      "stem": "Which 1999 film popularized the 'red pill' as a metaphor for choosing uncomfortable truth over reassuring illusion — now ubiquitous in political and philosophical discourse?",
+      "subtopic": "mathematics",
+      "stem": "In game theory, a Nash Equilibrium exists when no player can improve their outcome by unilaterally changing strategy. Which scenario is the canonical example where the Nash Equilibrium is collectively suboptimal?",
       "options": [
-        "Dark City",
-        "The Matrix",
-        "eXistenZ",
-        "The Thirteenth Floor"
+        "The Ultimatum Game — a rational proposer always offers exactly 50%",
+        "The Prisoner's Dilemma — both players defect even though mutual cooperation yields better outcomes for both",
+        "The Stag Hunt — coordinating on the safer equilibrium is always rational",
+        "Scissors-Paper-Stone — players always choose stone"
       ],
       "correct": 1,
-      "why": "The Wachowskis' The Matrix (1999) introduced the red-pill/blue-pill binary, drawing on Baudrillard's Simulacra and Simulation — now one of cinema's most referenced metaphors.",
-      "deepDive": "The Matrix drew on Descartes' evil demon, Plato's Allegory of the Cave, and Jean Baudrillard's 'Simulacra and Simulation' — a copy of which appears in Neo's apartment. Baudrillard later dismissed the film as a simplification of his work. The red pill became culturally dominant immediately and has been co-opted across ideological spectrums — libertarians, men's rights communities, conspiracy theorists. The Wachowskis — both trans women — have expressed discomfort at these co-optations; Lilly Wachowski confirmed in 2020 the film was always a trans allegory. The film spawned The Animatrix (2003), two 2003 sequels, and Resurrections (2021). Its philosophical core — whether simulated experience is distinguishable from genuine reality — now overlaps with live debates about AI consciousness and large-language-model cognition."
+      "why": "In the Prisoner's Dilemma, 'both defect' is the unique Nash Equilibrium — neither player can unilaterally improve — yet 'both cooperate' yields higher payoffs for both parties.",
+      "deepDive": "The Prisoner's Dilemma (Tucker, 1950): two suspects interrogated separately. Mutual silence (cooperate) = 1 year each. One betrays = betrayer free, other gets 10 years. Both betray = 5 years each. Rational self-interest drives both to defect — a Nash Equilibrium — even though mutual cooperation dominates. This models arms races, trade wars, and cartel breakdowns. John Nash (1994 Nobel Prize, subject of 'A Beautiful Mind') proved every finite game has at least one Nash Equilibrium in mixed strategies. The Prisoner's Dilemma directly maps to US-China tariff escalation: both sides would benefit from mutual reduction, but fear of being the only one to lower tariffs drives both to maintain them — the exact dynamic visible in today's 18.6% average US tariff rate. Repeated games often produce cooperation (tit-for-tat) as future payoffs are discounted — one-shot games almost always produce defection. Common misconception: Nash Equilibrium is often assumed to be optimal or stable — it is merely a point where no player has a unilateral incentive to move, which can be deeply suboptimal."
     },
     {
       "n": 10,
       "topic": "gk",
-      "subtopic": "political_theory",
-      "stem": "Theda Skocpol's 'States and Social Revolutions' (1979) rejected voluntarist theories by arguing revolutions emerge primarily from which structural cause?",
+      "subtopic": "history",
+      "stem": "The 1648 Peace of Westphalia ended the Thirty Years' War and is credited with establishing which cornerstone principle of the modern international order?",
       "options": [
-        "Rising class consciousness among the proletariat",
-        "Ideological mobilization by revolutionary vanguard parties",
-        "International military pressure combined with agrarian revolt breaking state capacity",
-        "Economic collapse driven by trade disruption and hyperinflation"
+        "Colonial powers' right to govern overseas territories without external interference",
+        "The sovereign equality of states and non-interference in each other's domestic affairs",
+        "The creation of the first permanent international court of arbitration",
+        "The prohibition of mercenary armies in European inter-state conflicts"
       ],
-      "correct": 2,
-      "why": "Skocpol argued state crises — not intentional mobilization — cause revolutions: international military competition exhausts states while agrarian conflict blocks rural resource extraction.",
-      "deepDive": "Skocpol's comparison of France (1787), Russia (1917), and China (1911) built a 'non-voluntarist' structural theory. Against Marx: class struggle is insufficient — ruling classes can suppress it absent prior state breakdown. Against Lenin: vanguard parties don't cause revolutions; they exploit crises already underway. The two-part structural mechanism: (1) international military competition strains state resources, undermining authority; (2) agrarian class structures prevent states from extracting rural resources needed to recover. This creates the vacuum that revolutionary movements fill. Her framework helps explain the 1979 Iranian Revolution — the Shah's state faced both superpower isolation and a broad domestic coalition breakdown Skocpol later analyzed. Common misconception: students confuse Skocpol with Marxist structuralism; she explicitly rejects both Marxist determinism and rational-choice models. Key reading: 'States and Social Revolutions' (1979); 'Protecting Soldiers and Mothers' (1992)."
+      "correct": 1,
+      "why": "Westphalia established that each state's ruler had sovereign authority within their territory — foreign powers had no right to interfere — creating the template for the modern nation-state system.",
+      "deepDive": "The Peace of Westphalia (two treaties: Osnabrück and Münster, 1648) ended the Thirty Years' War — which killed roughly 20-25% of the Holy Roman Empire's population, Europe's deadliest war proportionally until WWI. Its key innovation: cuius regio, eius religio (whose realm, his religion) became an internal governance matter, explicitly removing the Pope's and Emperor's authority to dictate religious practice elsewhere. This template became the bedrock of the Westphalian international order — state sovereignty and non-interference — that governs international law today. China and Russia both explicitly invoke 'Westphalian norms' to oppose UN authority over internal affairs and resist what they characterise as Western liberal interventionism. The irony: Western powers that built the Westphalian order now selectively override it via humanitarian intervention doctrines. Understanding Westphalia is essential for reading any China-West or Russia-West diplomatic dispute — the argument is almost always, at root, about whether the 1648 norm still applies."
     }
   ]
 };
