@@ -1,17 +1,7 @@
 {
   "streak": 11,
-  "last_session_date": "2026-08-15",
+  "last_session_date": "2026-08-16",
   "questions_seen": [
-    "Which dedicated cargo airline operates the world's largest all-freighter fleet by aircraft count in 2026, with Memphis (MEM) as its global super-hub?",
-    "Which major European air freight hub imposes a strict 23:00-05:00 night-flight ban, directly influencing DHL's decision to develop Leipzig-Halle (LEJ) as its European super-hub?",
-    "DSV's acquisition of DB Schenker, closed in early 2025 for approximately 14.3 billion euros, created the world's largest freight forwarder by air tonnage. What is the approximate combined annual air freight volume?",
-    "In ocean freight commercial practice, a Named Account Contract (NAC) differs from a standard service contract or NRA primarily because NACs are:",
-    "The bullwhip effect describes demand signal amplification up the supply chain tiers. The single most effective structural intervention to dampen it is:",
-    "Lake Baikal holds approximately what fraction of Earth's total liquid surface freshwater?",
-    "In CRISPR-Cas9 gene editing, which component physically cleaves the target DNA, creating the double-strand break?",
-    "In Saussurean structural linguistics, the relationship between the signifier (sound-image) and the signified (concept) is described as:",
-    "In HBO's The Wire (2002-2008), which institution did Season 2, Season 3, and Season 4 respectively examine?",
-    "The Monty Hall problem's result — switching doors gives 2/3 winning probability vs 1/3 for staying — is formally derived from which mathematical framework?",
     "Under Incoterms 2020, which single term places maximum obligation on the seller — requiring it to be",
     "A shipper consigns cargo ‘To Order’ on the Bill of Lading. How does title to the cargo transfer to a",
     "When a liner carrier announces a ‘rate restoration’ on a trade lane, what does this action typically",
@@ -501,7 +491,17 @@
     "Muons produced by cosmic rays at ~15 km altitude travel toward Earth at 0.998c and are detected at ground level despite having a rest-frame half-life of just 2.2 microseconds. From the muon's own reference frame, what explains its ability to reach Earth's surface?",
     "In CRISPR-Cas9 gene editing, the guide RNA directs Cas9 to a specific DNA target. What molecular feature immediately flanking the target sequence is required for Cas9 to unwind the DNA double helix and cleave?",
     "The P vs NP problem is one of the seven Clay Millennium Prize problems. If P = NP were conclusively proved, which real-world system would face the most immediate and catastrophic structural failure?",
-    "Rabindranath Tagore's 'Gitanjali' (Song Offerings) won the 1913 Nobel Prize in Literature. A widespread misconception concerns the English version the Nobel Committee read. Which statement is accurate?"
+    "Rabindranath Tagore's 'Gitanjali' (Song Offerings) won the 1913 Nobel Prize in Literature. A widespread misconception concerns the English version the Nobel Committee read. Which statement is accurate?",
+    "Under CIF (Cost, Insurance, Freight), the seller pays freight and insurance to the named destination",
+    "A 'claused' (dirty) bill of lading contains carrier notations indicating apparent damage or defectiv",
+    "The Bunker Adjustment Factor (BAF) charged by ocean carriers exists to recover which specific variab",
+    "An air cargo shipment has an actual gross weight of 45 kg. Its dimensions are 80 cm × 60 cm × 75 cm.",
+    "Under most modern Free Trade Agreements, a product must satisfy Rules of Origin (ROO) to qualify for",
+    "Claude Monet painted approximately 30 versions of Rouen Cathedral between 1892 and 1894, working mul",
+    "In Western tonal music's circle of fifths, each clockwise step moves to a key a perfect fifth higher",
+    "Zakat, one of Islam's Five Pillars, is an obligatory annual almsgiving. On gold, silver, cash saving",
+    "Keynes introduced the concept of the 'liquidity trap' to describe a condition where conventional mon",
+    "The Atacama Desert in South America is among the driest non-polar environments on Earth, with some s"
   ],
   "learn_history": [
     {
@@ -663,12 +663,17 @@
       "date": "2026-08-15",
       "topic": "The Lerner Symmetry Theorem: Why an Import Tariff Is Economically Equivalent to an Export Tax",
       "bucket": "economics"
+    },
+    {
+      "date": "2026-08-16",
+      "topic": "Port Omissions and Blank Sailings: How Carriers Engineer Scarcity to Defend Rate Floors",
+      "bucket": "industry_deep_dive"
     }
   ],
   "curriculum_progress": {
     "incoterms": {
-      "count": 19,
-      "last_seen": "2026-08-04",
+      "count": 20,
+      "last_seen": "2026-08-16",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -679,8 +684,8 @@
       "rolling_score": []
     },
     "bill_of_lading": {
-      "count": 19,
-      "last_seen": "2026-08-04",
+      "count": 20,
+      "last_seen": "2026-08-16",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -703,8 +708,8 @@
       "rolling_score": []
     },
     "pricing": {
-      "count": 19,
-      "last_seen": "2026-08-04",
+      "count": 20,
+      "last_seen": "2026-08-16",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -715,8 +720,8 @@
       "rolling_score": []
     },
     "air_freight": {
-      "count": 19,
-      "last_seen": "2026-08-04",
+      "count": 20,
+      "last_seen": "2026-08-16",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -733,8 +738,8 @@
       "rolling_score": []
     },
     "ftas": {
-      "count": 19,
-      "last_seen": "2026-08-04",
+      "count": 20,
+      "last_seen": "2026-08-16",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -795,8 +800,8 @@
       "rolling_score": []
     },
     "geography": {
-      "count": 28,
-      "last_seen": "2026-08-13",
+      "count": 29,
+      "last_seen": "2026-08-16",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -825,20 +830,20 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 27,
-      "last_seen": "2026-08-07",
+      "count": 28,
+      "last_seen": "2026-08-16",
       "difficulty": 4,
       "rolling_score": []
     },
     "music": {
-      "count": 27,
-      "last_seen": "2026-08-07",
+      "count": 28,
+      "last_seen": "2026-08-16",
       "difficulty": 4,
       "rolling_score": []
     },
     "religion": {
-      "count": 26,
-      "last_seen": "2026-08-07",
+      "count": 27,
+      "last_seen": "2026-08-16",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -849,8 +854,8 @@
       "rolling_score": []
     },
     "economics": {
-      "count": 26,
-      "last_seen": "2026-08-07",
+      "count": 27,
+      "last_seen": "2026-08-16",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -875,159 +880,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-08-15",
+    "date": "2026-08-16",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "documentation",
-        "stem": "Under an FTA's Rules of Origin, which statement correctly describes the key distinction between a general certificate of origin and a preferential certificate of origin?",
+        "subtopic": "incoterms",
+        "stem": "Under CIF (Cost, Insurance, Freight), the seller pays freight and insurance to the named destination port. At which precise point does risk legally transfer from seller to buyer under Incoterms 2020?",
         "options": [
-          "General CoOs prove substantial transformation; preferential CoOs prove 100% wholly-obtained origin exclusively",
-          "Preferential CoOs are required to claim reduced FTA tariff rates and carry a direct duty benefit; general CoOs serve documentary purposes only with no tariff impact",
-          "Both types are issued by the same authority and carry equivalent legal weight in FTA tariff treatment",
-          "General CoOs are legally required for all sea freight shipments; preferential CoOs apply only to air freight under FTA terms"
+          "When goods are placed on board the vessel at the port of shipment",
+          "When the bill of lading is endorsed and handed to the buyer or their bank",
+          "When goods are discharged and unloaded at the named destination port",
+          "When the seller delivers goods to the first carrier at the origin inland point"
         ],
-        "correct": 1,
-        "why": "The defining feature of a preferential CoO is that it unlocks FTA duty concessions. A general CoO documents origin for LC, statistical or other purposes but carries no tariff benefit by itself.",
-        "deepDive": "A General Certificate of Origin (CoO) proves where goods were manufactured — used for letters of credit, statistics, import controls and documentation — but carries no automatic tariff benefit. A Preferential Certificate of Origin, by contrast, is the legal instrument that triggers reduced or zero duty under a specific FTA or preference scheme. Each FTA prescribes which form qualifies: EUR.1 for EU schemes, GSP Form A for GSP beneficiaries, Form D for ASEAN-member trade. The Rules of Origin criteria vary — some require 'wholly obtained' production (nothing non-originating allowed), others accept 'substantial transformation' such as a change of tariff heading or a regional value content threshold. A compliance trap: back-to-back certificates issued by intermediary countries are only valid if specifically permitted under the FTA. Incorrectly issued preferential CoOs can trigger post-clearance audits and duty recovery going back years."
+        "correct": 0,
+        "why": "Under CIF, risk transfers at the port of shipment when goods are loaded on board the vessel — even though the seller continues to pay freight and insurance costs all the way to destination.",
+        "deepDive": "CIF is among the most commercially used — and most misunderstood — Incoterms. It creates a deliberate split between cost responsibility (seller pays to destination) and risk responsibility (risk passes at origin loading). If cargo is lost at sea, the buyer bears the loss but can claim against the minimum insurance (Institute Cargo Clauses C) the seller was obligated to obtain. Common mistake: buyers assume that because the seller 'controls' the shipment to destination, the seller also bears transit risk. This is wrong. For high-value or fragile cargo, buyers under CIF should always procure additional insurance independently of the seller's obligation. CIF also places the seller in control of carrier and route selection, which can create conflicts of interest — sellers may choose cheaper carriers that offer better volume rebates rather than the most reliable service. In practice, sophisticated buyers often prefer CIP (Carriage and Insurance Paid) or even DDP to retain more control over logistics decisions."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "customs",
-        "stem": "Under the WTO Customs Valuation Agreement, if the transaction value method cannot be applied, customs authorities must follow a prescribed hierarchy. Which sequence is correct?",
+        "subtopic": "bill_of_lading",
+        "stem": "A 'claused' (dirty) bill of lading contains carrier notations indicating apparent damage or defective packaging at loading. What is the standard consequence in a Letter of Credit-financed shipment?",
         "options": [
-          "Transaction value → Computed value → Deductive value → Identical goods → Similar goods → Fallback",
-          "Transaction value → Identical goods → Similar goods → Deductive value → Computed value → Fallback",
-          "Transaction value → Similar goods → Identical goods → Computed value → Deductive value → Fallback",
-          "Transaction value → Deductive value → Identical goods → Similar goods → Computed value → Fallback"
+          "The cargo attracts higher ad valorem import duties at the destination country customs",
+          "The issuing or nominated bank will reject the document set as non-conforming, blocking payment to the seller",
+          "The shipping line becomes automatically liable for all cargo damage discovered at destination",
+          "The buyer gains the right to reject the entire shipment and demand a full refund from the seller's insurer"
         ],
         "correct": 1,
-        "why": "The WTO CVA mandates this exact order. Importers may request that deductive and computed methods be swapped, but the default sequence runs from most market-based to most cost-construct-based.",
-        "deepDive": "The WTO Customs Valuation Agreement (1994) mandates a hierarchical approach so customs duties reflect commercially realistic values rather than arbitrary assessments. The transaction value method — what the importer actually paid or will pay for the goods — applies in roughly 95% of real-world cases. When rejected (related-party pricing, no sale exists, or price conditional on future events), authorities climb the hierarchy: identical goods transactions (same country, same commercial level, same time period), then similar goods (not identical but functionally interchangeable), then deductive value (price at which goods sell in the importing country minus commissions, profit and post-import costs, working backwards), then computed value (cost of production plus profit — the hardest to verify and most susceptible to abuse), and finally the fallback method using reasonable means from available data. Anti-dumping and countervailing duties are levied separately on top of the dutiable value and are not part of the CVA hierarchy."
+        "why": "LC terms almost universally require a clean bill of lading. Any carrier notation of damage makes the document non-conforming — the bank rejects the document set and the seller cannot collect payment.",
+        "deepDive": "A clean B/L is one bearing no clause or notation indicating the cargo or its packaging was defective or damaged at loading. Banks operating under UCP 600 (the standard rulebook for LCs) rely on the clean B/L as a representation that goods were shipped in apparent good order. A claused B/L — e.g. 'cartons visibly crushed', 'drums showing corrosion', 'packing inadequate for sea voyage' — renders the document non-conforming, collapsing the payment mechanism. This creates a perverse incentive: sellers sometimes pressure carriers to issue clean B/Ls despite visible defects in exchange for a Letter of Indemnity (LOI) promising to hold the carrier harmless. This is illegal and constitutes documentary fraud under most jurisdictions. The clean B/L also matters under admiralty law — it raises a rebuttable presumption that cargo was in good condition when loaded, shifting the burden of proof to the carrier if the consignee claims damage at destination. This makes the B/L one of the most legally loaded documents in international trade."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "vessels",
-        "stem": "A Neo-Panamax container vessel is specifically defined by its ability to transit which infrastructure, and what is its approximate maximum TEU capacity?",
+        "subtopic": "pricing",
+        "stem": "The Bunker Adjustment Factor (BAF) charged by ocean carriers exists to recover which specific variable cost, and how is its magnitude typically determined?",
         "options": [
-          "Post-2015 Suez Canal expansion; up to 18,000–20,000 TEU",
-          "Panama Canal expanded locks opened 2016; up to approximately 13,000–14,500 TEU",
-          "Strait of Malacca draught constraints; up to 10,000–12,000 TEU",
-          "Rotterdam Maasvlakte 2 terminal berth length; up to 15,000–17,000 TEU"
+          "Port congestion costs, set by terminal operators at each port of call",
+          "Vessel fuel costs, indexed to published bunker fuel benchmark prices at major bunkering hubs like Singapore and Rotterdam",
+          "Canal transit fees, adjusted quarterly based on Panama and Suez Canal Authority announcements",
+          "IMO Tier III carbon levy obligations, calculated against each vessel's CII (Carbon Intensity Indicator) rating"
         ],
         "correct": 1,
-        "why": "Neo-Panamax (New Panamax) is defined by the expanded Panama Canal third-set locks opened June 2016 — 366m LOA, 51.25m beam, 15.2m draught — accommodating vessels up to approximately 13,000–14,500 TEU.",
-        "deepDive": "The Panama Canal expansion (third set of locks, opened June 2016) was one of the most consequential infrastructure events in modern shipping. The new locks — 366.4m long, 54.9m wide, 15.2m deep — nearly tripled the canal's maximum vessel size from the Old Panamax limit of roughly 4,500–5,000 TEU. Neo-Panamax vessels can carry up to ~13,000–14,500 TEU, opening Asia-US East Coast via the all-water route as a viable alternative to land-bridge intermodal. This triggered major US East Coast port investment: Savannah, Baltimore, New York-New Jersey and Norfolk all deepened channels to 50ft. A common misconception: Neo-Panamax refers strictly to Panama Canal dimensional fit — a vessel of this size operating on the Suez route is not called Neo-Panamax for that voyage; it is classified by its dimensional capability, not the route it happens to be on. Ultra Large Container Vessels (ULCVs) — 20,000+ TEU — cannot transit Panama and are limited to Suez and Cape routings."
+        "why": "BAF is a fuel cost pass-through surcharge, formula-driven against benchmark bunker prices (Platts or Argus assessments) at hubs like Singapore, Rotterdam, and Houston.",
+        "deepDive": "Bunker fuel — historically residual heavy fuel oil (HFO), now increasingly Very Low Sulphur Fuel Oil (VLSFO) and LNG — represents 15–30% of a carrier's total operating cost and is highly volatile. Carriers introduced the BAF (also called FAF or EBS) to avoid repricing base freight rates every time oil moves, instead adjusting the surcharge on a defined schedule. The formula typically takes the form: (current benchmark price minus a baseline price) × a per-TEU fuel consumption coefficient for that trade lane. The baseline and coefficient are published by the carrier. For shippers, a contract with a transparent, index-linked BAF formula is strongly preferable to opaque 'all-in' rates, which may mask surcharge manipulation. Since the IMO 2020 sulphur cap (requiring ≤0.5% sulphur content at sea), VLSFO commands a significant premium over old HFO, permanently inflating the BAF base. The IMO's incoming CII carbon intensity rating system will likely add another adjustment layer in coming years."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "port_ops",
-        "stem": "A full import container is gated out from the terminal on day 3 of a 5-day free demurrage period, then returned empty to the carrier's designated depot 11 days after gate-out. Assuming 7 days free detention for off-dock return, which charges apply and to whom?",
+        "subtopic": "air_freight",
+        "stem": "An air cargo shipment has an actual gross weight of 45 kg. Its dimensions are 80 cm × 60 cm × 75 cm. Using IATA's standard volumetric divisor of 6,000 cm³/kg, what is the chargeable weight?",
         "options": [
-          "Demurrage only, charged by the carrier — the box overstayed its terminal free time",
-          "Detention charged by the carrier for 4 days — gate-out was within free demurrage, but off-dock return exceeded 7-day free detention",
-          "Both demurrage from the terminal and detention from the carrier are triggered simultaneously",
-          "Storage charges only from the terminal operator; detention is not applicable once the box has left the port gate"
+          "45 kg — actual gross weight applies because it exceeds volumetric weight",
+          "60 kg — volumetric weight applies because it exceeds actual gross weight",
+          "52.5 kg — the midpoint average of actual and volumetric weights",
+          "75 kg — a dimensional surcharge cap applies for shipments over 50 kg"
         ],
         "correct": 1,
-        "why": "The container left the terminal on day 3 — within the 5-day free demurrage window — so no demurrage. But it was returned 11 days after gate-out vs 7 days free detention: 4 days of detention payable to the carrier.",
-        "deepDive": "Demurrage and detention are among the most litigated areas in container freight — routinely confused even by experienced logistics professionals. Demurrage is charged by the terminal or the carrier when a full import container sits at the port beyond the free-time window, incentivising quick pickup. Detention is charged by the shipping line when an empty container is not returned to the carrier's depot by the agreed date after the importer gated it out, incentivising quick unloading and return. Free-time periods for both are set separately in carrier tariffs or service contracts and vary by carrier, port and commodity. In this scenario: the container exited the terminal on day 3 — inside the 5-day free-demurrage window — so demurrage clock never started. But the 11-day off-dock period exceeded the 7-day free-detention allowance by 4 days, triggering 4 days of detention payable to the shipping line. The critical distinction: demurrage relates to time in the terminal; detention relates to time the carrier's equipment is off-hire outside the terminal. Many shippers incorrectly assume a single combined free period covers both — it does not."
+        "why": "Volumetric weight = (80 × 60 × 75) ÷ 6,000 = 360,000 ÷ 6,000 = 60 kg, which exceeds actual weight (45 kg), so 60 kg is charged.",
+        "deepDive": "The volumetric (dimensional) weight formula exists because aircraft have finite volumetric capacity as well as structural weight limits. A shipment of feathers fills the hold at negligible gross weight — without a dim-weight formula, the carrier recovers almost no revenue on that space. IATA's standard divisor of 6,000 cm³/kg is used for most general cargo on commercial airlines; major express integrators (DHL, FedEx, UPS) often use 5,000 cm³/kg, making their volumetric weight calculate higher and increasing charges on bulky items. Chargeable weight is whichever is greater: gross weight or volumetric weight. Shippers can reduce costs by minimising void space inside cartons, using dunnage-free packaging, or consolidating multiple shipments into a single dense unit load device (ULD). Air freight pricing adds further complexity through General Cargo Rates (GCR), Specific Commodity Rates (SCR) for high-volume lanes and products, and Class Rates (for high-value goods like gold and currency). Knowing when to challenge volumetric weight calculations (if carrier-provided dimensions are wrong) is a real cost-recovery skill in freight operations."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "liner_alliances",
-        "stem": "Following the restructuring that took effect in February 2025, which statement accurately describes the Gemini Cooperation's membership, design philosophy and primary transshipment hub strategy?",
+        "subtopic": "ftas",
+        "stem": "Under most modern Free Trade Agreements, a product must satisfy Rules of Origin (ROO) to qualify for preferential tariff treatment. Which of the following correctly describes the standard ROO test methods?",
         "options": [
-          "CMA CGM and COSCO; prioritises Asia-Mediterranean with Piraeus and Damietta as anchor hubs",
-          "Maersk and Hapag-Lloyd; engineered around schedule reliability using a hub-spoke model centred on Tanjung Pelepas and Algeciras-Tanger Med",
-          "ONE, HMM and Yang Ming; focuses on intra-Asia connectivity with Japanese feeder clusters as the strategic differentiator",
-          "MSC standalone; maximises direct port calls on all major trade lanes to eliminate transshipment cost and delay"
+          "Final packaging and labelling must be completed in the exporting FTA member country",
+          "Meeting at least one of: a Change in Tariff Classification, a Regional Value Content threshold, or a specific manufacturing process requirement",
+          "More than 50% of the product's raw materials by weight must originate within the FTA territory",
+          "The exporting firm must hold a recognised trade compliance certification pre-approved by the importing country customs authority"
         ],
         "correct": 1,
-        "why": "Gemini Cooperation is the Maersk-Hapag-Lloyd alliance (launched February 2025), built around an 85-90% on-time reliability target and a hub-spoke structure through Tanjung Pelepas and Algeciras.",
-        "deepDive": "The Gemini Cooperation, launched February 2025 by Maersk and Hapag-Lloyd, was notable not just for its scale but for its design philosophy: rather than maximising vessel size or direct port call breadth, Gemini was engineered around schedule reliability — a differentiated value proposition at a time when shipper trust in carrier schedules was near historic lows. The two carriers committed to an 85-90% on-time performance target backed by dedicated vessel strings, reduced port calls and a disciplined hub-spoke architecture. Primary Asia hubs: Tanjung Pelepas (Malaysia) and Singapore; Europe hubs: Algeciras and Tanger Med. Other 2026 alliance groupings: Ocean Alliance (CMA CGM, COSCO, OOCL, Evergreen); Premier Alliance (ONE, HMM, Yang Ming); MSC operating fully standalone after departing the 2M alliance in 2025, making the world's largest carrier by capacity an independent force with 21.6% global share. For an MGH routing decision out of Chittagong, knowing which alliance a feeder connects to at Colombo or Singapore determines which main-line services — and which schedule reliability commitments — are accessible."
+        "why": "Modern FTAs use product-specific ROO schedules with three possible test types: CTC (Change in Tariff Classification), RVC (Regional Value Content), or specific process rules — a product must satisfy at least one.",
+        "deepDive": "Rules of Origin (ROO) are among the most commercially consequential and technically complex provisions in any FTA. They answer the question: has this product been 'sufficiently transformed' in the claimed country of origin to deserve preferential tariff treatment? Three standard test types appear in most modern FTAs: (1) Change in Tariff Classification (CTC) — the product must change its HS code chapter, heading, or subheading as a result of manufacturing in the FTA country, meaning substantial transformation occurred; (2) Regional Value Content (RVC) — typically requiring 35–45% of the product's value to derive from the FTA region, calculated using transaction value or net cost methods; (3) Specific Process Rules — particular manufacturing operations (e.g. 'yarn-forward' in textiles, specific chemical reactions, final assembly steps) must be performed in the FTA territory. For Bangladesh's RMG exports, the 'yarn-forward' rule under the US AGOA/GSP framework and 'fabric-forward' under some EU preferences directly determine whether a garment qualifies — one sourcing decision on fabric origin can make or break duty-free eligibility on an entire product line."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "history",
-        "stem": "At the Congress of Vienna (1814-15), French Foreign Minister Talleyrand advanced the principle of 'legitimacy' as the organising doctrine. What was the primary strategic purpose of this manoeuvre?",
+        "subtopic": "arts",
+        "stem": "Claude Monet painted approximately 30 versions of Rouen Cathedral between 1892 and 1894, working multiple canvases simultaneously as light conditions shifted. What was the core artistic argument these paintings made?",
         "options": [
-          "To establish democratic constitutions across Europe in order to prevent future revolutionary uprisings like Napoleon's rise",
-          "To restore pre-Napoleonic monarchies as the organising principle, which simultaneously reframed France as a victim of usurpation and gave it equal negotiating standing with the victorious powers",
-          "To divide France's colonial possessions equitably among the four victorious powers as reparations for Napoleonic aggression",
-          "To create a permanent European arbitration tribunal to resolve future territorial disputes without recourse to war"
+          "That Gothic architecture possesses an inherent spiritual geometry best revealed through repeated observation",
+          "That visual reality is not fixed but continuously transformed by changing light and atmosphere — the subject is secondary to perception itself",
+          "That oil painting could achieve photographic accuracy if the artist returned to the same site across multiple sessions",
+          "That complementary colour contrasts, when applied to stone, reveal hidden chromatic warmth imperceptible to untrained eyes"
         ],
         "correct": 1,
-        "why": "Talleyrand cynically promoted 'legitimacy' because France had a Bourbon king — aligning France with the principle — and because it reframed France as a victim of Napoleonic usurpation, not an aggressor, giving it equal standing at the Congress.",
-        "deepDive": "The Congress of Vienna (September 1814–June 1815) was a defining moment in the history of great-power diplomacy. Metternich of Austria, Castlereagh of Britain, Tsar Alexander I and Prussian Chancellor Hardenberg presided — but the master diplomatic manoeuvre belonged to Talleyrand, representing defeated France. By advancing 'legitimacy' (restore lawful rulers overthrown by Napoleon) as the congress's organising principle, Talleyrand achieved three things simultaneously: France avoided punitive dismemberment; the Bourbon restoration gave France the moral equivalent of the other powers (they too had lawful kings); and the quadruple alliance was transformed into a quintuple one including France. The resulting 'Concert of Europe' maintained rough great-power peace for four decades — arguably the longest such interval in European history — and created the template for modern multilateral diplomacy. Many scholars see the Congress of Vienna as the forerunner of the post-1945 UN and Bretton Woods institutional order, demonstrating that defeated powers incorporated into the system are more stable than excluded ones."
+        "why": "Monet's Cathedral series argued that perception — specifically the transient quality of light — is the true subject of painting, not the permanent architectural object itself.",
+        "deepDive": "Monet produced 30 paintings of Rouen Cathedral from a single rented upper-floor window across two winters. He would work on up to 14 canvases simultaneously, rotating between them as the light shifted — a technically demanding process that inverted the traditional studio model of composing a finished scene. The series was exhibited in 1895 at Galerie Durand-Ruel and sold at unprecedented prices, establishing that serial works (haystacks, poplars, water lilies) could command individual and collective premiums. Philosophically, the series drew on contemporary perceptual science (Helmholtz's optics, Michel-Eugène Chevreul's colour theory) and reflected the modernity thesis that experience is fragmentary and context-dependent rather than universal and stable. The Cathedrals influenced Cézanne's structural approach to repeated-subject painting and — through that lineage — Cubism's shattering of unified viewpoint. Today these paintings are scattered across public collections including the Musée d'Orsay, the Metropolitan, and the Museum of Fine Arts Boston — reuniting them in one room is considered one of art history's unrealised dreams."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "Muons produced by cosmic rays at ~15 km altitude travel toward Earth at 0.998c and are detected at ground level despite having a rest-frame half-life of just 2.2 microseconds. From the muon's own reference frame, what explains its ability to reach Earth's surface?",
+        "subtopic": "music",
+        "stem": "In Western tonal music's circle of fifths, each clockwise step moves to a key a perfect fifth higher and adds one sharp to the key signature. At the 'bottom' of the circle, C# major (7 sharps) and Db major (5 flats) occupy the same position. What is their relationship?",
         "options": [
-          "The muon's relativistic mass increase reduces atmospheric drag, extending its effective range",
-          "Length contraction: the muon sees the atmosphere compressed to roughly 1/15 of its rest-frame thickness, which it traverses comfortably within 2.2 microseconds",
-          "The muon experiences partial time reversal at speeds approaching c, effectively running its decay clock backwards during transit",
-          "Earth accelerates toward the muon at near-superluminal speed from the muon's reference frame, shrinking the effective travel time"
+          "C# and Db are different keys that share only the name of their tonic pitch",
+          "They are enharmonically equivalent — identical in pitch under equal temperament but notated differently",
+          "C# major sounds slightly sharper than Db major because of natural harmonic series differences",
+          "Db major is the relative minor of C# major, sharing its key signature"
         ],
         "correct": 1,
-        "why": "From Earth: time dilation extends the muon's lifetime by γ ≈ 22. From the muon: length contraction compresses the 15 km atmosphere to ~670 m, traversable in 2.2µs. Both frames agree on the physical outcome — the muon hits the detector.",
-        "deepDive": "The muon experiment is one of the most elegant experimental confirmations of special relativity. Cosmic-ray pions decay in the upper atmosphere (~15 km up) producing muons. At 0.998c, the Lorentz factor γ = 1/√(1−v²/c²) ≈ 22.4. From Earth's frame, time dilation stretches the muon's 2.2µs half-life to ~49µs — enough to travel ~14.7 km. From the muon's frame, the atmosphere is Lorentz-contracted to roughly 670 m, traversable well within 2.2µs. Both reference frames predict the same physical event: the muon reaches the detector. This illustrates a deep point — what observers measure about space and time differs between frames, but predictions about physical events (did the particle arrive? yes) are invariant. The experiment was first confirmed at Mount Washington Observatory in 1963. A common misconception is that one frame is 'right' — special relativity says both frames are equally valid; the disagreement is about measured intervals, not about physical outcomes."
+        "why": "In equal temperament, C# and Db are the same pitch frequency spelled two different ways — enharmonic equivalents. The circle of fifths 'closes' because of this equivalence.",
+        "deepDive": "The circle of fifths organises all 12 chromatic pitches by their interval relationships, revealing both key signature structure (sharps and flats) and harmonic proximity (adjacent keys share six of seven scale notes, making modulation between them smooth). In equal temperament — the tuning system standardised for Western keyboards by the late 18th century — all semitones are exactly equal, making C# and Db identical in frequency. This was not always true: in meantone temperament (dominant before 1700), C# and Db had subtly different frequencies, and keyboard instruments were tuned to favour certain keys at the expense of others (the notorious 'wolf fifth'). J.S. Bach's Well-Tempered Clavier (1722) famously demonstrated equal temperament's freedom by writing a prelude and fugue in every major and minor key. The enharmonic equivalents at the circle's bottom (F#/Gb, C#/Db, B/Cb) are conventionally navigated by choosing the spelling with fewer accidentals for readability. Modern jazz harmony and modal music stretch beyond the classical circle, but it remains the foundational map of tonal harmonic space."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "In CRISPR-Cas9 gene editing, the guide RNA directs Cas9 to a specific DNA target. What molecular feature immediately flanking the target sequence is required for Cas9 to unwind the DNA double helix and cleave?",
+        "subtopic": "religion",
+        "stem": "Zakat, one of Islam's Five Pillars, is an obligatory annual almsgiving. On gold, silver, cash savings, and trade goods held above the nisab threshold for one full lunar year, what is the standard Zakat rate?",
         "options": [
-          "A TATA box promoter element upstream of the target, signalling transcriptional accessibility",
-          "A PAM sequence — for SpCas9 the canonical 5'-NGG-3' motif immediately 3' of the protospacer on the non-template strand",
-          "A cytosine methylation mark on the target strand that marks the site for epigenetic editing",
-          "An adjacent G-quadruplex secondary structure that destabilises the local double helix for Cas9 access"
+          "1% of total net worth",
+          "2.5% of qualifying assets above the nisab threshold",
+          "5% of annual income from all sources",
+          "10% of net profit from trade and commercial activities"
         ],
         "correct": 1,
-        "why": "The PAM (Protospacer Adjacent Motif) — 5'-NGG-3' for SpCas9 — is non-negotiable: without PAM recognition, Cas9 cannot unwind the DNA and the guide RNA cannot interrogate the target sequence.",
-        "deepDive": "The PAM (Protospacer Adjacent Motif) is a short DNA sequence flanking the target that Cas9 recognises as a 'permission slip' before initiating DNA unwinding. For SpCas9 — from Streptococcus pyogenes, the most widely deployed Cas9 — the PAM is 5'-NGG-3' on the non-template strand, immediately 3' of the 20-nucleotide protospacer. Without PAM recognition, Cas9 fails to form the R-loop structure that enables guide RNA to scan the DNA, so cleavage never occurs. This creates a real editing limitation: not every genomic target has a nearby NGG, making some sites inaccessible. This drove development of PAM-flexible variants: SaCas9 from S. aureus requires NNGRRT; engineered SpCas9 variants (xCas9, SpCas9-NG) recognise the minimal NG motif; Cas12a uses a 5'-TTTN PAM. The PAM also plays a biological self-vs-non-self role: the bacterium's own CRISPR array lacks PAM flanking, protecting it from self-cleavage. This is why the CRISPR immune system destroys viral DNA but not its own immune memory — a molecular self-other distinction encoded in three nucleotides."
+        "why": "The standard Zakat rate on most wealth categories — gold, silver, cash, savings, and trade goods — is 2.5% of qualifying assets held above the nisab threshold for one lunar year (hawl).",
+        "deepDive": "Zakat (from the Arabic for 'purification' or 'growth') is one of the Five Pillars and functions as a mandatory wealth redistribution mechanism. The nisab threshold — currently equivalent to ~85g of gold or ~595g of silver — is the minimum wealth level above which Zakat becomes obligatory. The hawl is the one-year holding period; wealth must have been above nisab for a full lunar year before Zakat is due on it. Different asset categories carry different rates: agricultural produce is taxed at 5% (irrigated land, reflecting irrigation costs) or 10% (rain-fed, implying divine provision) at harvest — not annually. Livestock has specific head-count thresholds. Gold and silver jewellery for personal use is disputed among Hanafi, Shafi'i, and Maliki scholars. Zakat is distinct from Sadaqah (voluntary charity) and from Khums in Shia Islam, which imposes 20% on certain surplus income. Institutionally, Zakat has historically funded welfare, debt relief, and community infrastructure; modern Islamic economists have proposed it as a template for progressive wealth taxation, noting its base (accumulated wealth) differs fundamentally from income tax bases and may be less distortionary to labour supply decisions."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "The P vs NP problem is one of the seven Clay Millennium Prize problems. If P = NP were conclusively proved, which real-world system would face the most immediate and catastrophic structural failure?",
+        "subtopic": "economics",
+        "stem": "Keynes introduced the concept of the 'liquidity trap' to describe a condition where conventional monetary policy loses effectiveness. Which scenario best captures the core mechanism he described?",
         "options": [
-          "GPS navigation systems, which depend on NP-hard shortest-path algorithms to compute routes in real time",
-          "RSA public-key cryptography, which relies on the assumed computational infeasibility of factoring large semiprimes",
-          "Machine learning neural networks, whose backpropagation algorithm would become computationally intractable",
-          "GPS satellite atomic clocks, whose relativistic time corrections involve non-polynomial quantum electrodynamics"
+          "Rising government borrowing crowds out private investment by absorbing all available loanable funds",
+          "Nominal interest rates approach zero, causing money supply expansions to be hoarded as cash rather than stimulating spending or investment",
+          "Hyperinflation destroys money's real value faster than the central bank can issue it, making monetary control impossible",
+          "Rising bond yields force central banks to abandon quantitative easing, preventing rate reductions"
         ],
         "correct": 1,
-        "why": "RSA's security rests entirely on the computational hardness of integer factorisation. If P = NP, factoring becomes polynomially solvable, instantly breaking RSA and most modern public-key cryptography.",
-        "deepDive": "P is the class of decision problems solvable in polynomial time; NP is the class verifiable in polynomial time. The Clay Millennium Prize offers $1M for proof either way — most computer scientists believe P ≠ NP, but no proof exists. If P = NP, the entire edifice of modern public-key cryptography — RSA, elliptic-curve cryptography (ECDH, ECDSA), Diffie-Hellman key exchange — collapses, because factoring and discrete logarithm problems are in NP and would become efficiently solvable. Every HTTPS connection, every encrypted message, every digital signature would be retroactively breakable. The impact on GPS is commonly misunderstood: Dijkstra's algorithm for shortest paths already runs in O(E + V log V) — polynomial, firmly in P. GPS routing is already 'solved.' The NP-hard problems in logistics (vehicle routing with capacity constraints, bin packing) would instead become tractable, revolutionising supply chain optimisation. P = NP would also accelerate drug discovery, protein folding and AI — potentially one of the most transformative theoretical results imaginable."
+        "why": "In a liquidity trap, near-zero nominal rates make cash and bonds near-perfect substitutes; additional money supply is hoarded rather than spent, making monetary expansion ineffective at stimulating demand.",
+        "deepDive": "Keynes introduced the liquidity trap in the General Theory (1936) as an edge case where monetary policy loses traction entirely. At or near the zero lower bound on nominal interest rates, the opportunity cost of holding cash versus government bonds nearly vanishes — both offer negligible yield. In this condition, any new money the central bank injects simply accumulates in cash hoards rather than flowing into credit creation, consumption, or investment. The concept remained largely theoretical until Japan's Lost Decade (1990s–2000s), when near-zero rates failed to revive growth, and the post-2008 global financial crisis, when the Fed, ECB, and Bank of England simultaneously confronted the zero lower bound. Policy innovations that emerged from the trap include quantitative easing (buying longer-duration assets to push down term premiums), negative interest rate policy (charging banks on excess reserves to force deployment), and forward guidance (signalling future policy to shift expectations). The liquidity trap is the core theoretical justification for fiscal stimulus when monetary channels are exhausted — a direct lineage from Keynes to the 2008 ARRA and 2020–21 pandemic stimulus packages."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Rabindranath Tagore's 'Gitanjali' (Song Offerings) won the 1913 Nobel Prize in Literature. A widespread misconception concerns the English version the Nobel Committee read. Which statement is accurate?",
+        "subtopic": "geography",
+        "stem": "The Atacama Desert in South America is among the driest non-polar environments on Earth, with some stations recording no measurable rainfall for decades. Which combination of factors is primarily responsible for its extreme aridity?",
         "options": [
-          "W.B. Yeats translated the Bengali originals into English prose-poems and submitted them under Tagore's name with his permission",
-          "Tagore himself translated and curated selections from multiple Bengali collections into English prose-poetry; Yeats only wrote an admiring preface",
-          "The English Gitanjali was ghostwritten by Tagore's London secretary, Rothenstein, with Tagore providing only verbal summaries",
-          "Yeats and Tagore co-authored the English version in a deliberate East-West collaboration arranged by the India Society of London"
+          "The subtropical high-pressure belt and extreme distance from any ocean moisture source",
+          "The cold Humboldt Current suppressing convective rainfall offshore plus the Andes blocking Atlantic and Amazon moisture from the east",
+          "Permafrost preventing surface evaporation and a persistent polar anticyclone maintaining stable high pressure",
+          "The Patagonian cold front creating a sustained temperature inversion that prevents cloud formation across the region"
         ],
         "correct": 1,
-        "why": "Tagore translated his own Bengali poems into English prose-poems during his 1912 voyage to England. Yeats wrote the preface but neither translated nor co-authored the collection.",
-        "deepDive": "Gitanjali (Bengali: song-offerings) was originally a 157-poem Bengali devotional collection published in 1910 — metrically rich, musical and explicitly Vaishnavite in its address to Krishna. The English 'Gitanjali' that won the Nobel is a substantially different work: Tagore translated and curated poems from three collections (Gitanjali, Naivedya and Kheya) into English prose-poetry during his 1912 voyage to England, creating a more universalist, mystical register accessible to Western readers. Mutual friend William Rothenstein introduced the manuscript to W.B. Yeats, who was so moved he wrote an admiring introduction: 'These lyrics — which are in the original, my Indians tell me, full of subtlety of rhythm, of untranslatable delicacies of colour, of metrical invention — display in their thought a world I have dreamed of all my life long.' Yeats's involvement ended there. The Nobel citation praised Tagore for 'his profoundly sensitive, fresh and beautiful verse, by which, with consummate skill, he has made his poetic thought, expressed in his own English words, a part of the literature of the West' — explicitly crediting Tagore's own English. A further nuance: the title 'Song Offerings' in English was applied by the Nobel Committee; the manuscript Tagore circulated was simply called 'Prose Translations.'"
+        "why": "The Atacama's hyperaridity results from two reinforcing mechanisms: the cold Humboldt Current stabilises air and inhibits convective rainfall on the Pacific side, while the Andes block moisture-bearing winds from the Amazon basin to the east.",
+        "deepDive": "The Atacama Desert stretches ~1,000 km along Chile's northern Pacific coast and averages under 1 mm of annual rainfall in its core — the driest non-polar desert on Earth, with some weather stations never recording measurable rain. Two primary mechanisms combine to produce this hyperaridity. First, the Humboldt Current (also called the Peru Current) flows northward along the South American Pacific coast, carrying cold Antarctic water. Cold ocean water suppresses evaporation and creates a strong temperature inversion in the overlying atmosphere, preventing the convective uplift needed to form rain clouds — eliminating Pacific moisture from reaching the coast. Second, the Andes Mountains (peaking above 6,000m) form a near-impenetrable barrier on the eastern flank, blocking moisture-laden trade winds from the Amazon basin and the Atlantic. A contributing factor is the subtropical high-pressure belt (the South Pacific Anticyclone) that dominates the region, further suppressing precipitation. The Atacama's unique geochemistry — nitrate deposits that once fuelled global agriculture, lithium brine salts in the Salar de Atacama — is a direct product of this aridity preventing leaching. Today it is the world's premier lithium-producing region, putting it at the centre of the EV battery supply chain."
       }
     ]
   }
