@@ -1,17 +1,7 @@
 {
   "streak": 11,
-  "last_session_date": "2026-08-16",
+  "last_session_date": "2026-08-20",
   "questions_seen": [
-    "Under Incoterms 2020, which single term places maximum obligation on the seller — requiring it to be",
-    "A shipper consigns cargo ‘To Order’ on the Bill of Lading. How does title to the cargo transfer to a",
-    "When a liner carrier announces a ‘rate restoration’ on a trade lane, what does this action typically",
-    "A 60cm × 50cm × 40cm carton weighs 6 kg gross. Applying IATA’s standard chargeable weight formula (v",
-    "Which WTO principle requires a member to extend any trade concession granted to one trading partner ",
-    "The Berlin Conference of 1884–85 introduced which foundational legal principle to govern European te",
-    "In classical thermodynamics, a ‘reversible process’ is correctly defined as one that:",
-    "In García Márquez’s One Hundred Years of Solitude, how does the patriarch José Arcadio Buenía ultima",
-    "The distinctive inner luminosity of Flemish Renaissance painting — most associated with Jan van Eyck",
-    "A fugue in Western classical music is most accurately characterised as:",
     "Under SOLAS VGM regulations, which party bears primary legal responsibility for submitting an accurate Verified Gross Mass declaration before a container may be loaded aboard a vessel?",
     "A Bangladeshi garment exporter to the US discovers its goods are subject to both anti-dumping duties (ADD) and countervailing duties (CVD). Which statement most accurately distinguishes the two measures?",
     "A containership is 400 metres LOA with a 61-metre beam. It cannot transit the Panama Canal's Third Set of Locks but can transit Suez Canal. Which vessel class does this describe?",
@@ -501,7 +491,17 @@
     "In Western tonal music's circle of fifths, each clockwise step moves to a key a perfect fifth higher",
     "Zakat, one of Islam's Five Pillars, is an obligatory annual almsgiving. On gold, silver, cash saving",
     "Keynes introduced the concept of the 'liquidity trap' to describe a condition where conventional mon",
-    "The Atacama Desert in South America is among the driest non-polar environments on Earth, with some s"
+    "The Atacama Desert in South America is among the driest non-polar environments on Earth, with some s",
+    "A combined transport bill of lading (CTBL) issued for a multimodal shipment differs from a conventional port-to-port B/L in which fundamental respect under UNCTAD/ICC Rules?",
+    "The IMEC (India-Middle East-Europe Corridor) announced at the G20 in 2023 proposes to connect India to Europe via the UAE, Saudi Arabia, Jordan, and Mediterranean ports. Which established trade lane does it most directly seek to supplement or partially bypass?",
+    "In marine cargo insurance, a 'General Average' (GA) act requires all cargo owners to contribute to a shared loss even if their own cargo was completely undamaged. Under York-Antwerp Rules, which scenario qualifies as a valid GA act?",
+    "Under the US Uyghur Forced Labor Prevention Act (UFLPA), what evidentiary standard must importers meet to rebut the statutory presumption that goods from Xinjiang were produced with forced labour?",
+    "The Baltic Dry Index (BDI) and the Shanghai Containerized Freight Index (SCFI) both measure shipping market conditions but frequently diverge dramatically. Which statement best explains why?",
+    "Rawls' 'veil of ignorance' requires designing social institutions without knowing one's position in society. What primary conclusion does Rawls draw from this device in A Theory of Justice (1971)?",
+    "In sociolinguistics, 'code-switching' — alternating between languages within a single conversation — is now understood to be which of the following?",
+    "The Duckworth-Lewis-Stern (DLS) method revises limited-overs cricket targets when matches are interrupted. On which core principle is DLS founded?",
+    "'Gangnam Style' by South Korean artist PSY became YouTube's first video to reach 1 billion views in December 2012. Which record did it hold until being surpassed in 2014?",
+    "García Márquez's 'One Hundred Years of Solitude' (1967) is canonical magical realism. Which statement most accurately describes magical realism as a literary mode?"
   ],
   "learn_history": [
     {
@@ -668,6 +668,11 @@
       "date": "2026-08-16",
       "topic": "Port Omissions and Blank Sailings: How Carriers Engineer Scarcity to Defend Rate Floors",
       "bucket": "industry_deep_dive"
+    },
+    {
+      "date": "2026-08-20",
+      "topic": "The Paradox of Tolerance: Why Open Systems Must Limit Themselves to Survive",
+      "bucket": "sociopolitical"
     }
   ],
   "curriculum_progress": {
@@ -726,14 +731,14 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 19,
-      "last_seen": "2026-08-07",
+      "count": 20,
+      "last_seen": "2026-08-20",
       "difficulty": 4,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 19,
-      "last_seen": "2026-08-07",
+      "count": 20,
+      "last_seen": "2026-08-20",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -744,20 +749,20 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 19,
-      "last_seen": "2026-08-07",
+      "count": 20,
+      "last_seen": "2026-08-20",
       "difficulty": 4,
       "rolling_score": []
     },
     "compliance": {
-      "count": 19,
-      "last_seen": "2026-08-07",
+      "count": 20,
+      "last_seen": "2026-08-20",
       "difficulty": 4,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 19,
-      "last_seen": "2026-08-07",
+      "count": 20,
+      "last_seen": "2026-08-20",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -824,8 +829,8 @@
       "rolling_score": []
     },
     "literature": {
-      "count": 28,
-      "last_seen": "2026-08-15",
+      "count": 29,
+      "last_seen": "2026-08-20",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -848,8 +853,8 @@
       "rolling_score": []
     },
     "political_theory": {
-      "count": 27,
-      "last_seen": "2026-08-13",
+      "count": 28,
+      "last_seen": "2026-08-20",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -860,179 +865,179 @@
       "rolling_score": []
     },
     "linguistics": {
-      "count": 27,
-      "last_seen": "2026-08-13",
+      "count": 28,
+      "last_seen": "2026-08-20",
       "difficulty": 4,
       "rolling_score": []
     },
     "sport": {
-      "count": 27,
-      "last_seen": "2026-08-13",
+      "count": 28,
+      "last_seen": "2026-08-20",
       "difficulty": 3,
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 27,
-      "last_seen": "2026-08-13",
+      "count": 28,
+      "last_seen": "2026-08-20",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-08-16",
+    "date": "2026-08-20",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "incoterms",
-        "stem": "Under CIF (Cost, Insurance, Freight), the seller pays freight and insurance to the named destination port. At which precise point does risk legally transfer from seller to buyer under Incoterms 2020?",
+        "subtopic": "multimodal",
+        "stem": "A combined transport bill of lading (CTBL) issued for a multimodal shipment differs from a conventional port-to-port B/L in which fundamental respect under UNCTAD/ICC Rules?",
         "options": [
-          "When goods are placed on board the vessel at the port of shipment",
-          "When the bill of lading is endorsed and handed to the buyer or their bank",
-          "When goods are discharged and unloaded at the named destination port",
-          "When the seller delivers goods to the first carrier at the origin inland point"
+          "The CTBL holder can claim against a single issuing MTO for loss on any leg without identifying which specific leg caused the damage",
+          "The CTBL limits MTO liability to the ocean leg only, with rail and road carriers separately liable for their legs",
+          "The CTBL must be issued by a FIATA member and is only valid when the shipper has no direct contract with the ocean carrier",
+          "The CTBL entitles the buyer to collect goods at origin if the ocean leg is cancelled, unlike a port-to-port B/L"
         ],
         "correct": 0,
-        "why": "Under CIF, risk transfers at the port of shipment when goods are loaded on board the vessel — even though the seller continues to pay freight and insurance costs all the way to destination.",
-        "deepDive": "CIF is among the most commercially used — and most misunderstood — Incoterms. It creates a deliberate split between cost responsibility (seller pays to destination) and risk responsibility (risk passes at origin loading). If cargo is lost at sea, the buyer bears the loss but can claim against the minimum insurance (Institute Cargo Clauses C) the seller was obligated to obtain. Common mistake: buyers assume that because the seller 'controls' the shipment to destination, the seller also bears transit risk. This is wrong. For high-value or fragile cargo, buyers under CIF should always procure additional insurance independently of the seller's obligation. CIF also places the seller in control of carrier and route selection, which can create conflicts of interest — sellers may choose cheaper carriers that offer better volume rebates rather than the most reliable service. In practice, sophisticated buyers often prefer CIP (Carriage and Insurance Paid) or even DDP to retain more control over logistics decisions."
+        "why": "The defining feature of the CTBL is single-party liability: the MTO is responsible for the entire multimodal journey, and the claimant need not identify which leg caused the damage.",
+        "deepDive": "A multimodal transport operator (MTO) assumes end-to-end liability under a combined transport bill of lading — a critical commercial distinction from leg-by-leg consignment. Under FIATA's standard FBL and the UNCTAD/ICC Rules for Multimodal Transport Documents, the MTO accepts liability for the full carriage, including inland legs it does not operate itself. When cargo is damaged and the damage point is unknown or spans legs, the shipper claims solely against the MTO. Liability quantum varies: if the damage point is known, the applicable leg convention applies (Hague-Visby, CMR, CIM); if unknown, a fallback limit of 8.33 SDR/kg typically applies. For shippers: one document, one insurer, one contract. The tradeoff: MTOs charge a premium for consolidated risk, and their recovery from sub-contractors varies significantly by jurisdiction. In Bangladesh's context, multimodal documents are increasingly relevant as Dhaka-Chittagong-transshipment-Singapore flows become more formalised."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "bill_of_lading",
-        "stem": "A 'claused' (dirty) bill of lading contains carrier notations indicating apparent damage or defective packaging at loading. What is the standard consequence in a Letter of Credit-financed shipment?",
+        "subtopic": "trade_lanes",
+        "stem": "The IMEC (India-Middle East-Europe Corridor) announced at the G20 in 2023 proposes to connect India to Europe via the UAE, Saudi Arabia, Jordan, and Mediterranean ports. Which established trade lane does it most directly seek to supplement or partially bypass?",
         "options": [
-          "The cargo attracts higher ad valorem import duties at the destination country customs",
-          "The issuing or nominated bank will reject the document set as non-conforming, blocking payment to the seller",
-          "The shipping line becomes automatically liable for all cargo damage discovered at destination",
-          "The buyer gains the right to reject the entire shipment and demand a full refund from the seller's insurer"
+          "The Transpacific lane from East Asia to the US West Coast and Gulf of Mexico",
+          "The Asia-Europe lane currently routed through the Red Sea, Suez Canal, and Mediterranean",
+          "The Transatlantic lane connecting the US East Coast to Western Europe",
+          "The intra-Asian lane linking Japan, South Korea, and China to Southeast Asian ports"
         ],
         "correct": 1,
-        "why": "LC terms almost universally require a clean bill of lading. Any carrier notation of damage makes the document non-conforming — the bank rejects the document set and the seller cannot collect payment.",
-        "deepDive": "A clean B/L is one bearing no clause or notation indicating the cargo or its packaging was defective or damaged at loading. Banks operating under UCP 600 (the standard rulebook for LCs) rely on the clean B/L as a representation that goods were shipped in apparent good order. A claused B/L — e.g. 'cartons visibly crushed', 'drums showing corrosion', 'packing inadequate for sea voyage' — renders the document non-conforming, collapsing the payment mechanism. This creates a perverse incentive: sellers sometimes pressure carriers to issue clean B/Ls despite visible defects in exchange for a Letter of Indemnity (LOI) promising to hold the carrier harmless. This is illegal and constitutes documentary fraud under most jurisdictions. The clean B/L also matters under admiralty law — it raises a rebuttable presumption that cargo was in good condition when loaded, shifting the burden of proof to the carrier if the consignee claims damage at destination. This makes the B/L one of the most legally loaded documents in international trade."
+        "why": "IMEC is designed as a complementary corridor to the traditional India/Asia-Europe Red Sea–Suez lane, reducing transit time for India-Europe cargo and offering resilience against Suez/Red Sea chokepoint disruption.",
+        "deepDive": "The India-Middle East-Europe Economic Corridor (IMEC) was announced at the New Delhi G20 in September 2023 as a US-backed multimodal infrastructure initiative. Its route: Indian ports → UAE → Saudi Arabia by rail → Jordan and/or Israel → Eastern Mediterranean → European ports. Strategic rationale: (1) give India an alternative to Suez chokepoint dependence for European exports; (2) offer Gulf states a non-Chinese connectivity option versus BRI; (3) economically embed the Abraham Accords normalisation. The October 2023 Gaza war immediately complicated the Israeli segment. The 2026 Hormuz crisis has given IMEC renewed urgency — a corridor that bypasses both Hormuz and the Bab el-Mandeb simultaneously carries enormous geopolitical premium. Theoretical transit time savings: ~40% faster than the all-sea route. Constraint: required infrastructure investment in rail, port capacity, and customs harmonisation across five sovereign jurisdictions remains enormous. IMEC is most significant as a strategic hedge and a signal of US Indo-Pacific connectivity ambition rather than a near-term operational alternative."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "pricing",
-        "stem": "The Bunker Adjustment Factor (BAF) charged by ocean carriers exists to recover which specific variable cost, and how is its magnitude typically determined?",
+        "subtopic": "marine_insurance",
+        "stem": "In marine cargo insurance, a 'General Average' (GA) act requires all cargo owners to contribute to a shared loss even if their own cargo was completely undamaged. Under York-Antwerp Rules, which scenario qualifies as a valid GA act?",
         "options": [
-          "Port congestion costs, set by terminal operators at each port of call",
-          "Vessel fuel costs, indexed to published bunker fuel benchmark prices at major bunkering hubs like Singapore and Rotterdam",
-          "Canal transit fees, adjusted quarterly based on Panama and Suez Canal Authority announcements",
-          "IMO Tier III carbon levy obligations, calculated against each vessel's CII (Carbon Intensity Indicator) rating"
+          "A crew member negligently drops a container overboard during routine cargo operations",
+          "Hull damage sustained when a vessel runs aground in fog due to faulty navigation charts",
+          "Deck cargo is deliberately jettisoned to stabilise a vessel listing dangerously in a storm for the common safety",
+          "Cargo spoilage caused by refrigeration failure arising from a manufacturer defect in the reefer unit"
         ],
-        "correct": 1,
-        "why": "BAF is a fuel cost pass-through surcharge, formula-driven against benchmark bunker prices (Platts or Argus assessments) at hubs like Singapore, Rotterdam, and Houston.",
-        "deepDive": "Bunker fuel — historically residual heavy fuel oil (HFO), now increasingly Very Low Sulphur Fuel Oil (VLSFO) and LNG — represents 15–30% of a carrier's total operating cost and is highly volatile. Carriers introduced the BAF (also called FAF or EBS) to avoid repricing base freight rates every time oil moves, instead adjusting the surcharge on a defined schedule. The formula typically takes the form: (current benchmark price minus a baseline price) × a per-TEU fuel consumption coefficient for that trade lane. The baseline and coefficient are published by the carrier. For shippers, a contract with a transparent, index-linked BAF formula is strongly preferable to opaque 'all-in' rates, which may mask surcharge manipulation. Since the IMO 2020 sulphur cap (requiring ≤0.5% sulphur content at sea), VLSFO commands a significant premium over old HFO, permanently inflating the BAF base. The IMO's incoming CII carbon intensity rating system will likely add another adjustment layer in coming years."
+        "correct": 2,
+        "why": "A GA act must be voluntary, extraordinary, and undertaken for the common safety of ship and all cargo. Deliberate jettison in an emergency meets all three criteria; negligent damage and equipment failure do not.",
+        "deepDive": "General Average is one of maritime law's oldest doctrines — traceable to Rhodian law from antiquity — and one of the most commercially disruptive modern maritime events. Core principle: when a voluntary sacrifice is made for the common safety of all parties in a marine adventure (ship, cargo, freight), all who benefited contribute proportionally. The York-Antwerp Rules (last revised 2016) provide the modern standard. Three criteria for a valid GA act: it must be voluntary (not accidental or negligent); extraordinary (beyond normal operations); and undertaken against a real common peril. Jettisoning deck cargo to right a listing ship is the textbook example. GA causes massive cash flow disruption: cargo cannot be released until a GA security deposit (often 20–30% of cargo value) or insurer's GA guarantee is provided. The adjustment process can take 18–36 months. Critically, uninsured cargo owners face devastating GA calls — illustrating why cargo insurance matters even when the seller insures under CIF. The 2022 Ever Forward grounding generated GA proceedings across hundreds of cargo interests; the 2021 Ever Given canal blockage did not trigger formal GA but caused comparable cost allocation disputes."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "air_freight",
-        "stem": "An air cargo shipment has an actual gross weight of 45 kg. Its dimensions are 80 cm × 60 cm × 75 cm. Using IATA's standard volumetric divisor of 6,000 cm³/kg, what is the chargeable weight?",
+        "subtopic": "compliance",
+        "stem": "Under the US Uyghur Forced Labor Prevention Act (UFLPA), what evidentiary standard must importers meet to rebut the statutory presumption that goods from Xinjiang were produced with forced labour?",
         "options": [
-          "45 kg — actual gross weight applies because it exceeds volumetric weight",
-          "60 kg — volumetric weight applies because it exceeds actual gross weight",
-          "52.5 kg — the midpoint average of actual and volumetric weights",
-          "75 kg — a dimensional surcharge cap applies for shipments over 50 kg"
+          "A certificate of origin from a Chinese government authority confirming compliant labour practices",
+          "Clear and convincing evidence of no forced labour, including full supply chain traceability to the raw material level",
+          "Pre-shipment inspection certification by an ILAC-accredited independent auditor on-site in Xinjiang",
+          "A sworn affidavit from the factory owner that no Uyghur workers were directly employed at the production facility"
         ],
         "correct": 1,
-        "why": "Volumetric weight = (80 × 60 × 75) ÷ 6,000 = 360,000 ÷ 6,000 = 60 kg, which exceeds actual weight (45 kg), so 60 kg is charged.",
-        "deepDive": "The volumetric (dimensional) weight formula exists because aircraft have finite volumetric capacity as well as structural weight limits. A shipment of feathers fills the hold at negligible gross weight — without a dim-weight formula, the carrier recovers almost no revenue on that space. IATA's standard divisor of 6,000 cm³/kg is used for most general cargo on commercial airlines; major express integrators (DHL, FedEx, UPS) often use 5,000 cm³/kg, making their volumetric weight calculate higher and increasing charges on bulky items. Chargeable weight is whichever is greater: gross weight or volumetric weight. Shippers can reduce costs by minimising void space inside cartons, using dunnage-free packaging, or consolidating multiple shipments into a single dense unit load device (ULD). Air freight pricing adds further complexity through General Cargo Rates (GCR), Specific Commodity Rates (SCR) for high-volume lanes and products, and Class Rates (for high-value goods like gold and currency). Knowing when to challenge volumetric weight calculations (if carrier-provided dimensions are wrong) is a real cost-recovery skill in freight operations."
+        "why": "UFLPA inverts normal burden of proof: importers must affirmatively demonstrate by 'clear and convincing evidence' — an extremely high legal bar — that goods contain no Xinjiang-sourced inputs produced with forced labour.",
+        "deepDive": "The UFLPA, signed December 2021 and enforced from June 2022, creates the most stringent forced-labour import mechanism in US trade history. It establishes a rebuttable presumption that all goods containing inputs from the Xinjiang Uyghur Autonomous Region were produced with forced labour, with no exceptions for commercial quantity or audit compliance. Rebuttal requires 'clear and convincing evidence' — second only to 'beyond reasonable doubt' in US evidentiary law. In practice: complete supplier maps from raw material to finished good at every tier; facility-level production records; worker documentation; transaction-level audit trails. For apparel, since Xinjiang produces ~85% of China's cotton, any opaque supply chain touching Chinese cotton faces near-certain scrutiny. CBP detains shipments on arrival and requires importer response within days. Practical effect: US-facing supply chains have systematically excluded Chinese cotton and Chinese polysilicon (solar panels) unless origin is provably non-Xinjiang. Bangladesh benefits: non-China cotton in Bangladeshi garments cleanly sidesteps UFLPA, a meaningful competitive advantage versus Chinese apparel and a reason Western buyers continue to favour Bangladesh sourcing despite other headwinds."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "ftas",
-        "stem": "Under most modern Free Trade Agreements, a product must satisfy Rules of Origin (ROO) to qualify for preferential tariff treatment. Which of the following correctly describes the standard ROO test methods?",
+        "subtopic": "industry_econ",
+        "stem": "The Baltic Dry Index (BDI) and the Shanghai Containerized Freight Index (SCFI) both measure shipping market conditions but frequently diverge dramatically. Which statement best explains why?",
         "options": [
-          "Final packaging and labelling must be completed in the exporting FTA member country",
-          "Meeting at least one of: a Change in Tariff Classification, a Regional Value Content threshold, or a specific manufacturing process requirement",
-          "More than 50% of the product's raw materials by weight must originate within the FTA territory",
-          "The exporting firm must hold a recognised trade compliance certification pre-approved by the importing country customs authority"
+          "The BDI covers liquid bulk (oil, chemicals) while SCFI covers dry bulk, so they track different commodity cycles",
+          "The BDI is weighted by vessel age while SCFI is weighted by cargo value, making them incomparable across inflation cycles",
+          "The SCFI is a forward-looking futures index while the BDI reflects spot transactions settled in arrears",
+          "The BDI measures spot charter rates for tramp dry bulk vessels with no fixed routes, while SCFI measures container freight on scheduled liner services — different market structures, vessel types, and demand drivers"
         ],
-        "correct": 1,
-        "why": "Modern FTAs use product-specific ROO schedules with three possible test types: CTC (Change in Tariff Classification), RVC (Regional Value Content), or specific process rules — a product must satisfy at least one.",
-        "deepDive": "Rules of Origin (ROO) are among the most commercially consequential and technically complex provisions in any FTA. They answer the question: has this product been 'sufficiently transformed' in the claimed country of origin to deserve preferential tariff treatment? Three standard test types appear in most modern FTAs: (1) Change in Tariff Classification (CTC) — the product must change its HS code chapter, heading, or subheading as a result of manufacturing in the FTA country, meaning substantial transformation occurred; (2) Regional Value Content (RVC) — typically requiring 35–45% of the product's value to derive from the FTA region, calculated using transaction value or net cost methods; (3) Specific Process Rules — particular manufacturing operations (e.g. 'yarn-forward' in textiles, specific chemical reactions, final assembly steps) must be performed in the FTA territory. For Bangladesh's RMG exports, the 'yarn-forward' rule under the US AGOA/GSP framework and 'fabric-forward' under some EU preferences directly determine whether a garment qualifies — one sourcing decision on fabric origin can make or break duty-free eligibility on an entire product line."
+        "correct": 3,
+        "why": "BDI tracks tramp dry bulk markets (raw materials, no fixed schedule); SCFI tracks containerised liner markets (manufactured goods, fixed schedules). They respond to fundamentally different demand drivers and can easily move in opposite directions.",
+        "deepDive": "The Baltic Dry Index, published daily by the Baltic Exchange since 1985, is a composite of voyage and period charter rates for Handysize, Supramax, Panamax, and Capesize vessels carrying raw bulk commodities — iron ore, coal, grains, fertilisers — on ad hoc tramp routes with no published schedule. It is highly sensitive to Chinese industrial output, global infrastructure investment, and seasonal harvest cycles. The SCFI (Shanghai Shipping Exchange, 2009) tracks spot container freight rates on major liner routes from Shanghai — Asia-Europe, Transpacific, intra-Asia — where vessels operate on published weekly schedules regardless of fill rates. The structural difference is fundamental: tramp shipping clears supply and demand through price (charter rates move instantly); liner shipping clears through capacity management (blank sailings, port omissions, FAK adjustments). They frequently diverge — a BDI spike on Chinese iron ore demand can coincide with an SCFI collapse from trade war demand destruction. Understanding both, plus the Drewry WCI, Freightos FBX, Xeneta XSI (container), BDTI/BCTI (tankers), and TAC Index (air) gives a multi-modal market intelligence picture that rate quotes from carriers alone never provide."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Claude Monet painted approximately 30 versions of Rouen Cathedral between 1892 and 1894, working multiple canvases simultaneously as light conditions shifted. What was the core artistic argument these paintings made?",
+        "subtopic": "political_theory",
+        "stem": "Rawls' 'veil of ignorance' requires designing social institutions without knowing one's position in society. What primary conclusion does Rawls draw from this device in A Theory of Justice (1971)?",
         "options": [
-          "That Gothic architecture possesses an inherent spiritual geometry best revealed through repeated observation",
-          "That visual reality is not fixed but continuously transformed by changing light and atmosphere — the subject is secondary to perception itself",
-          "That oil painting could achieve photographic accuracy if the artist returned to the same site across multiple sessions",
-          "That complementary colour contrasts, when applied to stone, reveal hidden chromatic warmth imperceptible to untrained eyes"
+          "That equal distribution of all resources is the only just arrangement, since rational agents would choose perfect equality",
+          "That inequalities are just only if they benefit the least advantaged members of society — the 'difference principle'",
+          "That purely procedural fairness determines justice: any rule agreed to behind the veil is automatically just regardless of outcome",
+          "That rational agents would reject all government, preferring a stateless order governed only by market exchanges"
         ],
         "correct": 1,
-        "why": "Monet's Cathedral series argued that perception — specifically the transient quality of light — is the true subject of painting, not the permanent architectural object itself.",
-        "deepDive": "Monet produced 30 paintings of Rouen Cathedral from a single rented upper-floor window across two winters. He would work on up to 14 canvases simultaneously, rotating between them as the light shifted — a technically demanding process that inverted the traditional studio model of composing a finished scene. The series was exhibited in 1895 at Galerie Durand-Ruel and sold at unprecedented prices, establishing that serial works (haystacks, poplars, water lilies) could command individual and collective premiums. Philosophically, the series drew on contemporary perceptual science (Helmholtz's optics, Michel-Eugène Chevreul's colour theory) and reflected the modernity thesis that experience is fragmentary and context-dependent rather than universal and stable. The Cathedrals influenced Cézanne's structural approach to repeated-subject painting and — through that lineage — Cubism's shattering of unified viewpoint. Today these paintings are scattered across public collections including the Musée d'Orsay, the Metropolitan, and the Museum of Fine Arts Boston — reuniting them in one room is considered one of art history's unrealised dreams."
+        "why": "Rawls' veil of ignorance is designed to derive the 'difference principle': since rational agents don't know their place in society, they would only accept inequalities that improve the position of the worst-off group.",
+        "deepDive": "John Rawls' 'A Theory of Justice' (1971) is the most influential work of English-language political philosophy of the 20th century. Its core device is the Original Position: a hypothetical situation in which people design social institutions behind a 'veil of ignorance' — stripped of knowledge of their natural talents, family background, social class, and conception of the good. Rawls argues rational agents would unanimously adopt two principles: (1) Equal Liberty — each person gets equal basic rights and freedoms; (2) the Difference Principle — social and economic inequalities are just only if they benefit the least advantaged and are attached to positions open to all. The veil forces impartial reasoning: if you don't know whether you'll be born advantaged or not, you'd rationally prefer institutions that protect the worst-case. Rawls challenged utilitarianism (which could harm a few for aggregate benefit) and libertarianism (Nozick's entitlement theory, which rejects redistribution). Critics from the left note the framework ignores structural race and gender inequities; libertarians argue it unjustifiably redistributes lawfully acquired holdings. In practical policy, Rawlsian logic underlies progressive taxation, social insurance, LDC preferential trade schemes — even the EU's EBA framework giving Bangladesh duty-free access has a Rawlsian structure: assisting the least advantaged trading nations unconditionally."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "In Western tonal music's circle of fifths, each clockwise step moves to a key a perfect fifth higher and adds one sharp to the key signature. At the 'bottom' of the circle, C# major (7 sharps) and Db major (5 flats) occupy the same position. What is their relationship?",
+        "subtopic": "linguistics",
+        "stem": "In sociolinguistics, 'code-switching' — alternating between languages within a single conversation — is now understood to be which of the following?",
         "options": [
-          "C# and Db are different keys that share only the name of their tonic pitch",
-          "They are enharmonically equivalent — identical in pitch under equal temperament but notated differently",
-          "C# major sounds slightly sharper than Db major because of natural harmonic series differences",
-          "Db major is the relative minor of C# major, sharing its key signature"
+          "A sophisticated communicative strategy governed by social rules, used to signal identity, intimacy, expertise, or situational register shifts",
+          "Evidence of linguistic deficiency and incomplete acquisition of both languages involved",
+          "A random phenomenon occurring only when speakers lack vocabulary in their primary language",
+          "A behaviour unique to bilingual children during acquisition that disappears in fully proficient adult speakers"
         ],
-        "correct": 1,
-        "why": "In equal temperament, C# and Db are the same pitch frequency spelled two different ways — enharmonic equivalents. The circle of fifths 'closes' because of this equivalence.",
-        "deepDive": "The circle of fifths organises all 12 chromatic pitches by their interval relationships, revealing both key signature structure (sharps and flats) and harmonic proximity (adjacent keys share six of seven scale notes, making modulation between them smooth). In equal temperament — the tuning system standardised for Western keyboards by the late 18th century — all semitones are exactly equal, making C# and Db identical in frequency. This was not always true: in meantone temperament (dominant before 1700), C# and Db had subtly different frequencies, and keyboard instruments were tuned to favour certain keys at the expense of others (the notorious 'wolf fifth'). J.S. Bach's Well-Tempered Clavier (1722) famously demonstrated equal temperament's freedom by writing a prelude and fugue in every major and minor key. The enharmonic equivalents at the circle's bottom (F#/Gb, C#/Db, B/Cb) are conventionally navigated by choosing the spelling with fewer accidentals for readability. Modern jazz harmony and modal music stretch beyond the classical circle, but it remains the foundational map of tonal harmonic space."
+        "correct": 0,
+        "why": "Since Gumperz (1982), sociolinguistics established code-switching as a rule-governed competence, not a deficit — speakers switch purposefully to signal identity, solidarity, expertise, or formality level.",
+        "deepDive": "Code-switching was historically treated as evidence of linguistic confusion or failure. Since John Gumperz' landmark 'Discourse Strategies' (1982) and subsequent work by Shana Poplack, sociolinguists have established it as a highly rule-governed pragmatic skill. Syntax-level research shows bilingual speakers almost never produce ungrammatical hybrid structures — they follow the Matrix Language Frame Model, which predicts which language provides the grammatical frame and which supplies embedded elements. Speakers code-switch for rich communicative reasons: to signal in-group identity (Bangla-English mixing in Dhaka corporate culture signals education and social class); to invoke emotional or cultural registers unavailable in translation; to mark formality shifts; or to include and exclude conversational participants. In Bangladesh, code-switching between Bengali and English is a pervasive marker of social class, international exposure, and professional identity. Between Bengali, Chittagonian, Sylheti, and English in MGH's operational communities, which language a speaker chooses — and when they switch — communicates trust, authority, intimacy, or distance as precisely as any explicit statement. Understanding code-switching patterns is a real commercial intelligence tool for navigating diverse stakeholder relationships."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "Zakat, one of Islam's Five Pillars, is an obligatory annual almsgiving. On gold, silver, cash savings, and trade goods held above the nisab threshold for one full lunar year, what is the standard Zakat rate?",
+        "subtopic": "sport",
+        "stem": "The Duckworth-Lewis-Stern (DLS) method revises limited-overs cricket targets when matches are interrupted. On which core principle is DLS founded?",
         "options": [
-          "1% of total net worth",
-          "2.5% of qualifying assets above the nisab threshold",
-          "5% of annual income from all sources",
-          "10% of net profit from trade and commercial activities"
+          "Each team's run rate per over is frozen at interruption; the adjusted target derives from the differential",
+          "A batting team's resources are defined by both remaining overs and wickets in hand simultaneously; revised targets preserve the resource balance between the two sides",
+          "Interruption time in minutes is divided by five to determine overs lost equally from each innings",
+          "Historical average scores on the same ground under similar weather conditions are applied as the revised total"
         ],
         "correct": 1,
-        "why": "The standard Zakat rate on most wealth categories — gold, silver, cash, savings, and trade goods — is 2.5% of qualifying assets held above the nisab threshold for one lunar year (hawl).",
-        "deepDive": "Zakat (from the Arabic for 'purification' or 'growth') is one of the Five Pillars and functions as a mandatory wealth redistribution mechanism. The nisab threshold — currently equivalent to ~85g of gold or ~595g of silver — is the minimum wealth level above which Zakat becomes obligatory. The hawl is the one-year holding period; wealth must have been above nisab for a full lunar year before Zakat is due on it. Different asset categories carry different rates: agricultural produce is taxed at 5% (irrigated land, reflecting irrigation costs) or 10% (rain-fed, implying divine provision) at harvest — not annually. Livestock has specific head-count thresholds. Gold and silver jewellery for personal use is disputed among Hanafi, Shafi'i, and Maliki scholars. Zakat is distinct from Sadaqah (voluntary charity) and from Khums in Shia Islam, which imposes 20% on certain surplus income. Institutionally, Zakat has historically funded welfare, debt relief, and community infrastructure; modern Islamic economists have proposed it as a template for progressive wealth taxation, noting its base (accumulated wealth) differs fundamentally from income tax bases and may be less distortionary to labour supply decisions."
+        "why": "DLS is founded on the two-resource model: a team's batting resources = remaining overs × remaining wickets. Revised targets preserve the proportional resource balance between teams after any interruption.",
+        "deepDive": "The Duckworth-Lewis-Stern method, introduced by Frank Duckworth and Tony Lewis in 1997 and updated by Steven Stern after their retirement, replaced the deeply unsatisfactory run-rate method. The core innovation: a batting team's 'resources' are defined by two variables simultaneously — remaining overs and remaining wickets — not run rate alone. DLS calculates a resource percentage for each combination using a model fitted to historical international cricket data. When rain interrupts, the revised target preserves proportionality: if Team 2 loses 20% of its resources, Team 1's target is adjusted by the corresponding resource percentage those lost overs would have consumed. The resource curve is non-linear — early overs with all wickets in hand are worth more than late overs with few wickets remaining — which is why simple run-rate methods consistently produce unfair revised targets. The method handles multiple interruptions, first-innings stoppages, and abbreviated matches via separate Par Score tables. Professional teams hire DLS specialists during weather delays; the calculations have directly determined outcomes in ICC World Cup finals and bilateral series. Common misconception: DLS always favours the chasing team — in fact, an interrupted first innings often produces a DLS target lower than the actual first-innings total, creating complexity and controversy."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "Keynes introduced the concept of the 'liquidity trap' to describe a condition where conventional monetary policy loses effectiveness. Which scenario best captures the core mechanism he described?",
+        "subtopic": "pop_culture",
+        "stem": "'Gangnam Style' by South Korean artist PSY became YouTube's first video to reach 1 billion views in December 2012. Which record did it hold until being surpassed in 2014?",
         "options": [
-          "Rising government borrowing crowds out private investment by absorbing all available loanable funds",
-          "Nominal interest rates approach zero, causing money supply expansions to be hoarded as cash rather than stimulating spending or investment",
-          "Hyperinflation destroys money's real value faster than the central bank can issue it, making monetary control impossible",
-          "Rising bond yields force central banks to abandon quantitative easing, preventing rate reductions"
+          "Most-liked video on YouTube of all time",
+          "Highest-grossing music video marketing campaign in YouTube's history",
+          "First music video to debut at #1 simultaneously in more than 30 countries",
+          "Most-viewed video on YouTube of all time"
         ],
-        "correct": 1,
-        "why": "In a liquidity trap, near-zero nominal rates make cash and bonds near-perfect substitutes; additional money supply is hoarded rather than spent, making monetary expansion ineffective at stimulating demand.",
-        "deepDive": "Keynes introduced the liquidity trap in the General Theory (1936) as an edge case where monetary policy loses traction entirely. At or near the zero lower bound on nominal interest rates, the opportunity cost of holding cash versus government bonds nearly vanishes — both offer negligible yield. In this condition, any new money the central bank injects simply accumulates in cash hoards rather than flowing into credit creation, consumption, or investment. The concept remained largely theoretical until Japan's Lost Decade (1990s–2000s), when near-zero rates failed to revive growth, and the post-2008 global financial crisis, when the Fed, ECB, and Bank of England simultaneously confronted the zero lower bound. Policy innovations that emerged from the trap include quantitative easing (buying longer-duration assets to push down term premiums), negative interest rate policy (charging banks on excess reserves to force deployment), and forward guidance (signalling future policy to shift expectations). The liquidity trap is the core theoretical justification for fiscal stimulus when monetary channels are exhausted — a direct lineage from Keynes to the 2008 ARRA and 2020–21 pandemic stimulus packages."
+        "correct": 3,
+        "why": "Gangnam Style held the record as YouTube's most-viewed video until 'See You Again' by Wiz Khalifa (ft. Charlie Puth) surpassed it in 2014. It was the first video in YouTube history to cross 1 billion views.",
+        "deepDive": "Released in July 2012, 'Gangnam Style' by PSY (Park Jae-sang) became the first YouTube video to reach 1 billion views in December 2012, then 2 billion in May 2014. In the process it broke YouTube's view counter, which was capped at a 32-bit integer maximum of 2,147,483,647 — forcing Google to upgrade to a 64-bit counter. At peak virality, the video received 30 million daily views. The song's global dominance was a cultural watershed: it demonstrated that non-English-language pop music could achieve worldwide reach through social media virality rather than traditional label distribution, presaging the K-pop wave (BTS, BLACKPINK, Stray Kids) that followed. The horse-riding dance became one of the defining early internet memes. The video was eventually overtaken by 'See You Again' (Wiz Khalifa/Charlie Puth, 2014, released as Paul Walker tribute), then 'Despacito' and 'Baby Shark.' Its commercial aftermath: YouTube accelerated major music label licensing deals partly as a consequence of realising the platform's scale, and the 'views as validation' metric reshaped music marketing permanently. As of 2026, Gangnam Style still ranks in YouTube's all-time top-100 viewed videos — a 14-year tail of relevance almost unmatched in internet history."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Atacama Desert in South America is among the driest non-polar environments on Earth, with some stations recording no measurable rainfall for decades. Which combination of factors is primarily responsible for its extreme aridity?",
+        "subtopic": "literature",
+        "stem": "García Márquez's 'One Hundred Years of Solitude' (1967) is canonical magical realism. Which statement most accurately describes magical realism as a literary mode?",
         "options": [
-          "The subtropical high-pressure belt and extreme distance from any ocean moisture source",
-          "The cold Humboldt Current suppressing convective rainfall offshore plus the Andes blocking Atlantic and Amazon moisture from the east",
-          "Permafrost preventing surface evaporation and a persistent polar anticyclone maintaining stable high pressure",
-          "The Patagonian cold front creating a sustained temperature inversion that prevents cloud formation across the region"
+          "It uses an explicit fantasy framing — a dream prologue or fairy-tale opening — to signal that ordinary reality has been suspended",
+          "Fantastical events are narrated in the same matter-of-fact tone as ordinary events, with no authorial signal that anything unusual has occurred, integrating them into the same empirical world",
+          "It emerged from European surrealism in the 1920s and was imported wholesale into Latin America by exile writers after World War II",
+          "Characters in magical realist fiction are always aware their world contains magic and explicitly reflect on its metaphysical implications"
         ],
         "correct": 1,
-        "why": "The Atacama's hyperaridity results from two reinforcing mechanisms: the cold Humboldt Current stabilises air and inhibits convective rainfall on the Pacific side, while the Andes block moisture-bearing winds from the Amazon basin to the east.",
-        "deepDive": "The Atacama Desert stretches ~1,000 km along Chile's northern Pacific coast and averages under 1 mm of annual rainfall in its core — the driest non-polar desert on Earth, with some weather stations never recording measurable rain. Two primary mechanisms combine to produce this hyperaridity. First, the Humboldt Current (also called the Peru Current) flows northward along the South American Pacific coast, carrying cold Antarctic water. Cold ocean water suppresses evaporation and creates a strong temperature inversion in the overlying atmosphere, preventing the convective uplift needed to form rain clouds — eliminating Pacific moisture from reaching the coast. Second, the Andes Mountains (peaking above 6,000m) form a near-impenetrable barrier on the eastern flank, blocking moisture-laden trade winds from the Amazon basin and the Atlantic. A contributing factor is the subtropical high-pressure belt (the South Pacific Anticyclone) that dominates the region, further suppressing precipitation. The Atacama's unique geochemistry — nitrate deposits that once fuelled global agriculture, lithium brine salts in the Salar de Atacama — is a direct product of this aridity preventing leaching. Today it is the world's premier lithium-producing region, putting it at the centre of the EV battery supply chain."
+        "why": "Magical realism's defining formal feature is the unmarked integration of the fantastic into quotidian reality — no authorial framing that anything extraordinary has occurred — distinguishing it from fantasy, allegory, and surrealism.",
+        "deepDive": "Magical realism's core formal distinction is its narrative refusal to separate the 'natural' from the 'supernatural.' In One Hundred Years of Solitude, a girl ascends bodily into heaven while folding laundry; a dead man's blood flows in a precise stream through city streets to his mother's kitchen — both narrated in the same composed, reportorial voice as a weather description. The term was coined by German critic Franz Roh in 1925 about European visual art; Latin American critic Alejo Carpentier transformed it into a literary theory rooted in lo real maravilloso — the idea that Latin American reality is inherently magical, not requiring imported European avant-gardism. García Márquez credited Kafka's 'Metamorphosis' — a man wakes as an insect described with domestic literalness — as his structural template. Magical realism is distinct from fantasy (alternative worlds with different rules), allegory (magical elements standing for non-magical meanings), and surrealism (deliberately irrational or dream-logic disruption). Its political dimension: the magic typically represents subaltern worldviews — Indigenous, Afro-Latin — that colonial and patriarchal narratives had classified as primitive irrationality, now granted equal ontological status within the text. Other canonical magical realists: Isabel Allende, Laura Esquivel, Salman Rushdie, Toni Morrison, Ben Okri."
       }
     ]
   }
