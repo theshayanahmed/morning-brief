@@ -1,17 +1,7 @@
 {
   "streak": 11,
-  "last_session_date": "2026-08-20",
+  "last_session_date": "2026-08-21",
   "questions_seen": [
-    "Under SOLAS VGM regulations, which party bears primary legal responsibility for submitting an accurate Verified Gross Mass declaration before a container may be loaded aboard a vessel?",
-    "A Bangladeshi garment exporter to the US discovers its goods are subject to both anti-dumping duties (ADD) and countervailing duties (CVD). Which statement most accurately distinguishes the two measures?",
-    "A containership is 400 metres LOA with a 61-metre beam. It cannot transit the Panama Canal's Third Set of Locks but can transit Suez Canal. Which vessel class does this describe?",
-    "An exporter collects an empty container from the carrier's inland depot, packs it at their factory over 6 days, then returns it to the terminal. The container sits at the terminal for 4 more days awaiting vessel loading. Under standard carrier tariff logic, which charges apply to which periods?",
-    "Which carrier pairing forms the Gemini Cooperation alliance (launched February 2025), and what distinguishes its operational model from Ocean Alliance and Premier Alliance?",
-    "Among the four principal Sunni schools of jurisprudence (madhabs), which uniquely elevates maslaha mursala (unrestricted public interest) and the living practice of Medina as authoritative legal sources alongside Quran and hadith?",
-    "Rousseau distinguished the 'general will' (volonté générale) from the 'will of all' (volonté de tous). Which statement best captures the distinction as Rousseau intended it?",
-    "In cricket's Decision Review System (DRS), ball-tracking shows the ball would have clipped the very edge of the leg stump (less than 50% ball impact on the stump). The on-field umpire gave not-out. Under ICC rules, what is the correct outcome?",
-    "In CRISPR-Cas9 gene editing, what is the specific role of the PAM sequence (Protospacer Adjacent Motif) that distinguishes it from the guide RNA's function?",
-    "A medical test has 99% sensitivity and 99% specificity. The disease it tests for affects 1 in 1,000 people. A randomly selected person tests positive. What is the approximate probability they actually have the disease?",
     "In a CFS/CFS (LCL) shipment versus CY/CY (FCL) on the same trade lane, which cost outcome is structurally certain regardless of cargo volume or commodity?",
     "A carrier evaluating Cape of Good Hope routing versus Suez Canal on Asia-Europe trade bases its economic break-even calculation primarily on which comparison?",
     "Under York-Antwerp Rules, a deliberate cargo sacrifice qualifies as General Average only when three conditions are met. Which of these is NOT one of those three qualifying conditions?",
@@ -501,7 +491,17 @@
     "In sociolinguistics, 'code-switching' — alternating between languages within a single conversation — is now understood to be which of the following?",
     "The Duckworth-Lewis-Stern (DLS) method revises limited-overs cricket targets when matches are interrupted. On which core principle is DLS founded?",
     "'Gangnam Style' by South Korean artist PSY became YouTube's first video to reach 1 billion views in December 2012. Which record did it hold until being surpassed in 2014?",
-    "García Márquez's 'One Hundred Years of Solitude' (1967) is canonical magical realism. Which statement most accurately describes magical realism as a literary mode?"
+    "García Márquez's 'One Hundred Years of Solitude' (1967) is canonical magical realism. Which statement most accurately describes magical realism as a literary mode?",
+    "Qatar Airways Cargo, Lufthansa Cargo, and Cargolux are traditional cargo carriers. Which statement correctly distinguishes an 'integrator' from a 'traditional cargo carrier' in air freight?",
+    "Anchorage (ANC) ranks among the world's top 5 cargo airports despite Alaska's remote location. What is ANC's primary operational value for transpacific freighter routing?",
+    "DSV acquired DB Schenker for ~$15B (2024–25), the largest freight forwarding M&A deal ever. Which rationale BEST explains forwarder mega-merger logic?",
+    "A freight forwarder quotes a shipper a FAK (Freight All Kinds) rate rather than commodity-specific rates. What is the PRIMARY commercial risk for the forwarder?",
+    "Post-COVID, many manufacturers shifted from 'just-in-time' (JIT) to 'just-in-case' (JIC) inventory strategies. Which statement accurately captures the core trade-off?",
+    "The Five Pillars of Islam include Zakat (almsgiving). What proportion of qualifying wealth must a Muslim pay annually, provided holdings exceed the nisab threshold?",
+    "The original Phillips Curve (A.W. Phillips, 1958) described an empirical inverse relationship between which two variables?",
+    "Picasso and Braque co-developed Cubism around 1907–1914. Which statement BEST describes Analytical Cubism specifically?",
+    "Bach's Well-Tempered Clavier (1722 & 1742) comprises preludes and fugues in all 24 major and minor keys. What was Bach's PRIMARY purpose in traversing all 24 keys?",
+    "The Strait of Malacca separates the Malay Peninsula from Sumatra. Approximately what proportion of global seaborne trade transits it annually?"
   ],
   "learn_history": [
     {
@@ -673,6 +673,11 @@
       "date": "2026-08-20",
       "topic": "The Paradox of Tolerance: Why Open Systems Must Limit Themselves to Survive",
       "bucket": "sociopolitical"
+    },
+    {
+      "date": "2026-08-21",
+      "topic": "HBM (High Bandwidth Memory): Why AI Accelerators Are Memory-Bound, Not Compute-Bound",
+      "bucket": "semiconductor_foundations"
     }
   ],
   "curriculum_progress": {
@@ -767,32 +772,32 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 19,
-      "last_seen": "2026-08-13",
+      "count": 20,
+      "last_seen": "2026-08-21",
       "difficulty": 2,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 19,
-      "last_seen": "2026-08-13",
+      "count": 20,
+      "last_seen": "2026-08-21",
       "difficulty": 2,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 19,
-      "last_seen": "2026-08-13",
+      "count": 20,
+      "last_seen": "2026-08-21",
       "difficulty": 2,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 19,
-      "last_seen": "2026-08-13",
+      "count": 20,
+      "last_seen": "2026-08-21",
       "difficulty": 2,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 19,
-      "last_seen": "2026-08-13",
+      "count": 20,
+      "last_seen": "2026-08-21",
       "difficulty": 2,
       "rolling_score": []
     }
@@ -805,8 +810,8 @@
       "rolling_score": []
     },
     "geography": {
-      "count": 29,
-      "last_seen": "2026-08-16",
+      "count": 30,
+      "last_seen": "2026-08-21",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -835,20 +840,20 @@
       "rolling_score": []
     },
     "arts": {
-      "count": 28,
-      "last_seen": "2026-08-16",
+      "count": 29,
+      "last_seen": "2026-08-21",
       "difficulty": 4,
       "rolling_score": []
     },
     "music": {
-      "count": 28,
-      "last_seen": "2026-08-16",
+      "count": 29,
+      "last_seen": "2026-08-21",
       "difficulty": 4,
       "rolling_score": []
     },
     "religion": {
-      "count": 27,
-      "last_seen": "2026-08-16",
+      "count": 28,
+      "last_seen": "2026-08-21",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -859,8 +864,8 @@
       "rolling_score": []
     },
     "economics": {
-      "count": 27,
-      "last_seen": "2026-08-16",
+      "count": 28,
+      "last_seen": "2026-08-21",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -885,159 +890,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-08-20",
+    "date": "2026-08-21",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "A combined transport bill of lading (CTBL) issued for a multimodal shipment differs from a conventional port-to-port B/L in which fundamental respect under UNCTAD/ICC Rules?",
+        "subtopic": "aircraft_carriers",
+        "stem": "Qatar Airways Cargo, Lufthansa Cargo, and Cargolux are traditional cargo carriers. Which statement correctly distinguishes an 'integrator' from a 'traditional cargo carrier' in air freight?",
         "options": [
-          "The CTBL holder can claim against a single issuing MTO for loss on any leg without identifying which specific leg caused the damage",
-          "The CTBL limits MTO liability to the ocean leg only, with rail and road carriers separately liable for their legs",
-          "The CTBL must be issued by a FIATA member and is only valid when the shipper has no direct contract with the ocean carrier",
-          "The CTBL entitles the buyer to collect goods at origin if the ocean leg is cancelled, unlike a port-to-port B/L"
+          "Integrators use only widebody freighters; traditional carriers operate narrowbodies on domestic routes",
+          "Integrators own the full door-to-door network — ground vehicles, sorting hubs, customs brokerage — while traditional carriers sell bellyhold and freighter capacity to forwarders",
+          "Integrators specialize in bulk perishables; traditional carriers handle express parcels exclusively",
+          "Integrators must file IATA tariffs; traditional carriers operate outside IATA rate authority"
         ],
-        "correct": 0,
-        "why": "The defining feature of the CTBL is single-party liability: the MTO is responsible for the entire multimodal journey, and the claimant need not identify which leg caused the damage.",
-        "deepDive": "A multimodal transport operator (MTO) assumes end-to-end liability under a combined transport bill of lading — a critical commercial distinction from leg-by-leg consignment. Under FIATA's standard FBL and the UNCTAD/ICC Rules for Multimodal Transport Documents, the MTO accepts liability for the full carriage, including inland legs it does not operate itself. When cargo is damaged and the damage point is unknown or spans legs, the shipper claims solely against the MTO. Liability quantum varies: if the damage point is known, the applicable leg convention applies (Hague-Visby, CMR, CIM); if unknown, a fallback limit of 8.33 SDR/kg typically applies. For shippers: one document, one insurer, one contract. The tradeoff: MTOs charge a premium for consolidated risk, and their recovery from sub-contractors varies significantly by jurisdiction. In Bangladesh's context, multimodal documents are increasingly relevant as Dhaka-Chittagong-transshipment-Singapore flows become more formalised."
+        "correct": 1,
+        "why": "FedEx, UPS, and DHL Express are integrators — they control the full express chain. Traditional carriers (Cargolux, Lufthansa Cargo) are capacity sellers: forwarders buy slots and manage the rest.",
+        "deepDive": "The integrator model emerged in the 1970s when Frederick Smith's FedEx proved that owning the full air-ground-sorting network enabled overnight guarantees impossible through fragmented handoffs. Integrators charge a premium precisely because the customer buys a time-definite outcome, not capacity. Traditional carriers like Cargolux, Atlas Air, or Cathay Cargo operate freighters but hand the cargo to forwarders at origin — the forwarder owns the customer relationship, margin, and last-mile risk. Most major cargo carriers are hybrids: Emirates SkyCargo sells both wholesale and retail. The key exam error is conflating 'operates freighters' with 'is an integrator' — they are orthogonal axes."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "The IMEC (India-Middle East-Europe Corridor) announced at the G20 in 2023 proposes to connect India to Europe via the UAE, Saudi Arabia, Jordan, and Mediterranean ports. Which established trade lane does it most directly seek to supplement or partially bypass?",
+        "subtopic": "airport_ops",
+        "stem": "Anchorage (ANC) ranks among the world's top 5 cargo airports despite Alaska's remote location. What is ANC's primary operational value for transpacific freighter routing?",
         "options": [
-          "The Transpacific lane from East Asia to the US West Coast and Gulf of Mexico",
-          "The Asia-Europe lane currently routed through the Red Sea, Suez Canal, and Mediterranean",
-          "The Transatlantic lane connecting the US East Coast to Western Europe",
-          "The intra-Asian lane linking Japan, South Korea, and China to Southeast Asian ports"
+          "ANC is a US Customs mandatory pre-clearance hub for all Asia-originating cargo",
+          "ANC allows freighters to carry heavier payload by stopping to refuel mid-route rather than hauling full fuel load across the full Pacific sector",
+          "ANC hosts the world's largest bonded free-trade zone for electronics",
+          "ANC is the only North American airport with curfew-exempt night-flight rights, enabling 24/7 operations unavailable elsewhere"
         ],
         "correct": 1,
-        "why": "IMEC is designed as a complementary corridor to the traditional India/Asia-Europe Red Sea–Suez lane, reducing transit time for India-Europe cargo and offering resilience against Suez/Red Sea chokepoint disruption.",
-        "deepDive": "The India-Middle East-Europe Economic Corridor (IMEC) was announced at the New Delhi G20 in September 2023 as a US-backed multimodal infrastructure initiative. Its route: Indian ports → UAE → Saudi Arabia by rail → Jordan and/or Israel → Eastern Mediterranean → European ports. Strategic rationale: (1) give India an alternative to Suez chokepoint dependence for European exports; (2) offer Gulf states a non-Chinese connectivity option versus BRI; (3) economically embed the Abraham Accords normalisation. The October 2023 Gaza war immediately complicated the Israeli segment. The 2026 Hormuz crisis has given IMEC renewed urgency — a corridor that bypasses both Hormuz and the Bab el-Mandeb simultaneously carries enormous geopolitical premium. Theoretical transit time savings: ~40% faster than the all-sea route. Constraint: required infrastructure investment in rail, port capacity, and customs harmonisation across five sovereign jurisdictions remains enormous. IMEC is most significant as a strategic hedge and a signal of US Indo-Pacific connectivity ambition rather than a near-term operational alternative."
+        "why": "ANC is a payload-maximising technical stop: carriers trade fuel weight for cargo weight by refuelling midway, enabling heavier loads than a nonstop Asia-US sector allows.",
+        "deepDive": "The payload-range trade-off is fundamental to freighter economics: every extra tonne of fuel you carry costs payload capacity. ANC sits almost exactly on the great-circle arc between Asia and the continental US, making it a near-perfect technical stop. By refuelling at Anchorage, carriers like FedEx, UPS, and Atlas Air can accept heavier cargo in Tokyo or Shanghai without worrying about maximum takeoff weight. HKG leads global cargo tonnage, followed by Memphis (FedEx's global hub). ANC consistently ranks top 5. Frankfurt and Heathrow impose strict night-flight curfews that limit cargo windows — ANC has no such restrictions, adding operational flexibility on top of the payload benefit."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "In marine cargo insurance, a 'General Average' (GA) act requires all cargo owners to contribute to a shared loss even if their own cargo was completely undamaged. Under York-Antwerp Rules, which scenario qualifies as a valid GA act?",
+        "subtopic": "ma_consolidation",
+        "stem": "DSV acquired DB Schenker for ~$15B (2024–25), the largest freight forwarding M&A deal ever. Which rationale BEST explains forwarder mega-merger logic?",
         "options": [
-          "A crew member negligently drops a container overboard during routine cargo operations",
-          "Hull damage sustained when a vessel runs aground in fog due to faulty navigation charts",
-          "Deck cargo is deliberately jettisoned to stabilise a vessel listing dangerously in a storm for the common safety",
-          "Cargo spoilage caused by refrigeration failure arising from a manufacturer defect in the reefer unit"
+          "Scale delivers procurement leverage with carriers, broader product geography, and a larger revenue base to amortise technology investment",
+          "Vessel ownership guarantees port priority and eliminates carrier rate dependency",
+          "EU digital-single-market regulations require forwarding consolidation above €10B revenue",
+          "Fixed long-term carrier contracts eliminate spot-rate exposure across the business cycle"
         ],
-        "correct": 2,
-        "why": "A GA act must be voluntary, extraordinary, and undertaken for the common safety of ship and all cargo. Deliberate jettison in an emergency meets all three criteria; negligent damage and equipment failure do not.",
-        "deepDive": "General Average is one of maritime law's oldest doctrines — traceable to Rhodian law from antiquity — and one of the most commercially disruptive modern maritime events. Core principle: when a voluntary sacrifice is made for the common safety of all parties in a marine adventure (ship, cargo, freight), all who benefited contribute proportionally. The York-Antwerp Rules (last revised 2016) provide the modern standard. Three criteria for a valid GA act: it must be voluntary (not accidental or negligent); extraordinary (beyond normal operations); and undertaken against a real common peril. Jettisoning deck cargo to right a listing ship is the textbook example. GA causes massive cash flow disruption: cargo cannot be released until a GA security deposit (often 20–30% of cargo value) or insurer's GA guarantee is provided. The adjustment process can take 18–36 months. Critically, uninsured cargo owners face devastating GA calls — illustrating why cargo insurance matters even when the seller insures under CIF. The 2022 Ever Forward grounding generated GA proceedings across hundreds of cargo interests; the 2021 Ever Given canal blockage did not trigger formal GA but caused comparable cost allocation disputes."
+        "correct": 0,
+        "why": "Forwarder scale is about buying power (carrier procurement), geographic coverage (product breadth), and spreading technology capex (TMS, digital tools) across more revenue — not vessel ownership.",
+        "deepDive": "The DSV-Schenker deal crystallises the logic: DSV's lean, tech-first operating model applied to Schenker's $20B+ revenue base and dense network creates a forwarding entity with genuine pricing leverage against carriers. Kuehne+Nagel's Apex acquisition and CMA CGM's Ceva integration follow the same logic from the carrier side — vertical integration to capture forwarder margin. The counter-argument is that M&A in forwarding destroys value through integration complexity; DSV's track record (Panalpina, Agility) is one of the few genuine integration success stories. Technology amortisation matters hugely: a bespoke TMS costs $200-400M to build; spreading that over $30B vs $12B revenue is a 2-3x ROI multiplier."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "Under the US Uyghur Forced Labor Prevention Act (UFLPA), what evidentiary standard must importers meet to rebut the statutory presumption that goods from Xinjiang were produced with forced labour?",
+        "subtopic": "commercial_concepts",
+        "stem": "A freight forwarder quotes a shipper a FAK (Freight All Kinds) rate rather than commodity-specific rates. What is the PRIMARY commercial risk for the forwarder?",
         "options": [
-          "A certificate of origin from a Chinese government authority confirming compliant labour practices",
-          "Clear and convincing evidence of no forced labour, including full supply chain traceability to the raw material level",
-          "Pre-shipment inspection certification by an ILAC-accredited independent auditor on-site in Xinjiang",
-          "A sworn affidavit from the factory owner that no Uyghur workers were directly employed at the production facility"
+          "The forwarder assumes full cargo liability regardless of packing quality under FAK terms",
+          "FAK rates require FMC public tariff filing and are subject to audit for non-compliance",
+          "The forwarder earns a flat rate but faces margin compression if underlying carrier commodity surcharges — hazmat fees, high-value premiums — exceed what the FAK covers",
+          "The shipper can demand re-rating to a lower commodity class within 30 days under FIATA standard terms"
         ],
-        "correct": 1,
-        "why": "UFLPA inverts normal burden of proof: importers must affirmatively demonstrate by 'clear and convincing evidence' — an extremely high legal bar — that goods contain no Xinjiang-sourced inputs produced with forced labour.",
-        "deepDive": "The UFLPA, signed December 2021 and enforced from June 2022, creates the most stringent forced-labour import mechanism in US trade history. It establishes a rebuttable presumption that all goods containing inputs from the Xinjiang Uyghur Autonomous Region were produced with forced labour, with no exceptions for commercial quantity or audit compliance. Rebuttal requires 'clear and convincing evidence' — second only to 'beyond reasonable doubt' in US evidentiary law. In practice: complete supplier maps from raw material to finished good at every tier; facility-level production records; worker documentation; transaction-level audit trails. For apparel, since Xinjiang produces ~85% of China's cotton, any opaque supply chain touching Chinese cotton faces near-certain scrutiny. CBP detains shipments on arrival and requires importer response within days. Practical effect: US-facing supply chains have systematically excluded Chinese cotton and Chinese polysilicon (solar panels) unless origin is provably non-Xinjiang. Bangladesh benefits: non-China cotton in Bangladeshi garments cleanly sidesteps UFLPA, a meaningful competitive advantage versus Chinese apparel and a reason Western buyers continue to favour Bangladesh sourcing despite other headwinds."
+        "correct": 2,
+        "why": "FAK simplifies billing but creates margin risk: if the actual cargo attracts carrier surcharges (DGR, high-value, reefer) that the forwarder didn't price in, the spread collapses or inverts.",
+        "deepDive": "FAK is a pricing convenience: one rate covers any commodity type, simplifying the commercial conversation. But carrier tariffs are commodity-specific — and when a shipper tenders hazardous goods, refrigerated cargo, or high-density machinery under a FAK agreement, the forwarder's buy-rate from the carrier spikes while the sell-rate stays fixed. Expert forwarders offset this by adding commodity exclusions to FAK quotes (no DGR, no reefer) or by structuring minimum quantity commitments that guarantee enough volume to average out the occasional high-cost shipment. Named Account Contracts (NACs) typically specify commodity classes; FAK suits transactional customers where visibility into cargo mix is limited."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "The Baltic Dry Index (BDI) and the Shanghai Containerized Freight Index (SCFI) both measure shipping market conditions but frequently diverge dramatically. Which statement best explains why?",
+        "subtopic": "supply_chain_strategy",
+        "stem": "Post-COVID, many manufacturers shifted from 'just-in-time' (JIT) to 'just-in-case' (JIC) inventory strategies. Which statement accurately captures the core trade-off?",
         "options": [
-          "The BDI covers liquid bulk (oil, chemicals) while SCFI covers dry bulk, so they track different commodity cycles",
-          "The BDI is weighted by vessel age while SCFI is weighted by cargo value, making them incomparable across inflation cycles",
-          "The SCFI is a forward-looking futures index while the BDI reflects spot transactions settled in arrears",
-          "The BDI measures spot charter rates for tramp dry bulk vessels with no fixed routes, while SCFI measures container freight on scheduled liner services — different market structures, vessel types, and demand drivers"
+          "JIC improves supply chain resilience by holding buffer stock but raises carrying costs, working capital requirements, and obsolescence risk",
+          "JIC reduces freight spend by consolidating slower, cheaper shipments; JIT minimises warehouse spend by triggering express replenishment",
+          "JIC is mandated by US FDA regulations for pharmaceutical and medical device supply chains",
+          "JIT was permanently abandoned after COVID because single-source supplier dependency proved structurally untenable globally"
         ],
-        "correct": 3,
-        "why": "BDI tracks tramp dry bulk markets (raw materials, no fixed schedule); SCFI tracks containerised liner markets (manufactured goods, fixed schedules). They respond to fundamentally different demand drivers and can easily move in opposite directions.",
-        "deepDive": "The Baltic Dry Index, published daily by the Baltic Exchange since 1985, is a composite of voyage and period charter rates for Handysize, Supramax, Panamax, and Capesize vessels carrying raw bulk commodities — iron ore, coal, grains, fertilisers — on ad hoc tramp routes with no published schedule. It is highly sensitive to Chinese industrial output, global infrastructure investment, and seasonal harvest cycles. The SCFI (Shanghai Shipping Exchange, 2009) tracks spot container freight rates on major liner routes from Shanghai — Asia-Europe, Transpacific, intra-Asia — where vessels operate on published weekly schedules regardless of fill rates. The structural difference is fundamental: tramp shipping clears supply and demand through price (charter rates move instantly); liner shipping clears through capacity management (blank sailings, port omissions, FAK adjustments). They frequently diverge — a BDI spike on Chinese iron ore demand can coincide with an SCFI collapse from trade war demand destruction. Understanding both, plus the Drewry WCI, Freightos FBX, Xeneta XSI (container), BDTI/BCTI (tankers), and TAC Index (air) gives a multi-modal market intelligence picture that rate quotes from carriers alone never provide."
+        "correct": 0,
+        "why": "JIC buys resilience at real cost: inventory carrying charges (financing, storage, obsolescence) typically run 20–30% of inventory value annually — that is the trade-off against disruption risk.",
+        "deepDive": "JIT, pioneered by Toyota's TPS, works by ordering only what is needed when it is needed — eliminating 'muda' (waste) in inventory. COVID exposed the brittleness: a single delayed chip shut entire automotive assembly lines. JIC solves this by holding safety stock, but the financial penalty is significant: a company holding $1B in extra inventory at a 25% carrying cost burns $250M annually for resilience insurance. Post-COVID, most manufacturers adopted a hybrid: JIT for high-velocity, commoditised inputs; strategic buffer stock for sole-source or high-risk components (semiconductors, API pharmaceutical ingredients). JIT is far from abandoned — it remains the dominant model in automotive and electronics for the bulk of SKUs."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "Rawls' 'veil of ignorance' requires designing social institutions without knowing one's position in society. What primary conclusion does Rawls draw from this device in A Theory of Justice (1971)?",
+        "subtopic": "religion",
+        "stem": "The Five Pillars of Islam include Zakat (almsgiving). What proportion of qualifying wealth must a Muslim pay annually, provided holdings exceed the nisab threshold?",
         "options": [
-          "That equal distribution of all resources is the only just arrangement, since rational agents would choose perfect equality",
-          "That inequalities are just only if they benefit the least advantaged members of society — the 'difference principle'",
-          "That purely procedural fairness determines justice: any rule agreed to behind the veil is automatically just regardless of outcome",
-          "That rational agents would reject all government, preferring a stateless order governed only by market exchanges"
+          "2.5% of qualifying assets held above the nisab threshold for a full lunar year",
+          "5% of net annual income regardless of asset threshold",
+          "10% of agricultural and harvest produce only",
+          "One-third of accumulated savings above a fixed poverty line"
         ],
-        "correct": 1,
-        "why": "Rawls' veil of ignorance is designed to derive the 'difference principle': since rational agents don't know their place in society, they would only accept inequalities that improve the position of the worst-off group.",
-        "deepDive": "John Rawls' 'A Theory of Justice' (1971) is the most influential work of English-language political philosophy of the 20th century. Its core device is the Original Position: a hypothetical situation in which people design social institutions behind a 'veil of ignorance' — stripped of knowledge of their natural talents, family background, social class, and conception of the good. Rawls argues rational agents would unanimously adopt two principles: (1) Equal Liberty — each person gets equal basic rights and freedoms; (2) the Difference Principle — social and economic inequalities are just only if they benefit the least advantaged and are attached to positions open to all. The veil forces impartial reasoning: if you don't know whether you'll be born advantaged or not, you'd rationally prefer institutions that protect the worst-case. Rawls challenged utilitarianism (which could harm a few for aggregate benefit) and libertarianism (Nozick's entitlement theory, which rejects redistribution). Critics from the left note the framework ignores structural race and gender inequities; libertarians argue it unjustifiably redistributes lawfully acquired holdings. In practical policy, Rawlsian logic underlies progressive taxation, social insurance, LDC preferential trade schemes — even the EU's EBA framework giving Bangladesh duty-free access has a Rawlsian structure: assisting the least advantaged trading nations unconditionally."
+        "correct": 0,
+        "why": "Zakat is 2.5% of qualifying assets (gold, silver, savings, tradeable inventory) held above the nisab for a complete lunar year — one of the most precisely defined financial obligations in religious law.",
+        "deepDive": "Nisab is the minimum wealth threshold — classically set as the value of 87.48g of gold or 612.36g of silver. Only assets held above this threshold for a full lunar year (hawl) are subject to Zakat. The 2.5% rate applies to monetary wealth and trade goods; agricultural produce has separate rates (5–10% depending on irrigation costs), and livestock follows head-count tables. Zakat is distinct from Sadaqah (voluntary charity) and Khums (the Shia fifth). In modern Islamic finance, Zakat is calculated by sharia boards and is treated as a form of wealth redistribution institutionalised within the faith — not merely a personal charitable act. Some Muslim-majority states collect it through government institutions."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "In sociolinguistics, 'code-switching' — alternating between languages within a single conversation — is now understood to be which of the following?",
+        "subtopic": "economics",
+        "stem": "The original Phillips Curve (A.W. Phillips, 1958) described an empirical inverse relationship between which two variables?",
         "options": [
-          "A sophisticated communicative strategy governed by social rules, used to signal identity, intimacy, expertise, or situational register shifts",
-          "Evidence of linguistic deficiency and incomplete acquisition of both languages involved",
-          "A random phenomenon occurring only when speakers lack vocabulary in their primary language",
-          "A behaviour unique to bilingual children during acquisition that disappears in fully proficient adult speakers"
+          "Interest rates and bond prices",
+          "Trade balance deficits and currency depreciation",
+          "Unemployment and wage inflation",
+          "GDP growth and government debt ratios"
         ],
-        "correct": 0,
-        "why": "Since Gumperz (1982), sociolinguistics established code-switching as a rule-governed competence, not a deficit — speakers switch purposefully to signal identity, solidarity, expertise, or formality level.",
-        "deepDive": "Code-switching was historically treated as evidence of linguistic confusion or failure. Since John Gumperz' landmark 'Discourse Strategies' (1982) and subsequent work by Shana Poplack, sociolinguists have established it as a highly rule-governed pragmatic skill. Syntax-level research shows bilingual speakers almost never produce ungrammatical hybrid structures — they follow the Matrix Language Frame Model, which predicts which language provides the grammatical frame and which supplies embedded elements. Speakers code-switch for rich communicative reasons: to signal in-group identity (Bangla-English mixing in Dhaka corporate culture signals education and social class); to invoke emotional or cultural registers unavailable in translation; to mark formality shifts; or to include and exclude conversational participants. In Bangladesh, code-switching between Bengali and English is a pervasive marker of social class, international exposure, and professional identity. Between Bengali, Chittagonian, Sylheti, and English in MGH's operational communities, which language a speaker chooses — and when they switch — communicates trust, authority, intimacy, or distance as precisely as any explicit statement. Understanding code-switching patterns is a real commercial intelligence tool for navigating diverse stakeholder relationships."
+        "correct": 2,
+        "why": "Phillips plotted UK 1861–1957 data showing lower unemployment correlated with higher wage growth — and vice versa. Stagflation of the 1970s later broke the simple tradeoff.",
+        "deepDive": "William Phillips charted nearly 100 years of UK data and found a remarkably stable inverse relationship: when unemployment fell, wages rose, and vice versa. This quickly became a policy tool — policymakers believed they could 'buy' lower unemployment at the cost of higher inflation. The relationship appeared to hold through the 1960s. Then the 1970s oil shocks produced high unemployment AND high inflation simultaneously — 'stagflation' — demolishing the simple curve. Milton Friedman and Edmund Phelps had already predicted this: their 'expectations-augmented' Phillips Curve argued the trade-off only existed in the short run. Once workers anticipated inflation and demanded compensating wages, the unemployment-inflation trade-off vanished, leaving only a 'natural rate' of unemployment around which the economy gravitates."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "The Duckworth-Lewis-Stern (DLS) method revises limited-overs cricket targets when matches are interrupted. On which core principle is DLS founded?",
+        "subtopic": "arts",
+        "stem": "Picasso and Braque co-developed Cubism around 1907–1914. Which statement BEST describes Analytical Cubism specifically?",
         "options": [
-          "Each team's run rate per over is frozen at interruption; the adjusted target derives from the differential",
-          "A batting team's resources are defined by both remaining overs and wickets in hand simultaneously; revised targets preserve the resource balance between the two sides",
-          "Interruption time in minutes is divided by five to determine overs lost equally from each innings",
-          "Historical average scores on the same ground under similar weather conditions are applied as the revised total"
+          "Bold primary colors applied to flat geometric planes to maximise emotional expressiveness",
+          "Abstract drip-painting and gestural mark-making to externalise unconscious thought",
+          "Collaging newspaper clippings and found objects onto figurative painted compositions",
+          "Fragmentation of subjects into simultaneous multiple viewpoints rendered in muted monochrome, prioritising structure over color"
         ],
-        "correct": 1,
-        "why": "DLS is founded on the two-resource model: a team's batting resources = remaining overs × remaining wickets. Revised targets preserve the proportional resource balance between teams after any interruption.",
-        "deepDive": "The Duckworth-Lewis-Stern method, introduced by Frank Duckworth and Tony Lewis in 1997 and updated by Steven Stern after their retirement, replaced the deeply unsatisfactory run-rate method. The core innovation: a batting team's 'resources' are defined by two variables simultaneously — remaining overs and remaining wickets — not run rate alone. DLS calculates a resource percentage for each combination using a model fitted to historical international cricket data. When rain interrupts, the revised target preserves proportionality: if Team 2 loses 20% of its resources, Team 1's target is adjusted by the corresponding resource percentage those lost overs would have consumed. The resource curve is non-linear — early overs with all wickets in hand are worth more than late overs with few wickets remaining — which is why simple run-rate methods consistently produce unfair revised targets. The method handles multiple interruptions, first-innings stoppages, and abbreviated matches via separate Par Score tables. Professional teams hire DLS specialists during weather delays; the calculations have directly determined outcomes in ICC World Cup finals and bilateral series. Common misconception: DLS always favours the chasing team — in fact, an interrupted first innings often produces a DLS target lower than the actual first-innings total, creating complexity and controversy."
+        "correct": 3,
+        "why": "Analytical Cubism (c.1908–12) broke objects into faceted planes showing multiple perspectives at once on a near-monochrome palette — a direct challenge to Renaissance single-point perspective.",
+        "deepDive": "The Cubist rupture began with Picasso's 'Les Demoiselles d'Avignon' (1907), influenced by Cézanne's geometric reductions and African art. Analytical Cubism (Braque and Picasso working so closely their canvases became almost indistinguishable) stripped color to greys and ochres to force the viewer to concentrate on the structural problem: how to represent a 3D object truthfully in 2D when a single viewpoint is inherently a lie. Synthetic Cubism (post-1912) reintroduced color and collage — papier collé — and opened the door to Dada. The movement shattered the 500-year Western convention that a painting is a window; after Cubism, that window was permanently closed. Common mistake: confusing the muted Analytical phase with the colorful Synthetic phase."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "'Gangnam Style' by South Korean artist PSY became YouTube's first video to reach 1 billion views in December 2012. Which record did it hold until being surpassed in 2014?",
+        "subtopic": "music",
+        "stem": "Bach's Well-Tempered Clavier (1722 & 1742) comprises preludes and fugues in all 24 major and minor keys. What was Bach's PRIMARY purpose in traversing all 24 keys?",
         "options": [
-          "Most-liked video on YouTube of all time",
-          "Highest-grossing music video marketing campaign in YouTube's history",
-          "First music video to debut at #1 simultaneously in more than 30 countries",
-          "Most-viewed video on YouTube of all time"
+          "To demonstrate the harpsichord's equality with the organ for Lutheran church use",
+          "To furnish his sons with a private counterpoint exercise book not intended for publication",
+          "To assert fugue form's superiority over the emerging Italian sonata structure",
+          "To demonstrate that equal temperament tuning enabled playing acceptably in any key without retuning the instrument"
         ],
         "correct": 3,
-        "why": "Gangnam Style held the record as YouTube's most-viewed video until 'See You Again' by Wiz Khalifa (ft. Charlie Puth) surpassed it in 2014. It was the first video in YouTube history to cross 1 billion views.",
-        "deepDive": "Released in July 2012, 'Gangnam Style' by PSY (Park Jae-sang) became the first YouTube video to reach 1 billion views in December 2012, then 2 billion in May 2014. In the process it broke YouTube's view counter, which was capped at a 32-bit integer maximum of 2,147,483,647 — forcing Google to upgrade to a 64-bit counter. At peak virality, the video received 30 million daily views. The song's global dominance was a cultural watershed: it demonstrated that non-English-language pop music could achieve worldwide reach through social media virality rather than traditional label distribution, presaging the K-pop wave (BTS, BLACKPINK, Stray Kids) that followed. The horse-riding dance became one of the defining early internet memes. The video was eventually overtaken by 'See You Again' (Wiz Khalifa/Charlie Puth, 2014, released as Paul Walker tribute), then 'Despacito' and 'Baby Shark.' Its commercial aftermath: YouTube accelerated major music label licensing deals partly as a consequence of realising the platform's scale, and the 'views as validation' metric reshaped music marketing permanently. As of 2026, Gangnam Style still ranks in YouTube's all-time top-100 viewed videos — a 14-year tail of relevance almost unmatched in internet history."
+        "why": "Pre-equal temperament, some keys sounded out-of-tune on keyboard instruments. Bach's 48 preludes/fugues in all 24 keys were a practical argument for equal temperament — the tuning system underpinning all Western music since.",
+        "deepDive": "William Phillips charted nearly 100 years of UK data and found a stable inverse relationship: when unemployment fell, wages rose. This quickly became a policy tool — policymakers believed they could 'buy' lower unemployment at the cost of higher inflation. The relationship held through the 1960s. Then the 1970s oil shocks produced high unemployment AND high inflation simultaneously — 'stagflation' — demolishing the simple curve. Milton Friedman and Edmund Phelps had already predicted this: their 'expectations-augmented' Phillips Curve argued the trade-off only existed in the short run. Once workers anticipated inflation and demanded compensating wages, the unemployment-inflation trade-off vanished, leaving only a 'natural rate' of unemployment around which the economy gravitates long-term."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "García Márquez's 'One Hundred Years of Solitude' (1967) is canonical magical realism. Which statement most accurately describes magical realism as a literary mode?",
+        "subtopic": "geography",
+        "stem": "The Strait of Malacca separates the Malay Peninsula from Sumatra. Approximately what proportion of global seaborne trade transits it annually?",
         "options": [
-          "It uses an explicit fantasy framing — a dream prologue or fairy-tale opening — to signal that ordinary reality has been suspended",
-          "Fantastical events are narrated in the same matter-of-fact tone as ordinary events, with no authorial signal that anything unusual has occurred, integrating them into the same empirical world",
-          "It emerged from European surrealism in the 1920s and was imported wholesale into Latin America by exile writers after World War II",
-          "Characters in magical realist fiction are always aware their world contains magic and explicitly reflect on its metaphysical implications"
+          "~10%",
+          "~25%",
+          "~40%",
+          "~60%"
         ],
         "correct": 1,
-        "why": "Magical realism's defining formal feature is the unmarked integration of the fantastic into quotidian reality — no authorial framing that anything extraordinary has occurred — distinguishing it from fantasy, allegory, and surrealism.",
-        "deepDive": "Magical realism's core formal distinction is its narrative refusal to separate the 'natural' from the 'supernatural.' In One Hundred Years of Solitude, a girl ascends bodily into heaven while folding laundry; a dead man's blood flows in a precise stream through city streets to his mother's kitchen — both narrated in the same composed, reportorial voice as a weather description. The term was coined by German critic Franz Roh in 1925 about European visual art; Latin American critic Alejo Carpentier transformed it into a literary theory rooted in lo real maravilloso — the idea that Latin American reality is inherently magical, not requiring imported European avant-gardism. García Márquez credited Kafka's 'Metamorphosis' — a man wakes as an insect described with domestic literalness — as his structural template. Magical realism is distinct from fantasy (alternative worlds with different rules), allegory (magical elements standing for non-magical meanings), and surrealism (deliberately irrational or dream-logic disruption). Its political dimension: the magic typically represents subaltern worldviews — Indigenous, Afro-Latin — that colonial and patriarchal narratives had classified as primitive irrationality, now granted equal ontological status within the text. Other canonical magical realists: Isabel Allende, Laura Esquivel, Salman Rushdie, Toni Morrison, Ben Okri."
+        "why": "Roughly 25% of global seaborne trade — ~100,000 vessels/year — passes through Malacca. At its narrowest (Philip Channel), it is only 2.8 km wide: a grounding would redirect millions of TEUs via longer Cape routes.",
+        "deepDive": "The Strait of Malacca runs ~900 km between the Malay Peninsula and Sumatra, connecting the Indian Ocean to the South China Sea. Its narrowest point — the Philip Channel near Singapore — is just 2.8 km wide. About 25% of global seaborne trade passes through it, including roughly 80% of China's oil imports. The alternative via Lombok or Sunda Straits adds 2-4 days of sailing. Singapore's wealth owes partly to its position at Malacca's eastern end. A coordinated ReCAAP monitoring regime reduced piracy dramatically from the mid-2000s. A sustained blockade here would be the most economically disruptive maritime event imaginable short of a major-power naval conflict."
       }
     ]
   }
