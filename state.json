@@ -1,17 +1,7 @@
 {
   "streak": 11,
-  "last_session_date": "2026-08-21",
+  "last_session_date": "2026-08-22",
   "questions_seen": [
-    "In a CFS/CFS (LCL) shipment versus CY/CY (FCL) on the same trade lane, which cost outcome is structurally certain regardless of cargo volume or commodity?",
-    "A carrier evaluating Cape of Good Hope routing versus Suez Canal on Asia-Europe trade bases its economic break-even calculation primarily on which comparison?",
-    "Under York-Antwerp Rules, a deliberate cargo sacrifice qualifies as General Average only when three conditions are met. Which of these is NOT one of those three qualifying conditions?",
-    "The US Uyghur Forced Labor Prevention Act imposes a rebuttable presumption on goods produced in Xinjiang. What legal standard must an importer meet to successfully rebut it?",
-    "The Drewry World Container Index (WCI) and the Shanghai Containerized Freight Index (SCFI) are both spot-rate benchmarks. What is the most significant methodological distinction between them?",
-    "The Coase theorem is most precisely stated as which claim about externalities and efficient outcomes?",
-    "The Indus Waters Treaty (1960) divided six Indus basin rivers between India and Pakistan. Which three rivers were allocated exclusively to Pakistan?",
-    "Grimm's Law describes systematic consonant shifts that distinguish Proto-Germanic from other Indo-European languages. Which specific correspondence does it predict?",
-    "Which album was the first rap record to reach #1 on the Billboard 200, signalling hip-hop's commercial breakthrough into mainstream America?",
-    "The 1923 Convention on the Greek-Turkish population exchange under the Lausanne process was legally unprecedented primarily for what reason?",
     "The 777F and 747-8F are the two most widely operated widebody freighters. Which ",
     "Frankfurt (FRA) and London Heathrow (LHR) operate under strict night-flight curf",
     "DSV's ~$15B acquisition of DB Schenker in 2024-25 was the largest freight forwar",
@@ -501,7 +491,17 @@
     "The original Phillips Curve (A.W. Phillips, 1958) described an empirical inverse relationship between which two variables?",
     "Picasso and Braque co-developed Cubism around 1907–1914. Which statement BEST describes Analytical Cubism specifically?",
     "Bach's Well-Tempered Clavier (1722 & 1742) comprises preludes and fugues in all 24 major and minor keys. What was Bach's PRIMARY purpose in traversing all 24 keys?",
-    "The Strait of Malacca separates the Malay Peninsula from Sumatra. Approximately what proportion of global seaborne trade transits it annually?"
+    "The Strait of Malacca separates the Malay Peninsula from Sumatra. Approximately what proportion of global seaborne trade transits it annually?",
+    "A shipper presents a 'switch bill of lading' at the origin port. What is its PRIMARY commercial purpose?",
+    "The WTO Customs Valuation Agreement (CVA) sets a hierarchy of six valuation methods. Which method must Customs apply FIRST, before falling back to other methods?",
+    "A Handymax bulk carrier typically falls in which deadweight tonnage (DWT) range?",
+    "In container terminal operations, 'ship turn time' is measured from which event to which event — and why does minimizing it matter most to liner operators?",
+    "The Gemini Alliance, formed by Maersk and Hapag-Lloyd in 2025, explicitly targeted what operational KPI as its primary commercial differentiator?",
+    "The 1648 Peace of Westphalia is considered foundational to modern international relations. What principle did it enshrine in European law for the first time?",
+    "Which fundamental property distinguishes plasma from the other three classical states of matter — solid, liquid, and gas?",
+    "The Krebs cycle (tricarboxylic acid cycle) — a central pathway of cellular energy metabolism — takes place in which cellular compartment?",
+    "Bayes' Theorem states P(A|B) = P(B|A) × P(A) / P(B). In this expression, what does P(A|B) specifically represent?",
+    "Gabriel García Márquez's 'One Hundred Years of Solitude' (1967) is the defining work of a literary movement that blends everyday realism with magical or supernatural elements treated as mundane. What is that movement called?"
   ],
   "learn_history": [
     {
@@ -678,6 +678,11 @@
       "date": "2026-08-21",
       "topic": "HBM (High Bandwidth Memory): Why AI Accelerators Are Memory-Bound, Not Compute-Bound",
       "bucket": "semiconductor_foundations"
+    },
+    {
+      "date": "2026-08-22",
+      "topic": "The Doppler Effect: Why Frequency Shifts in Waves Underlie Weather Radar, Speed Cameras, Medical Ultrasound, and the Expanding Universe",
+      "bucket": "science_concept"
     }
   ],
   "curriculum_progress": {
@@ -688,8 +693,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 20,
-      "last_seen": "2026-08-15",
+      "count": 21,
+      "last_seen": "2026-08-22",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -700,20 +705,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 20,
-      "last_seen": "2026-08-15",
+      "count": 21,
+      "last_seen": "2026-08-22",
       "difficulty": 4,
       "rolling_score": []
     },
     "vessels": {
-      "count": 20,
-      "last_seen": "2026-08-15",
+      "count": 21,
+      "last_seen": "2026-08-22",
       "difficulty": 4,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 20,
-      "last_seen": "2026-08-15",
+      "count": 21,
+      "last_seen": "2026-08-22",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -724,8 +729,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 20,
-      "last_seen": "2026-08-15",
+      "count": 21,
+      "last_seen": "2026-08-22",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -804,8 +809,8 @@
   },
   "gk_progress": {
     "history": {
-      "count": 31,
-      "last_seen": "2026-08-15",
+      "count": 32,
+      "last_seen": "2026-08-22",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -816,26 +821,26 @@
       "rolling_score": []
     },
     "physical_science": {
-      "count": 29,
-      "last_seen": "2026-08-15",
+      "count": 30,
+      "last_seen": "2026-08-22",
       "difficulty": 3,
       "rolling_score": []
     },
     "life_science": {
-      "count": 29,
-      "last_seen": "2026-08-15",
+      "count": 30,
+      "last_seen": "2026-08-22",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 29,
-      "last_seen": "2026-08-15",
+      "count": 30,
+      "last_seen": "2026-08-22",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 29,
-      "last_seen": "2026-08-20",
+      "count": 30,
+      "last_seen": "2026-08-22",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -890,159 +895,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-08-21",
+    "date": "2026-08-22",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "Qatar Airways Cargo, Lufthansa Cargo, and Cargolux are traditional cargo carriers. Which statement correctly distinguishes an 'integrator' from a 'traditional cargo carrier' in air freight?",
+        "subtopic": "documentation",
+        "stem": "A shipper presents a 'switch bill of lading' at the origin port. What is its PRIMARY commercial purpose?",
         "options": [
-          "Integrators use only widebody freighters; traditional carriers operate narrowbodies on domestic routes",
-          "Integrators own the full door-to-door network — ground vehicles, sorting hubs, customs brokerage — while traditional carriers sell bellyhold and freighter capacity to forwarders",
-          "Integrators specialize in bulk perishables; traditional carriers handle express parcels exclusively",
-          "Integrators must file IATA tariffs; traditional carriers operate outside IATA rate authority"
+          "To declare dangerous goods under IMDG code before vessel departure",
+          "To replace the original B/L set with one showing a different shipper, consignee, or loading port",
+          "To transfer cargo insurance title from shipper to consignee mid-voyage",
+          "To authorize Customs to hold and examine cargo before release"
         ],
         "correct": 1,
-        "why": "FedEx, UPS, and DHL Express are integrators — they control the full express chain. Traditional carriers (Cargolux, Lufthansa Cargo) are capacity sellers: forwarders buy slots and manage the rest.",
-        "deepDive": "The integrator model emerged in the 1970s when Frederick Smith's FedEx proved that owning the full air-ground-sorting network enabled overnight guarantees impossible through fragmented handoffs. Integrators charge a premium precisely because the customer buys a time-definite outcome, not capacity. Traditional carriers like Cargolux, Atlas Air, or Cathay Cargo operate freighters but hand the cargo to forwarders at origin — the forwarder owns the customer relationship, margin, and last-mile risk. Most major cargo carriers are hybrids: Emirates SkyCargo sells both wholesale and retail. The key exam error is conflating 'operates freighters' with 'is an integrator' — they are orthogonal axes."
+        "why": "Switch B/Ls replace an existing set of originals — often to conceal the true origin supplier or pricing — legally permitted for commercial privacy, but also a key compliance risk flagged by sanctions regulators.",
+        "deepDive": "A switch bill of lading is issued by the carrier (or a freight forwarder acting as NVOCC) after the original set of bills of lading has already been issued. The original set is surrendered and cancelled, and a new set reflecting different details — different shipper name, port of loading, or cargo description — is issued instead. The most common legitimate use is triangular trade: a trading house buys from Factory A in China and sells to Buyer B in Germany, and does not want Buyer B to know Factory A's identity or see the actual purchase price on the commercial invoice. While legal, switch B/Ls are heavily scrutinized because they are also the most common mechanism for origin laundering in sanctions evasion — a trader in a sanctioned country can re-invoice cargo through a third country and switch the B/L to show a neutral origin. Compliance teams are trained to spot them via discrepancies in vessel voyage numbers, date sequences, and cargo description changes."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "Anchorage (ANC) ranks among the world's top 5 cargo airports despite Alaska's remote location. What is ANC's primary operational value for transpacific freighter routing?",
+        "subtopic": "customs",
+        "stem": "The WTO Customs Valuation Agreement (CVA) sets a hierarchy of six valuation methods. Which method must Customs apply FIRST, before falling back to other methods?",
         "options": [
-          "ANC is a US Customs mandatory pre-clearance hub for all Asia-originating cargo",
-          "ANC allows freighters to carry heavier payload by stopping to refuel mid-route rather than hauling full fuel load across the full Pacific sector",
-          "ANC hosts the world's largest bonded free-trade zone for electronics",
-          "ANC is the only North American airport with curfew-exempt night-flight rights, enabling 24/7 operations unavailable elsewhere"
+          "Deductive value — based on the resale price in the importing country",
+          "Computed value — based on the cost of production plus profit margin",
+          "Transaction value of identical goods — using prices paid for identical goods in the same trade",
+          "Transaction value of imported goods — the actual price paid or payable for the goods being valued"
         ],
-        "correct": 1,
-        "why": "ANC is a payload-maximising technical stop: carriers trade fuel weight for cargo weight by refuelling midway, enabling heavier loads than a nonstop Asia-US sector allows.",
-        "deepDive": "The payload-range trade-off is fundamental to freighter economics: every extra tonne of fuel you carry costs payload capacity. ANC sits almost exactly on the great-circle arc between Asia and the continental US, making it a near-perfect technical stop. By refuelling at Anchorage, carriers like FedEx, UPS, and Atlas Air can accept heavier cargo in Tokyo or Shanghai without worrying about maximum takeoff weight. HKG leads global cargo tonnage, followed by Memphis (FedEx's global hub). ANC consistently ranks top 5. Frankfurt and Heathrow impose strict night-flight curfews that limit cargo windows — ANC has no such restrictions, adding operational flexibility on top of the payload benefit."
+        "correct": 3,
+        "why": "WTO CVA Article 1 mandates transaction value — the actual invoice price paid or payable — as the primary method. Customs may only move to fallback methods if transaction value cannot be determined or is deemed unreliable.",
+        "deepDive": "The WTO Customs Valuation Agreement (implemented 1994, part of the GATT/WTO framework) harmonized customs valuation across 160+ member countries, replacing an array of arbitrary 'Brussels Definition of Value' systems. The six methods in descending priority are: (1) Transaction value, (2) Transaction value of identical goods, (3) Transaction value of similar goods, (4) Deductive value, (5) Computed value, and (6) Fall-back method. Transaction value is the preferred method because it reflects the real commercial price agreed between buyer and seller at arm's length — it reduces arbitrariness. Customs authorities challenge transaction value when they suspect undervaluation (common in transfer pricing between related parties), in which case they must prove non-arm's-length pricing before moving to a fallback. For Bangladesh's NBR and India's CBIC, the customs valuation disputes most frequently involve RMG accessories, electronics, and branded goods, where declared transaction values are systematically checked against global databases."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "DSV acquired DB Schenker for ~$15B (2024–25), the largest freight forwarding M&A deal ever. Which rationale BEST explains forwarder mega-merger logic?",
+        "subtopic": "vessels",
+        "stem": "A Handymax bulk carrier typically falls in which deadweight tonnage (DWT) range?",
         "options": [
-          "Scale delivers procurement leverage with carriers, broader product geography, and a larger revenue base to amortise technology investment",
-          "Vessel ownership guarantees port priority and eliminates carrier rate dependency",
-          "EU digital-single-market regulations require forwarding consolidation above €10B revenue",
-          "Fixed long-term carrier contracts eliminate spot-rate exposure across the business cycle"
+          "10,000–25,000 DWT",
+          "40,000–65,000 DWT",
+          "80,000–120,000 DWT",
+          "150,000–200,000 DWT"
         ],
-        "correct": 0,
-        "why": "Forwarder scale is about buying power (carrier procurement), geographic coverage (product breadth), and spreading technology capex (TMS, digital tools) across more revenue — not vessel ownership.",
-        "deepDive": "The DSV-Schenker deal crystallises the logic: DSV's lean, tech-first operating model applied to Schenker's $20B+ revenue base and dense network creates a forwarding entity with genuine pricing leverage against carriers. Kuehne+Nagel's Apex acquisition and CMA CGM's Ceva integration follow the same logic from the carrier side — vertical integration to capture forwarder margin. The counter-argument is that M&A in forwarding destroys value through integration complexity; DSV's track record (Panalpina, Agility) is one of the few genuine integration success stories. Technology amortisation matters hugely: a bespoke TMS costs $200-400M to build; spreading that over $30B vs $12B revenue is a 2-3x ROI multiplier."
+        "correct": 1,
+        "why": "Handymax bulk carriers occupy the 40,000–65,000 DWT band — small enough for minor ports but large enough for economic grain, coal, and fertilizer trades. Supramax (50,000–65,000 DWT) is a sub-class within this range.",
+        "deepDive": "The dry bulk fleet is segmented by size: Handysize (10,000–40,000 DWT) calls at the smallest ports and carries minor bulks like steel, salt, and forest products; Handymax/Supramax (40,000–65,000 DWT) is the workhorse for grain, fertilizer, and coal trades to mid-size ports; Panamax (65,000–80,000 DWT) is constrained by the original Panama Canal lock width of 32.3m; Kamsarmax (80,000–92,500 DWT) fits the port of Kamsar in Guinea; and Capesize (100,000–200,000 DWT) is too large for Panama and must round the Cape of Good Hope, carrying iron ore and coal to mega-ports. Bangladesh is a major Supramax destination — coal imports for power plants and clinker for cement arrive on Handymax/Supramax vessels because Chittagong's draft restrictions (typically 9–9.5m) preclude larger vessels. Understanding vessel sizing tells you immediately which ports and trades a vessel can serve."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "A freight forwarder quotes a shipper a FAK (Freight All Kinds) rate rather than commodity-specific rates. What is the PRIMARY commercial risk for the forwarder?",
+        "subtopic": "port_ops",
+        "stem": "In container terminal operations, 'ship turn time' is measured from which event to which event — and why does minimizing it matter most to liner operators?",
         "options": [
-          "The forwarder assumes full cargo liability regardless of packing quality under FAK terms",
-          "FAK rates require FMC public tariff filing and are subject to audit for non-compliance",
-          "The forwarder earns a flat rate but faces margin compression if underlying carrier commodity surcharges — hazmat fees, high-value premiums — exceed what the FAK covers",
-          "The shipper can demand re-rating to a lower commodity class within 30 days under FIATA standard terms"
+          "First pilot boarding to anchor drop — critical for avoiding tidal windows and weather delays",
+          "Line-fast to last-line-away — each extra hour carries a direct vessel operating cost and cascades into schedule slippage across the weekly rotation",
+          "Arrival at anchorage to full cargo discharge — determines port congestion surcharges billed to consignees",
+          "Customs entry lodgement to Customs release — determines free-time on dwell fees billed to importers"
         ],
-        "correct": 2,
-        "why": "FAK simplifies billing but creates margin risk: if the actual cargo attracts carrier surcharges (DGR, high-value, reefer) that the forwarder didn't price in, the spread collapses or inverts.",
-        "deepDive": "FAK is a pricing convenience: one rate covers any commodity type, simplifying the commercial conversation. But carrier tariffs are commodity-specific — and when a shipper tenders hazardous goods, refrigerated cargo, or high-density machinery under a FAK agreement, the forwarder's buy-rate from the carrier spikes while the sell-rate stays fixed. Expert forwarders offset this by adding commodity exclusions to FAK quotes (no DGR, no reefer) or by structuring minimum quantity commitments that guarantee enough volume to average out the occasional high-cost shipment. Named Account Contracts (NACs) typically specify commodity classes; FAK suits transactional customers where visibility into cargo mix is limited."
+        "correct": 1,
+        "why": "Ship turn time (line-fast to lines-away) is the definitive port productivity measure for carriers. At $15,000–$30,000/day vessel operating costs, even four extra hours costs $2,500–$5,000 and can cause cascading delays across an entire weekly service rotation.",
+        "deepDive": "Container shipping runs on published fixed-day services: vessel X departs Port A every Tuesday, arrives Port B every Thursday, and so on. Any delay at one port ripples through every subsequent port call. Liner operators therefore judge terminals ruthlessly on ship turn time — the elapsed time from first line made fast to all lines cast off. A world-class terminal in Singapore or Rotterdam turns a 20,000-TEU vessel in 24–30 hours; a congested terminal in Lagos or Chittagong can take 60–90 hours. The components that drive turn time are: berth waiting time (vessel queuing at anchorage), crane intensity (number of cranes deployed per vessel), vessel-moves-per-crane-hour (VMCH), and hatch sequencing (are containers stowed so the right boxes are reachable in the right order?). Port KPIs like VMCH (ideally 25–35 moves/crane/hour), yard occupancy ratio (below 80% to prevent reshuffles), and truck gate throughput are all levers. For MGH's freight operations, understanding ship turn time explains why carriers blank-sail congested ports rather than absorb delay costs."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "Post-COVID, many manufacturers shifted from 'just-in-time' (JIT) to 'just-in-case' (JIC) inventory strategies. Which statement accurately captures the core trade-off?",
+        "subtopic": "liner_alliances",
+        "stem": "The Gemini Alliance, formed by Maersk and Hapag-Lloyd in 2025, explicitly targeted what operational KPI as its primary commercial differentiator?",
         "options": [
-          "JIC improves supply chain resilience by holding buffer stock but raises carrying costs, working capital requirements, and obsolescence risk",
-          "JIC reduces freight spend by consolidating slower, cheaper shipments; JIT minimises warehouse spend by triggering express replenishment",
-          "JIC is mandated by US FDA regulations for pharmaceutical and medical device supply chains",
-          "JIT was permanently abandoned after COVID because single-source supplier dependency proved structurally untenable globally"
+          "Lowest spot freight rates across all major East–West trade lanes",
+          "90%+ schedule reliability, delivered via a hub-and-spoke network with dedicated feeder vessels",
+          "Highest combined TEU market share on Asia–Europe trades",
+          "Fastest port-to-port transit times from Shanghai to Rotterdam"
         ],
-        "correct": 0,
-        "why": "JIC buys resilience at real cost: inventory carrying charges (financing, storage, obsolescence) typically run 20–30% of inventory value annually — that is the trade-off against disruption risk.",
-        "deepDive": "JIT, pioneered by Toyota's TPS, works by ordering only what is needed when it is needed — eliminating 'muda' (waste) in inventory. COVID exposed the brittleness: a single delayed chip shut entire automotive assembly lines. JIC solves this by holding safety stock, but the financial penalty is significant: a company holding $1B in extra inventory at a 25% carrying cost burns $250M annually for resilience insurance. Post-COVID, most manufacturers adopted a hybrid: JIT for high-velocity, commoditised inputs; strategic buffer stock for sole-source or high-risk components (semiconductors, API pharmaceutical ingredients). JIT is far from abandoned — it remains the dominant model in automotive and electronics for the bulk of SKUs."
+        "correct": 1,
+        "why": "Gemini was designed around schedule reliability — both carriers committed to 90%+ on-time performance, a radical break from the industry's 50–60% average. This required a hub-and-spoke structure with fewer mainline strings and dedicated feeders.",
+        "deepDive": "Maersk and Hapag-Lloyd launched the Gemini Cooperation in February 2025 after both companies had previously been in different alliances (2M and THE Alliance, respectively). The defining characteristic of Gemini is its hub-and-spoke architecture: instead of sprawling point-to-point services calling dozens of ports, Gemini runs fewer, larger mainline strings between major hub ports (e.g., Port Said, Singapore, Tanjung Pelepas) and uses a dedicated feeder network to reach secondary ports. This design reduces the number of port calls per mainline vessel, cutting the cumulative delay risk. The promise of 90%+ schedule reliability is commercially significant because shippers increasingly price reliability into vendor selection — a single delayed vessel can disrupt just-in-case inventory builds and assembly lines. The other major alliances (Ocean Alliance: CMA CGM, COSCO, Evergreen, OOCL; Premier Alliance: ONE, HMM, Yang Ming) have responded by emphasizing coverage breadth, knowing Gemini cannot call every port with its reduced string count."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "The Five Pillars of Islam include Zakat (almsgiving). What proportion of qualifying wealth must a Muslim pay annually, provided holdings exceed the nisab threshold?",
+        "subtopic": "history",
+        "stem": "The 1648 Peace of Westphalia is considered foundational to modern international relations. What principle did it enshrine in European law for the first time?",
         "options": [
-          "2.5% of qualifying assets held above the nisab threshold for a full lunar year",
-          "5% of net annual income regardless of asset threshold",
-          "10% of agricultural and harvest produce only",
-          "One-third of accumulated savings above a fixed poverty line"
+          "Freedom of the high seas for all nations regardless of flag state",
+          "The right of states to form defensive military alliances against aggressors",
+          "State sovereignty and the principle of non-interference in the internal affairs of other states",
+          "The obligation to resolve all inter-state disputes through binding arbitration panels"
         ],
-        "correct": 0,
-        "why": "Zakat is 2.5% of qualifying assets (gold, silver, savings, tradeable inventory) held above the nisab for a complete lunar year — one of the most precisely defined financial obligations in religious law.",
-        "deepDive": "Nisab is the minimum wealth threshold — classically set as the value of 87.48g of gold or 612.36g of silver. Only assets held above this threshold for a full lunar year (hawl) are subject to Zakat. The 2.5% rate applies to monetary wealth and trade goods; agricultural produce has separate rates (5–10% depending on irrigation costs), and livestock follows head-count tables. Zakat is distinct from Sadaqah (voluntary charity) and Khums (the Shia fifth). In modern Islamic finance, Zakat is calculated by sharia boards and is treated as a form of wealth redistribution institutionalised within the faith — not merely a personal charitable act. Some Muslim-majority states collect it through government institutions."
+        "correct": 2,
+        "why": "Westphalia (1648) ended the Thirty Years' War and established that rulers — not the Pope or Holy Roman Emperor — held supreme authority within their own territories. This 'Westphalian sovereignty' remains the bedrock of international law today.",
+        "deepDive": "The Peace of Westphalia comprised two treaties signed in Osnabrück and Münster in October 1648, ending both the Thirty Years' War (1618–1648) within the Holy Roman Empire and the Eighty Years' War between Spain and the Dutch Republic. The agreements effectively transferred religious and political sovereignty from the supranational authority of the Pope and Emperor to individual territorial rulers — a revolutionary shift. The principle cuius regio, eius religio ('whose realm, his religion') had already emerged from the Peace of Augsburg (1555), but Westphalia codified state sovereignty as the organizing principle of European international order. Critics of 'Westphalian sovereignty' — especially in the context of humanitarian intervention (Kosovo 1999, Libya 2011) and the Responsibility to Protect (R2P) doctrine — argue the principle has been selectively applied by powerful states. Understanding Westphalia is essential for reading any debate about sovereignty, intervention, or international legitimacy — it is the baseline from which all deviations are measured."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The original Phillips Curve (A.W. Phillips, 1958) described an empirical inverse relationship between which two variables?",
+        "subtopic": "physical_science",
+        "stem": "Which fundamental property distinguishes plasma from the other three classical states of matter — solid, liquid, and gas?",
         "options": [
-          "Interest rates and bond prices",
-          "Trade balance deficits and currency depreciation",
-          "Unemployment and wage inflation",
-          "GDP growth and government debt ratios"
+          "It can only exist at temperatures below absolute zero, making it a quantum-mechanical state",
+          "It consists of ionized gas in which electrons are free from atomic nuclei, creating a sea of charged particles",
+          "It has no definite volume and no definite shape, unlike liquids which have definite volume",
+          "It can only exist in the absence of gravity, which is why it is confined to outer space"
         ],
-        "correct": 2,
-        "why": "Phillips plotted UK 1861–1957 data showing lower unemployment correlated with higher wage growth — and vice versa. Stagflation of the 1970s later broke the simple tradeoff.",
-        "deepDive": "William Phillips charted nearly 100 years of UK data and found a remarkably stable inverse relationship: when unemployment fell, wages rose, and vice versa. This quickly became a policy tool — policymakers believed they could 'buy' lower unemployment at the cost of higher inflation. The relationship appeared to hold through the 1960s. Then the 1970s oil shocks produced high unemployment AND high inflation simultaneously — 'stagflation' — demolishing the simple curve. Milton Friedman and Edmund Phelps had already predicted this: their 'expectations-augmented' Phillips Curve argued the trade-off only existed in the short run. Once workers anticipated inflation and demanded compensating wages, the unemployment-inflation trade-off vanished, leaving only a 'natural rate' of unemployment around which the economy gravitates."
+        "correct": 1,
+        "why": "Plasma is the fourth state of matter — formed when a gas is energized enough to strip electrons from atoms. Free electrons and ions coexist, making plasma electrically conductive and responsive to magnetic fields.",
+        "deepDive": "Plasma constitutes more than 99% of visible matter in the universe — stars, nebulae, and interstellar gas are all plasma. On Earth, plasma appears in lightning bolts, neon signs, fluorescent lights, arc welders, and plasma-screen televisions. It forms when a gas absorbs enough energy (heat, radiation, or strong electric fields) to ionize — electrons separate from nuclei, creating a quasi-neutral mix of ions and free electrons. Unlike ordinary gases, plasmas conduct electricity and are strongly influenced by magnetic and electric fields. This makes them simultaneously useful (plasma cutters, semiconductor etching processes, fusion reactor experiments) and challenging to contain. The ITER fusion reactor under construction in France attempts to confine hydrogen plasma at 150 million degrees Celsius using powerful magnetic fields — ten times hotter than the core of the Sun. The key practical insight: any manufacturing process involving strong electric arcs, ion beams, or high-temperature chemistry is working with plasma physics."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Picasso and Braque co-developed Cubism around 1907–1914. Which statement BEST describes Analytical Cubism specifically?",
+        "subtopic": "life_science",
+        "stem": "The Krebs cycle (tricarboxylic acid cycle) — a central pathway of cellular energy metabolism — takes place in which cellular compartment?",
         "options": [
-          "Bold primary colors applied to flat geometric planes to maximise emotional expressiveness",
-          "Abstract drip-painting and gestural mark-making to externalise unconscious thought",
-          "Collaging newspaper clippings and found objects onto figurative painted compositions",
-          "Fragmentation of subjects into simultaneous multiple viewpoints rendered in muted monochrome, prioritising structure over color"
+          "The cell nucleus, alongside DNA replication and transcription",
+          "The cytoplasm, where most metabolic reactions in prokaryotes occur",
+          "The mitochondrial matrix, enclosed within the inner mitochondrial membrane",
+          "The endoplasmic reticulum, where lipid synthesis and protein folding also occur"
         ],
-        "correct": 3,
-        "why": "Analytical Cubism (c.1908–12) broke objects into faceted planes showing multiple perspectives at once on a near-monochrome palette — a direct challenge to Renaissance single-point perspective.",
-        "deepDive": "The Cubist rupture began with Picasso's 'Les Demoiselles d'Avignon' (1907), influenced by Cézanne's geometric reductions and African art. Analytical Cubism (Braque and Picasso working so closely their canvases became almost indistinguishable) stripped color to greys and ochres to force the viewer to concentrate on the structural problem: how to represent a 3D object truthfully in 2D when a single viewpoint is inherently a lie. Synthetic Cubism (post-1912) reintroduced color and collage — papier collé — and opened the door to Dada. The movement shattered the 500-year Western convention that a painting is a window; after Cubism, that window was permanently closed. Common mistake: confusing the muted Analytical phase with the colorful Synthetic phase."
+        "correct": 2,
+        "why": "The Krebs cycle runs in the mitochondrial matrix, generating NADH and FADH₂ as electron carriers. These then drive the electron transport chain on the inner mitochondrial membrane to produce ATP — the cell's energy currency.",
+        "deepDive": "The Krebs cycle (named for Hans Krebs, Nobel Prize 1953) is the second stage of aerobic respiration, following glycolysis. It begins when acetyl-CoA — derived from carbohydrates, fats, or proteins — enters the cycle by combining with oxaloacetate to form citrate. Through eight enzymatic steps, two carbon atoms are released as CO₂, and the cycle regenerates four electron-carrier molecules per turn: three NADH, one FADH₂, and one GTP. These electron carriers feed into the electron transport chain on the inner mitochondrial membrane, where oxidative phosphorylation produces approximately 34 of the ~36–38 ATP molecules generated per glucose molecule. The remaining 2 ATP come from glycolysis. In prokaryotes (bacteria and archaea), which lack mitochondria, the Krebs cycle occurs in the cytoplasm. The cycle is also an anabolic hub — its intermediates are precursors for amino acid synthesis, fatty acid synthesis, and nucleotide production. Disruption of Krebs cycle enzymes underlies several cancers and metabolic diseases, making it a major pharmacological target."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "Bach's Well-Tempered Clavier (1722 & 1742) comprises preludes and fugues in all 24 major and minor keys. What was Bach's PRIMARY purpose in traversing all 24 keys?",
+        "subtopic": "mathematics",
+        "stem": "Bayes' Theorem states P(A|B) = P(B|A) × P(A) / P(B). In this expression, what does P(A|B) specifically represent?",
         "options": [
-          "To demonstrate the harpsichord's equality with the organ for Lutheran church use",
-          "To furnish his sons with a private counterpoint exercise book not intended for publication",
-          "To assert fugue form's superiority over the emerging Italian sonata structure",
-          "To demonstrate that equal temperament tuning enabled playing acceptably in any key without retuning the instrument"
+          "The posterior probability — the updated probability of A given that evidence B has been observed",
+          "The joint probability of A and B both occurring simultaneously in the same experiment",
+          "The causal probability — the degree to which B directly causes A to occur",
+          "The marginal probability of A, independent of and unaffected by any observation of B"
         ],
-        "correct": 3,
-        "why": "Pre-equal temperament, some keys sounded out-of-tune on keyboard instruments. Bach's 48 preludes/fugues in all 24 keys were a practical argument for equal temperament — the tuning system underpinning all Western music since.",
-        "deepDive": "William Phillips charted nearly 100 years of UK data and found a stable inverse relationship: when unemployment fell, wages rose. This quickly became a policy tool — policymakers believed they could 'buy' lower unemployment at the cost of higher inflation. The relationship held through the 1960s. Then the 1970s oil shocks produced high unemployment AND high inflation simultaneously — 'stagflation' — demolishing the simple curve. Milton Friedman and Edmund Phelps had already predicted this: their 'expectations-augmented' Phillips Curve argued the trade-off only existed in the short run. Once workers anticipated inflation and demanded compensating wages, the unemployment-inflation trade-off vanished, leaving only a 'natural rate' of unemployment around which the economy gravitates long-term."
+        "correct": 0,
+        "why": "P(A|B) is the posterior — the updated probability of A after observing B. Bayes' Theorem is the formal rule for rational belief revision: prior belief P(A) is updated by new evidence B to yield the posterior P(A|B).",
+        "deepDive": "Thomas Bayes (1701–1761) published his theorem posthumously; it was refined by Pierre-Simon Laplace in the early 19th century. In the formula, P(A) is the prior probability (your belief about A before seeing evidence), P(B|A) is the likelihood (how probable the evidence B would be if A were true), and P(B) is the normalizing constant — the total probability of observing B across all hypotheses. Bayesian reasoning is the mathematical core of rational inference: spam filters estimate P(spam | this email's words) using learned priors; medical screening interprets positive test results by updating P(disease | positive result) using the disease's base rate and the test's sensitivity; and Bayesian neural networks maintain probability distributions over parameters rather than point estimates, enabling calibrated uncertainty. One crucial real-world application: when a test for a rare disease has 99% sensitivity and 99% specificity but the disease prevalence is 0.1%, a positive result still means only about a 9% probability of actually having the disease — a counterintuitive but mathematically precise result that Bayes' Theorem makes transparent."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "geography",
-        "stem": "The Strait of Malacca separates the Malay Peninsula from Sumatra. Approximately what proportion of global seaborne trade transits it annually?",
+        "subtopic": "literature",
+        "stem": "Gabriel García Márquez's 'One Hundred Years of Solitude' (1967) is the defining work of a literary movement that blends everyday realism with magical or supernatural elements treated as mundane. What is that movement called?",
         "options": [
-          "~10%",
-          "~25%",
-          "~40%",
-          "~60%"
+          "Surrealism — the artistic movement that sought to access the unconscious mind through dreamlike imagery",
+          "Magic Realism — a mode where magical events are narrated in the same matter-of-fact tone as ordinary ones",
+          "Stream of Consciousness — a narrative technique depicting the continuous flow of a character's thoughts",
+          "The Latin American Boom — the commercial explosion of Latin American literary exports in the 1960s–70s"
         ],
         "correct": 1,
-        "why": "Roughly 25% of global seaborne trade — ~100,000 vessels/year — passes through Malacca. At its narrowest (Philip Channel), it is only 2.8 km wide: a grounding would redirect millions of TEUs via longer Cape routes.",
-        "deepDive": "The Strait of Malacca runs ~900 km between the Malay Peninsula and Sumatra, connecting the Indian Ocean to the South China Sea. Its narrowest point — the Philip Channel near Singapore — is just 2.8 km wide. About 25% of global seaborne trade passes through it, including roughly 80% of China's oil imports. The alternative via Lombok or Sunda Straits adds 2-4 days of sailing. Singapore's wealth owes partly to its position at Malacca's eastern end. A coordinated ReCAAP monitoring regime reduced piracy dramatically from the mid-2000s. A sustained blockade here would be the most economically disruptive maritime event imaginable short of a major-power naval conflict."
+        "why": "Magic Realism presents supernatural events with the same factual tone as ordinary reality, reflecting how folk belief and daily life coexist in oral-tradition cultures. Márquez's novel is its definitive text; it spread globally through Allende, Rushdie, and Murakami.",
+        "deepDive": "Magic Realism as a literary term was first applied to European painting in the 1920s (Franz Roh) before German critic Massimo Bontempelli applied it to fiction in the 1930s. But it was Latin American writers — most famously García Márquez, but also Jorge Luis Borges and Alejo Carpentier (who coined the related term 'lo real maravilloso', the marvelous real) — who gave the mode its canonical form. In 'One Hundred Years of Solitude,' ghosts, telepathy, and insomnia plagues are described with the same journalistic precision as political violence and banana company exploitation — because in Aracataca (the Colombian town that inspired Macondo), folk knowledge and lived reality were never neatly separated. The movement spread globally: Isabel Allende's 'The House of the Spirits' (Chile), Salman Rushdie's 'Midnight's Children' (India/Pakistan), Toni Morrison's 'Beloved' (USA), and Haruki Murakami's novels all employ it. Magic Realism is sometimes distinguished from fantasy by its insistence on staying rooted in recognizable social reality — the magic reveals or critiques the political and historical real rather than escaping from it. García Márquez won the Nobel Prize in Literature in 1982."
       }
     ]
   }
