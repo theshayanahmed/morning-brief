@@ -1,17 +1,7 @@
 {
   "streak": 11,
-  "last_session_date": "2026-09-03",
+  "last_session_date": "2026-09-09",
   "questions_seen": [
-    "A shipper consigns electronics to a trusted repeat buyer and wants the receiver to collect without presenting any original transport document. Which instrument achieves this while remaining legally non-negotiable?",
-    "A Bangladesh exporter ships woven fabric pre-cut into shirt shapes but not yet sewn. Under the WCO Harmonized System, which General Rule of Interpretation (GRI) determines that customs should classify these cut panels as shirts rather than fabric?",
-    "After the Panama Canal's expanded locks opened in 2016, which vessel class — capable of transiting the new locks — drove billions in US East Coast port infrastructure investment at Savannah, Baltimore, and New York?",
-    "Bangladesh maritime authorities board a foreign-flagged vessel at Chittagong, inspect SOLAS certificates, MARPOL compliance, and MLC 2006 crew conditions — then detain it for deficiencies. This authority derives from which international regime?",
-    "After the 2M partnership (Maersk + MSC) dissolved in early 2025, Maersk formed a new operational alliance. What is it called, and who is its partner carrier?",
-    "Lord Curzon's 1905 partition of Bengal was reversed in 1911 under mass nationalist pressure. What was the most consequential political outcome of the reversal for the subcontinent's long-run trajectory?",
-    "The Strait of Malacca narrows to approximately 2.7 km at the Phillips Channel near Singapore. Roughly what share of global seaborne trade by value passes through it each year?",
-    "Bangladesh's nominal GDP just crossed $500 billion; the IMF's PPP-adjusted figure is roughly 3× larger (~$1.5–1.8T). What specific economic phenomenon does the PPP adjustment correct for?",
-    "UNESCO's International Mother Language Day — observed every February 21 — was established to honour the 1952 Language Movement martyrs. What specific policy were students protesting when police shot them at Dhaka University?",
-    "Regulators worldwide designate sub-6GHz spectrum (especially 3.5GHz C-band) as the primary band for broad national 5G NR coverage rather than millimeter wave (mmWave, 24–86GHz). What is the core physical reason mmWave cannot serve as a national coverage layer?",
     "A shipper moves goods from Wuhan to Frankfurt via river barge, rail, and road under a single through-bill of lading issued by one operator. What is the correct regulatory/commercial term for this arrangement?",
     "Which containerised trade lane handles the highest global TEU volume — often surprising industry newcomers who assume it is the transpacific or Asia-Europe corridor?",
     "Under the Institute Cargo Clauses (A) — the broadest 'all risks' cargo cover available — which of the following loss events remains EXCLUDED from coverage?",
@@ -501,7 +491,17 @@
     "In the Fisher Equation (MV = PQ), V represents the velocity of money. Which of t",
     "Chiaroscuro, a technique prominent in Italian Renaissance and Baroque painting, ",
     "A 'tritone' is the interval historically labelled 'diabolus in musica' (the devi",
-    "Isaiah Berlin's distinction between 'negative liberty' and 'positive liberty' (f"
+    "Isaiah Berlin's distinction between 'negative liberty' and 'positive liberty' (f",
+    "The Airbus A380F freighter was announced in 2000 with FedEx and UPS as launch customers. What is the correct statement about its commercial deployment status?",
+    "At a major air cargo terminal, what is the primary function of the Make-Up Area (MUA) in export cargo operations?",
+    "Maersk Line's 2005 acquisition of P&O Nedlloyd for ~€2.3 billion created the world's largest container carrier at the time. What was the primary strategic rationale that made P&O Nedlloyd attractive to Maersk?",
+    "A carrier offers a Freight All Kinds (FAK) rate to a BCO shipping a mix of commodity types on the Asia-Europe lane. What is the primary commercial purpose of FAK from the carrier's perspective?",
+    "The Bullwhip Effect describes how small demand changes at retail amplify into large order swings upstream in a supply chain. Which intervention most directly eliminates the root cause rather than managing its symptoms?",
+    "The fall of Constantinople in May 1453 ended the Byzantine Empire after a 53-day siege. What tactical capability proved decisive in breaching the legendary Theodosian Walls?",
+    "In classical thermodynamics, Rudolf Clausius formally defined entropy in 1865. Which expression correctly represents the change in entropy ΔS for a reversible process exchanging heat Q_rev at absolute temperature T?",
+    "CRISPR-Cas9 gene editing directs the Cas9 protein to a specific DNA sequence using a guide RNA. What mechanism does Cas9 then use to edit the target gene?",
+    "In the Monty Hall problem, you pick one of three doors. The host (who knows what is behind each door) opens a different door revealing a goat. What is your probability of winning the car if you switch to the remaining unopened door?",
+    "In Fyodor Dostoevsky's Crime and Punishment (1866), Raskolnikov commits murder partly to test a philosophical theory. Which statement best describes his central argument for why the crime is justified?"
   ],
   "learn_history": [
     {
@@ -693,6 +693,11 @@
       "date": "2026-09-03",
       "topic": "The Strait of Hormuz: How 21 Miles of Shallow Water Govern a Quarter of the World's Seaborne Energy",
       "bucket": "geography"
+    },
+    {
+      "date": "2026-09-09",
+      "topic": "The Impossible Trinity: Why No Central Bank Can Simultaneously Fix Its Exchange Rate, Open Its Capital, and Set Its Own Rates",
+      "bucket": "economics"
     }
   ],
   "curriculum_progress": {
@@ -787,40 +792,40 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 20,
-      "last_seen": "2026-08-21",
+      "count": 21,
+      "last_seen": "2026-09-09",
       "difficulty": 2,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 20,
-      "last_seen": "2026-08-21",
+      "count": 21,
+      "last_seen": "2026-09-09",
       "difficulty": 2,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 20,
-      "last_seen": "2026-08-21",
+      "count": 21,
+      "last_seen": "2026-09-09",
       "difficulty": 2,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 20,
-      "last_seen": "2026-08-21",
+      "count": 21,
+      "last_seen": "2026-09-09",
       "difficulty": 2,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 20,
-      "last_seen": "2026-08-21",
+      "count": 21,
+      "last_seen": "2026-09-09",
       "difficulty": 2,
       "rolling_score": []
     }
   },
   "gk_progress": {
     "history": {
-      "count": 32,
-      "last_seen": "2026-08-22",
+      "count": 33,
+      "last_seen": "2026-09-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -831,26 +836,26 @@
       "rolling_score": []
     },
     "physical_science": {
-      "count": 30,
-      "last_seen": "2026-08-22",
+      "count": 31,
+      "last_seen": "2026-09-09",
       "difficulty": 3,
       "rolling_score": []
     },
     "life_science": {
-      "count": 30,
-      "last_seen": "2026-08-22",
+      "count": 31,
+      "last_seen": "2026-09-09",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 30,
-      "last_seen": "2026-08-22",
+      "count": 31,
+      "last_seen": "2026-09-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 30,
-      "last_seen": "2026-08-22",
+      "count": 31,
+      "last_seen": "2026-09-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -905,159 +910,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-09-03",
+    "date": "2026-09-09",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "An MTO (Multimodal Transport Operator) issues a combined transport document for a sea-rail door-to-door move and sub-contracts the rail leg to a third-party rail carrier. The cargo is damaged on the rail leg. Under the UNCTAD/ICC Rules for Multimodal Transport Documents, how is the MTO's liability to the shipper determined?",
+        "subtopic": "aircraft_carriers",
+        "stem": "The Airbus A380F freighter was announced in 2000 with FedEx and UPS as launch customers. What is the correct statement about its commercial deployment status?",
         "options": [
-          "MTO is liable only if the shipper proves the MTO was negligent in selecting or instructing the sub-carrier",
-          "The MTO assumes full carrier liability for the entire transit; the sub-carrier's identity does not limit the shipper's claim against the MTO",
-          "Liability reverts to the rail carrier's national tariff regime; the MTO's obligation ceases on handover to the sub-carrier",
-          "MTO and rail carrier share liability equally under a proportional co-insurance principle"
+          "Emirates operates 15 A380Fs on Asia-Pacific cargo routes as its flagship long-haul freighter",
+          "The A380F programme was cancelled before any aircraft were delivered; no commercial A380F has ever entered service",
+          "FedEx operates 10 A380Fs on transpacific routes after renegotiating its cancelled order in 2012",
+          "Lufthansa Cargo took delivery of 6 A380Fs in 2011 before Airbus discontinued further production"
         ],
         "correct": 1,
-        "why": "UNCTAD/ICC Rules adopt a 'network' liability framework: the MTO is liable as principal carrier for the whole journey. The applicable regime (maritime, rail, road) determines the quantum for the leg where damage occurred — but the shipper claims against the MTO alone.",
-        "deepDive": "Multimodal transport emerged in the 1960s–80s as containerisation made door-to-door logistics practical across multiple modes. The MTO model — one operator, one document, one liability — simplifies commercial risk for shippers. Under the UNCTAD/ICC Rules (1992), network liability means the MTO is fully responsible for any leg, but the cap is set by the convention governing the damage leg (e.g., Hague-Visby for maritime, CIM for rail). The practical risk: a rail-leg cap may be lower than a maritime one. Sophisticated shippers therefore buy full cargo insurance regardless of the transport document. Knowing which liability regime governs each leg is essential for MGH's multimodal contract negotiations across the Bangladesh-India-Singapore corridor."
+        "why": "Airbus cancelled the A380F before a single aircraft was delivered. FedEx cancelled its order in 2006, UPS followed, and Airbus abandoned the freighter variant entirely. The long-haul freighter market stayed a Boeing duopoly (747F, 777F) until Airbus's A350F arrived in 2025.",
+        "deepDive": "The A380F is aviation's most instructive cancelled programme. Airbus announced it at the 2000 Singapore Airshow alongside the passenger variant, securing FedEx (10 aircraft) and UPS (10 aircraft) as launch customers. Persistent A380 delays — the programme ran two years late — forced FedEx to cancel in 2006 and UPS soon after; both turned to Boeing 777F orders instead. Airbus quietly buried the freighter variant. For 20+ years the long-haul freighter market was a Boeing duopoly: the 747-8F, with its distinctive nose-loading door and 134-tonne payload, and the twin-engine 777F. Airbus's answer, the A350F, finally began first deliveries to Air France-KLM Cargo in 2025 — 25 years after the A380F announcement. The episode illustrates how freight programmes live or die on delivery schedule certainty and operating economics predictability. Customers tolerate risk on passenger jets but freight operators work to precise utilisation models."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "The Asia–North Europe trade lane has a persistent directional cargo imbalance: roughly 2.5x more cargo moves westbound (Asia to Europe) than eastbound (Europe to Asia). What is the primary economic consequence of this imbalance for ocean carriers?",
+        "subtopic": "airport_ops",
+        "stem": "At a major air cargo terminal, what is the primary function of the Make-Up Area (MUA) in export cargo operations?",
         "options": [
-          "Carriers charge premium westbound rates and discount heavily eastbound to incentivise repositioning cargo, perfectly balancing yield",
-          "Empty containers accumulate in European ports and must be repositioned to Asia against the cargo flow at carriers' cost, raising unit economics on all trades",
-          "The imbalance is self-correcting because European manufacturers time shipments to fill returning vessels in proportion to the westbound deficit",
-          "Carriers deploy larger vessels westbound and smaller feeders eastbound, absorbing the imbalance at negligible net cost"
+          "A bonded temperature-controlled zone where perishable and pharmaceutical cargo awaits customs release",
+          "The controlled airside area where loose cargo and pre-built ULDs are assembled by flight, staged for aircraft transfer within cut-off deadlines",
+          "The documentation counter where export air waybills are reconciled with the cargo manifest before the customs seal",
+          "The zone where damaged freight is repackaged and relabelled by the ground handler before boarding"
         ],
         "correct": 1,
-        "why": "Empty-box repositioning is a major structural cost: carriers must ship empty containers from surplus locations (Europe) to deficit locations (Asia) against the cargo flow at zero freight revenue — a cost recovered through Container Imbalance Charges (CIC) embedded in westbound rates.",
-        "deepDive": "The Asia-Europe imbalance (roughly 2.5:1 westbound by volume) is structural, driven by Asia's manufacturing surplus and Europe's consumption model. Repositioning empty boxes is not free — they must be cleaned, inspected, sometimes repaired, then shipped east at zero revenue. Carriers recover this through Container Imbalance Charges (CIC, typically $150–$400/box) embedded in westbound rates. The imbalance strains port infrastructure too: European terminals accumulate container mountains while Asian depots run short. During the 2021–22 supply crisis, the Asian empty-box deficit contributed directly to port congestion and container shortages. The Transpacific lane has a similar ~3:1 imbalance. Carriers manage it through FAK pricing, slot charters, and dedicated repositioning cost models."
+        "why": "The Make-Up Area is the core operational zone in air cargo terminals where Unit Load Devices (ULDs) are assembled and staged by outbound flight — the critical hand-off between warehouse processing and aircraft loading, governed by hard flight cut-off times.",
+        "deepDive": "The Make-Up Area is where air cargo terminal efficiency is won or lost. After export cargo passes acceptance, security screening, and documentation checks, it moves to the MUA to be built into ULDs — pallets, containers, or igloos — matched to specific flights by weight, volume, commodity class, and dangerous goods restrictions. At major hubs like Dubai World Central, Hong Kong HACTL, or Memphis SuperHub, MUAs use automated conveyor systems, real-time warehouse management software, and mechanised ULD transport. Each flight carries a hard cut-off — typically 90–120 minutes before departure — by which all ULDs must be built, weighed, and tagged. Missing the cut-off means cargo rolls to the next flight: a costly delay for time-sensitive or perishable shipments. At hubs processing 2–4 million tonnes annually, MUA congestion is the first bottleneck when weather disruptions, security holds, or volume spikes hit — understanding it is essential for scheduling pharmaceutical, perishable, or high-priority express cargo."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "A cargo shipment is insured under Institute Cargo Clauses (A) — an all-risks policy. Before loading, the shipowner knew a rusted hull plate was likely to leak. During the voyage, seawater enters through that plate and damages the cargo. Under the UK Marine Insurance Act 1906 (s.39(5)), what is the most likely outcome of the cargo claim?",
+        "subtopic": "ma_consolidation",
+        "stem": "Maersk Line's 2005 acquisition of P&O Nedlloyd for ~€2.3 billion created the world's largest container carrier at the time. What was the primary strategic rationale that made P&O Nedlloyd attractive to Maersk?",
         "options": [
-          "The insurer pays in full; ICC (A) all-risks language covers all physical damage from sea water ingress regardless of cause",
-          "The insurer can avoid the claim if the cargo owner (assured) had personal knowledge — privity — of the vessel's unseaworthiness before sailing",
-          "The loss is recoverable under General Average since the ship was unseaworthy at the commencement of loading",
-          "Coverage depends solely on whether the bill of lading contained an express seaworthiness warranty from the shipowner"
+          "P&O Nedlloyd's ownership of ECT Delta terminal in Rotterdam, giving Maersk control of Europe's busiest container facility",
+          "P&O Nedlloyd's vessel-sharing agreement with Evergreen and Yang Ming granting Maersk preferential slot access on Asia-Europe lanes",
+          "P&O Nedlloyd's premium global customer base and complementary geographic network that plugged Maersk's coverage gaps across key trade lanes",
+          "P&O Nedlloyd's majority stake in Sealand Container Lines, which Maersk had previously tried to acquire from CSX Corporation"
         ],
-        "correct": 1,
-        "why": "MIA 1906 s.39(5): in a voyage policy, if the assured was privy to the ship's unseaworthiness at voyage commencement, the insurer can avoid the claim — even under an all-risks policy. An innocent cargo owner without such knowledge can still recover under ICC (A).",
-        "deepDive": "Marine insurance seaworthiness is an implied warranty in voyage policies: the vessel must be fit for the voyage at commencement. Under MIA 1906, breach is automatic and voids coverage regardless of causation. The 'privity' carve-out in s.39(5) protects innocent cargo owners who had no personal knowledge of the defect. The practical grey zone — 'should have known' vs actual knowledge — is heavily litigated in English courts. Sophisticated cargo owners therefore add 'innocent assured' and 'waiver of subrogation' clauses to their policies, commission pre-shipment surveys, and never rely solely on the shipowner's P&I cover. ICC (A) all-risks gives the broadest available scope, but no wording overrides the seaworthiness principle — proper due diligence on the vessel remains essential."
+        "correct": 2,
+        "why": "The acquisition brought Maersk a blue-chip customer base of global manufacturers and retailers plus geographic network coverage complementing its existing footprint. The combined entity controlled ~18% of global TEU capacity — defining the next decade of industry consolidation and the template for liner shipping M&A.",
+        "deepDive": "The 2005 Maersk-P&O Nedlloyd deal is the defining template for container shipping M&A. P&O Nedlloyd was itself a 1997 merger of P&O Containers (British heritage to 1837) and Royal Nedlloyd (Dutch national carrier). By 2005 it ranked 3rd or 4th globally by TEU capacity with a reputation for premium service on Europe-Asia lanes. For Maersk, the value was not tonnage but relationships: P&O Nedlloyd's customer roster included major European and global manufacturers paying premium rates for schedule reliability. Combined, the entity controlled ~18% of global TEU share — dwarfing competitors. The deal launched two decades of accelerating consolidation that compressed the industry from 20 meaningful carriers to 9 by 2024. The M&A playbook in liner shipping consistently follows the same logic: buy the customer base and geographic network reach, then right-size the fleet — not the other way around. Maersk's current integrated logistics pivot (acquiring LF Logistics and others) follows identical network-expansion logic but now targeting the logistics layer above pure shipping."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "A Singapore-based freight company has no US operations, employees, or USD transactions. It books cargo for an Iranian-owned entity that appears on OFAC's SDN list. Under OFAC's secondary sanctions framework, what enforcement risk does the Singapore company face?",
+        "subtopic": "commercial_concepts",
+        "stem": "A carrier offers a Freight All Kinds (FAK) rate to a BCO shipping a mix of commodity types on the Asia-Europe lane. What is the primary commercial purpose of FAK from the carrier's perspective?",
         "options": [
-          "No risk — OFAC jurisdiction requires a US nexus: USD transactions, US persons, or US-incorporated entities involved in the transaction",
-          "OFAC can designate the Singapore company itself as an SDN, effectively cutting it off from the US financial system and all US counterparties globally",
-          "Risk is limited to civil penalties assessed by MAS (Singapore's regulator) under bilateral enforcement agreements with the US",
-          "Secondary sanctions apply only to banks and financial institutions — logistics and shipping companies are excluded"
+          "To reduce customs filing complexity by classifying all cargo under a single HS code, lowering port processing fees for the carrier",
+          "To blend high- and low-yielding commodity classes into one averaged rate, optimising revenue per TEU without commodity-specific negotiations for each shipment",
+          "To guarantee the shipper a rate locked for 12 months regardless of spot market movements, securing the carrier a committed volume baseline",
+          "To give the carrier the contractual right to reject specific hazardous commodities without penalty if vessel capacity is constrained"
         ],
         "correct": 1,
-        "why": "OFAC's secondary sanctions operate extraterritorially: a non-US entity that transacts with an SDN or engages in sanctioned activities can itself be designated as an SDN — losing access to US banking, USD clearing, and US counterparties. USD use or US staff are not required to trigger exposure.",
-        "deepDive": "OFAC's secondary sanctions create extraterritorial jurisdiction by threatening designation — exclusion from the US financial system and all US counterparties — rather than criminal prosecution. For a Singapore freight company, this means being cut off from dollar correspondent banking, US export licences, and any US-linked customer or supplier worldwide. The Iran (CAATSA), Russia, and Venezuela programs are the most consequential. Deceptive shipping practices — AIS transponder spoofing, ship-to-ship transfers at sea, flag hopping, and falsified certificates of origin — are explicitly targeted by OFAC guidance. MGH's compliance team must screen every counterparty against the SDN list before booking cargo, not only USD-denominated transactions. A single confirmed SDN booking can trigger a full OFAC investigation of the entire entity."
+        "why": "FAK (Freight All Kinds) allows carriers to price a single blended rate across all commodity types — streamlining negotiations, preventing cherry-picking of only low-rate commodities, and optimising average yield per TEU across a diverse cargo book. It is a carrier revenue management tool, not a shipper-convenience pricing mechanism.",
+        "deepDive": "FAK rates emerged as a simplification against the complexity of commodity-specific tariff schedules, which historically differentiated rates by cargo type, weight class, declared value, and hazard classification — sometimes hundreds of distinct tariff lines per trade lane. FAK collapses all this into one rate, typically negotiated against a minimum volume commitment (TEUs per quarter or year). The carrier's advantage: they cannot be cherry-picked by shippers booking only the lowest-rate commodity classes; the shipper's full cargo mix is priced as a whole. The shipper's advantage: administrative simplicity and rate predictability across a diverse product portfolio. In practice, high-value, speciality, or out-of-gauge goods (machinery, pharmaceuticals, hazmat) are usually carved out and priced separately. FAK is most common in volume BCO contracts and NVOCC pricing arrangements — rarely seen in spot market bookings, which typically use commodity-specific rates or market indices like the SCFI. Understanding FAK mechanics is important for negotiating with carriers when your cargo mix includes both high- and low-yield commodities."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "The Baltic Dry Index (BDI), published daily by the Baltic Exchange in London, aggregates charter rate assessments across which vessel types, and what is its primary use as a market indicator?",
+        "subtopic": "supply_chain_strategy",
+        "stem": "The Bullwhip Effect describes how small demand changes at retail amplify into large order swings upstream in a supply chain. Which intervention most directly eliminates the root cause rather than managing its symptoms?",
         "options": [
-          "Handysize, Supramax, Panamax, and Capesize dry-bulk carriers — a benchmark for raw material shipping costs and a leading macroeconomic indicator",
-          "Container (TEU-based), dry-bulk, and crude tanker vessel classes — a composite view of the entire seaborne trade market",
-          "VLCC, Suezmax, and Aframax crude tankers — the primary benchmark for global oil-shipping economics",
-          "Neo-Panamax container ships, reefer vessels, and LNG tankers on major trade lanes"
+          "Increasing safety stock at every tier of the supply chain to absorb demand volatility before it propagates upstream",
+          "Implementing vendor-managed inventory (VMI) with real-time point-of-sale data shared directly with upstream suppliers",
+          "Extending supplier order lead times to smooth demand peaks across multiple ordering cycles",
+          "Mandating all suppliers maintain a contractual 90-day buffer stock regardless of current demand signals"
         ],
-        "correct": 0,
-        "why": "The BDI aggregates daily time-charter rate assessments for Handysize, Supramax, Panamax, and Capesize dry-bulk carriers — the four standard size categories for bulk raw materials. It is a leading economic indicator because raw material movements precede manufacturing output by weeks.",
-        "deepDive": "The Baltic Dry Index is published by the Baltic Exchange, a London market institution dating to 1744. It aggregates $/day time-charter assessments across four vessel classes — Capesize (~180,000 DWT, mainly iron ore and coal), Panamax (~75,000 DWT, grain and coal), Supramax (~55,000 DWT, minor bulks), and Handysize (~35,000 DWT, agricultural and steel products) — weighted by route importance. A rising BDI signals growing industrial demand weeks before factory output statistics arrive, making it a genuine leading indicator. The BDI is notorious for volatility — it fell 95% in 2008. Watch it alongside the BDTI/BCTI (tanker indexes) and SCFI/Xeneta (container) for a complete freight market picture. No physical commodity is delivered — it is a pure rate benchmark."
+        "correct": 1,
+        "why": "VMI with POS data sharing attacks the root cause — information latency and demand signal distortion. When upstream suppliers see actual end-consumer demand rather than each tier's inflated order quantities, the amplification cascade breaks at its source. Safety stock only manages symptoms while perpetuating the underlying distortion.",
+        "deepDive": "The Bullwhip Effect was formalised by Hau Lee, V. Padmanabhan, and Seungjin Whang at Stanford in 1997, though practitioners understood it for decades. Its four root causes: demand signal processing errors (each tier amplifies what it sees), order batching (tiers consolidate orders, creating artificial demand spikes), price fluctuations (promotions trigger forward buying), and shortage gaming (buyers over-order during supply crunches). Procter and Gamble famously discovered it analysing Pampers diaper orders — highly stable at retail, wildly volatile for suppliers. Vendor-Managed Inventory (VMI), pioneered by Walmart-P&G in the 1980s, solves all four simultaneously: the supplier sees real POS data, orders continuously rather than in batches, faces stable pricing, and has no incentive to game shortages they now see directly. For logistics and freight, the Bullwhip creates artificial demand spikes in warehousing and transport capacity even when retail demand is flat — understanding it is essential for freight volume forecasting, warehouse capacity planning, and avoiding the trap of ordering extra capacity in response to what is actually phantom demand from a distorted signal."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "religion",
-        "stem": "The Council of Nicaea (325 CE), convened by Emperor Constantine I, was held primarily to resolve which theological controversy dividing the early Christian Church?",
+        "subtopic": "history",
+        "stem": "The fall of Constantinople in May 1453 ended the Byzantine Empire after a 53-day siege. What tactical capability proved decisive in breaching the legendary Theodosian Walls?",
         "options": [
-          "Whether the Old Testament canon should be retained in Christian scripture or replaced entirely by New Testament writings",
-          "Whether Christ was co-equal and co-eternal with God the Father (Nicene position) or a created being subordinate to the Father (Arianism)",
-          "Whether the Bishop of Rome or the Bishop of Constantinople should hold supreme ecclesiastical authority in the Empire",
-          "Whether Constantine's conversion entitled the emperor to appoint bishops and convene councils on doctrinal matters"
+          "A naval blockade by the Ottoman fleet that closed the Golden Horn and starved the defenders over eight months",
+          "Large-calibre bronze cannons — including the giant Basilica cast by Hungarian engineer Urban — producing the first decisive use of artillery against medieval fortifications at scale",
+          "A covert Ottoman assault through an unguarded gate betrayed by a Greek traitor within the Byzantine court",
+          "Janissary infantry crossing the Golden Horn on pontoon bridges built overnight, outflanking the chain barrier"
         ],
         "correct": 1,
-        "why": "Nicaea settled the Arian controversy by affirming Christ as homoousios — 'of the same substance' as the Father — codified in the Nicene Creed. Arius had taught that Christ was the Father's first and greatest creation ('there was a time when he was not'), which the majority condemned as heresy.",
-        "deepDive": "Arius of Alexandria argued Christ was the Father's first and greatest creation — subordinate, not co-eternal. Athanasius insisted Christ's full divinity was necessary for salvation: only God can save us, so Christ must be fully God. Constantine convened Nicaea to settle the dispute, partly for political unity across his empire. The resulting homoousios ('same substance') formulation was deeply contested — homoiousios ('similar substance') was the moderate alternative, differing by a single Greek letter (iota), producing the famous quip 'an iota that divided an empire.' Arianism did not die at Nicaea; it spread among Gothic and Germanic tribes for two more centuries. The Nicene Creed, still recited by Catholics, Eastern Orthodox, and most Protestants today, is Nicaea's lasting product."
+        "why": "Mehmed II employed massive bronze cannons — particularly the Basilica, a 62-foot cannon firing 1,200 lb granite balls — to breach the Theodosian Walls that had resisted siege for 1,000 years. It was the first time artillery proved strategically decisive against medieval stone fortifications at this scale.",
+        "deepDive": "Constantinople fell on May 29, 1453 — one of history's true hinge events, the conventional end of the Middle Ages. Mehmed II's decisive weapon was gunpowder artillery, specifically the Basilica cannon cast by Hungarian engineer Urban, who had first offered his services to Byzantine Emperor Constantine XI — who could not afford him. The Basilica was roughly 62 feet long, fired stone balls weighing over 1,200 pounds, and could reload only about once per hour; it cracked its own barrel within weeks, but had already done its work on the Theodosian Walls, which had resisted every siege for a millennium. The city fell on the 53rd day. The consequences cascaded across centuries: Greek scholars fled west, accelerating the Italian Renaissance; Ottoman control of overland Silk Road routes pushed European powers toward maritime exploration, directly inspiring Columbus, da Gama, and Magellan; and 1,500 years of Roman imperial continuity ended. Mehmed became Fatih — the Conqueror — and renamed the city Istanbul, transforming it into the Ottoman Empire's capital for the next 450 years."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "In the Fisher Equation (MV = PQ), V represents the velocity of money. Which of the following definitions is most precisely correct?",
+        "subtopic": "physical_science",
+        "stem": "In classical thermodynamics, Rudolf Clausius formally defined entropy in 1865. Which expression correctly represents the change in entropy ΔS for a reversible process exchanging heat Q_rev at absolute temperature T?",
         "options": [
-          "The rate at which the central bank's policy rate changes pass through to commercial lending rates in the banking system",
-          "The average number of times each unit of currency is spent on final goods and services transactions within a given period",
-          "The ratio of broad money supply (M2) to high-powered money (M0) — the money multiplier",
-          "The rate at which inflation erodes the purchasing power of money held in savings accounts"
+          "ΔS = Q_rev × T",
+          "ΔS = Q_rev / T",
+          "ΔS = T / Q_rev",
+          "ΔS = Q_rev / T²"
         ],
         "correct": 1,
-        "why": "Velocity (V) measures money turnover: if nominal GDP (PQ) is $20 trillion and the money supply (M) is $4 trillion, V = 5 — each dollar is spent five times on average per year. It is derived from the other variables, not directly observed, making it empirically unstable and policy-resistant.",
-        "deepDive": "The Fisher Equation is an accounting identity, not a behavioural law. Early monetarists (Friedman) assumed V was roughly stable, so controlling M directly controlled PQ (nominal GDP) — the foundation of monetarist policy. The 2008–2022 era destroyed this assumption: central banks tripled money supplies through QE while US velocity collapsed from ~2.0 to ~1.1 as banks parked excess reserves. Then in 2021–22, as behaviour normalised and supply chains broke, velocity recovered sharply — amplifying inflation well beyond what money supply metrics alone predicted. The lesson: MV = PQ is always true as an identity, but V is driven by confidence, payment system velocity, and savings behaviour — deeply behavioural and impossible to directly control through monetary policy."
+        "why": "Clausius's definition: ΔS = Q_rev / T, where Q_rev is heat exchanged reversibly and T is absolute temperature. This foundational relationship quantifies thermodynamic disorder and underpins the Second Law — total entropy of an isolated system can only increase or remain constant.",
+        "deepDive": "Rudolf Clausius coined 'entropy' in 1865 from the Greek 'trope' (transformation), defining it as ΔS = Q_rev / T for a reversible process — the classical thermodynamic formulation. Ludwig Boltzmann later provided the statistical mechanical interpretation: S = k_B ln Ω, where Ω is the number of microscopic configurations consistent with a macroscopic state, showing entropy as molecular disorder. The two are mathematically equivalent but illuminate different aspects. The Second Law — total entropy of an isolated system never decreases — is the thermodynamic arrow of time: it explains why heat flows from hot to cold spontaneously (not the reverse), why broken eggs never reassemble, and why all real processes are irreversible. Practically: the Carnot efficiency limit (1 minus T_cold over T_hot) tells engineers the theoretical maximum efficiency of any heat engine between two temperature reservoirs. In information theory, Claude Shannon mapped identical mathematics to information uncertainty (H = minus sum of p_i times log p_i) — a bridge Boltzmann anticipated and that underpins modern data compression algorithms and AI model design."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Chiaroscuro, a technique prominent in Italian Renaissance and Baroque painting, refers specifically to which artistic method?",
+        "subtopic": "life_science",
+        "stem": "CRISPR-Cas9 gene editing directs the Cas9 protein to a specific DNA sequence using a guide RNA. What mechanism does Cas9 then use to edit the target gene?",
         "options": [
-          "Applying tempera paint over a wet fresco base to preserve fine detail as the plaster dries",
-          "The dramatic contrast between areas of intense light and deep shadow to model three-dimensional form and create emotional intensity",
-          "The mathematical construction of linear perspective using multiple vanishing points to simulate spatial depth on a flat surface",
-          "Building translucent layers of oil paint glazes over a white gesso ground to achieve interior luminosity in painted surfaces"
+          "Cas9 methylates the target DNA sequence to silence gene expression without breaking the double helix",
+          "Cas9 acts as an endonuclease, creating a double-strand break at the target site, which triggers the cell's own DNA repair mechanisms to introduce the edit",
+          "Cas9 inserts a viral vector carrying the replacement gene sequence that integrates randomly into the nucleus",
+          "Cas9 uses reverse transcriptase to directly rewrite the nucleotide sequence without cutting the DNA strand"
         ],
         "correct": 1,
-        "why": "Chiaroscuro (Italian: 'light-dark') is the technique of using strong tonal contrasts to give subjects sculptural volume and psychological drama. It was pioneered by Leonardo da Vinci and taken to its extreme in Caravaggio's tenebrism and Rembrandt's intimate studio scenes.",
-        "deepDive": "Leonardo's related technique — sfumato ('smoky') — blurs the transitions between light and dark to create atmospheric depth, visible in the Mona Lisa's face. Caravaggio (1571–1610) pushed chiaroscuro to tenebrism: figures emerge from near-total darkness, as in 'The Calling of Saint Matthew' (1600), using an almost theatrical spotlight. Rembrandt (1606–1669) made it intimate — warm lamplight and psychological interiority. The technique migrated into cinema: German Expressionist film (Murnau's 'Nosferatu', 1922) weaponised extreme contrast for menace; film noir (Wilder's 'Double Indemnity', 1944) made it the visual language of moral ambiguity. Understanding chiaroscuro is understanding how controlled light has been used as an emotional instrument across 500 years of Western art and film."
+        "why": "Cas9 is an endonuclease — it cuts both strands of DNA at the guide-RNA-specified location. The double-strand break triggers either NHEJ repair (introducing insertions or deletions, useful for knockouts) or HDR repair (enabling precise sequence replacement using a provided template).",
+        "deepDive": "CRISPR was identified as a bacterial adaptive immune system in the 1980s to 1990s. Jennifer Doudna, Emmanuelle Charpentier, and collaborators published the landmark 2012 paper demonstrating that Cas9 could be reprogrammed with a custom guide RNA to cut any DNA sequence — earning the 2020 Nobel Prize in Chemistry. Mechanism: a 20-nucleotide guide RNA base-pairs with the target DNA; Cas9 cleaves both strands at that location. The double-strand break triggers two cellular pathways. Non-Homologous End Joining (NHEJ) is error-prone, typically deleting or inserting nucleotides — used to knock out genes. Homology-Directed Repair (HDR) uses a provided DNA template to insert a precise replacement sequence — used for therapeutic correction. Key limitation: off-target cuts at similar sequences remain a safety concern for human therapy. The field has since extended to base editors and prime editors that modify DNA without double-strand cuts, reducing off-target risk. CRISPR is now in clinical trials for sickle cell disease, transthyretin amyloidosis, and multiple cancers."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "A 'tritone' is the interval historically labelled 'diabolus in musica' (the devil in music) and systematically avoided in medieval polyphonic counterpoint. What interval does a tritone span?",
+        "subtopic": "mathematics",
+        "stem": "In the Monty Hall problem, you pick one of three doors. The host (who knows what is behind each door) opens a different door revealing a goat. What is your probability of winning the car if you switch to the remaining unopened door?",
         "options": [
-          "Three whole tones — equivalent to an augmented fourth or diminished fifth, exactly six semitones, precisely bisecting the octave",
-          "Three consecutive semitones, equivalent to a minor third",
-          "The interval from the tonic to the seventh scale degree of a natural major scale",
-          "Two consecutive perfect fifths in parallel motion, prohibited in strict counterpoint for a different reason"
+          "1/3 — switching does not improve odds; the host's action is irrelevant to your original choice",
+          "1/2 — because only two doors remain after the host opens one",
+          "2/3 — switching doubles your win probability compared to staying with your original door",
+          "3/4 — because the host's non-random reveal distributes probability unevenly across both remaining doors"
         ],
-        "correct": 0,
-        "why": "A tritone spans exactly three whole tones (hence 'tri-tone'), equivalent to an augmented fourth (e.g., C to F#) or enharmonically a diminished fifth. At six semitones, it bisects the octave precisely — the only interval that does — creating maximal harmonic instability.",
-        "deepDive": "The tritone's medieval prohibition was aesthetic and theological: its extreme dissonance resisted resolution and felt disordered in modal polyphony's smooth voice-leading. Structurally, the dominant seventh chord (e.g., G7 in C major) contains a tritone between its third (B) and seventh (F) that aches to resolve inward to the tonic (C-E) — this is the engine of tonal tension and release. Jazz musicians exploit this via tritone substitution: replacing G7 with Db7 (a tritone away) shares the same resolution energy with a chromatic colour. In metal and avant-garde music the tritone is weaponised for its instability — Black Sabbath's opening 'Black Sabbath' riff and Jimi Hendrix's 'Purple Haze' intro both deploy it deliberately for menace."
+        "correct": 2,
+        "why": "Switching wins with probability 2/3. Your original door has a fixed 1/3 chance of being correct. The host's non-random action — always revealing a goat from the other two doors — concentrates the remaining 2/3 probability entirely onto the single remaining door you did not pick.",
+        "deepDive": "The Monty Hall Problem is probability's most famous counterintuitive result, popularised by Marilyn vos Savant in her 1990 Parade column. The key insight: the host's action is not random — they always open a losing door from the unchosen set, which is asymmetric information. At selection: your door P equals one third; the other two doors combined P equals two thirds. After the host eliminates one losing door from the other-two group, that two-thirds probability collapses entirely onto the single remaining door. Switching is therefore two-thirds vs staying at one-third. When vos Savant published the correct answer, thousands of PhD mathematicians wrote in disputing it — demonstrating how poorly humans handle conditional probability. Bayes' theorem formalises the result precisely. A concrete intuition: imagine 1,000 doors instead of 3 — you pick one, the host opens 998 losing doors, leaving one other door. Obviously the car is almost certainly behind the other door. The same Bayesian updating logic underlies medical diagnostic test interpretation, financial risk modelling, and AI classifier calibration — any situation where new information updates prior probabilities."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "Isaiah Berlin's distinction between 'negative liberty' and 'positive liberty' (from his 1958 lecture 'Two Concepts of Liberty') maps most closely onto which political division in modern political philosophy?",
+        "subtopic": "literature",
+        "stem": "In Fyodor Dostoevsky's Crime and Punishment (1866), Raskolnikov commits murder partly to test a philosophical theory. Which statement best describes his central argument for why the crime is justified?",
         "options": [
-          "Negative liberty ≈ freedom from external coercion (classical liberal / libertarian tradition); positive liberty ≈ freedom to realise one's potential, often requiring state support (social democratic tradition)",
-          "Negative liberty ≈ Marxist freedom from private property; positive liberty ≈ fascist freedom through state direction and collective will",
-          "Negative liberty ≈ conservative freedom from change and disorder; positive liberty ≈ progressive freedom through planned social transformation",
-          "Negative liberty ≈ democratic freedom from tyranny; positive liberty ≈ authoritarian freedom through discipline and collective obedience"
+          "That property is theft and redistributing wealth from the parasitic rich to the productive poor is morally obligatory",
+          "That extraordinary individuals — Napoleonic figures who drive history — have the moral right to transgress conventional law when it serves a higher purpose",
+          "That without God all things are permitted and morality is purely a social construct with no objective basis",
+          "That voluntary suffering through crime is the highest form of penance and accelerates spiritual redemption"
         ],
-        "correct": 0,
-        "why": "Berlin defined negative liberty as 'freedom from' external interference — the classical liberal tradition from Locke through Hayek. Positive liberty is 'freedom to' realise one's authentic potential — which can require state intervention to provide capacity, aligning with the social democratic tradition.",
-        "deepDive": "Berlin's 1958 Oxford lecture is among the most influential essays in modern political philosophy. Negative liberty — the absence of deliberate interference by other persons — underpins classical liberalism (Locke, Mill, Hayek): the state should stay out of the individual's life. Positive liberty — the capacity to act as a self-directing agent — underpins social democracy: meaningful freedom requires education, healthcare, and economic security that the state must provide. Berlin was deeply suspicious of positive liberty because it can slide into paternalism ('I know what your real freedom requires') or authoritarian collectivism. Critics counter that negative liberty ignores structural barriers — poverty, discrimination — that make formal freedom hollow in practice. Both remain live in every major policy debate today."
+        "correct": 1,
+        "why": "Raskolnikov divides humanity into ordinary people bound by conventional morality and extraordinary people — Napoleon-types — with the right to transgress law for a greater historical purpose. His murder tests whether he belongs to the extraordinary category. The novel's arc reveals he does not, and the theory is philosophically bankrupt.",
+        "deepDive": "Published in 1866 as Dostoevsky was escaping debt, Crime and Punishment is his first major mature novel — shaped by Siberian imprisonment and his rejection of utilitarian and nihilistic philosophy circulating in 1860s Russian intellectual culture. Raskolnikov's Napoleon complex — the idea that history's great men (Caesar, Napoleon, Mohammed) broke conventional moral laws and were celebrated for it — is Dostoevsky's satirical target. The murder is conceived as a rational utilitarian act: eliminate a parasitic pawnbroker, free her capital for society's productive use. The novel's power comes from what follows: guilt, paranoia, the psychological cat-and-mouse with detective Porfiry Petrovich, and Raskolnikov's moral disintegration revealing the theory's bankruptcy. Dostoevsky's response is fundamentally Christian: no one stands above moral law, and the only exit from nihilistic individualism is suffering, confession, and rebirth through humility. The novel directly influenced Nietzsche, Kafka, Camus, and Sartre — and remains the definitive literary exploration of whether ends can ever justify criminal means."
       }
     ]
   }
