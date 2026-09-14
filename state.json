@@ -1,17 +1,7 @@
 {
   "streak": 12,
-  "last_session_date": "2026-09-12",
+  "last_session_date": "2026-09-14",
   "questions_seen": [
-    "Under Incoterms 2020, DDP (Delivered Duty Paid) places the maximum obligation on the seller. Which of the following best captures the critical practical risk DDP creates for the seller?",
-    "In ocean freight, a 'claused' (or 'unclean') Bill of Lading differs from a 'clean' B/L. What does a clause or notation on the B/L signify, and why does it critically matter to an exporter collecting payment under a Letter of Credit?",
-    "A Container Imbalance Charge (CIC), sometimes called an Equipment Repositioning Surcharge (ERS), is levied by ocean carriers on certain trade lanes. What specific cost does this charge recover?",
-    "A freight forwarder consolidates multiple shippers' cargo and issues each shipper a House Air Waybill (HAWB), while the airline issues the forwarder a Master Air Waybill (MAWB). Which statement best describes the legal character of the HAWB?",
-    "The Regional Comprehensive Economic Partnership (RCEP) — the world's largest FTA by GDP and population — was signed November 2020 and in force January 2022 across 15 nations. Which major Asian economy walked away from RCEP negotiations in November 2019 and remains outside the agreement?",
-    "The Congress of Vienna (1814-15) reshaped Europe after Napoleon's defeat. Which Austrian statesman served as its dominant architect, championing the principle of 'legitimacy' — restoring pre-revolutionary monarchies — as the new European order's foundation?",
-    "The Tibetan Plateau is called 'the Water Tower of Asia' because major rivers originate there. Which of the following rivers does NOT originate on or near the Tibetan Plateau?",
-    "Le Chatelier's Principle states that a system at equilibrium shifts to counteract an imposed change. When pressure is increased on a gaseous equilibrium system, which shift occurs?",
-    "In morphology, 'derivational morphemes' differ from 'inflectional morphemes.' Which of the following examples illustrates a derivational morpheme?",
-    "A dataset has values {2, 4, 4, 4, 5, 5, 7, 9} with mean = 5 and standard deviation σ ≈ 2. If every value is doubled, what happens to the standard deviation of the new dataset?",
     "An exporter ships trade-show display equipment and professional samples across three countries over six months, then repatriates them. Which customs document enables duty-free temporary admission across borders without filing complex import declarations in each country?",
     "A Vietnam garment manufacturer imports Chinese fabric, makes finished shirts, and re-exports to the US — paying import duties on the fabric at Vietnam customs entry. Under duty drawback, what can the exporter claim?",
     "A crude-oil charterer wants the largest tanker class that can transit the Suez Canal fully laden for a Persian Gulf-to-Rotterdam voyage. Which vessel class meets this specification?",
@@ -501,7 +491,17 @@
     "Beethoven composed his Ninth Symphony (premiered 1824) while effectively deaf, having lost nearly all hearing by ~1814. Which faculty enabled him to produce fully orchestrated scores without acoustic feedback?",
     "Hannah Arendt covered the 1961 Eichmann trial in Jerusalem and coined the phrase ‘banality of evil’ in her subsequent book. What was the central, controversial argument she made?",
     "The ‘Resource Curse’ (Sachs & Warner, 1995) describes how resource-rich developing countries often grow slower than resource-poor peers. Among competing explanatory mechanisms, which has the strongest empirical support as the primary channel?",
-    "The Higgs boson, confirmed at CERN’s LHC in July 2012, is structurally unique among all fundamental particles in the Standard Model. What makes it structurally distinct from the force-carrying gauge bosons (photon, W±, Z⁰, gluons)?"
+    "The Higgs boson, confirmed at CERN’s LHC in July 2012, is structurally unique among all fundamental particles in the Standard Model. What makes it structurally distinct from the force-carrying gauge bosons (photon, W±, Z⁰, gluons)?",
+    "A shipper issues a Through Bill of Lading (TBL) for a container from Dhaka to Rotterdam via sea and onward rail in Europe. Under a TBL, who is the shipper's primary legal counterparty for the full door-to-door journey?",
+    "On the Asia-North Europe trade lane, when major carriers collectively announce a programme of blank sailings removing 20% of weekly capacity, what is the PRIMARY intended market effect?",
+    "Under the Institute Cargo Clauses (ICC), what is the principal coverage difference between Clause A and Clause B for a cargo owner making a claim?",
+    "Under US Customs' Importer Security Filing (ISF 10+2), which party carries the PRIMARY obligation to file the '10' data elements with US CBP before vessel loading?",
+    "In the supply chain 'bullwhip effect,' which actor typically experiences the greatest amplification of demand signals relative to underlying consumer demand?",
+    "Which 19th-century statesman is most associated with Realpolitik and successfully unified the German states under Prussian leadership through three deliberate wars between 1864 and 1871?",
+    "The Krebs cycle (citric acid cycle) — which produces NADH, FADH₂, and GTP from acetyl-CoA — occurs within which specific compartment of a eukaryotic cell?",
+    "In Bayesian statistics, when the prior distribution and posterior distribution belong to the same parametric family after updating on observed data, the prior is called what type of distribution relative to the likelihood?",
+    "Which Japanese novelist, awarded the Nobel Prize in Literature in 1968, wrote 'Snow Country' (Yukiguni), whose opening 'The train came out of the long tunnel into the snow country' is among Japanese literature's most celebrated lines?",
+    "Lake Titicaca — the world's highest commercially navigable lake at approximately 3,812 metres — sits on the Andean Altiplano bordering which two countries?"
   ],
   "learn_history": [
     {
@@ -708,6 +708,11 @@
       "date": "2026-09-12",
       "topic": "The Iron Law of Oligarchy: Why Every Organisation — Including Democratic Ones — Concentrates Power in Small Elites",
       "bucket": "sociopolitical"
+    },
+    {
+      "date": "2026-09-14",
+      "topic": "Gate-All-Around Transistors: Why Physics Forced a Fundamental Redesign of the Building Block of All Chips",
+      "bucket": "semiconductor_foundations"
     }
   ],
   "curriculum_progress": {
@@ -766,14 +771,14 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 21,
-      "last_seen": "2026-09-03",
+      "count": 22,
+      "last_seen": "2026-09-14",
       "difficulty": 4,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 21,
-      "last_seen": "2026-09-03",
+      "count": 22,
+      "last_seen": "2026-09-14",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -784,20 +789,20 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 21,
-      "last_seen": "2026-09-03",
+      "count": 22,
+      "last_seen": "2026-09-14",
       "difficulty": 4,
       "rolling_score": []
     },
     "compliance": {
-      "count": 21,
-      "last_seen": "2026-09-03",
+      "count": 22,
+      "last_seen": "2026-09-14",
       "difficulty": 4,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 21,
-      "last_seen": "2026-09-03",
+      "count": 22,
+      "last_seen": "2026-09-14",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -834,14 +839,14 @@
   },
   "gk_progress": {
     "history": {
-      "count": 33,
-      "last_seen": "2026-09-09",
+      "count": 34,
+      "last_seen": "2026-09-14",
       "difficulty": 4,
       "rolling_score": []
     },
     "geography": {
-      "count": 32,
-      "last_seen": "2026-09-11",
+      "count": 33,
+      "last_seen": "2026-09-14",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -852,20 +857,20 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 31,
-      "last_seen": "2026-09-09",
+      "count": 32,
+      "last_seen": "2026-09-14",
       "difficulty": 3,
       "rolling_score": []
     },
     "mathematics": {
-      "count": 31,
-      "last_seen": "2026-09-09",
+      "count": 32,
+      "last_seen": "2026-09-14",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 31,
-      "last_seen": "2026-09-09",
+      "count": 32,
+      "last_seen": "2026-09-14",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -920,159 +925,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-09-12",
+    "date": "2026-09-14",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "incoterms",
-        "stem": "Under Incoterms 2020, FCA (Free Carrier) was amended with an optional mechanism specifically to solve a documentary problem for sellers drawing payment under Letters of Credit. What does this optional mechanism allow?",
+        "subtopic": "multimodal",
+        "stem": "A shipper issues a Through Bill of Lading (TBL) for a container from Dhaka to Rotterdam via sea and onward rail in Europe. Under a TBL, who is the shipper's primary legal counterparty for the full door-to-door journey?",
         "options": [
-          "The seller may designate the vessel as the named place, making FCA equivalent to FOB for all LC purposes",
-          "Parties may agree that the buyer instructs their nominated carrier to issue an on-board Bill of Lading to the seller after loading",
-          "The forwarder may substitute a FIATA FBL in place of an ocean B/L, making it automatically LC-acceptable",
-          "The seller may delay risk transfer until the LC is confirmed by the advising bank at origin"
+          "The ocean carrier for the sea leg only; rail carrier for the European leg",
+          "The issuing carrier, as principal for the entire journey",
+          "The first carrier (inland trucker), with sub-contracted liability thereafter",
+          "No single party; liability is apportioned by each modal segment's carrier"
         ],
         "correct": 1,
-        "why": "FCA 2020 added an optional clause allowing the buyer to instruct their carrier to issue an on-board B/L to the seller after loading — resolving the longstanding LC documentary problem under FCA terms.",
-        "deepDive": "Under Incoterms 2010, FCA transferred risk at the buyer’s nominated carrier at a named place — flexible and efficient, but creating a problem: Letters of Credit require ‘on-board’ Bills of Lading as proof of shipment, yet the carrier (being the buyer’s agent) would not issue one to the seller. Exporters were forced into FOB to get LC-compliant documents, surrendering origin-side control. The Incoterms 2020 optional clause under FCA A6/B6 allows seller and buyer to agree the buyer instructs their carrier to provide an on-board B/L to the seller after loading. This solves the LC problem while retaining FCA’s flexibility. Common misconception: the amendment makes FCA identical to FOB. It does not — risk still transfers at the named place at origin, not at the ship’s rail. Further reading: ICC Incoterms 2020 commentary, FCA A6/B6 annotation."
+        "why": "Under a Through Bill of Lading, the issuing carrier accepts liability as principal for the entire transit — the shipper has one legal counterparty regardless of sub-carriers.",
+        "deepDive": "A Through Bill of Lading (TBL) is a single contract of carriage covering multiple modes or carriers from origin to destination. The issuing carrier acts as principal — not agent — for the whole journey, meaning the shipper has one legal counterparty regardless of how many sub-carriers perform individual legs. This contrasts with a port-to-port B/L (covering only the sea leg) and a multimodal B/L (which may vary). The practical consequence is significant: if the rail leg in Germany fails, the shipper sues the issuing ocean carrier, who recovers from the sub-carrier. Many TBLs incorporate the 'network liability' principle — the law of the leg where damage occurred governs — while others use 'uniform liability' throughout. Common misconception: a multimodal B/L and a Through B/L are often used interchangeably, but strict legal usage distinguishes them. TBLs simplify claims for shippers but concentrate credit and legal risk on the issuing carrier — which is why freight rates on TBL services carry a premium. Major carriers offering TBL services effectively become end-to-end logistics providers, competing with 3PLs."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "bill_of_lading",
-        "stem": "A shipper issues an Order Bill of Lading endorsed ‘in blank’ to a collecting bank. The bank releases the B/L to the buyer against payment. The buyer endorses it to a third party and resells the cargo mid-voyage. Under general maritime law, who has the right to demand delivery at the destination port?",
+        "subtopic": "trade_lanes",
+        "stem": "On the Asia-North Europe trade lane, when major carriers collectively announce a programme of blank sailings removing 20% of weekly capacity, what is the PRIMARY intended market effect?",
         "options": [
-          "The original shipper, as blank endorsement only creates a security interest and does not transfer title outright",
-          "The third-party holder who received the endorsed B/L — whoever holds the original document is entitled to demand delivery",
-          "The collecting bank, because it retained an equitable lien on the cargo when it released the B/L against payment",
-          "The original buyer, as resale of cargo mid-voyage requires a Switch B/L to be legally effective"
+          "Reducing vessel fuel burn to improve IMO CII carbon intensity ratings",
+          "Supporting freight rate levels by tightening effective supply against existing demand",
+          "Redistributing volume to feeder services to ease main-line port congestion",
+          "Complying with vessel-scheduling requirements at Rotterdam and Hamburg"
         ],
         "correct": 1,
-        "why": "An Order B/L endorsed in blank is bearer paper under maritime law — the carrier is obligated to deliver to whichever party presents the original document, making the third-party holder the rightful claimant.",
-        "deepDive": "The Order Bill of Lading is a negotiable document of title under COGSA (US), COGSA 1992 (UK) and equivalent statutes. Endorsing it ‘in blank’ removes the named endorsee, converting it to bearer form: whoever holds the original may present it and demand delivery. This negotiability is what makes order B/Ls the instrument of trade finance — sellers pledge them as collateral, banks hold them as security, and buyers can resell cargo mid-voyage by handing on the endorsed document. The carrier has no obligation to investigate the chain of endorsements; it must simply honour the original. Common misconception: resale mid-voyage requires a Switch B/L. Switch B/Ls are used when a party wants to obscure origin or supplier identity — they are a commercial instrument, not a legal requirement for title transfer. Blank endorsement of the original achieves transfer of title without carrier involvement. Risk: lost or stolen blank-endorsed B/Ls give the finder delivery rights."
+        "why": "Blank sailings reduce effective supply to maintain or lift spot rates — carriers' primary short-term tool for rate management independent of demand levels.",
+        "deepDive": "Blank sailings (cancelled port calls or skipped voyages) are the container shipping industry's most powerful short-term tool for capacity discipline. By reducing effective supply without scrapping fleet, carriers tilt the supply-demand balance in their favour to defend rate floors or trigger General Rate Increase success. The Asia-North Europe lane — the world's largest by revenue — sees this regularly: in soft demand periods, alliances coordinate blanks to absorb slack. Critics note this is cooperative capacity management that would constitute price-fixing in other industries; regulators grant block exemptions (EU) and anti-trust immunity (US Shipping Act) specifically for liner conferences. A common misconception is that blank sailings are primarily operational — they are primarily commercial. IMO CII ratings do create an independent incentive to slow-steam or blank, but that is distinct from rate management. In September 2026, with transpacific firm and Asia-Europe soft, blank sailing programmes diverge sharply by trade lane — illustrating that carriers manage each lane independently rather than globally."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "pricing",
-        "stem": "A carrier quotes a ‘door-to-door’ ocean freight rate for a China-to-Germany FCL shipment including origin inland haulage, THC at both ends, and ocean base rate. Which of the following is most likely NOT included in the all-in quoted rate?",
+        "subtopic": "marine_insurance",
+        "stem": "Under the Institute Cargo Clauses (ICC), what is the principal coverage difference between Clause A and Clause B for a cargo owner making a claim?",
         "options": [
-          "Origin inland haulage from the shipper’s factory to the container yard",
-          "Destination terminal handling charge (THC) at Hamburg",
-          "Import customs duties and VAT payable at German customs",
-          "Destination inland haulage from Hamburg port to the consignee’s warehouse"
+          "ICC(A) is all-risks; ICC(B) covers only named perils — reversing the burden of proof on the insured",
+          "ICC(A) covers sea transit only; ICC(B) extends to air and overland legs",
+          "ICC(A) applies to containerised cargo; ICC(B) applies to bulk and break-bulk shipments",
+          "ICC(A) requires Lloyd's placement; ICC(B) can be placed with any approved insurer"
         ],
-        "correct": 2,
-        "why": "Door-to-door rates bundle inland haulage, terminal handling, and ocean freight, but import duties and taxes are government-imposed and always invoiced separately — no carrier includes them in a freight quote.",
-        "deepDive": "Door-to-door pricing emerged as carriers and NVOCCs sought to simplify quoting versus traditional port-to-port ‘liner terms’ where each ancillary fee was itemised. A door-to-door rate typically includes: origin pick-up haulage, origin CY/CFS charges, ocean base rate, destination terminal handling (sometimes), and destination inland delivery. What it never includes: (1) import duties and taxes — these are government-assessed on the commodity’s HS code and declared value, (2) customs brokerage service fees, (3) fumigation or phytosanitary inspection costs, and (4) storage beyond free time. Shippers evaluating ‘all-in’ quotes must always ask whether duties are included or whether a separate brokerage engagement is needed. The only Incoterm that includes import duties on the seller’s side is DDP (Delivered Duty Paid). Failing to account for duties is one of the most common costing errors in cross-border commercial negotiations."
+        "correct": 0,
+        "why": "ICC(A) is all-risks — the insurer bears the burden of proving an exclusion; ICC(B) is named-peril — the insured must prove the loss falls within a listed peril.",
+        "deepDive": "The Institute Cargo Clauses — published by the Joint Cargo Committee (London) — are the global standard for marine cargo insurance. ICC(A) is the broadest: it covers all risks of physical loss or damage from any external cause, subject to named exclusions (war, inherent vice, inadequate packing, delay, etc.). The insured simply proves loss occurred during transit; the insurer must establish an exclusion applies. ICC(B) is an intermediate named-peril policy covering: fire, explosion, stranding, sinking, collision, earthquake, lightning, jettison, washing overboard, plus general average and salvage charges. The insured must prove the loss falls within a listed peril — which can be difficult (e.g., was water damage from a 'wave washing overboard' or from condensation?). ICC(C) is the most restricted, covering only major casualty events. For containerised general cargo, ICC(A) is standard market practice. For low-value bulk commodities where premium cost matters, (B) or (C) is common. A persistent misconception is that 'all-risks' means literally everything — the exclusions under ICC(A) are substantial and include delay (regardless of cause), inherent vice, and wilful misconduct."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "air_freight",
-        "stem": "IATA is phasing out its legacy Cargo Interchange Message Procedures (Cargo-IMP) — the FWB, FHL and related flat-text message formats used across the air cargo chain for decades. What standard is replacing it under IATA’s ONE Record initiative?",
+        "subtopic": "compliance",
+        "stem": "Under US Customs' Importer Security Filing (ISF 10+2), which party carries the PRIMARY obligation to file the '10' data elements with US CBP before vessel loading?",
         "options": [
-          "SITA Type-B messaging upgraded with XML headers and structured field validation",
-          "UN/EDIFACT CUSCAR and CUSRES message pairs adapted for air cargo pre-clearance",
-          "Cargo-XML with a linked-data REST API model where each data entity is an independent record interconnected by reference",
-          "ISO 20022 financial messaging standard adapted for air freight documentation and customs"
+          "The NVOCC named on the master bill of lading",
+          "The ocean carrier, as the licensed principal filer",
+          "The importer of record, or their licensed customs broker as agent",
+          "The foreign exporter named in the commercial invoice"
         ],
         "correct": 2,
-        "why": "IATA ONE Record uses Cargo-XML and a linked-data REST API architecture where each data object (shipment, piece, milestone, IoT reading) is a discrete JSON-LD record linked by reference — replacing flat IMP message strings.",
-        "deepDive": "Cargo-IMP dates from the 1970s: flat, fixed-field text messages transmitted over SITA Type-B networks, still in daily use at most airlines, forwarders and ground handlers. IATA’s ONE Record initiative (mandatory for IATA member airlines from 2026) replaces this with a linked-data model: each entity — shipment, house waybill, piece, IoT sensor reading, customs milestone — is an independent JSON-LD record accessible via a standardised REST API. The key innovation is federation: each supply chain actor (shipper, forwarder, airline, customs authority, consignee) hosts their own data nodes and exposes specific records under access controls, so data travels with the shipment. This enables real-time tracking, digital customs pre-clearance, automated exception handling and data quality controls that flat IMP strings could never support. Common misconception: ONE Record is a blockchain system. It is not — it’s a REST/linked-data API model. Further reading: IATA ONE Record Implementation Guide; IATA Cargo-XML Technical Manual."
+        "why": "ISF '10' elements are the importer of record's legal obligation; the carrier files only the '2' vessel stow-plan elements. The customs broker files as agent for the importer.",
+        "deepDive": "The Importer Security Filing rule (19 CFR 149) — ISF 10+2 — was implemented by US CBP in 2009 to improve pre-loading security screening. The '10' elements (seller, buyer, importer of record, consignee, manufacturer, ship-to party, HTS-6 commodity code, container stuffing location, consolidator, country of origin) must be filed at least 24 hours before loading at the foreign port. The '2' elements (container status messages and the vessel stow plan) are the ocean carrier's obligation. ISF 10+2 applies to ocean cargo only — not air, truck, or rail entries. Penalties for late or inaccurate ISF can reach $5,000 per violation; CBP uses data to risk-score containers before they load overseas, enabling targeting of high-risk shipments for examination. A common misconception is that the NVOCC or freight forwarder files the ISF — they do so regularly, but as agent for the importer; the legal obligation and penalty exposure rests with the importer of record. NVOCCs in their own name file a reduced 'ISF-5' (five elements) when acting as the equivalent of an importer on a consolidated shipment."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "ftas",
-        "stem": "The Indo-Pacific Economic Framework for Prosperity (IPEF), launched by the US and 13 partners in May 2022, differs structurally from conventional free trade agreements in one critical respect that limits its value for developing-country partners. What is it?",
+        "subtopic": "industry_econ",
+        "stem": "In the supply chain 'bullwhip effect,' which actor typically experiences the greatest amplification of demand signals relative to underlying consumer demand?",
         "options": [
-          "IPEF covers only digital trade and services; all goods tariff negotiations are explicitly excluded from its scope",
-          "IPEF contains no US market access commitments — member countries cannot lock in preferential US tariff rates through IPEF membership",
-          "IPEF is a WTO Article XXIV-compliant preferential trade agreement, binding members to MFN obligations with third parties",
-          "IPEF grants automatic rules-of-origin preferences equivalent to CPTPP terms for all manufactured goods from members"
+          "The retailer, who places orders in anticipation of consumer stockouts",
+          "The ocean carrier, furthest upstream from the end consumer",
+          "The freight forwarder, who aggregates demand across many importers",
+          "The manufacturer, one step removed from the retailer"
         ],
         "correct": 1,
-        "why": "IPEF’s defining structural limitation is the absence of US market access — no guaranteed tariff reductions — making it unlike traditional FTAs where preferential market access is the core quid pro quo.",
-        "deepDive": "IPEF launched in May 2022 covers 14 countries representing ~40% of global GDP across four pillars: (1) trade (digital, labour, environment standards), (2) supply chains, (3) clean economy, and (4) fair economy. The critical omission: the US offered no tariff reductions, partly because the agreement was never submitted to Congress for Trade Promotion Authority. Countries like Bangladesh, Vietnam or India cannot gain preferential US market access through IPEF — they cannot substitute it for GSP benefits, CPTPP membership or bilateral FTA negotiation. Pillars 2 and 3 entered into force in 2024; Pillar 1 negotiations stalled over US domestic political constraints. For export-dependent economies, IPEF matters as a rule-setting and standard-alignment forum, but delivers no direct commercial preference. Common misconception: IPEF membership gives export preferences similar to FTA membership. It does not. Further reading: Peterson Institute for International Economics IPEF analysis; USTR IPEF fact sheets."
+        "why": "The bullwhip effect amplifies demand variability at each upstream step; the ocean carrier, furthest from the consumer, experiences the greatest amplification.",
+        "deepDive": "The Bullwhip Effect (formalised by Hau Lee, Stanford, 1997) describes how small fluctuations in consumer demand generate increasingly large swings in orders placed further up the supply chain. Each actor adds safety stock and orders extra to buffer against uncertainty and lead times; by the time the signal reaches the carrier, it can be dramatically amplified. In container shipping, a 5-10% consumer spending uptick can trigger 30-50% surges in carrier bookings as importers, distributors, and retailers simultaneously overbuy to avoid stockouts — with the reverse creating equally sharp cancellation waves. The COVID period (2020-2022) is the canonical modern example: a modest demand surge became the worst freight rate spike in history as every supply chain participant simultaneously built inventory. Four root causes drive bullwhip: demand forecast updating (each player extrapolates their own signal), order batching (weekly purchase orders vs. daily consumption), price fluctuation (forward buying on promotions), and shortage gaming (over-ordering when capacity is tight). Mitigation levers: real-time demand visibility sharing, shorter lead times via nearshoring, and vendor-managed inventory (VMI). A common misconception is that bullwhip is primarily a manufacturing problem — in practice, logistics and carriers feel it most severely."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Grant Wood’s ‘American Gothic’ (1930) is among the most parodied images in Western art history. A persistent public misconception concerns the two figures’ relationship. What did Grant Wood himself state about their actual identity?",
+        "subtopic": "history",
+        "stem": "Which 19th-century statesman is most associated with Realpolitik and successfully unified the German states under Prussian leadership through three deliberate wars between 1864 and 1871?",
         "options": [
-          "They were fictional archetypes modelled on Flemish Renaissance peasant paintings, not based on real individuals",
-          "They were his parents, posed to represent the hardship of Iowa farming families during the Depression",
-          "They were his sister Nan Wood Graham and his dentist Dr Byron McKeeby — never intended as a married couple",
-          "They were an actual farm couple Wood photographed during a 1929 rural Iowa road trip and asked to pose formally"
+          "Kaiser Wilhelm I",
+          "Klemens von Metternich",
+          "Otto von Bismarck",
+          "Friedrich List"
         ],
         "correct": 2,
-        "why": "Wood identified the subjects as his sister Nan and his dentist McKeeby. The widely-held belief that they are husband and wife was repeatedly denied by Nan Wood Graham until her death in 1990.",
-        "deepDive": "‘American Gothic’ was painted in 1930, inspired by a Gothic Revival house in Eldon, Iowa. Wood painted the house with ‘the kind of people he imagined living there’: his dentist Dr Byron McKeeby (holding the pitchfork) and his sister Nan Wood Graham. Wood described them as a father-daughter pair. The public’s persistent misreading as a stoic farm couple has accumulated into one of the most persistent misattributions in popular art history. The painting’s meaning is also contested: critics have read it as celebrating Midwestern rural values, satirising provincial rigidity, and (given the 1930 timing) a Depression-era meditation on endurance. Its power partly derives from this ambiguity. Note: the steel hay fork is held tines-upward in an oddly formal posture suggesting authority as much as labour. Common misconception: the pitchfork is a symbol of farming hardship. In context, it reads more as a prop of social dignity. Further reading: Wanda Corn, ‘Grant Wood: The Regionalist Vision’ (1983)."
+        "why": "Otto von Bismarck, Prussia's Minister President, embodied Realpolitik — diplomacy and war guided by practical national interests rather than ideological principle.",
+        "deepDive": "Otto von Bismarck (1815-1898) served as Minister President of Prussia (1862) and later as the first Chancellor of the German Empire, which he engineered through three deliberate wars: the Second Schleswig War (1864, against Denmark), the Austro-Prussian War (1866, defeated Austria in seven weeks), and the Franco-Prussian War (1870-71, which triggered the proclamation of the German Empire at Versailles). His genius lay in isolating opponents diplomatically before fighting, choosing one enemy at a time, and crafting post-war settlements generous enough to avoid lasting enmity (with Austria) or precisely punitive enough to fuel German domestic support (taking Alsace-Lorraine from France, which fuelled French revanchism until 1914). The term Realpolitik was coined by journalist Ludwig von Rochau (1853), but Bismarck embodied it — famously declaring great questions settled 'by blood and iron.' He also built Europe's first modern welfare state (health insurance 1883, accident insurance 1884, pensions 1889) as a political tool to undercut socialist appeal. Metternich represents the earlier Concert of Europe conservatism — very different from Bismarck's willingness to overturn the entire post-1815 order. Friedrich List was an economic nationalist theorist, not a statesman-strategist."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "Beethoven composed his Ninth Symphony (premiered 1824) while effectively deaf, having lost nearly all hearing by ~1814. Which faculty enabled him to produce fully orchestrated scores without acoustic feedback?",
+        "subtopic": "life_science",
+        "stem": "The Krebs cycle (citric acid cycle) — which produces NADH, FADH₂, and GTP from acetyl-CoA — occurs within which specific compartment of a eukaryotic cell?",
         "options": [
-          "He relied entirely on bone-conduction feedback from a specially modified resonating piano lowered to floor level",
-          "He composed through fully internalised musical imagination — hearing complete orchestral textures mentally without sound input",
-          "He dictated melodic lines to amanuensis Anton Schindler who played them back at high volume after each session",
-          "He transcribed from memory the performances of colleagues whom he instructed to play completed sections aloud"
+          "The cytoplasm (cytosol)",
+          "The mitochondrial matrix",
+          "The inner mitochondrial membrane",
+          "The endoplasmic reticulum lumen"
         ],
         "correct": 1,
-        "why": "Beethoven composed through inner hearing — the capacity to mentally simulate fully orchestrated sound from notation alone, without acoustic stimulus. This is audiation, the trained composer’s core faculty.",
-        "deepDive": "Beethoven began losing hearing around 1796-98 and was functionally deaf by ~1814 — a full decade before the Ninth Symphony’s 1824 premiere at the Kärntnertor Theatre in Vienna. Yet his Late Period (from ~1812) produced his most complex work: the ‘Diabelli Variations,’ the late String Quartets (Op. 127-135), the ‘Missa Solemnis,’ and the Ninth. The faculty he used is called ‘audiation’ — a term coined by music educator Edwin Gordon for the ability to mentally hear music without sound. All trained composers use audiation; Beethoven’s case is the canonical extreme. His surviving sketches show iterative motif revision, indicating deliberate construction rather than spontaneous inspiration. He did use crude vibration devices (a sawn-off piano leg pressed to the floor), but these were supplementary. Common misconception: deafness is an insuperable barrier to composition. In fact, composition is fundamentally inner hearing externalised into notation — sound is an intermediate step, not the source. Further reading: Jan Swafford, ‘Beethoven: Anguish and Triumph’ (2014)."
+        "why": "Krebs cycle enzymes are dissolved in the mitochondrial matrix; the inner membrane houses the electron transport chain, which is downstream of the cycle.",
+        "deepDive": "The Krebs cycle (named for Hans Krebs, Nobel Prize 1953) is the central metabolic hub of aerobic respiration in eukaryotes. Each turn — triggered by acetyl-CoA (from pyruvate after glycolysis) combining with oxaloacetate to form citrate — yields 3 NADH, 1 FADH₂, 1 GTP (effectively ATP), and 2 CO₂. These electron carriers (NADH, FADH₂) then feed into the electron transport chain (ETC) embedded in the inner mitochondrial membrane, where the bulk of ATP is generated via oxidative phosphorylation (roughly 28-30 ATP per glucose). The Krebs cycle itself runs in the mitochondrial matrix — the aqueous compartment enclosed by the inner membrane. Glycolysis, by contrast, occurs entirely in the cytosol. The inner mitochondrial membrane's unique architecture — extensive cristae folds maximising surface area, impermeable to most ions except via specific transporters — creates the proton gradient (chemiosmosis) that drives ATP synthase. Fat metabolism (beta-oxidation, also in the matrix) also feeds acetyl-CoA into the cycle, making it the intersection point for carbohydrate, fat, and protein catabolism. A common misconception: the Krebs cycle makes most ATP. It does not — it makes 1 GTP per turn; the ETC downstream makes ~90% of the cell's ATP."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "political_theory",
-        "stem": "Hannah Arendt covered the 1961 Eichmann trial in Jerusalem and coined the phrase ‘banality of evil’ in her subsequent book. What was the central, controversial argument she made?",
+        "subtopic": "mathematics",
+        "stem": "In Bayesian statistics, when the prior distribution and posterior distribution belong to the same parametric family after updating on observed data, the prior is called what type of distribution relative to the likelihood?",
         "options": [
-          "Eichmann was a uniquely ideological antisemite whose conviction made him an enthusiastic and willing perpetrator of genocide",
-          "The Holocaust was primarily engineered by Germany’s military officer class, not its civilian administrative bureaucracy",
-          "The greatest evil arises not from monsters but from ordinary people who follow orders without moral reflection — the ‘banality of evil’",
-          "The Nuremberg framework failed because it assigned individual guilt rather than dismantling the systemic structures that enabled atrocity"
+          "An uninformative prior",
+          "A conjugate prior",
+          "A maximum-entropy prior",
+          "A hierarchical prior"
         ],
-        "correct": 2,
-        "why": "Arendt’s controversial claim was that Eichmann was not demonic but ‘terrifyingly normal’ — a bureaucratic functionary whose failure to think morally enabled mass murder, giving rise to the concept of the ‘banality of evil.’",
-        "deepDive": "Arendt expected a monster in the glass booth; instead she found a mediocre bureaucrat who spoke in clichés, claimed no deep ideology, and appeared genuinely unable to think about the moral implications of his actions. Her conclusion: the most consequential evil doesn’t require demonic intent — it requires what she called ‘thoughtlessness,’ specifically the inability to think from the standpoint of others. The book, ‘Eichmann in Jerusalem: A Report on the Banality of Evil’ (1963), triggered fierce controversy. Jewish communities and many survivors read it as diminishing Nazi guilt or partially exculpating perpetrators. Later historians, notably Bettina Stangneth in ‘Eichmann Before Jerusalem’ (2014), argued Arendt was deceived by Eichmann’s performance — he was more ideologically aware than he presented. The concept of ‘banality of evil’ remains central to political philosophy, public administration ethics, and the study of institutional complicity. Common misconception: the phrase means evil is unimportant or widespread. Arendt meant the opposite — that the most systemic evil wears an utterly ordinary face. Further reading: Arendt, ‘Eichmann in Jerusalem’; Stangneth, ‘Eichmann Before Jerusalem.’"
+        "correct": 1,
+        "why": "A conjugate prior produces a posterior in the same distribution family — mathematically convenient because the Bayesian update is closed-form, requiring no numerical integration.",
+        "deepDive": "Conjugate priors are a foundational concept in Bayesian statistics: when prior and likelihood are 'conjugate,' the posterior has the same functional form as the prior, differing only in updated parameter values. Classic examples: a Beta prior is conjugate to a Binomial likelihood (Beta-Binomial model); a Gaussian prior is conjugate to a Gaussian likelihood; a Dirichlet prior is conjugate to a Multinomial likelihood. In the Beta-Binomial model — perhaps the most widely used — if you start with Beta(α, β) as your prior probability of success, observe k successes in n trials, the posterior is Beta(α+k, β+n-k). The parameters α and β act as 'pseudo-counts' of prior observations. Conjugate priors were historically vital when computation was prohibitively expensive; today, Markov Chain Monte Carlo (MCMC) and variational inference make non-conjugate models tractable. A common misconception is that conjugate priors are 'correct' or 'objective' — they are chosen for mathematical convenience. An uninformative (Jeffreys) or maximum-entropy prior may be more epistemically appropriate when genuine prior knowledge is absent, but they often produce non-conjugate posteriors requiring numerical methods. In modern machine learning, conjugate relationships underpin efficient variational Bayes and expectation-maximisation algorithms."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The ‘Resource Curse’ (Sachs & Warner, 1995) describes how resource-rich developing countries often grow slower than resource-poor peers. Among competing explanatory mechanisms, which has the strongest empirical support as the primary channel?",
+        "subtopic": "literature",
+        "stem": "Which Japanese novelist, awarded the Nobel Prize in Literature in 1968, wrote 'Snow Country' (Yukiguni), whose opening 'The train came out of the long tunnel into the snow country' is among Japanese literature's most celebrated lines?",
         "options": [
-          "Resource revenues systematically crowd out human capital investment, leaving the workforce without industrial transition skills",
-          "Dutch Disease — currency appreciation driven by resource exports destroys the competitiveness of non-resource tradable sectors",
-          "Resource rents fund armed insurgencies that cause civil conflict, destroying physical and human capital over time",
-          "Commodity price volatility forces pro-cyclical fiscal policy, creating boom-bust cycles that prevent steady capital formation"
+          "Yukio Mishima",
+          "Haruki Murakami",
+          "Kenzaburō Ōe",
+          "Yasunari Kawabata"
         ],
-        "correct": 1,
-        "why": "Dutch Disease — currency appreciation from resource exports depressing non-resource tradable sectors — is the most empirically documented and theoretically robust mechanism behind the Resource Curse.",
-        "deepDive": "The Resource Curse was named by Richard Auty (1993) and rigorously tested by Sachs and Warner (1995), who found robust negative correlation between resource abundance and GDP growth across 97 countries from 1970-1989. Dutch Disease — named after the Netherlands’ experience following North Sea gas discovery in 1959, which caused the guilder to appreciate and manufacturing exports to collapse — is the most studied mechanism. Resource export revenues raise the real exchange rate, making manufactured and agricultural exports expensive for foreign buyers and depressing tradable-sector output. The domestic non-resource sector, starved of investment, cannot provide diversified growth once the resource depletes. Nigeria, Venezuela, and Angola are canonical examples of the pathology. Important nuance: some resource-rich states avoided the curse through institutional design — Norway’s oil fund, Botswana’s diamond management, Chile’s fiscal rules. This suggests the curse is institution-mediated, not deterministic. Common misconception: the Resource Curse is simply about corruption. Dutch Disease is a pure price-mechanism effect that operates even in relatively clean states. Further reading: Sachs & Warner (1995); Ragnar Torvik, ‘Learning by Doing and the Dutch Disease.’"
+        "correct": 3,
+        "why": "Yasunari Kawabata wrote Snow Country and was Japan's first Nobel laureate in literature (1968), cited for expressing 'the essence of the Japanese mind.'",
+        "deepDive": "Yasunari Kawabata (1899-1972) was the first Japanese writer to receive the Nobel Prize in Literature (1968), awarded for 'his narrative mastery, which with great sensibility expresses the essence of the Japanese mind.' Snow Country (Yukiguni) was serialised from 1935-47 and published complete in 1956. It follows Shimamura, a Tokyo dilettante, through three visits to a hot-spring resort in Niigata, and his relationship with a geisha, Komako. The novel is less concerned with plot than with atmosphere, impermanence, and mono no aware — the bittersweet recognition that beauty is transient. Kawabata's prose, deeply influenced by haiku's compression and the classical Japanese aesthetic of yūgen, is the antithesis of Western realism. His other major works include The Sound of the Mountain (1954) and The House of Sleeping Beauties (1961). Common misconceptions: Mishima (Kawabata's contemporary and protégé) is sometimes confused with him in Nobel context — Mishima never won, though many believe he deserved it; Murakami (born 1949) belongs to a much later generation; Kenzaburō Ōe received the Nobel in 1994. Kawabata died by suicide in 1972, eighteen months after Mishima's dramatic public seppuku — one of modern Japanese literature's most haunting postscripts."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "The Higgs boson, confirmed at CERN’s LHC in July 2012, is structurally unique among all fundamental particles in the Standard Model. What makes it structurally distinct from the force-carrying gauge bosons (photon, W±, Z⁰, gluons)?",
+        "subtopic": "geography",
+        "stem": "Lake Titicaca — the world's highest commercially navigable lake at approximately 3,812 metres — sits on the Andean Altiplano bordering which two countries?",
         "options": [
-          "The Higgs is the only boson with net electric charge, enabling it to interact directly with photons via the electromagnetic force",
-          "The Higgs is a scalar boson with spin-0, whereas all force-carrying gauge bosons have spin-1",
-          "The Higgs is the only boson that interacts via the weak nuclear force, unlike the massless photon and gluons",
-          "The Higgs is a composite particle made of two quarks, unlike the elementary gauge bosons that have no substructure"
+          "Peru and Chile",
+          "Bolivia and Chile",
+          "Ecuador and Peru",
+          "Peru and Bolivia"
         ],
-        "correct": 1,
-        "why": "The Higgs is the only fundamental scalar boson (spin-0) in the Standard Model; all force-carrying gauge bosons have spin-1. This structural difference reflects its role as the quantum of a background field rather than a force mediator.",
-        "deepDive": "The Standard Model classifies elementary particles as fermions (half-integer spin: quarks and leptons) and bosons (integer spin). Among bosons, the ‘gauge bosons’ — photon, W±, Z⁰, gluons — all have spin-1 and mediate the four fundamental forces. The Higgs is the single exception: spin-0 (scalar), the quantum excitation of the Higgs field that permeates all of space. Particles acquire mass by interacting with this field; W and Z bosons, quarks and leptons do so, while photons and gluons do not (hence they are massless). The Higgs mechanism — spontaneous symmetry breaking via the Brout-Englert-Higgs mechanism — was proposed in 1964 and earned the Nobel Prize in 2013 after CERN’s confirmation. Common misconception: the Higgs ‘creates’ mass from nothing. More precisely, particles have mass because of how strongly they couple to the Higgs field — heavier particles couple more strongly. Discovering the Higgs completed the Standard Model’s particle zoo; physicists now seek its self-coupling to probe potential new physics. Further reading: Peter Higgs’s Nobel lecture (2013); Frank Close, ‘The Infinity Puzzle’ (2011)."
+        "correct": 3,
+        "why": "Lake Titicaca straddles the Peru-Bolivia border: roughly 60% in Peru (Puno Region) and 40% in Bolivia (La Paz Department).",
+        "deepDive": "Lake Titicaca sits at 3,812 m (12,507 ft) on the Andean Altiplano, straddling Peru (roughly 60%, Puno Region) and Bolivia (roughly 40%, La Paz Department). Covering about 8,372 km² with a maximum depth of 281 m, it is large enough to significantly moderate the local climate — temperatures at lakeside are several degrees warmer than nearby highlands. The Uros people have lived on floating islands of totora reed for centuries, one of the world's most extraordinary human settlements; the totora reed is used for everything from island building to food to boat construction. The lake drains south via the Desaguadero River into Lake Poopó, which has now largely dried up due to climate change and water diversion, illustrating a closed Andean basin drainage system in crisis. The Inca regarded Titicaca as a sacred point of cosmic origin — legend holds that the founding couple, Manco Cápac and Mama Ocllo, emerged from its waters. Common misconceptions: Chile is sometimes mistakenly placed on the Titicaca border (it does not touch the lake; the nearest Chilean territory is well to the south); Lake Poopó is sometimes described as part of Titicaca rather than a separate, downstream lake now effectively dead."
       }
     ]
   }
