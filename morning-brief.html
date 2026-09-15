@@ -364,52 +364,60 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  "date": "2026-09-14",
-  "dateLabel": "Monday · 14 September 2026",
-  "editionLabel": "Edition · Monday 14 September",
-  "headline": "FOMC hawks poised to hike; US-Canada trade war escalates; Dhaka publicly resets with India; semiconductor revenues cross $1T.",
+  "date": "2026-09-15",
+  "dateLabel": "Tuesday · 15 September 2026",
+  "editionLabel": "Edition · Tuesday 15 September",
+  "headline": "Fed hike expected tomorrow; ECB already tightened; Vera Rubin ships to hyperscalers; Tarique confirmed for UNGA81 first address.",
   "sections": [
     {
       "title": "Macro · Geopolitics · Politics",
       "items": [
         {
-          "lead": "Fed on the knife-edge",
-          "body": "FOMC meets Sep 15-16; markets price a 25bp hike to 3.75-4.0% after Chair Warsh's hawkish Jackson Hole speech. But headline CPI fell to 3.4% in July — two consecutive months down — which argues for patience. Decision Wednesday 2pm ET.",
+          "lead": "Fed knife-edge",
+          "body": "FOMC two-day meeting ends Sep 16; market implies 83% odds of 25bp hike to 3.75-4.0% — August CPI and payrolls sealed expectations. Decision and press conference tomorrow afternoon.",
           "src": {
-            "name": "FedRateCalc",
-            "url": "https://fedratecalc.com/fed-rate-decision/"
+            "name": "Cambridge Currencies / ATFX",
+            "url": "https://cambridgecurrencies.com/next-federal-reserve-interest-rate-decision/"
           }
         },
         {
-          "lead": "US-Canada trade war ignites",
-          "body": "Canada enacted 15-50% tariffs on 700+ US goods (Sep 8), doubling steel/aluminum duties to 50%. Trump countered within hours — new items on the 50% list, and a total import ban on select Canadian products from Sep 29 announced.",
+          "lead": "ECB tightens again",
+          "body": "ECB raised deposit rate 25bp to 2.5% on Sep 10 — its second hike since the Iran war began. Middle East energy shock keeping eurozone inflation well above 2% despite only 0.8% GDP growth.",
           "src": {
-            "name": "CNN Business",
-            "url": "https://www.cnn.com/2026/09/07/economy/trump-carney-canada-us-trade-war"
+            "name": "ECB / FXStreet",
+            "url": "https://www.fxstreet.com/news/eurozone-ecb-holds-rates-in-september-uob-group-202509120931"
           }
         },
         {
-          "lead": "Trump eyes fresh China tariff",
-          "body": "White House mulling an additional 7.5% levy on China atop existing duties, ahead of a planned late-September Trump-Xi summit. Trigger: flood of cheap Chinese exports. Section 122's 150-day clock on the across-the-board 10% surcharge also approaching its expiry window.",
+          "lead": "BRICS New Delhi",
+          "body": "18th BRICS Summit (Sep 12-13) adopted 'resilience & innovation' declaration; agenda centred on local-currency trade and cross-border payments reform. No common currency announced. Modi presided over 49-nation bloc as host.",
           "src": {
-            "name": "Fortune",
-            "url": "https://fortune.com/2026/08/24/trump-new-tariff-china-cheap-exports-trade-war-truce-summit-xi-jinping/"
+            "name": "PM India / TradeImeX",
+            "url": "https://www.pmindia.gov.in/en/news_updates/brics-new-delhi-declaration-building-for-resilience-innovation-cooperation-and-sustainability-september-12-2026/"
           }
         },
         {
-          "lead": "BRICS closes without Pakistan",
-          "body": "India hosted the 18th BRICS Summit (Sep 12-13) as chair. Pakistan's bid blocked for a third consecutive year despite Chinese and Russian backing — India's veto inside the bloc remains effective, exposing the organisation's South Asia gap.",
+          "lead": "US-China tech cold war",
+          "body": "BIS published rules barring export of frontier AI model weights and advanced compute clusters to China — controls now extend beyond hardware to the software layer. US-China tariff truce at 31% extended to Nov 10, buying eight weeks before the next cliff.",
           "src": {
-            "name": "Organiser",
-            "url": "https://organiser.org/2026/09/12/380253/world/pakistan-knocking-brics-door-why-islamabads-2023-membership-bid-remains-elusive-despite-chinese-and-russian-support/"
+            "name": "TariffTax / China Briefing",
+            "url": "https://www.tarifftax.org/us-china-trade-war-2026"
           }
         },
         {
-          "lead": "UNGA: middle powers push back",
-          "body": "UN General Assembly week: mid-sized nations using the platform to reshape multilateral finance and tech governance amid deepening US-China rivalry. 75% of CEOs now localising production within country of sale, per EY data.",
+          "lead": "UNGA81 opens next Monday",
+          "body": "High-level week opens Sep 22; UN Secretary-General succession race to dominate; Climate Summit framed around 'inevitable overshoot' a decade post-Paris. Bangladesh's Khalilur Rahman presides as Assembly president.",
           "src": {
-            "name": "EY Geostrategy",
-            "url": "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis"
+            "name": "UN / UNGA Guide",
+            "url": "https://www.un.org/en/high-level-week-2026"
+          }
+        },
+        {
+          "lead": "Iran war — dug in",
+          "body": "Bloomberg (Sep 10): US and Tehran prepared for extended conflict with no near-term ceasefire visible. Strait of Hormuz effectively disrupted; 99% of Saudi-flagged vessels now sheltering inside territorial waters — highest proportion since 2022.",
+          "src": {
+            "name": "Bloomberg / Al Jazeera",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-10/iran-and-us-set-for-extended-war-with-neither-side-ceding-ground"
           }
         }
       ]
@@ -418,35 +426,27 @@ const TODAY = {
       "title": "Bangladesh & Subcontinent",
       "items": [
         {
-          "lead": "Dhaka calls for India reset — publicly",
-          "body": "State Minister Humaiun Kobir declared Bangladesh wants to 'reset' ties with India, labelling Hasina-era relations 'uncomfortable'. New public line: 'India is just another country.' Sharpest official statement yet from the Tarique government.",
+          "lead": "Tarique to UNGA",
+          "body": "PM Tarique Rahman confirmed departing Dhaka Sep 21 for UNGA81 — his first address to the General Assembly as head of government. Bilateral meetings with world leaders and a Rohingya crisis side-event both confirmed.",
           "src": {
-            "name": "Business Standard",
-            "url": "https://www.business-standard.com/external-affairs-defence-security/news/want-to-reset-ties-build-new-bilateral-engagement-with-india-bangladesh-126091300708_1.html"
+            "name": "New Age BD / Bangladesh Today",
+            "url": "https://www.newagebd.net/post/country/313666/pm-to-leave-for-us-on-september-21"
           }
         },
         {
-          "lead": "BRICS snub formalised",
-          "body": "Dhaka confirmed PM Tarique Rahman will not attend India's BRICS summit in any capacity — invitation came as 'BIMSTEC Chair,' not as Prime Minister. Bangladesh sent no representative at all. Pointed diplomatic rebuff.",
+          "lead": "DUCSU Jinnah row",
+          "body": "Student activists removed Jinnah portraits from Dhaka University's student union museum (Sep 14); Jamaat-e-Islami Secretary General condemned the removal as 'politically immature.' The episode publicly reopens Bangladesh's 1971-era identity fault-lines.",
           "src": {
-            "name": "The Week India",
-            "url": "https://www.theweek.in/news/india/2026/09/10/bangladesh-pm-no-brics-invite.html"
+            "name": "The Asian / Daily Star",
+            "url": "https://theasian.asia/archives/205175"
           }
         },
         {
-          "lead": "Cyber law sparks rights alarm",
-          "body": "Bangladesh's Cyber Security Amendment Bill 2026 — proposing 10-year jail for 'online rumours' and expedited takedowns from Meta — advanced in parliament this week. TIB warns of 'unchecked surveillance and repression'; Home Minister defends it.",
+          "lead": "Balochistan widens",
+          "body": "Pakistan military killed dozens of militants in Balochistan this week; attacks have spread for the first time into 11 Pashtun-majority districts with no prior organized violence — a geographic expansion that signals the insurgency is reorienting.",
           "src": {
-            "name": "Dhaka Tribune",
-            "url": "https://www.dhakatribune.com/bangladesh/parliament/414016/cyber-security-amendment-bill-2026-passes-in"
-          }
-        },
-        {
-          "lead": "EU FTA talks launch in September",
-          "body": "Bangladesh formally launching EU free-trade agreement negotiations this month, with first-round meetings being finalised. RCEP formal accession proposal also expected from Ministry of Commerce this week — two simultaneous trade diplomatic moves.",
-          "src": {
-            "name": "Financial Express BD",
-            "url": "https://today.thefinancialexpress.com.bd/first-page/bangladesh-set-to-start-eu-free-trade-talks-1787248738"
+            "name": "Rio Times Asia Brief",
+            "url": "https://www.riotimesonline.com/asia-intelligence-brief-wednesday-september-9-2026/"
           }
         }
       ]
@@ -455,43 +455,43 @@ const TODAY = {
       "title": "Trade & Freight",
       "items": [
         {
-          "lead": "WCI steady; Asia-Europe softens",
-          "body": "Drewry WCI flat at $4,476/FEU for a second straight week (Sep 10). Shanghai-Rotterdam -2% to $3,997; Shanghai-Genoa -3% to $4,216. Three blank sailings announced for next week (up from one) — carriers defending the Asia-Europe floor amid weak demand.",
+          "lead": "WCI steady",
+          "body": "Drewry World Container Index flat at $4,476/FEU (Sep 10); Shanghai-LA +2% to $7,352; Shanghai-NY +1% to $9,726. Asia-Europe routes declining as Suez access gradually restores. Stability expected to hold next week.",
           "src": {
-            "name": "DCN / Drewry",
-            "url": "https://www.thedcn.com.au/news/world-container-index-10-september-2026"
+            "name": "Drewry / The DCN",
+            "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
           }
         },
         {
-          "lead": "Transpacific firms; Sep 15 GRI executing",
-          "body": "Shanghai-LA climbs to $7,185/FEU with carriers blanking ~20% capacity. September 15 GRI now executing; next round expected Oct 1 ahead of China's National Day. Shippers told to book October space immediately or face surcharges.",
+          "lead": "Hormuz lifts Suez",
+          "body": "The Strait of Hormuz disruption is paradoxically boosting Suez: canal revenue +42% YoY in July as Gulf energy reroutes north. July transits 27% above 2025 but still 36% below pre-crisis norms — partial recovery, not normalization.",
           "src": {
-            "name": "Mohawk Global",
-            "url": "https://mohawkglobal.com/market-updates/9-15-10-1-trans-pacific-carriers-announce-gri/"
+            "name": "Bloomberg / Logfret",
+            "url": "https://www.bloomberg.com/news/articles/2026-09-08/suez-canal-revival-gathers-pace-as-hormuz-crisis-reroutes-ships"
           }
         },
         {
-          "lead": "USEC premium widens vs USWC",
-          "body": "US East Coast rates outpacing West Coast — ongoing Panama Canal draft and weight restrictions tightening USEC capacity. Some carriers rerouting on a spot basis via Cape of Good Hope, adding transit time but bypassing the Canal bottleneck.",
+          "lead": "Carrier blank-sailing discipline",
+          "body": "Carriers sustaining transpacific rates via ~20% blank sailing programs while Europe weakens on softer demand and incremental Suez restoration — textbook revenue-management bifurcation of what used to be one unified market.",
           "src": {
-            "name": "GLC Logistics",
-            "url": "https://glc-inc.com/2026/09/september-ocean-freight-2026-blank-sailings-gri-q4-booking/"
+            "name": "BRF Logistics / JM Rodgers",
+            "url": "https://brf-logistics.com/september-2026-ocean-freight-outlook/"
           }
         },
         {
-          "lead": "Canada ban reshapes cross-border flows",
-          "body": "US outright import ban on select Canadian products from Sep 29 already triggering freight diversions — trucking, rail, and LTL operators scrambling to reroute affected commodity flows well ahead of the deadline.",
+          "lead": "CIFI +162% YoY",
+          "body": "Containerized Freight Index up 9.15% month-on-month, +162% year-on-year. Southeast Asia, South America and intra-Asia routes firm (IACI +1% to $1,323/FEU); Europe and East Africa softening fast as supply-demand balance diverges by sub-region.",
           "src": {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html"
+            "name": "Trading Economics / Xeneta",
+            "url": "https://tradingeconomics.com/commodity/containerized-freight-index"
           }
         },
         {
-          "lead": "Asia congestion meets weak Europe demand",
-          "body": "Persistent Asian port congestion co-existing with soft European demand gives carriers cover for aggressive capacity management. Drewry expects WCI to hold stable through mid-October — range-bound market with directional split by trade lane.",
+          "lead": "India-UK FTA live",
+          "body": "India-UK Comprehensive Economic and Trade Agreement in force since July 15, 2026; 99% of Indian goods enter UK duty-free. Expected to add £25.5B in bilateral trade annually — shifts some South Asian supply-chain competition dynamics.",
           "src": {
-            "name": "IndexBox",
-            "url": "https://www.indexbox.io/blog/container-freight-rates-diverge-transpacific-strong-asia-europe-weak/"
+            "name": "UK Trade Tariff / Commons Library",
+            "url": "https://www.trade-tariff.service.gov.uk/news/stories/india-free-trade-agreement-enters-into-force-on-15-july-2026--13-july-2026"
           }
         }
       ]
@@ -500,207 +500,207 @@ const TODAY = {
       "title": "Semis & AI",
       "items": [
         {
-          "lead": "Semiconductor revenues cross $1T",
-          "body": "Global chip revenues on track to exceed $1 trillion in 2026 for the first time — AI-led DRAM, NAND, and logic IC surge driving 30.7% YoY growth. Memory pricing described as 'unprecedented'; AI infrastructure the dominant demand force.",
+          "lead": "Vera Rubin ships",
+          "body": "Nvidia's Vera Rubin platform (3,600 PFLOPS/rack, 5× Blackwell, 10× lower cost/token) now shipping to hyperscalers in H2 2026. AWS, Azure, Google Cloud and CoreWeave in first wave. TSMC outsourcing CoWoS packaging steps to ASE and Amkor to keep pace.",
+          "src": {
+            "name": "Nvidia Newsroom / WCCFtech",
+            "url": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory"
+          }
+        },
+        {
+          "lead": "TSMC August record",
+          "body": "TSMC reported record August revenue on AI demand; Nvidia now >20% of TSMC's total revenue and holds the majority of CoWoS capacity booked through 2027. Foundry-hyperscaler dependency is at a historic depth — one customer effectively constrains the supply chain.",
+          "src": {
+            "name": "DigiTimes / Motley Fool",
+            "url": "https://www.digitimes.com/news/a20260911VL226/nvidia-tsmc-chips-ceo-jensen-huang.html"
+          }
+        },
+        {
+          "lead": "$1 trillion milestone",
+          "body": "Global semiconductor revenues surpassed $1 trillion in 2026 for the first time; AI chips represent 0.2% of all chips produced but ~50% of all revenue. The winner-take-most economics of the AI era now legible in full-year numbers.",
           "src": {
             "name": "Barchart / SIA",
             "url": "https://www.barchart.com/story/news/37057875/ai-drives-semiconductor-revenues-past-1-trillion-for-the-first-time-in-2026"
           }
         },
         {
-          "lead": "HBM4 under strain; SK Hynix leads",
-          "body": "Digitimes (today Sep 14): HBM4 supply is under stress as AI infrastructure buildout accelerates. SK Hynix first to complete mass-production readiness; Samsung and Micron still ramping. NVIDIA Rubin GPU stacks TSMC N3P + HBM4 for 20.7 TB bandwidth.",
+          "lead": "CXMT memory disruption",
+          "body": "China's CXMT hit 10% global DRAM share with 870% revenue surge; now testing HBM3E with Alibaba T-Head, targeting full production in 2027. US export controls creating a bifurcated memory market: West ships bleeding-edge HBM3, China builds its own stack.",
           "src": {
-            "name": "Digitimes",
-            "url": "https://www.digitimes.com/news/a20260914VL200/2026-dram-intel-samsung-tsmc.html"
+            "name": "CNBC / Stocktwits",
+            "url": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html"
           }
         },
         {
-          "lead": "Intel price hikes signal foundry gap",
-          "body": "Intel raising mature-node prices; Intel 14A external volume production slips beyond 2030. TSMC's 3nm/2nm capacity will be 7-9x Samsung and Intel by 2028 — the foundry leadership gap is crystallising into a near-permanent structural advantage.",
+          "lead": "72-hour model sprint",
+          "body": "Three frontier labs shipped new flagships in 72 hours: Claude Fable 5.1 (Anthropic, Sep 1), GPT-6 Astra (OpenAI, Sep 3), Gemini 3.8 Flash (Google, Sep 2). OpenAI's Astra became the first model to trigger the company's own 'critical-cyber' safeguard threshold.",
           "src": {
-            "name": "Digitimes",
-            "url": "https://www.digitimes.com/news/a20260914VL200/2026-dram-intel-samsung-tsmc.html"
-          }
-        },
-        {
-          "lead": "Fable 5.1 and GPT-6 Astra define the frontier",
-          "body": "Anthropic's Claude Fable 5.1 (Sep 1) cut cache-read pricing 75%; OpenAI's GPT-6 Astra (Sep 3) priced at $10/$50 per million tokens — the first model to trigger the critical-cyber safeguard threshold in AI safety evaluations.",
-          "src": {
-            "name": "LLM Gateway",
-            "url": "https://llmgateway.io/timeline"
-          }
-        },
-        {
-          "lead": "Power is the new silicon",
-          "body": "Data center power access cited as the 'decisive constraint' for AI infrastructure build-out. TSMC reports 90% surge in chipmaking equipment demand yet still can't keep pace. Sovereign compute and power policy becoming core industrial strategy for every major economy.",
-          "src": {
-            "name": "EnkiAI / EY",
-            "url": "https://enkiai.com/ai-infrastructure/semiconductor-intel-tsmc-chips-act/"
+            "name": "Air Release Tracker / LLM Gateway",
+            "url": "https://aireleasetracker.com/latest"
           }
         }
       ]
     }
   ],
   "lesson": {
-    "title": "Gate-All-Around Transistors: Why Physics Forced a Fundamental Redesign of the Building Block of All Chips",
+    "title": "Electromagnetic Induction: Faraday's 1831 Experiment and Why Every Generator, Motor, and Transformer on Earth Runs on One Equation",
     "paragraphs": [
-      "For over a decade, the semiconductor industry used FinFET transistors — fins of silicon rising out of a substrate, wrapped on three sides by a gate electrode — to keep Moore's Law alive past the point where flat planar transistors stopped scaling. The fin geometry dramatically improved electrostatic control, reducing 'leakage' of current between source and drain when a transistor is switched off. But as nodes pushed below 5nm, even three-sided FinFETs lost sufficient control: short-channel effects (SCE) made transistors leaky, power consumption crept up, and the performance gains from shrinking began to stall. The industry needed a new architecture.",
-      "Gate-All-Around (GAA) transistors solve this by wrapping the gate completely around a horizontal nanosheet (or 'nanoribbon') of silicon — all four sides controlled, not three. This 360-degree electrostatic control is dramatically superior: the gate can be thinner, drive current higher per area, and leakage lower. Samsung deployed GAA first at its 3GAE node (2022) under the name Multi-Bridge Channel FET (MBCFET). TSMC is transitioning to GAA at its 2nm (N2) node, expected to power Apple's next-generation chips. Intel's competing architecture, 'RibbonFET', is planned for its Intel 20A/18A process — but delays have pushed external customer volume well beyond 2030, widening TSMC's lead further.",
-      "Why does this matter to you? Every piece of AI infrastructure — NVIDIA's Rubin GPU, Apple's SoCs, next-gen networking chips — depends on these transistor architectures. The extreme difficulty of making GAA nanosheets yield at commercial scale is one reason TSMC's lead over Samsung and Intel has widened dramatically: atomic-layer deposition and etch precision at this scale is one of the hardest manufacturing feats on earth. The capex barrier is near-total. When you read that semiconductor revenues crossed $1T, that HBM4 is under strain, and that Intel is raising prices — those are downstream effects of the physics happening at sub-3nm nodes. The transistor shapes the whole logistics and infrastructure world above it."
+      "In 1831, Michael Faraday wrapped two coils of wire around an iron ring, connected one to a battery and the other to a galvanometer, and watched the needle kick — but only when the first circuit was switched on or off, never while it ran steadily. The key insight was that a *changing* magnetic field, not a static one, induces an electric current. James Clerk Maxwell later encoded this as Faraday's Law: the induced EMF equals the negative rate of change of magnetic flux (EMF = −dΦ/dt). It became one of his four equations that define all of classical electromagnetism.",
+      "The practical consequence is staggering. Every electrical generator on Earth spins a coil inside a magnetic field, converting rotation into electricity through induction. Every electric motor does the reverse — feeding current in and getting rotation out. Transformers, which step voltage up for high-voltage transmission and back down for household use, work entirely through induction between two coils with no direct electrical contact. Without induction there are no power grids, no EV drivetrains, no MRI machines, no wind turbines, and no data-centre power supplies.",
+      "Why it matters today: AI infrastructure is projected to consume over 1,000 TWh of electricity annually by 2030 — more than 20% of advanced-economy demand growth. Every watt reaching an Nvidia Vera Rubin cluster arrived via electromagnetic induction, through transformers stepping voltage down from transmission lines, from generators that produced it originally. The Hormuz disruption throttling Gulf energy exports and the scramble to build grid capacity for AI hyperscalers are both fundamentally crises about getting Faraday's induction-based power to the right place at the right price. A 19th-century physics experiment remains the hard ceiling on 21st-century compute."
     ],
-    "why": "GAA is the live architectural frontier of semiconductor manufacturing — it directly determines AI compute capacity, chip pricing, and which nations can participate in advanced fabrication. Understanding it connects today's HBM4 strain, TSMC's pricing power, and Intel's margin pressure to first principles rather than just headlines."
+    "why": "The AI buildout, the energy transition, and geopolitical supply disruptions all converge at electrical infrastructure — understanding that every electron moved runs on Faraday's 1831 discovery makes the strategic map of the current crisis legible."
   },
   "questions": [
     {
       "n": 1,
-      "topic": "industry",
-      "subtopic": "multimodal",
-      "stem": "A shipper issues a Through Bill of Lading (TBL) for a container from Dhaka to Rotterdam via sea and onward rail in Europe. Under a TBL, who is the shipper's primary legal counterparty for the full door-to-door journey?",
+      "topic": "domain",
+      "subtopic": "aircraft_carriers",
+      "stem": "Cargolux operates an all-freighter fleet exclusively from Luxembourg (LUX). Which aircraft type constitutes its primary widebody fleet, and what is its approximate maximum structural payload?",
       "options": [
-        "The ocean carrier for the sea leg only; rail carrier for the European leg",
-        "The issuing carrier, as principal for the entire journey",
-        "The first carrier (inland trucker), with sub-contracted liability thereafter",
-        "No single party; liability is apportioned by each modal segment's carrier"
+        "Boeing 747-8F — approximately 137 tonnes",
+        "Boeing 777F — approximately 103 tonnes",
+        "Boeing 747-400F — approximately 113 tonnes",
+        "Airbus A330F — approximately 70 tonnes"
       ],
-      "correct": 1,
-      "why": "Under a Through Bill of Lading, the issuing carrier accepts liability as principal for the entire transit — the shipper has one legal counterparty regardless of sub-carriers.",
-      "deepDive": "A Through Bill of Lading (TBL) is a single contract of carriage covering multiple modes or carriers from origin to destination. The issuing carrier acts as principal — not agent — for the whole journey, meaning the shipper has one legal counterparty regardless of how many sub-carriers perform individual legs. This contrasts with a port-to-port B/L (covering only the sea leg) and a multimodal B/L (which may vary). The practical consequence is significant: if the rail leg in Germany fails, the shipper sues the issuing ocean carrier, who recovers from the sub-carrier. Many TBLs incorporate the 'network liability' principle — the law of the leg where damage occurred governs — while others use 'uniform liability' throughout. Common misconception: a multimodal B/L and a Through B/L are often used interchangeably, but strict legal usage distinguishes them. TBLs simplify claims for shippers but concentrate credit and legal risk on the issuing carrier — which is why freight rates on TBL services carry a premium. Major carriers offering TBL services effectively become end-to-end logistics providers, competing with 3PLs."
+      "correct": 0,
+      "why": "Cargolux was the launch customer for the 747-8F and operates the largest dedicated 747-8F fleet globally; its 137-tonne payload exceeds any other production freighter.",
+      "deepDive": "The Boeing 747-8F is the final and largest variant of the iconic 747 platform, stretching the fuselage 5.6 metres over the -400 series. Its maximum structural payload of approximately 137 tonnes and range of 8,130 km make it the highest-capacity long-haul freighter in production. Cargolux, headquartered at Luxembourg Findel, was the launch operator and has built its network around the type's nose-loading capability and bulk density. The 777F offers a smaller payload (~103 t) but superior range and twin-engine economics, making it dominant for ultra-long-haul routes. The 747-400F (retired from most fleets by 2025) carried ~113 t. Common misconception: the A380 was never produced in a freighter variant despite early Airbus proposals; the programme was cancelled. To read more: The Air Cargo World annual fleet census and Boeing's freighter capability comparison white paper."
     },
     {
       "n": 2,
-      "topic": "industry",
-      "subtopic": "trade_lanes",
-      "stem": "On the Asia-North Europe trade lane, when major carriers collectively announce a programme of blank sailings removing 20% of weekly capacity, what is the PRIMARY intended market effect?",
+      "topic": "domain",
+      "subtopic": "airport_ops",
+      "stem": "Anchorage (ANC), Alaska consistently ranks in the global top-5 cargo airports by tonnage despite serving a metro area of ~300,000 people. What single geographic factor explains this outsized role?",
       "options": [
-        "Reducing vessel fuel burn to improve IMO CII carbon intensity ratings",
-        "Supporting freight rate levels by tightening effective supply against existing demand",
-        "Redistributing volume to feeder services to ease main-line port congestion",
-        "Complying with vessel-scheduling requirements at Rotterdam and Hamburg"
+        "Its duty-free zone allows trans-Pacific cargo to clear US customs without formal entry, cutting compliance costs by up to 40%",
+        "Its position on great-circle polar routes between Asia and North America makes it an optimal technical stop for fuel and crew rest on 14-hour transoceanic legs",
+        "It is the exclusive hub for FedEx's intra-Alaska network, generating volume from resource extraction industries",
+        "The Port of Anchorage handles bulk break-cargo transfers to feeder jets that then disperse to 200 remote Alaskan communities"
       ],
       "correct": 1,
-      "why": "Blank sailings reduce effective supply to maintain or lift spot rates — carriers' primary short-term tool for rate management independent of demand levels.",
-      "deepDive": "Blank sailings (cancelled port calls or skipped voyages) are the container shipping industry's most powerful short-term tool for capacity discipline. By reducing effective supply without scrapping fleet, carriers tilt the supply-demand balance in their favour to defend rate floors or trigger General Rate Increase success. The Asia-North Europe lane — the world's largest by revenue — sees this regularly: in soft demand periods, alliances coordinate blanks to absorb slack. Critics note this is cooperative capacity management that would constitute price-fixing in other industries; regulators grant block exemptions (EU) and anti-trust immunity (US Shipping Act) specifically for liner conferences. A common misconception is that blank sailings are primarily operational — they are primarily commercial. IMO CII ratings do create an independent incentive to slow-steam or blank, but that is distinct from rate management. In September 2026, with transpacific firm and Asia-Europe soft, blank sailing programmes diverge sharply by trade lane — illustrating that carriers manage each lane independently rather than globally."
+      "why": "Great-circle (polar) routing between Asia and North America passes within 500 nm of Anchorage, making it an ideal tech stop that adds minimal extra flight time while allowing fuel top-up and crew change on aircraft that cannot carry a full Asia-US payload nonstop.",
+      "deepDive": "A great-circle is the shortest path between two points on a sphere. Flying between Tokyo and Chicago, the great-circle arc passes over the North Pacific and cuts through Canadian and Alaskan airspace — well north of Hawaii. Freighters on the transpacific route often cannot carry full payload nonstop (payload-range tradeoff), so a technical stop at Anchorage allows them to top up fuel, swap crews under rest regulations, and depart fully laden on the second leg. Anchorage's Ted Stevens International airport has long runways, 24-hour cargo operations, and established ULD handling. This explains why it processes roughly 2.5 million metric tonnes of cargo annually — almost entirely in-transit, not locally destined. Common misconception: ANC is often confused with being primarily a FedEx hub (FedEx's super-hub is MEM). To learn more: Boeing's World Air Cargo Forecast and IATA's Airport IT Insights."
     },
     {
       "n": 3,
-      "topic": "industry",
-      "subtopic": "marine_insurance",
-      "stem": "Under the Institute Cargo Clauses (ICC), what is the principal coverage difference between Clause A and Clause B for a cargo owner making a claim?",
+      "topic": "domain",
+      "subtopic": "ma_consolidation",
+      "stem": "DSV's €14.8 billion acquisition of DB Schenker closed in late 2024-25, creating the world's second-largest freight forwarder by volume. Who sold DB Schenker, and what was the primary strategic rationale for the divestment?",
       "options": [
-        "ICC(A) is all-risks; ICC(B) covers only named perils — reversing the burden of proof on the insured",
-        "ICC(A) covers sea transit only; ICC(B) extends to air and overland legs",
-        "ICC(A) applies to containerised cargo; ICC(B) applies to bulk and break-bulk shipments",
-        "ICC(A) requires Lloyd's placement; ICC(B) can be placed with any approved insurer"
+        "Deutsche Telekom, which had acquired Schenker as part of a logistics diversification that failed to deliver synergies post-2020",
+        "Deutsche Bahn (German national railway), to reduce its €30B+ debt load and free capital for domestic rail infrastructure investment",
+        "The German federal government, executing a Bundestag-mandated privatisation of non-core transport assets",
+        "Allianz SE, which had held Schenker as an insurance-sector strategic investment since the 2008 financial crisis"
       ],
-      "correct": 0,
-      "why": "ICC(A) is all-risks — the insurer bears the burden of proving an exclusion; ICC(B) is named-peril — the insured must prove the loss falls within a listed peril.",
-      "deepDive": "The Institute Cargo Clauses — published by the Joint Cargo Committee (London) — are the global standard for marine cargo insurance. ICC(A) is the broadest: it covers all risks of physical loss or damage from any external cause, subject to named exclusions (war, inherent vice, inadequate packing, delay, etc.). The insured simply proves loss occurred during transit; the insurer must establish an exclusion applies. ICC(B) is an intermediate named-peril policy covering: fire, explosion, stranding, sinking, collision, earthquake, lightning, jettison, washing overboard, plus general average and salvage charges. The insured must prove the loss falls within a listed peril — which can be difficult (e.g., was water damage from a 'wave washing overboard' or from condensation?). ICC(C) is the most restricted, covering only major casualty events. For containerised general cargo, ICC(A) is standard market practice. For low-value bulk commodities where premium cost matters, (B) or (C) is common. A persistent misconception is that 'all-risks' means literally everything — the exclusions under ICC(A) are substantial and include delay (regardless of cause), inherent vice, and wilful misconduct."
+      "correct": 1,
+      "why": "Deutsche Bahn, Germany's state-owned railway, had carried Schenker as a logistics subsidiary for decades. With its own balance sheet stressed by decades of under-investment in rail infrastructure, the sale to DSV was explicitly framed as debt reduction to fund network modernisation.",
+      "deepDive": "Deutsche Bahn AG acquired Schenker in 2002 for around €1.1 billion as part of a strategy to become a global integrated transport and logistics company. By the early 2020s, Schenker was profitable but DB's core railway business was running multi-billion euro annual losses and its network reliability had fallen to crisis levels. The German government — DB's 100% shareholder — pushed for a sale, with DSV winning a competitive process that included bids from CVC Capital Partners and others. The deal, at ~€14.8 billion, was the largest-ever freight forwarder M&A transaction, overtaking the 2016 XPO-Conway deal. For DSV it accelerated its ambition to challenge Kuehne+Nagel at the global number-one spot. Common misconception: Schenker had often been confused as a Deutsche Telekom subsidiary because of shared 'Deutsche' branding. To learn more: The DCN's M&A tracker and Logistics Manager's post-merger integration reporting."
     },
     {
       "n": 4,
-      "topic": "industry",
-      "subtopic": "compliance",
-      "stem": "Under US Customs' Importer Security Filing (ISF 10+2), which party carries the PRIMARY obligation to file the '10' data elements with US CBP before vessel loading?",
+      "topic": "domain",
+      "subtopic": "commercial_concepts",
+      "stem": "An NVOCC issues a Named Account Contract (NAC) committing a shipper to 500 TEU/month transpacific. By month 8 the shipper has moved only 320 TEU. Under standard MQC mechanics, what is the NVOCC's most defensible immediate action?",
       "options": [
-        "The NVOCC named on the master bill of lading",
-        "The ocean carrier, as the licensed principal filer",
-        "The importer of record, or their licensed customs broker as agent",
-        "The foreign exporter named in the commercial invoice"
+        "Issue a shortfall invoice billing the shipper for 180 TEU at the agreed contract buy-rate, per the Minimum Quantity Commitment clause",
+        "Declare force majeure citing Red Sea/Hormuz disruptions and waive all shortfall for the affected months",
+        "Renegotiate the NAC by lowering the per-TEU rate in exchange for a raised monthly volume commitment going forward",
+        "Convert the arrangement to spot pricing and re-file under NRA (NVOCC Service Arrangement) rules with the FMC"
       ],
-      "correct": 2,
-      "why": "ISF '10' elements are the importer of record's legal obligation; the carrier files only the '2' vessel stow-plan elements. The customs broker files as agent for the importer.",
-      "deepDive": "The Importer Security Filing rule (19 CFR 149) — ISF 10+2 — was implemented by US CBP in 2009 to improve pre-loading security screening. The '10' elements (seller, buyer, importer of record, consignee, manufacturer, ship-to party, HTS-6 commodity code, container stuffing location, consolidator, country of origin) must be filed at least 24 hours before loading at the foreign port. The '2' elements (container status messages and the vessel stow plan) are the ocean carrier's obligation. ISF 10+2 applies to ocean cargo only — not air, truck, or rail entries. Penalties for late or inaccurate ISF can reach $5,000 per violation; CBP uses data to risk-score containers before they load overseas, enabling targeting of high-risk shipments for examination. A common misconception is that the NVOCC or freight forwarder files the ISF — they do so regularly, but as agent for the importer; the legal obligation and penalty exposure rests with the importer of record. NVOCCs in their own name file a reduced 'ISF-5' (five elements) when acting as the equivalent of an importer on a consolidated shipment."
+      "correct": 0,
+      "why": "NAC/MQC structures give the NVOCC explicit contractual standing to bill shortfall; invoicing for the gap between committed and actual volume at the agreed rate is the standard commercial mechanism — force majeure requires specific qualifying events contractually defined.",
+      "deepDive": "A Named Account Contract (NAC) is a bilateral rate agreement between an NVOCC and a shipper, typically negotiated for annual or multi-year terms. The Minimum Quantity Commitment (MQC) clause protects the NVOCC against opportunity cost: it reserved capacity from carriers for this shipper, so an underperforming shipper must compensate for the unused slots. The shortfall invoice (often called 'deadfreight' in older usage) is calculated as: shortfall TEU × (agreed buy-rate per TEU). Force majeure is a high bar — Red Sea disruption may qualify only if the specific contract defines it, and many 2025-26 contracts excluded it precisely because the disruption was already known. NRA re-filing is a US-specific mechanism under FMC rules and converting mid-contract is typically a breach, not a remedy. To read more: FIATA's Commercial Contracts Guide and the FMC's NVOCC framework documentation."
     },
     {
       "n": 5,
-      "topic": "industry",
-      "subtopic": "industry_econ",
-      "stem": "In the supply chain 'bullwhip effect,' which actor typically experiences the greatest amplification of demand signals relative to underlying consumer demand?",
+      "topic": "domain",
+      "subtopic": "supply_chain_strategy",
+      "stem": "The Bullwhip Effect describes demand-signal amplification as you move upstream in a supply chain. Which specific ERP system behaviour most reliably *worsens* the effect rather than dampening it?",
       "options": [
-        "The retailer, who places orders in anticipation of consumer stockouts",
-        "The ocean carrier, furthest upstream from the end consumer",
-        "The freight forwarder, who aggregates demand across many importers",
-        "The manufacturer, one step removed from the retailer"
+        "Real-time POS data sharing across tiers, which causes all upstream nodes to re-order simultaneously rather than staggering responses",
+        "Order-batching and dynamic safety-stock reorder algorithms that cause each tier to overreact to minor downstream demand shifts",
+        "Last-sale pricing that locks procurement teams into peak-demand costs, doubling cycle amplitude at the factory level",
+        "Aggregated demand smoothing that eliminates responsiveness and forces factories into constant-rate production regardless of actual orders"
       ],
       "correct": 1,
-      "why": "The bullwhip effect amplifies demand variability at each upstream step; the ocean carrier, furthest from the consumer, experiences the greatest amplification.",
-      "deepDive": "The Bullwhip Effect (formalised by Hau Lee, Stanford, 1997) describes how small fluctuations in consumer demand generate increasingly large swings in orders placed further up the supply chain. Each actor adds safety stock and orders extra to buffer against uncertainty and lead times; by the time the signal reaches the carrier, it can be dramatically amplified. In container shipping, a 5-10% consumer spending uptick can trigger 30-50% surges in carrier bookings as importers, distributors, and retailers simultaneously overbuy to avoid stockouts — with the reverse creating equally sharp cancellation waves. The COVID period (2020-2022) is the canonical modern example: a modest demand surge became the worst freight rate spike in history as every supply chain participant simultaneously built inventory. Four root causes drive bullwhip: demand forecast updating (each player extrapolates their own signal), order batching (weekly purchase orders vs. daily consumption), price fluctuation (forward buying on promotions), and shortage gaming (over-ordering when capacity is tight). Mitigation levers: real-time demand visibility sharing, shorter lead times via nearshoring, and vendor-managed inventory (VMI). A common misconception is that bullwhip is primarily a manufacturing problem — in practice, logistics and carriers feel it most severely."
+      "why": "ERP order-batching (consolidating orders into weekly/monthly runs) and safety-stock recalculations based on recent demand both systematically amplify variation upstream — a small retailer dip triggers a large distributor reorder cut, which triggers an even larger warehouse cut, and so on.",
+      "deepDive": "The Bullwhip Effect was first formally described by Jay Forrester (as the 'Forrester Effect') and later named and popularised by Hau Lee of Stanford in a 1997 HBR paper that identified four root causes: demand signal processing, rationing game, order batching, and price variation. ERP systems worsen it primarily through batching: rather than passing real-time demand signals, most planning modules consolidate orders on a cycle (weekly MRP runs, monthly replenishment reviews), introducing artificial lumpiness. Safety-stock algorithms that recalculate reorder points based on recent velocity amplify this — a two-week demand dip causes the algorithm to cut the safety-stock target, generating a larger-than-necessary order cut to the factory. Real-time POS sharing (option A) is actually a *mitigation* strategy used by Walmart and Zara, not a cause. Common misconception: many blame the bullwhip on poor forecasting; the structural causes (batching, gaming) persist even with accurate forecasts. To learn more: Hau Lee's 1997 HBR article 'The Bullwhip Effect in Supply Chains' and Chopra & Meindl's Supply Chain Management."
     },
     {
       "n": 6,
       "topic": "gk",
-      "subtopic": "history",
-      "stem": "Which 19th-century statesman is most associated with Realpolitik and successfully unified the German states under Prussian leadership through three deliberate wars between 1864 and 1871?",
+      "subtopic": "religion",
+      "stem": "In the Baha'i Faith, the Bab ('the Gate') is recognised as an independent Manifestation of God who preceded Baha'u'llah. In which year and city did the Bab publicly declare his mission, and to whom was the first declaration made?",
       "options": [
-        "Kaiser Wilhelm I",
-        "Klemens von Metternich",
-        "Otto von Bismarck",
-        "Friedrich List"
+        "1844, Shiraz — to Mulla Husayn, the first believer",
+        "1852, Tehran — to a gathering of ulema at the shah's court",
+        "1863, Baghdad — simultaneously to Baha'u'llah and a group of companions",
+        "1817, Isfahan — to the merchant community of the Qajar bazaar"
       ],
-      "correct": 2,
-      "why": "Otto von Bismarck, Prussia's Minister President, embodied Realpolitik — diplomacy and war guided by practical national interests rather than ideological principle.",
-      "deepDive": "Otto von Bismarck (1815-1898) served as Minister President of Prussia (1862) and later as the first Chancellor of the German Empire, which he engineered through three deliberate wars: the Second Schleswig War (1864, against Denmark), the Austro-Prussian War (1866, defeated Austria in seven weeks), and the Franco-Prussian War (1870-71, which triggered the proclamation of the German Empire at Versailles). His genius lay in isolating opponents diplomatically before fighting, choosing one enemy at a time, and crafting post-war settlements generous enough to avoid lasting enmity (with Austria) or precisely punitive enough to fuel German domestic support (taking Alsace-Lorraine from France, which fuelled French revanchism until 1914). The term Realpolitik was coined by journalist Ludwig von Rochau (1853), but Bismarck embodied it — famously declaring great questions settled 'by blood and iron.' He also built Europe's first modern welfare state (health insurance 1883, accident insurance 1884, pensions 1889) as a political tool to undercut socialist appeal. Metternich represents the earlier Concert of Europe conservatism — very different from Bismarck's willingness to overturn the entire post-1815 order. Friedrich List was an economic nationalist theorist, not a statesman-strategist."
+      "correct": 0,
+      "why": "On the evening of May 22-23, 1844 in Shiraz, Iran, the Bab revealed his first tablet to Mulla Husayn — a young Shaykhi student who had come seeking the promised Qa'im; this night is commemorated as the Declaration of the Bab.",
+      "deepDive": "The Bab (born Siyyid Ali Muhammad Shirazi, 1819) declared his mission at age 24 in the merchant city of Shiraz in what is now southern Iran. Mulla Husayn was the first individual to accept the claim — he is known in Baha'i history as the Babu'l-Bab (Gate of the Gate). The declaration initiated a decade of intense religious turbulence in Qajar Iran, ending with the Bab's execution by firing squad in Tabriz in 1850. He was 30. Baha'u'llah, who would later found the Baha'i Faith proper, declared his own mission in the Garden of Ridvan in Baghdad in April-May 1863 — hence option C's year/city is real but describes a different event. The 1844 date has significance beyond Baha'i theology: it coincides with William Miller's failed Second Advent prediction and the telegraph's first long-distance message — a date that multiple religious and technological movements treat as pivotal. Common misconception: the Bab is sometimes incorrectly described as merely a forerunner with no independent revelatory status; Baha'i theology grants him full Manifestation rank. To read more: Peter Smith's 'The Babi and Baha'i Religions' (CUP)."
     },
     {
       "n": 7,
       "topic": "gk",
-      "subtopic": "life_science",
-      "stem": "The Krebs cycle (citric acid cycle) — which produces NADH, FADH₂, and GTP from acetyl-CoA — occurs within which specific compartment of a eukaryotic cell?",
+      "subtopic": "linguistics",
+      "stem": "The Sapir-Whorf hypothesis comes in 'strong' (language determines thought) and 'weak' (language influences perception) forms. Which empirical finding is most cited as evidence for the WEAK version?",
       "options": [
-        "The cytoplasm (cytosol)",
-        "The mitochondrial matrix",
-        "The inner mitochondrial membrane",
-        "The endoplasmic reticulum lumen"
+        "Pirahã speakers, who lack recursive grammar, cannot count beyond two — showing language constrains abstract number cognition",
+        "Russian speakers, who lexicalise light blue (goluboy) and dark blue (siniy) as separate basic-level categories, distinguish blue shades faster when the boundary falls between categories than within one",
+        "Hopi speakers conceptualise time as cyclical because the Hopi language lacks tense markers, as documented by Benjamin Lee Whorf",
+        "English speakers systematically fail to acquire tonal languages because English does not encode lexical pitch, showing phonological lock-in"
       ],
       "correct": 1,
-      "why": "Krebs cycle enzymes are dissolved in the mitochondrial matrix; the inner membrane houses the electron transport chain, which is downstream of the cycle.",
-      "deepDive": "The Krebs cycle (named for Hans Krebs, Nobel Prize 1953) is the central metabolic hub of aerobic respiration in eukaryotes. Each turn — triggered by acetyl-CoA (from pyruvate after glycolysis) combining with oxaloacetate to form citrate — yields 3 NADH, 1 FADH₂, 1 GTP (effectively ATP), and 2 CO₂. These electron carriers (NADH, FADH₂) then feed into the electron transport chain (ETC) embedded in the inner mitochondrial membrane, where the bulk of ATP is generated via oxidative phosphorylation (roughly 28-30 ATP per glucose). The Krebs cycle itself runs in the mitochondrial matrix — the aqueous compartment enclosed by the inner membrane. Glycolysis, by contrast, occurs entirely in the cytosol. The inner mitochondrial membrane's unique architecture — extensive cristae folds maximising surface area, impermeable to most ions except via specific transporters — creates the proton gradient (chemiosmosis) that drives ATP synthase. Fat metabolism (beta-oxidation, also in the matrix) also feeds acetyl-CoA into the cycle, making it the intersection point for carbohydrate, fat, and protein catabolism. A common misconception: the Krebs cycle makes most ATP. It does not — it makes 1 GTP per turn; the ETC downstream makes ~90% of the cell's ATP."
+      "why": "The Russian blue experiment (Winawer et al., 2007) showed a measurable RT advantage at the goluboy/siniy boundary — a language effect on perceptual discrimination, not on the capacity to see distinctions, which is the weak-Whorfianism signature.",
+      "deepDive": "Jonathan Winawer and colleagues at MIT ran a reaction-time experiment in which Russian and English speakers had to judge which of two comparison swatches matched a target. Russians were faster when the target and one comparison crossed the goluboy/siniy boundary — even when controlling for perceptual similarity. Crucially, this advantage disappeared under a verbal interference task (repeating a word aloud) but not a spatial interference task, confirming the effect ran through language rather than low-level vision. This is the textbook weak-Whorfianism result: language doesn't stop English speakers from seeing two shades as different, but Russian speakers have a lexically reinforced discrimination that speeds categorical judgement. The Pirahã evidence (option A) is real but contested — the claim that Pirahã speakers cannot count at all is disputed; some researchers have shown limited counting ability. Whorf's Hopi claims (option C) were based on incomplete fieldwork and are largely rejected by modern Hopi linguists. To learn more: Winawer et al. (2007) PNAS 'Russian blues reveal effects of language on color discrimination'."
     },
     {
       "n": 8,
       "topic": "gk",
-      "subtopic": "mathematics",
-      "stem": "In Bayesian statistics, when the prior distribution and posterior distribution belong to the same parametric family after updating on observed data, the prior is called what type of distribution relative to the likelihood?",
+      "subtopic": "sport",
+      "stem": "In cricket's Duckworth-Lewis-Stern (DLS) method, what is the fundamental mathematical concept underpinning the par-score calculation?",
       "options": [
-        "An uninformative prior",
-        "A conjugate prior",
-        "A maximum-entropy prior",
-        "A hierarchical prior"
+        "Each team is allocated 100 'resources' defined by the non-linear joint function of wickets remaining and overs remaining; par score scales with resources consumed",
+        "Par score is adjusted by multiplying the interrupted team's run rate by the ratio of overs lost to total overs, ignoring wicket state",
+        "DLS treats each over as worth the same expected runs, applying a flat proportional reduction corresponding to overs lost",
+        "Resources are defined solely by wickets in hand; overs are treated as a continuous uniform variable independent of wicket state"
       ],
-      "correct": 1,
-      "why": "A conjugate prior produces a posterior in the same distribution family — mathematically convenient because the Bayesian update is closed-form, requiring no numerical integration.",
-      "deepDive": "Conjugate priors are a foundational concept in Bayesian statistics: when prior and likelihood are 'conjugate,' the posterior has the same functional form as the prior, differing only in updated parameter values. Classic examples: a Beta prior is conjugate to a Binomial likelihood (Beta-Binomial model); a Gaussian prior is conjugate to a Gaussian likelihood; a Dirichlet prior is conjugate to a Multinomial likelihood. In the Beta-Binomial model — perhaps the most widely used — if you start with Beta(α, β) as your prior probability of success, observe k successes in n trials, the posterior is Beta(α+k, β+n-k). The parameters α and β act as 'pseudo-counts' of prior observations. Conjugate priors were historically vital when computation was prohibitively expensive; today, Markov Chain Monte Carlo (MCMC) and variational inference make non-conjugate models tractable. A common misconception is that conjugate priors are 'correct' or 'objective' — they are chosen for mathematical convenience. An uninformative (Jeffreys) or maximum-entropy prior may be more epistemically appropriate when genuine prior knowledge is absent, but they often produce non-conjugate posteriors requiring numerical methods. In modern machine learning, conjugate relationships underpin efficient variational Bayes and expectation-maximisation algorithms."
+      "correct": 0,
+      "why": "DLS defines a resource function R(w, u) — where w = wickets lost and u = overs remaining — derived from historical match data. Each team starts with 100 resources; the par score is rescaled by the fraction of resources available to the batting side.",
+      "deepDive": "Frank Duckworth and Tony Lewis developed the original method in the 1990s after notorious rain-rule failures in ODIs (including South Africa's 1992 World Cup semi-final disaster). The core insight was that a batting team's scoring potential depends on *both* wickets in hand and overs remaining simultaneously — not independently. A team with 8 wickets and 5 overs is in a very different position from one with 2 wickets and 5 overs. They modelled this as a resource table R(w, u), pre-computed from large match datasets. Steven Stern later updated the tables with more modern data in 2014 (hence 'Stern'). If an innings is interrupted, the target is recalculated as: Target = (Team 1 score) × (Resources available to Team 2) / (Resources used by Team 1). Common misconception: many viewers think DLS simply takes a run-rate ratio — it doesn't; it incorporates the wicket dimension, which is why a team losing early wickets faces a harder DLS target. To learn more: the official DLS method paper by Duckworth and Lewis in The Statistician (1998)."
     },
     {
       "n": 9,
       "topic": "gk",
-      "subtopic": "literature",
-      "stem": "Which Japanese novelist, awarded the Nobel Prize in Literature in 1968, wrote 'Snow Country' (Yukiguni), whose opening 'The train came out of the long tunnel into the snow country' is among Japanese literature's most celebrated lines?",
+      "subtopic": "pop_culture",
+      "stem": "Bob Dylan's 1965 album 'Bringing It All Back Home' marked his pivot from acoustic folk to electric rock. Which two songs, both from this album, are typically cited as the definitive closing statements of his acoustic 'protest' period?",
       "options": [
-        "Yukio Mishima",
-        "Haruki Murakami",
-        "Kenzaburō Ōe",
-        "Yasunari Kawabata"
+        "'Like a Rolling Stone' and 'Positively 4th Street'",
+        "'Mr. Tambourine Man' and 'It's All Over Now, Baby Blue'",
+        "'Blowin' in the Wind' and 'The Times They Are a-Changin''",
+        "'Subterranean Homesick Blues' and 'Maggie's Farm'"
       ],
-      "correct": 3,
-      "why": "Yasunari Kawabata wrote Snow Country and was Japan's first Nobel laureate in literature (1968), cited for expressing 'the essence of the Japanese mind.'",
-      "deepDive": "Yasunari Kawabata (1899-1972) was the first Japanese writer to receive the Nobel Prize in Literature (1968), awarded for 'his narrative mastery, which with great sensibility expresses the essence of the Japanese mind.' Snow Country (Yukiguni) was serialised from 1935-47 and published complete in 1956. It follows Shimamura, a Tokyo dilettante, through three visits to a hot-spring resort in Niigata, and his relationship with a geisha, Komako. The novel is less concerned with plot than with atmosphere, impermanence, and mono no aware — the bittersweet recognition that beauty is transient. Kawabata's prose, deeply influenced by haiku's compression and the classical Japanese aesthetic of yūgen, is the antithesis of Western realism. His other major works include The Sound of the Mountain (1954) and The House of Sleeping Beauties (1961). Common misconceptions: Mishima (Kawabata's contemporary and protégé) is sometimes confused with him in Nobel context — Mishima never won, though many believe he deserved it; Murakami (born 1949) belongs to a much later generation; Kenzaburō Ōe received the Nobel in 1994. Kawabata died by suicide in 1972, eighteen months after Mishima's dramatic public seppuku — one of modern Japanese literature's most haunting postscripts."
+      "correct": 1,
+      "why": "The album's second side was all-acoustic; 'Mr. Tambourine Man' and 'It's All Over Now, Baby Blue' closed it and were widely read as Dylan's farewell to the folk-protest movement he had helped create.",
+      "deepDive": "Released in March 1965, 'Bringing It All Back Home' was structurally bifurcated: side one was electric (featuring 'Subterranean Homesick Blues,' Dylan's first charting single, and 'Maggie's Farm'), while side two was acoustic. This division embodied Dylan's artistic transition. 'Mr. Tambourine Man' went on to be covered by The Byrds, whose electric version became a number-one hit and launched the folk-rock genre. 'It's All Over Now, Baby Blue' was widely interpreted as a direct address to Dylan's former folk-scene peers, telling them he was moving on. 'Blowin' in the Wind' and 'The Times They Are a-Changin'' (option C) are from 1963-64 and represent the peak of his protest period, not its farewell. 'Like a Rolling Stone' and 'Positively 4th Street' (option A) are from 'Highway 61 Revisited,' the fully electric album that followed later in 1965. Common misconception: many attribute the first electric performance controversy to a studio recording rather than to the Newport Folk Festival of July 1965 (a live event). To learn more: Clinton Heylin's 'Bob Dylan: Behind the Shades' and the Criterion Channel's documentary 'Don't Look Back' (1967)."
     },
     {
       "n": 10,
       "topic": "gk",
-      "subtopic": "geography",
-      "stem": "Lake Titicaca — the world's highest commercially navigable lake at approximately 3,812 metres — sits on the Andean Altiplano bordering which two countries?",
+      "subtopic": "economics",
+      "stem": "A firm prices at $100 with marginal cost of $60. Its Lerner Index is 0.40. Using the profit-maximisation condition relating the Lerner Index to price elasticity of demand, what elasticity does the firm face?",
       "options": [
-        "Peru and Chile",
-        "Bolivia and Chile",
-        "Ecuador and Peru",
-        "Peru and Bolivia"
+        "−2.5",
+        "−1.67",
+        "−4.0",
+        "−0.4"
       ],
-      "correct": 3,
-      "why": "Lake Titicaca straddles the Peru-Bolivia border: roughly 60% in Peru (Puno Region) and 40% in Bolivia (La Paz Department).",
-      "deepDive": "Lake Titicaca sits at 3,812 m (12,507 ft) on the Andean Altiplano, straddling Peru (roughly 60%, Puno Region) and Bolivia (roughly 40%, La Paz Department). Covering about 8,372 km² with a maximum depth of 281 m, it is large enough to significantly moderate the local climate — temperatures at lakeside are several degrees warmer than nearby highlands. The Uros people have lived on floating islands of totora reed for centuries, one of the world's most extraordinary human settlements; the totora reed is used for everything from island building to food to boat construction. The lake drains south via the Desaguadero River into Lake Poopó, which has now largely dried up due to climate change and water diversion, illustrating a closed Andean basin drainage system in crisis. The Inca regarded Titicaca as a sacred point of cosmic origin — legend holds that the founding couple, Manco Cápac and Mama Ocllo, emerged from its waters. Common misconceptions: Chile is sometimes mistakenly placed on the Titicaca border (it does not touch the lake; the nearest Chilean territory is well to the south); Lake Poopó is sometimes described as part of Titicaca rather than a separate, downstream lake now effectively dead."
+      "correct": 0,
+      "why": "Lerner Index L = (P − MC)/P = 40/100 = 0.40. The profit-maximisation condition gives L = −1/ε, so ε = −1/0.40 = −2.5. Demand elasticity of −2.5 means a 1% price rise reduces quantity demanded by 2.5%.",
+      "deepDive": "The Lerner Index (Abba Lerner, 1934) measures the percentage markup over marginal cost as a fraction of price — it ranges from 0 (perfect competition, P = MC) to 1 (pure monopoly with infinite markup). The profit-maximising firm sets MR = MC, and since MR = P(1 + 1/ε), this implies P(1 + 1/ε) = MC, which rearranges to (P − MC)/P = −1/ε. This relationship is elegant: the Lerner Index directly reveals the inverse of demand elasticity, so a high Lerner Index means inelastic demand (consumers have few substitutes) and vice versa. In practice, the Lerner Index is hard to compute directly because MC is unobservable; economists often estimate it from markup regression models. Common misconceptions: (1) confusing the Lerner Index with the price-to-earnings ratio; (2) treating ε as positive — price elasticity of demand is negative by convention but the formula uses its absolute value in some textbooks, causing sign errors. To learn more: Tirole's 'The Theory of Industrial Organisation' (MIT Press) and Varian's 'Intermediate Microeconomics.'"
     }
   ]
 };
