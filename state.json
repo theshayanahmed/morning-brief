@@ -1,17 +1,7 @@
 {
   "streak": 13,
-  "last_session_date": "2026-09-21",
+  "last_session_date": "2026-09-22",
   "questions_seen": [
-    "Under Incoterms 2020, which is the ONLY rule that upgraded the seller's minimum insurance obligation from Institute Cargo Clauses (C) to the higher all-risks Clauses (A) standard?",
-    "A commodity trader buys crude oil on a 'to-order' Bill of Lading and resells the cargo mid-voyage. The simplest mechanism to transfer cargo title to the new buyer without issuing a Switch B/L is:",
-    "A container carrier announces a $400/FEU GRI effective July 1. A shipper holding a long-term NAC (Named Account Contract) at $2,100/FEU asks whether the GRI applies to their bookings. Standard market practice holds that:",
-    "An air cargo shipment weighs 45 kg actual and measures 120 cm × 100 cm × 90 cm. The IATA volumetric divisor is 6,000 cm³/kg. What is the chargeable weight?",
-    "Bangladesh graduates from LDC status in November 2026. After the 3-year EBA transitional safeguard period ends in November 2029, what must Bangladesh do to maintain preferential EU market access for its RMG sector?",
-    "Samuel Beckett deliberately wrote 'Waiting for Godot' in a language other than his native English. Which language, and what was his stated reason?",
-    "The Bauhaus school (Weimar, 1919) unified fine arts and industrial craft under a founding director. Who founded it, and in which year did the Nazis forcibly close it?",
-    "Miles Davis's 'Kind of Blue' (1959) pioneered a jazz compositional approach replacing bebop's rapid chord changes with scales, giving improvisers more freedom. What is this approach called?",
-    "Of the four major Sunni schools of Islamic jurisprudence, which madhab dominates the Indian subcontinent — Bangladesh, Pakistan, and India — and who founded it?",
-    "The Mpemba effect, named after Tanzanian student Erasto Mpemba (1963), describes a scientifically contested observation. What does it claim?",
     "A 'claused' or 'unclean' bill of lading causes a bank to refuse payment under a ",
     "The WCO Harmonized System (HS) assigns every traded good a numerical code. At wh",
     "A 'Panamax' container vessel is defined by the maximum dimensions that fit throu",
@@ -501,7 +491,17 @@
     "CRISPR-Cas9 edits to a zygote are heritable; identical edits to adult somatic cells are not. What mechanism explains this asymmetry?",
     "The Banach–Tarski paradox decomposes a sphere into finitely many pieces and reassembles them as two identical spheres. Which set-theoretic axiom makes this construction possible?",
     "In One Hundred Years of Solitude, what is the formal function of Melquiádes’ parchment manuscripts, and what does this device reveal about magical realism’s treatment of time?",
-    "Which classical Islamic jurist most systematically embedded maslaha mursala within a theory of the Sharia’s overarching objectives, and why does it remain contested among strict textualists?"
+    "Which classical Islamic jurist most systematically embedded maslaha mursala within a theory of the Sharia’s overarching objectives, and why does it remain contested among strict textualists?",
+    "Under UNCTAD/ICC Multimodal Transport Rules, when goods are damaged at a known and identifiable stage of transit, which liability regime applies to the MTO's exposure?",
+    "The Northern Sea Route (NSR) across the Russian Arctic reduces Hamburg-to-Yokohama sailing distance by roughly how much vs the Suez Canal, and what remains its most binding commercial constraint in 2026?",
+    "Under the Institute Cargo Clauses hierarchy, which statement correctly describes the relationship between ICC A, B, and C in terms of peril coverage?",
+    "The UFLPA creates a rebuttable presumption that goods manufactured in Xinjiang involve forced labour. What is legally required to rebut this presumption and obtain US Customs clearance?",
+    "Drewry's World Container Index (WCI) and the Shanghai Containerized Freight Index (SCFI) are both weekly container spot-rate benchmarks. What is the key methodological difference between them?",
+    "Ricardo's comparative advantage overturned Smith's absolute advantage in one critical respect. What is the distinction, and what did the Portugal-England cloth-and-wine example demonstrate?",
+    "Grimm's Law (1822) describes a systematic consonant shift in one branch of Indo-European. What did it explain, and why does English 'father' correspond to Latin 'pater' rather than sharing the same initial consonant?",
+    "Which nation holds the record for most ICC Men's Cricket World Cup (50-over format) titles, and what made their 1999–2007 run historically exceptional?",
+    "Which British band released 'Urban Hymns' (1997) — one of the bestselling UK albums of the decade — and which track became famous partly for an unusual copyright dispute over a Rolling Stones sample?",
+    "Rousseau distinguished the 'general will' (volonté générale) from the 'will of all' (volonté de tous). What is the distinction, and why did later theorists argue the concept could justify authoritarian rule?"
   ],
   "learn_history": [
     {
@@ -728,6 +728,11 @@
       "date": "2026-09-21",
       "topic": "The Bengal Delta: How One of Earth’s Most Dynamic Geological Systems Sustains 170 Million People",
       "bucket": "geography"
+    },
+    {
+      "date": "2026-09-22",
+      "topic": "The Balance of Payments: Why Every Trade Deficit Hides a Capital Surplus — and What It Means for Bangladesh",
+      "bucket": "economics"
     }
   ],
   "curriculum_progress": {
@@ -786,14 +791,14 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 22,
-      "last_seen": "2026-09-14",
+      "count": 23,
+      "last_seen": "2026-09-22",
       "difficulty": 4,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 22,
-      "last_seen": "2026-09-14",
+      "count": 23,
+      "last_seen": "2026-09-22",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -804,20 +809,20 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 22,
-      "last_seen": "2026-09-14",
+      "count": 23,
+      "last_seen": "2026-09-22",
       "difficulty": 4,
       "rolling_score": []
     },
     "compliance": {
-      "count": 22,
-      "last_seen": "2026-09-14",
+      "count": 23,
+      "last_seen": "2026-09-22",
       "difficulty": 4,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 22,
-      "last_seen": "2026-09-14",
+      "count": 23,
+      "last_seen": "2026-09-22",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -908,81 +913,191 @@
       "rolling_score": []
     },
     "political_theory": {
-      "count": 32,
-      "last_seen": "2026-09-18",
+      "count": 33,
+      "last_seen": "2026-09-22",
       "difficulty": 3,
       "rolling_score": []
     },
     "economics": {
-      "count": 31,
-      "last_seen": "2026-09-15",
+      "count": 32,
+      "last_seen": "2026-09-22",
       "difficulty": 3,
       "rolling_score": []
     },
     "linguistics": {
-      "count": 31,
-      "last_seen": "2026-09-15",
+      "count": 32,
+      "last_seen": "2026-09-22",
       "difficulty": 4,
       "rolling_score": []
     },
     "sport": {
-      "count": 31,
-      "last_seen": "2026-09-15",
+      "count": 32,
+      "last_seen": "2026-09-22",
       "difficulty": 3,
       "rolling_score": []
     },
     "pop_culture": {
-      "count": 31,
-      "last_seen": "2026-09-15",
+      "count": 32,
+      "last_seen": "2026-09-22",
       "difficulty": 4,
       "rolling_score": []
     }
   },
   "history": [],
   "today": {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
-        "subtopic": "incoterms"
+        "topic": "industry",
+        "subtopic": "multimodal",
+        "stem": "Under UNCTAD/ICC Multimodal Transport Rules, when goods are damaged at a known and identifiable stage of transit, which liability regime applies to the MTO's exposure?",
+        "options": [
+          "Uniform liability: the MTO pays 2 SDR/kg regardless of which transit stage the damage occurred at",
+          "Network liability: the limits of whichever unimodal convention governs that stage (e.g. Hague-Visby at sea, CMR on road) apply to the MTO",
+          "Contractual freedom: MTO and shipper may agree any limit, as UNCTAD/ICC rules are entirely non-mandatory",
+          "The MTO bears no liability once goods are handed to a sub-contractor performing that specific leg"
+        ],
+        "correct": 1,
+        "why": "UNCTAD/ICC Rules use a network liability principle — when the loss stage is identifiable, the MTO's exposure is capped by whichever unimodal convention (Hague-Visby, CMR, CIM etc.) governs that segment.",
+        "deepDive": "The UNCTAD/ICC Rules for Multimodal Transport Documents (1992) establish two liability tiers. When the damage stage is unknown, a uniform fallback applies. When the stage is known and a unimodal regime applies — Hague-Visby for sea legs (2 SDR/kg or 666.67 SDR/package), CMR for road (8.33 SDR/kg), CIM for rail — that convention's limits govern. This 'network' structure creates practical asymmetry: sea legs carry low per-kg caps but high per-package alternatives; a shipper losing expensive cargo across many packages in a sea leg may face very different outcomes than the same loss on a road segment. A common misconception is that a combined-transport BL means one uniform standard — it does not. Reading the BL's liability clause and mapping the likely loss stage before tendering high-value cargo is operationally critical, particularly for Bangladesh-origin shipments with ocean + inland legs."
       },
       {
         "n": 2,
-        "subtopic": "bill_of_lading"
+        "topic": "industry",
+        "subtopic": "trade_lanes",
+        "stem": "The Northern Sea Route (NSR) across the Russian Arctic reduces Hamburg-to-Yokohama sailing distance by roughly how much vs the Suez Canal, and what remains its most binding commercial constraint in 2026?",
+        "options": [
+          "~3,000 nm saving; constraint is insufficient port infrastructure along the Siberian coast",
+          "~7,000 nm saving; constraint is mandatory Russian icebreaker escort, transit permits, and a July–October navigation window compounded by sanctions exposure",
+          "~7,000 nm saving; constraint is the Jones Act prohibiting non-US-flagged vessels through the Bering Strait segment",
+          "~10,000 nm saving; commercially viable year-round — Arctic sea ice has retreated enough for all-season container transit"
+        ],
+        "correct": 1,
+        "why": "Hamburg-Yokohama via Suez ≈21,000 nm; via NSR ≈12,400–13,200 nm — a ~7,000–8,600 nm saving; but Russia mandates ROSATOM-approved icebreaker escort and transit permits, with a reliable commercial window of only July–October.",
+        "deepDive": "The Northern Sea Route follows the Russian Arctic coast through the Kara, Laptev, East Siberian, and Chukchi Seas to the Bering Strait — a distance advantage of up to 40% over Suez for east-west routes. But three barriers constrain commercial use: (1) Russia requires all NSR transits to coordinate with ROSATOM's Northern Sea Route Administration, pay transit fees, and use approved icebreakers in ice conditions — adding cost and complexity; (2) reliable commercial ice-free conditions persist roughly July–October; shoulder months require ice-class vessels; (3) post-2022 sanctions on Russia create significant compliance exposure for European and US-flag carriers. The route serves growing Russian LNG export volumes but carries negligible container traffic. Climate change is gradually extending the navigation window — this is a 2030s trajectory story, not a current operational reality. For a logistics conglomerate with South Asia exposure, the significance is indirect: NSR viability would eventually alter Asia-Europe competitive lane dynamics and shift alliance routing decisions."
       },
       {
         "n": 3,
-        "subtopic": "pricing"
+        "topic": "industry",
+        "subtopic": "marine_insurance",
+        "stem": "Under the Institute Cargo Clauses hierarchy, which statement correctly describes the relationship between ICC A, B, and C in terms of peril coverage?",
+        "options": [
+          "ICC C is all-risks; ICC B adds named exclusions; ICC A is the most restricted clause covering only catastrophic losses",
+          "ICC A, B, and C cover identical perils — the difference is in deductible levels and insured value limits",
+          "ICC C covers major casualties only (fire, stranding, collision, general average); ICC B adds perils like washing overboard and sea-water ingress; ICC A adds an all-risks wrapper covering all fortuitous loss except named exclusions",
+          "ICC B and C are identical; ICC A is the only clause that covers war and strikes automatically"
+        ],
+        "correct": 2,
+        "why": "The hierarchy runs C ⊂ B ⊂ A: ICC C covers minimum named perils; B adds intermediate perils; A adds an all-risks wrapper. War/strikes are excluded from all three and require separate cover.",
+        "deepDive": "Institute Cargo Clauses are underwritten at Lloyd's and IUA and form the global cargo insurance benchmark. ICC C covers only: fire/explosion, vessel stranding/sinking/capsizing/grounding, overturning or derailment of land conveyance, collision, discharge at port of distress, general average and salvage. ICC B adds: earthquake/lightning, washing overboard, entry of sea/river/lake water into vessel or container, and total loss of any package during loading/discharge. ICC A then wraps all of the above with an all-risks clause covering all fortuitous physical loss or damage except specifically named exclusions — inherent vice, delay, deliberate damage, war, strikes, and wilful misconduct. Under Incoterms 2020, a critical change: CIF requires only ICC C minimum; CIP now requires ICC A minimum. This 2020 change is frequently overlooked — sellers quoting CIP who don't update their insurance arrangements may be dangerously underinsured on high-value cargo. War and strikes cover must always be added separately regardless of which clause applies."
       },
       {
         "n": 4,
-        "subtopic": "air_freight"
+        "topic": "industry",
+        "subtopic": "compliance",
+        "stem": "The UFLPA creates a rebuttable presumption that goods manufactured in Xinjiang involve forced labour. What is legally required to rebut this presumption and obtain US Customs clearance?",
+        "options": [
+          "A certificate of origin from a non-Xinjiang Chinese province, countersigned by the manufacturer's compliance officer",
+          "Clear and convincing evidence presented to US Customs and Border Protection that the specific goods were not produced with forced labour",
+          "An HS code reclassification placing the goods in an exempt product category not covered by the Xinjiang-origin restriction",
+          "Posting a customs bond equal to twice the shipment's dutiable value, pending CBP investigation and release"
+        ],
+        "correct": 1,
+        "why": "UFLPA's rebuttable presumption requires 'clear and convincing evidence' submitted to CBP — a high legal bar that functions as a de facto ban on most Xinjiang-origin goods because supply-chain proof is rarely achievable.",
+        "deepDive": "The Uyghur Forced Labor Prevention Act (operative June 2022) creates a statutory presumption under 19 U.S.C. §1307: any goods produced wholly or partly in Xinjiang, or by entities on the UFLPA Entity List, are presumed to involve forced labour and barred from import. Rebuttal requires 'clear and convincing evidence' to CBP — legally, a 'highly probable' standard, among the most demanding in US administrative law. In practice this means complete supply-chain mapping to raw material origin, third-party audit evidence, and proof no Xinjiang inputs appear at any tier. For Bangladesh's RMG sector the exposure is indirect but real: Xinjiang-origin cotton yarn or fabric sourced through Chinese spinning mills — even if the garment is sewn in Dhaka — can taint the whole shipment. Brands sourcing from Bangladesh must maintain Tier 3–4 supply-chain documentation or face CBP detention and seizure. This is why the US Bangladesh ART framework's incentive for US-cotton garments (0% tariff pathway) is commercially valuable — it solves the UFLPA exposure simultaneously."
       },
       {
         "n": 5,
-        "subtopic": "ftas"
+        "topic": "industry",
+        "subtopic": "industry_econ",
+        "stem": "Drewry's World Container Index (WCI) and the Shanghai Containerized Freight Index (SCFI) are both weekly container spot-rate benchmarks. What is the key methodological difference between them?",
+        "options": [
+          "WCI measures bulk shipping rates; SCFI measures container freight exclusively — the two are not comparable",
+          "WCI is a USD/FEU composite of 8 major global bidirectional lane pairs; SCFI is a USD/TEU composite of ~15 Shanghai-origin export routes — different scope, base port, and denomination",
+          "WCI and SCFI use identical methodology but are published by competing trade bodies; they are interchangeable for market benchmarking",
+          "WCI includes long-term contract rates alongside spot; SCFI is spot-only — making WCI structurally higher in most market conditions"
+        ],
+        "correct": 1,
+        "why": "WCI covers 8 bidirectional global lane pairs in USD/FEU (weekly); SCFI covers ~15 Shanghai-origin export routes in USD/TEU (weekly) — different base port, geographic scope, and denomination mean the two answer different questions.",
+        "deepDive": "Drewry's WCI samples from 8 major lane pairs: Shanghai-Rotterdam, Rotterdam-Shanghai, Shanghai-LA, LA-Shanghai, Shanghai-NY, NY-Shanghai, Shanghai-Genoa, Rotterdam-NY — producing a global composite in USD/FEU published weekly. The SCFI (Shanghai Shipping Exchange) covers approximately 15 routes departing Shanghai, denominated in USD/TEU, and is widely cited for Asia-origin spot intelligence. The CCFI (China Containerized Freight Index) extends SCFI logic to all Chinese origin ports and incorporates long-term contract rates — typically making CCFI structurally lower than SCFI during rate spikes. Xeneta's XSI captures contracted long-term market rates, entirely separate from spot benchmarks. For a freight forwarding business: SCFI tells you where Asia-origin spot rates are today; WCI provides the global composite trajectory; Xeneta reveals whether your contracted rates are at-market or above. The Baltic Dry Index (BDI) is irrelevant to containers — it covers dry bulk. A common error is citing BDI as a container market signal."
       },
       {
         "n": 6,
-        "subtopic": "history"
+        "topic": "gk",
+        "subtopic": "economics",
+        "stem": "Ricardo's comparative advantage overturned Smith's absolute advantage in one critical respect. What is the distinction, and what did the Portugal-England cloth-and-wine example demonstrate?",
+        "options": [
+          "Smith required natural-resource endowments to differ between nations; Ricardo showed factor mobility was the true driver of trade gains",
+          "Even if Portugal is more efficient at producing both cloth and wine, Ricardo showed England should specialise in cloth — its least-bad activity by opportunity cost — and both nations gain through exchange",
+          "Absolute advantage applies only to manufactured goods; Ricardo extended Smith's theory to agricultural commodities and services",
+          "Ricardo showed that factor-price equalisation would over time eliminate comparative advantage, making trade gains temporary"
+        ],
+        "correct": 1,
+        "why": "Smith required one country to be better at something; Ricardo showed even a country worse at everything should specialise in its least-bad product — gains come from opportunity cost, not absolute productivity.",
+        "deepDive": "Adam Smith (Wealth of Nations, 1776) argued trade made sense when one country produced something more efficiently than its partner — absolute advantage. David Ricardo (Principles of Political Economy, 1817) showed this was unnecessarily restrictive. His canonical example: Portugal is more efficient at producing both cloth and wine. Yet England should specialise in cloth — where its relative disadvantage is smallest — and Portugal in wine. Both end up with more of both goods. The mechanism is opportunity cost: what you give up producing one more unit of X. Ricardo's insight underpins all modern trade theory, WTO commitments, and the global supply-chain logic that places Bangladesh's garment industry within the global division of labour. Common misconceptions: comparative advantage doesn't mean any trade is beneficial — it assumes full employment, zero transport costs, and constant returns; real-world application requires adjusting for all three, plus the distributional effects Ricardo himself acknowledged."
       },
       {
         "n": 7,
-        "subtopic": "life_science"
+        "topic": "gk",
+        "subtopic": "linguistics",
+        "stem": "Grimm's Law (1822) describes a systematic consonant shift in one branch of Indo-European. What did it explain, and why does English 'father' correspond to Latin 'pater' rather than sharing the same initial consonant?",
+        "options": [
+          "Grimm's Law describes Arabic root-pattern morphology explaining why Arabic cognates differ from Latin by consonant class",
+          "Grimm's Law describes systematic consonant shifts in Proto-Germanic: voiceless stops became fricatives (p→f, t→þ, k→h), explaining 'father/pater', 'two/duo', and 'hundred/centum'",
+          "Grimm's Law refers to vowel shifts in Middle English, explaining why Chaucer's pronunciation differs from modern English",
+          "Grimm's Law describes an irregular mutation in Slavic consonants, explaining Polish/Russian cognate variation from Latin"
+        ],
+        "correct": 1,
+        "why": "Grimm's Law: in Proto-Germanic, voiceless stops (p, t, k) systematically became fricatives (f, þ, h) — giving 'father' from Latin 'pater', 'three' from Latin 'tres', 'hundred' from Latin 'centum'.",
+        "deepDive": "Jacob Grimm formalised in Deutsche Grammatik (1822) a systematic correspondence between Proto-Germanic consonants and those of other Indo-European languages (Latin, Greek, Sanskrit). Three component shifts: (1) voiceless stops became fricatives — p→f (pater→father), t→þ (tres→three), k→h (centum→hundred); (2) voiced stops became voiceless — b→p, d→t, g→k; (3) voiced aspirates became voiced fricatives or stops. Rasmus Rask had partially anticipated this independently. Verner's Law (1875) later refined it by explaining systematic exceptions via Proto-Indo-European accent position. Grimm's Law was transformative because it proved language change is rule-governed, not random — the foundation of modern historical linguistics. It also proved English, German, Dutch, and the Scandinavian languages form a unified family within Indo-European, all descended from a reconstructable ancestor (Proto-Germanic). Without Grimm's Law there is no comparative linguistics and no modern language-family theory."
       },
       {
         "n": 8,
-        "subtopic": "mathematics"
+        "topic": "gk",
+        "subtopic": "sport",
+        "stem": "Which nation holds the record for most ICC Men's Cricket World Cup (50-over format) titles, and what made their 1999–2007 run historically exceptional?",
+        "options": [
+          "West Indies — their 1975 and 1979 back-to-back titles made them the first World Cup dynasty; Clive Lloyd captained both",
+          "India — 3 titles including the 1983 upset of West Indies, 2011 at home, and 2023 under Rohit Sharma",
+          "Australia — 6 titles, including 3 consecutive (1999, 2003, 2007) and 34 straight knockout-round wins across that streak",
+          "England — 2 titles, with 2019 uniquely decided by a boundary-count tiebreaker after both the match and super over tied"
+        ],
+        "correct": 2,
+        "why": "Australia's 6 ODI World Cup titles are the most in history; their 34 consecutive knockout-stage wins from 1999–2007 across three back-to-back titles is the most dominant sustained run in any team-sport knockout format.",
+        "deepDive": "Australia has won the ODI World Cup six times: 1987 (India/Pakistan), 1999 (England), 2003 (South Africa), 2007 (West Indies), 2015 (Australia), and 2023 (India, defeating India in Ahmedabad). Their 1999–2007 three-peat under Steve Waugh then Ricky Ponting produced 34 consecutive World Cup knockout-stage victories — a record of sustained excellence unmatched in knockout team sports. The 2003 final (Australia beat India by 125 runs with Ricky Ponting's 140*) and the 2007 final (beat Sri Lanka by 53 runs D/L method) bookended the era. England's 2019 final against New Zealand is the most statistically remarkable: both teams scored 241; the super over also tied at 15-all; England won on boundary count — the first and only World Cup final decided that way. West Indies (1975, 1979), Pakistan (1992), Sri Lanka (1996), India (1983, 2011, 2023 final lost), and England (2019) complete the winners list."
       },
       {
         "n": 9,
-        "subtopic": "literature"
+        "topic": "gk",
+        "subtopic": "pop_culture",
+        "stem": "Which British band released 'Urban Hymns' (1997) — one of the bestselling UK albums of the decade — and which track became famous partly for an unusual copyright dispute over a Rolling Stones sample?",
+        "options": [
+          "Oasis — 'Don't Look Back in Anger', built around an uncleared Led Zeppelin piano loop settled out of court in 1998",
+          "The Verve — 'Bitter Sweet Symphony', which sampled an Andrew Oldham orchestral version of a Stones track; initial judgement awarded all songwriting royalties to the Stones' publishers",
+          "Radiohead — 'Karma Police', whose chord sequence was claimed to infringe a Beatles copyright prompting a UK landmark settlement",
+          "Massive Attack — 'Teardrop', whose vocal melody Beth Gibbons performed, prompting a contested publishing dispute with Portishead"
+        ],
+        "correct": 1,
+        "why": "The Verve's 'Bitter Sweet Symphony' sampled an orchestral Stones arrangement; ABKCO won all songwriting royalties in court — rights returned to Richard Ashcroft only in 2019 when Jagger and Richards voluntarily relinquished them.",
+        "deepDive": "The Verve, fronted by Richard Ashcroft, released Urban Hymns in September 1997 — coincidentally the week of Princess Diana's funeral — debuting at UK #1. 'Bitter Sweet Symphony' samples a five-note loop from an Andrew Loog Oldham Orchestra arrangement of the Stones' 'The Last Time.' The Verve licensed the sample but used more of it than agreed; ABKCO (Allen Klein's company, controlling Stones publishing) sued and won all songwriting credits and royalties — Jagger and Richards were listed as sole writers for two decades despite writing none of the melody. In 2019, Jagger and Richards voluntarily returned full rights to Ashcroft in what he called one of the best phone calls of his life. Urban Hymns also features 'The Drugs Don't Work' and 'Lucky Man.' At its peak it ranked as the third-bestselling UK album in history, behind Sgt. Pepper and Thriller."
       },
       {
         "n": 10,
-        "subtopic": "religion"
+        "topic": "gk",
+        "subtopic": "political_theory",
+        "stem": "Rousseau distinguished the 'general will' (volonté générale) from the 'will of all' (volonté de tous). What is the distinction, and why did later theorists argue the concept could justify authoritarian rule?",
+        "options": [
+          "The general will is what citizens would will as rational civic agents oriented toward the common good — not the sum of private interests; Rousseau's claim that dissenters can be 'forced to be free' gave later theorists license to override individual choice in the name of the collective",
+          "The will of all is determined by referendum; the general will by appointed representatives — critics said this justified technocracy over democratic self-governance",
+          "Both terms mean the same thing; the authoritarian critique was directed at Rousseau's followers who misread him, not at the text itself",
+          "The general will is derived from natural law; the will of all from positive law — the critique was that it gave religious authorities precedence over popular sovereignty"
+        ],
+        "correct": 0,
+        "why": "Rousseau's general will is not the aggregate of preferences but what people would will as rational civic agents — a distinction that lets rulers claim to know citizens' true interest against their stated wishes, enabling authoritarian override.",
+        "deepDive": "In The Social Contract (1762), Rousseau's 'will of all' is the aggregate of individual self-interests — what people actually want. The 'general will' is what they would will as rational citizens aimed at the common good. Crucially, Rousseau claims the general will is always right but citizens may fail to recognise it — those who vote against it are simply mistaken, and can be 'forced to be free.' For Benjamin Constant, Isaiah Berlin (Two Concepts of Liberty, 1958), and J.L. Talmon (The Origins of Totalitarian Democracy, 1952), this framework supplies intellectual cover for revolutionary elites to override expressed preferences in the name of citizens' 'true' interest. The Jacobin Terror, Marxist vanguardism ('the party knows history's direction'), and 20th-century one-party states all carry echoes of this logic. The concept remains central to political theory precisely because it captures a genuine tension: individual liberty vs collective self-governance — with no resolved answer."
       }
     ]
   }
