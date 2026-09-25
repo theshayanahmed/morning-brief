@@ -364,291 +364,343 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  date: "2026-09-22",
-  dateLabel: "Tuesday · 22 September 2026",
-  editionLabel: "Edition · Tuesday 22 September",
-  headline: "Trump hosts Xi on Sept 24 as UNGA convenes; Fed's first hike since 2023 lands; AMD joins the trillion-dollar club on Muse demand.",
-  sections: [
+  "date": "2026-09-25",
+  "dateLabel": "Friday · 25 September 2026",
+  "editionLabel": "Edition · Friday 25 September",
+  "headline": "Trump-Xi summit yields trade-truce extension; Hormuz tanker struck again; GPT-6 Sol and Claude Opus 5.5 both launch",
+  "sections": [
     {
-      title: "Macro · Geopolitics · Politics",
-      items: [
+      "title": "Macro · Geopolitics · Politics",
+      "items": [
         {
-          lead: "Xi flies direct to Washington for Sept 24 bilateral — skips UNGA debate floor.",
-          body: "Agenda: tariffs, AI export controls, Taiwan, rare earths. Experts expect incremental progress at best; China frames summit as opportunity to extract Taiwan-stance concessions from Trump.",
-          src: { name: "Washington Post", url: "https://www.washingtonpost.com/politics/2026/09/21/trump-speak-un-host-chinese-leader-has-alienated-allies/" }
+          "lead": "Trump-Xi summit: truce extended, chips off table",
+          "body": "Xi Jinping's first Washington state visit in 11 years — Trump met him on the tarmac — yielded only a two-month Busan truce extension to Jan 10; Xi's push for chip export loosening was declined; an AI governance hotline may make the final communiqué.",
+          "src": {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html"
+          }
         },
         {
-          lead: "UNGA General Debate opens; over 90 heads of state converging on New York this week.",
-          body: "Climate finance, AI governance, and Middle East ceasefire lead the agenda. BRICS and Global South bloc pushing for reformed UN Security Council; Bangladesh, India, Modi all on the programme.",
-          src: { name: "Foreign Policy", url: "https://foreignpolicy.com/2026/09/21/unga-conflict-trump-guterres-secretary-general-uncertainty/" }
+          "lead": "UNGA: Abbas denied visa, Netanyahu lambasts Tehran",
+          "body": "Palestinian Authority President Mahmoud Abbas addressed the UN General Assembly via video after the Trump administration denied his entry visa; Israeli PM Netanyahu defended Gaza operations and accused Iran of existential plotting from the UNGA podium.",
+          "src": {
+            "name": "CNN",
+            "url": "https://www.cnn.com/2026/09/24/world/live-news/un-general-assembly-netanyahu"
+          }
         },
         {
-          lead: "Fed hikes 25bp to 3.75–4.00% on Sept 16 — first increase since 2023; vote was unanimous.",
-          body: "Chair Warsh cites Iran-driven energy inflation keeping core PCE at 3.3%; dot-plot signals December follow-through. Futures now price ~4.2% by year-end, ~4.7% by late 2027.",
-          src: { name: "Chase / Fed", url: "https://www.chase.com/personal/investments/learning-and-insights/article/september-2026-rate-hike-now-expected-amid-energy-shocks" }
+          "lead": "Trump-Zelenskyy meet on UNGA margins",
+          "body": "Ukraine's Zelenskyy held a bilateral with Trump on the sidelines of the 81st General Assembly; both sides described talks as constructive but no ceasefire or settlement framework was announced.",
+          "src": {
+            "name": "Crisis Group",
+            "url": "https://www.crisisgroup.org/sco/global/updates-un-general-assembly-2026"
+          }
         },
         {
-          lead: "Brent at ~$108 after Saudi Yanbu loadings suspended on East-West pipeline attack.",
-          body: "Iran continues threatening regional energy-infrastructure strikes despite the nine-day fire pause. VLCC diversions via Cape adding 12–14 days; Hormuz shipping remains contested and partially avoided.",
-          src: { name: "Yahoo Finance", url: "https://finance.yahoo.com/energy/articles/oil-extends-gains-us-iran-001532615.html" }
+          "lead": "Hormuz tanker struck by projectile — Day ~207",
+          "body": "An 'unknown projectile' struck an inbound tanker entering the Strait of Hormuz on September 21, injuring two crew; the strait sits at 1% of normal throughput with MSC, Maersk and six other major carriers still fully rerouted.",
+          "src": {
+            "name": "Reuters",
+            "url": "https://www.clickorlando.com/news/2026/09/21/a-projectile-strikes-a-tanker-as-it-sails-into-the-strait-of-hormuz-and-other-mideast-developments/"
+          }
         },
         {
-          lead: "US–Ukraine–Russia peace talks stall; October trilateral set for Geneva after no Moscow breakthrough.",
-          body: "Witkoff and Kushner met Putin 3+ hours with no agreement. Kyiv ordered temporary halt Sept 5–8; territorial and water-rights gaps remain unbridged. Futures markets pricing little chance of 2026 deal.",
-          src: { name: "Kyiv Independent", url: "https://kyivindependent.com/units-of-ukraines-army-ordered-to-halt-fighting-as-us-envoys-set-to-visit-ukraine-russia/" }
+          "lead": "ECB warns Germany/Italy face Q4 recession",
+          "body": "The European Central Bank publicly cautioned that if the current Gulf energy shock persists through the autumn, Germany and Italy could slip into technical recession by Q4 2026, adding to an already fragile eurozone recovery.",
+          "src": {
+            "name": "EU Commission",
+            "url": "https://economy-finance.ec.europa.eu/economic-surveillance-eu-member-states/country-pages/germany/economic-forecast-germany_en"
+          }
         },
         {
-          lead: "World merchandise trade growth collapsing to 1.5–2.5% in 2026 from 4.7% in 2025.",
-          body: "UNCTAD/McKinsey cite Middle East energy disruptions, US tariff realignment, and trade bloc fragmentation. US AI-related imports nearly doubled to $260B; China intermediate-goods exports +27% YoY.",
-          src: { name: "McKinsey MGI", url: "https://www.mckinsey.com/mgi/our-research/geopolitics-and-the-geometry-of-global-trade-2026-update" }
+          "lead": "Middle powers route around paralysed UN",
+          "body": "BRICS and G77 side events at UNGA showed middle powers using parallel forums as the multilateral system stagnates; 75% of global CEOs now say they have localised or are localising production within the country of sale.",
+          "src": {
+            "name": "EY Geostrategic",
+            "url": "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis"
+          }
         }
       ]
     },
     {
-      title: "Bangladesh & Subcontinent",
-      items: [
+      "title": "Bangladesh & Subcontinent",
+      "items": [
         {
-          lead: "PM Tarique Rahman departs Dhaka today for New York to attend UNGA.",
-          body: "Delivers maiden UNGA address in Bangla on Sept 24 — third member of his family to speak there after Ziaur Rahman (1980) and Khaleda Zia. Meets Guterres and Thai PM; opens session on sea-level rise.",
-          src: { name: "The Daily Star", url: "https://www.thedailystar.net/news/governance/news/tarique-rahman-leaves-new-york-attend-unga-4278521" }
+          "lead": "BB holds rate — inflation above 7.5% ceiling",
+          "body": "Bangladesh Bank's MPC (met September 23) kept the repo rate unchanged; inflation remains above the 7.5% FY27 target ceiling, with the recent domestic fuel price hike and an incoming national pay scale flagged as upside risks before any easing.",
+          "src": {
+            "name": "Daily Star / TBS",
+            "url": "https://www.tbsnews.net/economy/banking/bb-keeps-policy-rate-unchanged-will-monitor-energy-price-hike-impact-1551681"
+          }
         },
         {
-          lead: "Bangladesh pushes for EU FTA formal talks and RCEP membership — NY diplomatic priority.",
-          body: "PM's agenda pitches BD as post-LDC-graduation investment hub. EU FTA negotiations would replace EBA preference from 2030 when garments face 12% standard GSP tariffs under current projections.",
-          src: { name: "The Daily Star", url: "https://www.thedailystar.net/business/economy/news/bangladesh-pushes-eu-trade-deal-rcep-entry-4243941" }
+          "lead": "Tarique-Shehbaz bilateral at UNGA",
+          "body": "PM Tarique Rahman and Pakistan PM Shehbaz Sharif met on UNGA sidelines today, reaffirming cooperation across trade, investment, connectivity, education, tourism and people-to-people ties — the highest-level bilateral since the post-election normalisation.",
+          "src": {
+            "name": "The Nation PK",
+            "url": "https://www.nation.com.pk/25-Sep-2026/pakistan-bangladesh-vow-strengthen-cooperation"
+          }
         },
         {
-          lead: "Government halves aromatic rice export allocations for 278 exporters amid domestic price spike.",
-          body: "Allocation cuts aimed at controlling sharp retail price rises; Aman harvest season approaching and expected to ease supply pressure by November. NBR monitoring export volumes through Chittagong.",
-          src: { name: "The Daily Star", url: "https://www.thedailystar.net/business/economy" }
-        },
-        {
-          lead: "Bangladesh economic activity falls to 23-month low in August, reversing July's rebound.",
-          body: "Exports weakened and energy disruptions hit manufacturing and services. The decline reflects Brent cost pass-through to industrial fuel plus ongoing taka depreciation pressure on import-dependent inputs.",
-          src: { name: "TBS News", url: "https://www.tbsnews.net/economy" }
+          "lead": "J&K DGP reviews operational readiness",
+          "body": "Jammu and Kashmir's Director General of Police Nalin Prabhat conducted a full security and operational-preparedness review in the UT on September 25 — a routine but visible signal of sustained sub-surface India-Pakistan tension.",
+          "src": {
+            "name": "Northlines",
+            "url": "https://thenorthlines.com/dgp-reviews-security-situation-operational-preparedness/"
+          }
         }
       ]
     },
     {
-      title: "Trade · Freight",
-      items: [
+      "title": "Trade · Freight · Logistics",
+      "items": [
         {
-          lead: "Drewry WCI $4,500/FEU week of Sept 17 — +1% WoW; transpacific +2%, Asia-Europe/Med -3%.",
-          body: "Shanghai–LA at $7,185/FEU; Shanghai–NY still above $10,000. Carriers maintaining rate floors via blank sailings against soft demand outside pre-Golden Week pull-forward; GRIs implemented Sept 1.",
-          src: { name: "Drewry WCI", url: "https://www.drewry.co.uk/trackers-and-indices/latest-trackers-and-indices/world-container-index-assessed-by-drewry" }
+          "lead": "Hormuz: 39% of global trade disrupted",
+          "body": "The Sept 11 East-West crude pipeline shutdown compounds the strait closure — official total: 39% of global trade and 31% of global shipments disrupted; PortWatch recorded just one vessel/day on Sept 20 versus pre-war norms of ~100.",
+          "src": {
+            "name": "Straits Live",
+            "url": "https://straits.live/"
+          }
         },
         {
-          lead: "79 blank sailings planned weeks 38–42 — 11% cancellation rate; transpacific takes majority.",
-          body: "9 blanks scheduled next week alone; National Day holiday (Oct 1–7) cargo pull-forward sustaining TP demand. Another GRI targeted Oct 1; outcomes in prior rounds mixed by trade lane.",
-          src: { name: "Drewry Sailings Tracker", url: "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/cancelled-sailings-tracker" }
+          "lead": "Maersk suspends India Subcontinent inter-regional bookings",
+          "body": "Maersk suspended all new bookings on intra-Subcontinent routes (India, Pakistan, Bangladesh, Sri Lanka) — a direct consequence of Hormuz rerouting compressing feeder capacity across South Asia and limiting available tonnage for regional moves.",
+          "src": {
+            "name": "Reuters / TradingView",
+            "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN3ZR0TR:0-maersk-says-suspended-all-new-bookings-between-the-india-subcontinent-india-pakistan-bangladesh-and-sri-lanka/"
+          }
         },
         {
-          lead: "Saudi Yanbu suspension and Iran fire pause send war-risk surcharges higher on Gulf lanes.",
-          body: "Tanker diversions via Cape adding cost to Gulf–India and Gulf–BD trades. VLCC TCE spiking; Persian Gulf loading premiums elevated. Energy surcharges flowing into ocean freight quotes on Middle East origin.",
-          src: { name: "Al Jazeera", url: "https://www.aljazeera.com/news/liveblog/2026/9/19/iran-war-live-trump-extends-sanctions-on-iran-houthi-supporters-in-sanaa" }
+          "lead": "Shanghai–LA at $7,185/FEU; 20% capacity blanked",
+          "body": "Transpacific rates held firm as carriers blanked ~20% of capacity and Golden Week rush (Oct 1–7) tightened available slots further; post-storm catch-up shipments competing for the same space added to late-September pressure.",
+          "src": {
+            "name": "Freight Right / Navia",
+            "url": "https://naviafreight.com/market-updates/september-freight-market-update/"
+          }
         },
         {
-          lead: "US East Coast firmer than West; Panama Canal low-water draft restrictions ongoing.",
-          body: "USEC/Gulf sees 12 blank sailings this month; reduced Gatun Lake levels cap Neo-Panamax laden weights, diverting some cargo via Cape or USWC overland. Rate premium USEC over USWC widening.",
-          src: { name: "JM Rodgers", url: "https://www.jmrodgers.com/news/september-2026-freight-market-update/" }
+          "lead": "WCI $4,500 (+1%); SCFI flat at 3,688",
+          "body": "Drewry's WCI ticked up 1% to $4,500 on Sept 17; Shanghai CFI flat at 3,688 on Sept 24; Europe-bound rates softened to $4,092/40ft to Rotterdam (−5% week-on-week), reflecting demand weakness despite ongoing capacity management.",
+          "src": {
+            "name": "Drewry",
+            "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+          }
         },
         {
-          lead: "ASEAN trade bifurcation accelerating: imports from China +24%, exports to US +18%.",
-          body: "ASEAN absorbing Chinese intermediate goods and re-exporting assembled products to the US — the supply-chain-diversification fulcrum. Vietnam, Thailand, Malaysia primary beneficiaries; Bangladesh competes for final-assembly share.",
-          src: { name: "McKinsey / Idea Farm", url: "https://theideafarm.com/global-marcoeconomics/geopolitics-and-the-geometry-of-global-trade-september-2026-update/" }
+          "lead": "Ningbo-Zhoushan overtakes Singapore; Jebel Ali collapses",
+          "body": "Ningbo-Zhoushan became the world's second-busiest container port in H1 2026, displacing Singapore; Jebel Ali fell from 10th to 32nd globally as Gulf rerouting drained transshipment volumes that once defined it as a South Asia gateway hub.",
+          "src": {
+            "name": "Navia Freight",
+            "url": "https://naviafreight.com/market-updates/september-freight-market-update/"
+          }
         }
       ]
     },
     {
-      title: "Semis · AI",
-      items: [
+      "title": "Semis · AI · Tech",
+      "items": [
         {
-          lead: "AMD hits $1T market cap for first time Monday — Meta Muse app-store success sparks chip rally.",
-          body: "AMD +10%, Intel +12%, Arm +17%; SOX index +4.3% — biggest single-day chip rally since August. AMD also announced AI accelerator price increases of ~10% from Q4, passing through TSMC cost hikes.",
-          src: { name: "Bloomberg", url: "https://www.bloomberg.com/news/articles/2026-09-21/amd-set-to-top-1-trillion-in-market-value-as-chip-stocks-soar" }
+          "lead": "GPT-6 Sol and Claude Opus 5.5 launch same day",
+          "body": "OpenAI's GPT-6 Sol (Sept 22) priced at roughly half the GPT-5.6 generation with ~50% fewer errors, targeting everyday professional and coding use; Anthropic's Opus 5.5 (Sept 22) matches Fable 5.1 on most tasks at lower cost and faster latency — both aimed squarely at agentic workloads.",
+          "src": {
+            "name": "LLM Gateway",
+            "url": "https://llmgateway.io/timeline"
+          }
         },
         {
-          lead: "Meta Muse AI agent tops Apple App Store on launch — $20/$100/month tiers, US-only initially.",
-          body: "Personal agent integrates email, calendar, health, shopping, and smart-home apps; executes multi-step tasks autonomously. Early consumer adoption signal revived optimism about AI infrastructure demand broadly.",
-          src: { name: "Axios", url: "https://www.axios.com/2026/09/08/meta-debuts-muse-personal-ai-agent" }
+          "lead": "Google, Anthropic, OpenAI unveil cyber AI models at UNGA week",
+          "body": "All three major AI labs announced cyber-focused models and safety frameworks in New York this week, reflecting tightening government pressure around dual-use AI capabilities — timed deliberately to coincide with world-leader gathering.",
+          "src": {
+            "name": "The Hacker News",
+            "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html"
+          }
         },
         {
-          lead: "Meta Iris (MTIA v3) enters TSMC 3nm mass production this month — Broadcom-designed.",
-          body: "Chip targets ranking and recommendation inference for Facebook/Instagram; cleared bug testing in ~6 weeks. Meta targets 7GW compute by end-2026, doubling to 14GW in 2027; $145B AI capex this year.",
-          src: { name: "Eastern Herald", url: "https://easternherald.com/2026/09/21/meta-iris-ai-chip-production-nvidia-tsmc-broadcom/" }
+          "lead": "Trump-Xi summit: chip controls stay, AI hotline possible",
+          "body": "Xi pushed hard to loosen US semiconductor export restrictions; Trump declined substantively; the summit produced only an extended Busan trade truce — an AI governance dialogue channel is the most concrete tech deliverable under discussion.",
+          "src": {
+            "name": "Roll Call",
+            "url": "https://rollcall.com/2026/09/23/ai-export-controls-debate-rages-as-trump-xi-meet/"
+          }
         },
         {
-          lead: "TSMC foundry share at 72.5% Q2 2026; AI chip market forecast heading toward $3T per AMD CFO.",
-          body: "Nvidia Blackwell at volume production; first US wafer out of Phoenix fab. AI chip orders outpacing all year-ago forecasts; Arm +17%, Samsung/SK Hynix +3.5%, Taiwan Taiex hits record on the demand wave.",
-          src: { name: "Tech Insider / Bloomberg", url: "https://tech-insider.org/tsmc-record-revenue-ai-chip-boom-nand-shortage-2026/" }
+          "lead": "Micron Q3: $41.5B revenue, data centre clears $25B",
+          "body": "Micron's fiscal Q3 revenue hit $41.46B (+346% YoY) with data-centre exceeding $25B; CEO Sanjay Mehrotra stated HBM supply tightness will persist past 2027, with consumer electronics makers now pushed to the back of the allocation queue.",
+          "src": {
+            "name": "247 Wall St",
+            "url": "https://247wallst.com/investing/2026/09/16/3-semiconductor-stocks-to-buy-before-ai-demand-explodes-in-september/"
+          }
         },
         {
-          lead: "Memory becomes the AI compute bottleneck: Micron HBM4 ramping 2× faster than HBM3E.",
-          body: "HBM4 ships $1B+; 100K wafer/month target by year-end. CEO Mehrotra: memory tightness persists beyond 2027. HBM pricing premium over standard DRAM at multi-year high, driving SK Hynix margin expansion.",
-          src: { name: "Bloomberg Korea", url: "https://www.bloomberg.com/news/articles/2026-09-22/korean-chip-stocks-gain-as-meta-s-muse-ai-agent-spurs-enthusiasm" }
+          "lead": "Taiwan finalising chip export controls to align with US",
+          "body": "Taiwan is finalising rules to curb AI chip and advanced-server exports to China, closing the diversion routes that have routed Nvidia-equipped hardware from Taiwanese supply chains into Chinese data centres despite US controls.",
+          "src": {
+            "name": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us"
+          }
         }
       ]
     }
   ],
-  lesson: {
-    title: "The Balance of Payments: Why Every Trade Deficit Hides a Capital Surplus — and What It Means for Bangladesh",
-    paragraphs: [
-      "The balance of payments (BoP) is an accounting identity, not a theory — and its most counterintuitive feature is that it always balances, by definition. Every international transaction generates two equal and opposite entries. When Bangladesh imports a machine from Germany, it debits the current account (goods imported) and must simultaneously credit something: draw down foreign reserves, borrow in euros, or attract German direct investment. This double-entry structure means a 'trade deficit' is not a shortfall but a mirror. A current account deficit is always offset, dollar for dollar, by a capital and financial account surplus of identical size.",
-      "The BoP has three sub-accounts. The Current Account records trade in goods and services, primary income (remittances, investment returns), and secondary income (foreign aid). The Capital Account records transfers of non-financial assets. The Financial Account records FDI, portfolio flows, and central-bank reserve changes. Bangladesh's BoP is a textbook case: its merchandise trade runs in chronic deficit, but remittances ($23B+ annually) provide a large partial offset in the Current Account. When remittances weaken or FDI dries up, the Financial Account adjustment falls on Bangladesh Bank's reserves — which is why reserves are a live political variable, why the IMF program is a BoP support mechanism, and why BB's high policy rate (10%) is partly an instrument to slow capital outflows.",
-      "For anyone running commercial operations in Bangladesh, the BoP lens decodes every macro headline. A weakening taka is the FX market's real-time signal that the BoP is under stress — imports, debt service, and capital outflows outpacing exports plus remittances plus FDI. BB's import restrictions, duty hikes on discretionary goods, and the IMF conditionality calendar are all BoP management instruments. Reading a BB press release or an NBR import-duty change through this framework tells you whether it is plugging a current account gap or defending a reserve floor — not just reacting to a number."
+  "lesson": {
+    "title": "Feeder Services & Transshipment: How the Hub-and-Spoke Architecture Connects 800 Ports to Fewer Than 50 Mega-Terminals",
+    "paragraphs": [
+      "The global container network is organised around roughly 40–50 mega-terminals — Singapore, Port Klang, Colombo, Salalah, Rotterdam, Shanghai, Busan, LA/Long Beach — that capture mainline trade. Container ships of 18,000–24,000 TEU call only at ports with deep drafts (15–17 m), massive berths, and ultra-high crane productivity. The other 750+ commercial ports are served by feeder vessels — typically 500–3,000 TEU — shuttling containers between these regional hubs and smaller ports on scheduled or chartered services.",
+      "For MGH's Bangladesh operations, feeder services are existential: Chittagong has limited mainline calls, so most cargo transships at Colombo or Singapore before joining a mainline service to Europe or North America. The feeder leg typically adds $150–250/TEU in cost and 4–7 transit days. Carriers like Maersk (through regional brands) and specialists like X-Press Feeders and Sealand dominate this space. The strategic play for a logistics conglomerate is to control feeder connectivity — by owning or co-investing in feeder capacity, or by securing guaranteed feeder slots as part of mainline service contracts.",
+      "Today's Hormuz crisis makes this acutely live: Jebel Ali's collapse from 10th to 32nd busiest port globally has degraded the Gulf hub that served Pakistan and South Asia transshipment. Colombo and Singapore are absorbing the diverted volumes, tightening feeder capacity across the subcontinent. Maersk's suspension of India Subcontinent inter-regional bookings is a direct consequence. For MGH, securing feeder slot commitments — not just mainline rates — is the near-term commercial priority."
     ],
-    why: "Every Bangladesh macro headline — IMF disbursements, taka depreciation, reserve levels, BB rate decisions — is a BoP event; this identity gives you the analytical scaffolding to decode rather than merely observe them."
+    "why": "Bangladesh's export machine runs through feeder connectivity to Colombo or Singapore, and the Hormuz collapse has compressed exactly that capacity — making feeder access the defining operational constraint for MGH right now."
   },
-  questions: [
+  "questions": [
     {
-      n: 1,
-      topic: "industry",
-      subtopic: "multimodal",
-      stem: "Under UNCTAD/ICC Multimodal Transport Rules, when goods are damaged at a known and identifiable stage of transit, which liability regime applies to the MTO's exposure?",
-      options: [
-        "Uniform liability: the MTO pays 2 SDR/kg regardless of which transit stage the damage occurred at",
-        "Network liability: the limits of whichever unimodal convention governs that stage (e.g. Hague-Visby at sea, CMR on road) apply to the MTO",
-        "Contractual freedom: MTO and shipper may agree any limit, as UNCTAD/ICC rules are entirely non-mandatory",
-        "The MTO bears no liability once goods are handed to a sub-contractor performing that specific leg"
+      "n": 1,
+      "topic": "industry",
+      "subtopic": "aircraft_carriers",
+      "stem": "When air freight markets soften, combination carriers (Lufthansa Cargo, Cathay Cargo) consistently outlast pure-play freighter operators on yield. What core structural asymmetry explains this resilience?",
+      "options": [
+        "IATA slot rights give combination carriers priority access at congested cargo terminals over dedicated freighters",
+        "Belly capacity carries near-zero marginal cost per flight since the aircraft flies regardless, letting them undercut pure freighters without structural loss",
+        "Combination carriers hold larger ULD fleets, reducing the empty-repositioning cost that drains pure-freighter margins",
+        "Passenger revenue enables combination carriers to accept lower freight rates by cross-subsidising fuel-hedging programs"
       ],
-      correct: 1,
-      why: "UNCTAD/ICC Rules use a network liability principle — when the loss stage is identifiable, the MTO's exposure is capped by whichever unimodal convention (Hague-Visby, CMR, CIM etc.) governs that segment.",
-      deepDive: "The UNCTAD/ICC Rules for Multimodal Transport Documents (1992) establish two liability tiers. When the damage stage is unknown, a uniform fallback applies. When the stage is known and a unimodal regime applies — Hague-Visby for sea legs (2 SDR/kg or 666.67 SDR/package), CMR for road (8.33 SDR/kg), CIM for rail — that convention's limits govern. This 'network' structure creates practical asymmetry: sea legs carry low per-kg caps but high per-package alternatives; a shipper losing expensive cargo across many packages in a sea leg may face very different outcomes than the same loss on a road segment. A common misconception is that a combined-transport BL means one uniform standard — it does not. Reading the BL's liability clause and mapping the likely loss stage before tendering high-value cargo is operationally critical, particularly for Bangladesh-origin shipments with ocean + inland legs."
+      "correct": 1,
+      "why": "Once the passenger flight operates, belly space is a sunk cost — marginal cost of filling it approaches zero. Pure freighters must cover full aircraft operating costs even half-full, a structural disadvantage in soft markets.",
+      "deepDive": "The belly-freight model exploits a fundamental asymmetry: the aircraft flies regardless of cargo load, making every kilogram of belly freight almost entirely marginal-cost revenue. Widebodies like the 777-300ER and A350-1000 carry 20–25 tonnes of belly freight. In a downturn, pure freighters (Atlas Air, Cargolux) face the brutal calculus of covering full aircraft costs — fuel, crew, maintenance, depreciation — even on half-full loads. Combination carriers need only cover marginal handling, as low as $0.10–0.20/kg. This allows them to scoop up business at rates pure operators find unprofitable. The flip side: in peak season, combination carriers have less flexibility — passengers hold priority, and cargo gets offloaded when weight limits bind. Shippers should exploit this asymmetry: negotiate hard on combination carriers in soft markets; lock in pure freighters for peak-season reliability guarantees."
     },
     {
-      n: 2,
-      topic: "industry",
-      subtopic: "trade_lanes",
-      stem: "The Northern Sea Route (NSR) across the Russian Arctic reduces Hamburg-to-Yokohama sailing distance by roughly how much vs the Suez Canal, and what remains its most binding commercial constraint in 2026?",
-      options: [
-        "~3,000 nm saving; constraint is insufficient port infrastructure along the Siberian coast",
-        "~7,000 nm saving; constraint is mandatory Russian icebreaker escort, transit permits, and a July–October navigation window compounded by sanctions exposure",
-        "~7,000 nm saving; constraint is the Jones Act prohibiting non-US-flagged vessels through the Bering Strait segment",
-        "~10,000 nm saving; commercially viable year-round — Arctic sea ice has retreated enough for all-season container transit"
+      "n": 2,
+      "topic": "industry",
+      "subtopic": "airport_ops",
+      "stem": "Frankfurt Airport (FRA) operates under strict night-flight bans, yet ranks among Europe's top cargo airports by tonnage. Which arrangement primarily enables this apparent contradiction?",
+      "options": [
+        "FRA's status as a DHL Express hub grants a curfew exemption under German federal aviation law",
+        "Frankfurt courts limit the ban to passenger jets, exempting dedicated freighters operating post-midnight",
+        "Dense daytime scheduling combined with one of Europe's largest road feeder service (RFS) networks extends effective cargo reach without requiring night operations",
+        "A treaty with Hesse state permits one overnight freighter wave for express operators"
       ],
-      correct: 1,
-      why: "Hamburg-Yokohama via Suez ≈21,000 nm; via NSR ≈12,400–13,200 nm — a ~7,000–8,600 nm saving; but Russia mandates ROSATOM-approved icebreaker escort and transit permits, with a reliable commercial window of only July–October.",
-      deepDive: "The Northern Sea Route follows the Russian Arctic coast through the Kara, Laptev, East Siberian, and Chukchi Seas to the Bering Strait — a distance advantage of up to 40% over Suez for east-west routes. But three barriers constrain commercial use: (1) Russia requires all NSR transits to coordinate with ROSATOM's Northern Sea Route Administration, pay transit fees, and use approved icebreakers in ice conditions — adding cost and complexity; (2) reliable commercial ice-free conditions persist roughly July–October; shoulder months require ice-class vessels; (3) post-2022 sanctions on Russia create significant compliance exposure for European and US-flag carriers. The route serves growing Russian LNG export volumes but carries negligible container traffic. Climate change is gradually extending the navigation window — this is a 2030s trajectory story, not a current operational reality. For a logistics conglomerate with South Asia exposure, the significance is indirect: NSR viability would eventually alter Asia-Europe competitive lane dynamics and shift alliance routing decisions."
+      "correct": 2,
+      "why": "FRA compensates for night restrictions through extremely dense daytime rotations and an RFS truck network extending 500–800 km, making night-flight restrictions effectively irrelevant to its catchment footprint.",
+      "deepDive": "Frankfurt's night-flight ban — enforced through German administrative court rulings — prohibits scheduled commercial flights between roughly 23:00 and 05:00, one of Europe's strictest. Yet FRA handles ~2 million tonnes/year. The key is that DHL's European mega-hub is at Leipzig/Halle (LEJ), which operates 24 hours with no curfew — explaining integrator operations. FRA compensates through road feeder services (RFS): trucks certified as extensions of the air cargo manifest, picking up and delivering within a 500–800 km radius overnight while the airport is quiet. This extends FRA's true catchment into Belgium, Netherlands, Austria, and Poland. The lesson for logistics strategists: airport choice is not just about tarmac — it's about the ground network that renders night restrictions operationally irrelevant."
     },
     {
-      n: 3,
-      topic: "industry",
-      subtopic: "marine_insurance",
-      stem: "Under the Institute Cargo Clauses hierarchy, which statement correctly describes the relationship between ICC A, B, and C in terms of peril coverage?",
-      options: [
-        "ICC C is all-risks; ICC B adds named exclusions; ICC A is the most restricted clause covering only catastrophic losses",
-        "ICC A, B, and C cover identical perils — the difference is in deductible levels and insured value limits",
-        "ICC C covers major casualties only (fire, stranding, collision, general average); ICC B adds perils like washing overboard and sea-water ingress; ICC A adds an all-risks wrapper covering all fortuitous loss except named exclusions",
-        "ICC B and C are identical; ICC A is the only clause that covers war and strikes automatically"
+      "n": 3,
+      "topic": "industry",
+      "subtopic": "ma_consolidation",
+      "stem": "DSV completed its ~$14.5 billion acquisition of DB Schenker in early 2025, creating the world's third-largest freight forwarder. What does 'lane density' explain about the deal's strategic rationale that revenue multiples alone cannot?",
+      "options": [
+        "Larger forwarders negotiate more favorable bank credit terms, reducing working-capital costs",
+        "Critical mass of volume on a specific trade lane grants leverage to secure contracted carrier rates well below spot, compressing cost while margins hold — the moat revenue figures don't reveal",
+        "Scale enables DSV to pursue a B2C parcel delivery model that smaller forwarders structurally cannot access",
+        "EU regulatory approval above a revenue threshold requires sustainability disclosures, improving brand visibility with large shippers"
       ],
-      correct: 2,
-      why: "The hierarchy runs C ⊂ B ⊂ A: ICC C covers minimum named perils; B adds intermediate perils; A adds an all-risks wrapper. War/strikes are excluded from all three and require separate cover.",
-      deepDive: "Institute Cargo Clauses are underwritten at Lloyd's and IUA and form the global cargo insurance benchmark. ICC C covers only: fire/explosion, vessel stranding/sinking/capsizing/grounding, overturning or derailment of land conveyance, collision, discharge at port of distress, general average and salvage. ICC B adds: earthquake/lightning, washing overboard, entry of sea/river/lake water into vessel or container, and total loss of any package during loading/discharge. ICC A then wraps all of the above with an all-risks clause covering all fortuitous physical loss or damage except specifically named exclusions — inherent vice, delay, deliberate damage, war, strikes, and wilful misconduct. Under Incoterms 2020, a critical change: CIF requires only ICC C minimum; CIP now requires ICC A minimum. This 2020 change is frequently overlooked — sellers quoting CIP who don't update their insurance arrangements may be dangerously underinsured on high-value cargo. War and strikes cover must always be added separately regardless of which clause applies."
+      "correct": 1,
+      "why": "Density on a lane — e.g., 5,000 TEU/month on Shanghai–Rotterdam — enables volume-committed carrier rates 15–25% below spot. That cost advantage is invisible in top-line revenue but defines margin in a low-spread business.",
+      "deepDive": "In freight forwarding, 'density' is the true competitive moat. If you commit 5,000 TEU/month on a lane, you can extract carrier rates 15–25% below a forwarder with 500 TEU/month on the same route. DSV-Schenker logic: Schenker had deep density in European industrial forwarding (auto, machinery) while DSV dominated trans-Pacific and spot. The merger creates overlapping density on key lanes, enabling the combined entity to extract carrier rates neither could alone. The risk is integration failure — the real asset is Schenker's customer relationships and commercial staff, both of which can walk out the door. This is why forwarding M&A has a poor track record at cultural integration despite structurally sound logic. Density-based moats only hold if the people who built them stay."
     },
     {
-      n: 4,
-      topic: "industry",
-      subtopic: "compliance",
-      stem: "The UFLPA creates a rebuttable presumption that goods manufactured in Xinjiang involve forced labour. What is legally required to rebut this presumption and obtain US Customs clearance?",
-      options: [
-        "A certificate of origin from a non-Xinjiang Chinese province, countersigned by the manufacturer's compliance officer",
-        "Clear and convincing evidence presented to US Customs and Border Protection that the specific goods were not produced with forced labour",
-        "An HS code reclassification placing the goods in an exempt product category not covered by the Xinjiang-origin restriction",
-        "Posting a customs bond equal to twice the shipment's dutiable value, pending CBP investigation and release"
+      "n": 4,
+      "topic": "industry",
+      "subtopic": "commercial_concepts",
+      "stem": "A forwarder commits to 1,200 TEU/month under an MQC at $800/TEU. In month 5 it moves only 900 TEU. If the shortfall penalty is 50% of base rate on unfulfilled volume, what is the financial exposure — and what is the primary commercial lever to avoid it?",
+      "options": [
+        "$120,000; primary lever is requesting a force-majeure waiver from the carrier",
+        "$120,000; primary lever is backfilling with third-party spot cargo under the same contract",
+        "$240,000; primary lever is invoking a market-flex clause that adjusts MQC pro-rata to demand",
+        "$240,000; primary lever is re-routing shortfall via sister offices booking under the master agreement"
       ],
-      correct: 1,
-      why: "UFLPA's rebuttable presumption requires 'clear and convincing evidence' submitted to CBP — a high legal bar that functions as a de facto ban on most Xinjiang-origin goods because supply-chain proof is rarely achievable.",
-      deepDive: "The Uyghur Forced Labor Prevention Act (operative June 2022) creates a statutory presumption under 19 U.S.C. §1307: any goods produced wholly or partly in Xinjiang, or by entities on the UFLPA Entity List, are presumed to involve forced labour and barred from import. Rebuttal requires 'clear and convincing evidence' to CBP — legally, a 'highly probable' standard, among the most demanding in US administrative law. In practice this means complete supply-chain mapping to raw material origin, third-party audit evidence, and proof no Xinjiang inputs appear at any tier. For Bangladesh's RMG sector the exposure is indirect but real: Xinjiang-origin cotton yarn or fabric sourced through Chinese spinning mills — even if the garment is sewn in Dhaka — can taint the whole shipment. Brands sourcing from Bangladesh must maintain Tier 3–4 supply-chain documentation or face CBP detention and seizure. This is why the US Bangladesh ART framework's incentive for US-cotton garments (0% tariff pathway) is commercially valuable — it solves the UFLPA exposure simultaneously."
+      "correct": 1,
+      "why": "300 TEU shortfall × $800 × 50% = $120,000. Classic mitigation is buy-sell: sourcing third-party cargo at thin margin to fill the gap, since the penalty cost exceeds the typical buy-in loss.",
+      "deepDive": "MQC structures define large forwarder–carrier commercial relationships. The forwarder accepts rate certainty and space priority in exchange for volume commitment risk. The 50% shortfall penalty is typical — carriers price it at roughly the contribution margin they lose. Calculation: 1,200 − 900 = 300 TEU × $800 × 50% = $120,000. In practice, forwarders avoid shortfalls by: (1) backfilling with buy-sell cargo — sourcing third-party shipments at thin margin to meet commitment; (2) requesting accommodation in force-majeure scenarios; or (3) negotiating a flex band (±10–15%) in the original MQC. Senior commercial teams track utilisation weekly and scramble in month 4 — by month 5 the window is usually closed. The skill is structuring the MQC flex wide enough to absorb normal volatility while keeping committed volume high enough to secure the rate leverage."
     },
     {
-      n: 5,
-      topic: "industry",
-      subtopic: "industry_econ",
-      stem: "Drewry's World Container Index (WCI) and the Shanghai Containerized Freight Index (SCFI) are both weekly container spot-rate benchmarks. What is the key methodological difference between them?",
-      options: [
-        "WCI measures bulk shipping rates; SCFI measures container freight exclusively — the two are not comparable",
-        "WCI is a USD/FEU composite of 8 major global bidirectional lane pairs; SCFI is a USD/TEU composite of ~15 Shanghai-origin export routes — different scope, base port, and denomination",
-        "WCI and SCFI use identical methodology but are published by competing trade bodies; they are interchangeable for market benchmarking",
-        "WCI includes long-term contract rates alongside spot; SCFI is spot-only — making WCI structurally higher in most market conditions"
+      "n": 5,
+      "topic": "industry",
+      "subtopic": "supply_chain_strategy",
+      "stem": "The 'bullwhip effect' describes amplifying demand swings upstream through a supply chain. Which intervention is empirically most effective at dampening it — and why?",
+      "options": [
+        "Safety-stock increases at each tier absorb demand shocks before they propagate upstream",
+        "Vendor-managed inventory (VMI), where the supplier replenishes using point-of-sale data directly, eliminating the distortion layer",
+        "Centralising warehousing at fewer mega-DCs smooths demand by averaging across larger geographic populations",
+        "Longer lead-time forecasts force buyers to commit early and reduce mid-order cancellations"
       ],
-      correct: 1,
-      why: "WCI covers 8 bidirectional global lane pairs in USD/FEU (weekly); SCFI covers ~15 Shanghai-origin export routes in USD/TEU (weekly) — different base port, geographic scope, and denomination mean the two answer different questions.",
-      deepDive: "Drewry's WCI samples from 8 major lane pairs: Shanghai-Rotterdam, Rotterdam-Shanghai, Shanghai-LA, LA-Shanghai, Shanghai-NY, NY-Shanghai, Shanghai-Genoa, Rotterdam-NY — producing a global composite in USD/FEU published weekly. The SCFI (Shanghai Shipping Exchange) covers approximately 15 routes departing Shanghai, denominated in USD/TEU, and is widely cited for Asia-origin spot intelligence. The CCFI (China Containerized Freight Index) extends SCFI logic to all Chinese origin ports and incorporates long-term contract rates — typically making CCFI structurally lower than SCFI during rate spikes. Xeneta's XSI captures contracted long-term market rates, entirely separate from spot benchmarks. For a freight forwarding business: SCFI tells you where Asia-origin spot rates are today; WCI provides the global composite trajectory; Xeneta reveals whether your contracted rates are at-market or above. The Baltic Dry Index (BDI) is irrelevant to containers — it covers dry bulk. A common error is citing BDI as a container market signal."
+      "correct": 1,
+      "why": "VMI cuts the root cause — information distortion. Each tier's order-smoothing decisions are replaced by direct POS visibility, eliminating the amplification that occurs when each node adds its own safety margins and forecast error.",
+      "deepDive": "The bullwhip effect, formalised by Hau Lee in a 1997 HBR paper, occurs because each supply chain node processes downstream signals with added safety stock, forecast error, and order batching. A 5% retail uptick can become 60% at the manufacturer and 100% at raw material sourcing. VMI addresses this by giving the supplier direct POS or consumption data, cutting out intermediate ordering decisions. P&G's Pampers supply chain is the classic example — near-constant baby demand produced wild factory swings until P&G implemented VMI with Walmart in the 1990s. Safety-stock increases (Option A) actually worsen the bullwhip by increasing the distortion signal each tier creates. The broader principle: the bullwhip is a coordination failure, not a demand problem. Information sharing, collaborative forecasting (CPFR), and removing order batching are the structural solutions."
     },
     {
-      n: 6,
-      topic: "gk",
-      subtopic: "economics",
-      stem: "Ricardo's comparative advantage overturned Smith's absolute advantage in one critical respect. What is the distinction, and what did the Portugal-England cloth-and-wine example demonstrate?",
-      options: [
-        "Smith required natural-resource endowments to differ between nations; Ricardo showed factor mobility was the true driver of trade gains",
-        "Even if Portugal is more efficient at producing both cloth and wine, Ricardo showed England should specialise in cloth — its least-bad activity by opportunity cost — and both nations gain through exchange",
-        "Absolute advantage applies only to manufactured goods; Ricardo extended Smith's theory to agricultural commodities and services",
-        "Ricardo showed that factor-price equalisation would over time eliminate comparative advantage, making trade gains temporary"
+      "n": 6,
+      "topic": "gk",
+      "subtopic": "arts",
+      "stem": "Satyajit Ray's 'Pather Panchali' (1955) is considered a turning point in world cinema. Which neorealist technique did Ray deploy most directly to break from the studio aesthetic of Bombay cinema?",
+      "options": [
+        "Casting trained stage actors in lead roles to bring theatrical authenticity to screen performances",
+        "Using non-professional actors filmed in actual village locations, letting environment and face tell the story",
+        "Shooting in black and white with natural lighting purely to reduce costs and focus attention on narrative",
+        "Using long takes and improvised dialogue, eliminating the scripted song-and-dance sequences typical of Hindi cinema"
       ],
-      correct: 1,
-      why: "Smith required one country to be better at something; Ricardo showed even a country worse at everything should specialise in its least-bad product — gains come from opportunity cost, not absolute productivity.",
-      deepDive: "Adam Smith (Wealth of Nations, 1776) argued trade made sense when one country produced something more efficiently than its partner — absolute advantage. David Ricardo (Principles of Political Economy, 1817) showed this was unnecessarily restrictive. His canonical example: Portugal is more efficient at producing both cloth and wine. Yet England should specialise in cloth — where its relative disadvantage is smallest — and Portugal in wine. Both end up with more of both goods. The mechanism is opportunity cost: what you give up producing one more unit of X. Ricardo's insight underpins all modern trade theory, WTO commitments, and the global supply-chain logic that places Bangladesh's garment industry within the global division of labour. Common misconceptions: comparative advantage doesn't mean any trade is beneficial — it assumes full employment, zero transport costs, and constant returns; real-world application requires adjusting for all three, plus the distributional effects Ricardo himself acknowledged."
+      "correct": 1,
+      "why": "Italian neorealism (De Sica, Rossellini) used non-actors in real locations for documentary authenticity. Ray applied this directly in 'Pather Panchali,' filming in actual Bengal villages with non-professionals — a radical departure from softbox-lit Bombay productions.",
+      "deepDive": "Satyajit Ray saw Vittorio De Sica's 'Bicycle Thieves' (1948) in London and was struck by its use of ordinary people in real locations. Returning to Calcutta, he adapted Bibhutibhushan Bandyopadhyay's novel by insisting on shooting in Boral village with real villagers and non-actors, including the remarkable Chunibala Devi as the ancient aunt. The result was formally revolutionary: faces unlit by studio softboxes, weather uncontrolled, sound imperfect. 'Pather Panchali' struggled for funding — the Bengal government only stepped in after seeing the rushes. When it won Best Human Document at Cannes 1956, it announced that Indian cinema could speak to world audiences without imitating Hollywood. Ray's influence runs through Mrinal Sen, Ritwik Ghatak, and into contemporary Bangladeshi and South Asian filmmakers. The Apu Trilogy remains arguably the finest sustained achievement in Asian cinema."
     },
     {
-      n: 7,
-      topic: "gk",
-      subtopic: "linguistics",
-      stem: "Grimm's Law (1822) describes a systematic consonant shift in one branch of Indo-European. What did it explain, and why does English 'father' correspond to Latin 'pater' rather than sharing the same initial consonant?",
-      options: [
-        "Grimm's Law describes Arabic root-pattern morphology explaining why Arabic cognates differ from Latin by consonant class",
-        "Grimm's Law describes systematic consonant shifts in Proto-Germanic: voiceless stops became fricatives (p→f, t→þ, k→h), explaining 'father/pater', 'two/duo', and 'hundred/centum'",
-        "Grimm's Law refers to vowel shifts in Middle English, explaining why Chaucer's pronunciation differs from modern English",
-        "Grimm's Law describes an irregular mutation in Slavic consonants, explaining Polish/Russian cognate variation from Latin"
+      "n": 7,
+      "topic": "gk",
+      "subtopic": "music",
+      "stem": "Miles Davis's 'Kind of Blue' (1959) shifted jazz from bebop to modal improvisation. What does 'modal' specifically mean here, and whose theoretical framework most directly informed Davis's approach?",
+      "options": [
+        "Improvisers played over simple major/minor scales rather than jazz standards, removing harmony entirely; the concept was codified by John Coltrane",
+        "The band improvised over modes (scales) rather than rapid chord changes, giving harmonic space to explore; the theoretical basis came from George Russell's Lydian Chromatic Concept",
+        "Davis replaced the walking bass with a pedal-tone drone borrowing from Indian classical music; the concept was developed by Bill Evans",
+        "Modal jazz eliminated the piano from the rhythm section so horn players could improvise freely without harmonic interference; codified by Ornette Coleman"
       ],
-      correct: 1,
-      why: "Grimm's Law: in Proto-Germanic, voiceless stops (p, t, k) systematically became fricatives (f, þ, h) — giving 'father' from Latin 'pater', 'three' from Latin 'tres', 'hundred' from Latin 'centum'.",
-      deepDive: "Jacob Grimm formalised in Deutsche Grammatik (1822) a systematic correspondence between Proto-Germanic consonants and those of other Indo-European languages (Latin, Greek, Sanskrit). Three component shifts: (1) voiceless stops became fricatives — p→f (pater→father), t→þ (tres→three), k→h (centum→hundred); (2) voiced stops became voiceless — b→p, d→t, g→k; (3) voiced aspirates became voiced fricatives or stops. Rasmus Rask had partially anticipated this independently. Verner's Law (1875) later refined it by explaining systematic exceptions via Proto-Indo-European accent position. Grimm's Law was transformative because it proved language change is rule-governed, not random — the foundation of modern historical linguistics. It also proved English, German, Dutch, and the Scandinavian languages form a unified family within Indo-European, all descended from a reconstructable ancestor (Proto-Germanic). Without Grimm's Law there is no comparative linguistics and no modern language-family theory."
+      "correct": 1,
+      "why": "Modal jazz replaces bebop's rapid ii-V-I chord cycling with slower harmonic movement over modes (Dorian, Phrygian, etc.), giving improvisers far more space. George Russell's 1953 'Lydian Chromatic Concept' was the key theoretical text Davis drew from.",
+      "deepDive": "Bebop improvisation — developed by Charlie Parker and Dizzy Gillespie — required musicians to navigate complex chord changes at high speed. By the late 1950s, Davis and Coltrane wanted more space and lyricism. On 'So What,' the entire A-section sits on a single D-Dorian mode for 8 bars — an eternity compared to bebop. This gave Miles, Coltrane, Cannonball Adderley, and Bill Evans space to develop melodic ideas rather than navigate changes. George Russell — who had personally taught Davis — wrote the 'Lydian Chromatic Concept' in 1953, arguing the Lydian mode was tonality's true root. Davis distilled these ideas into 'Kind of Blue,' recorded in just two sessions with minimal written sketches. That spontaneity explains its warmth — it genuinely sounds like discovery. It remains the bestselling jazz album of all time, and modal jazz's influence extends into rock, fusion, and contemporary composition."
     },
     {
-      n: 8,
-      topic: "gk",
-      subtopic: "sport",
-      stem: "Which nation holds the record for most ICC Men's Cricket World Cup (50-over format) titles, and what made their 1999–2007 run historically exceptional?",
-      options: [
-        "West Indies — their 1975 and 1979 back-to-back titles made them the first World Cup dynasty; Clive Lloyd captained both",
-        "India — 3 titles including the 1983 upset of West Indies, 2011 at home, and 2023 under Rohit Sharma",
-        "Australia — 6 titles, including 3 consecutive (1999, 2003, 2007) and 34 straight knockout-round wins across that streak",
-        "England — 2 titles, with 2019 uniquely decided by a boundary-count tiebreaker after both the match and super over tied"
+      "n": 8,
+      "topic": "gk",
+      "subtopic": "life_science",
+      "stem": "CRISPR-Cas9 is described as 'molecular scissors,' but the guide RNA is arguably the more revolutionary element. What specific property of guide RNA makes CRISPR categorically more accessible than earlier zinc-finger nuclease (ZFN) platforms?",
+      "options": [
+        "Guide RNA is synthesised inside the target cell itself, eliminating the need for laboratory delivery mechanisms",
+        "The ~20-nucleotide spacer sequence can be designed computationally and synthesised cheaply in days; targeting a new genomic site requires changing only that RNA sequence, not re-engineering a protein",
+        "Guide RNA is immune to the cellular degradation mechanisms that destroyed earlier molecular editing tools",
+        "A single guide RNA can simultaneously edit multiple genome locations, something ZFNs structurally cannot do"
       ],
-      correct: 2,
-      why: "Australia's 6 ODI World Cup titles are the most in history; their 34 consecutive knockout-stage wins from 1999–2007 across three back-to-back titles is the most dominant sustained run in any team-sport knockout format.",
-      deepDive: "Australia has won the ODI World Cup six times: 1987 (India/Pakistan), 1999 (England), 2003 (South Africa), 2007 (West Indies), 2015 (Australia), and 2023 (India, defeating India in Ahmedabad). Their 1999–2007 three-peat under Steve Waugh then Ricky Ponting produced 34 consecutive World Cup knockout-stage victories — a record of sustained excellence unmatched in knockout team sports. The 2003 final (Australia beat India by 125 runs with Ricky Ponting's 140*) and the 2007 final (beat Sri Lanka by 53 runs D/L method) bookended the era. England's 2019 final against New Zealand is the most statistically remarkable: both teams scored 241; the super over also tied at 15-all; England won on boundary count — the first and only World Cup final decided that way. West Indies (1975, 1979), Pakistan (1992), Sri Lanka (1996), India (1983, 2011, 2023 final lost), and England (2019) complete the winners list."
+      "correct": 1,
+      "why": "ZFNs required custom protein engineering per target — months and ~$100,000 per site. CRISPR needs only a new 20-nt RNA spacer, designed in silico, synthesised in days for ~$10. This democratised gene editing across biology.",
+      "deepDive": "Zinc-finger nucleases required designing a custom protein recognising a specific DNA sequence — specialist work taking months at $20,000–$100,000 per target. TALENs improved on ZFNs but still demanded protein redesign. CRISPR-Cas9 — developed for editing by Jennifer Doudna and Emmanuelle Charpentier (2020 Nobel Prize) — inverted the paradigm: the Cas9 protein is universal; specificity comes entirely from the guide RNA's 20-nucleotide protospacer sequence. Writing a new target means composing a 20-letter sequence and ordering it online for ~$10. This cost collapse — from $100,000 and months to $10 and days — unleashed the CRISPR revolution. The analogy: replacing bespoke hand-cut keys with a universal key machine. CRISPR has since enabled base editing (David Liu), prime editing, and epigenome editing — each building on RNA-directed targeting. The medical implications range from sickle cell cures already in clinical use to the prospect of correcting single-point mutations that cause thousands of inherited diseases."
     },
     {
-      n: 9,
-      topic: "gk",
-      subtopic: "pop_culture",
-      stem: "Which British band released 'Urban Hymns' (1997) — one of the bestselling UK albums of the decade — and which track became famous partly for an unusual copyright dispute over a Rolling Stones sample?",
-      options: [
-        "Oasis — 'Don't Look Back in Anger', built around an uncleared Led Zeppelin piano loop settled out of court in 1998",
-        "The Verve — 'Bitter Sweet Symphony', which sampled an Andrew Oldham orchestral version of a Stones track; initial judgement awarded all songwriting royalties to the Stones' publishers",
-        "Radiohead — 'Karma Police', whose chord sequence was claimed to infringe a Beatles copyright prompting a UK landmark settlement",
-        "Massive Attack — 'Teardrop', whose vocal melody Beth Gibbons performed, prompting a contested publishing dispute with Portishead"
+      "n": 9,
+      "topic": "gk",
+      "subtopic": "mathematics",
+      "stem": "The Monty Hall problem's counterintuitive result — switching doors wins 2/3 of the time — confused professional mathematicians when Marilyn vos Savant published it in 1990. Which framing resolves the paradox most cleanly?",
+      "options": [
+        "The host's door-opening adds no new information since he always has a goat to reveal, so original 1/3 odds remain on your door while the revealed door 'charges' the probability to the remaining one",
+        "Bayesian updating: the host's informed action constitutes new evidence that shifts posterior probability entirely to the door he chose not to open",
+        "The two-door game after the reveal is a fresh trial, making 50/50 correct — the paradox arises from treating independent events as dependent",
+        "The host's mandatory reveal is a constraint violation, making the problem mathematically undefined in classical probability"
       ],
-      correct: 1,
-      why: "The Verve's 'Bitter Sweet Symphony' sampled an orchestral Stones arrangement; ABKCO won all songwriting royalties in court — rights returned to Richard Ashcroft only in 2019 when Jagger and Richards voluntarily relinquished them.",
-      deepDive: "The Verve, fronted by Richard Ashcroft, released Urban Hymns in September 1997 — coincidentally the week of Princess Diana's funeral — debuting at UK #1. 'Bitter Sweet Symphony' samples a five-note loop from an Andrew Loog Oldham Orchestra arrangement of the Stones' 'The Last Time.' The Verve licensed the sample but used more of it than agreed; ABKCO (Allen Klein's company, controlling Stones publishing) sued and won all songwriting credits and royalties — Jagger and Richards were listed as sole writers for two decades despite writing none of the melody. In 2019, Jagger and Richards voluntarily returned full rights to Ashcroft in what he called one of the best phone calls of his life. Urban Hymns also features 'The Drugs Don't Work' and 'Lucky Man.' At its peak it ranked as the third-bestselling UK album in history, behind Sgt. Pepper and Thriller."
+      "correct": 0,
+      "why": "Your door holds 1/3 probability. The host's constraint — he never opens the car door — means the remaining door absorbs the full 2/3 probability mass originally spread across the other two doors. Switching captures that 2/3.",
+      "deepDive": "The Monty Hall problem was posed by Marilyn vos Savant in Parade magazine in 1990. She correctly said 'switch' and received thousands of letters from PhDs insisting she was wrong. The resolution hinges on the host's action being non-random — he knows where the car is and always reveals a goat. Your original door had 1/3 probability of hiding the car; this doesn't change when the host acts. The other two doors collectively had 2/3. After the host eliminates one (goat guaranteed), all 2/3 probability mass sits on the remaining closed door. The easiest proof: imagine 100 doors instead of 3. You pick one (1/100 probability). The host opens 98 goat doors. Would you switch to the one remaining closed door? Almost everyone immediately says yes — 99/100 chance. The Monty Hall problem is identical logic at scale 3. The illusion of 50/50 arises because people mentally reset to 'two doors remaining' and treat it as a fresh trial — which it isn't, because the history of how we arrived at two doors is asymmetric."
     },
     {
-      n: 10,
-      topic: "gk",
-      subtopic: "political_theory",
-      stem: "Rousseau distinguished the 'general will' (volonté générale) from the 'will of all' (volonté de tous). What is the distinction, and why did later theorists argue the concept could justify authoritarian rule?",
-      options: [
-        "The general will is what citizens would will as rational civic agents oriented toward the common good — not the sum of private interests; Rousseau's claim that dissenters can be 'forced to be free' gave later theorists license to override individual choice in the name of the collective",
-        "The will of all is determined by referendum; the general will by appointed representatives — critics said this justified technocracy over democratic self-governance",
-        "Both terms mean the same thing; the authoritarian critique was directed at Rousseau's followers who misread him, not at the text itself",
-        "The general will is derived from natural law; the will of all from positive law — the critique was that it gave religious authorities precedence over popular sovereignty"
+      "n": 10,
+      "topic": "gk",
+      "subtopic": "literature",
+      "stem": "Rabindranath Tagore won the 1913 Nobel Prize in Literature, the first non-European laureate. The Swedish Academy cited 'Gitanjali' — but what literary irony surrounds the translation the committee actually read?",
+      "options": [
+        "E.M. Forster translated Gitanjali; the irony is that he later caricatured Indian mysticism in 'A Passage to India'",
+        "Tagore translated it himself into English prose poems; the irony is that the Bengali original is verse with strict metrical structure that the prose rendering largely erased",
+        "W.B. Yeats translated Gitanjali at Tagore's request; the irony is that Yeats later disowned the translation as 'too sentimental for modern taste'",
+        "Ananda Coomaraswamy translated Gitanjali; the irony is that he publicly disagreed with the Nobel committee's rationale for the award"
       ],
-      correct: 0,
-      why: "Rousseau's general will is not the aggregate of preferences but what people would will as rational civic agents — a distinction that lets rulers claim to know citizens' true interest against their stated wishes, enabling authoritarian override.",
-      deepDive: "In The Social Contract (1762), Rousseau's 'will of all' is the aggregate of individual self-interests — what people actually want. The 'general will' is what they would will as rational citizens aimed at the common good. Crucially, Rousseau claims the general will is always right but citizens may fail to recognise it — those who vote against it are simply mistaken, and can be 'forced to be free.' For Benjamin Constant, Isaiah Berlin (Two Concepts of Liberty, 1958), and J.L. Talmon (The Origins of Totalitarian Democracy, 1952), this framework supplies intellectual cover for revolutionary elites to override expressed preferences in the name of citizens' 'true' interest. The Jacobin Terror, Marxist vanguardism ('the party knows history's direction'), and 20th-century one-party states all carry echoes of this logic. The concept remains central to political theory precisely because it captures a genuine tension: individual liberty vs collective self-governance — with no resolved answer."
+      "correct": 1,
+      "why": "Tagore himself translated 'Gitanjali' into English prose during a 1912 voyage to England, selecting ~103 of 157 Bengali poems — losing the metrical structure, rhyme scheme, and musical quality of the originals. The Nobel honored a translation structurally impoverished compared to its source.",
+      "deepDive": "Rabindranath Tagore's Bengali 'Gitanjali' (1910–11) contains 157 devotional poems in intricate metrical patterns rooted in Vaishnava bhakti tradition and Baul folk music. Tagore translated roughly 103 into English prose while voyaging to England in 1912, working largely on the ship. W.B. Yeats — who wrote the famous introduction — did not translate the text but championed it; the prose rendering conformed to European expectations of 'mystical India.' Post-colonial scholars including Sudipta Kaviraj and Partha Chatterjee have argued the Nobel effectively awarded a diluted, Orientalist-friendly version that the Bengali original doesn't resemble. Tagore himself grew ambivalent about the prize. His most consequential political act came in 1919, when he returned his knighthood following the Jallianwala Bagh massacre — a protest given global reach by his Nobel fame. The deeper irony: Tagore's most sophisticated work — the novels, the later poetry, the essays — is virtually unknown in the West, while the prose 'Gitanjali' defined his international image."
     }
   ]
 };
