@@ -1,17 +1,7 @@
 {
   "streak": 13,
-  "last_session_date": "2026-09-25",
+  "last_session_date": "2026-09-28",
   "questions_seen": [
-    "In a CFS/CFS (LCL) ocean shipment, the ocean carrier's liability for cargo typically attaches and ends at which points?",
-    "The Middle Corridor (Trans-Caspian International Transport Route) links China to Europe bypassing Russia. In geographic sequence, which two bodies of water does cargo cross?",
-    "Under the York-Antwerp Rules, a cargo owner's General Average contribution is calculated proportionally based on:",
-    "The US Uyghur Forced Labor Prevention Act (UFLPA) creates which legal presumption for goods linked to Xinjiang?",
-    "The Baltic Dry Index (BDI) is a composite of time-charter rate assessments for which four vessel classes?",
-    "The Wakhan Corridor is a narrow strip of Afghan territory deliberately designed in 1895 as a buffer zone between which two powers?",
-    "Hitler's Anschluss of 1938 violated which specific article of the 1919 Treaty of Versailles that had explicitly prohibited a German-Austrian union?",
-    "When both glucose AND lactose are present in E. coli's environment, transcription from the lac operon is best described as:",
-    "G\u00f6del's First Incompleteness Theorem (1931) states that any consistent formal system capable of expressing basic arithmetic must contain statements that are:",
-    "The massacre near the end of Garcia Marquez's 'One Hundred Years of Solitude' was directly inspired by which real Colombian historical event?",
     "The passenger-to-freighter (P2F) conversion market adds cargo capacity without newbuild lead times. Which narrowbody aircraft platform dominates P2F conversions globally by number of STCs issued and aircraft converted?",
     "In air cargo terminal operations, \u2018import dwell time\u2019 measures which specific interval \u2014 and why is minimising it the primary KPI carriers use to compete for belly-hold shipper loyalty?",
     "Kuehne + Nagel\u2019s 2021 acquisition of Apex Logistics International for approximately $1.5 billion primarily filled which specific capability gap?",
@@ -501,7 +491,17 @@
     "Miles Davis's 'Kind of Blue' (1959) shifted jazz from bebop to modal improvisation. What does 'modal' specifically mean here, and whose theoretical framework most directly informed Davis's approach?",
     "CRISPR-Cas9 is described as 'molecular scissors,' but the guide RNA is arguably the more revolutionary element. What specific property of guide RNA makes CRISPR categorically more accessible than earlier zinc-finger nuclease (ZFN) platforms?",
     "The Monty Hall problem's counterintuitive result \u2014 switching doors wins 2/3 of the time \u2014 confused professional mathematicians when Marilyn vos Savant published it in 1990. Which framing resolves the paradox most cleanly?",
-    "Rabindranath Tagore won the 1913 Nobel Prize in Literature, the first non-European laureate. The Swedish Academy cited 'Gitanjali' \u2014 but what literary irony surrounds the translation the committee actually read?"
+    "Rabindranath Tagore won the 1913 Nobel Prize in Literature, the first non-European laureate. The Swedish Academy cited 'Gitanjali' \u2014 but what literary irony surrounds the translation the committee actually read?",
+    "A shipper endorses a negotiable 'to order of shipper' Bill of Lading in blank and passes it to the buyer. The buyer's bank endorses it further to a secondary buyer. The vessel arrives and cargo is released to a third party holding the blank-endorsed BL. Which statement best describes the original buyer's legal position?",
+    "A Bangladesh RMG exporter presents a REX declaration for EU EBA (Everything But Arms) preferential tariff treatment on HS Chapter 62 woven apparel. A post-clearance EU audit finds 35% of the fabric was woven in China, with the remaining 65% woven locally. The EU rejects the preference claim. What is the precise rule-of-origin reason?",
+    "A 13,500 TEU Neo-Panamax container vessel transits the expanded Panama Canal locks. Which set of maximum permitted dimensions correctly describes the Neopanamax lock specifications for transiting vessels?",
+    "A containerised shipment arrives at Chattogram port. The carrier's bill of lading grants 7 free days before demurrage begins. The container is gated out on Day 9. The forwarder argues a national holiday on Day 4 should be excluded from the demurrage count. Under standard carrier tariff terms, which statement is most accurate?",
+    "The Gemini Cooperation (Maersk + Hapag-Lloyd), launched February 2025, adopted a fundamentally different commercial model from predecessor alliances. Which specific operational commitment distinguishes Gemini from THE Alliance or Ocean Alliance structures?",
+    "The Wakhan Corridor is a narrow strip of territory deliberately created in the late 19th century through imperial negotiation. Which modern country contains it, what two imperial powers agreed to create it, and why?",
+    "Hawking radiation predicts black holes slowly evaporate by emitting thermal radiation. The mechanism involves virtual particle pairs near the event horizon. What central paradox does this create, and which theoretical development in 2019-2022 provided partial resolution?",
+    "The Congress of Vienna (1814-15) established the 'Concert of Europe,' producing the longest peace among European great powers in modern history. What was the core diplomatic mechanism agreed at Vienna, and how did it differ in practice from Metternich's preferred approach?",
+    "The Ash'ari theological school became the dominant tradition in Sunni Islam, emerging in the 10th century CE partly in reaction to Mu'tazilite rationalism. What is the Ash'ari position on the relationship between divine will and moral goodness \u2014 and which specific Mu'tazilite claim did it most directly contest?",
+    "Hannah Arendt, in 'On Violence' (1970), drew a sharp distinction between power and violence that inverted conventional political thinking. What was her precise distinction, and what did she argue violence signals about the state that deploys it?"
   ],
   "learn_history": [
     {
@@ -738,6 +738,11 @@
       "date": "2026-09-25",
       "topic": "Feeder Services & Transshipment: How the Hub-and-Spoke Architecture Connects 800 Ports to Fewer Than 50 Mega-Terminals",
       "bucket": "industry_deep_dive"
+    },
+    {
+      "date": "2026-09-28",
+      "topic": "The Overton Window: Why Most of What Could Be Done Never Gets Proposed",
+      "bucket": "sociopolitical"
     }
   ],
   "curriculum_progress": {
@@ -748,8 +753,8 @@
       "rolling_score": []
     },
     "documentation": {
-      "count": 23,
-      "last_seen": "2026-09-18",
+      "count": 24,
+      "last_seen": "2026-09-28",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -760,20 +765,20 @@
       "rolling_score": []
     },
     "customs": {
-      "count": 23,
-      "last_seen": "2026-09-18",
+      "count": 24,
+      "last_seen": "2026-09-28",
       "difficulty": 4,
       "rolling_score": []
     },
     "vessels": {
-      "count": 23,
-      "last_seen": "2026-09-18",
+      "count": 24,
+      "last_seen": "2026-09-28",
       "difficulty": 4,
       "rolling_score": []
     },
     "port_ops": {
-      "count": 23,
-      "last_seen": "2026-09-18",
+      "count": 24,
+      "last_seen": "2026-09-28",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -784,8 +789,8 @@
       "rolling_score": []
     },
     "liner_alliances": {
-      "count": 23,
-      "last_seen": "2026-09-18",
+      "count": 24,
+      "last_seen": "2026-09-28",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -864,20 +869,20 @@
   },
   "gk_progress": {
     "history": {
-      "count": 35,
-      "last_seen": "2026-09-21",
+      "count": 36,
+      "last_seen": "2026-09-28",
       "difficulty": 4,
       "rolling_score": []
     },
     "geography": {
-      "count": 34,
-      "last_seen": "2026-09-18",
+      "count": 35,
+      "last_seen": "2026-09-28",
       "difficulty": 4,
       "rolling_score": []
     },
     "physical_science": {
-      "count": 33,
-      "last_seen": "2026-09-18",
+      "count": 34,
+      "last_seen": "2026-09-28",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -912,14 +917,14 @@
       "rolling_score": []
     },
     "religion": {
-      "count": 32,
-      "last_seen": "2026-09-21",
+      "count": 33,
+      "last_seen": "2026-09-28",
       "difficulty": 4,
       "rolling_score": []
     },
     "political_theory": {
-      "count": 33,
-      "last_seen": "2026-09-22",
+      "count": 34,
+      "last_seen": "2026-09-28",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -950,159 +955,59 @@
   },
   "history": [],
   "today": {
-    "date": "2026-09-25",
+    "date": "2026-09-28",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
-        "topic": "industry",
-        "subtopic": "aircraft_carriers",
-        "stem": "When air freight markets soften, combination carriers (Lufthansa Cargo, Cathay Cargo) consistently outlast pure-play freighter operators on yield. What core structural asymmetry explains this resilience?",
-        "options": [
-          "IATA slot rights give combination carriers priority access at congested cargo terminals over dedicated freighters",
-          "Belly capacity carries near-zero marginal cost per flight since the aircraft flies regardless, letting them undercut pure freighters without structural loss",
-          "Combination carriers hold larger ULD fleets, reducing the empty-repositioning cost that drains pure-freighter margins",
-          "Passenger revenue enables combination carriers to accept lower freight rates by cross-subsidising fuel-hedging programs"
-        ],
-        "correct": 1,
-        "why": "Once the passenger flight operates, belly space is a sunk cost \u2014 marginal cost of filling it approaches zero. Pure freighters must cover full aircraft operating costs even half-full, a structural disadvantage in soft markets.",
-        "deepDive": "The belly-freight model exploits a fundamental asymmetry: the aircraft flies regardless of cargo load, making every kilogram of belly freight almost entirely marginal-cost revenue. Widebodies like the 777-300ER and A350-1000 carry 20\u201325 tonnes of belly freight. In a downturn, pure freighters (Atlas Air, Cargolux) face the brutal calculus of covering full aircraft costs \u2014 fuel, crew, maintenance, depreciation \u2014 even on half-full loads. Combination carriers need only cover marginal handling, as low as $0.10\u20130.20/kg. This allows them to scoop up business at rates pure operators find unprofitable. The flip side: in peak season, combination carriers have less flexibility \u2014 passengers hold priority, and cargo gets offloaded when weight limits bind. Shippers should exploit this asymmetry: negotiate hard on combination carriers in soft markets; lock in pure freighters for peak-season reliability guarantees."
+        "subtopic": "documentation",
+        "correct": 1
       },
       {
         "n": 2,
-        "topic": "industry",
-        "subtopic": "airport_ops",
-        "stem": "Frankfurt Airport (FRA) operates under strict night-flight bans, yet ranks among Europe's top cargo airports by tonnage. Which arrangement primarily enables this apparent contradiction?",
-        "options": [
-          "FRA's status as a DHL Express hub grants a curfew exemption under German federal aviation law",
-          "Frankfurt courts limit the ban to passenger jets, exempting dedicated freighters operating post-midnight",
-          "Dense daytime scheduling combined with one of Europe's largest road feeder service (RFS) networks extends effective cargo reach without requiring night operations",
-          "A treaty with Hesse state permits one overnight freighter wave for express operators"
-        ],
-        "correct": 2,
-        "why": "FRA compensates for night restrictions through extremely dense daytime rotations and an RFS truck network extending 500\u2013800 km, making night-flight restrictions effectively irrelevant to its catchment footprint.",
-        "deepDive": "Frankfurt's night-flight ban \u2014 enforced through German administrative court rulings \u2014 prohibits scheduled commercial flights between roughly 23:00 and 05:00, one of Europe's strictest. Yet FRA handles ~2 million tonnes/year. The key is that DHL's European mega-hub is at Leipzig/Halle (LEJ), which operates 24 hours with no curfew \u2014 explaining integrator operations. FRA compensates through road feeder services (RFS): trucks certified as extensions of the air cargo manifest, picking up and delivering within a 500\u2013800 km radius overnight while the airport is quiet. This extends FRA's true catchment into Belgium, Netherlands, Austria, and Poland. The lesson for logistics strategists: airport choice is not just about tarmac \u2014 it's about the ground network that renders night restrictions operationally irrelevant."
+        "subtopic": "customs",
+        "correct": 1
       },
       {
         "n": 3,
-        "topic": "industry",
-        "subtopic": "ma_consolidation",
-        "stem": "DSV completed its ~$14.5 billion acquisition of DB Schenker in early 2025, creating the world's third-largest freight forwarder. What does 'lane density' explain about the deal's strategic rationale that revenue multiples alone cannot?",
-        "options": [
-          "Larger forwarders negotiate more favorable bank credit terms, reducing working-capital costs",
-          "Critical mass of volume on a specific trade lane grants leverage to secure contracted carrier rates well below spot, compressing cost while margins hold \u2014 the moat revenue figures don't reveal",
-          "Scale enables DSV to pursue a B2C parcel delivery model that smaller forwarders structurally cannot access",
-          "EU regulatory approval above a revenue threshold requires sustainability disclosures, improving brand visibility with large shippers"
-        ],
-        "correct": 1,
-        "why": "Density on a lane \u2014 e.g., 5,000 TEU/month on Shanghai\u2013Rotterdam \u2014 enables volume-committed carrier rates 15\u201325% below spot. That cost advantage is invisible in top-line revenue but defines margin in a low-spread business.",
-        "deepDive": "In freight forwarding, 'density' is the true competitive moat. If you commit 5,000 TEU/month on a lane, you can extract carrier rates 15\u201325% below a forwarder with 500 TEU/month on the same route. DSV-Schenker logic: Schenker had deep density in European industrial forwarding (auto, machinery) while DSV dominated trans-Pacific and spot. The merger creates overlapping density on key lanes, enabling the combined entity to extract carrier rates neither could alone. The risk is integration failure \u2014 the real asset is Schenker's customer relationships and commercial staff, both of which can walk out the door. This is why forwarding M&A has a poor track record at cultural integration despite structurally sound logic. Density-based moats only hold if the people who built them stay."
+        "subtopic": "vessels",
+        "correct": 0
       },
       {
         "n": 4,
-        "topic": "industry",
-        "subtopic": "commercial_concepts",
-        "stem": "A forwarder commits to 1,200 TEU/month under an MQC at $800/TEU. In month 5 it moves only 900 TEU. If the shortfall penalty is 50% of base rate on unfulfilled volume, what is the financial exposure \u2014 and what is the primary commercial lever to avoid it?",
-        "options": [
-          "$120,000; primary lever is requesting a force-majeure waiver from the carrier",
-          "$120,000; primary lever is backfilling with third-party spot cargo under the same contract",
-          "$240,000; primary lever is invoking a market-flex clause that adjusts MQC pro-rata to demand",
-          "$240,000; primary lever is re-routing shortfall via sister offices booking under the master agreement"
-        ],
-        "correct": 1,
-        "why": "300 TEU shortfall \u00d7 $800 \u00d7 50% = $120,000. Classic mitigation is buy-sell: sourcing third-party cargo at thin margin to fill the gap, since the penalty cost exceeds the typical buy-in loss.",
-        "deepDive": "MQC structures define large forwarder\u2013carrier commercial relationships. The forwarder accepts rate certainty and space priority in exchange for volume commitment risk. The 50% shortfall penalty is typical \u2014 carriers price it at roughly the contribution margin they lose. Calculation: 1,200 \u2212 900 = 300 TEU \u00d7 $800 \u00d7 50% = $120,000. In practice, forwarders avoid shortfalls by: (1) backfilling with buy-sell cargo \u2014 sourcing third-party shipments at thin margin to meet commitment; (2) requesting accommodation in force-majeure scenarios; or (3) negotiating a flex band (\u00b110\u201315%) in the original MQC. Senior commercial teams track utilisation weekly and scramble in month 4 \u2014 by month 5 the window is usually closed. The skill is structuring the MQC flex wide enough to absorb normal volatility while keeping committed volume high enough to secure the rate leverage."
+        "subtopic": "port_ops",
+        "correct": 1
       },
       {
         "n": 5,
-        "topic": "industry",
-        "subtopic": "supply_chain_strategy",
-        "stem": "The 'bullwhip effect' describes amplifying demand swings upstream through a supply chain. Which intervention is empirically most effective at dampening it \u2014 and why?",
-        "options": [
-          "Safety-stock increases at each tier absorb demand shocks before they propagate upstream",
-          "Vendor-managed inventory (VMI), where the supplier replenishes using point-of-sale data directly, eliminating the distortion layer",
-          "Centralising warehousing at fewer mega-DCs smooths demand by averaging across larger geographic populations",
-          "Longer lead-time forecasts force buyers to commit early and reduce mid-order cancellations"
-        ],
-        "correct": 1,
-        "why": "VMI cuts the root cause \u2014 information distortion. Each tier's order-smoothing decisions are replaced by direct POS visibility, eliminating the amplification that occurs when each node adds its own safety margins and forecast error.",
-        "deepDive": "The bullwhip effect, formalised by Hau Lee in a 1997 HBR paper, occurs because each supply chain node processes downstream signals with added safety stock, forecast error, and order batching. A 5% retail uptick can become 60% at the manufacturer and 100% at raw material sourcing. VMI addresses this by giving the supplier direct POS or consumption data, cutting out intermediate ordering decisions. P&G's Pampers supply chain is the classic example \u2014 near-constant baby demand produced wild factory swings until P&G implemented VMI with Walmart in the 1990s. Safety-stock increases (Option A) actually worsen the bullwhip by increasing the distortion signal each tier creates. The broader principle: the bullwhip is a coordination failure, not a demand problem. Information sharing, collaborative forecasting (CPFR), and removing order batching are the structural solutions."
+        "subtopic": "liner_alliances",
+        "correct": 1
       },
       {
         "n": 6,
-        "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Satyajit Ray's 'Pather Panchali' (1955) is considered a turning point in world cinema. Which neorealist technique did Ray deploy most directly to break from the studio aesthetic of Bombay cinema?",
-        "options": [
-          "Casting trained stage actors in lead roles to bring theatrical authenticity to screen performances",
-          "Using non-professional actors filmed in actual village locations, letting environment and face tell the story",
-          "Shooting in black and white with natural lighting purely to reduce costs and focus attention on narrative",
-          "Using long takes and improvised dialogue, eliminating the scripted song-and-dance sequences typical of Hindi cinema"
-        ],
-        "correct": 1,
-        "why": "Italian neorealism (De Sica, Rossellini) used non-actors in real locations for documentary authenticity. Ray applied this directly in 'Pather Panchali,' filming in actual Bengal villages with non-professionals \u2014 a radical departure from softbox-lit Bombay productions.",
-        "deepDive": "Satyajit Ray saw Vittorio De Sica's 'Bicycle Thieves' (1948) in London and was struck by its use of ordinary people in real locations. Returning to Calcutta, he adapted Bibhutibhushan Bandyopadhyay's novel by insisting on shooting in Boral village with real villagers and non-actors, including the remarkable Chunibala Devi as the ancient aunt. The result was formally revolutionary: faces unlit by studio softboxes, weather uncontrolled, sound imperfect. 'Pather Panchali' struggled for funding \u2014 the Bengal government only stepped in after seeing the rushes. When it won Best Human Document at Cannes 1956, it announced that Indian cinema could speak to world audiences without imitating Hollywood. Ray's influence runs through Mrinal Sen, Ritwik Ghatak, and into contemporary Bangladeshi and South Asian filmmakers. The Apu Trilogy remains arguably the finest sustained achievement in Asian cinema."
+        "subtopic": "geography",
+        "correct": 1
       },
       {
         "n": 7,
-        "topic": "gk",
-        "subtopic": "music",
-        "stem": "Miles Davis's 'Kind of Blue' (1959) shifted jazz from bebop to modal improvisation. What does 'modal' specifically mean here, and whose theoretical framework most directly informed Davis's approach?",
-        "options": [
-          "Improvisers played over simple major/minor scales rather than jazz standards, removing harmony entirely; the concept was codified by John Coltrane",
-          "The band improvised over modes (scales) rather than rapid chord changes, giving harmonic space to explore; the theoretical basis came from George Russell's Lydian Chromatic Concept",
-          "Davis replaced the walking bass with a pedal-tone drone borrowing from Indian classical music; the concept was developed by Bill Evans",
-          "Modal jazz eliminated the piano from the rhythm section so horn players could improvise freely without harmonic interference; codified by Ornette Coleman"
-        ],
-        "correct": 1,
-        "why": "Modal jazz replaces bebop's rapid ii-V-I chord cycling with slower harmonic movement over modes (Dorian, Phrygian, etc.), giving improvisers far more space. George Russell's 1953 'Lydian Chromatic Concept' was the key theoretical text Davis drew from.",
-        "deepDive": "Bebop improvisation \u2014 developed by Charlie Parker and Dizzy Gillespie \u2014 required musicians to navigate complex chord changes at high speed. By the late 1950s, Davis and Coltrane wanted more space and lyricism. On 'So What,' the entire A-section sits on a single D-Dorian mode for 8 bars \u2014 an eternity compared to bebop. This gave Miles, Coltrane, Cannonball Adderley, and Bill Evans space to develop melodic ideas rather than navigate changes. George Russell \u2014 who had personally taught Davis \u2014 wrote the 'Lydian Chromatic Concept' in 1953, arguing the Lydian mode was tonality's true root. Davis distilled these ideas into 'Kind of Blue,' recorded in just two sessions with minimal written sketches. That spontaneity explains its warmth \u2014 it genuinely sounds like discovery. It remains the bestselling jazz album of all time, and modal jazz's influence extends into rock, fusion, and contemporary composition."
+        "subtopic": "physical_science",
+        "correct": 1
       },
       {
         "n": 8,
-        "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "CRISPR-Cas9 is described as 'molecular scissors,' but the guide RNA is arguably the more revolutionary element. What specific property of guide RNA makes CRISPR categorically more accessible than earlier zinc-finger nuclease (ZFN) platforms?",
-        "options": [
-          "Guide RNA is synthesised inside the target cell itself, eliminating the need for laboratory delivery mechanisms",
-          "The ~20-nucleotide spacer sequence can be designed computationally and synthesised cheaply in days; targeting a new genomic site requires changing only that RNA sequence, not re-engineering a protein",
-          "Guide RNA is immune to the cellular degradation mechanisms that destroyed earlier molecular editing tools",
-          "A single guide RNA can simultaneously edit multiple genome locations, something ZFNs structurally cannot do"
-        ],
-        "correct": 1,
-        "why": "ZFNs required custom protein engineering per target \u2014 months and ~$100,000 per site. CRISPR needs only a new 20-nt RNA spacer, designed in silico, synthesised in days for ~$10. This democratised gene editing across biology.",
-        "deepDive": "Zinc-finger nucleases required designing a custom protein recognising a specific DNA sequence \u2014 specialist work taking months at $20,000\u2013$100,000 per target. TALENs improved on ZFNs but still demanded protein redesign. CRISPR-Cas9 \u2014 developed for editing by Jennifer Doudna and Emmanuelle Charpentier (2020 Nobel Prize) \u2014 inverted the paradigm: the Cas9 protein is universal; specificity comes entirely from the guide RNA's 20-nucleotide protospacer sequence. Writing a new target means composing a 20-letter sequence and ordering it online for ~$10. This cost collapse \u2014 from $100,000 and months to $10 and days \u2014 unleashed the CRISPR revolution. The analogy: replacing bespoke hand-cut keys with a universal key machine. CRISPR has since enabled base editing (David Liu), prime editing, and epigenome editing \u2014 each building on RNA-directed targeting. The medical implications range from sickle cell cures already in clinical use to the prospect of correcting single-point mutations that cause thousands of inherited diseases."
+        "subtopic": "history",
+        "correct": 2
       },
       {
         "n": 9,
-        "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "The Monty Hall problem's counterintuitive result \u2014 switching doors wins 2/3 of the time \u2014 confused professional mathematicians when Marilyn vos Savant published it in 1990. Which framing resolves the paradox most cleanly?",
-        "options": [
-          "The host's door-opening adds no new information since he always has a goat to reveal, so original 1/3 odds remain on your door while the revealed door 'charges' the probability to the remaining one",
-          "Bayesian updating: the host's informed action constitutes new evidence that shifts posterior probability entirely to the door he chose not to open",
-          "The two-door game after the reveal is a fresh trial, making 50/50 correct \u2014 the paradox arises from treating independent events as dependent",
-          "The host's mandatory reveal is a constraint violation, making the problem mathematically undefined in classical probability"
-        ],
-        "correct": 0,
-        "why": "Your door holds 1/3 probability. The host's constraint \u2014 he never opens the car door \u2014 means the remaining door absorbs the full 2/3 probability mass originally spread across the other two doors. Switching captures that 2/3.",
-        "deepDive": "The Monty Hall problem was posed by Marilyn vos Savant in Parade magazine in 1990. She correctly said 'switch' and received thousands of letters from PhDs insisting she was wrong. The resolution hinges on the host's action being non-random \u2014 he knows where the car is and always reveals a goat. Your original door had 1/3 probability of hiding the car; this doesn't change when the host acts. The other two doors collectively had 2/3. After the host eliminates one (goat guaranteed), all 2/3 probability mass sits on the remaining closed door. The easiest proof: imagine 100 doors instead of 3. You pick one (1/100 probability). The host opens 98 goat doors. Would you switch to the one remaining closed door? Almost everyone immediately says yes \u2014 99/100 chance. The Monty Hall problem is identical logic at scale 3. The illusion of 50/50 arises because people mentally reset to 'two doors remaining' and treat it as a fresh trial \u2014 which it isn't, because the history of how we arrived at two doors is asymmetric."
+        "subtopic": "religion",
+        "correct": 1
       },
       {
         "n": 10,
-        "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Rabindranath Tagore won the 1913 Nobel Prize in Literature, the first non-European laureate. The Swedish Academy cited 'Gitanjali' \u2014 but what literary irony surrounds the translation the committee actually read?",
-        "options": [
-          "E.M. Forster translated Gitanjali; the irony is that he later caricatured Indian mysticism in 'A Passage to India'",
-          "Tagore translated it himself into English prose poems; the irony is that the Bengali original is verse with strict metrical structure that the prose rendering largely erased",
-          "W.B. Yeats translated Gitanjali at Tagore's request; the irony is that Yeats later disowned the translation as 'too sentimental for modern taste'",
-          "Ananda Coomaraswamy translated Gitanjali; the irony is that he publicly disagreed with the Nobel committee's rationale for the award"
-        ],
-        "correct": 1,
-        "why": "Tagore himself translated 'Gitanjali' into English prose during a 1912 voyage to England, selecting ~103 of 157 Bengali poems \u2014 losing the metrical structure, rhyme scheme, and musical quality of the originals. The Nobel honored a translation structurally impoverished compared to its source.",
-        "deepDive": "Rabindranath Tagore's Bengali 'Gitanjali' (1910\u201311) contains 157 devotional poems in intricate metrical patterns rooted in Vaishnava bhakti tradition and Baul folk music. Tagore translated roughly 103 into English prose while voyaging to England in 1912, working largely on the ship. W.B. Yeats \u2014 who wrote the famous introduction \u2014 did not translate the text but championed it; the prose rendering conformed to European expectations of 'mystical India.' Post-colonial scholars including Sudipta Kaviraj and Partha Chatterjee have argued the Nobel effectively awarded a diluted, Orientalist-friendly version that the Bengali original doesn't resemble. Tagore himself grew ambivalent about the prize. His most consequential political act came in 1919, when he returned his knighthood following the Jallianwala Bagh massacre \u2014 a protest given global reach by his Nobel fame. The deeper irony: Tagore's most sophisticated work \u2014 the novels, the later poetry, the essays \u2014 is virtually unknown in the West, while the prose 'Gitanjali' defined his international image."
+        "subtopic": "political_theory",
+        "correct": 1
       }
     ]
   }
