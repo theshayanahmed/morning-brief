@@ -1,17 +1,7 @@
 {
   "streak": 13,
-  "last_session_date": "2026-09-29",
+  "last_session_date": "2026-10-09",
   "questions_seen": [
-    "Under CIF (Cost, Insurance and Freight), at which point does the seller's risk obligation transfer to the buyer?",
-    "A Straight Bill of Lading differs from an Order (Negotiable) Bill of Lading primarily because it is:",
-    "The Bunker Adjustment Factor (BAF) in ocean freight is a variable surcharge designed to compensate carriers for:",
-    "A shipment measures 200cm × 150cm × 100cm and actually weighs 200 kg. Using IATA's standard 1:6,000 cm³/kg volumetric divisor, what is the chargeable weight?",
-    "Rules of Origin under most Free Trade Agreements require 'substantial transformation.' Which statement correctly describes how this is typically determined?",
-    "Which 1999 film introduced 'bullet time' photography — freezing action while the camera appears to orbit the scene — to mainstream cinema?",
-    "The Impossible Trinity (Mundell-Fleming Trilemma) states a country cannot simultaneously maintain which three policies?",
-    "Linguist Charles Ferguson's concept of 'diglossia' (1959) describes a speech community using a High and Low language variety. Which pair is the canonical founding example?",
-    "Max Weber identified three 'ideal types' of legitimate political authority in Economy and Society (1922). Which set is correct?",
-    "Gabriel García Márquez's technique of presenting magical events as unremarkable facts within an otherwise realistic setting defines which literary mode?",
     "A Certificate of Origin under a Free Trade Agreement is presented to destination customs primarily to achieve what outcome — and who bears legal liability for a false declaration?",
     "The WTO Customs Valuation Agreement establishes a six-method hierarchy for determining dutiable value. Which is the primary method, and under what precise condition may customs legally reject it?",
     "The Panama Canal's 2016 expanded locks introduced the Neopanamax vessel class. Which set of specifications correctly defines Neopanamax — and approximately how many TEU can such a vessel carry?",
@@ -501,7 +491,17 @@
     "The Sapir-Whorf Hypothesis in its strong form (linguistic determinism) claims language determines thought — speakers literally cannot conceptualise ideas absent from their language. Which finding most directly refutes the strong form?",
     "In rowing, a 'coxed four' (4+) differs from a 'coxless four' (4-). What is the coxswain's competitive value beyond simply adding steering?",
     "The 1999 film 'The Matrix' draws on three distinct philosophical traditions. Which of the following is NOT among the film's primary source traditions?",
-    "Horizontal Gene Transfer (HGT) in prokaryotes occurs via three main mechanisms. Which pairing correctly matches all three with their defining features?"
+    "Horizontal Gene Transfer (HGT) in prokaryotes occurs via three main mechanisms. Which pairing correctly matches all three with their defining features?",
+    "China-Europe rail services (BRI land bridge via Kazakhstan) cut transit time versus Suez-routed ocean. What is the closest approximation for Shanghai-to-Hamburg standard block train transit versus direct ocean service?",
+    "The IMEC (India-Middle East-Europe Corridor) announced at G20 New Delhi 2023 routes cargo via UAE and Saudi Arabia by rail and short-sea. Which existing maritime chokepoint would IMEC most directly allow shippers to BYPASS?",
+    "Under Institute Cargo Clauses A (all-risks), which of the following losses would typically NOT be covered, even with no specific exclusions deleted from the policy?",
+    "Under the U.S. Uyghur Forced Labor Prevention Act (UFLPA), which of the following best describes its core enforcement mechanism for goods produced in Xinjiang?",
+    "The Baltic Dry Index (BDI) is a weighted composite of rates across vessel classes published by the Baltic Exchange. Which vessel-size segments does the current BDI comprise, and what are their weightings?",
+    "Ramanujan's 'taxicab number' 1729 is the smallest positive integer expressible as the sum of two positive cubes in two different ways. Which of the following correctly identifies both pairs of cubes?",
+    "Clarice Lispector's 1964 novel 'A Paixão Segundo G.H.' centres on a woman's existential crisis after encountering a cockroach. Which statement best characterises its literary significance?",
+    "Akira Kurosawa's Rashomon (1950) introduced Japanese cinema to the West after winning the Golden Lion at Venice. Which narrative technique, now bearing the film's name, did it most directly popularise in film studies?",
+    "John Coltrane's 'Giant Steps' (1960) uses rapid harmonic modulation via a cycle of major thirds, dividing the octave into three equal parts. What is this technique called?",
+    "Heisenberg's Uncertainty Principle states Δx·Δp ≥ ℏ/2. Which of the following correctly identifies the fundamental source of this limit?"
   ],
   "learn_history": [
     {
@@ -748,6 +748,11 @@
       "date": "2026-09-29",
       "topic": "The Memory Wall and HBM: Why Bandwidth Became AI's Real Bottleneck",
       "bucket": "semiconductor_foundations"
+    },
+    {
+      "date": "2026-10-09",
+      "topic": "The Photoelectric Effect: How Einstein's 1905 Paper Proved Light Is Quantised — and Won His Only Nobel Prize",
+      "bucket": "science_concept"
     }
   ],
   "curriculum_progress": {
@@ -806,14 +811,14 @@
       "rolling_score": []
     },
     "multimodal": {
-      "count": 23,
-      "last_seen": "2026-09-22",
+      "count": 24,
+      "last_seen": "2026-10-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "trade_lanes": {
-      "count": 23,
-      "last_seen": "2026-09-22",
+      "count": 24,
+      "last_seen": "2026-10-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -824,20 +829,20 @@
       "rolling_score": []
     },
     "marine_insurance": {
-      "count": 23,
-      "last_seen": "2026-09-22",
+      "count": 24,
+      "last_seen": "2026-10-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "compliance": {
-      "count": 23,
-      "last_seen": "2026-09-22",
+      "count": 24,
+      "last_seen": "2026-10-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "industry_econ": {
-      "count": 23,
-      "last_seen": "2026-09-22",
+      "count": 24,
+      "last_seen": "2026-10-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -886,8 +891,8 @@
       "rolling_score": []
     },
     "physical_science": {
-      "count": 34,
-      "last_seen": "2026-09-28",
+      "count": 35,
+      "last_seen": "2026-10-09",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -898,26 +903,26 @@
       "rolling_score": []
     },
     "mathematics": {
-      "count": 34,
-      "last_seen": "2026-09-25",
+      "count": 35,
+      "last_seen": "2026-10-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "literature": {
-      "count": 34,
-      "last_seen": "2026-09-25",
+      "count": 35,
+      "last_seen": "2026-10-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "arts": {
-      "count": 33,
-      "last_seen": "2026-09-25",
+      "count": 34,
+      "last_seen": "2026-10-09",
       "difficulty": 4,
       "rolling_score": []
     },
     "music": {
-      "count": 33,
-      "last_seen": "2026-09-25",
+      "count": 34,
+      "last_seen": "2026-10-09",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -960,159 +965,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-09-29",
+    "date": "2026-10-09",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
         "topic": "industry",
-        "subtopic": "incoterms",
-        "stem": "A seller quotes DDP (Delivered Duty Paid) to a buyer in Germany but discovers German VAT law requires the importer of record to be a locally registered entity, which the seller is not. The forwarder advises pivoting to DAP. Which specific risk-and-cost obligations shift moving from DDP to DAP?",
+        "subtopic": "multimodal",
+        "stem": "China-Europe rail services (BRI land bridge via Kazakhstan) cut transit time versus Suez-routed ocean. What is the closest approximation for Shanghai-to-Hamburg standard block train transit versus direct ocean service?",
         "options": [
-          "Main carriage and terminal handling costs shift from seller to buyer",
-          "Import customs clearance, import duties, and import VAT shift from seller to buyer",
-          "Export formalities and export licence obligations shift from seller to buyer",
-          "Marine insurance obligation shifts from seller to buyer under CIP equivalent terms"
+          "Rail ~12 days; ocean ~20 days",
+          "Rail ~18–22 days; ocean ~28–32 days",
+          "Rail ~25 days; ocean ~35–40 days",
+          "Rail ~30 days; ocean ~35 days"
         ],
         "correct": 1,
-        "why": "DDP requires the seller to handle and bear all import clearance, duties, and taxes including VAT. Under DAP, the buyer handles import formalities and pays all import duties and taxes — only the delivery to named place remains the seller's cost and risk.",
-        "deepDive": "DDP is the most seller-burdensome Incoterm: it places import clearance, customs duties, and all destination taxes — including VAT — on the seller. DAP (Delivered at Place) still requires the seller to bear main carriage and deliver to the agreed point, but import clearance and all associated taxes move entirely to the buyer. The pivotal difference is the importer-of-record function: under DDP the seller must have EU EORI registration and often a VAT number; without them, the seller cannot legally act as importer into most EU jurisdictions. Incoterms 2020 explicitly warns against quoting DDP when the seller cannot obtain import clearance. This trap catches exporters who quote DDP to avoid buyer friction, then find themselves unable to execute customs formalities — and potentially liable for duty and VAT that they cannot reclaim. The switch to DAP, while logistically similar, transfers this legal exposure and financial burden squarely to the buyer."
+        "why": "China-Europe block train services typically run 18–22 days city-to-city, versus 28–32 days ocean via Suez from Shanghai to Hamburg, making rail a premium time-sensitive option at roughly double the per-FEU cost.",
+        "deepDive": "The BRI land bridge operates on standard-gauge track through Kazakhstan, Russia (or via the Middle Corridor through Azerbaijan and Turkey post-2022), and Poland/Belarus, with gauge changes at national borders. Fastest express services reach Hamburg in 18 days; standard services run 20–22. The Middle Corridor (bypassing Russia) is slower — around 25 days — but has grown strategically post-Ukraine sanctions. The pandemic era saw massive growth when ocean capacity collapsed, but falling ocean rates since 2023 reduced volumes — rail at roughly $4,000–6,000/FEU struggles against ocean at $1,500–2,500/FEU in a soft market. However, when ocean rates spike (as in 2024–26), the rail premium narrows and shippers reconsider. Weekly volume on all China-Europe rail services runs roughly 5,000–8,000 TEU versus 1M+ TEU on the Asia-Europe ocean lane — rail is niche and premium, not mass market."
       },
       {
         "n": 2,
         "topic": "industry",
-        "subtopic": "bill_of_lading",
-        "stem": "A straight (non-negotiable) BL names 'XYZ Corp' as consignee. XYZ Corp enters administration before the vessel arrives. A third party presents a court-stamped assignment of the underlying sale contract, claiming title to the cargo. The carrier's standard tariff conditions stipulate delivery only to the named consignee. Which statement is most accurate?",
+        "subtopic": "trade_lanes",
+        "stem": "The IMEC (India-Middle East-Europe Corridor) announced at G20 New Delhi 2023 routes cargo via UAE and Saudi Arabia by rail and short-sea. Which existing maritime chokepoint would IMEC most directly allow shippers to BYPASS?",
         "options": [
-          "The carrier must deliver to the third party on presentation of the court-stamped assignment",
-          "The carrier should await the final court insolvency order before releasing cargo to either party",
-          "The carrier may deliver only to the named consignee or its lawful insolvency administrator, not to a third-party contract assignee",
-          "The carrier should take interpleader proceedings and deliver to whichever party first posts security"
+          "Strait of Malacca",
+          "Strait of Hormuz",
+          "Suez Canal and Bab el-Mandeb",
+          "Bosphorus Strait"
         ],
         "correct": 2,
-        "why": "A straight BL is non-negotiable: the contract of carriage names a fixed consignee, and a court assignment of the underlying sale contract creates contractual rights against XYZ Corp, not against the carrier. The carrier's delivery obligation runs to the named consignee (or their lawful insolvency administrator).",
-        "deepDive": "A straight (non-negotiable) Bill of Lading fixes delivery rights to the named consignee — ownership of the cargo cannot be transferred simply by endorsement, as it can with an order BL. When XYZ Corp enters administration, the administrator steps into the company's shoes as the party entitled to take delivery; the carrier is obligated to cooperate with the insolvency process, not with third-party buyers who only have contractual rights running against XYZ Corp itself. A court-stamped assignment of the sale contract is a bilateral agreement between seller and buyer — it affects who has a claim against whom under that contract, but it does not reach into the carrier's contractual duty under the BL. This distinction is critical for trade finance: buyers under a straight BL have no independent right to redirect cargo in a seller's insolvency, which is one reason negotiable order BLs are strongly preferred in documentary credit transactions — physical possession of an endorsed original order BL constitutes title itself, giving the holder rights against the carrier."
+        "why": "IMEC routes cargo overland through Saudi Arabia and onward to Israel or Jordan, bypassing both the Suez Canal and Bab el-Mandeb — the two chokepoints most vulnerable to Houthi disruption and Egyptian tariff policy.",
+        "deepDive": "IMEC was signed by the US, EU, India, Saudi Arabia, UAE, Israel, Jordan, and Italy at G20. The intended route: Indian ports (Mundra, JNPT) → UAE → overland Saudi Arabia → Jordan/Israel → Mediterranean short-sea to European ports. The strategic logic is clear: avoid both Bab el-Mandeb (Houthi attacks) and the Suez Canal (Egyptian transit fees, congestion). However, IMEC faces severe headwinds: the Gaza war stalled Israeli port integration; rail infrastructure through Saudi Arabia and Jordan is largely unbuilt; and political normalisation between Saudi Arabia and Israel — required for a seamless corridor — has not materialised. China has countered with BRI and the Middle Corridor through Iran and Central Asia. If operational, IMEC could cut India-Europe transit to ~10 days for certain segments, versus 28–35 days all-water. The corridor would pass near (but not through) the Strait of Hormuz on the UAE leg."
       },
       {
         "n": 3,
         "topic": "industry",
-        "subtopic": "pricing",
-        "stem": "A Bangladesh-origin container to Rotterdam is quoted: ocean freight $950 + BAF $280 + LSS $90 + GRI $150 + CAF $45 + origin THC BDT 8,500 + destination THC €210 + AMS $25 + ISPS $15 + documentation fee $50. The buyer asks why BAF and LSS appear as separate line items. Which explanation is most technically correct?",
+        "subtopic": "marine_insurance",
+        "stem": "Under Institute Cargo Clauses A (all-risks), which of the following losses would typically NOT be covered, even with no specific exclusions deleted from the policy?",
         "options": [
-          "BAF adjusts for global fuel price fluctuations; LSS is a separate surcharge covering the premium cost of low-sulphur fuel (VLSFO or MGO) mandated within Emission Control Areas such as the North Sea and English Channel",
-          "BAF covers the entire main ocean leg bunker cost; LSS covers bunker costs only on port approach legs within 12 nautical miles of the port",
-          "BAF and LSS are always identical in value; the duplication exists for contractual minimum revenue compliance",
-          "BAF is a spot-adjusted surcharge renegotiated monthly; LSS is a contractually fixed annual surcharge that cannot be adjusted at contract review"
+          "Theft of cargo from a sealed container at a transshipment hub",
+          "Damage caused by the cargo's inherent vice (e.g., fruit ripening, metal rusting)",
+          "Jettison of deck cargo in an emergency to save the vessel",
+          "Contamination of food cargo from co-loading with incompatible chemicals"
         ],
-        "correct": 0,
-        "why": "BAF is the broad bunker fuel adjustment for the main haul. LSS (Low Sulphur Surcharge or ECA surcharge) specifically covers the additional cost of compliant low-sulphur fuel — VLSFO outside ECAs or MDO/MGO inside ECAs — required under IMO 2020 in Emission Control Areas, where the premium can be $150-200/MT above standard VLSFO.",
-        "deepDive": "IMO 2020 globally mandated max 0.5% sulphur content for bunkers, but ECAs (North Sea, Baltic, English Channel, North American coasts) require 0.1% sulphur — effectively only Marine Gas Oil (MGO) or LNG. In 2025-26, MGO in Rotterdam traded at a $150-200/MT premium over VLSFO. Carriers price this one of two ways: embed it in BAF (simpler for shippers, less transparent) or separate it as an LSS/ECA surcharge (shows where the premium originates). When both appear in the same quote, BAF typically covers the HFO or VLSFO consumption on the main haul, while LSS covers only the ECA legs — often just 3-4 days of a 28-day voyage but disproportionately expensive per unit of distance. The CAF (Currency Adjustment Factor) in the quote is a separate animal entirely — it hedges for exchange rate movements between the billing and settlement currency. Shippers should always request the fuel formula embedded in BAF to verify there is no double-counting; some carriers have been known to embed ECA costs in BAF and then additionally charge an LSS."
+        "correct": 1,
+        "why": "Inherent vice — a cargo's natural deterioration from its own characteristics — is excluded from all ICC clauses including A. Theft, jettison, and contamination are covered under ICC A (though contamination claims may require careful proximate-cause analysis).",
+        "deepDive": "Institute Cargo Clauses A is the widest cargo insurance cover available, covering all risks of physical loss or damage except those specifically excluded. Standard exclusions embedded in ICC A include: inherent vice (the cargo's own characteristics causing deterioration — fruit ripening, metal rusting, coal self-igniting, rubber degrading), ordinary leakage or weight loss, deliberate damage by the insured, delay losses, insolvency of the carrier, and war/strikes (unless endorsed back in). Inherent vice is a fundamental legal principle — you cannot insure against the natural consequences of what you are shipping. Jettison IS covered under ICC A because it is an external emergency peril, not the cargo's own nature — and jettisoned cargo typically also triggers a General Average contribution from all cargo interests on the vessel. Contamination from co-loading is generally covered as 'contact with other substance' under ICC A, but the insured must prove it arose from a proximate external peril rather than improper stowage arranged by their own agents."
       },
       {
         "n": 4,
         "topic": "industry",
-        "subtopic": "ftas",
-        "stem": "A Bangladeshi exporter ships HS 6206.10 (women's blouses, silk) to the EU under EBA (Everything But Arms). A post-clearance EU audit finds that 38% of the silk fabric was woven in China and imported into Bangladesh before cutting and sewing. The EU issues a preferential duty recovery demand. Which rules-of-origin requirement has been violated?",
+        "subtopic": "compliance",
+        "stem": "Under the U.S. Uyghur Forced Labor Prevention Act (UFLPA), which of the following best describes its core enforcement mechanism for goods produced in Xinjiang?",
         "options": [
-          "The Double Transformation Rule — silk fabric must undergo two separate weaving steps performed entirely in Bangladesh",
-          "The Manufacture-from-Yarn Rule — for HS Chapter 62 woven apparel, EU GSP requires the weaving step to take place in the beneficiary country; importing pre-woven Chinese fabric and only cutting-and-sewing in Bangladesh is insufficient",
-          "The 60% Value-Added Rule — at least 60% of the ex-works price must constitute Bangladeshi value-added under the EBA regional value content formula",
-          "The Short Supply Rule — silk is on the EU's Annex 22-03 short supply list, exempting the Chinese-woven fabric from origin requirements"
+          "It bans importation of Xinjiang goods entirely, with no pathway for entry",
+          "It creates a rebuttable presumption that goods produced wholly or in part in Xinjiang are made with forced labour, placing the burden of proof on the importer",
+          "It requires OFAC to add Xinjiang entities to the SDN list before import restrictions apply",
+          "It restricts only goods produced by entities on CBP's UFLPA Entity List, leaving unlisted Xinjiang producers unaffected"
         ],
         "correct": 1,
-        "why": "EU GSP/EBA rules of origin for HS Chapter 62 require manufacture from yarn — not from fabric. The weaving step must occur in Bangladesh. Importing Chinese-woven fabric and performing only cutting and sewing fails this test, even if local value-added exceeds 60%.",
-        "deepDive": "Under EU GSP Annex 22-03 (and EBA as applied to Bangladesh), HS Chapter 62 woven apparel requires 'manufacture from yarn' — meaning the fabric must be both woven and cut-and-sewn in the beneficiary country, sometimes called the double-transformation rule. Simply cutting and sewing imported Chinese woven fabric into a garment does not confer Bangladeshi origin, regardless of what proportion of the ex-works value is added locally. This is stricter than the general 'substantial transformation' standard used in the US GSP or some other FTAs. Bangladesh exporters — particularly in woven categories where a significant proportion of fabric is sourced from China — routinely face EU customs audits that challenge this. The REX (Registered Exporter) system, mandatory since 2017, places full legal responsibility for origin declarations on the exporter. EU customs authorities have been increasingly aggressive with post-clearance audits since 2024, driven partly by concerns about China using Bangladesh as a transshipment vehicle for tariff avoidance. Knitwear (HS Chapter 61) has similar rules but the transformation point begins at yarn-to-fabric knitting, and Bangladesh's large domestic knitwear sector generally meets the test."
+        "why": "UFLPA's defining feature is the rebuttable presumption — any goods produced wholly or in part in Xinjiang are presumed to be made with forced labour, and the importer must rebut this with 'clear and convincing evidence' of clean supply chains.",
+        "deepDive": "The UFLPA, signed December 2021 and enforced from June 2022, was a structural shift in US forced-labour import policy. Unlike the prior Tariff Act Section 307 framework, which required CBP to prove forced labour before stopping goods, UFLPA inverts the burden entirely: the importer must produce detailed supply chain documentation proving no forced labour was used, anywhere in the chain. Critically, this extends beyond direct Xinjiang-origin goods — a garment made in Vietnam from yarn spun in Xinjiang from Xinjiang cotton is potentially covered if the Xinjiang input can be traced. The UFLPA Entity List identifies high-risk entities by name, but the rebuttable presumption applies to Xinjiang-origin goods broadly, regardless of entity listing. Acceptable evidence for rebuttal includes: complete supply chain mapping with verified documentation, independent audits, and traceability to non-Xinjiang inputs. The practical effect has been significant: major apparel, electronics, and automotive supply chains have undergone extensive Xinjiang-risk mapping, and some sourcing has shifted to other regions."
       },
       {
         "n": 5,
         "topic": "industry",
-        "subtopic": "air_freight",
-        "stem": "A pharma consolidator needs to ship 48 kg of Biological Substance Category B (UN 3373) on a cargo aircraft. Each of 6 individual packages weighs 8 kg. IATA DGR Packing Instruction P650 limits each outer package to 4 kg for solids. What is the correct approach to tender all 6 packages on a single Master AWB?",
+        "subtopic": "industry_econ",
+        "stem": "The Baltic Dry Index (BDI) is a weighted composite of rates across vessel classes published by the Baltic Exchange. Which vessel-size segments does the current BDI comprise, and what are their weightings?",
         "options": [
-          "Consolidate all 6 packages into one outer package up to 48 kg — P650 does not impose a per-consignment cap on Category B",
-          "Each package must be individually consigned under a separate House AWB; the per-package 4 kg limit applies at House AWB level, not Master AWB level",
-          "Apply for a State-authority competent authority approval before any consolidation above the 4 kg per-package limit",
-          "Each package must individually comply with the 4 kg P650 outer limit, but multiple individually compliant packages may be listed on one House AWB, which is then tendered under one Master AWB"
+          "Handysize 25%, Supramax 25%, Panamax 25%, Capesize 25%",
+          "Supramax 30%, Panamax 30%, Capesize 40%",
+          "Handysize 20%, Panamax 30%, Capesize 50%",
+          "Panamax 25%, Capesize 50%, Supramax 25%"
         ],
-        "correct": 3,
-        "why": "P650 restricts the outer package to ≤4 kg (solid) per package, not per HAWB or per consignment. Multiple P650-compliant packages may be consolidated on one HAWB — there is no per-HAWB or per-consignment quantity cap for UN 3373.",
-        "deepDive": "UN 3373 (Biological Substance, Category B) covers diagnostic specimens and biological materials that present low disease risk in transport — infectious blood samples, urine, tissue for diagnostics. Packing Instruction P650 requires: leak-proof inner container, rigid outer packaging, no package exceeding 4 litres (liquid) or 4 kg (solid), and the UN 3373 diamond-shaped mark on the outer. Critically, P650 imposes the 4 kg limit per outer package, not per shipment or per HAWB — a consolidator can lawfully tender 12 individually compliant packages under one HAWB and one Master AWB. This is distinct from Category A dangerous goods (UN 2814 Infectious Substance Affecting Humans; UN 2900 Infectious Substance Affecting Animals), which have far more stringent requirements, strict per-package and per-HAWB quantity limits, and require prior aircraft operator acceptance. Misclassifying a Category A as Category B is a serious regulatory violation. Pharma logistics teams commonly confuse the two: if there is any doubt about whether the material is Category A or B, it must be treated as Category A. IATA updates the DGR annually; the current 67th edition (2026) has updated packaging test standards that some legacy P650 outer boxes do not meet."
+        "correct": 1,
+        "why": "The BDI (post-2018 revision) is weighted as Capesize 40%, Panamax 30%, Supramax 30%. Handysize was removed from the composite calculation in a 2018 reform, and Handymax has been subsumed into Supramax reporting.",
+        "deepDive": "The Baltic Dry Index is published daily by the Baltic Exchange in London and is one of the oldest economic benchmarks in existence. It covers standardised notional voyage routes for each vessel class: Capesize routes include key iron ore and coal hauls (Brazil-China, Australia-China); Panamax covers grain and coal routes; Supramax handles minor bulks on shorter routes. Capesize gets the heaviest weighting (40%) because its routes most directly reflect global industrial commodity flows — changes in Chinese steel production, for instance, affect Capesize iron ore demand first. The BDI's value as a leading economic indicator comes from its inability to be speculated upon (there is no spot delivery market for shipping slots, unlike oil or copper). However, its predictive value has diminished as global trade diversified: a China steel slowdown can crush Capesize while Supramax and Panamax hold firm on agricultural cargo. The Baltic BDTI (tanker) and BCTI (chemical tanker) indices use similar methodologies for liquid bulk trades."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "economics",
-        "stem": "The 'impossible trinity' (Mundell-Fleming trilemma) holds that a country cannot simultaneously achieve which three objectives?",
+        "subtopic": "mathematics",
+        "stem": "Ramanujan's 'taxicab number' 1729 is the smallest positive integer expressible as the sum of two positive cubes in two different ways. Which of the following correctly identifies both pairs of cubes?",
         "options": [
-          "Low inflation, full employment, and balanced trade",
-          "Fixed exchange rate, free capital mobility, and independent monetary policy",
-          "High GDP growth, low public debt, and price stability",
-          "Current account surplus, fiscal balance, and low domestic interest rates"
+          "1³ + 12³ and 9³ + 10³",
+          "2³ + 12³ and 9³ + 10³",
+          "1³ + 12³ and 8³ + 11³",
+          "3³ + 10³ and 9³ + 10³"
         ],
-        "correct": 1,
-        "why": "The Mundell-Fleming trilemma: fixed rate + free capital + independent monetary policy cannot coexist. A country can only achieve any two simultaneously — choosing two forces a sacrifice of the third.",
-        "deepDive": "The impossible trinity, formalised by Robert Mundell and Marcus Fleming in the 1960s, is one of international macroeconomics' most durable frameworks. The logic: if capital flows freely and you fix your exchange rate, you must match foreign interest rates to prevent capital arbitrage — leaving no room for independent monetary policy. Three canonical country solutions: China fixes the rate, maintains monetary independence, and restricts capital flows (sacrificing free mobility). Hong Kong fixes the rate, allows free capital (sacrificing independence — monetary policy mirrors the US Fed via the currency board). The US, UK, and EU float their currencies, allowing free capital flows and independent policy (sacrificing the fixed rate). For Bangladesh, this trilemma explains why BB simultaneously manages the taka's exchange rate and restricts the capital account — full current account convertibility is achievable, but capital account liberalisation while maintaining a managed peg would require surrendering monetary independence to a foreign rate anchor, which is politically untenable. The IMF's ongoing programme discussions with Bangladesh always implicitly navigate this trilemma."
+        "correct": 0,
+        "why": "1³ + 12³ = 1 + 1728 = 1729; 9³ + 10³ = 729 + 1000 = 1729. Hardy arrived in taxi #1729; Ramanujan instantly identified its mathematical significance, leading Hardy to call it an 'amusing' number.",
+        "deepDive": "The story is one of mathematics' most charming anecdotes: G.H. Hardy arrived at Ramanujan's hospital bedside in taxi number 1729 and remarked it seemed 'rather dull.' Ramanujan replied at once that it was in fact very interesting — the smallest number expressible as the sum of two cubes in two distinct ways. Hardy called it the taxicab number. The concept generalises: Ta(n) is the smallest number expressible as a sum of two positive cubes in n different ways. Ta(3) was found in 1957, Ta(4) in 1991, Ta(5) in 1994, and Ta(6) only in 2003. Ramanujan's extraordinary facility with integers — seeing hidden structure where others saw nothing — remains the subject of ongoing mathematical research. His notebooks, still being worked through a century later, continue to yield new results in number theory, modular forms, and analysis. The number 1729 appears in the animated television series Futurama as a recurring Easter egg planted by the show's mathematically inclined writing staff."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "linguistics",
-        "stem": "The Sapir-Whorf Hypothesis in its strong form (linguistic determinism) claims language determines thought — speakers literally cannot conceptualise ideas absent from their language. Which finding most directly refutes the strong form?",
+        "subtopic": "literature",
+        "stem": "Clarice Lispector's 1964 novel 'A Paixão Segundo G.H.' centres on a woman's existential crisis after encountering a cockroach. Which statement best characterises its literary significance?",
         "options": [
-          "Children universally acquire language in the same developmental sequence regardless of their native tongue",
-          "Translation between any two languages is possible without structural loss of meaning",
-          "Color perception studies show that speakers of languages lacking a distinct term for a color can still correctly perceive and categorise that color — language affects discrimination speed but not perceptual capacity",
-          "All known human languages contain grammatical mechanisms for expressing past, present, and future tense"
+          "It introduced magic realism to Brazilian fiction, predating García Márquez's 'One Hundred Years of Solitude'",
+          "It exemplifies radical stream-of-consciousness writing where language itself becomes the subject — placing Lispector in dialogue with Beckett, Woolf, and phenomenology",
+          "It is the first Brazilian novel to address colonialism directly through an urban working-class narrative",
+          "It established Lispector as South America's leading satirist of bourgeois middle-class life"
         ],
-        "correct": 2,
-        "why": "Berlin and Kay's color universals research, and Davidoff's work with the Berinmo, show speakers perceive colors even without a lexical term for them. Language shapes cognitive ease and speed (weak Whorfianism), but does not create hard perceptual limits (strong determinism).",
-        "deepDive": "The Berlin-Kay color universals study (1969) mapped the near-universal sequence in which languages acquire basic color terms — black/white first, then red, then yellow/green — suggesting perceptual universals that language follows rather than creates. Jules Davidoff's later work with the Berinmo of Papua New Guinea confirmed that while Berinmo speakers were faster at discriminating within their own colour categories, they could still identify colors that fell outside their lexicon. Lera Boroditsky's more recent experiments found that Russian speakers — who distinguish light blue (goluboy) from dark blue (siniy) with separate words — are measurably faster at blue-discrimination tasks. But this is priming, not a perceptual wall. The strong Sapir-Whorf hypothesis has been broadly abandoned in cognitive linguistics. The weak form — that language shapes cognitive habits, framing, and the ease of certain mental operations, without creating hard perceptual limits — is productive and actively studied. Practically: this explains why professional jargon accelerates expert cognition (naming a concept makes it faster to manipulate) without claiming that non-experts are incapable of grasping it."
+        "correct": 1,
+        "why": "The Passion According to G.H. is celebrated for treating language itself as the primary subject — Lispector interrogates whether words can reach the pre-verbal real, situating the novel in the tradition of Woolf, Beckett, and European phenomenology.",
+        "deepDive": "Clarice Lispector (1920–1977) was born in Ukraine, raised in Brazil, and is now considered one of the most original novelists of the 20th century — though she remained almost unknown outside the Portuguese-speaking world until Benjamin Moser's English translations in the 2000s. The Passion According to G.H. depicts a wealthy sculptor who, cleaning her maid's recently-vacated room, encounters a cockroach and experiences a complete metaphysical collapse — the novel that follows is a meditation on being, nothingness, and the terror of contact with the non-human real. Lispector's prose resists summary: she strips away the comfort of narrative to expose the thing behind language. Hélène Cixous wrote admiringly of her as a founding figure of écriture féminine. She is compared to Woolf for interiority, to Kafka for surreal dislocation, and to Husserl for phenomenological attention. Other key works: The Hour of the Star (1977, her final novel, about Brazil's internal poor) and Near to the Wild Heart (1943, her stunning debut at age 23)."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "sport",
-        "stem": "In rowing, a 'coxed four' (4+) differs from a 'coxless four' (4-). What is the coxswain's competitive value beyond simply adding steering?",
+        "subtopic": "arts",
+        "stem": "Akira Kurosawa's Rashomon (1950) introduced Japanese cinema to the West after winning the Golden Lion at Venice. Which narrative technique, now bearing the film's name, did it most directly popularise in film studies?",
         "options": [
-          "A coxed four uses sweep oars while a coxless four uses sculling; the cox provides steering only",
-          "The cox steers via rudder and tiller, provides real-time race strategy and stroke-rate calls, and coordinates crew power application — functions that account for measurable competitive performance even given the added weight",
-          "A coxed four is an Olympic event; a coxless four is not recognised by World Rowing",
-          "FISA rules count the cox at 50% body weight so the boat is lighter despite carrying an additional person"
+          "The use of rain and natural elements as recurring symbolic motifs throughout a film",
+          "Multiple witness perspectives, each delivering a contradictory but individually sincere account of the same event",
+          "Long unbroken sequence shots immersing the viewer in real-time duration",
+          "Jump cuts and fragmented timelines to convey psychological disorientation"
         ],
         "correct": 1,
-        "why": "The cox steers via rudder-and-tiller, calls stroke rate, directs tactical surges, and provides real-time race feedback the backwards-facing rowers cannot access — competitive value beyond steering that studies attribute to roughly 1-2% of total race performance.",
-        "deepDive": "In rowing, the coxswain (cox) sits in the stern (or bow in some shells) facing the crew, controlling a rudder via cables connected to a hand tiller. Primary functions: (1) steering — keeping the boat on the correct lane with minimal drag-inducing rudder movement; (2) calling the stroke rate and timing key tactical moves (eg 'power 10' surges at defined race segments); (3) providing real-time crew coordination and motivational cadence that the rowers — facing away from the direction of travel and unable to see each other's blade timing — cannot self-supply; (4) race intelligence, including rival boat positions and pacing feedback. Elite performance studies suggest good coxswainship accounts for 1-2% of total performance — meaningful at world championship margins where races are won by fractions of a second. World Rowing (formerly FISA) sets minimum cox weight at 55 kg for men's events and 50 kg for women's, with ballast added if lighter, to prevent exploitation of featherweight coxes. The coxless four (4-) uses foot-operated cable rudders — a more technically demanding and physically taxing configuration, as athletes must self-coordinate — and has been the dominant Olympic sweep-oar format since 1996."
+        "why": "The 'Rashomon effect' denotes multiple witnesses giving contradictory but sincerely held accounts of the same event, each shaped by self-interest and limited perspective — now a standard concept in psychology, law, and epistemology as well as film.",
+        "deepDive": "Rashomon (1950) draws on two short stories by Ryūnosuke Akutagawa — Rashomon and In a Grove. The film tells of a samurai's murder through four irreconcilable accounts from the bandit, the wife, the samurai's ghost, and a woodcutter-witness. Kurosawa's revelation is that none of the narrators is simply lying — each genuinely believes their version, but each shapes it toward their own dignity or survival. The philosophical import goes beyond filmmaking into epistemology: if every witness is compromised by self-interest and limited perspective, what does it mean to know anything? The Rashomon effect is now used in legal theory (eyewitness reliability), social psychology (confirmation bias), and journalism. The film's impact on Western cinema was transformative — it showed that narrative ambiguity was a feature, not a flaw, and opened the Venice festival to non-Western cinema. Kurosawa directly influenced Sergio Leone, George Lucas, Francis Ford Coppola, and Steven Spielberg."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "pop_culture",
-        "stem": "The 1999 film 'The Matrix' draws on three distinct philosophical traditions. Which of the following is NOT among the film's primary source traditions?",
+        "subtopic": "music",
+        "stem": "John Coltrane's 'Giant Steps' (1960) uses rapid harmonic modulation via a cycle of major thirds, dividing the octave into three equal parts. What is this technique called?",
         "options": [
-          "Cartesian scepticism — Descartes' evil demon hypothesis from the Meditations on First Philosophy",
-          "Plato's Allegory of the Cave from The Republic",
-          "Jean Baudrillard's theory of simulacra and hyperreality from Simulacra and Simulation",
-          "Friedrich Nietzsche's doctrine of Eternal Recurrence from Thus Spoke Zarathustra"
+          "Tritone substitution",
+          "Coltrane Changes (Coltrane Matrix)",
+          "Chromatic mediants",
+          "Modal interchange"
         ],
-        "correct": 3,
-        "why": "The Matrix explicitly references Baudrillard (Neo hides items in a hollowed-out copy), mirrors Descartes' evil demon scenario, and directly maps onto Plato's Cave. Nietzsche's Eternal Recurrence — the infinite repetition of all events — plays no structural role in the film.",
-        "deepDive": "The Matrix (Wachowskis, 1999) is unusually explicit about its philosophical DNA. Neo's hollowed-out book is Baudrillard's Simulacra and Simulation (1981): his argument that in postmodern society, the sign (map) has replaced the referent (territory), producing a 'hyperreality' more real than real — Morpheus's 'Welcome to the desert of the real' is a near-verbatim Baudrillard quote. Descartes' Meditations (1641) provides the evil-demon scepticism framework — how do I know sensory experience isn't fabricated by a deceiving intelligence? Plato's Allegory (Republic, Book VII) maps onto the freed prisoner who sees real sunlight for the first time. Nietzsche is tonally present — Neo as a Übermensch-figure, the chosen one who transcends his conditioning — but Eternal Recurrence (the doctrine that the universe and all events repeat infinitely) has no structural bearing on the film's plot or premise. Nick Bostrom later formalised a probabilistic Simulation Argument independently in 2003: if civilisations can run ancestral simulations and many do, we are statistically more likely to be a simulation than not — a rigorous mathematical cousin of the Matrix's premise, arrived at via entirely different philosophical machinery."
+        "correct": 1,
+        "why": "Coltrane Changes (also called the Coltrane Matrix) refers specifically to his technique of cycling through tonal centres separated by major thirds — B major → G major → E♭ major — covering the full octave symmetrically and generating rapid harmonic motion of two key centres per bar.",
+        "deepDive": "Giant Steps (1960) was a watershed in jazz harmony. Bebop navigated sophisticated II-V-I progressions within or between keys; Coltrane pushed this to its limit by modulating so rapidly — a new tonal centre every two beats — that improvising over the changes required entirely new vocabulary. The three centres (B, G, E♭) are separated by major thirds (four semitones each) and together span a full octave when stacked. This symmetry means no single key acts as 'home' — the harmony is restless, constantly resolving and immediately modulating away. Most musicians of the era couldn't keep up; even Miles Davis reportedly struggled to record over the changes. Tritone substitution — a different technique — replaces a dominant seventh with a chord a tritone (six semitones) away, sharing two common tones. Modal interchange borrows chords from parallel modes. Coltrane Changes are distinct because the movement is by major thirds, not by tritones. After Giant Steps, Coltrane pivoted away from harmonic complexity toward modality (A Love Supreme, 1965) and free jazz — two very different explorations of jazz's limits."
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "life_science",
-        "stem": "Horizontal Gene Transfer (HGT) in prokaryotes occurs via three main mechanisms. Which pairing correctly matches all three with their defining features?",
+        "subtopic": "physical_science",
+        "stem": "Heisenberg's Uncertainty Principle states Δx·Δp ≥ ℏ/2. Which of the following correctly identifies the fundamental source of this limit?",
         "options": [
-          "Transformation (uptake of free environmental DNA), Transduction (bacteriophage-mediated gene transfer), Conjugation (direct cell-to-cell transfer via F-pilus)",
-          "Transformation (virus-mediated gene insertion), Transduction (free DNA uptake from lysed cells), Conjugation (plasmid exchange via spore formation)",
-          "Transformation (sexual recombination in bacteria), Transduction (direct cell-contact transfer), Conjugation (phage-mediated gene exchange between mating strains)",
-          "Transformation (antibiotic-induced mutation), Transduction (viral RNA reverse-transcription into host genome), Conjugation (organelle-to-nucleus gene migration)"
+          "Measurement disturbance — any instrument used to measure position necessarily imparts momentum to the particle, disturbing the system",
+          "It is an intrinsic property of quantum wavefunctions: position and momentum are conjugate variables whose Fourier representations are inversely related in spread",
+          "The finite resolution of any measuring apparatus places a practical lower bound on simultaneous precision",
+          "Relativistic delay — the finite speed of light creates measurement latency that limits simultaneous precision"
         ],
-        "correct": 0,
-        "why": "The three canonical HGT mechanisms: transformation (competent cell uptakes naked free DNA), transduction (bacteriophage accidentally packages and delivers donor DNA), conjugation (F+ donor extends pilus to F- recipient and transfers plasmid copy).",
-        "deepDive": "Horizontal gene transfer (HGT) explains why antibiotic resistance spreads so rapidly between entirely different bacterial species — it is not limited by vertical parent-to-offspring inheritance. Transformation: demonstrated by Frederick Griffith in 1928 (smooth pneumococcus DNA transforming rough strains); requires the recipient to be 'competent' — able to take up free DNA from the environment, either naturally or artificially induced. Transduction: bacteriophages (bacteria-infecting viruses) can accidentally package fragments of donor bacterial DNA into their capsid and inject them into the next host. Generalised transduction picks up random DNA; specialised transduction transfers only chromosomal DNA adjacent to the phage insertion site. Conjugation: discovered by Lederberg and Tatum (1946); the F+ (donor) cell extends an F-pilus to the F- (recipient), retracts it to draw the cells together, then transfers a copy of the F plasmid (or other mobile elements) through a conjugation bridge. Conjugation is the primary highway by which multi-drug resistance (MDR) plasmids spread through hospital microbiomes. Understanding these three pathways explains why infection control cannot treat resistant bacteria as genetically isolated threats — an MDR plasmid in one species can jump to a completely unrelated pathogen within a single patient's gut within hours."
+        "correct": 1,
+        "why": "The Uncertainty Principle is not about measurement disturbance or instrumental limits — it is an intrinsic mathematical property of quantum states: a wavefunction cannot simultaneously be narrow in both position space and momentum space, because the two are related by Fourier transform.",
+        "deepDive": "A pervasive misconception is that the Uncertainty Principle is about clumsy measurement — the act of observing a particle disturbs it. Heisenberg himself initially suggested the 'gamma-ray microscope' thought experiment in these terms, but the deeper physical understanding, formalised by Robertson (1929), is purely mathematical. A quantum state is described by a wavefunction ψ(x). Its Fourier transform ψ̃(p) gives the momentum distribution. The mathematical theorem of Fourier analysis holds that you cannot simultaneously make both ψ(x) and ψ̃(p) narrow — localising in position necessarily spreads in momentum, and vice versa. This is not a technological limitation: no matter how perfect the apparatus, no quantum state can simultaneously possess a definite position and a definite momentum. The same relationship applies to any pair of non-commuting observables (energy and time, angular momentum components). Squeezed states in quantum optics exploit this trade-off deliberately — squeezing one quadrature's uncertainty at the cost of the conjugate — a technique used in gravitational wave detectors like LIGO to improve measurement sensitivity."
       }
     ]
   }
