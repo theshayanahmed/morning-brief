@@ -1,17 +1,7 @@
 {
   "streak": 13,
-  "last_session_date": "2026-10-09",
+  "last_session_date": "2026-10-12",
   "questions_seen": [
-    "A Certificate of Origin under a Free Trade Agreement is presented to destination customs primarily to achieve what outcome — and who bears legal liability for a false declaration?",
-    "The WTO Customs Valuation Agreement establishes a six-method hierarchy for determining dutiable value. Which is the primary method, and under what precise condition may customs legally reject it?",
-    "The Panama Canal's 2016 expanded locks introduced the Neopanamax vessel class. Which set of specifications correctly defines Neopanamax — and approximately how many TEU can such a vessel carry?",
-    "In container terminal operations, net crane productivity (NCPH) differs critically from gross crane productivity (GCPH). Which statement correctly defines NCPH and explains why operators prefer it for performance benchmarking?",
-    "Which carrier pairing forms the Gemini Cooperation launched in February 2025 — and what is Gemini's stated strategic differentiator from previous alliance models?",
-    "Britain's 1905 Partition of Bengal was reversed at the 1911 Delhi Durbar. What was the most consequential unintended political consequence of the reversal for Indian Muslim political leadership?",
-    "The Sundarbans mangrove forest spans Bangladesh and India's West Bengal. Which combination of characteristics most accurately describes its ecological significance and primary existential threat?",
-    "DNA methylation is the most studied epigenetic mechanism — it produces heritable changes in gene expression without altering the DNA sequence. By what molecular mechanism does methylation suppress gene transcription?",
-    "A disease affects 1% of a population. A diagnostic test is 99% sensitive and 99% specific. A randomly selected person tests positive. What is the approximate probability they actually have the disease, and what principle explains this result?",
-    "Nuclear magnetic resonance (NMR) — the physics underlying MRI — exploits atomic nuclear magnetic properties. Why is hydrogen ideal for MRI, and what is the physical meaning of T1 and T2 relaxation times used to generate tissue contrast?",
     "A Certificate of Origin under a Free Trade Agreement is presented to destination customs primarily to achieve what outcome — and who bears legal liability for a false declaration?",
     "The WTO Customs Valuation Agreement establishes a six-method hierarchy for determining dutiable value. Which is the primary method, and under what precise condition may customs legally reject it?",
     "The Panama Canal's 2016 expanded locks introduced the Neopanamax vessel class. Which set of specifications correctly defines Neopanamax — and approximately how many TEU can such a vessel carry?",
@@ -501,7 +491,17 @@
     "Clarice Lispector's 1964 novel 'A Paixão Segundo G.H.' centres on a woman's existential crisis after encountering a cockroach. Which statement best characterises its literary significance?",
     "Akira Kurosawa's Rashomon (1950) introduced Japanese cinema to the West after winning the Golden Lion at Venice. Which narrative technique, now bearing the film's name, did it most directly popularise in film studies?",
     "John Coltrane's 'Giant Steps' (1960) uses rapid harmonic modulation via a cycle of major thirds, dividing the octave into three equal parts. What is this technique called?",
-    "Heisenberg's Uncertainty Principle states Δx·Δp ≥ ℏ/2. Which of the following correctly identifies the fundamental source of this limit?"
+    "Heisenberg's Uncertainty Principle states Δx·Δp ≥ ℏ/2. Which of the following correctly identifies the fundamental source of this limit?",
+    "On a 5,000 nm long-haul sector, which production widebody freighter offers the highest maximum payload at MZFW — roughly 133–134 tonnes?",
+    "Which airport has ranked first globally by annual air cargo tonnage handled for most years since the late 1990s, ahead of Memphis and Shanghai-Pudong?",
+    "DSV's acquisition of DB Schenker (agreed 2024, ~€14.8B) created a combined forwarder. In which revenue range does the combined entity sit?",
+    "A forwarder signs an NAC for 500 TEU/month at $1,200/TEU base rate. They ship only 350 TEU. Shortfall penalty is 30% of contracted rate. What is the shortfall charge?",
+    "The bullwhip effect describes amplifying demand oscillations moving upstream. What is the PRIMARY structural cause identified in Hau Lee's 1997 framework?",
+    "The phrase 'sick man of Europe' — describing the Ottoman Empire — was first attributed to which 19th-century head of state?",
+    "Nakhchivan is a geographically isolated autonomous republic — an exclave — officially part of which country despite sharing no land border with it?",
+    "Of the four major Sunni madhabs (schools of jurisprudence), which is dominant across Bangladesh, Pakistan, and most of the Indian subcontinent?",
+    "Rawls's 'veil of ignorance' in A Theory of Justice (1971) is a device for deriving principles of justice. What does reasoning from behind it specifically require?",
+    "In CRISPR-Cas9 gene editing, the guide RNA (gRNA) serves which specific function?"
   ],
   "learn_history": [
     {
@@ -753,6 +753,11 @@
       "date": "2026-10-09",
       "topic": "The Photoelectric Effect: How Einstein's 1905 Paper Proved Light Is Quantised — and Won His Only Nobel Prize",
       "bucket": "science_concept"
+    },
+    {
+      "date": "2026-10-12",
+      "topic": "The Suez Crisis (1956): How Nasser's Nationalization Ended British Imperial Pretension and Made the Canal a Permanent Geopolitical Flashpoint",
+      "bucket": "history"
     }
   ],
   "curriculum_progress": {
@@ -847,46 +852,46 @@
       "rolling_score": []
     },
     "aircraft_carriers": {
-      "count": 23,
-      "last_seen": "2026-09-25",
+      "count": 24,
+      "last_seen": "2026-10-12",
       "difficulty": 2,
       "rolling_score": []
     },
     "airport_ops": {
-      "count": 23,
-      "last_seen": "2026-09-25",
+      "count": 24,
+      "last_seen": "2026-10-12",
       "difficulty": 2,
       "rolling_score": []
     },
     "ma_consolidation": {
-      "count": 23,
-      "last_seen": "2026-09-25",
+      "count": 24,
+      "last_seen": "2026-10-12",
       "difficulty": 2,
       "rolling_score": []
     },
     "commercial_concepts": {
-      "count": 23,
-      "last_seen": "2026-09-25",
+      "count": 24,
+      "last_seen": "2026-10-12",
       "difficulty": 2,
       "rolling_score": []
     },
     "supply_chain_strategy": {
-      "count": 23,
-      "last_seen": "2026-09-25",
+      "count": 24,
+      "last_seen": "2026-10-12",
       "difficulty": 2,
       "rolling_score": []
     }
   },
   "gk_progress": {
     "history": {
-      "count": 36,
-      "last_seen": "2026-09-28",
+      "count": 37,
+      "last_seen": "2026-10-12",
       "difficulty": 4,
       "rolling_score": []
     },
     "geography": {
-      "count": 35,
-      "last_seen": "2026-09-28",
+      "count": 36,
+      "last_seen": "2026-10-12",
       "difficulty": 4,
       "rolling_score": []
     },
@@ -897,8 +902,8 @@
       "rolling_score": []
     },
     "life_science": {
-      "count": 35,
-      "last_seen": "2026-09-29",
+      "count": 36,
+      "last_seen": "2026-10-12",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -927,14 +932,14 @@
       "rolling_score": []
     },
     "religion": {
-      "count": 33,
-      "last_seen": "2026-09-28",
+      "count": 34,
+      "last_seen": "2026-10-12",
       "difficulty": 4,
       "rolling_score": []
     },
     "political_theory": {
-      "count": 34,
-      "last_seen": "2026-09-28",
+      "count": 35,
+      "last_seen": "2026-10-12",
       "difficulty": 3,
       "rolling_score": []
     },
@@ -965,159 +970,159 @@
   },
   "history": [],
   "today": {
-    "date": "2026-10-09",
+    "date": "2026-10-12",
     "current_q": 1,
     "answers": [],
     "questions": [
       {
         "n": 1,
-        "topic": "industry",
-        "subtopic": "multimodal",
-        "stem": "China-Europe rail services (BRI land bridge via Kazakhstan) cut transit time versus Suez-routed ocean. What is the closest approximation for Shanghai-to-Hamburg standard block train transit versus direct ocean service?",
+        "topic": "domain",
+        "subtopic": "aircraft_carriers",
+        "stem": "On a 5,000 nm long-haul sector, which production widebody freighter offers the highest maximum payload at MZFW — roughly 133–134 tonnes?",
         "options": [
-          "Rail ~12 days; ocean ~20 days",
-          "Rail ~18–22 days; ocean ~28–32 days",
-          "Rail ~25 days; ocean ~35–40 days",
-          "Rail ~30 days; ocean ~35 days"
+          "Boeing 747-8F",
+          "Boeing 777F",
+          "Airbus A330F",
+          "Boeing 767-300F"
         ],
-        "correct": 1,
-        "why": "China-Europe block train services typically run 18–22 days city-to-city, versus 28–32 days ocean via Suez from Shanghai to Hamburg, making rail a premium time-sensitive option at roughly double the per-FEU cost.",
-        "deepDive": "The BRI land bridge operates on standard-gauge track through Kazakhstan, Russia (or via the Middle Corridor through Azerbaijan and Turkey post-2022), and Poland/Belarus, with gauge changes at national borders. Fastest express services reach Hamburg in 18 days; standard services run 20–22. The Middle Corridor (bypassing Russia) is slower — around 25 days — but has grown strategically post-Ukraine sanctions. The pandemic era saw massive growth when ocean capacity collapsed, but falling ocean rates since 2023 reduced volumes — rail at roughly $4,000–6,000/FEU struggles against ocean at $1,500–2,500/FEU in a soft market. However, when ocean rates spike (as in 2024–26), the rail premium narrows and shippers reconsider. Weekly volume on all China-Europe rail services runs roughly 5,000–8,000 TEU versus 1M+ TEU on the Asia-Europe ocean lane — rail is niche and premium, not mass market."
+        "correct": 0,
+        "why": "The 747-8F carries ~134t at MZFW vs the 777F's ~103t; on dense or heavy long-haul cargo it remains unmatched despite higher fuel burn.",
+        "deepDive": "The Boeing 747-8F is the final evolution of the 747 platform, launched in 2011. Its maximum payload is approximately 133-134 tonnes (MZFW-based), compared with the 777F's ~102-103t. The key tradeoff: the 747-8F burns more fuel but carries more tonnage, making it preferred for very dense, heavy, or outsized cargo (automotive parts, horses, oversized machinery). The 777F wins on economics when cargo density is moderate and range is long, given better fuel efficiency per tonne-mile. After Boeing ceased 747 production in 2023, the 777-8F (now in development) is the expected next-generation dominant freighter. Common misconception: 'bigger aircraft always wins' — the 777F frequently beats the 747-8F on unit economics at typical load factors. The retired MD-11F, famous for its tri-engine layout, is being phased out by FedEx and UPS in favour of 777Fs."
       },
       {
         "n": 2,
-        "topic": "industry",
-        "subtopic": "trade_lanes",
-        "stem": "The IMEC (India-Middle East-Europe Corridor) announced at G20 New Delhi 2023 routes cargo via UAE and Saudi Arabia by rail and short-sea. Which existing maritime chokepoint would IMEC most directly allow shippers to BYPASS?",
+        "topic": "domain",
+        "subtopic": "airport_ops",
+        "stem": "Which airport has ranked first globally by annual air cargo tonnage handled for most years since the late 1990s, ahead of Memphis and Shanghai-Pudong?",
         "options": [
-          "Strait of Malacca",
-          "Strait of Hormuz",
-          "Suez Canal and Bab el-Mandeb",
-          "Bosphorus Strait"
+          "Dubai International (DXB)",
+          "Seoul Incheon (ICN)",
+          "Hong Kong International (HKG)",
+          "Anchorage (ANC)"
         ],
         "correct": 2,
-        "why": "IMEC routes cargo overland through Saudi Arabia and onward to Israel or Jordan, bypassing both the Suez Canal and Bab el-Mandeb — the two chokepoints most vulnerable to Houthi disruption and Egyptian tariff policy.",
-        "deepDive": "IMEC was signed by the US, EU, India, Saudi Arabia, UAE, Israel, Jordan, and Italy at G20. The intended route: Indian ports (Mundra, JNPT) → UAE → overland Saudi Arabia → Jordan/Israel → Mediterranean short-sea to European ports. The strategic logic is clear: avoid both Bab el-Mandeb (Houthi attacks) and the Suez Canal (Egyptian transit fees, congestion). However, IMEC faces severe headwinds: the Gaza war stalled Israeli port integration; rail infrastructure through Saudi Arabia and Jordan is largely unbuilt; and political normalisation between Saudi Arabia and Israel — required for a seamless corridor — has not materialised. China has countered with BRI and the Middle Corridor through Iran and Central Asia. If operational, IMEC could cut India-Europe transit to ~10 days for certain segments, versus 28–35 days all-water. The corridor would pass near (but not through) the Strait of Hormuz on the UAE leg."
+        "why": "HKG has topped global cargo tonnage rankings for most of the past two decades, reflecting its transshipment role for southern China manufacturing and connectivity to 100+ airlines.",
+        "deepDive": "Hong Kong International Airport handled approximately 4.3 million metric tonnes in 2023, consistently leading global cargo rankings. Its dominance reflects Hong Kong's role as a transshipment hub for Pearl River Delta manufacturing, despite mainland policy pressure and the rise of PVG/SHA. Memphis (MEM) ranks second or third, driven almost entirely by FedEx's super-hub, which sorts roughly 1.7 million packages nightly. Anchorage (ANC) is a critical technical stop on polar routes between Asia and North America — great circle routing cuts ~2,000 nm off Asia-US-East corridors — but its tonnage is lower. Dubai handles enormous belly freight on Emirates' passenger network but ranks behind HKG and MEM in pure cargo tonnes. Seoul Incheon is a major hub for Korean Air Cargo and transshipment of Northeast Asian manufacturing. Common misconception: Dubai's freight volumes are impressive but predominantly belly cargo, not dedicated freighter throughput."
       },
       {
         "n": 3,
-        "topic": "industry",
-        "subtopic": "marine_insurance",
-        "stem": "Under Institute Cargo Clauses A (all-risks), which of the following losses would typically NOT be covered, even with no specific exclusions deleted from the policy?",
+        "topic": "domain",
+        "subtopic": "ma_consolidation",
+        "stem": "DSV's acquisition of DB Schenker (agreed 2024, ~€14.8B) created a combined forwarder. In which revenue range does the combined entity sit?",
         "options": [
-          "Theft of cargo from a sealed container at a transshipment hub",
-          "Damage caused by the cargo's inherent vice (e.g., fruit ripening, metal rusting)",
-          "Jettison of deck cargo in an emergency to save the vessel",
-          "Contamination of food cargo from co-loading with incompatible chemicals"
+          "$10–18B",
+          "$22–30B",
+          "$40–50B",
+          "$60–75B"
         ],
-        "correct": 1,
-        "why": "Inherent vice — a cargo's natural deterioration from its own characteristics — is excluded from all ICC clauses including A. Theft, jettison, and contamination are covered under ICC A (though contamination claims may require careful proximate-cause analysis).",
-        "deepDive": "Institute Cargo Clauses A is the widest cargo insurance cover available, covering all risks of physical loss or damage except those specifically excluded. Standard exclusions embedded in ICC A include: inherent vice (the cargo's own characteristics causing deterioration — fruit ripening, metal rusting, coal self-igniting, rubber degrading), ordinary leakage or weight loss, deliberate damage by the insured, delay losses, insolvency of the carrier, and war/strikes (unless endorsed back in). Inherent vice is a fundamental legal principle — you cannot insure against the natural consequences of what you are shipping. Jettison IS covered under ICC A because it is an external emergency peril, not the cargo's own nature — and jettisoned cargo typically also triggers a General Average contribution from all cargo interests on the vessel. Contamination from co-loading is generally covered as 'contact with other substance' under ICC A, but the insured must prove it arose from a proximate external peril rather than improper stowage arranged by their own agents."
+        "correct": 2,
+        "why": "DSV's ~$25B + DB Schenker's ~$21B = combined ~$46B, creating the world's largest air forwarder and #2 ocean forwarder, ahead of Kuehne+Nagel on air.",
+        "deepDive": "DB Schenker, Deutsche Bahn's logistics arm, was sold to DSV for approximately €14.8B ($15.7B) in a 2024 auction. DSV — already having absorbed Panalpina (2019) and Agility GIL (2021) — surpassed Kuehne+Nagel to become the world's largest air-freight forwarder and the #2 ocean forwarder with the Schenker deal. Combined revenues approach $45-50B. The deal was politically sensitive in Germany, where unions feared job losses. Deutsche Bahn, under pressure to reduce its €30B debt load, ultimately chose DSV over a management buyout and competing bids. The consolidation wave (Kuehne+Nagel, DSV, DHL Global Forwarding, Sinotrans) reflects scale economics in freight forwarding: larger players secure better carrier rates, invest more in digital platforms, and offer shipper customers a global single-provider contract. The next wave of consolidation is expected in digital freight forwarding, where Flexport, Forto, and others are subscale."
       },
       {
         "n": 4,
-        "topic": "industry",
-        "subtopic": "compliance",
-        "stem": "Under the U.S. Uyghur Forced Labor Prevention Act (UFLPA), which of the following best describes its core enforcement mechanism for goods produced in Xinjiang?",
+        "topic": "domain",
+        "subtopic": "commercial_concepts",
+        "stem": "A forwarder signs an NAC for 500 TEU/month at $1,200/TEU base rate. They ship only 350 TEU. Shortfall penalty is 30% of contracted rate. What is the shortfall charge?",
         "options": [
-          "It bans importation of Xinjiang goods entirely, with no pathway for entry",
-          "It creates a rebuttable presumption that goods produced wholly or in part in Xinjiang are made with forced labour, placing the burden of proof on the importer",
-          "It requires OFAC to add Xinjiang entities to the SDN list before import restrictions apply",
-          "It restricts only goods produced by entities on CBP's UFLPA Entity List, leaving unlisted Xinjiang producers unaffected"
+          "$54,000",
+          "$45,000",
+          "$63,000",
+          "$180,000"
         ],
-        "correct": 1,
-        "why": "UFLPA's defining feature is the rebuttable presumption — any goods produced wholly or in part in Xinjiang are presumed to be made with forced labour, and the importer must rebut this with 'clear and convincing evidence' of clean supply chains.",
-        "deepDive": "The UFLPA, signed December 2021 and enforced from June 2022, was a structural shift in US forced-labour import policy. Unlike the prior Tariff Act Section 307 framework, which required CBP to prove forced labour before stopping goods, UFLPA inverts the burden entirely: the importer must produce detailed supply chain documentation proving no forced labour was used, anywhere in the chain. Critically, this extends beyond direct Xinjiang-origin goods — a garment made in Vietnam from yarn spun in Xinjiang from Xinjiang cotton is potentially covered if the Xinjiang input can be traced. The UFLPA Entity List identifies high-risk entities by name, but the rebuttable presumption applies to Xinjiang-origin goods broadly, regardless of entity listing. Acceptable evidence for rebuttal includes: complete supply chain mapping with verified documentation, independent audits, and traceability to non-Xinjiang inputs. The practical effect has been significant: major apparel, electronics, and automotive supply chains have undergone extensive Xinjiang-risk mapping, and some sourcing has shifted to other regions."
+        "correct": 0,
+        "why": "150 TEU shortfall × $1,200 × 30% = $54,000. MQC shortfalls are calculated against the contracted base rate, not the current spot rate.",
+        "deepDive": "Minimum Quantity Commitments (MQCs) are contractual obligations in Named Account Contracts (NACs) and service contracts between shippers/forwarders and ocean carriers. Carriers charge shortfall fees — typically 20-50% of contracted base rate per missing unit — because they plan vessel capacity based on committed volumes. The 2021-22 rate spike caught many shippers in the inverse trap: they had MQC obligations but carriers preferred spot and failed to provide equipment, triggering legal disputes over force majeure. A forwarder's buy-rate (paid to carrier) and sell-rate (charged to shipper) create a spread; if the shipper also has an MQC with the forwarder, shortfall liability cascades. Common mistake: confusing MQC shortfall with demurrage/detention — entirely separate charges from different contractual relationships. NRA (NVOCC Remittance Arrangements in the US) and FAK rates operate under different shortfall frameworks governed by FMC tariff filings, adding a regulatory layer."
       },
       {
         "n": 5,
-        "topic": "industry",
-        "subtopic": "industry_econ",
-        "stem": "The Baltic Dry Index (BDI) is a weighted composite of rates across vessel classes published by the Baltic Exchange. Which vessel-size segments does the current BDI comprise, and what are their weightings?",
+        "topic": "domain",
+        "subtopic": "supply_chain_strategy",
+        "stem": "The bullwhip effect describes amplifying demand oscillations moving upstream. What is the PRIMARY structural cause identified in Hau Lee's 1997 framework?",
         "options": [
-          "Handysize 25%, Supramax 25%, Panamax 25%, Capesize 25%",
-          "Supramax 30%, Panamax 30%, Capesize 40%",
-          "Handysize 20%, Panamax 30%, Capesize 50%",
-          "Panamax 25%, Capesize 50%, Supramax 25%"
+          "Irrational over-ordering behaviour by procurement teams",
+          "Batch ordering and periodic reorder points creating time-lagged, distorted demand signals",
+          "Currency volatility inflating cross-border procurement costs",
+          "Insufficient insurance coverage for supply disruptions"
         ],
         "correct": 1,
-        "why": "The BDI (post-2018 revision) is weighted as Capesize 40%, Panamax 30%, Supramax 30%. Handysize was removed from the composite calculation in a 2018 reform, and Handymax has been subsumed into Supramax reporting.",
-        "deepDive": "The Baltic Dry Index is published daily by the Baltic Exchange in London and is one of the oldest economic benchmarks in existence. It covers standardised notional voyage routes for each vessel class: Capesize routes include key iron ore and coal hauls (Brazil-China, Australia-China); Panamax covers grain and coal routes; Supramax handles minor bulks on shorter routes. Capesize gets the heaviest weighting (40%) because its routes most directly reflect global industrial commodity flows — changes in Chinese steel production, for instance, affect Capesize iron ore demand first. The BDI's value as a leading economic indicator comes from its inability to be speculated upon (there is no spot delivery market for shipping slots, unlike oil or copper). However, its predictive value has diminished as global trade diversified: a China steel slowdown can crush Capesize while Supramax and Panamax hold firm on agricultural cargo. The Baltic BDTI (tanker) and BCTI (chemical tanker) indices use similar methodologies for liquid bulk trades."
+        "why": "Lee's root causes are demand-signal distortion from batch ordering, lead-time variability, rationing/shortage gaming, and price fluctuation — with batch ordering as the primary structural driver, not behavioral irrationality.",
+        "deepDive": "The bullwhip effect, named by Hau Lee (Stanford, 1997) after the way a small wrist flick creates large swings at the whip's tip, describes how small end-consumer demand changes amplify into large swings upstream. Lee's four root causes: (1) demand signal processing — each tier uses its own order data, not end-consumer POS; (2) rationing/shortage gaming — scarce supply triggers over-ordering; (3) order batching — periodic ordering (weekly, monthly) creates artificial spikes; (4) price fluctuations — promotions cause forward buying. Post-COVID, the effect was dramatically visible: 2020 demand collapse → production cuts → 2021 demand surge → container crisis → then 2022 over-ordering → 2022-23 inventory glut that hurt logistics revenues. Fixes include VMI (Vendor Managed Inventory), CPFR (Collaborative Planning, Forecasting and Replenishment), and sharing real-time POS data across tiers. For logistics companies, the bullwhip means that volume volatility from shipper clients is structurally larger than end-consumer demand volatility — building that into commercial contracts is essential."
       },
       {
         "n": 6,
         "topic": "gk",
-        "subtopic": "mathematics",
-        "stem": "Ramanujan's 'taxicab number' 1729 is the smallest positive integer expressible as the sum of two positive cubes in two different ways. Which of the following correctly identifies both pairs of cubes?",
+        "subtopic": "history",
+        "stem": "The phrase 'sick man of Europe' — describing the Ottoman Empire — was first attributed to which 19th-century head of state?",
         "options": [
-          "1³ + 12³ and 9³ + 10³",
-          "2³ + 12³ and 9³ + 10³",
-          "1³ + 12³ and 8³ + 11³",
-          "3³ + 10³ and 9³ + 10³"
+          "Otto von Bismarck",
+          "Napoleon III of France",
+          "Tsar Nicholas I of Russia",
+          "Lord Palmerston of Britain"
         ],
-        "correct": 0,
-        "why": "1³ + 12³ = 1 + 1728 = 1729; 9³ + 10³ = 729 + 1000 = 1729. Hardy arrived in taxi #1729; Ramanujan instantly identified its mathematical significance, leading Hardy to call it an 'amusing' number.",
-        "deepDive": "The story is one of mathematics' most charming anecdotes: G.H. Hardy arrived at Ramanujan's hospital bedside in taxi number 1729 and remarked it seemed 'rather dull.' Ramanujan replied at once that it was in fact very interesting — the smallest number expressible as the sum of two cubes in two distinct ways. Hardy called it the taxicab number. The concept generalises: Ta(n) is the smallest number expressible as a sum of two positive cubes in n different ways. Ta(3) was found in 1957, Ta(4) in 1991, Ta(5) in 1994, and Ta(6) only in 2003. Ramanujan's extraordinary facility with integers — seeing hidden structure where others saw nothing — remains the subject of ongoing mathematical research. His notebooks, still being worked through a century later, continue to yield new results in number theory, modular forms, and analysis. The number 1729 appears in the animated television series Futurama as a recurring Easter egg planted by the show's mathematically inclined writing staff."
+        "correct": 2,
+        "why": "Tsar Nicholas I used the phrase in January 1853 conversations with British Ambassador Seymour, framing Ottoman weakness to pitch British acquiescence to Russian expansion — a move that backfired into the Crimean War.",
+        "deepDive": "In January 1853, Tsar Nicholas I of Russia reportedly told British Ambassador Sir George Hamilton Seymour that the Ottoman Empire was 'a sick man — a very sick man', urging Britain to help carve up its territory rather than support it. Nicholas wanted British acquiescence to Russian domination of the Bosphorus and the Dardanelles (and thus India's supply lines). Britain refused, fearing Russian naval power in the Eastern Mediterranean. The episode helped trigger the Crimean War (1853-56) as Britain and France backed the Ottomans against Russia. Common misconception: many sources attribute the phrase to Bismarck — incorrect; Bismarck's famous aphorisms are elsewhere. The Ottoman Empire, despite being labeled terminally ill in 1853, survived for another 65 years until 1918, outlasting Nicholas I himself (who died in 1855). The phrase illustrates how a geopolitical narrative, once coined by a powerful actor, shapes policy expectations long after the underlying facts have changed."
       },
       {
         "n": 7,
         "topic": "gk",
-        "subtopic": "literature",
-        "stem": "Clarice Lispector's 1964 novel 'A Paixão Segundo G.H.' centres on a woman's existential crisis after encountering a cockroach. Which statement best characterises its literary significance?",
+        "subtopic": "geography",
+        "stem": "Nakhchivan is a geographically isolated autonomous republic — an exclave — officially part of which country despite sharing no land border with it?",
         "options": [
-          "It introduced magic realism to Brazilian fiction, predating García Márquez's 'One Hundred Years of Solitude'",
-          "It exemplifies radical stream-of-consciousness writing where language itself becomes the subject — placing Lispector in dialogue with Beckett, Woolf, and phenomenology",
-          "It is the first Brazilian novel to address colonialism directly through an urban working-class narrative",
-          "It established Lispector as South America's leading satirist of bourgeois middle-class life"
+          "Armenia",
+          "Iran",
+          "Georgia",
+          "Azerbaijan"
         ],
-        "correct": 1,
-        "why": "The Passion According to G.H. is celebrated for treating language itself as the primary subject — Lispector interrogates whether words can reach the pre-verbal real, situating the novel in the tradition of Woolf, Beckett, and European phenomenology.",
-        "deepDive": "Clarice Lispector (1920–1977) was born in Ukraine, raised in Brazil, and is now considered one of the most original novelists of the 20th century — though she remained almost unknown outside the Portuguese-speaking world until Benjamin Moser's English translations in the 2000s. The Passion According to G.H. depicts a wealthy sculptor who, cleaning her maid's recently-vacated room, encounters a cockroach and experiences a complete metaphysical collapse — the novel that follows is a meditation on being, nothingness, and the terror of contact with the non-human real. Lispector's prose resists summary: she strips away the comfort of narrative to expose the thing behind language. Hélène Cixous wrote admiringly of her as a founding figure of écriture féminine. She is compared to Woolf for interiority, to Kafka for surreal dislocation, and to Husserl for phenomenological attention. Other key works: The Hour of the Star (1977, her final novel, about Brazil's internal poor) and Near to the Wild Heart (1943, her stunning debut at age 23)."
+        "correct": 3,
+        "why": "Nakhchivan is Azerbaijani territory cut off from mainland Azerbaijan by Armenian territory — a legacy of 1921 Soviet administrative borders that became an international flashpoint after 1991.",
+        "deepDive": "Nakhchivan Autonomous Republic is a textbook exclave: Azerbaijani territory surrounded by Armenia to the north and east, Iran to the south, and Turkey (11km shared border) to the west — but with no land connection to mainland Azerbaijan. Its current shape was fixed by the 1921 Treaty of Kars and Soviet administrative decisions. During the First Nagorno-Karabakh War (1988-1994), Nakhchivan was blockaded by Armenia and survived partly through Turkish and Iranian supply. After Azerbaijan's 2020 victory in the Second Karabakh War and 2023 recapture of Karabakh, Baku pushed for a 'Zangezur Corridor' through Armenian Syunik province to physically connect Nakhchivan to Azerbaijan — a demand that remains unresolved and central to Armenian-Azerbaijani normalization talks. The case illustrates how Soviet internal administrative lines became international borders with violent consequences — a pattern repeated in Georgia (South Ossetia, Abkhazia), Moldova (Transnistria), and Ukraine."
       },
       {
         "n": 8,
         "topic": "gk",
-        "subtopic": "arts",
-        "stem": "Akira Kurosawa's Rashomon (1950) introduced Japanese cinema to the West after winning the Golden Lion at Venice. Which narrative technique, now bearing the film's name, did it most directly popularise in film studies?",
+        "subtopic": "religion",
+        "stem": "Of the four major Sunni madhabs (schools of jurisprudence), which is dominant across Bangladesh, Pakistan, and most of the Indian subcontinent?",
         "options": [
-          "The use of rain and natural elements as recurring symbolic motifs throughout a film",
-          "Multiple witness perspectives, each delivering a contradictory but individually sincere account of the same event",
-          "Long unbroken sequence shots immersing the viewer in real-time duration",
-          "Jump cuts and fragmented timelines to convey psychological disorientation"
+          "Maliki",
+          "Hanbali",
+          "Shafi'i",
+          "Hanafi"
         ],
-        "correct": 1,
-        "why": "The 'Rashomon effect' denotes multiple witnesses giving contradictory but sincerely held accounts of the same event, each shaped by self-interest and limited perspective — now a standard concept in psychology, law, and epistemology as well as film.",
-        "deepDive": "Rashomon (1950) draws on two short stories by Ryūnosuke Akutagawa — Rashomon and In a Grove. The film tells of a samurai's murder through four irreconcilable accounts from the bandit, the wife, the samurai's ghost, and a woodcutter-witness. Kurosawa's revelation is that none of the narrators is simply lying — each genuinely believes their version, but each shapes it toward their own dignity or survival. The philosophical import goes beyond filmmaking into epistemology: if every witness is compromised by self-interest and limited perspective, what does it mean to know anything? The Rashomon effect is now used in legal theory (eyewitness reliability), social psychology (confirmation bias), and journalism. The film's impact on Western cinema was transformative — it showed that narrative ambiguity was a feature, not a flaw, and opened the Venice festival to non-Western cinema. Kurosawa directly influenced Sergio Leone, George Lucas, Francis Ford Coppola, and Steven Spielberg."
+        "correct": 3,
+        "why": "The Hanafi madhab spread through the Mughal Empire and is dominant across South Asia, Turkey, and Central Asia — often described as the most rationalist school in its use of analogical reasoning.",
+        "deepDive": "The Hanafi madhab — named for Imam Abu Hanifa al-Nu'man (699-767 CE), a scholar from Kufa in modern Iraq — became dominant in the Indian subcontinent through Mughal imperial patronage. Bangladesh, Pakistan, India (Muslim population), Afghanistan, Turkey, and Central Asia all have Hanafi majorities. Hanafi is often described as the most rationalist of the four schools, making extensive use of qiyas (analogical reasoning) and ra'y (personal opinion), which enabled cultural adaptation across vastly different societies. In contrast: Maliki dominates West and North Africa; Shafi'i is dominant in Southeast Asia (Indonesia, Malaysia) and East Africa — explaining why Indonesian and Bengali Islam developed somewhat differently despite both being Sunni; Hanbali is the theological basis for Saudi Wahhabism and global Salafism. Common misconception: 'Bangladesh is Shafi'i' is wrong — that confusion comes from conflating South Asian and Southeast Asian Islam. Bangladesh's Islamic tradition traveled via Mughal Central Asian routes, not the maritime Hadhrami Arab route that carried Shafi'i Islam to Southeast Asia."
       },
       {
         "n": 9,
         "topic": "gk",
-        "subtopic": "music",
-        "stem": "John Coltrane's 'Giant Steps' (1960) uses rapid harmonic modulation via a cycle of major thirds, dividing the octave into three equal parts. What is this technique called?",
+        "subtopic": "political_theory",
+        "stem": "Rawls's 'veil of ignorance' in A Theory of Justice (1971) is a device for deriving principles of justice. What does reasoning from behind it specifically require?",
         "options": [
-          "Tritone substitution",
-          "Coltrane Changes (Coltrane Matrix)",
-          "Chromatic mediants",
-          "Modal interchange"
+          "Anonymous voting in all democratic elections",
+          "Designing society's rules without knowing your own place in it — wealth, talent, gender, or birth",
+          "Maximising aggregate utility across all citizens equally",
+          "Eliminating private property to achieve distributive neutrality"
         ],
         "correct": 1,
-        "why": "Coltrane Changes (also called the Coltrane Matrix) refers specifically to his technique of cycling through tonal centres separated by major thirds — B major → G major → E♭ major — covering the full octave symmetrically and generating rapid harmonic motion of two key centres per bar.",
-        "deepDive": "Giant Steps (1960) was a watershed in jazz harmony. Bebop navigated sophisticated II-V-I progressions within or between keys; Coltrane pushed this to its limit by modulating so rapidly — a new tonal centre every two beats — that improvising over the changes required entirely new vocabulary. The three centres (B, G, E♭) are separated by major thirds (four semitones each) and together span a full octave when stacked. This symmetry means no single key acts as 'home' — the harmony is restless, constantly resolving and immediately modulating away. Most musicians of the era couldn't keep up; even Miles Davis reportedly struggled to record over the changes. Tritone substitution — a different technique — replaces a dominant seventh with a chord a tritone (six semitones) away, sharing two common tones. Modal interchange borrows chords from parallel modes. Coltrane Changes are distinct because the movement is by major thirds, not by tritones. After Giant Steps, Coltrane pivoted away from harmonic complexity toward modality (A Love Supreme, 1965) and free jazz — two very different explorations of jazz's limits."
+        "why": "The veil of ignorance strips all personal knowledge to force impartiality — Rawls argues rational agents would choose rules that protect the worst-off (the 'maximin' difference principle).",
+        "deepDive": "John Rawls introduced the 'original position' and the 'veil of ignorance' as a hypothetical device: imagine designing society's rules without knowing whether you would be born rich or poor, talented or not, male or female, of majority or minority. What principles would a rational person choose? Rawls argued they would choose two: (1) equal basic liberties for all; (2) social and economic inequalities are permissible only if they benefit the least-advantaged member of society — the 'difference principle,' or 'maximin' (maximise the minimum position). Critics: Nozick (Anarchy, State and Utopia, 1974) argued the veil produces egalitarian results by assumption, not derivation; Hayek saw it as justifying unlimited state redistribution. The difference principle underpins much welfare-state philosophy in modern liberal democracies. Common misconception: the veil is not about anonymity in voting — it is a moral reasoning device for deriving principles, not a procedural rule. A practical application for a commercial executive: Rawlsian thinking appears in stakeholder capitalism debates — does a decision satisfy the 'difference principle' for the company's least-advantaged stakeholder group?"
       },
       {
         "n": 10,
         "topic": "gk",
-        "subtopic": "physical_science",
-        "stem": "Heisenberg's Uncertainty Principle states Δx·Δp ≥ ℏ/2. Which of the following correctly identifies the fundamental source of this limit?",
+        "subtopic": "life_science",
+        "stem": "In CRISPR-Cas9 gene editing, the guide RNA (gRNA) serves which specific function?",
         "options": [
-          "Measurement disturbance — any instrument used to measure position necessarily imparts momentum to the particle, disturbing the system",
-          "It is an intrinsic property of quantum wavefunctions: position and momentum are conjugate variables whose Fourier representations are inversely related in spread",
-          "The finite resolution of any measuring apparatus places a practical lower bound on simultaneous precision",
-          "Relativistic delay — the finite speed of light creates measurement latency that limits simultaneous precision"
+          "Cutting both strands of DNA at the target site",
+          "Repairing the double-strand break after Cas9 cuts",
+          "Directing the Cas9 protein to a specific DNA sequence via complementary base pairing",
+          "Translating the edited gene into the corrected protein"
         ],
-        "correct": 1,
-        "why": "The Uncertainty Principle is not about measurement disturbance or instrumental limits — it is an intrinsic mathematical property of quantum states: a wavefunction cannot simultaneously be narrow in both position space and momentum space, because the two are related by Fourier transform.",
-        "deepDive": "A pervasive misconception is that the Uncertainty Principle is about clumsy measurement — the act of observing a particle disturbs it. Heisenberg himself initially suggested the 'gamma-ray microscope' thought experiment in these terms, but the deeper physical understanding, formalised by Robertson (1929), is purely mathematical. A quantum state is described by a wavefunction ψ(x). Its Fourier transform ψ̃(p) gives the momentum distribution. The mathematical theorem of Fourier analysis holds that you cannot simultaneously make both ψ(x) and ψ̃(p) narrow — localising in position necessarily spreads in momentum, and vice versa. This is not a technological limitation: no matter how perfect the apparatus, no quantum state can simultaneously possess a definite position and a definite momentum. The same relationship applies to any pair of non-commuting observables (energy and time, angular momentum components). Squeezed states in quantum optics exploit this trade-off deliberately — squeezing one quadrature's uncertainty at the cost of the conjugate — a technique used in gravitational wave detectors like LIGO to improve measurement sensitivity."
+        "correct": 2,
+        "why": "The gRNA contains a ~20-nucleotide sequence complementary to the target DNA — it is the targeting component; Cas9 is the cutter. Without gRNA, Cas9 is a nuclease with no address.",
+        "deepDive": "CRISPR-Cas9 was adapted from a bacterial immune system first observed in E. coli in 1987 and mechanistically understood through the 2010s. Jennifer Doudna and Emmanuelle Charpentier won the 2020 Nobel Prize in Chemistry for developing it into a programmable editing tool. The system has two components: (1) guide RNA (gRNA) — contains a ~20-nucleotide sequence matching the target DNA and a scaffold structure binding Cas9; (2) Cas9 protein — a molecular scissors that cuts both DNA strands (double-strand break) at the target. After cutting, the cell uses NHEJ (error-prone, causes knockouts) or HDR (precise, can insert new sequences). Cas9 also requires a short adjacent PAM sequence as a secondary specificity check. Applications include sickle-cell disease cures (FDA-approved 2023), cancer immunotherapy, and agricultural modification. Common misconception: Cas9 does not independently 'find' its target — the gRNA provides the address; Cas9 provides only the cutting machinery. A second misconception: CRISPR edits are always permanent and heritable — somatic edits (in body cells) are not inherited; only germline edits (in embryos) are heritable, which is why the 2018 He Jiankui case was so ethically controversial."
       }
     ]
   }
