@@ -364,61 +364,43 @@ body.zoom-2 .content { zoom: 1.35; }
 <script>
 // ─── DATA (baked in by scheduled task) ─────────────────────────────
 const TODAY = {
-  "date": "2026-10-12",
-  "dateLabel": "Monday · 12 October 2026",
-  "editionLabel": "Edition · Monday 12 October",
-  "headline": "Brent holds ~$105 on Houthi-Saudi escalation; Fed eyes Oct 27 hike; TSMC Q3 earnings on deck Thursday.",
+  "date": "2026-10-19",
+  "dateLabel": "Monday · 19 October 2026",
+  "editionLabel": "Edition · Monday 19 October",
+  "headline": "Alberta votes on independence as Hormuz crisis pushes Brent to $110 and Taiwan moves to cut China's AI chip supply.",
   "sections": [
     {
       "title": "Macro · Geopolitics · Politics",
       "items": [
         {
-          "lead": "Brent holds ~$105/bbl as Houthis threaten Saudi airspace after deadly airport attack; Goldman Sachs raised December Brent forecast.",
-          "body": "Tanker availability — not crude supply — is now JPMorgan's primary pressure variable, with Iranian vessels largely sidelined by US sanctions. The geopolitical risk premium remains durable, keeping energy costs elevated globally.",
-          "src": {
-            "name": "Global Banking & Finance",
-            "url": "https://www.globalbankingandfinance.com/oil-climbs-mideast-conflict-tanker-attacks-persist/"
-          }
+          "lead": "Alberta referendum: voting underway today",
+          "body": "Albertans casting ballots on whether to start the constitutional process to leave Canada; over 1M advance votes cast across first three days; polls lean 'remain' but outcome uncertain — result expected tonight.",
+          "src": { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-16/alberta-separation-referendum-draws-over-1-million-early-votes-in-canada" }
         },
         {
-          "lead": "Fed funds rate at 3.75–4.00%; FOMC meets Oct 27–28 with markets pricing another 25bp hike.",
-          "body": "Core PCE above 3% every month of 2026; Fed's own projections show no return to 2% inflation before 2029. Fixed-income traders overwhelmingly flag Oct 28 as the likeliest point for the next move.",
-          "src": {
-            "name": "Forbes / Federal Reserve",
-            "url": "https://www.forbes.com/sites/simonmoore/2026/09/29/what-to-expect-from-interest-rates-for-the-rest-of-2026/"
-          }
+          "lead": "Hormuz escalation: 9 ships hit, Brent at $110",
+          "body": "Iran struck nine commercial vessels near the Strait of Hormuz since last Sunday, sinking the container ship GFS Pride; Brent settled at $109.86, up 3.7%; Kpler puts strait oil throughput at 70% of pre-war norm.",
+          "src": { "name": "CNBC", "url": "https://www.cnbc.com/amp/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html" }
         },
         {
-          "lead": "Busan trade truce extended to Jan 10, 2027; US-China $60B 'thirty-for-thirty' tariff package still lacks implementation dates.",
-          "body": "China's cut list covers coal, corn, seafood and medical devices but omits US soybeans — a deliberate pressure point on American farmers. Rare-earth language stays vague; PIIE data shows diverging trade statistics point to systematic third-country tariff evasion.",
-          "src": {
-            "name": "CNN / PIIE",
-            "url": "https://www.cnn.com/2026/09/28/business/us-china-tariff-cuts-60-billion-intl"
-          }
+          "lead": "Macron in Gulf through Oct 21; Trump threatens Tehran",
+          "body": "Macron touring Saudi Arabia and UAE to seek a diplomatic off-ramp on the Iran conflict; Trump simultaneously warned on Truth Social that Washington could 'finish the job' against Tehran if its posture does not change.",
+          "src": { "name": "Fox News", "url": "https://www.foxnews.com/live-news/us-iran-war-peace-talks-oil-strait-hormuz-trump-october-18" }
         },
         {
-          "lead": "Trump's factory ultimatum: foreign companies have ~18 months to build US facilities or face 150–300% tariffs.",
-          "body": "Threat issued days after the Trump-Xi summit's limited relief, creating legal ambiguity for China-linked multinationals about whether it overlaps with or supersedes the Busan framework. Markets remain on edge.",
-          "src": {
-            "name": "Motley Fool",
-            "url": "https://www.fool.com/investing/2026/10/07/donald-trump-threaten-tariffs-countries-xi-china/"
-          }
+          "lead": "Ukraine vows Russian refinery strikes; diesel at multi-year high",
+          "body": "Kyiv pledged attacks on Russian refining infrastructure; combined with Hormuz disruptions, diesel prices are at their highest in years — dual energy shock squeezing shipping and agriculture supply chains.",
+          "src": { "name": "CNBC", "url": "https://www.cnbc.com/amp/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html" }
         },
         {
-          "lead": "India-Pakistan: BSF killed 3 Pakistani civilians at Bedian border Oct 2; diplomatic freeze deepens as Indus Waters Treaty suspension holds.",
-          "body": "Shashi Tharoor's Oct 7 Project Syndicate piece argues India's disengagement is deliberate strategy, not impasse — talks only resume when Pakistan dismantles state-supported terror networks. The Indus Waters suspension adds a water-security dimension to the freeze.",
-          "src": {
-            "name": "Project Syndicate / CFR",
-            "url": "https://www.project-syndicate.org/commentary/india-pakistan-diplomatic-freeze-will-not-end-any-time-soon-by-shashi-tharoor-2026-10"
-          }
+          "lead": "Taiwan finalising AI chip export curbs on China",
+          "body": "Taipei finalising restrictions on Nvidia-class GPU exports to mainland China as a condition of the US trade deal; Bloomberg Oct 16; closes the Hong Kong re-export channel and mirrors US BIS controls.",
+          "src": { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal" }
         },
         {
-          "lead": "Canada-China trade war simmers; diverging US-China trade statistics suggest systematic tariff evasion via third-country routing.",
-          "body": "China reports exporting significantly more to the US than US import data records — PIIE analysis identifies this as structural, not statistical noise. Canada's parallel China spat complicates Five Eyes coordination on export control enforcement.",
-          "src": {
-            "name": "PIIE Real-Time Economics",
-            "url": "https://www.piie.com/blogs/realtime-economics/2026/lost-tabulation-diverging-us-china-trade-data-point-tariff-evasion"
-          }
+          "lead": "SEMI: chip industry crossed $1T ahead of forecast",
+          "body": "SEMI CEO says the semiconductor industry hit the $1 trillion annual revenue milestone earlier than originally projected; now targets $2–3 trillion by 2035 as trusted-partner supply-chain reshaping accelerates.",
+          "src": { "name": "DigiTimes", "url": "https://digitimes.com/news/a20261015PD238/semi-supply-chain-2035-ceo-taiwan.html" }
         }
       ]
     },
@@ -426,36 +408,23 @@ const TODAY = {
       "title": "Bangladesh & Subcontinent",
       "items": [
         {
-          "lead": "Bangladesh's total external debt hit a record $114.98B at end-June 2026; rising debt-service costs are squeezing fiscal headroom.",
-          "body": "Equivalent to roughly 35% of GDP. Bangladesh Bank has rebuilt gross reserves (~$36B) but FDI fell 13% in FY26 and foreign loan inflows dropped 61% in July-August, meaning new debt increasingly replaces equity as the funding mode.",
-          "src": {
-            "name": "The Daily Star",
-            "url": "https://www.thedailystar.net/business/economy"
-          }
+          "lead": "October remittance pace up 10.6% YoY",
+          "body": "Bangladesh Bank data: Oct 1–13 inflows at $1.4B, up 10.6% on a year ago; FY27 cumulative now $9.997B vs $8.856B last year. Watch item: Saudi diaspora remittances face disruption risk as Houthi attacks on Saudi targets intensify.",
+          "src": { "name": "Dhaka Tribune", "url": "https://www.dhakatribune.com/business/421142/remittance-slows-in-september-amid-13.3%25-q1%E2%80%99fy27" }
         },
         {
-          "lead": "Bangladesh Bank held the repo rate at 9.5% in its first quarterly MPS for Oct–Dec 2026; inflation eased to 8.26% in August.",
-          "body": "The shift from bi-annual to quarterly monetary policy statements reflects IMF reform conditionality. BB targets the interbank call-money rate as its operational instrument. The August print — lowest in 10 months — gives room to hold without further tightening.",
-          "src": {
-            "name": "Bangladesh Bank",
-            "url": "https://www.bb.org.bd/monetaryactivity/mps/mps_q2fy27.pdf"
-          }
+          "lead": "Houthi-Saudi escalation: three direct BD exposures",
+          "body": "The Daily Star flags concrete risks for Bangladesh from escalating Houthi attacks on Saudi Arabia: diaspora remittances (largest single source country), energy and fertiliser imports, and RMG exports to Gulf buyers all in the line of fire.",
+          "src": { "name": "The Daily Star", "url": "https://www.thedailystar.net/business/economy/news/what-attacks-saudi-arabia-mean-bangladeshs-economy-4298046" }
         },
         {
-          "lead": "Pakistan reimposed Section 144 across Punjab province until Oct 15 amid an active terror threat; security posture across Lahore elevated.",
-          "body": "The restriction on public gatherings follows credible threat signals. Against the backdrop of the ongoing India-Pakistan diplomatic deep-freeze and India's Indus Waters suspension, Pakistan's internal security climate remains fragile.",
-          "src": {
-            "name": "The Nation (Pakistan)",
-            "url": "https://www.nation.com.pk/07-Oct-2026/geopolitics-inflection-point-part-1"
-          }
+          "lead": "Taka holds at 123/USD; April record low resisting",
+          "body": "Taka quoted at 123.00/USD on Oct 15 per Trading Economics, a shade firmer than April's record low of 123.45; remittance surge is providing dollar supply that partially offsets import demand pressure.",
+          "src": { "name": "Trading Economics", "url": "https://tradingeconomics.com/bangladesh/currency" }
         },
         {
-          "lead": "Houthis threatened Saudi airspace following a deadly airport attack — shipping and aviation communities watching for Red Sea re-escalation.",
-          "body": "The threat adds an air-travel dimension to the existing maritime threat profile. Any sustained Saudi counter-response could affect traffic in the Red Sea and Bab el-Mandeb corridors, directly impacting Bangladesh cargo transiting via Jeddah.",
-          "src": {
-            "name": "The Daily Star",
-            "url": "https://www.thedailystar.net/"
-          }
+          "lead": "Benapole port suspends cross-border trade for 8 days",
+          "body": "The Benapole land port — Bangladesh's busiest India-facing gateway — suspended cross-border movement for 8 days over the Durga Puja festival; brief disruption to the bilateral trade corridor with West Bengal."
         }
       ]
     },
@@ -463,264 +432,180 @@ const TODAY = {
       "title": "Trade · Freight",
       "items": [
         {
-          "lead": "Drewry WCI fell 2% to $4,351/FEU on Oct 8 — Asia-Europe rates in 12th consecutive week of decline.",
-          "body": "Shanghai-LA down 3% to $7,624/FEU; Shanghai-NY down 2% to $10,220/FEU. Effective capacity rises as Golden Week demand lull hits spot. Asia-Europe at $4,351 signals a durable rate softening on that trade lane.",
-          "src": {
-            "name": "Drewry World Container Index",
-            "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
-          }
+          "lead": "Maersk/Hapag AE12 service returns to Suez from Oct 27",
+          "body": "Gemini Cooperation's Asia–Mediterranean AE12 string shifts back to the Suez Canal from October 27; roughly one-third of Maersk's fleet now transiting the canal; full fleet return still not expected before Q1 2027.",
+          "src": { "name": "Maritime Executive", "url": "https://maritime-executive.com/article/maersk-and-hapag-to-shift-one-route-to-suez-red-sea-transit" }
         },
         {
-          "lead": "Xeneta warns October spot spike could widen divergence between spot rates and contracted tender rates for 2026–27.",
-          "body": "Tender contracts locked earlier in the year may face renewal friction as spot settles into a new range. Shippers and forwarders are watching whether the $4,300 range becomes the floor for 2027 tender negotiations or represents a temporary post-peak dip.",
-          "src": {
-            "name": "Xeneta",
-            "url": "https://www.xeneta.com/blog/october-spot-rate-spike-2026-ocean-freight-tenders"
-          }
+          "lead": "Hormuz: UKMTO issued 4 attack alerts on Oct 13 alone",
+          "body": "Iran explicitly targeting the US–UAE oil shuttle; four UKMTO incidents in a single day Oct 13; container operators adjusting Middle East port calls; Kpler puts Hormuz oil throughput at 9.4M bpd, 30% below pre-conflict norm.",
+          "src": { "name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/10/12/iran-sets-crosshairs-on-us-uae-oil-shuttle-out-of-strait-of-hormuz" }
         },
         {
-          "lead": "China→SE Asia rates still rising per SCFI despite global softness; China→Middle East remains volatile.",
-          "body": "Post-Golden Week transpacific weakness contrasts with sustained demand on China-Southeast Asia lanes. Red Sea Houthi threat keeps some capacity on Cape routing, inflating effective costs on China-Europe and distorting inter-lane comparisons.",
-          "src": {
-            "name": "Supply Chain Dive",
-            "url": "https://www.supplychaindive.com/news/transpacific-ocean-rates-spike-2026-freightos/808979/"
-          }
+          "lead": "LA and Long Beach hit September volume records",
+          "body": "Port of Los Angeles processed ~1M TEUs in September — a monthly record; Long Beach also at record; US importers front-loading heavily ahead of Q4 demand and potential further tariff action.",
+          "src": { "name": "FreightWaves", "url": "https://www.freightwaves.com/american-shipper" }
         },
         {
-          "lead": "Tanker availability — not crude supply — is now JPMorgan's key pressure variable; Iranian fleet sidelined by US sanctions.",
-          "body": "Oil risk premium persists as a tanker shortage story. Goldman Sachs raised its December Brent forecast. MSC's growing tanker fleet and dark fleet tracking are central to freight risk models for energy logistics.",
-          "src": {
-            "name": "Market Index / Goldman Sachs",
-            "url": "https://marketindex.com.au/news/asx-200-live-today-monday-12th-october"
-          }
+          "lead": "Air freight Baltic Index up 25.5% YoY",
+          "body": "Far East–Europe/UK air freight rates surging; jet fuel costs doubled year-on-year; Hormuz and Red Sea uncertainty pushing shippers from sea to air on time-sensitive cargo lanes.",
+          "src": { "name": "Freight Right", "url": "https://www.freightright.com/news/china-us-ocean-rates-hold-steady-as-post-holiday-space-tightens-tfx-update-wk-october-12-2026" }
         },
         {
-          "lead": "Carriers recalibrating GRIs and surcharge stacks as Q4 volume softening continues; SCFI composite down third consecutive week.",
-          "body": "Peak-season surcharges are being reassessed across carriers as booking volumes fall short of projections. Freight forwarders warn of wide bid-ask spreads in Q4 tender windows, complicating budgeting for shippers into early 2027.",
-          "src": {
-            "name": "NKR Freight / Xeneta",
-            "url": "https://nkrfreight.com/2026/10/07/global-freight-rates-peak-season-surcharges-2026/"
-          }
+          "lead": "Ocean schedule reliability at new low; China space tight",
+          "body": "Seatrade: container on-time performance fell to a new low Oct 13; post-Golden Week Chinese port backlogs extend through end of October as carriers limit capacity and clear holiday volumes.",
+          "src": { "name": "Seatrade Maritime", "url": "https://www.seatrade-maritime.com/maritime-transportation/containers" }
         },
         {
-          "lead": "TSMC Q3 results (Oct 15) are the best proxy for AI chip demand and CoWoS advanced packaging capacity — directly relevant to high-value air freight.",
-          "body": "CoWoS packaging remains the binding constraint on Nvidia GPU shipment cadence. Any upside guidance from TSMC implies sustained demand for priority air freight of AI components, keeping air cargo yields elevated on Asia-US tech lanes.",
-          "src": {
-            "name": "Motley Fool",
-            "url": "https://www.fool.com/investing/2026/10/11/tsmc-reports-oct-15-it-s-the-best-early-read-on-nvidia-s-next-quarter/"
-          }
+          "lead": "Philadelphia $837M expansion: first new berth in 50 years",
+          "body": "Philadelphia Ports Authority approved an $837M expansion that includes its first new berth since the 1970s; part of the broader US effort to diversify import gateway capacity beyond the LA/Long Beach corridor.",
+          "src": { "name": "FreightWaves", "url": "https://www.freightwaves.com/american-shipper" }
         }
       ]
     },
     {
-      "title": "Semis · AI",
+      "title": "Semiconductors · AI",
       "items": [
         {
-          "lead": "TSMC reports Q3 on Oct 15; guided $44.6–45.8B; monthly data already shows NT$1.494T — a sixth consecutive record quarter.",
-          "body": "Results will be parsed for N3/N2 loading rates and CoWoS capacity commentary. Reuters analysts expect record profits driven by AI demand. TSMC's guidance is the most watched near-term signal for the entire AI infrastructure buildout.",
-          "src": {
-            "name": "Reuters / TradingKey",
-            "url": "https://ca.investing.com/news/stock-market-news/tsmc-expected-to-report-sixth-straight-quarter-of-record-profit-thanks-to-ai-boom-4874996"
-          }
+          "lead": "TSMC locks in 3–6% wafer price hike for 2027",
+          "body": "TSMC notifying customers of 2027 increases: 3–6% across the board, up to 8–10% on advanced nodes (2nm/3nm); AI demand backlog extends to 2030; first mature-node price increase since 2023.",
+          "src": { "name": "DigiTimes", "url": "https://www.digitimes.com/news/a20261019VL200/2026-capacity-fab-production-intel.html" }
         },
         {
-          "lead": "Nvidia FY Q2 revenue $96.2B (+106% YoY); Q3 guidance $108B; S&P 500 chip sector profits projected +136% YoY in Q3 season.",
-          "body": "Nvidia reports ~Nov 18. The Blackwell ramp is the primary driver. AI infrastructure capex is accelerating into 2027 with no demand signal suggesting deceleration. The 106% YoY growth rate makes Nvidia the largest single contributor to S&P 500 earnings growth.",
-          "src": {
-            "name": "SEC / CNBC",
-            "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm"
-          }
+          "lead": "GlobalFoundries wins $2B TSMC interposer deal",
+          "body": "GF to make silicon interposers for TSMC's CoWoS AI chip packaging at its Malta, NY fab; 5-year, $2B agreement; moves a critical AI packaging component to US soil for the first time; volume production from 2028.",
+          "src": { "name": "The Star", "url": "https://www.thestar.com.my/tech/tech-news/2026/10/08/globalfoundries-to-make-key-ai-chip-component-for-tsmc" }
         },
         {
-          "lead": "Anthropic launched Claude Haiku 5.5 (Oct 7), targeting high-volume inference; OpenAI halted GPT-6.1 Astra release after internal safety tests.",
-          "body": "Haiku 5.5 is the smallest in the Claude 5.5 family, completing the Opus-Sonnet-Haiku tier. OpenAI's Astra cancellation per the WSJ signals that frontier safety evaluations are now a genuine gate on releases — not just a PR exercise.",
-          "src": {
-            "name": "AI Model Tracker / FelloAI",
-            "url": "https://felloai.com/best-ai-models/"
-          }
+          "lead": "Cloud AI absorbs all capacity growth; legacy semis in downturn",
+          "body": "DigiTimes analysis: every unit of new semiconductor capacity being absorbed by AI (HBM, advanced logic); non-AI legacy chips in a prolonged demand trough as hyperscaler capex crowds out consumer-electronics cycles.",
+          "src": { "name": "DigiTimes", "url": "https://www.digitimes.com/news/a20261015PD234/data-growth-technology-inflation-hbm.html" }
         },
         {
-          "lead": "Synopsys and OpenAI announced a partnership to apply AI tools to chip design EDA workflows.",
-          "body": "The deal targets verification and simulation cycles in IC design — historically 30–50% of total development time. AI-assisted EDA could compress the design-to-tape-out timeline from 18 months toward 12, intensifying the competition among TSMC, Samsung, and Intel for leading-edge node customers.",
-          "src": {
-            "name": "Microcenter AI Week",
-            "url": "https://www.microcenter.com/site/mc-news/article/this-week-in-ai-oct-2-2026.aspx"
-          }
+          "lead": "China CXMT backed by Beijing; Shanghai demos homegrown EUV source",
+          "body": "CXMT, China's leading DRAM maker, receives an official state support pledge; separately, a Shanghai institute demonstrated a self-developed EUV light-source system — China's domestic chip-tooling independence accelerating.",
+          "src": { "name": "SCMP", "url": "https://www.scmp.com/topics/semiconductors" }
         },
         {
-          "lead": "Samsung guided Q3 operating profit at 107.4T won; HBM demand alongside DRAM is the core revenue story.",
-          "body": "High-bandwidth memory has shifted from niche component to critical AI infrastructure. Samsung and SK Hynix compete on HBM yield and bandwidth — HBM4 qualification timelines are now a central competitive variable heading into 2027 rack deployments.",
-          "src": {
-            "name": "CNBC",
-            "url": "https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html"
-          }
+          "lead": "Taiwan AI export curbs: closes HK re-export loophole",
+          "body": "Taipei's forthcoming controls on AI chip exports to China close the Hong Kong transshipment channel long used to skirt US BIS restrictions; aligns Taiwan's export-control regime with the US-Taiwan trade deal conditions.",
+          "src": { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal" }
         }
       ]
     }
   ],
   "lesson": {
-    "title": "The Suez Crisis (1956): How Nasser's Nationalization Ended British Imperial Pretension and Made the Canal a Permanent Geopolitical Flashpoint",
+    "title": "The Carry Trade: How Yield-Chasing Capital Flows Shape Currencies, Crises, and Central Bank Dilemmas",
     "paragraphs": [
-      "In July 1956, Egyptian President Gamal Abdel Nasser nationalized the Suez Canal Company — then majority British- and French-owned — to fund the Aswan High Dam after the US withdrew its finance offer over Cold War alignment disputes. Britain, France, and Israel responded with Operation Musketeer in late October: Israel invaded Sinai, then Britain and France issued an ultimatum and launched air strikes under the pretext of 'protecting' the canal. It was a textbook colonial play — with catastrophic miscalculation about American tolerance.",
-      "President Eisenhower, furious at the allies' unilateral action and alarmed by Soviet opportunism during the simultaneous Hungarian uprising, threatened to dump British pound reserves and withhold IMF support. The run on sterling forced Britain to seek an emergency IMF loan — conditional on immediate withdrawal. Within weeks, the Anglo-French force pulled out. Prime Minister Eden resigned in January 1957. The humiliation was total and permanent: Britain could no longer act as a great power without American sanction. Suez is the event that closes the British Imperial chapter.",
-      "Egypt retained full ownership of the canal — which it has held ever since — and the episode permanently fused Suez with geopolitical risk in market consciousness. The canal closed again from 1967 to 1975 (post-Six-Day War); the 2021 Ever Given grounding re-demonstrated its chokepoint power in hours; the 2023-24 Houthi disruptions sent Brent up and shipping rates through the ceiling. Every cycle rediscovers what Nasser proved in 1956: 13% of world trade passing through a 193km trench is an asymmetric leverage point for whoever controls the banks."
+      "A carry trade borrows money in a low-interest-rate 'funding' currency — historically the Japanese yen or Swiss franc — and deploys the proceeds in a higher-yielding currency or asset. The trader pockets the interest-rate differential, the 'carry,' as long as exchange rates stay stable. At scale, carry flows push the funding currency weaker and the target currency stronger, sometimes disconnecting exchange rates from the underlying economics of either country for years at a stretch.",
+      "The danger is in the unwind. When volatility spikes — a financial shock, a central bank pivot, a geopolitical surprise — carry traders exit simultaneously, stampeding back into the funding currency and amplifying losses in both directions. The 1997 Asian crisis, the 1998 Russian default, and the August 2024 yen shock (which erased roughly 3% of global equity value within hours) all had a carry-unwind at their core. The larger the accumulated carry position, the more violent the reversal.",
+      "For emerging markets like Bangladesh, the carry trade is a double-edged sword. High US interest rates attract capital away from frontier-market assets, draining dollar liquidity and pressing exchange rates toward the central bank's intervention threshold. When the Fed eases, hot money flows in — but it exits just as fast when risk appetite shifts. The Bangladesh Bank must manage a permanent tension: the capital Bangladesh needs for investment against the structural fragility that yield-chasing inflows create."
     ],
-    "why": "For a logistics executive, Suez 1956 is the origin story of the canal as a geopolitical asset that can never be fully priced into a normal cost model. It explains why Cape routing decisions are always partly geopolitical, why Egypt's $9.4B canal revenue (FY2024) makes it a strategic partner and a risk, and why every new Houthi threat triggers immediate rerouting decisions — the muscle memory of 1956 is baked into global shipping risk management."
+    "why": "The taka's 2026 pressure — and Bangladesh Bank's managed crawl toward 123/USD — is partly a carry dynamic: elevated US rates kept dollar-denominated assets attractive even as Bangladesh's strong remittance base provided a partial offset. Understanding carry mechanics explains why a single Fed communication often moves the taka more than a domestic monetary-policy announcement."
   },
   "questions": [
     {
       "n": 1,
       "topic": "domain",
-      "subtopic": "aircraft_carriers",
-      "stem": "On a 5,000 nm long-haul sector, which production widebody freighter offers the highest maximum payload at MZFW — roughly 133–134 tonnes?",
-      "options": [
-        "Boeing 747-8F",
-        "Boeing 777F",
-        "Airbus A330F",
-        "Boeing 767-300F"
-      ],
-      "correct": 0,
-      "why": "The 747-8F carries ~134t at MZFW vs the 777F's ~103t; on dense or heavy long-haul cargo it remains unmatched despite higher fuel burn.",
-      "deepDive": "The Boeing 747-8F is the final evolution of the 747 platform, launched in 2011. Its maximum payload is approximately 133-134 tonnes (MZFW-based), compared with the 777F's ~102-103t. The key tradeoff: the 747-8F burns more fuel but carries more tonnage, making it preferred for very dense, heavy, or outsized cargo (automotive parts, horses, oversized machinery). The 777F wins on economics when cargo density is moderate and range is long, given better fuel efficiency per tonne-mile. After Boeing ceased 747 production in 2023, the 777-8F (now in development) is the expected next-generation dominant freighter. Common misconception: 'bigger aircraft always wins' — the 777F frequently beats the 747-8F on unit economics at typical load factors. The retired MD-11F, famous for its tri-engine layout, is being phased out by FedEx and UPS in favour of 777Fs."
+      "subtopic": "liner_alliances",
+      "stem": "The Gemini Cooperation, launched February 2025, is an operational alliance between which two container shipping carriers?",
+      "options": ["MSC and CMA CGM", "Maersk and Hapag-Lloyd", "ONE and Yang Ming", "Evergreen and COSCO"],
+      "correct": 1,
+      "why": "Maersk exited the 2M Alliance with MSC and formed Gemini with Hapag-Lloyd, which simultaneously left THE Alliance.",
+      "deepDive": "The Gemini Cooperation launched February 1, 2025, after Maersk and Hapag-Lloyd each exited their prior alliances (2M and THE Alliance respectively). Unlike predecessors, Gemini prioritises schedule reliability over network breadth — it runs fewer strings with built-in buffer time, targeting 90%+ on-time delivery versus the industry average of roughly 50–60%. Gemini operates a hub-and-spoke model, concentrating on a small number of mega-ports (Hamburg, Rotterdam, Singapore, Port Klang) with feeder connections to secondary markets. For Bangladesh, this means Chittagong is served via transshipment at Singapore or Colombo rather than direct calls from the main Gemini string — a structural consideration for exporters comparing transit times and costs."
     },
     {
       "n": 2,
       "topic": "domain",
-      "subtopic": "airport_ops",
-      "stem": "Which airport has ranked first globally by annual air cargo tonnage handled for most years since the late 1990s, ahead of Memphis and Shanghai-Pudong?",
-      "options": [
-        "Dubai International (DXB)",
-        "Seoul Incheon (ICN)",
-        "Hong Kong International (HKG)",
-        "Anchorage (ANC)"
-      ],
-      "correct": 2,
-      "why": "HKG has topped global cargo tonnage rankings for most of the past two decades, reflecting its transshipment role for southern China manufacturing and connectivity to 100+ airlines.",
-      "deepDive": "Hong Kong International Airport handled approximately 4.3 million metric tonnes in 2023, consistently leading global cargo rankings. Its dominance reflects Hong Kong's role as a transshipment hub for Pearl River Delta manufacturing, despite mainland policy pressure and the rise of PVG/SHA. Memphis (MEM) ranks second or third, driven almost entirely by FedEx's super-hub, which sorts roughly 1.7 million packages nightly. Anchorage (ANC) is a critical technical stop on polar routes between Asia and North America — great circle routing cuts ~2,000 nm off Asia-US-East corridors — but its tonnage is lower. Dubai handles enormous belly freight on Emirates' passenger network but ranks behind HKG and MEM in pure cargo tonnes. Seoul Incheon is a major hub for Korean Air Cargo and transshipment of Northeast Asian manufacturing. Common misconception: Dubai's freight volumes are impressive but predominantly belly cargo, not dedicated freighter throughput."
+      "subtopic": "customs",
+      "stem": "The Harmonized System (HS) code, used globally to classify traded goods for customs, is maintained and updated by which international body?",
+      "options": ["World Trade Organization (WTO)", "World Customs Organization (WCO)", "UN Conference on Trade and Development (UNCTAD)", "International Chamber of Commerce (ICC)"],
+      "correct": 1,
+      "why": "The WCO owns the HS nomenclature; the WTO governs trade rules but not tariff classification.",
+      "deepDive": "The Harmonized System, administered by the World Customs Organization in Brussels, is a six-digit international nomenclature used by 200+ countries to classify traded goods. Introduced in 1988, it is updated every five years. The first two digits represent the chapter (e.g., chapter 61 = knitted garments, a critical Bangladesh export category), the next two narrow to heading, and the final two to subheading. Countries append national digits beyond the six: Bangladesh and India use eight, the US uses ten. Accurate HS classification determines applicable tariff rates, trade agreement preferential eligibility, export-control applicability, and prohibited-goods checks. Mis-classification is among the most common compliance failures in international trade and can result in penalties, cargo delays, or seizure — and is routinely audited by Bangladesh's National Board of Revenue (NBR)."
     },
     {
       "n": 3,
       "topic": "domain",
-      "subtopic": "ma_consolidation",
-      "stem": "DSV's acquisition of DB Schenker (agreed 2024, ~€14.8B) created a combined forwarder. In which revenue range does the combined entity sit?",
-      "options": [
-        "$10–18B",
-        "$22–30B",
-        "$40–50B",
-        "$60–75B"
-      ],
-      "correct": 2,
-      "why": "DSV's ~$25B + DB Schenker's ~$21B = combined ~$46B, creating the world's largest air forwarder and #2 ocean forwarder, ahead of Kuehne+Nagel on air.",
-      "deepDive": "DB Schenker, Deutsche Bahn's logistics arm, was sold to DSV for approximately €14.8B ($15.7B) in a 2024 auction. DSV — already having absorbed Panalpina (2019) and Agility GIL (2021) — surpassed Kuehne+Nagel to become the world's largest air-freight forwarder and the #2 ocean forwarder with the Schenker deal. Combined revenues approach $45-50B. The deal was politically sensitive in Germany, where unions feared job losses. Deutsche Bahn, under pressure to reduce its €30B debt load, ultimately chose DSV over a management buyout and competing bids. The consolidation wave (Kuehne+Nagel, DSV, DHL Global Forwarding, Sinotrans) reflects scale economics in freight forwarding: larger players secure better carrier rates, invest more in digital platforms, and offer shipper customers a global single-provider contract. The next wave of consolidation is expected in digital freight forwarding, where Flexport, Forto, and others are subscale."
+      "subtopic": "documentation",
+      "stem": "When a shipper 'surrenders' a Bill of Lading at origin, what process does this enable at the destination port?",
+      "options": ["The consignee can resell the cargo in transit by endorsing a certified copy", "The consignee can take delivery using a copy or telex release, without presenting an original paper B/L", "The carrier accepts liability for cargo loss without requiring a formal survey", "A letter of credit can be drawn down by the consignee directly at the destination bank"],
+      "correct": 1,
+      "why": "Surrendering cancels the negotiable paper B/L at origin; a telex or email release instruction then authorises delivery without the original.",
+      "deepDive": "A standard Bill of Lading is a negotiable title document — whoever holds the original paper set controls the cargo. In trades where ships arrive before bank documents clear (common on short-sea routes like Singapore–Chittagong or Colombo–Chittagong), shippers surrender the B/L by returning the original set to the carrier, who marks it cancelled and retains it. The carrier's destination agent then releases cargo on a copy or telex/email instruction. This accelerates delivery but sacrifices the document's negotiability — the cargo can no longer be sold in transit. Banks involved in letters of credit must consent before the B/L is surrendered. Common misconceptions: a surrendered B/L still names the consignee, so any third-party buyer of the goods would need a new document; and surrendering does not relieve the carrier of cargo-claims liability."
     },
     {
       "n": 4,
       "topic": "domain",
-      "subtopic": "commercial_concepts",
-      "stem": "A forwarder signs an NAC for 500 TEU/month at $1,200/TEU base rate. They ship only 350 TEU. Shortfall penalty is 30% of contracted rate. What is the shortfall charge?",
-      "options": [
-        "$54,000",
-        "$45,000",
-        "$63,000",
-        "$180,000"
-      ],
-      "correct": 0,
-      "why": "150 TEU shortfall × $1,200 × 30% = $54,000. MQC shortfalls are calculated against the contracted base rate, not the current spot rate.",
-      "deepDive": "Minimum Quantity Commitments (MQCs) are contractual obligations in Named Account Contracts (NACs) and service contracts between shippers/forwarders and ocean carriers. Carriers charge shortfall fees — typically 20-50% of contracted base rate per missing unit — because they plan vessel capacity based on committed volumes. The 2021-22 rate spike caught many shippers in the inverse trap: they had MQC obligations but carriers preferred spot and failed to provide equipment, triggering legal disputes over force majeure. A forwarder's buy-rate (paid to carrier) and sell-rate (charged to shipper) create a spread; if the shipper also has an MQC with the forwarder, shortfall liability cascades. Common mistake: confusing MQC shortfall with demurrage/detention — entirely separate charges from different contractual relationships. NRA (NVOCC Remittance Arrangements in the US) and FAK rates operate under different shortfall frameworks governed by FMC tariff filings, adding a regulatory layer."
+      "subtopic": "vessels",
+      "stem": "A typical Very Large Crude Carrier (VLCC) of around 270,000 DWT carries approximately how many barrels of crude oil per voyage?",
+      "options": ["500,000 to 750,000 barrels", "1 million to 1.5 million barrels", "2 million to 2.5 million barrels", "4 million to 5 million barrels"],
+      "correct": 2,
+      "why": "At ~7.33 barrels per metric ton, a 270,000 DWT VLCC loads roughly 2 million barrels — a single day of US refinery throughput.",
+      "deepDive": "VLCCs (Very Large Crude Carriers) range from 160,000 to 320,000 DWT; a modern unit typically runs 260,000–280,000 DWT. At approximately 7.33 barrels per metric tonne of crude, that converts to roughly 1.9–2.1 million barrels per cargo. The ULCC (Ultra Large Crude Carrier) class exceeds 320,000 DWT and can carry 3–4 million barrels but requires deepwater terminals (Kharg Island, offshore STS). VLCC economics are tracked via the Baltic Exchange BDTI and worldscale rates — the Hormuz crisis has driven these sharply. Bangladesh imports crude in smaller Aframax or Suezmax vessels because Chittagong's draft limits preclude VLCC direct calls. Understanding vessel sizing helps explain why Hormuz closure is a global pricing shock, not merely a regional one: roughly 20% of all globally traded oil transits the strait on VLCC-scale tankers."
     },
     {
       "n": 5,
       "topic": "domain",
-      "subtopic": "supply_chain_strategy",
-      "stem": "The bullwhip effect describes amplifying demand oscillations moving upstream. What is the PRIMARY structural cause identified in Hau Lee's 1997 framework?",
-      "options": [
-        "Irrational over-ordering behaviour by procurement teams",
-        "Batch ordering and periodic reorder points creating time-lagged, distorted demand signals",
-        "Currency volatility inflating cross-border procurement costs",
-        "Insufficient insurance coverage for supply disruptions"
-      ],
-      "correct": 1,
-      "why": "Lee's root causes are demand-signal distortion from batch ordering, lead-time variability, rationing/shortage gaming, and price fluctuation — with batch ordering as the primary structural driver, not behavioral irrationality.",
-      "deepDive": "The bullwhip effect, named by Hau Lee (Stanford, 1997) after the way a small wrist flick creates large swings at the whip's tip, describes how small end-consumer demand changes amplify into large swings upstream. Lee's four root causes: (1) demand signal processing — each tier uses its own order data, not end-consumer POS; (2) rationing/shortage gaming — scarce supply triggers over-ordering; (3) order batching — periodic ordering (weekly, monthly) creates artificial spikes; (4) price fluctuations — promotions cause forward buying. Post-COVID, the effect was dramatically visible: 2020 demand collapse → production cuts → 2021 demand surge → container crisis → then 2022 over-ordering → 2022-23 inventory glut that hurt logistics revenues. Fixes include VMI (Vendor Managed Inventory), CPFR (Collaborative Planning, Forecasting and Replenishment), and sharing real-time POS data across tiers. For logistics companies, the bullwhip means that volume volatility from shipper clients is structurally larger than end-consumer demand volatility — building that into commercial contracts is essential."
+      "subtopic": "port_ops",
+      "stem": "In container terminal operations, 'crane moves per hour' (MPH) measures the output of a single ship-to-shore crane. What is considered world-class MPH performance?",
+      "options": ["10–15 moves per hour", "20–25 moves per hour", "30–35 moves per hour", "50–60 moves per hour"],
+      "correct": 2,
+      "why": "30–35 MPH is the world-class benchmark; PSA Singapore, DP World Jebel Ali, and APMT Maasvlakte regularly achieve this range.",
+      "deepDive": "Crane MPH is a primary KPI for container terminal benchmarking — each 'move' is one container lift, either loading onto or discharging from the vessel. The global industry average runs roughly 22–25 MPH; world-class terminals (PSA Singapore, DP World Jebel Ali, APMT Maasvlakte II) sustain 30–35 MPH with peaks above 40 during burst operations. Factors driving MPH: tandem-lift spreaders (two boxes per crane cycle), automated yard planning, truck/AGV cycle time, and gang size. Chittagong's New Mooring Container Terminal averages 15–18 MPH — a significant gap versus Singapore or Colombo that adds to vessel turnaround time and makes direct weekly liner service economically marginal. Each MPH improvement translates directly into hours saved per vessel call, which aggregates into cost and frequency advantages for port users."
     },
     {
       "n": 6,
       "topic": "gk",
-      "subtopic": "history",
-      "stem": "The phrase 'sick man of Europe' — describing the Ottoman Empire — was first attributed to which 19th-century head of state?",
-      "options": [
-        "Otto von Bismarck",
-        "Napoleon III of France",
-        "Tsar Nicholas I of Russia",
-        "Lord Palmerston of Britain"
-      ],
-      "correct": 2,
-      "why": "Tsar Nicholas I used the phrase in January 1853 conversations with British Ambassador Seymour, framing Ottoman weakness to pitch British acquiescence to Russian expansion — a move that backfired into the Crimean War.",
-      "deepDive": "In January 1853, Tsar Nicholas I of Russia reportedly told British Ambassador Sir George Hamilton Seymour that the Ottoman Empire was 'a sick man — a very sick man', urging Britain to help carve up its territory rather than support it. Nicholas wanted British acquiescence to Russian domination of the Bosphorus and the Dardanelles (and thus India's supply lines). Britain refused, fearing Russian naval power in the Eastern Mediterranean. The episode helped trigger the Crimean War (1853-56) as Britain and France backed the Ottomans against Russia. Common misconception: many sources attribute the phrase to Bismarck — incorrect; Bismarck's famous aphorisms are elsewhere. The Ottoman Empire, despite being labeled terminally ill in 1853, survived for another 65 years until 1918, outlasting Nicholas I himself (who died in 1855). The phrase illustrates how a geopolitical narrative, once coined by a powerful actor, shapes policy expectations long after the underlying facts have changed."
+      "subtopic": "economics",
+      "stem": "The 'impossible trinity' (Mundell-Fleming trilemma) holds that a country cannot simultaneously maintain which three policy objectives?",
+      "options": ["Free trade, full employment, and price stability", "Fixed exchange rate, free capital movement, and independent monetary policy", "Fiscal surplus, current account balance, and low public debt", "High growth, low inflation, and low unemployment"],
+      "correct": 1,
+      "why": "A fixed rate plus free capital flows leaves monetary policy captive to the anchor currency — only two of the three can coexist.",
+      "deepDive": "The impossible trinity, formalised by Robert Mundell and Marcus Fleming in the 1960s, states a country can choose only two of: (1) a fixed exchange rate, (2) free capital flows, and (3) an independent monetary policy. China demonstrates option A+C: managed exchange rate plus monetary independence, at the cost of capital controls. The Eurozone is A+B: a fixed rate (common currency) plus free capital, with member states forfeiting independent monetary policy. The US is B+C: free capital plus a floating dollar, with the Fed setting rates independently. Bangladesh historically ran a crawling peg (A+C approach), but recent moves toward a more market-determined taka create the classic trilemma: if the capital account opens further, either exchange-rate stability or monetary-policy independence must give ground. The IMF programme in Bangladesh has pushed precisely this liberalisation."
     },
     {
       "n": 7,
       "topic": "gk",
-      "subtopic": "geography",
-      "stem": "Nakhchivan is a geographically isolated autonomous republic — an exclave — officially part of which country despite sharing no land border with it?",
-      "options": [
-        "Armenia",
-        "Iran",
-        "Georgia",
-        "Azerbaijan"
-      ],
-      "correct": 3,
-      "why": "Nakhchivan is Azerbaijani territory cut off from mainland Azerbaijan by Armenian territory — a legacy of 1921 Soviet administrative borders that became an international flashpoint after 1991.",
-      "deepDive": "Nakhchivan Autonomous Republic is a textbook exclave: Azerbaijani territory surrounded by Armenia to the north and east, Iran to the south, and Turkey (11km shared border) to the west — but with no land connection to mainland Azerbaijan. Its current shape was fixed by the 1921 Treaty of Kars and Soviet administrative decisions. During the First Nagorno-Karabakh War (1988-1994), Nakhchivan was blockaded by Armenia and survived partly through Turkish and Iranian supply. After Azerbaijan's 2020 victory in the Second Karabakh War and 2023 recapture of Karabakh, Baku pushed for a 'Zangezur Corridor' through Armenian Syunik province to physically connect Nakhchivan to Azerbaijan — a demand that remains unresolved and central to Armenian-Azerbaijani normalization talks. The case illustrates how Soviet internal administrative lines became international borders with violent consequences — a pattern repeated in Georgia (South Ossetia, Abkhazia), Moldova (Transnistria), and Ukraine."
+      "subtopic": "linguistics",
+      "stem": "What is the key distinction between a 'creole' language and the 'pidgin' it evolved from?",
+      "options": ["A creole has a standardised writing system while a pidgin remains oral only", "A creole has become a native first language for a community, while a pidgin has no native speakers", "A creole retains the full grammar of the dominant colonial language while a pidgin simplifies it", "A creole develops on islands while a pidgin arises exclusively in mainland trade contexts"],
+      "correct": 1,
+      "why": "When children grow up speaking a pidgin as their first language, it nativises and expands grammatically into a full creole.",
+      "deepDive": "A pidgin is a contact language with no native speakers, emerging when two groups without a shared tongue need to communicate — typically in trade. It has simplified grammar and limited vocabulary. When a generation grows up speaking a pidgin as their first language, it undergoes 'nativisation': the children's community adds vocabulary, develops stable complex grammar, and it becomes a creole — a complete natural language. Creoles include Haitian Creole (from French), Tok Pisin (Papua New Guinea), Papiamentu (Caribbean), and Singlish (informally). Linguist Derek Bickerton's 'language bioprogram hypothesis' argued that creolisation taps universal innate grammar, since children everywhere build similar structures when nativising a pidgin. Relevant to Bangladesh: Chittagonian, spoken in Chattogram, has absorbed Portuguese, Burmese, Arabic, and Persian elements through centuries of maritime contact — a pidgin-influenced vocabulary layer over its Bengali base."
     },
     {
       "n": 8,
       "topic": "gk",
-      "subtopic": "religion",
-      "stem": "Of the four major Sunni madhabs (schools of jurisprudence), which is dominant across Bangladesh, Pakistan, and most of the Indian subcontinent?",
-      "options": [
-        "Maliki",
-        "Hanbali",
-        "Shafi'i",
-        "Hanafi"
-      ],
-      "correct": 3,
-      "why": "The Hanafi madhab spread through the Mughal Empire and is dominant across South Asia, Turkey, and Central Asia — often described as the most rationalist school in its use of analogical reasoning.",
-      "deepDive": "The Hanafi madhab — named for Imam Abu Hanifa al-Nu'man (699-767 CE), a scholar from Kufa in modern Iraq — became dominant in the Indian subcontinent through Mughal imperial patronage. Bangladesh, Pakistan, India (Muslim population), Afghanistan, Turkey, and Central Asia all have Hanafi majorities. Hanafi is often described as the most rationalist of the four schools, making extensive use of qiyas (analogical reasoning) and ra'y (personal opinion), which enabled cultural adaptation across vastly different societies. In contrast: Maliki dominates West and North Africa; Shafi'i is dominant in Southeast Asia (Indonesia, Malaysia) and East Africa — explaining why Indonesian and Bengali Islam developed somewhat differently despite both being Sunni; Hanbali is the theological basis for Saudi Wahhabism and global Salafism. Common misconception: 'Bangladesh is Shafi'i' is wrong — that confusion comes from conflating South Asian and Southeast Asian Islam. Bangladesh's Islamic tradition traveled via Mughal Central Asian routes, not the maritime Hadhrami Arab route that carried Shafi'i Islam to Southeast Asia."
+      "subtopic": "sport",
+      "stem": "In Formula 1 racing, the 'parc fermé' rule primarily governs what restriction on teams?",
+      "options": ["Teams cannot change tyres after a safety car is deployed mid-race", "Teams cannot make significant modifications to the car between the end of qualifying and the race start", "Mechanics must leave the pit lane during the formation lap", "Teams must declare tyre choices 48 hours before each race"],
+      "correct": 1,
+      "why": "Parc fermé freezes car setup from qualifying to race — violating it means starting from the pit lane and losing the qualifying position advantage.",
+      "deepDive": "Parc fermé (French: 'enclosed park') is the regulated period from the start of qualifying until race conclusion, during which teams cannot make significant changes to the car. Permitted: tyre changes, fuel load adjustment, minor aerodynamic items listed in the FIA technical regulations. Prohibited: suspension setup changes, front-wing geometry, power unit configuration, and gearbox ratios without penalty. A team violating parc fermé must start from the pit lane, surrendering their qualifying grid position — a steep penalty for any competitive team. The rule prevents better-resourced teams from making overnight setup changes that would skew results. Parc fermé also applies post-race for FIA scrutineering of the top finishers. Adaptations of the concept exist in World Rally Championship and MotoGP, where restricted service windows between stages fulfil a similar competitive-fairness function."
     },
     {
       "n": 9,
       "topic": "gk",
-      "subtopic": "political_theory",
-      "stem": "Rawls's 'veil of ignorance' in A Theory of Justice (1971) is a device for deriving principles of justice. What does reasoning from behind it specifically require?",
-      "options": [
-        "Anonymous voting in all democratic elections",
-        "Designing society's rules without knowing your own place in it — wealth, talent, gender, or birth",
-        "Maximising aggregate utility across all citizens equally",
-        "Eliminating private property to achieve distributive neutrality"
-      ],
+      "subtopic": "pop_culture",
+      "stem": "The 'Streisand Effect' describes which internet and media phenomenon?",
+      "options": ["A celebrity endorsement causing an immediate and measurable surge in product sales", "An attempt to suppress or remove information online that inadvertently draws far more attention to it", "A film sequel that dramatically underperforms the original despite heavy marketing spend", "A social media post that goes viral specifically because it contains an unintentional irony"],
       "correct": 1,
-      "why": "The veil of ignorance strips all personal knowledge to force impartiality — Rawls argues rational agents would choose rules that protect the worst-off (the 'maximin' difference principle).",
-      "deepDive": "John Rawls introduced the 'original position' and the 'veil of ignorance' as a hypothetical device: imagine designing society's rules without knowing whether you would be born rich or poor, talented or not, male or female, of majority or minority. What principles would a rational person choose? Rawls argued they would choose two: (1) equal basic liberties for all; (2) social and economic inequalities are permissible only if they benefit the least-advantaged member of society — the 'difference principle,' or 'maximin' (maximise the minimum position). Critics: Nozick (Anarchy, State and Utopia, 1974) argued the veil produces egalitarian results by assumption, not derivation; Hayek saw it as justifying unlimited state redistribution. The difference principle underpins much welfare-state philosophy in modern liberal democracies. Common misconception: the veil is not about anonymity in voting — it is a moral reasoning device for deriving principles, not a procedural rule. A practical application for a commercial executive: Rawlsian thinking appears in stakeholder capitalism debates — does a decision satisfy the 'difference principle' for the company's least-advantaged stakeholder group?"
+      "why": "Barbara Streisand's 2003 lawsuit to remove a coastal photo of her home caused it to be downloaded 420,000 times in a month.",
+      "deepDive": "The term was coined by journalist Mike Masnick of Techdirt in 2005. It describes how attempts to suppress, hide, or remove information online often backfire: the act of suppression itself generates curiosity and drives far more attention than the original content ever would have received. The incident: in 2003, Barbra Streisand sued photographer Kenneth Adelman to remove an aerial photo of her Malibu estate from a public coastal survey. Before the lawsuit, the image had been downloaded six times (two of which were by her lawyers). After filing, it was downloaded 420,000 times in one month. The effect has since been observed in corporate takedown notices, political censorship attempts, and government orders to remove content. The lesson for communications: in the internet era, suppression is often amplification. The principle is closely related to 'forbidden fruit' psychology and reverse psychology in marketing."
     },
     {
       "n": 10,
       "topic": "gk",
-      "subtopic": "life_science",
-      "stem": "In CRISPR-Cas9 gene editing, the guide RNA (gRNA) serves which specific function?",
-      "options": [
-        "Cutting both strands of DNA at the target site",
-        "Repairing the double-strand break after Cas9 cuts",
-        "Directing the Cas9 protein to a specific DNA sequence via complementary base pairing",
-        "Translating the edited gene into the corrected protein"
-      ],
-      "correct": 2,
-      "why": "The gRNA contains a ~20-nucleotide sequence complementary to the target DNA — it is the targeting component; Cas9 is the cutter. Without gRNA, Cas9 is a nuclease with no address.",
-      "deepDive": "CRISPR-Cas9 was adapted from a bacterial immune system first observed in E. coli in 1987 and mechanistically understood through the 2010s. Jennifer Doudna and Emmanuelle Charpentier won the 2020 Nobel Prize in Chemistry for developing it into a programmable editing tool. The system has two components: (1) guide RNA (gRNA) — contains a ~20-nucleotide sequence matching the target DNA and a scaffold structure binding Cas9; (2) Cas9 protein — a molecular scissors that cuts both DNA strands (double-strand break) at the target. After cutting, the cell uses NHEJ (error-prone, causes knockouts) or HDR (precise, can insert new sequences). Cas9 also requires a short adjacent PAM sequence as a secondary specificity check. Applications include sickle-cell disease cures (FDA-approved 2023), cancer immunotherapy, and agricultural modification. Common misconception: Cas9 does not independently 'find' its target — the gRNA provides the address; Cas9 provides only the cutting machinery. A second misconception: CRISPR edits are always permanent and heritable — somatic edits (in body cells) are not inherited; only germline edits (in embryos) are heritable, which is why the 2018 He Jiankui case was so ethically controversial."
+      "subtopic": "arts",
+      "stem": "What defines the aesthetic of 'Brutalist' architecture, and what is the origin of the term?",
+      "options": ["Extensive glass curtain walls and exposed steel structural frames", "Raw, exposed concrete (béton brut) with monumental, sculptural massing — after Le Corbusier's term", "Classical stone columns and pediments applied to 20th-century building programmes", "Lightweight prefabricated panels enabling transparent, flexible interior layouts"],
+      "correct": 1,
+      "why": "Brutalism derives from Le Corbusier's 'béton brut' — raw concrete left as the finish rather than clad, plastered, or painted.",
+      "deepDive": "Brutalism emerged in the 1950s–70s primarily in the UK, Eastern Europe, and the Global South. The term derives from Le Corbusier's 'béton brut' (raw concrete), adopted into English by British architects Alison and Peter Smithson. Defining features: exposed cast concrete (often board-formed, showing the timber grain of the formwork), massive cantilevers and overhangs, raised podiums separating pedestrian and vehicle movement, and a stated moral honesty about materials — the building shows what it is made of. Famous examples include the Barbican Centre and National Theatre (London), Boston City Hall, Habitat 67 (Montreal), and extensive Soviet-era government complexes across Central Asia. Brutalism is now undergoing critical reassessment: once derided as 'architecture of oppression,' many of its buildings are listed for preservation as modernist heritage, and a younger architectural generation finds its unapologetic materiality a rebuke to glass-box generic modernism."
     }
   ]
 };
-;
 
 
 
